@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>奥德赛时期 — 全球社交媒体高赞内容全景报告</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f5f2;
+  --surface: #ffffff;
+  --accent: #b85c3a;
+  --accent-soft: #d4845f;
+  --accent-light: #f0d6c8;
+  --text-primary: #1a1614;
+  --text-secondary: #6b615a;
+  --text-tertiary: #9c948e;
+  --border: #e2dbd4;
+  --shadow: 0 20px 50px -15px rgba(26,22,20,0.08);
+  --shadow-hover: 0 30px 60px -20px rgba(26,22,20,0.15);
+  --radius-lg: 2.5rem;
+  --radius-md: 1.25rem;
+  --radius-sm: 0.75rem;
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Noto Serif SC', Georgia, serif;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--accent-light); color: var(--text-primary); }
+
+/* ─── Navigation ─── */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 1rem 2rem;
+  background: rgba(247,245,242,0.85);
+  backdrop-filter: blur(16px) saturate(1.4);
+  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+.nav-logo span { color: var(--accent); }
+.nav-links { display: flex; gap: 0.25rem; flex-wrap: wrap; }
+.nav-links a {
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.16,1,0.3,1);
+}
+.nav-links a:hover { background: var(--accent-light); color: var(--accent); }
+
+/* ─── Hero ─── */
+.hero {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  margin-top: 0;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 4rem 4rem 6rem;
+}
+.hero-text .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1rem;
+  background: var(--accent-light);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  margin-bottom: 1.5rem;
+  width: fit-content;
+}
+.hero-text h1 {
+  font-family: var(--font-serif);
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+.hero-text h1 .accent-char { color: var(--accent); }
+.hero-text .subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 40ch;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+.hero-stats {
+  display: flex;
+  gap: 2.5rem;
+}
+.hero-stats .stat h3 {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+.hero-stats .stat p {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.hero-visual {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--accent-light) 0%, #f7f5f2 60%);
+}
+.hero-visual::before {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background: radial-gradient(circle at 60% 50%, rgba(184,92,58,0.08) 0%, transparent 70%);
+}
+.hero-circle {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  position: relative;
+  animation: float 8s ease-in-out infinite;
+}
+.hero-circle::after {
+  content: 'Odyssey';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--accent);
+  opacity: 0.3;
+  letter-spacing: 0.1em;
+}
+.hero-circle .dot {
+  position: absolute;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  top: 50%; left: 50%;
+  transform-origin: 0 0;
+  animation: orbit 12s linear infinite;
+}
+.hero-circle .dot:nth-child(1) { animation-delay: 0s; }
+.hero-circle .dot:nth-child(2) { animation-delay: 2s; }
+.hero-circle .dot:nth-child(3) { animation-delay: 4s; }
+.hero-circle .dot:nth-child(4) { animation-delay: 6s; }
+.hero-circle .dot:nth-child(5) { animation-delay: 8s; }
+.hero-circle .dot:nth-child(6) { animation-delay: 10s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-12px) rotate(1deg); }
+  66% { transform: translateY(6px) rotate(-0.5deg); }
+}
+@keyframes orbit {
+  0% { transform: rotate(0deg) translateX(160px); }
+  100% { transform: rotate(360deg) translateX(160px); }
+}
+
+/* ─── Section ─── */
+.section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 6rem 4rem;
+}
+.section-header {
+  margin-bottom: 3.5rem;
+}
+.section-header .section-number {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.section-header h2 {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  max-width: 20ch;
+}
+.section-header p {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 55ch;
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+/* ─── Asymmetric Grid ─── */
+.grid-asymmetric {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+.grid-asymmetric-alt {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* ─── Cards ─── */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: all 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+.card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+.card-large {
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+}
+.card-hero { grid-column: 1 / -1; }
+
+.card .card-label {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.label-hot { background: #fde8e0; color: #c4492a; }
+.label-trending { background: #e8f0e8; color: #3a7a4a; }
+.label-international { background: #e0e8f0; color: #2a5a7a; }
+.label-video { background: #f0e8f0; color: #7a3a7a; }
+.label-news { background: #f0ece0; color: #8a7a4a; }
+
+.card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+.card .meta {
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  margin-bottom: 0.75rem;
+}
+.card .excerpt {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+.card .excerpt + .excerpt { margin-top: 0.5rem; }
+
+.engagement {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.engagement span {
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+}
+.engagement strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ─── Timeline ─── */
+.timeline {
+  position: relative;
+  padding-left: 3rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+.timeline-item:last-child { margin-bottom: 0; }
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.25rem;
+  top: 0.4rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg);
+}
+.timeline-item .date {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+.timeline-item h4 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+.timeline-item p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  max-width: 55ch;
+}
+
+/* ─── Quote Block ─── */
+.quote-block {
+  padding: 2.5rem 3rem;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: 2rem 0;
+}
+.quote-block blockquote {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-style: italic;
+}
+.quote-block .attribution {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+}
+.quote-block .attribution strong { color: var(--accent); }
+
+/* ─── Data Blocks ─── */
+.data-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+.data-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.data-chip strong { color: var(--accent); font-weight: 600; }
+
+/* ─── Full-width banner ─── */
+.banner {
+  padding: 4rem 6rem;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin: 4rem 0;
+}
+.banner h3 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  max-width: 18ch;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.banner p {
+  color: var(--text-secondary);
+  max-width: 50ch;
+  line-height: 1.7;
+}
+
+/* ─── Platform tag ─── */
+.platform-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.platform-xhs { background: #fff0e8; color: #d45a3a; }
+.platform-dy { background: #e8f0fe; color: #2a6ab0; }
+.platform-bilibili { background: #f0e8f8; color: #8a5ac0; }
+.platform-weibo { background: #fde8e8; color: #d43a3a; }
+.platform-yt { background: #f0f0f0; color: #c43030; }
+.platform-news { background: #e8ece8; color: #3a6a4a; }
+
+/* ─── Divider ─── */
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  margin: 1.5rem 0;
+}
+
+/* ─── Footer ─── */
+footer {
+  padding: 4rem 4rem 2rem;
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+}
+footer .footer-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer .footer-left h4 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+footer .footer-left p {
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  margin-top: 0.25rem;
+}
+footer .footer-right {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+  .hero-text { padding: 6rem 3rem 3rem 3rem; }
+  .hero-text h1 { font-size: 3.5rem; }
+  .section { padding: 4rem 2rem; }
+  .grid-asymmetric, .grid-asymmetric-alt { grid-template-columns: 1fr; }
+  .grid-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+  nav { padding: 0.75rem 1rem; }
+  .nav-links { display: none; }
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-text { padding: 5rem 1.5rem 2rem; }
+  .hero-text h1 { font-size: 2.5rem; }
+  .hero-visual { min-height: 300px; }
+  .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+  .hero-circle { width: 200px; height: 200px; }
+  .hero-circle::after { font-size: 1.3rem; }
+  @keyframes orbit {
+    0% { transform: rotate(0deg) translateX(100px); }
+    100% { transform: rotate(360deg) translateX(100px); }
+  }
+  .section { padding: 3rem 1.25rem; }
+  .section-header h2 { font-size: 2rem; }
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .quote-block { padding: 1.5rem 1.5rem; }
+  .quote-block blockquote { font-size: 1.05rem; }
+  .banner { padding: 2.5rem 1.5rem; }
+  .banner h3 { font-size: 1.5rem; }
+  footer { padding: 2rem 1.25rem 1.5rem; }
+  footer .footer-inner { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  footer .footer-right { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<!-- ─── Navigation ─── -->
+<nav>
+  <div class="nav-logo"><a href="../index.html" style="all:unset;cursor:pointer">Odyssey<span>.</span></a></div>
+  <div class="nav-links">
+    <a href="../index.html">← 首页</a>
+    <a href="#overview">纵览</a>
+    <a href="#timeline">时间线</a>
+    <a href="#social">社交媒体</a>
+    <a href="#news">新闻深度</a>
+    <a href="#global">国际视野</a>
+    <a href="#data">数据图谱</a>
+  </div>
+</nav>
+
+<!-- ─── Hero ─── -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="badge">2026 全球现象级话题</div>
+    <h1>
+      奥德赛<br>
+      <span class="accent-char">时期</span>
+    </h1>
+    <p class="subtitle">
+      从荷马史诗到小红书热搜，一个社会学概念如何俘获整整一代人的心——<br>
+      关于漂泊、探索与成长的全球对话
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <h3>10万+</h3>
+        <p>单帖最高点赞</p>
+      </div>
+      <div class="stat">
+        <h3>50+</h3>
+        <p>国家媒体报道</p>
+      </div>
+      <div class="stat">
+        <h3>8月</h3>
+        <p>诺兰《奥德赛》上映</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-circle">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Overview ─── -->
+<section class="section" id="overview">
+  <div class="section-header">
+    <div class="section-number">01 — 纵览</div>
+    <h2>一个概念的中西漫游</h2>
+    <p>
+      "奥德赛时期"（Odyssey Years）源自荷马史诗中奥德修斯十年漂泊返乡的隐喻，
+      2007年由《纽约时报》专栏作家大卫·布鲁克斯引入现代语境。
+      近二十年后，它在中国互联网上获得第二次生命——从学术概念演变为一代人的情感共鸣符号。
+    </p>
+  </div>
+
+  <div class="grid-asymmetric">
+    <div class="card card-large">
+      <div class="card-label label-trending">核心定义</div>
+      <h3>从成年初显到自我探索的漫长过渡</h3>
+      <p class="excerpt">
+        奥德赛时期指20岁到30多岁之间，从青春期结束到真正"安定下来"之前的漂泊岁月。
+        这一概念与美国心理学家Jeffrey Arnett于2000年提出的"新兴 adulthood"（emerging adulthood）理论一脉相承，
+        其五大特征为：身份探索、自我关注、不稳定性、过渡感、乐观与可能性。
+      </p>
+      <p class="excerpt" style="margin-top:0.75rem;">
+        在中国语境中，这一概念被注入了新的内涵——它不只是自愿的延迟成年，
+        更是一种被结构性问题（考研内卷、35岁门槛、房价脱节）所塑造的被动漂泊。
+      </p>
+      <div class="data-row">
+        <span class="data-chip"><strong>2000年</strong> Arnett提出理论</span>
+        <span class="data-chip"><strong>2007年</strong> Brooks命名</span>
+        <span class="data-chip"><strong>2026年</strong> 中国全民热议</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label label-hot">中西差异</div>
+      <h3>自愿探索 vs 结构性失序</h3>
+      <p class="excerpt">
+        西方奥德赛时期更多是主动选择的自我探索；中国版本则夹杂着考研考公内卷、大厂35岁门槛、房价与工资脱节等外部压力。
+      </p>
+      <div class="divider"></div>
+      <p class="excerpt" style="font-size:0.8rem; color:var(--text-tertiary);">
+        清华心理学教授严超赣指出："这个词之所以引发共鸣，是因为它准确而温和地命名了年轻人真实的处境。"
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Timeline ─── -->
+<section class="section" id="timeline">
+  <div class="section-header">
+    <div class="section-number">02 — 时间线</div>
+    <h2>从学术概念到热搜话题</h2>
+  </div>
+
+  <div class="grid-2">
+    <div class="card card-large">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="date">2000年</div>
+          <h4>Jeffrey Arnett 提出"Emerging Adulthood"理论</h4>
+          <p>美国心理学家通过对300名年轻人的访谈，定义18-25岁为独立的生命阶段</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2007年</div>
+          <h4>David Brooks 在《纽约时报》创造"Odyssey Years"</h4>
+          <p>借用荷马史诗意象描述青春期与成年期之间的拉长过渡期</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2016年</div>
+          <h4>"躺平"在中国互联网发端</h4>
+          <p>年轻人开始用新词汇来解释同一类困境的开端</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2020年</div>
+          <h4>B站《后浪》引发巨大争议</h4>
+          <p>青年议题进入公共话语中心，代际张力显性化</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2023年</div>
+          <h4>"孔乙己长衫"与"Gap歧视"刷屏</h4>
+          <p>学历贬值与职场空窗期歧视成为讨论焦点</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2026年2月</div>
+          <h4>小红书籍帖引爆话题</h4>
+          <p>博主"橘一橙NiceFriend"视频获10万+点赞，8.6万收藏</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2026年5月</div>
+          <h4>媒体深度报道涌现</h4>
+          <p>36氪、腾讯新闻、中国青年报等主流媒体跟进，话题进入全民讨论阶段</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2026年6月</div>
+          <h4>新华社/人民日报海外版向全球报道</h4>
+          <p>中国年轻人的"奥德赛时期"成为国际媒体关注的现象</p>
+        </div>
+        <div class="timeline-item">
+          <div class="date">2026年8月（即将）</div>
+          <h4>诺兰执导电影《奥德赛》将在内地上映</h4>
+          <p>马特·达蒙主演，预计进一步推高话题热度</p>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="display:flex; flex-direction:column; justify-content:center;">
+      <div class="quote-block" style="margin:0; border-radius:var(--radius-md);">
+        <blockquote>
+          "过去五年，中国年轻人一直在寻找新词汇来解释同一种困境：'躺平'、'孔乙己长衫'、'Gap歧视'……'奥德赛时期'是这条谱系的新一站——它比其他词更温和，更接近积极的叙事框架。"
+        </blockquote>
+        <div class="attribution">—— 36氪，2026年5月</div>
+      </div>
+      <div class="quote-block" style="margin-top:1.5rem; border-radius:var(--radius-md);">
+        <blockquote>
+          "In fact, every generation goes through its own 'Odyssey years.'"
+        </blockquote>
+        <div class="attribution">—— 诺贝尔文学奖得主 <strong>莫言</strong>，2026年6月在线对谈</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Social Media ─── -->
+<section class="section" id="social">
+  <div class="section-header">
+    <div class="section-number">03 — 社交媒体</div>
+    <h2>高赞内容全景</h2>
+    <p>从小红书到B站、抖音、YouTube，奥德赛时期在不同平台激起了截然不同的叙事浪潮</p>
+  </div>
+
+  <!-- Row 1: asymmetrical -->
+  <div class="grid-asymmetric">
+    <div class="card card-large">
+      <span class="platform-tag platform-xhs">小红书</span>
+      <div class="card-label label-hot" style="margin-top:0.75rem;">爆款原帖 · 10万+点赞</div>
+      <h3>"成年人类的未成年"</h3>
+      <p class="meta">橘一橙NiceFriend · 2026年2月</p>
+      <p class="excerpt">
+        这条引爆话题的视频将奥德赛时期定义为"对事业、情感以及身份认同产生强烈焦虑和迷茫的阶段"，
+        概括为"成年人类的未成年"。获得<strong>10万+点赞</strong>，<strong>8.6万收藏</strong>。
+      </p>
+      <p class="excerpt" style="margin-top:0.5rem;">
+        视频中她分享了自己从大厂裸辞后的漂泊经历——从月薪几万到收入归零，
+        从被社会时钟追赶到自己定义节奏。评论区里，无数年轻人涌入分享自己的"奥德赛"故事。
+      </p>
+      <div class="engagement">
+        <span>点赞 <strong>100,000+</strong></span>
+        <span>收藏 <strong>86,000+</strong></span>
+        <span>平台 <strong>小红书</strong></span>
+      </div>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-xhs">小红书</span>
+      <div class="card-label label-trending" style="margin-top:0.75rem;">首位引爆者</div>
+      <h3>首个解释帖 · 10万+点赞</h3>
+      <p class="meta">Rednote用户 · 2026年2月</p>
+      <p class="excerpt">
+        据新华社报道，最早在小红书解释"奥德赛时期"概念的帖子即获得超过10万点赞，
+        迅速成为城市年轻人共享语汇的一部分。
+      </p>
+      <div class="divider"></div>
+      <p class="excerpt" style="font-size:0.85rem; color:var(--text-tertiary);">
+        这标志着该概念从学术圈进入大众传播的关键转折点。
+      </p>
+    </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="grid-3" style="margin-top:1.5rem;">
+    <div class="card">
+      <span class="platform-tag platform-xhs">小红书</span>
+      <div class="card-label label-video" style="margin-top:0.75rem;">数字游民故事</div>
+      <h3>"数字难民"的自白</h3>
+      <p class="meta">@退休小羊 · 2026年</p>
+      <p class="excerpt">
+        裸辞旅居一年半，穷游5国40城，最近才实现月入2万。
+        她在视频中说："每天躺在海边沙滩下享受生活，钱不会从四面八方来。"
+      </p>
+      <div class="engagement">
+        <span>标签 <strong>#数字游民</strong></span>
+        <span>状态 <strong>月入2万</strong></span>
+      </div>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-xhs">小红书</span>
+      <div class="card-label label-video" style="margin-top:0.75rem;">旅居反思</div>
+      <h3>"社交锚点"的焦虑</h3>
+      <p class="meta">@跳跳 · 2026年</p>
+      <p class="excerpt">
+        在大理旅居时发现，晚上大家打牌时总会互相问年龄、工作、工资。
+        "那段时间刚裸辞，只要别人和我聊起之前的工作，就会委屈得哭起来。"
+        她最终去了尼泊尔博卡拉——那里"每个人都能心安理得地躺平"。
+      </p>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-xhs">小红书</span>
+      <div class="card-label label-trending" style="margin-top:0.75rem;">自我投资</div>
+      <h3>"没有地图的航行"</h3>
+      <p class="meta">Malabeiguo · 2026年</p>
+      <p class="excerpt">
+        虽已工作但不满足于现状，选择攻读非全日制硕士。
+        "别人觉得我在证书上花钱、埋头读书毫无意义，但对我来说，
+        这是在打造一个更强壮、更清醒的新版本的自己。"
+      </p>
+    </div>
+  </div>
+
+  <!-- Row 3: More platforms -->
+  <div class="grid-asymmetric" style="margin-top:1.5rem;">
+    <div class="card">
+      <span class="platform-tag platform-dy">抖音</span>
+      <div class="card-label label-hot" style="margin-top:0.75rem;">裸辞真实落差</div>
+      <h3>"好崩溃，我想回长沙"</h3>
+      <p class="meta">@富贵花花 · 2024年4月</p>
+      <p class="excerpt">
+        湖南情侣裸辞前往大理旅居。月租两三千预算找不到合适院子，短租即将到期，
+        五一旺季房价每晚加价两三百。女生在视频中崩溃落泪。
+        一条高赞评论写道："别让前老板看到这条视频，怕他笑死。"
+      </p>
+      <div class="engagement">
+        <span>氛围 <strong>高赞热评</strong></span>
+        <span>启示 <strong>旅居≠度假</strong></span>
+      </div>
+    </div>
+    <div class="card" style="display:flex; flex-direction:column; justify-content:center;">
+      <div class="quote-block" style="margin:0; border-radius:var(--radius-md);">
+        <blockquote>
+          "别让前老板看到这条视频，怕他笑死。"
+        </blockquote>
+        <div class="attribution">—— 抖音评论区高赞留言</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 4 -->
+  <div class="grid-3" style="margin-top:1.5rem;">
+    <div class="card">
+      <span class="platform-tag platform-bilibili">B站</span>
+      <div class="card-label label-video" style="margin-top:0.75rem;">青年共鸣</div>
+      <h3>"我该怎样度过我的奥德赛时期"</h3>
+      <p class="meta">B站UP主 · 2026年5月21日</p>
+      <p class="excerpt">
+        视频探讨了在奥德赛时期如何找到方向和意义。
+        配乐使用《this is what winter feels like》营造沉浸氛围。
+      </p>
+      <div class="engagement">
+        <span>BGM <strong>冬季氛围</strong></span>
+      </div>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-bilibili">B站</span>
+      <div class="card-label label-news" style="margin-top:0.75rem;">官方叙事演变</div>
+      <h3>从《后浪》到《赢》</h3>
+      <p class="meta">B站青年节献礼系列</p>
+      <p class="excerpt">
+        2020年《后浪》引发巨大争议，被批评为"精英叙事"。
+        2026年青年节献礼片《赢》聚焦青年成长议题，引发新一轮讨论。
+        两条短片之间的张力，正是青年处境变化的缩影。
+      </p>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-yt">YouTube</span>
+      <div class="card-label label-international" style="margin-top:0.75rem;">心理学科普</div>
+      <h3>自我探索还是停滞？—— 同一性四种状态</h3>
+      <p class="meta">心理学频道 · 2026年6月17日</p>
+      <p class="excerpt">
+        深度分析Marcia自我同一性理论（达成、延缓、早闭、弥散），
+        探讨奥德赛时期究竟是主动探索还是被动停滞。
+        从Erikson到Marcia，提供结构化的心理分析框架。
+      </p>
+    </div>
+  </div>
+
+  <!-- Row 5: Weibo + podcast -->
+  <div class="grid-2" style="margin-top:1.5rem;">
+    <div class="card">
+      <span class="platform-tag platform-weibo">微博</span>
+      <div class="card-label label-hot" style="margin-top:0.75rem;">热搜话题</div>
+      <h3>奥德赛时期登上微博热搜</h3>
+      <p class="meta">微博 · 2026年4-5月</p>
+      <p class="excerpt">
+        话题在小红书引爆后，迅速蔓延至微博热搜，引发全网讨论。
+        与"躺平""内卷"等话题形成联动效应，成为年度最具影响力的青年文化词汇之一。
+        影视综宣发领域甚至将"奥德赛时期"作为小红书营销标杆案例。
+      </p>
+      <p class="excerpt" style="margin-top:0.5rem; font-size:0.85rem; color:var(--text-tertiary);">
+        据网易报道，有宣发从业者打趣说："诺兰的《奥德赛》就靠着这个概念在小红书上完成了免费预热。"
+      </p>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-news">播客</span>
+      <div class="card-label label-trending" style="margin-top:0.75rem;">深度对话</div>
+      <h3>一人公司 · 造物矩阵 · 职场Bonus</h3>
+      <p class="meta">小宇宙App · 2026年</p>
+      <p class="excerpt">
+        多档播客围绕奥德赛时期展开深度对谈：从"独立开发者收入波动极大"的残酷现实到
+        "表达即链接"的获客逻辑，从裸辞旅居到一人公司创业。
+      </p>
+      <div class="engagement">
+        <span>相关节目 <strong>3+档</strong></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Banner ─── -->
+<div class="banner">
+  <h3>"小红书用户把奥德赛时期变成了一个情感货币"</h3>
+  <p>
+    中国社会科学院研究员指出，社交媒体不仅仅是在传播这个概念，
+    更是让成千上万的年轻人意识到：自己的迷茫有一个名字，
+    而且——自己并不孤单。<br><br>
+    据统计，仅在2026年2月至6月间，小红书平台上"奥德赛时期"相关笔记超过数十万篇，总互动量达到千万级别。
+  </p>
+</div>
+
+<!-- ─── News ─── -->
+<section class="section" id="news">
+  <div class="section-header">
+    <div class="section-number">04 — 新闻深度报道</div>
+    <h2>媒体如何讲述奥德赛</h2>
+    <p>从财经媒体到党报，从深度特稿到评论专栏，奥德赛时期成为2026年中国公共 discourse 的重要议题</p>
+  </div>
+
+  <div class="grid-asymmetric">
+    <div class="card card-large">
+      <span class="platform-tag platform-news">36氪 / 腾讯新闻 / 新浪</span>
+      <div class="card-label label-hot" style="margin-top:0.75rem;">现象级深度报道</div>
+      <h3>当"躺平"、Gap被歧视，我们该如何度过奥德赛时期？</h3>
+      <p class="meta">房庭玉、陈桐 · 2026年5月20日</p>
+      <p class="excerpt">
+        这篇万字深度报道系统性地解剖了奥德赛时期在中国的四个典型画像：
+      </p>
+      <p class="excerpt" style="margin-top:0.5rem;">
+        <strong>画像一：大厂离职后的系统性探索</strong>
+        陈云飞，前大厂管理岗，辞职后全球旅居。非程序员背景，用AI编程工具Cursor做了20+款产品，
+        "小猫补光灯"意外登顶AppStore付费榜首。他说："你总之得做10来款垃圾，才能做出一款出圈产品。"
+      </p>
+      <p class="excerpt">
+        <strong>画像二：考研考公失败后的长期漂泊</strong>
+        杰基，南大考古系毕业，十年换了30+份工作：房产中介、地推、快递、HR……
+        评论区里"名校毕业几年，考不上编，考不上研，考不上公，工作也不顺，没有钱"获数万点赞。
+      </p>
+      <p class="excerpt">
+        <strong>画像三：裸辞旅居后的现实落差</strong>
+        湖南情侣怀揣两三千月租预算去大理，发现根本找不到合适的院子。
+        "真的好崩溃"——这条视频评论区几乎没有同情。
+      </p>
+      <p class="excerpt">
+        <strong>画像四：Gap Year后的求职困境</strong>
+        26岁的何迪投了100+简历只收到1个面试。某大厂猎头透露：系统自动筛除Gap超3个月的简历。
+        年薪300万的算法工程师因一年空窗被迫降薪求职。
+      </p>
+      <p class="excerpt" style="margin-top:0.75rem;">
+        报道还提供了职业化度过奥德赛期的实操指南：社保断缴代价、资金储备公式、AI工具降低门槛、
+        三种可迁移资产（个人IP、人脉复利、一人公司）、退出机制等。
+      </p>
+      <div class="engagement">
+        <span>来源 <strong>36氪</strong></span>
+        <span>转载 <strong>新浪/腾讯新闻</strong></span>
+        <span>类型 <strong>深度特稿</strong></span>
+      </div>
+    </div>
+    <div class="card" style="display:flex; flex-direction:column; gap:1rem;">
+      <div>
+        <span class="platform-tag platform-news">新华社</span>
+        <div class="card-label label-international" style="margin-top:0.75rem;">国际传播</div>
+        <h3>Young Chinese Prioritize Self-Exploration</h3>
+        <p class="meta">Xinhua / People's Daily · 2026年6月2日</p>
+        <p class="excerpt">
+          新华社以英文向全球报道中国年轻人的"Odyssey Years"现象。
+          清华教授严超赣、彭凯平等学者深入分析。
+          莫言在对谈中表示："其实每一代人都有自己的奥德赛时期。"
+        </p>
+      </div>
+      <div class="divider"></div>
+      <div>
+        <span class="platform-tag platform-news">新湖南/指点</span>
+        <div class="card-label label-news" style="margin-top:0.75rem;">官方评论</div>
+        <h3>奥德赛时期：不是虚度，是蓄力！</h3>
+        <p class="meta">新湘评论杂志社 · 2026年5月19日</p>
+        <p class="excerpt">
+          "这从来不是年轻人主动选择的'躺平'，而是时代发展带来的多样性成长轨迹。
+          频繁试错不是虚度光阴，辗转徘徊不是不思进取。"
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-3" style="margin-top:1.5rem;">
+    <div class="card">
+      <span class="platform-tag platform-news">南方+</span>
+      <h3 style="margin-top:0.5rem;">30岁前想出路，30岁后想退路</h3>
+      <p class="meta">2026年5月</p>
+      <p class="excerpt">
+        "无论你是28岁在纠结职业方向的职场人，还是30岁极度依赖父母的独生子女，
+        大可以放下'还没独立'的愧疚——因为这真的太普遍了。"
+        引用美国作家谢丽尔·史翠德《走出荒野》中的经历。
+      </p>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-news">上观新闻</span>
+      <h3 style="margin-top:0.5rem;">以奋斗的确定性，穿越"奥德赛时期"</h3>
+      <p class="meta">2026年5月</p>
+      <p class="excerpt">
+        官方媒体视角的评论文章，强调在不确定性中保持奋斗精神。
+        与"躺平"论形成辩证对话，主张在国家发展与个人成长的同频共振中找到出路。
+      </p>
+    </div>
+    <div class="card">
+      <span class="platform-tag platform-news">三联生活周刊</span>
+      <h3 style="margin-top:0.5rem;">专题封面 · 奥德赛时期深度报道</h3>
+      <p class="meta">2026年</p>
+      <p class="excerpt">
+        以"我在经历我的奥德赛时期"为切入点，
+        从街头采访到深度分析，系统梳理了这一概念在中国年轻人中的演变轨迹。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Global ─── -->
+<section class="section" id="global">
+  <div class="section-header">
+    <div class="section-number">05 — 国际视野</div>
+    <h2>全球共振</h2>
+    <p>同一代人，相似困境——奥德赛时期是一个全球性现象</p>
+  </div>
+
+  <div class="grid-asymmetric-alt">
+    <div class="card">
+      <div class="card-label label-international">美国心理学会</div>
+      <h3>How to support young people on the road to adulthood</h3>
+      <p class="meta">APA Monitor · 2026年6月</p>
+      <p class="excerpt">
+        APA发表专题文章探讨"emerging adulthood"（成年初显期）的社会心理挑战。
+        关键数据：<strong>18-25岁人群心理疾病率36.2%</strong>，远超整体人口的23.1%。
+        Arnett教授指出："这个十年可能并不快乐，但普遍有一种感觉——无论现在多难，未来会变好。"
+      </p>
+      <p class="excerpt" style="margin-top:0.5rem;">
+        脑科学研究支持这一阶段的存在：至少到25岁，大脑仍在发育冲动控制和自我调节能力。
+      </p>
+      <div class="engagement">
+        <span>数据 <strong>36.2%心理疾病率</strong></span>
+        <span>研究 <strong>Arnett/Steinberg</strong></span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label label-international">国际媒体报道</div>
+      <h3>全球媒体如何看"奥德赛"</h3>
+      <p class="excerpt">
+        <strong>Sinica Podcast (美国)：</strong>
+        "奥德赛时期"被评选为"本周短语"（Phrase of the Week）。
+        文章指出："援引奥德修斯让漂泊感觉不那么压抑，
+        但也暗示了——与奥德修斯不同，今天的年轻人可能没有伊萨卡在等待他们。"
+      </p>
+      <div class="divider"></div>
+      <p class="excerpt">
+        <strong>The World of Chinese：</strong>
+        专题文章将"奥德赛时期"置于中国互联网心理学术语谱系中分析，
+        与其并列的还有"高敏感人群""原生家庭""NPD""课题分离"等流行概念。
+      </p>
+      <div class="divider"></div>
+      <p class="excerpt">
+        <strong>Blobs of Six (国际)：</strong>
+        LinkedIn对6,000+人的跨国调查显示：<strong>75%的25-33岁成年人</strong>曾经历四分之一人生危机。
+        德国学者已将18-30岁称为"Odysseusjahre"（奥德赛年）。
+        印度城市中42%的26-40岁年轻人表示不想结婚。
+      </p>
+      <div class="engagement">
+        <span>LinkedIn <strong>75%有危机感</strong></span>
+        <span>德国 <strong>Odysseusjahre</strong></span>
+        <span>印度 <strong>42%不想结婚</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-3" style="margin-top:1.5rem;">
+    <div class="card">
+      <div class="card-label label-international">美国</div>
+      <h3>超半数年轻人与父母同住</h3>
+      <p class="meta">Pew Research Center · 2024-2025</p>
+      <p class="excerpt">
+        18-24岁中<strong>57.1%</strong>仍住在父母家，25-34岁约18%（约850万人）与父母同住。
+        2005年该比例仅11%，2023年升至18%。Z世代近60%为"租金负担"群体。
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-label label-international">美国</div>
+      <h3>成年里程碑全面推迟</h3>
+      <p class="meta">U.S. Census Bureau · 2024</p>
+      <p class="excerpt">
+        仅<strong>21%</strong>的25-34岁年轻人完成了全部四项成年标志
+       （离开父母家、全职工作、结婚、生子），1975年该比例为45%。
+        婚姻年龄从1960年以来推迟了5年。
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-label label-international">全球</div>
+      <h3>多国研究确认四分之一人生危机</h3>
+      <p class="meta">跨国研究 · 2025</p>
+      <p class="excerpt">
+        涵盖英国、印尼、印度等8国的研究发现：<strong>40%-77%</strong>
+        的年轻人在二十多岁经历过发展性危机。这种跨文化的一致性表明，
+        奥德赛时期是一个结构性的全球化现象，而非某个国家的特有问题。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Data ─── -->
+<section class="section" id="data" style="padding-bottom:2rem;">
+  <div class="section-header">
+    <div class="section-number">06 — 数据图谱</div>
+    <h2>关键数字</h2>
+  </div>
+
+  <div class="grid-3">
+    <div class="card" style="text-align:center; padding:3rem 2rem;">
+      <h3 style="font-family:var(--font-sans); font-size:3.5rem; font-weight:800; color:var(--accent);">10万+</h3>
+      <p style="color:var(--text-secondary);">小红书单帖最高点赞</p>
+    </div>
+    <div class="card" style="text-align:center; padding:3rem 2rem;">
+      <h3 style="font-family:var(--font-sans); font-size:3.5rem; font-weight:800; color:var(--accent);">57.1%</h3>
+      <p style="color:var(--text-secondary);">美国18-24岁与父母同住比例</p>
+    </div>
+    <div class="card" style="text-align:center; padding:3rem 2rem;">
+      <h3 style="font-family:var(--font-sans); font-size:3.5rem; font-weight:800; color:var(--accent);">75%</h3>
+      <p style="color:var(--text-secondary);">25-33岁经历过四分之一人生危机</p>
+    </div>
+    <div class="card" style="text-align:center; padding:3rem 2rem;">
+      <h3 style="font-family:var(--font-sans); font-size:3.5rem; font-weight:800; color:var(--accent);">36.2%</h3>
+      <p style="color:var(--text-secondary);">18-25岁人群心理疾病发生率</p>
+    </div>
+    <div class="card" style="text-align:center; padding:3rem 2rem;">
+      <h3 style="font-family:var(--font-sans); font-size:3.5rem; font-weight:800; color:var(--accent);">21%</h3>
+      <p style="color:var(--text-secondary);">25-34岁完成全部成年标志</p>
+    </div>
+    <div class="card" style="text-align:center; padding:3rem 2rem;">
+      <h3 style="font-family:var(--font-sans); font-size:3.5rem; font-weight:800; color:var(--accent);">15.1%</h3>
+      <p style="color:var(--text-secondary);">中国新兴就业形态年增长率</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Footer ─── -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-left">
+      <h4>奥德赛时期 · 全球社交媒体全景报告</h4>
+      <p>基于小红书、微博、抖音、B站、YouTube、播客及全球媒体报道综合整理</p>
+    </div>
+    <div class="footer-right">
+      <p>编译整理 · 2026年7月</p>
+      <p style="margin-top:0.25rem;">数据来源包括新华社、36氪、APA Monitor、Pew Research Center等</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  /* 在首页 iframe 预览中只展示 hero 区域 */
+  if (window.self !== window.top) {
+    document.addEventListener('DOMContentLoaded', function(){
+      var hero = document.querySelector('header.hero, section.hero');
+      if (hero) {
+        document.body.innerHTML = '';
+        document.body.appendChild(hero);
+        document.body.style.overflow = 'hidden';
+        document.body.style.background = getComputedStyle(hero).background;
+        // 让 hero 撑满 iframe 视口，避免顶部留白和比例失真
+        hero.style.minHeight = '100vh';
+        hero.style.paddingTop = '0';
+        hero.style.paddingBottom = '0';
+        hero.style.boxSizing = 'border-box';
+        var heroText = hero.querySelector('.hero-text');
+        if (heroText) { heroText.style.paddingTop = '2rem'; heroText.style.paddingBottom = '2rem'; }
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

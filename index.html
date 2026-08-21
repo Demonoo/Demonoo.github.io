@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DMEDIA — 媒介即信息，信息创造价值</title>
+<meta name="description" content="DMEDIA — AI 驱动的量化营销工作室：社交媒体情绪洞察、趋势预测、营销归因与内容策略。" />
+<link rel="icon" type="image/png" href="assets/图标.png" />
+<meta property="og:title" content="DMEDIA" />
+<meta property="og:description" content="媒介即信息，信息创造价值。" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/图标.png" />
+
+<link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin />
+<link rel="preload" as="font" type="font/otf" href="fonts/Quattrocento-Regular.otf" crossorigin />
+
+<style>
+  /* =========================================================
+     DMEDIA · 单页首页
+     目录结构：
+       index.html          首页
+       reports/            报告页（独立自包含）
+       assets/             图片素材
+       fonts/              自定义字体
+     字体：
+       Marcellus      → Display（品牌字 / 编号 / 标题）
+       Quattrocento   → Body（拉丁正文，中文回退系统字体）
+     配色：纯黑 × 纯白
+     ========================================================= */
+
+  @font-face {
+    font-family: 'Marcellus';
+    src: url('fonts/Marcellus-Regular.ttf') format('truetype');
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'Quattrocento';
+    src: url('fonts/Quattrocento-Regular.otf') format('opentype');
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+
+  :root {
+    --bg: #ffffff;
+    --ink: #000000;
+    --ink-dim: #5a5a5a;
+    --ink-mute: #a0a0a0;
+    --line: #ececec;
+
+    --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
+    --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+    --reading-w: 720px;
+    --wide-w: 960px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.005em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+  ::selection { background: #000; color: #fff; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: #d4d4d4; }
+  ::-webkit-scrollbar-thumb:hover { background: #999; }
+
+  a { color: inherit; text-decoration: none; }
+  .mono { font-family: var(--font-mono); }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 32px; }
+  .wrap-wide { max-width: var(--wide-w); margin: 0 auto; padding: 0 32px; }
+  .hero .wrap { max-width: 100%; padding: 0; }
+  .hero .intro { padding: 0 32px; }
+
+  /* =========================================================
+     LOGO IMAGE — 三档尺寸
+     ========================================================= */
+  .logo-img {
+    display: block;
+    width: auto;
+    object-fit: contain;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .logo-img-sm { height: 28px; }
+  @media (max-width: 768px) {
+    .logo-img-md { height: 64px; }
+  }
+
+  /* =========================================================
+     HEADER
+     ========================================================= */
+  .site-header {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--line);
+    position: sticky; top: 0;
+    background: rgba(255,255,255,0.86);
+    backdrop-filter: blur(12px) saturate(120%);
+    -webkit-backdrop-filter: blur(12px) saturate(120%);
+    z-index: 50;
+  }
+  .site-header .wrap-wide {
+    max-width: none;
+    padding: 0 32px;
+    display: flex; align-items: center;
+  }
+  .site-header a { display: inline-flex; align-items: center; }
+  .header-brand {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .header-text {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: var(--ink);
+  }
+  .header-slogan {
+    flex: 0 0 auto;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    margin: 0;
+    line-height: 1.4;
+  }
+  .header-slogan .em {
+    font-style: normal;
+    font-weight: 700;
+    border-bottom: none;
+    padding: 0;
+  }
+  .qr-trigger {
+    flex: 1;
+    position: relative;
+    cursor: pointer;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .qr-icon-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 6px;
+    display: block;
+  }
+  .qr-popover {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    width: 160px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid var(--line);
+    box-shadow: 0 14px 40px -16px rgba(0,0,0,0.18);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+    z-index: 60;
+    pointer-events: none;
+  }
+  .qr-trigger:hover .qr-popover,
+  .qr-trigger:focus-within .qr-popover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  .qr-popover img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* =========================================================
+     HERO
+     ========================================================= */
+  .hero {
+    position: relative;
+    padding: 50px 0 40px;
+    overflow: hidden;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(20px, 2.6vw, 36px);
+    line-height: 1.05;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .hero-title .t-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--ink);
+    margin: 0 0.55em;
+    vertical-align: middle;
+  }
+
+  .intro {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: clamp(18px, 1.6vw, 20px);
+    line-height: 1.95;
+    color: var(--ink-dim);
+    max-width: none;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+  }
+  .intro .hl {
+    color: inherit;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .hero-cta {
+    text-align: center;
+    margin-top: 32px;
+  }
+  .hero-cta a {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink);
+    padding: 10px 28px;
+    border: 1px solid var(--ink);
+    transition: background 0.3s, color 0.3s;
+  }
+  .hero-cta a:hover { background: var(--ink); color: #fff; }
+
+  /* —— 报告卡片（归属于 LLM SEARCH 板块） —— */
+  .pillar-reports {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    margin: 40px auto 0;
+    max-width: 860px;
+    border: 1px solid var(--line);
+  }
+  .pillar-reports .hero-report-card { background: #fff; }
+  @media (max-width: 900px) {
+    .pillar-reports { grid-template-columns: 1fr; }
+  }
+  .hero-report-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    overflow: hidden;
+    transition: background 0.35s;
+  }
+  .hero-report-card:hover { background: #fafafa; }
+  .hero-report-preview {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding: 0;
+    overflow: hidden;
+    background: #f7f5f2;
+  }
+  .hero-report-preview img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .hero-report-meta {
+    padding: 18px 20px 22px;
+    border-top: 1px solid var(--line);
+  }
+  .hero-report-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 6px;
+  }
+  .hero-report-title {
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .hero-report-desc {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: var(--ink-dim);
+  }
+  .hero-report-meta .arrow {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--ink);
+    transition: transform 0.3s;
+  }
+  .hero-report-card:hover .arrow { transform: translateX(6px); }
+
+  /* =========================================================
+     SECTION TICKER（内容由 JS 按 data 属性生成）
+     ========================================================= */
+  .section-ticker {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 26px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .ticker-track {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    animation: tickerScroll 22s linear infinite;
+  }
+  .ticker-item {
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: var(--ink);
+    text-transform: uppercase;
+    padding: 0 8px;
+  }
+  .ticker-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--ink);
+    margin: 0 18px;
+    flex-shrink: 0;
+  }
+  @keyframes tickerScroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-100%); }
+  }
+
+  /* =========================================================
+     PILLARS
+     ========================================================= */
+  .pillars { padding: 0; border-bottom: 1px solid var(--line); }
+  .pillars .wrap-wide { max-width: none; padding: 0 32px; }
+  /* 第一个滚动条与 hero 的间距 = 板块底部与滚动条的间距（各 80px），保证 4 条滚动条节奏一致 */
+  .pillars .section-ticker:first-child { margin-top: 40px; }
+  .pillar {
+    display: block;
+    padding: 24px 0 80px;   /* 上方 24px = 滚动条与标题之间至少一行间隔 */
+    border-bottom: 1px solid var(--line);
+  }
+  .pillar:last-child { border-bottom: 0; }
+  .pillar-main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding-top: 0;
+    text-align: center;
+  }
+  .pillar-title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(32px, 3.6vw, 52px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .pillar-subtitle {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: clamp(18px, 1.6vw, 22px);
+    line-height: 1.55;
+    color: var(--ink-dim);
+    max-width: 640px;
+    margin: 0 auto 32px;
+  }
+  .pillar-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .pillar-list li {
+    background: var(--bg);
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--ink-dim);
+  }
+  .pillar-list li b {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+
+  /* =========================================================
+     FOOTER
+     ========================================================= */
+  .site-footer { padding: 88px 0 48px; }
+  .footer-top {
+    padding-bottom: 56px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 32px;
+  }
+  .footer-brand {
+    margin-bottom: 48px;
+  }
+  .footer-slogan {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: clamp(22px, 2.4vw, 30px);
+    line-height: 1.4;
+    color: var(--ink);
+    max-width: 680px;
+  }
+  .footer-slogan .em { font-style: italic; }
+  .footer-bottom {
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px; letter-spacing: 0.16em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .footer-bottom .blink {
+    display: inline-block; width: 6px; height: 6px;
+    background: #000; border-radius: 50%;
+    margin-right: 6px; vertical-align: middle;
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  .footer-about {
+    color: var(--ink);
+    transition: opacity 0.3s;
+  }
+  .footer-about:hover { opacity: 0.55; }
+  footer.site-footer > div.wrap > div.footer-bottom > span {
+    font-family: var(--font-mono);
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.4); opacity: 0.5; }
+  }
+
+  /* =========================================================
+     REVEAL
+     ========================================================= */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+
+  /* =========================================================
+     无障碍：减少动态效果
+     ========================================================= */
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track, .footer-bottom .blink { animation: none; }
+    .reveal { opacity: 1; transform: none; transition: none; }
+    html { scroll-behavior: auto; }
+  }
+
+  /* =========================================================
+     RESPONSIVE
+     ========================================================= */
+  @media (max-width: 768px) {
+    .wrap, .wrap-wide { padding: 0 20px; }
+    .hero { padding: 40px 0 0; }
+    .hero .intro { padding: 0 20px; }
+    .pillar { padding: 20px 0 64px; }
+    .header-slogan { display: none; }
+    .footer-bottom { flex-direction: column; gap: 12px; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="wrap-wide">
+    <a href="#top" aria-label="DMEDIA" class="header-brand">
+      <img src="assets/图标.png" alt="DMEDIA" class="logo-img logo-img-sm">
+      <span class="header-text">DMEDIA</span>
+    </a>
+    <p class="header-slogan">
+      <span class="em">媒介</span>即信息，<span class="em">信息</span>创造价值。
+    </p>
+    <div class="qr-trigger" aria-label="查看视频号二维码">
+      <img src="assets/视频号.png" alt="视频号" class="qr-icon-img">
+      <div class="qr-popover">
+        <img src="assets/二维码.jpg" alt="视频号二维码">
+      </div>
+    </div>
+  </div>
+</header>
+
+<a id="top"></a>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="wrap">
+
+    <h1 class="hero-title reveal">
+      <span>AI</span><span class="t-dot"></span><span>QUANT</span><span class="t-dot"></span><span>SOCIAL</span><span class="t-dot"></span><span>MARKETING</span>
+    </h1>
+    <p class="intro reveal">
+      基于主流<span class="hl">AGENT 框架</span>，结合<span class="hl">浏览器自动化</span>、<span class="hl">大语言模型</span>、<span class="hl">机器学习</span>等技术，<br />
+      为品牌和创作者提供<span class="hl">社交媒体情绪洞察</span>、<span class="hl">趋势预测</span>、<span class="hl">营销归因</span>与<span class="hl">内容策略</span>服务。
+    </p>
+
+    <div class="hero-cta reveal">
+      <a href="about.html">关于创始人 @Demon →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== FOUR PILLARS ========== -->
+<section class="pillars" id="pillars">
+  <div class="wrap-wide">
+
+    <div class="section-ticker" aria-hidden="true" data-ticker="LLM SEARCH|基于大语言模型的搜索"></div>
+    <article class="pillar reveal">
+      <div class="pillar-main">
+        <h2 class="pillar-title">LLM SEARCH</h2>
+        <p class="pillar-subtitle">基于大语言模型的搜索 —— 把全网公开信息变成可计算的结构化洞察。</p>
+        <ul class="pillar-list">
+          <li><b>Web Search</b>聚合多源搜索通道，覆盖中文与海外英文媒体。</li>
+          <li><b>Sentiment</b>对社媒内容做情绪标注与话题聚类。</li>
+          <li><b>Digest</b>按主题自动生成每日监测简报。</li>
+        </ul>
+        <div class="pillar-reports reveal">
+          <a class="hero-report-card" href="reports/全球社交媒体上的奥德赛时期.html">
+            <div class="hero-report-preview">
+              <img src="assets/odyssey-preview.jpg" alt="全球社交媒体上的奥德赛时期报告首屏" loading="lazy" />
+            </div>
+            <div class="hero-report-meta">
+              <div class="hero-report-tag">Report · 社媒洞察</div>
+              <div class="hero-report-title">全球社交媒体上的奥德赛时期</div>
+              <div class="hero-report-desc">全球社交媒体高赞内容全景报告：纵览、时间线、平台数据图谱与国际视野。</div>
+              <span class="arrow">READ →</span>
+            </div>
+          </a>
+          <a class="hero-report-card" href="reports/中国电动汽车营销趋势报告.html">
+            <div class="hero-report-preview">
+              <img src="assets/ev-preview.jpg" alt="中国电动汽车营销趋势报告首屏" loading="lazy" />
+            </div>
+            <div class="hero-report-meta">
+              <div class="hero-report-tag">Report · 行业趋势</div>
+              <div class="hero-report-title">2026 年中国电动汽车营销趋势报告</div>
+              <div class="hero-report-desc">市场格局、用户洞察、趋势研判、标杆案例与营销实操指南。</div>
+              <span class="arrow">READ →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <div class="section-ticker" aria-hidden="true" data-ticker="CONTENT CREATOR|内容创作支持"></div>
+    <article class="pillar reveal">
+      <div class="pillar-main">
+        <h2 class="pillar-title">CONTENT CREATOR</h2>
+        <p class="pillar-subtitle">内容创作支持 —— 从选题到成稿，用数据决定写什么、怎么写。</p>
+        <ul class="pillar-list">
+          <li><b>Topic Radar</b>从热点信号中挖掘高潜力选题。</li>
+          <li><b>Style Engine</b>对齐品牌语调的内容生成与改写。</li>
+          <li><b>Report Design</b>将数据自动排版为可发布的报告页面。</li>
+        </ul>
+      </div>
+    </article>
+
+    <div class="section-ticker" aria-hidden="true" data-ticker="MACHINE LEARNING|机器学习技术应用"></div>
+    <article class="pillar reveal">
+      <div class="pillar-main">
+        <h2 class="pillar-title">MACHINE LEARNING</h2>
+        <p class="pillar-subtitle">机器学习技术应用 —— 让营销决策从经验驱动走向模型驱动。</p>
+        <ul class="pillar-list">
+          <li><b>Attribution</b>多触点营销归因建模。</li>
+          <li><b>Forecast</b>趋势与声量预测。</li>
+          <li><b>Dashboard</b>指标可视化与异常预警。</li>
+        </ul>
+      </div>
+    </article>
+
+    <div class="section-ticker" aria-hidden="true" data-ticker="KOL VALUE|关键意见领袖价值评估"></div>
+    <article class="pillar reveal">
+      <div class="pillar-main">
+        <h2 class="pillar-title">KOL VALUE</h2>
+        <p class="pillar-subtitle">关键意见领袖价值评估 —— 用量化指标识别真正有影响力的创作者。</p>
+        <ul class="pillar-list">
+          <li><b>Scoring</b>粉丝质量、互动率、商业转化多维评分。</li>
+          <li><b>Benchmark</b>同赛道创作者横向对比。</li>
+          <li><b>Matching</b>品牌 × KOL 智能匹配推荐。</li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top reveal">
+      <p class="footer-slogan">
+        <span class="em">媒介</span>即信息，<span class="em">信息</span>创造价值。
+      </p>
+    </div>
+    <div class="footer-bottom">
+      <span><span class="blink"></span>SHANGHAI · 2026</span>
+      <a href="about.html" class="footer-about">ABOUT FOUNDER</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ===== Ticker：由 data-ticker 属性生成内容（替代手写重复标记） =====
+  document.querySelectorAll('[data-ticker]').forEach((el) => {
+    const [en, zh] = el.dataset.ticker.split('|');
+    const buildTrack = () => {
+      const track = document.createElement('div');
+      track.className = 'ticker-track';
+      for (let i = 0; i < 6; i++) {
+        const a = document.createElement('span');
+        a.className = 'ticker-item'; a.textContent = en;
+        const dot = document.createElement('span');
+        dot.className = 'ticker-dot';
+        const b = document.createElement('span');
+        b.className = 'ticker-item'; b.textContent = zh;
+        const dot2 = document.createElement('span');
+        dot2.className = 'ticker-dot';
+        track.append(a, dot, b, dot2);
+      }
+      return track;
+    };
+    el.append(buildTrack(), buildTrack());
+  });
+
+  // ===== 报告预览：静态首屏截图（由 assets/*-preview.jpg 提供） =====
+  // 报告大改后需要重新生成截图，生成脚本见 .workbuddy/cdp_screenshot.py
+
+  // ===== Reveal on scroll =====
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+</script>
+
+</body>
+</html>

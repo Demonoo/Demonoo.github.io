@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>关于创始人 — DMEDIA</title>
+<meta name="description" content="DMEDIA 创始人 @Demon —— 10 年社交媒体红人内容营销经验，覆盖汽车、金融、快消、电商、在线旅游、美妆护肤、宠物、3C 等行业。" />
+<link rel="icon" type="image/png" href="assets/图标.png" />
+<meta property="og:title" content="关于创始人 — DMEDIA" />
+<meta property="og:description" content="10 年社交媒体红人内容营销经验。" />
+<meta property="og:type" content="profile" />
+
+<link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin />
+<link rel="preload" as="font" type="font/otf" href="fonts/Quattrocento-Regular.otf" crossorigin />
+
+<style>
+  @font-face {
+    font-family: 'Marcellus';
+    src: url('fonts/Marcellus-Regular.ttf') format('truetype');
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+  @font-face {
+    font-family: 'Quattrocento';
+    src: url('fonts/Quattrocento-Regular.otf') format('opentype');
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+
+  :root {
+    --bg: #ffffff;
+    --ink: #000000;
+    --ink-dim: #5a5a5a;
+    --ink-mute: #a0a0a0;
+    --line: #ececec;
+    --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
+    --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection { background: #000; color: #fff; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* ============ 顶栏 ============ */
+  .topnav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(255,255,255,0.86);
+    backdrop-filter: blur(12px) saturate(120%);
+    -webkit-backdrop-filter: blur(12px) saturate(120%);
+    border-bottom: 1px solid var(--line);
+    padding: 10px 0;
+  }
+  .topnav .wrap {
+    display: flex; align-items: center;
+    justify-content: space-between;
+  }
+  .brand {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: var(--font-display);
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .brand img { height: 24px; width: auto; display: block; }
+  .back-link {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-dim);
+    transition: color 0.3s;
+  }
+  .back-link:hover { color: var(--ink); }
+
+  /* ============ Hero ============ */
+  .hero {
+    padding: 96px 0 64px;
+    border-bottom: 1px solid var(--line);
+  }
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(64px, 9vw, 120px);
+    line-height: 0.95;
+    letter-spacing: 0.01em;
+    margin-bottom: 24px;
+  }
+  .hero-role {
+    font-size: clamp(18px, 1.8vw, 22px);
+    color: var(--ink-dim);
+    max-width: 640px;
+  }
+  .hero-role b { color: var(--ink); font-weight: 600; }
+
+  /* ============ 章节 ============ */
+  section.block { padding: 72px 0; border-bottom: 1px solid var(--line); }
+  .sec-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    margin-bottom: 28px;
+  }
+
+  /* 十年经验 */
+  .exp-grid {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  .exp-num {
+    font-family: var(--font-display);
+    font-size: 88px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .exp-copy {
+    font-size: 17px;
+    line-height: 1.9;
+    color: var(--ink-dim);
+    padding-top: 10px;
+  }
+  .exp-copy b { color: var(--ink); font-weight: 600; }
+
+  /* 擅长标签（并入 Experience） */
+
+  /* 行业标签：宽屏单行，窄屏换行 */
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 1px solid var(--line);
+    font-size: 15px;
+    color: var(--ink);
+    flex-shrink: 0;
+    white-space: nowrap;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .chip:hover { background: #fafafa; border-color: #d4d4d4; }
+  .chip .en {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  /* 擅长领域 */
+  .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .skill {
+    background: var(--bg);
+    padding: 26px 28px;
+  }
+  .skill .no {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    color: var(--ink-mute);
+    display: block;
+    margin-bottom: 10px;
+  }
+  .skill .nm {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .skill .ds {
+    font-size: 13.5px;
+    color: var(--ink-dim);
+    margin-top: 6px;
+    line-height: 1.7;
+  }
+
+  /* 案例 */
+  .cases { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .case {
+    background: var(--bg);
+    padding: 26px 28px;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+  }
+  .case .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ink); flex-shrink: 0; align-self: center; }
+  .case .nm { font-size: 16px; font-weight: 600; }
+
+  /* 传播案例（带详情） */
+  .campaign {
+    background: var(--bg);
+    border: 1px solid var(--line);
+    padding: 32px 34px;
+  }
+  .campaign + .campaign { margin-top: 1px; }
+  .campaign .row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .campaign .nm { font-size: 19px; font-weight: 600; }
+  .campaign .tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-mute);
+    white-space: nowrap;
+  }
+  .campaign .desc { font-size: 14.5px; color: var(--ink-dim); line-height: 1.85; margin-top: 14px; }
+  .campaign .bullets { margin-top: 14px; padding-left: 0; list-style: none; }
+  .campaign .bullets li {
+    font-size: 14px;
+    color: var(--ink-dim);
+    line-height: 1.8;
+    padding-left: 16px;
+    position: relative;
+  }
+  .campaign .bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0.72em;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--ink);
+  }
+  .campaign .bullets li b { color: var(--ink); font-weight: 600; }
+  .campaign a { color: var(--ink); border-bottom: 1px solid var(--ink); }
+  .campaign a:hover { opacity: 0.55; }
+
+  /* 左右分栏案例：文字左、媒体右 */
+  .campaign.split { display: grid; grid-template-columns: 1.5fr 1fr; gap: 36px; align-items: start; }
+  .campaign.split .campaign-media .video-card { max-width: none; margin: 0; }
+  .campaign.split .campaign-media .video-card.main { width: 100%; }
+  .campaign.split .campaign-media .video-card.main + .video-card.main { margin-top: 14px; }
+  @media (max-width: 768px) {
+    .campaign.split { grid-template-columns: 1fr; }
+  }
+
+  /* 视频封面卡片（小尺寸展示） */
+  .video-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .video-row .video-card { max-width: none; margin: 14px 0; }
+  .video-row.video-row-sub { grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 18px; }
+  .video-row-sub .video-card { margin: 0; }
+  .video-card {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #fafafa;
+    max-width: 300px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .video-card img { display: block; width: 100%; height: auto; transition: transform 0.6s; }
+  .video-card:hover img { transform: scale(1.03); }
+  .video-card .play {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 52px; height: 52px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.92);
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .video-card:hover .play { background: #fff; transform: translate(-50%, -50%) scale(1.08); }
+  .video-card .play::after {
+    content: ''; margin-left: 4px;
+    border-style: solid;
+    border-width: 9px 0 9px 15px;
+    border-color: transparent transparent transparent #000;
+  }
+  .video-card .label {
+    position: absolute; bottom: 10px; left: 10px;
+    font-family: var(--font-mono);
+    font-size: 9px; letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px 10px;
+  }
+
+  /* 工具卡片（带状态） */
+  .tools { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  .tool { background: var(--bg); padding: 26px 28px; }
+  .tool .tag {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid var(--line);
+    color: var(--ink-mute);
+    margin-bottom: 10px;
+  }
+  .tool .tag.live { border-color: var(--ink); color: var(--ink); }
+  .tool .nm { font-size: 15.5px; font-weight: 600; line-height: 1.5; }
+  .tool .ds { font-size: 13px; color: var(--ink-dim); margin-top: 6px; line-height: 1.7; }
+  .tool.dev { background: #fafafa; }
+
+  /* ============ Footer ============ */
+  .site-footer { padding: 56px 0 40px; }
+  .footer-bottom {
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px; letter-spacing: 0.16em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .footer-bottom .blink {
+    display: inline-block; width: 6px; height: 6px;
+    background: #000; border-radius: 50%;
+    margin-right: 6px; vertical-align: middle;
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.4); opacity: 0.5; }
+  }
+
+  /* ============ 响应式 ============ */
+  @media (max-width: 900px) {
+    .video-row { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .video-row { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .wrap { padding: 0 20px; }
+    .hero { padding: 64px 0 48px; }
+    .exp-grid { grid-template-columns: 1fr; gap: 20px; }
+    .exp-num { font-size: 64px; }
+    .skills, .cases, .tools { grid-template-columns: 1fr; }
+    section.block { padding: 56px 0; }
+    .footer-bottom { flex-direction: column; gap: 12px; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ========== 顶栏 ========== -->
+<nav class="topnav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/图标.png" alt="DMEDIA" />
+      <span>DMEDIA</span>
+    </a>
+    <a class="back-link" href="index.html">← 返回首页</a>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Founder · DMEDIA Studio</p>
+    <h1>Demon</h1>
+    <p class="hero-role">
+      DMEDIA 创始人。<b>10 年社交媒体红人内容营销</b>经验，覆盖汽车、金融、快消、电商、在线旅游、美妆护肤、宠物、3C 等行业。
+    </p>
+  </div>
+</section>
+
+<!-- ========== 十年经验 ========== -->
+<section class="block">
+  <div class="wrap">
+    <p class="sec-label">Experience</p>
+    <div class="exp-grid">
+      <div class="exp-num">10<span style="font-size:32px;vertical-align:super">年</span></div>
+      <p class="exp-copy">
+        擅长<b>媒介项目管理运营</b>，<b>媒介内容策略</b>，<b>媒体谈判及购买</b>，<b>舆论话题热点营销</b>，<b>营销数据处理及分析</b>。如：品牌及 IP 异业合作、艺人短视频、KOL 短视频种草、KFS 及户外媒体整合营销。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 媒介传播案例 ========== -->
+<section class="block" style="border-bottom:0;">
+  <div class="wrap">
+    <p class="sec-label">Campaigns · 近期社交媒体媒介传播案例</p>
+    <div class="campaign split">
+      <div class="campaign-text">
+        <div class="row">
+          <span class="nm">百利高蛋白猫粮 618 Campaign</span>
+          <span class="tag">小红书种草 · 2024</span>
+        </div>
+        <p class="desc">借助小红书站内 IP《618 薯你会买》强势曝光，通过 KFS 组合打法（艺人 + KOL + 搜索优化）深度触达目标人群，在 5.20–6.20 期间实现高效整合营销！</p>
+        <ul class="bullets">
+          <li><b>项目关键数据：</b>总曝光超 801 万，总阅读 259 万，总互动 45.3 万；短视频平均互动率达 5.6%；搜索组件平均点击率 0.6%，成功为京东商城精准引流。</li>
+          <li><b>成本效率：</b>CPC 低至 0.40，CPM 仅 131，CPE 为 2.31，高效控制成本的同时提升转化。</li>
+          <li><b>传播亮点：</b>通过优质红人原生 vlog 内容打造爆款视频，单篇自然点赞突破 25w+，真实内容力驱动用户参与，实现流量与口碑双爆发！</li>
+        </ul>
+      </div>
+      <div class="campaign-media">
+        <p class="desc" style="margin-top:0;">案例视频笔记：</p>
+        <a class="video-card" href="https://xhslink.cn/o/1oLhhRvgZqM" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+          <img src="assets/bailey-cover.jpg" alt="百利高蛋白猫粮 618 案例视频封面" />
+          <span class="play" aria-hidden="true"></span>
+          <span class="label">WATCH ON 小红书</span>
+        </a>
+      </div>
+    </div>
+    <div class="campaign split">
+      <div class="campaign-text">
+        <div class="row">
+          <span class="nm">ELEMIS 玫瑰胶原面霜种草</span>
+          <span class="tag">抖音 · 小红书 · 2023</span>
+        </div>
+        <p class="desc">以小红书与抖音为核心阵地，依托 KOL 矩阵式媒介策略，实现对品牌主理人、时尚、职场、旅行、美妆等多维度垂直领域的精准覆盖，推动新品高效传播。项目携手艺人毛林林（含直播资源），并联动上海本土头部红人如明仔和二毛子、G僧东、史黛拉，以及具备海外背景的优质创作者，包括安吉林 Angelene、就是 Cathy 呀、Madge、Alfie's Angel 等，构建跨层次、跨圈层的传播矩阵，以扩大品牌声量。同时，借助 KOC 的二次创作与扩散，持续放大品牌影响力，实现传播效果的长效沉淀与发酵。</p>
+        <div class="video-row video-row-sub">
+          <a class="video-card" href="https://www.douyin.com/video/7217735845174840637" target="_blank" rel="noopener" aria-label="查看抖音案例视频">
+            <img src="assets/elemis-cream-cover.webp" alt="沉浸式护肤 案例视频封面" />
+            <span class="play" aria-hidden="true"></span>
+            <span class="label">WATCH ON 抖音</span>
+          </a>
+          <a class="video-card" href="https://xhslink.cn/o/18G1EjmUJyG" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+            <img src="assets/elemis-cream-cover2.jpg" alt="Skincare 玫瑰养肤 案例视频封面" />
+            <span class="play" aria-hidden="true"></span>
+            <span class="label">WATCH ON 小红书</span>
+          </a>
+          <a class="video-card" href="https://xhslink.cn/o/9Z8UoerlLo7" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+            <img src="assets/elemis-cream-cover4.jpg" alt="ELEMIS 玫瑰胶原面霜 出差旅行好物 案例视频封面" />
+            <span class="play" aria-hidden="true"></span>
+            <span class="label">WATCH ON 小红书</span>
+          </a>
+          <a class="video-card" href="https://xhslink.cn/o/3a6LnR1gEZW" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+            <img src="assets/elemis-cream-cover5.jpg" alt="133斤吃饭日记 满满胶原日 案例视频封面" />
+            <span class="play" aria-hidden="true"></span>
+            <span class="label">WATCH ON 小红书</span>
+          </a>
+        </div>
+      </div>
+      <div class="campaign-media">
+        <p class="desc" style="margin-top:0;">案例视频笔记：</p>
+        <a class="video-card main" href="https://xhslink.cn/o/3wDW2PA69wm" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+          <img src="assets/elemis-cream-cover3.jpg" alt="时尚都市旅行 案例视频封面" />
+          <span class="play" aria-hidden="true"></span>
+          <span class="label">WATCH ON 小红书</span>
+        </a>
+        <a class="video-card main" href="https://xhslink.cn/o/8ZikhgLSzFB" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+          <img src="assets/elemis-cream-cover6.jpg" alt="案例视频封面" />
+          <span class="play" aria-hidden="true"></span>
+          <span class="label">WATCH ON 小红书</span>
+        </a>
+      </div>
+    </div>
+    <div class="campaign">
+      <div class="row">
+        <span class="nm">ELEMIS 卸妆膏种草</span>
+        <span class="tag">抖音 · 小红书 · 2022</span>
+      </div>
+      <p class="desc">本次传播以小红书、抖音为核心阵地，通过 KOL 视频内容精准触达目标人群。内容创作上，围绕卸妆膏产品卖点，携手多位明星及垂类达人，从美妆教程、生活 Vlog 等多角度进行立体化阐述。</p>
+      <ul class="bullets">
+        <li><b>矩阵式达人布局：</b>汇聚明星影响力（杨之楹、毛小星）、美妆垂类头部达人（抖音的宵夜、喵招诗雨）及优质生活方式达人（小红书红人就是cathy呀、安吉林Angelene），实现跨圈层渗透。</li>
+        <li><b>多元化内容视角：</b>美妆视角由头部及垂类达人深度演示产品功效，突出清洁力、温和性等核心卖点；生活 Vlog 视角通过明星及生活方式红人的真实日常体验，自然融入产品，展现不同生活场景下的使用感与高品质格调，增强信任与代入感。</li>
+        <li><b>精准人群覆盖：</b>借助达人自身特质（海外背景、专业美妆知识），高效吸引并沟通对护肤品质有高要求的年轻消费群体，提升品牌好感度与转化潜力。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span><span class="blink"></span>DMEDIA · SHANGHAI · 2026</span>
+      <a class="back-link" href="index.html">← 返回首页</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

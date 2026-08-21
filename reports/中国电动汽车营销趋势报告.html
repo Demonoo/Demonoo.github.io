@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年中国电动汽车营销趋势报告</title>
+<style>
+  /* ============ 设计系统 ============ */
+  :root{
+    --paper:#FFFFFF; --paper2:#F3F5F8; --ink:#161B24; --sub:#555E6C; --mute:#9AA1AC;
+    --electric:#0E9484; --cyan:#2FC3B0; --amber:#F2A33C; --coral:#E4572E;
+    --line:#E4E6EB; --line-strong:#C6CBD4;
+    --serif:"Songti SC","STSong","Noto Serif CJK SC","SimSun",serif;
+    --sans:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    --num:Georgia,"Times New Roman",serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.9;font-size:16.5px;
+       background-image:radial-gradient(rgba(22,27,36,.022) 1px,transparent 1px);background-size:26px 26px}
+  ::selection{background:var(--electric);color:#fff}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+  @media(max-width:860px){.wrap{padding:0 20px}}
+
+  /* ============ 顶栏 + 进度条 ============ */
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:90;background:rgba(255,255,255,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .topbar .in{max-width:1120px;margin:0 auto;padding:12px 32px;display:flex;align-items:center;justify-content:space-between}
+  .topbar .brand{font-family:var(--serif);font-weight:700;font-size:15px;letter-spacing:1px}
+  .topbar .brand em{font-style:normal;color:var(--electric)}
+  .topbar nav{display:flex;gap:22px;font-size:13px;color:var(--sub)}
+  .topbar nav a{letter-spacing:1px;transition:color .25s}
+  .topbar nav a:hover{color:var(--electric)}
+  .pbar{position:fixed;top:0;left:0;height:2.5px;background:linear-gradient(90deg,var(--electric),var(--cyan));z-index:95;width:0}
+  @media(max-width:860px){.topbar nav{display:none}.topbar .in{padding:12px 20px}}
+
+  /* ============ HERO：不对称分栏 ============ */
+  .hero{padding:150px 0 110px;position:relative;border-bottom:1px solid var(--line)}
+  .hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,var(--electric),transparent 60%)}
+  .hero-grid{display:grid;grid-template-columns:1.25fr .9fr;gap:64px;align-items:center}
+  .hero .eyebrow{display:flex;align-items:center;gap:14px;font-family:var(--num);font-size:13px;letter-spacing:4px;color:var(--electric);margin-bottom:34px}
+  .hero .eyebrow::before{content:"";width:46px;height:1px;background:var(--electric)}
+  .hero h1{font-family:var(--serif);font-size:clamp(44px,6vw,76px);line-height:1.14;font-weight:700;letter-spacing:2px;margin-bottom:26px}
+  .hero h1 .l2{display:block}
+  .hero h1 em{font-style:normal;color:var(--electric)}
+  .hero .sub{font-size:19px;color:var(--sub);max-width:520px;margin-bottom:20px;letter-spacing:.5px}
+  .hero .meta{font-size:13px;color:var(--mute);line-height:2;margin-bottom:44px}
+  .hero .cta{display:inline-flex;align-items:center;gap:12px;background:var(--ink);color:var(--paper);padding:15px 30px;font-size:14.5px;letter-spacing:2px;transition:background .3s}
+  .hero .cta:hover{background:var(--electric)}
+  .hero .cta .ar{transition:transform .3s}
+  .hero .cta:hover .ar{transform:translateY(4px)}
+
+  /* 仪表盘面板 */
+  .dash{background:var(--ink);color:#EDEDE8;padding:40px 36px 34px;position:relative;overflow:hidden}
+  .dash::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:34px 34px}  .dash .dh{position:relative;font-family:var(--num);font-size:12px;letter-spacing:4px;color:#8B93A5;margin-bottom:30px;display:flex;justify-content:space-between}
+  .dash .dh .dot{width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}
+  .d-row{position:relative;display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;padding:20px 0;border-top:1px solid rgba(255,255,255,.09)}
+  .d-row .k{font-size:12.5px;color:#9BA3B4;line-height:1.55}
+  .d-row .v{font-family:var(--num);font-size:38px;font-weight:700;line-height:1}
+  .d-row .v small{font-size:16px;font-family:var(--sans);color:#C6CBD8;font-weight:400}
+  .d-row .v .u{color:var(--cyan);font-size:15px;font-family:var(--sans)}
+  .d-row .bar{grid-column:2;height:3px;background:rgba(255,255,255,.12);margin-top:2px;position:relative;overflow:hidden}
+  .d-row .bar i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--electric),var(--cyan));transition:width 1.4s cubic-bezier(.2,.7,.2,1)}
+  .d-row .pct{font-family:var(--num);font-size:14px;color:var(--cyan);grid-column:2;margin-top:4px;text-align:right}
+  .dash .src{position:relative;margin-top:26px;font-size:11px;color:#6E7688}
+  @media(max-width:860px){.hero{padding:120px 0 70px}.hero-grid{grid-template-columns:1fr;gap:44px}}
+
+  /* ============ 通用章节 ============ */
+  section{padding:96px 0;position:relative}
+  @media(max-width:860px){section{padding:70px 0}}
+  .sec-head{margin-bottom:54px;position:relative}
+  .sec-head .no{font-family:var(--num);font-size:15px;color:var(--electric);letter-spacing:5px;margin-bottom:10px}
+  .sec-head h2{font-family:var(--serif);font-size:clamp(30px,4vw,46px);font-weight:700;letter-spacing:2px;line-height:1.25}
+  .sec-head .lead{color:var(--sub);margin-top:18px;max-width:760px;font-size:16.5px}
+  .sec-head::after{content:"";display:block;width:64px;height:3px;background:var(--ink);margin-top:26px}
+  .sec-alt{background:var(--paper2)}
+  h3.sub-h{font-family:var(--serif);font-size:23px;font-weight:700;margin:44px 0 14px;display:flex;align-items:baseline;gap:14px}
+  h3.sub-h .n{font-family:var(--num);font-size:14px;color:var(--electric);letter-spacing:2px}
+  p.body{color:#333B48;margin-bottom:16px;max-width:840px}
+  .hl{color:var(--electric);font-weight:600}
+  .num{font-family:var(--num);color:var(--electric);font-weight:700}
+
+  /* ============ 导读：编辑式结论 ============ */
+  .concl{list-style:none}
+  .concl li{display:grid;grid-template-columns:72px 1fr;gap:26px;padding:26px 0;border-bottom:1px solid var(--line)}
+  .concl li:first-child{border-top:1px solid var(--line)}
+  .concl .cn{font-family:var(--num);font-size:17px;color:var(--electric);font-weight:700;padding-top:4px}
+  .concl .t{font-weight:700;font-size:17.5px;margin-bottom:4px}
+  .concl .b{color:var(--sub);font-size:15.5px;line-height:1.85}
+  @media(max-width:860px){.concl li{grid-template-columns:1fr;gap:6px;padding:22px 0}}
+
+  /* ============ 图表区 ============ */
+  .fig{margin:40px 0;border-top:1px solid var(--line-strong);padding-top:18px}
+  .fig .cap{display:flex;gap:12px;align-items:baseline;font-size:13px;color:var(--mute);margin:14px 0 20px}
+  .fig .cap b{font-family:var(--num);color:var(--ink)}
+  .fig img{width:100%;height:auto;box-shadow:0 18px 50px -22px rgba(22,27,36,.25)}
+  .fig-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin:40px 0}
+  @media(max-width:860px){.fig-grid{grid-template-columns:1fr}}
+
+  /* ============ 转变对照行 ============ */
+  .shift{border-top:1px solid var(--ink)}
+  .shift-item{display:grid;grid-template-columns:56px 1fr 46px 1fr;gap:0;align-items:stretch;border-bottom:1px solid var(--line)}
+  .shift-item .idx{display:flex;align-items:center;font-family:var(--num);font-size:19px;color:var(--mute);font-weight:700}
+  .shift-item .cell{padding:26px 22px}
+  .shift-item .cell .h{font-size:12.5px;letter-spacing:2px;margin-bottom:8px;font-weight:700}
+  .shift-item .cell.old .h{color:var(--mute)}
+  .shift-item .cell.new .h{color:var(--electric)}
+  .shift-item .cell p{font-size:14.5px;color:#3A4250;line-height:1.8}
+  .shift-item .cell.old{background:transparent;border-right:1px dashed var(--line-strong)}
+  .shift-item .cell.new{background:rgba(14,148,132,.05);border-left:1px solid rgba(14,148,132,.22)}
+  .shift-item .ar{display:flex;align-items:center;justify-content:center;color:var(--electric);font-family:var(--num);font-size:22px}
+  @media(max-width:860px){.shift-item{grid-template-columns:1fr}.shift-item .idx{padding:14px 0 0}.shift-item .cell{padding:18px 0}.shift-item .cell.old{border-right:none}.shift-item .cell.new{border-left:none}.shift-item .ar{display:none}}
+
+  /* ============ 八大趋势：横线轨道卡 ============ */
+  .trend{list-style:none}
+  .trend li{padding:30px 0;border-bottom:1px solid var(--line);position:relative}
+  .trend li:first-child{border-top:1px solid var(--line)}
+  .trend .t-head{display:flex;align-items:baseline;gap:20px;margin-bottom:10px;cursor:default}
+  .trend .tn{font-family:var(--num);font-size:15px;color:var(--electric);font-weight:700;letter-spacing:2px}
+  .trend .t-title{font-family:var(--serif);font-size:24px;font-weight:700;letter-spacing:.5px}
+  .trend .track{height:3px;background:var(--line);margin:18px 0 14px;position:relative;overflow:hidden}
+  .trend .track i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--electric),var(--cyan))}
+  .trend p{color:#3A4250;font-size:15.5px;max-width:920px;line-height:1.9}
+  @media(max-width:860px){.trend .t-title{font-size:19px}}
+
+  /* ============ 案例：交替编辑式 ============ */
+  .case{list-style:none}
+  .case li{display:grid;grid-template-columns:110px 1fr;gap:34px;padding:44px 0;border-bottom:1px solid var(--line)}
+  .case li:first-child{border-top:1px solid var(--line)}
+  .case .cn{font-family:var(--serif);font-size:46px;font-weight:700;color:var(--paper2);-webkit-text-stroke:1.5px var(--ink);line-height:1}
+  .case h3{font-family:var(--serif);font-size:23px;font-weight:700;margin-bottom:10px}
+  .case h3 .tag{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:2px;color:var(--electric);margin-right:12px}
+  .case p{color:#3A4250;font-size:15.5px;line-height:1.9;max-width:860px}
+  @media(max-width:860px){.case li{grid-template-columns:1fr;gap:12px;padding:34px 0}.case .cn{font-size:36px}}
+
+  /* ============ 策略清单 ============ */
+  .advice{display:grid;grid-template-columns:1fr 1fr;gap:0 56px}
+  .adv-col h3{font-family:var(--serif);font-size:19px;font-weight:700;padding:22px 0 12px;border-top:3px solid var(--ink);margin-bottom:14px;display:flex;align-items:center;gap:12px}
+  .adv-col h3 .n{font-family:var(--num);font-size:13px;color:var(--electric);letter-spacing:2px}
+  .adv-col ul{list-style:none;padding-bottom:26px}
+  .adv-col li{position:relative;padding:9px 0 9px 26px;color:#3A4250;font-size:15px;line-height:1.8;border-bottom:1px dotted var(--line-strong)}
+  .adv-col li::before{content:"→";position:absolute;left:0;color:var(--electric);font-weight:700}
+  @media(max-width:860px){.advice{grid-template-columns:1fr}}
+
+  /* ============ 展望：Pull-quote ============ */
+  .vision{padding:0}
+  .quote-block{background:var(--ink);color:#EDEDE8;padding:90px 56px;position:relative;overflow:hidden}
+  .quote-block::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:40px 40px}
+  .quote-block::after{content:"”";position:absolute;right:36px;top:-30px;font-family:var(--serif);font-size:280px;color:rgba(255,255,255,.06);line-height:1}
+  .quote-block .qmark{font-family:var(--serif);font-size:90px;line-height:0;color:var(--electric);position:relative;display:block;margin-bottom:26px}
+  .quote-block h2{font-family:var(--serif);font-size:clamp(26px,3.4vw,38px);font-weight:700;line-height:1.5;letter-spacing:1px;margin-bottom:34px;position:relative;max-width:880px}
+  .quote-block h2 .hl2{color:var(--cyan)}
+  .quote-block .kws{position:relative;display:flex;flex-wrap:wrap;gap:12px}
+  .quote-block .kw{font-family:var(--serif);font-size:15px;letter-spacing:3px;padding:10px 22px;border:1px solid rgba(255,255,255,.28);color:#D5DAE6;transition:all .3s}
+  .quote-block .kw:hover{border-color:var(--cyan);color:#fff}
+  @media(max-width:860px){.quote-block{padding:70px 26px}}
+
+  /* ============ 参考资料 ============ */
+  .refs{columns:2;column-gap:56px}
+  .refs p{break-inside:avoid;margin-bottom:12px;font-size:13.5px;color:var(--sub);padding-left:20px;position:relative;line-height:1.7}
+  .refs p::before{content:"—";position:absolute;left:0;color:var(--electric)}
+  @media(max-width:860px){.refs{columns:1}}
+
+  /* ============ 页脚 ============ */
+  footer{padding:56px 0 80px;color:var(--mute);font-size:12.5px;text-align:center;border-top:1px solid var(--line)}
+  footer .v1{margin-top:10px}
+  footer a{color:var(--electric);text-decoration:underline}
+
+  /* ============ 动效：渐进增强 ============ */
+  /* 默认：内容完全可见（任何环境都不空白）。仅在 .hero.anim 下播放入场动画（JS 确认页面可见后添加） */
+  @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+  .hero.anim .eyebrow{animation:fadeUp .9s cubic-bezier(.2,.7,.2,1) both}
+  .hero.anim h1{animation:fadeUp 1s cubic-bezier(.2,.7,.2,1) .15s both}
+  .hero.anim .sub{animation:fadeUp .9s cubic-bezier(.2,.7,.2,1) .35s both}
+  .hero.anim .meta{animation:fadeUp .9s cubic-bezier(.2,.7,.2,1) .5s both}
+  .hero.anim .cta{animation:fadeUp .8s cubic-bezier(.2,.7,.2,1) .65s both}
+  .hero.anim .dash{animation:fadeUp 1.1s cubic-bezier(.2,.7,.2,1) .4s both}
+  /* 滚动显现：默认可见；JS 确认页面可见后加 .pre 再过渡 */
+  .rv{transition:opacity .8s cubic-bezier(.2,.7,.2,1),transform .8s cubic-bezier(.2,.7,.2,1)}
+  .rv.pre{opacity:0;transform:translateY(30px)}
+  .trend .track i{width:0;transition:width 1.2s cubic-bezier(.2,.7,.2,1)}
+  .trend .track i.go{width:100% !important}
+  @media (prefers-reduced-motion: reduce){
+    .hero.anim *,.hero.anim .dash{animation:none !important}
+    .rv.pre{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="pbar" id="pbar"></div>
+<div class="topbar">
+  <div class="in">
+    <div class="brand">EV <em>·</em> 2026 营销趋势报告</div>
+    <nav>
+      <a href="#guide">导读</a><a href="#market">市场</a><a href="#user">用户</a><a href="#trends">趋势</a><a href="#cases">案例</a><a href="#advice">策略</a><a href="#refs">来源</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">MARKETING TRENDS REPORT · 2026</div>
+        <h1>中国电动汽车<span class="l2">营销<em>趋势</em>报告</span></h1>
+        <p class="sub">基于全网公开报告与行业数据的营销参考指南 —— 市场大盘 · 用户洞察 · 八大趋势 · 案例拆解 · 策略建议</p>
+        <div class="meta">报告时间：2026 年 8 月<br>数据窗口：2026 年上半年（H1）及近期公开发布<br>资料来源：中汽协 · 乘联会 · QuestMobile · 懂车帝 · 微播易×CAAC · 艾瑞 等</div>
+        <a class="cta" href="#guide">开始阅读<span class="ar">↓</span></a>
+      </div>
+      <div class="dash" id="dash">
+        <div class="dh"><span>KEY METRICS / H1·2026</span><span class="dot"></span></div>
+        <div class="d-row">
+          <div class="v"><span data-count="744.6" data-dec="1">0</span><small> 万辆</small></div>
+          <div class="k">上半年新能源汽车销量<br>同比 +7.3%</div>
+        </div>
+        <div class="d-row">
+          <div class="v"><span data-count="58.5">0</span><small>%</small></div>
+          <div class="k">6 月新能源渗透率<br>（中汽协口径）</div>
+        </div>
+        <div class="d-row">
+          <div class="v"><span data-count="235.5" data-dec="1">0</span><small> 万辆</small></div>
+          <div class="k">上半年新能源出口<br>同比 +120%</div>
+          <div class="bar"><i></i></div><div class="pct">出口增速 +120%</div>
+        </div>
+        <div class="src">SOURCE: 中国汽车工业协会 · QuestMobile</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ============ 导读 ============ -->
+<section id="guide">
+  <div class="sec-head">
+    <div class="no">INTRO / 导读</div>
+    <h2>核心结论 · 八句话看懂 2026</h2>
+    <p class="lead">本报告基于中国汽车工业协会、乘联会、QuestMobile、懂车帝、微播易 × 中国商务广告协会汽车营销研究工作委员会、艾瑞咨询、麦肯锡、盖世汽车、36氪等机构 2025 年末至 2026 年 7 月公开发布的数据与报告整理。</p>
+  </div>
+  <ul class="concl">
+    <li><span class="cn">01</span><div><div class="t">规模仍在增长，但内销承压</div><div class="b">上半年新能源汽车产销 743.8 万 / 744.6 万辆，同比仅增 6.7% / 7.3%；国内销量 509 万辆同比下降 13.4%，出口 235.5 万辆同比增长 1.2 倍 ——「内卷加剧、出海对冲」成为年度主线。</div></div></li>
+    <li><span class="cn">02</span><div><div class="t">渗透率再上台阶</div><div class="b">6 月新能源新车销量占汽车总销量 <span class="num">58.5%</span>（中汽协口径），上半年零售渗透率约 53.4%（乘联会口径）。</div></div></li>
+    <li><span class="cn">03</span><div><div class="t">竞争逻辑切换</div><div class="b">从「价格战、爆款竞速」转向「拼技术叙事、拼产品矩阵、拼用户运营」；近 20 家车企上调终端售价，非理性内卷降温。</div></div></li>
+    <li><span class="cn">04</span><div><div class="t">用户决策链路被 AI 重塑</div><div class="b">超三成购车人群借助 AI 工具比车选车，决策周期压缩近三成；信任重心从 KOL / 垂媒转向 AI 推荐 + 原生 UGC + 熟人推荐。</div></div></li>
+    <li><span class="cn">05</span><div><div class="t">营销进入「技术叙事 + AI 生产力」时代</div><div class="b">发布会经济、AIGC 内容量产、GEO 生成式引擎优化、AI 智能体赋能经销商成为新基建。</div></div></li>
+    <li><span class="cn">06</span><div><div class="t">线索成本持续走高</div><div class="b">直播获客 CPL 达 67–200 元，行业单线索获客成本同比上涨约 18%，粗放投流模式难以为继。</div></div></li>
+    <li><span class="cn">07</span><div><div class="t">下沉市场与出海是两大增量</div><div class="b">农村新能源渗透率不足 5% vs 城市约 32%；车企出海从「整车出口」转向「本地化扎根」。</div></div></li>
+    <li><span class="cn">08</span><div><div class="t">私域与生态成为品牌护城河</div><div class="b">比亚迪、长安私域流量均超 1200 万；补能网络（闪充 / 换电联盟）从基建竞争升级为营销竞争。</div></div></li>
+  </ul>
+</section>
+
+</div>
+
+<!-- ============ 01 市场大盘 ============ -->
+<section id="market" class="sec-alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">01 / MARKET</div>
+      <h2>市场大盘：2026 上半年全景</h2>
+      <p class="lead">产销总量、竞争格局与政策生态三条线索，勾勒 2026 年上半年的市场底色。</p>
+    </div>
+
+    <h3 class="sub-h"><span class="n">1.1</span>产销总量：增长放缓，内销承压、出口爆发</h3>
+    <p class="body">据中国汽车工业协会数据，2026 年上半年新能源汽车产销分别完成 <span class="num">743.8 万</span> 辆和 <span class="num">744.6 万</span> 辆，同比分别增长 6.7% 和 7.3%；6 月单月产销 159.8 万 / 164.3 万辆，同比增长 26% / 23.6%。</p>
+    <p class="body">结构上呈现明显的「冰火两重天」：上半年国内销量 509 万辆，同比下降 13.4%；而出口 235.5 万辆、同比增长约 1.2 倍，6 月单月出口 52.3 万辆、同比增长 1.6 倍。国内市场的价格战与消费观望，正被海外市场的结构性增量所对冲 —— 这也解释了 2026 年车企集体「卷出海」的动因。</p>
+    <div class="fig">
+      <div class="cap"><b>FIG.01</b><span>2026 年上半年中国新能源汽车产销与出口（数据来源：中国汽车工业协会）</span></div>
+      <img src="../assets/chart1.jpg" alt="2026上半年中国新能源汽车产销与出口">
+    </div>
+
+    <h3 class="sub-h"><span class="n">1.2</span>竞争格局：马太效应加剧，头部洗牌进行时</h3>
+    <p class="body">QuestMobile《2026 年新能源汽车市场发展半年报》显示，上半年新能源汽车活跃量突破 <span class="num">4400 万</span> 辆，其中纯电活跃量近 3000 万辆，纯电平均续航提升至 485.5km。但行业已告别规模普涨：</p>
+    <div class="shift">
+      <div class="shift-item"><div class="idx">—</div><div class="cell old"><div class="h">分化加剧</div><p>比亚迪、吉利银河上半年销量同比分别下滑 45.9%、27.1%；零跑、蔚来、小米汽车、赛力斯增速亮眼。</p></div><div class="ar">→</div><div class="cell new"><div class="h">新变量</div><p>新车红利主导销量格局：理想 i6、小米 YU7、钛 7 PHEV 等新上市车系跻身车系销量 TOP5 —— 产品迭代速度已成为影响销量的重要变量。</p></div></div>
+      <div class="shift-item"><div class="idx">—</div><div class="cell old"><div class="h">价格内卷</div><p>2025 年以「低价竞争、迭代竞速、爆款之争」为主旋律，车企们在同级比价格、在低价位段比智驾普及。</p></div><div class="ar">→</div><div class="cell new"><div class="h">理性回归</div><p>2026 年以来已有近 20 家车企上调终端售价（部分车型上调约 2 万元），竞争重心转向核心自研技术、产品矩阵与长期盈利体系（36氪《2026 头部车企大转向》）。</p></div></div>
+    </div>
+    <div class="fig">
+      <div class="cap"><b>FIG.02</b><span>内销承压与出口爆发并存，渗透率再上台阶（中汽协 / 乘联会口径）</span></div>
+      <img src="../assets/chart2.jpg" alt="内销出口对比与渗透率">
+    </div>
+
+    <h3 class="sub-h"><span class="n">1.3</span>政策与生态：从「购车补贴」到「用车生态」</h3>
+    <p class="body">政策逻辑已从「促新车销售」转向「培育汽车消费新业态」：<strong>私域流量规模与增速成为衡量车企「用户型服务能力」的关键指标</strong>，比亚迪、长安私域流量均超 1200 万。基础设施竞争同步升级为生态营销：</p>
+    <ul class="trend">
+      <li><div class="t-head"><span class="tn">A</span><div class="t-title">闪充网络：补能—服务—复购闭环</div></div><div class="track"><i></i></div><p>比亚迪闪充网络快速搭建，高端与走量车型第一时间搭载闪充技术，吸引更多车主接入闪充网络，形成可持续的服务闭环与竞争壁垒。</p></li>
+      <li><div class="t-head"><span class="tn">B</span><div class="t-title">换电联盟：从企业专属到行业共享</div></div><div class="track"><i></i></div><p>蔚来换电从自用到子品牌共享再到联盟开放，以「技术兼容 + 生态扩容」将补能网络升级为行业共享基础设施；截至 2026 年 6 月，蔚来、乐道、萤火虫三大品牌车系活跃量加总超 114 万辆。</p></li>
+      <li><div class="t-head"><span class="tn">C</span><div class="t-title">超级入口：充电服务 × 高频导航</div></div><div class="track"><i></i></div><p>高德地图成为汽车智能导航超级入口，华为超充联盟入驻高德地图，实现「充电服务」与「高频导航场景」深度融合，让用户在规划行程时即可无缝获取超充服务。</p></li>
+      <li><div class="t-head"><span class="tn">D</span><div class="t-title">下沉市场：政策与基建共振的蓝海</div></div><div class="track"><i></i></div><p>2025 年新能源汽车下乡车型首次破百（124 款），累计触达用户超 5000 万人次；到 2030 年中国农村汽车保有量将超 7000 万辆、市场规模近 5000 亿元，当前农村渗透率不足 5% vs 城市约 32%。</p></li>
+    </ul>
+  </div>
+</section>
+
+<div class="wrap">
+<!-- ============ 02 用户洞察 ============ -->
+<section id="user">
+  <div class="sec-head">
+    <div class="no">02 / USERS</div>
+    <h2>用户洞察：新一代电动汽车消费者</h2>
+    <p class="lead">AI 正在重写用户的「看、选、买」全链路 —— 谁先理解新决策逻辑，谁就拿到下一阶段的定价权。</p>
+  </div>
+
+  <h3 class="sub-h"><span class="n">2.1</span>AI 重塑购车决策链路：五大根本性转变</h3>
+  <p class="body">微播易联合中国商务广告协会汽车营销研究工作委员会发布的《2026 年汽车行业社交营销实战与趋势报告》指出，AI 已重塑消费者完整购车决策链路，用户行为呈现五大根本性转变：</p>
+  <div class="shift">
+    <div class="shift-item"><div class="idx">01</div><div class="cell old"><div class="h">触媒习惯 · 传统</div><p>搜索引擎 / 汽车垂媒主动检索</p></div><div class="ar">→</div><div class="cell new"><div class="h">2026 新常态</div><p>大模型对话式获取，超三成购车人群借助 AI 工具对比车型参数</p></div></div>
+    <div class="shift-item"><div class="idx">02</div><div class="cell old"><div class="h">信任体系 · 传统</div><p>KOL、垂直媒体专业测评</p></div><div class="ar">→</div><div class="cell new"><div class="h">2026 新常态</div><p>对商业化测评审美疲劳，信任转向 AI 推荐、真实原生 UGC 与微圈熟人推荐</p></div></div>
+    <div class="shift-item"><div class="idx">03</div><div class="cell old"><div class="h">圈层结构 · 传统</div><p>大众化、泛圈层传播</p></div><div class="ar">→</div><div class="cell new"><div class="h">2026 新常态</div><p>圈层粉尘化，数千细分兴趣标签与文化圈层并存，单一内容难以覆盖多元人群</p></div></div>
+    <div class="shift-item"><div class="idx">04</div><div class="cell old"><div class="h">决策周期 · 传统</div><p>多平台跳转、长链路比较</p></div><div class="ar">→</div><div class="cell new"><div class="h">2026 新常态</div><p>AI 收拢信息触点，决策效率提升近三成，留给品牌的营销窗口期持续收窄</p></div></div>
+    <div class="shift-item"><div class="idx">05</div><div class="cell old"><div class="h">消费关注点 · 传统</div><p>动力、续航、配置参数</p></div><div class="ar">→</div><div class="cell new"><div class="h">2026 新常态</div><p>从家庭出行、通勤、露营等真实生活场景出发，寻找契合生活方式的车型</p></div></div>
+  </div>
+  <p class="body" style="margin-top:22px">这意味着传统营销体系的<strong>四大系统性失效</strong>：圈层粉尘化瓦解中心化流量分发；AI 掌握信息交互主动权；参数堆砌式「工程师营销」难以完成场景种草；线索价格连年暴涨、广告换线索模式陷入成本内卷。</p>
+  <div class="fig">
+    <div class="cap"><b>FIG.03</b><span>AI 重塑购车决策链路：五大根本性转变（来源：微播易 × CAAC 汽车营销研究工作委员会）</span></div>
+    <img src="../assets/chart4.jpg" alt="AI重塑决策链路五大转变">
+  </div>
+
+  <h3 class="sub-h"><span class="n">2.2</span>下沉市场：看线上、选国货、重实用</h3>
+  <p class="body">懂车帝《中国新能源汽车下沉市场消费洞察报告》刻画了下沉市场用户的鲜明特征：近 60% 用户通过汽车垂媒 App、抖音等线上渠道看车选车，「线上研究、线下体验」是典型购车场景；超 90% 消费者青睐国产新能源品牌；68.9% 为首次购车；50.2% 选择纯电车型；43.6% 购车价位于 10–20 万元。「纯电续航、价格」排在「外观、品牌」之前，<strong>实用主义优先</strong>。</p>
+  <div class="fig">
+    <div class="cap"><b>FIG.04</b><span>下沉市场新能源用户画像（来源：懂车帝下沉市场消费洞察报告）</span></div>
+    <img src="../assets/chart3.jpg" alt="下沉市场用户画像">
+  </div>
+  <p class="body">对营销的启示：下沉市场传播应依托线上平台做「信任前置」（直播讲解、车主证言、乡镇巡展），同时补足维保网络与公共充电桩体验 —— <span class="hl">服务即营销</span>。</p>
+
+  <h3 class="sub-h"><span class="n">2.3</span>女性用户与保值率心智</h3>
+  <ul class="trend">
+    <li><div class="t-head"><span class="tn">A</span><div class="t-title">女性用户对新能源偏好显著高于燃油车</div></div><div class="track"><i></i></div><p>设计、内饰质感、智能化座舱与场景化内容（通勤、亲子、露营）是打动女性用户的关键触点（新浪财经研究）。</p></li>
+    <li><div class="t-head"><span class="tn">B</span><div class="t-title">保值率成为购车决策新变量</div></div><div class="track"><i></i></div><p>3 年车龄新能源车中，坦克 400 Hi4-T、理想 MEGA、坦克 700 Hi4-T 跻身 TOP5，小米 SU7 以 <span class="num">63.7%</span> 保值率位居第 6；1 年车龄中长安启源 Q05 保值率达 95.8% ——「高质价比 + 技术可靠性」成为新的保值密码，国产新能源品牌占据保值率榜单 7 席。</p></li>
+  </ul>
+</section>
+
+<!-- ============ 03 八大趋势 ============ -->
+<section id="trends" class="sec-alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">03 / TRENDS</div>
+      <h2>2026 电动汽车营销八大趋势</h2>
+      <p class="lead">综合各机构报告与行业实践，2026 年电动汽车营销的竞争主轴，可概括为八条趋势线。</p>
+    </div>
+    <ul class="trend">
+      <li><div class="t-head"><span class="tn">TREND 01</span><div class="t-title">技术叙事成为新车的「内容货币」</div></div><div class="track"><i></i></div><p>在电动化竞争的下半场，技术发布会与「上市即热点」成为声量引擎：小鹏 GX 技术发布会、智己 LS8、蔚来 ES9 上市发布会等内容稿件密集产出；理想 L9 以「具身智能旗舰」定义产品叙事；长安以「天枢智能 + 蓝鲸超擎」双技术 IP 构建品牌叙事。营销团队需要把「技术参数」翻译成「用户价值语言」，并围绕发布会节点搭建内容矩阵。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 02</span><div class="t-title">短视频 + 直播进入精细化运营时代</div></div><div class="track"><i></i></div><p>汽车直播从风口回归理性：36氪报道显示，汽车直播 CPL（单条线索成本）高达 67–200 元，行业单线索获客成本同比上涨约 18%；抖音「双十一」心动购车节 GMV 2.78 亿元但难以复制电商带货逻辑，直播正沉淀为「留资引流 + 私域承接」的工具。粗放投流失效，短视频直播一体化投放、达人分层（金字塔 KOL + 私域 KOC）成为标配。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 03</span><div class="t-title">AI 营销全链路落地：AIGC + GEO + AI 智能体</div></div><div class="track"><i></i></div><p>微播易报告提出三大 AI 新质营销生产力：① <strong>AIGC 重构内容生产</strong> —— 基于品牌商品库、人群库、场景库、热点库批量产出适配多圈层的短视频 / 图文，摆脱单一 TVC 全网投放；② <strong>GEO（生成式引擎优化）重塑流量获取</strong> —— 让品牌社交 UGC 成为大模型推荐的「隐形燃料」，在用户 AI 提问时优先触达；③ <strong>AI 智能体赋能经销商</strong> —— 总部下放 AI 内容工具至门店，实现「千店千面」数字营销矩阵与总部—终端数据互通。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 04</span><div class="t-title">私域用户运营与车主生态资产化</div></div><div class="track"><i></i></div><p>比亚迪、长安私域流量超 1200 万，私域已成为衡量车企「用户型服务能力」的核心指标。车主社区、App、企微社群承担从潜客培育到复购转介绍的全程运营；理想、蔚来以「家庭 / 行政」场景社群运营强化品牌忠诚；麦肯锡建议车企以「用户全生命周期」视角整合公域获客与私域留存。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 05</span><div class="t-title">全品类、全域营销与矩阵作战</div></div><div class="track"><i></i></div><p>头部车企年迭代 8–12 款新车，多车型同步上市成为常态，新车传播窗口期压缩至 30 天以内。单一车型、单一平台打法失效，车企转向「全品类营销」：跨车型人群包复用、素材快速冷启动、抖音 / 小红书 / 微博 / 视频号 / 懂车帝 / 汽车之家全域分发，并配套车型 ID + 手机号双重去重、分层归因的数据体系。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 06</span><div class="t-title">出海营销：从「整车出口」到「本地化扎根」</div></div><div class="track"><i></i></div><p>2026 一季度汽车出口 222.6 万辆、同比增长 56.7%，其中新能源出口 95.4 万辆、同比增长 1.2 倍。零跑以「合资合作（Stellantis）+ 本地研发制造 + 产品适配」模式在欧洲 16 国上牌 2.33 万辆、同比增长 726.5%，意大利纯电市占率 33.5%；长安发布「海纳百川」计划 2.0 与「1445」全球战略。出海营销的核心命题：本地化叙事、合规传播、售后口碑与「在当地为当地」的品牌信任。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 07</span><div class="t-title">场景化内容与圈层种草</div></div><div class="track"><i></i></div><p>用户不再为参数买单，而为生活场景买单：家庭出行、城市通勤、户外露营、亲子安全等场景成为内容主线；小红书「种转一体」、B 站深度测评、抖音生活场景种草构成组合拳。理想、小鹏已把技术隐藏于场景体验背后，用「生活解决方案」建立情感联结。</p></li>
+      <li><div class="t-head"><span class="tn">TREND 08</span><div class="t-title">数据资产、全链路归因与「第五屏」营销</div></div><div class="track"><i></i></div><p>多车型同步传播倒逼数据中台建设：线索去重、分车型归因、动态出价优化成为投放标配；智能座舱正崛起为「出行场景第五营销屏」—— 车内位置轨迹、交互记录、出行时段等数据比社交标签更精准地还原用户真实生活需求，为出行前意图拦截、行驶中场景种草、驻车时段营销提供全新触点。</p></li>
+    </ul>
+  </div>
+</section>
+
+<div class="wrap">
+<!-- ============ 04 案例 ============ -->
+<section id="cases">
+  <div class="sec-head">
+    <div class="no">04 / CASES</div>
+    <h2>标杆案例拆解</h2>
+    <p class="lead">六家品牌，六种打法：从流量降维到生态共建，从场景叙事到出海扎根。</p>
+  </div>
+  <ul class="case">
+    <li><div class="cn">01</div><div><h3><span class="tag">流量降维</span>小米汽车：手机思维对汽车营销的降维打击</h3><p>小米将互联网「发布即顶流、流量即转化」的打法移植到汽车：SU7 / YU7 以现象级发布会、粉丝社群、生态链联动（手机 × 车 × 家）制造持续话题，YU7 上市即跻身上半年车系销量 TOP5；3 年车龄保值率 63.7% 印证「高质价比 + 技术形象」的心智建设成果。<strong>启示：流量运营能力 + 生态产品矩阵，可以重塑高端新能源品牌认知速度。</strong></p></div></li>
+    <li><div class="cn">02</div><div><h3><span class="tag">生态共建</span>华为鸿蒙智行：「含华量」与生态营销</h3><p>问界等鸿蒙智行品牌以「含华量」（鸿蒙座舱、ADS 智驾、华为门店渠道、超充联盟）构建技术信任背书；华为超充联盟入驻高德地图，实现导航场景内的充电服务无缝触达。新一代问界 M9 增程版与蔚来 ES9 同日上市、定价相近，正面争夺 BBA 升级用户。<strong>启示：生态型品牌可以把「技术底座 + 渠道网络 + 场景服务」打包成营销资产。</strong></p></div></li>
+    <li><div class="cn">03</div><div><h3><span class="tag">服务闭环</span>比亚迪：闪充网络 + 私域运营 + 多品牌矩阵</h3><p>比亚迪以闪充网络快速搭建「补能服务闭环」，高端与走量车型第一时间搭载闪充技术吸引车主接入；私域流量超 1200 万，配合王朝 / 海洋 / 腾势 / 方程豹 / 仰望多品牌矩阵，覆盖从大众到高端的全价格带。上半年销量同比下滑 45.9% 的「高基数阵痛」也提示：规模领先者同样需要依靠新品节奏与用户运营对冲增速回落。</p></div></li>
+    <li><div class="cn">04</div><div><h3><span class="tag">用户运营</span>蔚来：ES9 与换电联盟的用户生态</h3><p>蔚来 ES9 以行政豪华定位正面迎战问界 M9；换电网络从自有走向「蔚来 + 乐道 + 萤火虫」共享再到联盟开放，三大品牌车系活跃量超 114 万辆。增换购用户来源集中于本品牌与 BBA 豪华车型，印证国产高端品牌对传统豪华的「存量锁客 + 市场替代」。<strong>启示：用户运营（NIO House、换电体验、社区共创）是高端品牌最深的护城河。</strong></p></div></li>
+    <li><div class="cn">05</div><div><h3><span class="tag">出海扎根</span>零跑：合资出海的本土化样本</h3><p>零跑与 Stellantis 合资成立零跑国际，2026 一季度海外出口超 4 万辆创历史新高：欧洲 16 国上牌 2.33 万辆、同比增长 726.5%，欧盟 12 国纯电销量约 1.7 万辆居中国纯电品牌第一；意大利纯电市占率 33.5%、德国一季度上牌 3168 辆（+370.7%）。缅甸 SKD 工厂 16 个月投产、慕尼黑欧洲创新中心落地，海外销售网点约 950 家。<strong>启示：出海营销的胜负手在「当地制造 + 当地渠道 + 当地信任」。</strong></p></div></li>
+    <li><div class="cn">06</div><div><h3><span class="tag">场景叙事</span>理想：家庭场景叙事与具身智能旗舰</h3><p>新一代理想 L9 定价 45–50 万元，以「具身智能旗舰 SUV」定义产品叙事：29 英寸 6K 全景屏、移动屏、自研芯片算力升级，延续「家庭旗舰」心智；理想 L9 用户集中于 31–40 岁、二线及以上城市家庭。理想 i6 等新车型跻身车系销量 TOP5，验证「家庭场景 + 技术迭代」双叙事的可复制性。</p></div></li>
+  </ul>
+</section>
+
+<!-- ============ 05 策略建议 ============ -->
+<section id="advice" class="sec-alt">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="no">05 / PLAYBOOK</div>
+      <h2>营销策略建议：行动清单</h2>
+      <p class="lead">四组清单，覆盖内容、渠道、转化与组织 —— 可直接落入 2026 下半年工作计划。</p>
+    </div>
+    <div class="advice">
+      <div class="adv-col">
+        <h3><span class="n">A</span>内容策略：技术叙事 + 场景种草</h3>
+        <ul>
+          <li>技术发布会节点化运营：预热 — 直播 — 长尾解读 — 车主证言四阶段内容矩阵</li>
+          <li>以家庭出行、通勤、露营等真实场景重新包装产品卖点，替代参数堆砌</li>
+          <li>储备 AIGC 内容工厂：商品库 / 人群库 / 场景库 / 热点库「四库」驱动多圈层素材量产</li>
+          <li>重视 UGC 与微圈熟人推荐：让真实车主成为内容资产，反哺 AI 推荐体系（GEO）</li>
+        </ul>
+        <h3><span class="n">C</span>转化策略：AI 全链路提效</h3>
+        <ul>
+          <li>用 GEO 拦截用户 AI 提问场景，抢占大模型推荐位</li>
+          <li>搭建 AI 智能体虚拟销售顾问：7×24 咨询、线索分层培育、试驾预约、售后关怀全生命周期覆盖</li>
+          <li>以「车型 ID + 手机号」双重去重与分层归因，建立真实可用的线索 ROI 体系</li>
+          <li>将私域（企微 / App / 车主社区）作为线索承接与转介绍主阵地，对冲公域线索成本上涨</li>
+        </ul>
+      </div>
+      <div class="adv-col">
+        <h3><span class="n">B</span>渠道策略：全域协同 + 双增量市场</h3>
+        <ul>
+          <li>打通抖音、小红书、微博、视频号、懂车帝、汽车之家全域分发，多车型同步传播</li>
+          <li>下沉市场做「线上信任前置 + 线下体验落地」，联动下乡活动、县域巡展与乡镇充换电网络</li>
+          <li>出海营销以「当地制造 + 当地渠道 + 本地化叙事」构建信任，避免单纯贸易式传播</li>
+          <li>直播回归留资与私域承接定位，用 AI 智能体赋能经销商实现「千店千面」</li>
+        </ul>
+        <h3><span class="n">D</span>组织与数据策略：一体化作战</h3>
+        <ul>
+          <li>总部定调、区域适配、门店执行的三角协同：AI 工具下放门店，本地化物料快速生成</li>
+          <li>建立全链路数据中台：传播声量、线索、试驾、成交、复购、转介绍全链路归因</li>
+          <li>探索智能座舱「第五屏」营销触点，在合规前提下积累出行场景数据资产</li>
+          <li>以「用户全生命周期价值」而非单次成交考核营销团队，私域规模与活跃度纳入核心 KPI</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+<!-- ============ 06 展望 ============ -->
+<section id="vision" style="padding-bottom:0">
+  <div class="quote-block">
+    <span class="qmark">“</span>
+    <h2>展望下半年：市场将延续「分化中重构」的主线 —— 竞争焦点转向智驾平权、补能体验与用户运营的体系化比拼；<span class="hl2">AI 营销从概念走向落地</span>，具备「内容工厂 + GEO 布局 + 智能体转化」能力的品牌将拉开差距；出口高增长下，本地化质量决定出海能走多远；下沉市场在政策与基建共振下进入放量期。</h2>
+    <div class="kws">
+      <span class="kw">技术叙事</span><span class="kw">AI 生产力</span><span class="kw">全域协同</span><span class="kw">用户生态</span><span class="kw">长期主义</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 参考资料 ============ -->
+<section id="refs">
+  <div class="sec-head">
+    <div class="no">07 / SOURCES</div>
+    <h2>参考资料与数据来源</h2>
+  </div>
+  <div class="refs">
+    <p>中国汽车工业协会《中国汽车工业产销快讯》2026 年第 7 期</p>
+    <p>QuestMobile《2026 年新能源汽车市场发展半年报》（2026-07）</p>
+    <p>微播易 × CAAC《2026 年汽车行业社交营销实战与趋势报告》（2026-07）</p>
+    <p>艾瑞咨询《2026 年汽车行业 AI 信源影响力指数报告》（2026-06）</p>
+    <p>懂车帝《2025 中国新能源汽车下沉市场消费洞察报告》（2025-12）</p>
+    <p>中国电动汽车百人会《中国农村地区新能源汽车市场预测》</p>
+    <p>盖世汽车 / 第一电动网《2026 上半年新能源乘用车市场分析》</p>
+    <p>经济观察网《乘联分会：上半年新能源乘用车厂商出口量同比增长 124.3%》（2026-07-08）</p>
+    <p>36氪《2026 头部车企大转向：从价格混战到比拼技术、矩阵作战》（2026-05）</p>
+    <p>36氪 / Tech星球《200 元买一条客户线索，汽车直播正在掏空经销商钱包》（2026-05）</p>
+    <p>中国金融观察网《2026 汽车全品类营销选型指南》（2026-07）</p>
+    <p>巨懂车 × 抖音生活服务《数字化 4.0 时代：汽车交易线上转型白皮书》</p>
+    <p>新榜研究院《车企抖音热搜内容运营与流量转化白皮书》</p>
+    <p>麦肯锡《车企用户运营：博采众长，深化客户体验》</p>
+    <p>易车 / 盖世汽车《零跑出海分析：以合资为纽带的本地化样本》（2026）</p>
+    <p>长安汽车《「海纳百川」计划 2.0 与「1445」全球战略》（2026 北京车展）</p>
+    <p>新浪财经《2026 年中国女性汽车消费市场现状及发展前景分析》</p>
+    <p>乘联会 2026 年上半年新能源乘用车市场零售数据</p>
+  </div>
+</section>
+
+<footer>
+  本报告为基于公开渠道信息的整理与观点汇编，仅供参考，不构成任何投资或经营决策建议。数据版权归原始发布机构所有。<br>
+  生成于 2026 年 8 月 · Minis　·　<a href="../index.html">查看旧版</a>
+</footer>
+</div>
+
+<script>
+(function(){
+  /* 页面可见性：visible 才启动入场/显现动画（hidden 时保持内容完整可见） */
+  function pageVisible(){ return document.visibilityState === 'visible'; }
+  var heroPlayed = false;
+  function playHero(){
+    if(heroPlayed || !pageVisible()) return;
+    heroPlayed = true;
+    document.querySelector('.hero').classList.add('anim');
+  }
+
+  /* 滚动进度条 */
+  var pbar = document.getElementById('pbar');
+  function updPbar(){
+    var h = document.documentElement.scrollHeight - innerHeight;
+    pbar.style.width = (h > 0 ? (scrollY / h * 100) : 0) + '%';
+  }
+  addEventListener('scroll', updPbar, {passive:true}); updPbar();
+
+  /* 数字 count-up（rAF 驱动，失败则直接显示终值） */
+  function countUp(el){
+    var target = parseFloat(el.getAttribute('data-count'));
+    var dec = parseInt(el.getAttribute('data-dec') || '0');
+    var dur = 1400, t0 = null, done = false;
+    function tick(t){
+      if(!t0) t0 = t;
+      var p = Math.min((t - t0) / dur, 1);
+      p = 1 - Math.pow(1 - p, 3);
+      el.textContent = (target * p).toFixed(dec);
+      if(p < 1) requestAnimationFrame(tick); else done = true;
+    }
+    try { requestAnimationFrame(tick); } catch(e) { el.textContent = target.toFixed(dec); }
+    setTimeout(function(){ if(!done) el.textContent = target.toFixed(dec); }, 2500);
+  }
+  document.querySelectorAll('[data-count]').forEach(countUp);
+
+  /* 仪表盘条形 */
+  var bar = document.querySelector('.d-row .bar i');
+  if(bar){ bar.style.width = '100%'; }
+
+  /* 滚动显现：仅页面可见时隐藏待显元素，进入视口后显示；4s 兜底强制全显 */
+  var targets = document.querySelectorAll('.concl li, .shift-item, .trend li, .case li, .fig, .adv-col, .refs p');
+  function setupReveal(){
+    if(!pageVisible() || !('IntersectionObserver' in window) || !targets.length) return;
+    targets.forEach(function(el){ el.classList.add('rv'); el.classList.add('pre'); });
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.remove('pre'); io.unobserve(en.target); }
+      });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.05});
+    targets.forEach(function(el){ io.observe(el); });
+    setTimeout(function(){ targets.forEach(function(el){ el.classList.remove('pre'); }); }, 4000);
+  }
+
+  /* 趋势轨道生长 */
+  var tracks = document.querySelectorAll('.trend .track i');
+  function setupTracks(){
+    if(!pageVisible() || !('IntersectionObserver' in window) || !tracks.length){ tracks.forEach(function(t){ t.classList.add('go'); }); return; }
+    var tio = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('go'); tio.unobserve(en.target); }
+      });
+    }, {rootMargin:'0px 0px -6% 0px'});
+    tracks.forEach(function(t){ tio.observe(t); });
+    setTimeout(function(){ tracks.forEach(function(t){ t.classList.add('go'); }); }, 4000);
+  }
+
+  /* 初始化：可见即播；从后台切回时补播 */
+  playHero(); setupReveal(); setupTracks();
+  document.addEventListener('visibilitychange', function(){
+    if(pageVisible()){ playHero(); setupReveal(); setupTracks(); }
+  });
+})();
+</script>
+<script>
+  /* 在首页 iframe 预览中只展示 hero 区域 */
+  if (window.self !== window.top) {
+    document.addEventListener('DOMContentLoaded', function(){
+      var hero = document.querySelector('header.hero, section.hero');
+      if (hero) {
+        document.body.innerHTML = '';
+        document.body.appendChild(hero);
+        document.body.style.overflow = 'hidden';
+        document.body.style.background = getComputedStyle(hero).background;
+        // 让 hero 撑满 iframe 视口，避免顶部留白和比例失真
+        hero.style.minHeight = '100vh';
+        hero.style.paddingTop = '50px';
+        hero.style.paddingBottom = '50px';
+        hero.style.boxSizing = 'border-box';
+      }
+    });
+  }
+</script>
+</body>
+</html>

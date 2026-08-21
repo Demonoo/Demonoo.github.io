@@ -1,0 +1,12 @@
+# WorkBuddy 工作区（记忆 + 临时工具），不进入版本库
+.workbuddy/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 构建产物（当前项目纯静态，无构建）
+dist/
+build/
+node_modules/
