@@ -194,9 +194,28 @@
      ========================================================= */
   .hero {
     position: relative;
-    padding: 50px 0 40px;
+    padding: 0;
     overflow: hidden;
+    isolation: isolate;
+    aspect-ratio: 2.35;
+    display: flex;
+    align-items: center;
   }
+  .hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%; height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    z-index: -2;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.32) 45%, rgba(0,0,0,0.5) 100%);
+  }
+  .hero-content { position: relative; z-index: 1; width: 100%; }
 
   .hero-title {
     font-family: var(--font-display);
@@ -204,18 +223,20 @@
     font-size: clamp(20px, 2.6vw, 36px);
     line-height: 1.05;
     letter-spacing: 0.01em;
-    color: var(--ink);
+    color: #fff;
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 0 2px 14px rgba(0,0,0,0.45);
   }
   .hero-title .t-dot {
     display: inline-block;
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: var(--ink);
+    background: #fff;
     margin: 0 0.55em;
     vertical-align: middle;
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
   }
 
   .intro {
@@ -223,11 +244,12 @@
     font-weight: 400;
     font-size: clamp(18px, 1.6vw, 20px);
     line-height: 1.95;
-    color: var(--ink-dim);
+    color: #fff;
     max-width: none;
     width: 100%;
     font-style: normal;
     text-align: center;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.35);
   }
   .intro .hl {
     color: inherit;
@@ -244,12 +266,12 @@
     font-size: 12px;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--ink);
+    color: #fff;
     padding: 10px 28px;
-    border: 1px solid var(--ink);
+    border: 1px solid #fff;
     transition: background 0.3s, color 0.3s;
   }
-  .hero-cta a:hover { background: var(--ink); color: #fff; }
+  .hero-cta a:hover { background: #fff; color: #000; }
 
   /* —— 报告卡片（归属于 LLM SEARCH 板块） —— */
   .pillar-reports {
@@ -435,28 +457,11 @@
      FOOTER
      ========================================================= */
   .site-footer { padding: 88px 0 48px; }
-  .footer-top {
-    padding-bottom: 56px;
-    border-bottom: 1px solid var(--line);
-    margin-bottom: 32px;
-  }
-  .footer-brand {
-    margin-bottom: 48px;
-  }
-  .footer-slogan {
-    font-family: var(--font);
-    font-weight: 400;
-    font-size: clamp(22px, 2.4vw, 30px);
-    line-height: 1.4;
-    color: var(--ink);
-    max-width: 680px;
-  }
-  .footer-slogan .em { font-style: italic; }
   .footer-bottom {
     display: flex; justify-content: space-between; align-items: center;
     font-family: var(--font-mono);
     font-size: 11px; letter-spacing: 0.16em;
-    color: var(--ink-mute);
+    color: var(--ink);
     text-transform: uppercase;
   }
   .footer-bottom .blink {
@@ -470,11 +475,18 @@
     transition: opacity 0.3s;
   }
   .footer-about:hover { opacity: 0.55; }
-  .footer-mail {
-    color: var(--ink-mute);
-    transition: color 0.3s;
+  .footer-mail-row {
+    margin-top: 12px;
   }
-  .footer-mail:hover { color: var(--ink); }
+  .footer-mail {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink);
+    transition: opacity 0.3s;
+  }
+  .footer-mail:hover { opacity: 0.55; }
   footer.site-footer > div.wrap > div.footer-bottom > span {
     font-family: var(--font-mono);
   }
@@ -500,6 +512,12 @@
     .ticker-track, .footer-bottom .blink { animation: none; }
     .reveal { opacity: 1; transform: none; transition: none; }
     html { scroll-behavior: auto; }
+    .hero-video, .hero-overlay { display: none; }
+    .hero-title { color: var(--ink); text-shadow: none; }
+    .intro { color: var(--ink-dim); text-shadow: none; }
+    .hero-title .t-dot { background: var(--ink); box-shadow: none; }
+    .hero-cta a { color: var(--ink); border-color: var(--ink); }
+    .hero-cta a:hover { background: var(--ink); color: #fff; }
   }
 
   /* =========================================================
@@ -507,7 +525,8 @@
      ========================================================= */
   @media (max-width: 768px) {
     .wrap, .wrap-wide { padding: 0 20px; }
-    .hero { padding: 40px 0 0; }
+    .hero { aspect-ratio: auto; padding: 48px 0 40px; min-height: 60vh; }
+    .hero-video { object-fit: cover; object-position: center bottom; }
     .hero .intro { padding: 0 20px; }
     .pillar { padding: 20px 0 64px; }
     .header-slogan { display: none; }
@@ -540,7 +559,11 @@
 
 <!-- ========== HERO ========== -->
 <section class="hero">
-  <div class="wrap">
+  <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+    <source src="assets/helloworld.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="wrap hero-content">
 
     <h1 class="hero-title reveal">
       <span>AI</span><span class="t-dot"></span><span>QUANT</span><span class="t-dot"></span><span>SOCIAL</span><span class="t-dot"></span><span>MARKETING</span>
@@ -643,15 +666,12 @@
 <!-- ========== FOOTER ========== -->
 <footer class="site-footer">
   <div class="wrap">
-    <div class="footer-top reveal">
-      <p class="footer-slogan">
-        <span class="em">媒介</span>即信息，<span class="em">信息</span>创造价值。
-      </p>
-    </div>
     <div class="footer-bottom">
       <span><span class="blink"></span>DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
-      <a href="mailto:demonai2025@163.com" class="footer-mail">demonai2025@163.com</a>
       <a href="about.html" class="footer-about">ABOUT FOUNDER</a>
+    </div>
+    <div class="footer-mail-row">
+      <a href="mailto:demonai2025@163.com" class="footer-mail">demonai2025@163.com</a>
     </div>
   </div>
 </footer>

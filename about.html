@@ -104,9 +104,9 @@
     margin-bottom: 24px;
   }
   .hero-role {
-    font-size: clamp(18px, 1.8vw, 22px);
+    font-size: clamp(15px, 1.5vw, 17px);
     color: var(--ink-dim);
-    max-width: 640px;
+    max-width: 960px;
   }
   .hero-role b { color: var(--ink); font-weight: 600; }
 
@@ -209,7 +209,7 @@
   .campaign {
     background: var(--bg);
     border: 1px solid var(--line);
-    padding: 32px 34px;
+    padding: 24px 26px;
   }
   .campaign + .campaign { margin-top: 1px; }
   .campaign .row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
@@ -222,8 +222,8 @@
     color: var(--ink-mute);
     white-space: nowrap;
   }
-  .campaign .desc { font-size: 14.5px; color: var(--ink-dim); line-height: 1.85; margin-top: 14px; }
-  .campaign .bullets { margin-top: 14px; padding-left: 0; list-style: none; }
+  .campaign .desc { font-size: 14.5px; color: var(--ink-dim); line-height: 1.85; margin-top: 10px; }
+  .campaign .bullets { margin-top: 10px; padding-left: 0; list-style: none; }
   .campaign .bullets li {
     font-size: 14px;
     color: var(--ink-dim);
@@ -244,18 +244,80 @@
   .campaign a:hover { opacity: 0.55; }
 
   /* 左右分栏案例：文字左、媒体右 */
-  .campaign.split { display: grid; grid-template-columns: 1.5fr 1fr; gap: 36px; align-items: start; }
-  .campaign.split .campaign-media .video-card { max-width: none; margin: 0; }
+  .campaign.split { display: grid; grid-template-columns: 1.5fr 1fr; gap: 24px; align-items: start; }
+  .campaign.split .campaign-media { align-self: end; padding-bottom: 4px; }
+  .campaign.split .campaign-media .video-card { max-width: 150px; margin: 0 auto; }
   .campaign.split .campaign-media .video-card.main { width: 100%; }
-  .campaign.split .campaign-media .video-card.main + .video-card.main { margin-top: 14px; }
+  .campaign.split .campaign-media .video-card.main + .video-card.main { margin-top: 10px; }
+  /* ELEMIS split（第 2 个 split）：右列视频多，缩小 */
+  .campaign.split + .campaign.split .campaign-media .video-card { max-width: 200px; }
+
+  /* PDF 内嵌展示 */
+  .pdf-embed { margin-top: 20px; }
+  .pdf-embed iframe {
+    width: 100%;
+    height: 620px;
+    border: 1px solid var(--line);
+    background: #fafafa;
+  }
+
+  /* 视频内嵌展示 */
+  .video-embed { margin-top: 20px; text-align: center; }
+  .video-embed video {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    border: 1px solid var(--line);
+    background: #000;
+  }
+
+  /* 音乐作品 */
+  .music-wrap { display: flex; align-items: flex-start; gap: 24px; }
+  .music-wrap .sec-label { margin-bottom: 0; white-space: nowrap; padding-top: 4px; }
+  .music-main { flex: 1; min-width: 0; }
+  .music-note { margin-top: 12px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em; color: var(--ink-mute); text-transform: uppercase; text-align: center; }
+  .music-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+  .music-item {
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    border: 1px solid var(--line); padding: 10px;
+    max-width: 180px; margin: 0 auto; width: 100%;
+  }
+  .music-cover-wrap { position: relative; flex: 0 0 auto; width: 140px; }
+  .music-cover-wrap img { display: block; width: 100%; aspect-ratio: 1/1; object-fit: cover; }
+  .music-play {
+    position: absolute; inset: 0; margin: auto;
+    width: 40px; height: 40px; border-radius: 50%;
+    background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.55);
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .music-play::before {
+    content: ''; display: block;
+    border-style: solid; border-width: 8px 0 8px 14px;
+    border-color: transparent transparent transparent #fff;
+    margin-left: 3px;
+  }
+  .music-play:hover { background: rgba(0,0,0,0.7); transform: scale(1.06); }
+  .music-play.playing::before {
+    width: 10px; height: 16px; margin-left: 0; border-width: 0;
+    background:
+      linear-gradient(#fff 0 0) 0 0/4px 100% no-repeat,
+      linear-gradient(#fff 0 0) 100% 0/4px 100% no-repeat;
+  }
+  .music-name { font-size: 14px; font-weight: 600; }
+
   @media (max-width: 768px) {
     .campaign.split { grid-template-columns: 1fr; }
+    .music-grid { grid-template-columns: 1fr; }
+    .music-wrap { flex-direction: column; gap: 20px; }
+    .music-wrap .sec-label { margin-bottom: 20px; }
   }
 
   /* 视频封面卡片（小尺寸展示） */
   .video-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
   .video-row .video-card { max-width: none; margin: 14px 0; }
-  .video-row.video-row-sub { grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 18px; }
+  .video-row.video-row-sub { grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
   .video-row-sub .video-card { margin: 0; }
   .video-card {
     display: block;
@@ -293,6 +355,7 @@
     color: #fff;
     background: rgba(0,0,0,0.7);
     padding: 5px 10px;
+    white-space: nowrap;
   }
 
   /* 工具卡片（带状态） */
@@ -316,11 +379,21 @@
 
   /* ============ Footer ============ */
   .site-footer { padding: 56px 0 40px; }
+  .footer-mail-row { margin-top: 12px; }
+  .footer-mail {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink);
+    transition: opacity 0.3s;
+  }
+  .footer-mail:hover { opacity: 0.55; }
   .footer-bottom {
     display: flex; justify-content: space-between; align-items: center;
     font-family: var(--font-mono);
     font-size: 11px; letter-spacing: 0.16em;
-    color: var(--ink-mute);
+    color: var(--ink);
     text-transform: uppercase;
   }
   .footer-bottom .blink {
@@ -349,6 +422,7 @@
     .skills, .cases, .tools { grid-template-columns: 1fr; }
     section.block { padding: 56px 0; }
     .footer-bottom { flex-direction: column; gap: 12px; align-items: flex-start; }
+    .video-row.video-row-sub { grid-template-columns: repeat(2, 1fr); }
   }
 </style>
 </head>
@@ -371,8 +445,44 @@
     <p class="kicker">Founder · DMEDIA Studio</p>
     <h1>Demon</h1>
     <p class="hero-role">
-      DMEDIA 创始人。<b>10 年社交媒体红人内容营销</b>经验，覆盖汽车、金融、快消、电商、在线旅游、美妆护肤、宠物、3C 等行业。
+      DMEDIA 创始人。<br><b>10 年社交媒体红人内容营销</b>经验，覆盖汽车、金融、快消、电商、在线旅游、美妆护肤、宠物、3C 等行业。
     </p>
+  </div>
+</section>
+
+<!-- ========== 音乐作品 ========== -->
+<section class="block" style="padding-top: 24px;">
+  <div class="wrap music-wrap">
+    <p class="sec-label">AI Music · 音乐作品</p>
+    <div class="music-main">
+      <div class="music-grid">
+      <div class="music-item">
+        <div class="music-cover-wrap">
+          <img src="assets/lianri-yinyu-cover.jpg" alt="连日阴雨 封面" loading="lazy" />
+          <button class="music-play" aria-label="播放 连日阴雨"></button>
+        </div>
+        <div class="music-name">连日阴雨</div>
+        <audio preload="metadata" src="assets/lianri-yinyu.mp3"></audio>
+      </div>
+      <div class="music-item">
+        <div class="music-cover-wrap">
+          <img src="assets/dear-dolores-cover.jpg" alt="Dear Dolores 封面" loading="lazy" />
+          <button class="music-play" aria-label="播放 Dear Dolores"></button>
+        </div>
+        <div class="music-name">Dear Dolores</div>
+        <audio preload="metadata" src="assets/dear-dolores.m4a"></audio>
+      </div>
+      <div class="music-item">
+        <div class="music-cover-wrap">
+          <img src="assets/wujian-cover.jpg" alt="无间 封面" loading="lazy" />
+          <button class="music-play" aria-label="播放 无间"></button>
+        </div>
+        <div class="music-name">无间</div>
+        <audio preload="metadata" src="assets/wujian.m4a"></audio>
+      </div>
+    </div>
+      <p class="music-note">更多作品搜索视频号 @Demononoo</p>
+    </div>
   </div>
 </section>
 
@@ -383,14 +493,32 @@
     <div class="exp-grid">
       <div class="exp-num">10<span style="font-size:32px;vertical-align:super">年</span></div>
       <p class="exp-copy">
-        擅长<b>媒介项目管理运营</b>，<b>媒介内容策略</b>，<b>媒体谈判及购买</b>，<b>舆论话题热点营销</b>，<b>营销数据处理及分析</b>。如：品牌及 IP 异业合作、艺人短视频、KOL 短视频种草、KFS 及户外媒体整合营销。
+        擅长<b>媒介项目管理运营</b>，<b>媒介内容策略</b>，<b>媒体谈判及购买</b>，<b>舆论话题热点营销</b>，        <b>营销数据处理及分析</b>。<br>如：品牌及 IP 异业合作、艺人短视频、KOL 短视频种草、KFS 及户外媒体整合营销。
       </p>
     </div>
   </div>
 </section>
 
+<!-- ========== 游轮品牌官网 UI 设计案例 ========== -->
+<section class="block">
+  <div class="wrap">
+    <p class="sec-label">Case · 游轮品牌官网 UI 设计</p>
+    <div class="campaign">
+      <div class="row">
+        <span class="nm">游轮品牌官网 UI 设计</span>
+        <span class="tag">Vibe Coding · 2026</span>
+      </div>
+      <p class="desc">主导品牌官网迭代，采用 Google AI Studio / 字节 Trae AI VibeCoding（氛围编程）前端 UI 设计，将设计到落地的周期缩短 40%，显著提升了官网的视觉表现与用户体验。</p>
+    </div>
+    <div class="video-embed">
+      <p class="desc" style="margin-top:0;">长江行游轮 Vibe Coding 演示：</p>
+      <video src="assets/cruise-vibecoding.mp4" controls preload="metadata"></video>
+    </div>
+  </div>
+</section>
+
 <!-- ========== 媒介传播案例 ========== -->
-<section class="block" style="border-bottom:0;">
+<section class="block" style="border-bottom:0; padding: 48px 0;">
   <div class="wrap">
     <p class="sec-label">Campaigns · 近期社交媒体媒介传播案例</p>
     <div class="campaign split">
@@ -459,17 +587,27 @@
         </a>
       </div>
     </div>
-    <div class="campaign">
-      <div class="row">
-        <span class="nm">ELEMIS 卸妆膏种草</span>
-        <span class="tag">抖音 · 小红书 · 2022</span>
+    <div class="campaign split">
+      <div class="campaign-text">
+        <div class="row">
+          <span class="nm">ELEMIS 卸妆膏种草</span>
+          <span class="tag">抖音 · 小红书 · 2022</span>
+        </div>
+        <p class="desc">本次传播以小红书、抖音为核心阵地，通过 KOL 视频内容精准触达目标人群。内容创作上，围绕卸妆膏产品卖点，携手多位明星及垂类达人，从美妆教程、生活 Vlog 等多角度进行立体化阐述。</p>
+        <ul class="bullets">
+          <li><b>矩阵式达人布局：</b>汇聚明星影响力（杨之楹、毛小星）、美妆垂类头部达人（抖音的宵夜、喵招诗雨）及优质生活方式达人（小红书红人就是cathy呀、安吉林Angelene），实现跨圈层渗透。</li>
+          <li><b>多元化内容视角：</b>美妆视角由头部及垂类达人深度演示产品功效，突出清洁力、温和性等核心卖点；生活 Vlog 视角通过明星及生活方式红人的真实日常体验，自然融入产品，展现不同生活场景下的使用感与高品质格调，增强信任与代入感。</li>
+          <li><b>精准人群覆盖：</b>借助达人自身特质（海外背景、专业美妆知识），高效吸引并沟通对护肤品质有高要求的年轻消费群体，提升品牌好感度与转化潜力。</li>
+        </ul>
       </div>
-      <p class="desc">本次传播以小红书、抖音为核心阵地，通过 KOL 视频内容精准触达目标人群。内容创作上，围绕卸妆膏产品卖点，携手多位明星及垂类达人，从美妆教程、生活 Vlog 等多角度进行立体化阐述。</p>
-      <ul class="bullets">
-        <li><b>矩阵式达人布局：</b>汇聚明星影响力（杨之楹、毛小星）、美妆垂类头部达人（抖音的宵夜、喵招诗雨）及优质生活方式达人（小红书红人就是cathy呀、安吉林Angelene），实现跨圈层渗透。</li>
-        <li><b>多元化内容视角：</b>美妆视角由头部及垂类达人深度演示产品功效，突出清洁力、温和性等核心卖点；生活 Vlog 视角通过明星及生活方式红人的真实日常体验，自然融入产品，展现不同生活场景下的使用感与高品质格调，增强信任与代入感。</li>
-        <li><b>精准人群覆盖：</b>借助达人自身特质（海外背景、专业美妆知识），高效吸引并沟通对护肤品质有高要求的年轻消费群体，提升品牌好感度与转化潜力。</li>
-      </ul>
+      <div class="campaign-media">
+        <p class="desc" style="margin-top:0;">案例视频笔记：</p>
+        <a class="video-card" href="https://xhslink.cn/o/8aBh7KhGAFf" target="_blank" rel="noopener" aria-label="查看小红书案例视频">
+          <img src="assets/elemis-balm-cover.jpg" alt="ELEMIS 卸妆膏 案例视频封面" loading="lazy" />
+          <span class="play" aria-hidden="true"></span>
+          <span class="label">WATCH ON 小红书</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -478,11 +616,27 @@
 <footer class="site-footer">
   <div class="wrap">
     <div class="footer-bottom">
-      <span><span class="blink"></span>DMEDIA · SHANGHAI · 2026</span>
+      <span><span class="blink"></span>DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
       <a class="back-link" href="index.html">← 返回首页</a>
+    </div>
+    <div class="footer-mail-row">
+      <a href="mailto:demonai2025@163.com" class="footer-mail">demonai2025@163.com</a>
     </div>
   </div>
 </footer>
 
+<script>
+  // 音乐播放按钮：封面中央点击播放/暂停
+  document.querySelectorAll('.music-item').forEach((item) => {
+    const audio = item.querySelector('audio');
+    const btn = item.querySelector('.music-play');
+    if (!audio || !btn) return;
+    btn.addEventListener('click', () => {
+      if (audio.paused) { audio.play(); btn.classList.add('playing'); }
+      else { audio.pause(); btn.classList.remove('playing'); }
+    });
+    audio.addEventListener('ended', () => btn.classList.remove('playing'));
+  });
+</script>
 </body>
 </html>
