@@ -272,46 +272,8 @@
     background: #000;
   }
 
-  /* 音乐作品 */
-  .music-wrap { display: flex; align-items: flex-start; gap: 24px; }
-  .music-wrap .sec-label { margin-bottom: 0; white-space: nowrap; padding-top: 4px; }
-  .music-main { flex: 1; min-width: 0; }
-  .music-note { margin-top: 12px; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em; color: var(--ink-mute); text-transform: uppercase; text-align: center; }
-  .music-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
-  .music-item {
-    display: flex; flex-direction: column; align-items: center; gap: 8px;
-    border: 1px solid var(--line); padding: 10px;
-    max-width: 180px; margin: 0 auto; width: 100%;
-  }
-  .music-cover-wrap { position: relative; flex: 0 0 auto; width: 140px; }
-  .music-cover-wrap img { display: block; width: 100%; aspect-ratio: 1/1; object-fit: cover; }
-  .music-play {
-    position: absolute; inset: 0; margin: auto;
-    width: 40px; height: 40px; border-radius: 50%;
-    background: rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.55);
-    cursor: pointer; display: flex; align-items: center; justify-content: center;
-    transition: background 0.3s, transform 0.3s;
-  }
-  .music-play::before {
-    content: ''; display: block;
-    border-style: solid; border-width: 8px 0 8px 14px;
-    border-color: transparent transparent transparent #fff;
-    margin-left: 3px;
-  }
-  .music-play:hover { background: rgba(0,0,0,0.7); transform: scale(1.06); }
-  .music-play.playing::before {
-    width: 10px; height: 16px; margin-left: 0; border-width: 0;
-    background:
-      linear-gradient(#fff 0 0) 0 0/4px 100% no-repeat,
-      linear-gradient(#fff 0 0) 100% 0/4px 100% no-repeat;
-  }
-  .music-name { font-size: 14px; font-weight: 600; }
-
   @media (max-width: 768px) {
     .campaign.split { grid-template-columns: 1fr; }
-    .music-grid { grid-template-columns: 1fr; }
-    .music-wrap { flex-direction: column; gap: 20px; }
-    .music-wrap .sec-label { margin-bottom: 20px; }
   }
 
   /* 视频封面卡片（小尺寸展示） */
@@ -447,42 +409,6 @@
     <p class="hero-role">
       DMEDIA 创始人。<br><b>10 年社交媒体红人内容营销</b>经验，覆盖汽车、金融、快消、电商、在线旅游、美妆护肤、宠物、3C 等行业。
     </p>
-  </div>
-</section>
-
-<!-- ========== 音乐作品 ========== -->
-<section class="block" style="padding-top: 24px;">
-  <div class="wrap music-wrap">
-    <p class="sec-label">AI Music · 音乐作品</p>
-    <div class="music-main">
-      <div class="music-grid">
-      <div class="music-item">
-        <div class="music-cover-wrap">
-          <img src="assets/lianri-yinyu-cover.jpg" alt="连日阴雨 封面" loading="lazy" />
-          <button class="music-play" aria-label="播放 连日阴雨"></button>
-        </div>
-        <div class="music-name">连日阴雨</div>
-        <audio preload="metadata" src="assets/lianri-yinyu.mp3"></audio>
-      </div>
-      <div class="music-item">
-        <div class="music-cover-wrap">
-          <img src="assets/dear-dolores-cover.jpg" alt="Dear Dolores 封面" loading="lazy" />
-          <button class="music-play" aria-label="播放 Dear Dolores"></button>
-        </div>
-        <div class="music-name">Dear Dolores</div>
-        <audio preload="metadata" src="assets/dear-dolores.m4a"></audio>
-      </div>
-      <div class="music-item">
-        <div class="music-cover-wrap">
-          <img src="assets/wujian-cover.jpg" alt="无间 封面" loading="lazy" />
-          <button class="music-play" aria-label="播放 无间"></button>
-        </div>
-        <div class="music-name">无间</div>
-        <audio preload="metadata" src="assets/wujian.m4a"></audio>
-      </div>
-    </div>
-      <p class="music-note">更多作品搜索视频号 @Demononoo</p>
-    </div>
   </div>
 </section>
 
@@ -625,18 +551,5 @@
   </div>
 </footer>
 
-<script>
-  // 音乐播放按钮：封面中央点击播放/暂停
-  document.querySelectorAll('.music-item').forEach((item) => {
-    const audio = item.querySelector('audio');
-    const btn = item.querySelector('.music-play');
-    if (!audio || !btn) return;
-    btn.addEventListener('click', () => {
-      if (audio.paused) { audio.play(); btn.classList.add('playing'); }
-      else { audio.pause(); btn.classList.remove('playing'); }
-    });
-    audio.addEventListener('ended', () => btn.classList.remove('playing'));
-  });
-</script>
 </body>
 </html>
