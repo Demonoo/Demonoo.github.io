@@ -799,7 +799,9 @@
     const cluEl = document.getElementById('hs-clusters');
     const listEl = document.getElementById('hs-list');
 
-    fetch('data/hotspots.json', { cache: 'no-store' })
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort('timeout'), 12000);
+    fetch('data/hotspots.json', { signal: ctl.signal })
       .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then((d) => {
         metaEl.textContent = '更新于 ' + d.updated_at + ' · 来源 ' + (d.source || '') + ' · ' + (d.summary['总词条数'] || 0) + ' 条';
@@ -836,8 +838,9 @@
         ).join('');
       })
       .catch(() => {
-        metaEl.textContent = '暂无数据 — 首次定时分析运行后自动生成';
-        emoEl.innerHTML = '<div class="hs-empty">等待 GitHub Actions 定时任务产出数据…</div>';
+        clearTimeout(timer);
+        metaEl.textContent = '数据加载失败 — 请刷新页面重试';
+        emoEl.innerHTML = '<div class="hs-empty">暂无数据</div>';
         cluEl.innerHTML = '';
         listEl.innerHTML = '';
       });
