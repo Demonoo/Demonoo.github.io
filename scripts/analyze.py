@@ -12,7 +12,7 @@ from datetime import datetime, timezone, timedelta
 
 API_KEY = os.environ.get("GLM_API_KEY", "")
 API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-MODEL = os.environ.get("GLM_MODEL", "glm-4-flash")
+MODEL = os.environ.get("GLM_MODEL", "glm-4.7-flash")
 
 # 预定义领域枚举（让 LLM 从固定标签选，避免自由发挥导致标签不一致）
 DOMAINS = ["体育", "娱乐", "社会", "科技", "财经", "民生", "情感", "美食", "时尚",
@@ -76,6 +76,14 @@ def call_glm(keyword: str, retry: int = 2):
             r = json.loads(resp.read().decode("utf-8"))
             content = r["choices"][0]["message"]["content"]
             return extract_json(content)
+        except urllib.error.HTTPError as e:
+            # 429 限流：退避更久再重试
+            wait = 20 if e.code == 429 else 2.5 * (attempt + 1)
+            if attempt == retry:
+                print(f"  [FAIL] {keyword}: HTTP {e.code}")
+                return None
+            print(f"  [RATE-LIMIT] {keyword}: HTTP 429, 等待 {wait}s 重试")
+            time.sleep(wait)
         except Exception as e:
             if attempt == retry:
                 print(f"  [FAIL] {keyword}: {e}")
@@ -108,8 +116,7 @@ def main():
             }
             items.append(item)
         print(f"  [{i}/{len(titles)}] {r.get('情感倾向','?') if r else 'FAIL'}  {t}")
-        if i % 20 == 0:
-            time.sleep(0.5)
+        time.sleep(0.4)  # 逐条间隔，降低免费档限流概率
 
     # 聚类：按创作领域分组
     clusters = defaultdict(list)
