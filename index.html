@@ -454,6 +454,62 @@
   }
 
   /* =========================================================
+     HOTSPOT GENE
+     ========================================================= */
+  .hotspot { padding: 80px 0; border-bottom: 1px solid var(--line); }
+  .hotspot .kicker {
+    font-family: var(--font-mono); font-size: 11px;
+    letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-mute);
+    margin-bottom: 16px;
+  }
+  .hotspot-title {
+    font-family: var(--font-display); font-weight: 400;
+    font-size: clamp(32px, 4vw, 48px); letter-spacing: 0.01em;
+    margin-bottom: 8px;
+  }
+  .hotspot-meta {
+    font-family: var(--font-mono); font-size: 12px; color: var(--ink-mute);
+    letter-spacing: 0.06em; margin-bottom: 36px;
+  }
+  .hs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+  .hs-label {
+    font-family: var(--font-mono); font-size: 11px;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-mute);
+    margin-bottom: 16px;
+  }
+  .hs-emotions { display: flex; flex-direction: column; gap: 10px; }
+  .hs-emo-row { display: grid; grid-template-columns: 52px 1fr 32px; align-items: center; gap: 12px; }
+  .hs-emo-name { font-size: 14px; color: var(--ink); }
+  .hs-emo-bar { height: 8px; background: var(--line); overflow: hidden; }
+  .hs-emo-fill { height: 100%; background: var(--ink); }
+  .hs-emo-num { font-family: var(--font-mono); font-size: 12px; color: var(--ink-dim); text-align: right; }
+  .hs-clusters { display: flex; flex-wrap: wrap; gap: 8px; }
+  .hs-chip {
+    display: inline-flex; align-items: baseline; gap: 6px;
+    padding: 7px 14px; border: 1px solid var(--line); font-size: 14px;
+  }
+  .hs-chip b { font-weight: 600; }
+  .hs-chip span { font-family: var(--font-mono); font-size: 11px; color: var(--ink-mute); }
+  .hs-list { border-top: 1px solid var(--line); }
+  .hs-item {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 12px 4px; border-bottom: 1px solid var(--line);
+  }
+  .hs-item-title { font-size: 14.5px; color: var(--ink); }
+  .hs-item-tags { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+  .hs-tag {
+    font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.08em;
+    padding: 3px 8px; border: 1px solid var(--line); color: var(--ink-dim);
+  }
+  .hs-tag.emo { color: var(--ink); border-color: var(--ink); }
+  .hs-empty { color: var(--ink-mute); font-size: 14px; padding: 24px 0; }
+
+  @media (max-width: 768px) {
+    .hs-grid { grid-template-columns: 1fr; gap: 32px; }
+    .hs-item { flex-direction: column; align-items: flex-start; gap: 8px; }
+  }
+
+  /* =========================================================
      FOOTER
      ========================================================= */
   .site-footer { padding: 88px 0 48px; }
@@ -663,6 +719,29 @@
   </div>
 </section>
 
+<!-- ========== HOTSPOT GENE ========== -->
+<section class="hotspot" id="hotspot">
+  <div class="wrap">
+    <p class="kicker">Hotspot Gene</p>
+    <h2 class="hotspot-title">热点基因图谱</h2>
+    <p class="hotspot-meta" id="hs-meta">数据加载中…</p>
+
+    <div class="hs-grid">
+      <div class="hs-col">
+        <p class="hs-label">情感分布</p>
+        <div class="hs-emotions" id="hs-emotions"></div>
+      </div>
+      <div class="hs-col">
+        <p class="hs-label">领域聚类</p>
+        <div class="hs-clusters" id="hs-clusters"></div>
+      </div>
+    </div>
+
+    <p class="hs-label" style="margin-top:36px;">热点词条</p>
+    <div class="hs-list" id="hs-list"></div>
+  </div>
+</section>
+
 <!-- ========== FOOTER ========== -->
 <footer class="site-footer">
   <div class="wrap">
@@ -712,6 +791,57 @@
     });
   }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
   document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+  // ===== 热点基因图谱渲染 =====
+  (function renderHotspot() {
+    const metaEl = document.getElementById('hs-meta');
+    const emoEl = document.getElementById('hs-emotions');
+    const cluEl = document.getElementById('hs-clusters');
+    const listEl = document.getElementById('hs-list');
+
+    fetch('data/hotspots.json', { cache: 'no-store' })
+      .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then((d) => {
+        metaEl.textContent = '更新于 ' + d.updated_at + ' · 来源 ' + (d.source || '') + ' · ' + (d.summary['总词条数'] || 0) + ' 条';
+
+        // 情感分布
+        const emo = d.summary['情感分布'] || {};
+        const emoOrder = ['振奋','骄傲','期待','开心','惊讶','中立','担忧','愤怒','悲伤'];
+        const entries = Object.entries(emo).sort((a, b) => b[1] - a[1]);
+        const maxE = Math.max(1, ...entries.map((e) => e[1]));
+        emoEl.innerHTML = entries.map(([name, n]) =>
+          `<div class="hs-emo-row">
+            <span class="hs-emo-name">${name}</span>
+            <div class="hs-emo-bar"><div class="hs-emo-fill" style="width:${(n / maxE * 100).toFixed(0)}%"></div></div>
+            <span class="hs-emo-num">${n}</span>
+          </div>`
+        ).join('');
+
+        // 领域聚类
+        const clusters = d.clusters || [];
+        cluEl.innerHTML = clusters.map((c) =>
+          `<span class="hs-chip"><b>${c['领域']}</b><span>${c.count}</span></span>`
+        ).join('');
+
+        // 词条列表（前 20 条）
+        const items = d.items || [];
+        listEl.innerHTML = items.slice(0, 20).map((it) =>
+          `<div class="hs-item">
+            <span class="hs-item-title">${it.title}</span>
+            <span class="hs-item-tags">
+              <span class="hs-tag emo">${it['情感倾向']}</span>
+              <span class="hs-tag">${it['创作领域']}</span>
+            </span>
+          </div>`
+        ).join('');
+      })
+      .catch(() => {
+        metaEl.textContent = '暂无数据 — 首次定时分析运行后自动生成';
+        emoEl.innerHTML = '<div class="hs-empty">等待 GitHub Actions 定时任务产出数据…</div>';
+        cluEl.innerHTML = '';
+        listEl.innerHTML = '';
+      });
+  })();
 </script>
 
 </body>

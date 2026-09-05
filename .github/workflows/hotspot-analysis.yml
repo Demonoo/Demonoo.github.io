@@ -1,0 +1,42 @@
+name: 热榜热点基因分析
+
+on:
+  schedule:
+    # 每 3 小时跑一次（UTC 时间）
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}   # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取热榜
+        run: python scripts/fetch.py
+
+      - name: GLM 热点基因分析
+        env:
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+        run: python scripts/analyze.py
+
+      - name: 提交结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/hotspots.json data/raw_hotspots.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "data: 更新热点基因分析 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
