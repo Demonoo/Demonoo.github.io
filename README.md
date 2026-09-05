@@ -4,7 +4,7 @@
 
 一个数据驱动的量化营销工作室展示站。纯静态 HTML，零构建依赖，可直接部署到 GitHub Pages。
 
-**在线地址**：https://demonoo.github.io/dmedia-site/
+**在线地址**：https://demonoo.github.io/
 
 ## 目录结构
 
