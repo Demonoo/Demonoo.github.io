@@ -495,31 +495,40 @@ def load_topic_kw_freq(path=None):
 
 
 def enrich_kw_freq(kws, title, kw_freq_list, max_kws: int = 5):
-    """用微博文案 n-gram 词频兜底：当 LLM 输出的关键词为空（0 个）时，
-    按频次从 kw_freq 里选 top-N（在标题里、非停用词、未被覆盖）补上，保证至少 1 个。
-    仍走硬约束：补的词必须真实出现在词条标题里，避免从无关文案里捞词。
+    """用微博文案 n-gram 词频兜底：当 LLM 输出不足（< 2 个）时，
+    按频次从 kw_freq 里选 top-N 补齐，目标是补到至少 3 个可检索的关键词。
+
+    安全前提：kw_freq 来自 authors.py 对该词条**自己的话题页/参与作者**微博
+    挖出的 n-gram（每条作者博文一个 .weibo-text → 2~4 gram CJK 片段，按频次聚
+    合），是话题内封闭语料，不存在跨话题污染。所以补的词不需要必须出现在标
+    题里——「黄金」这种 2 字短标题尤其需要从文案里挖出「加息/金价/大跌」这种
+    真正在讨论的内容。
+
+    仍走的硬约束：① 非停用词 ② 2~6 字 ③ 纯 CJK ④ 跟已有词不重复。
     """
     kws = list(kws or [])
     if not kw_freq_list or not title:
         return kws
-    if kws:
-        return kws
+    if len(kws) >= 2:
+        return kws          # LLM 已给出至少 2 个，不污染
     tk = _norm(title)
     used = {_norm(k) for k in kws}
-    covered = "".join(kws)
     for name, c in kw_freq_list:
         n = _norm(name)
         if not n or n in used:
             continue
-        # 必须在标题里 + 不是停用词 + 跟已有词不冗余
-        if n not in tk or name in KW_STOP or all(ch in KW_STOP for ch in name):
+        if name in KW_STOP or all(ch in KW_STOP for ch in name):
             continue
-        if 2 <= len(name) <= 6 and CJK.match(name):
-            kws = kws + [name]
-            used.add(n)
-            covered += name
-            if len(kws) >= max_kws:
-                break
+        if not (2 <= len(name) <= 6 and CJK.match(name)):
+            continue
+        # 短标题（≤3 字）几乎不可能包含讨论关键词，所以短标题跳过「必须在标题里」；
+        # 长标题（≥4 字）仍要求补词出现在标题里，避免误从同名作者的其他无关讨论里捞词
+        if len(title) >= 4 and n not in tk:
+            continue
+        kws = kws + [name]
+        used.add(n)
+        if len(kws) >= max(3, max_kws):
+            break
     return kws[:max_kws]
 
 
