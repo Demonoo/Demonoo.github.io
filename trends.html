@@ -353,6 +353,37 @@
     text-align: right; font-feature-settings: 'tnum';
   }
 
+  /* ---------- 领域聚类百分比图例 ---------- */
+  .domain-legend {
+    margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--rule);
+    display: none;               /* 无数据时不占位，由 JS 打开 */
+  }
+  .domain-legend.on { display: block; }
+  .dl-head {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    margin-bottom: 13px;
+  }
+  .dl-head .t {
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.26em;
+    text-transform: uppercase; color: var(--ink-3);
+  }
+  .dl-head .s { font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.1em; color: var(--ink-4); }
+  /* 100% 堆叠条：一眼看出各领域占比 */
+  .dl-stack { display: flex; height: 6px; background: var(--paper-3); margin-bottom: 16px; }
+  .dl-seg { height: 100%; min-width: 2px; transition: opacity 0.3s; }
+  .dl-seg:hover { opacity: 0.72; }
+  .dl-list { display: grid; grid-template-columns: 1fr 1fr; gap: 9px 16px; }
+  .dl-item { display: flex; align-items: center; gap: 7px; min-width: 0; }
+  .dl-dot { flex: 0 0 7px; width: 7px; height: 7px; }
+  .dl-name {
+    flex: 1 1 auto; min-width: 0; font-size: 11.5px; color: var(--ink-2);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .dl-pct {
+    flex: 0 0 auto; font-family: var(--font); font-size: 11px; color: var(--ink-3);
+    font-feature-settings: 'tnum';
+  }
+
   .note { border-top: 1px solid var(--rule); margin-top: 26px; padding-top: 26px; }
   .note h4 {
     font-family: var(--font-micro); font-size: 9.5px; font-weight: 400;
@@ -405,6 +436,7 @@
     .page-header { padding: 44px var(--gut) 32px; }
     .main { padding: 36px var(--gut) 64px; }
     .trend-card { grid-template-columns: 38px 1fr; gap: 14px; padding: 20px 2px; }
+    .dl-list { grid-template-columns: 1fr; gap: 8px; }
     .trend-title { font-size: 17px; }
     .fig-num { font-size: 32px; }
     .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
@@ -493,6 +525,7 @@
         </div>
       </div>
       <div class="emotion-bars" id="emotion-bars" data-page-node-id="p4HqLTV11itaO9zpd0RoSY"></div>
+      <div class="domain-legend" id="domain-legend" data-page-node-id="domLegendPanel"></div>
     </div>
 
     <div class="note" data-page-node-id="T2F8Nt1GXZFykAeqz4hk46">
@@ -507,7 +540,7 @@
     <a href="mailto:demonai2025@163.com" class="footer-mail" data-page-node-id="WS4OoFDyGei0plkn4nFMDP">demonai2025@163.com</a>
   </div>
   <div class="footer-bottom" data-page-node-id="lH1j6uTdBJmOPoq7XfpqG1">
-    <span data-page-node-id="ScrecmTPHUG69VEvD4ryhF">© DMEDIA Artificial Intelligence Studio 2025</span>
+    <span data-page-node-id="ScrecmTPHUG69VEvD4ryhF">© DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
     <a href="index.html" data-page-node-id="qGzXBYGYRNVE0Sn2uiyrc4">Back Home</a>
   </div>
 </footer>
@@ -521,6 +554,7 @@
     const statTotal = document.getElementById('stat-total');
     const statCluster = document.getElementById('stat-cluster');
     const emoBars = document.getElementById('emotion-bars');
+    const domLegend = document.getElementById('domain-legend');
     const search = document.getElementById('search');
     let DATA = { items: [], clusters: [], summary: {} };
     let AUTHORS = { topics: {} };
@@ -537,6 +571,12 @@
     const EMO_CLASS = { 正面: 'emo-pos', 中性: 'emo-neu', 负面: 'emo-neg' };
     const EMO_FILL = { 正面: 'pos', 中性: 'neu', 负面: 'neg' };
     const normEmo = (v) => EMO_MAP[v] || '中性';
+
+    // 领域配色：同一暖灰基调的 11 档低饱和色，按聚类序号循环取用
+    const DOMAIN_COLORS = [
+      '#a1834f', '#9c4a3c', '#8a6a35', '#4a5f7a', '#4f6b4a', '#7a6a8a',
+      '#a85a3c', '#b08a8a', '#6b7a6b', '#5d6b78', '#8b8a86'
+    ];
 
     // 认证等级 → 徽标样式
     const VERIFY_CLASS = {
@@ -666,6 +706,40 @@
       }).join('');
     }
 
+    // 领域聚类百分比图例：100% 堆叠条 + 图例清单（整数百分比，最大余数法保证合计 = 100%）
+    function renderDomainLegend() {
+      const clusters = (DATA.clusters || []).filter(c => c && c.count > 0);
+      if (!clusters.length) { domLegend.classList.remove('on'); domLegend.innerHTML = ''; return; }
+      const total = clusters.reduce((s, c) => s + c.count, 0) || 1;
+      const rows = clusters.map((c, i) => ({
+        name: c['领域'] || '未分析',
+        count: c.count,
+        color: DOMAIN_COLORS[i % DOMAIN_COLORS.length],
+      }));
+      const raw = rows.map(r => r.count / total * 100);
+      const pct = raw.map(v => Math.floor(v));
+      const rem = 100 - pct.reduce((a, b) => a + b, 0);
+      raw.map((v, i) => ({ i, frac: v - Math.floor(v) }))
+         .sort((a, b) => b.frac - a.frac)
+         .forEach((o, k) => { if (k < rem) pct[o.i] += 1; });
+      domLegend.innerHTML = '<div class="dl-head">'
+        + '<span class="t">Domain Clusters</span>'
+        + '<span class="s">' + rows.length + ' 个领域 · 占比</span>'
+        + '</div>'
+        + '<div class="dl-stack">'
+        + rows.map((r, i) => '<span class="dl-seg" style="flex:' + r.count + ' 0 0;background:' + r.color
+            + '" title="' + escapeHtml(r.name) + ' ' + pct[i] + '%"></span>').join('')
+        + '</div>'
+        + '<div class="dl-list">'
+        + rows.map((r, i) => '<span class="dl-item">'
+            + '<i class="dl-dot" style="background:' + r.color + '"></i>'
+            + '<span class="dl-name">' + escapeHtml(r.name) + '</span>'
+            + '<span class="dl-pct">' + pct[i] + '%</span>'
+            + '</span>').join('')
+        + '</div>';
+      domLegend.classList.add('on');
+    }
+
     function renderStats() {
       statTotal.textContent = DATA.summary['总词条数'] || (DATA.items || []).length;
       statCluster.textContent = (DATA.clusters || []).length;
@@ -680,6 +754,7 @@
         + '<div class="bar"><div class="fill ' + EMO_FILL[n] + '" style="width:' + (merged[n] / max * 100).toFixed(0) + '%"></div></div>'
         + '<span class="num">' + merged[n] + '</span>'
         + '</div>').join('');
+      renderDomainLegend();
       if (DATA.updated_at) updateEl.textContent = '更新于 ' + DATA.updated_at;
     }
 
