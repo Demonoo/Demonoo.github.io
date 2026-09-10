@@ -302,6 +302,12 @@
     flex: none; font-size: 12.5px; color: var(--ink-3);
     font-feature-settings: 'tnum'; white-space: nowrap;
   }
+  /* 作者发布的文案（占原「互动数据」的位置）：整行铺在昵称下方 */
+  .ap-text {
+    flex-basis: 100%; margin-left: 36px;
+    font-size: 13px; color: var(--ink-2); line-height: 1.6;
+  }
+  .ap-text-empty { color: var(--ink-4); font-size: 12.5px; }
   .ap-empty {
     padding: 14px 0; font-size: 12.5px; color: var(--ink-4);
     font-family: var(--font-micro); letter-spacing: 0.08em;
@@ -449,7 +455,7 @@
     .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
     .ap-name { min-width: 0; }
     .ap-raw { flex-basis: 100%; order: 5; margin-left: 36px; }
-    .ap-hot { margin-left: auto; }
+    .ap-text { order: 6; }
   }
 </style>
 </head>
@@ -634,14 +640,25 @@
         ? '<span class="ap-v ' + vCls + '">' + escapeHtml(a.verify) + '</span>' : '';
       const raw = (a.identity_raw && a.identity_raw !== a.identity)
         ? '<span class="ap-raw">' + escapeHtml(a.identity_raw) + '</span>' : '<span class="ap-raw"></span>';
+      // 作者发布的文案（取代原「互动数据」）。旧数据没有 text 字段时，
+      // 退回显示互动量，避免新代码上线后、下一轮采集前的空档
+      let tail;
+      if (typeof a.text === 'string') {
+        const t = a.text.trim();
+        tail = t
+          ? '<span class="ap-text">' + escapeHtml(t) + '</span>'
+          : '<span class="ap-text ap-text-empty">（该条为图片/视频动态，无正文）</span>';
+      } else {
+        tail = '<span class="ap-hot">转 ' + (a.reposts || 0) + ' · 评 ' + (a.comments || 0)
+          + ' · 赞 ' + (a.likes || 0) + '</span>';
+      }
       return '<li class="ap-item">'
         + '<span class="ap-idx">' + String(i + 1).padStart(2, '0') + '</span>'
         + '<span class="ap-name">' + escapeHtml(a.name) + '</span>'
         + vBadge
         + '<span class="ap-role">' + escapeHtml(a.identity || '普通用户') + '</span>'
         + raw
-        + '<span class="ap-hot">转 ' + (a.reposts || 0) + ' · 评 ' + (a.comments || 0)
-        + ' · 赞 ' + (a.likes || 0) + '</span>'
+        + tail
         + '</li>';
     }
 
@@ -667,7 +684,7 @@
       return '<div class="author-panel">'
         + '<div class="ap-meta">' + meta + link + '</div>'
         + '<div class="ap-head"><span>Top Authors · 头部参与作者</span>'
-        + '<span>互动 = 转发 + 评论 + 点赞</span></div>'
+        + '<span>按互动量排序 · 附原文文案</span></div>'
         + '<ul class="ap-list">' + rows + '</ul>'
         + '</div>';
     }

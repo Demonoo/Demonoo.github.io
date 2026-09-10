@@ -7,7 +7,7 @@
   HTML 302，都会跳登录页；浏览器执行完 JS 访客流程后内容才渲染出来）。
 - 本脚本用 headless Chrome + CDP 顺序渲染每个话题页，提取：
     · 话题统计：阅读量 / 讨论量 / 主持人 / 媒体发布数
-    · 前 N 位热门作者：昵称、认证等级、认证说明、身份类型、互动量
+    · 前 N 位热门作者：昵称、认证等级、认证说明、身份类型、互动量、**正文文案**
     · 正文实体词库：从帖子正文挖「《作品名》」与高频「#话题#」
       —— 热搜词条常把剧名切坏（早春晴朗云合超藏海传 → 超藏/海传），
          而帖子正文里《藏海传》会完整高频出现，可反向补回实体，交给 analyze.py 做区间保护
@@ -137,11 +137,19 @@ EXTRACT_JS = r"""
     var nums = (txt(c.querySelector('footer')).match(/\d+/g) || []).map(Number);
     var reposts = nums[0]||0, comments = nums[1]||0, likes = nums[2]||0;
 
+    // 帖子正文（作者发布的文案）：正文节点是 .weibo-text；
+    // innerText 末尾会带「…全文」展开按钮，一并去掉
+    var wt = c.querySelector('.weibo-text');
+    var text = wt ? (wt.innerText || '').replace(/\s+/g, ' ').trim() : '';
+    text = text.replace(/[.．…\s]*全文$/, '').trim();
+    if (text.length > 110) text = text.slice(0, 110) + '…';
+
     authors.push({
       name: name.slice(0,24),
       verify: verifyOf(c),
       identity_raw: raw.slice(0,24),
       time: t.slice(0,14),
+      text: text,
       reposts: reposts, comments: comments, likes: likes,
       hot: reposts + comments + likes
     });
