@@ -183,7 +183,9 @@ def _restore_entities(kws, title: str, entities):
 KW_JUNK = re.compile(r"[#，。！？、：；,!?:;\"'“”‘’（）()\[\]【】<>《》/\\|~`^=+*&%$@]+")
 KW_EDGE = "…—－-_·.,:;!?、，。！？# \t"
 KW_STOP = {"的", "了", "在", "和", "与", "被", "把", "让", "致", "为", "对", "从", "到",
-           "是", "有", "都", "就", "还", "也", "又", "将", "已", "曝", "传", "称", "等"}
+           "是", "有", "都", "就", "还", "也", "又", "将", "已", "曝", "传", "称", "等",
+           # 纯谓语动词：做检索关键词没有信息量（精确匹配才生效，不影响「官方回应」这类实体短语）
+           "造成", "导致", "引发", "致使", "成为", "表示", "进行", "予以"}
 CJK = re.compile(r"^[\u4e00-\u9fff]+$")
 
 
@@ -241,6 +243,14 @@ def clean_keywords(raw, title: str = "", entities=None):
         if forced:
             pruned = [k for k in pruned if not any(k != e and k in e for e in forced)]
             pruned = [e for e in forced if e not in pruned] + pruned
+    # 去冗余碎片（二）：同一个词下挂着 ≥2 个更短的子串，说明这些短串是同一个词被切碎的产物
+    # （「重大人员伤亡」下挂「人员」「伤亡」；「早春晴朗」下挂「早春」「晴朗」）→ 丢掉短串。
+    # 用「≥2 个」作门槛：单个短串可能独立成立（如「华为发布会」下的「华为」），不该误伤。
+    pruned = [k for k in pruned
+              if not (len(k) <= 3 and any(
+                  k != o and k in o
+                  and sum(1 for x in pruned if x != o and x in o) >= 2
+                  for o in pruned))]
     seen = []
     for k in pruned:
         if k not in seen:
