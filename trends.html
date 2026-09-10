@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>社交媒体趋势 · DMEDIA</title>
+<link rel="icon" href="assets/图标.png" type="image/png" />
+<link rel="stylesheet" href="fonts/Marcellus-Regular.ttf" as="font" type="font/ttf" crossorigin />
+<link rel="stylesheet" href="fonts/Quattrocento-Regular.otf" as="font" type="font/otf" crossorigin />
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --ink: #f2f2f2;
+    --ink-dim: #9a9a9a;
+    --ink-mute: #666666;
+    --line: #242424;
+    --line-strong: #2f2f2f;
+    --accent: #3b82f6;
+    --accent-soft: rgba(59, 130, 246, 0.12);
+    --accent-border: rgba(59, 130, 246, 0.32);
+    --douyin: #fe2c55;
+    --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
+    --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.005em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+  ::selection { background: var(--ink); color: var(--bg); }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: #3a3a3a; }
+  a { color: inherit; text-decoration: none; }
+
+  /* ========== NAV ========== */
+  .topnav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(13,13,13,0.86);
+    backdrop-filter: blur(12px) saturate(120%);
+    -webkit-backdrop-filter: blur(12px) saturate(120%);
+    border-bottom: 1px solid var(--line);
+  }
+  .topnav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .brand {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: var(--ink);
+    display: inline-flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+  .brand .slash {
+    width: 1px; height: 16px; background: var(--line-strong);
+  }
+  .brand .tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+  }
+  .nav-spacer { flex: 1; }
+  .nav-link {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border: 1px solid var(--line);
+    transition: border-color 0.3s, color 0.3s;
+  }
+  .nav-link:hover { border-color: var(--ink); color: var(--ink); }
+
+  /* ========== HEADER ========== */
+  .page-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 32px 28px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    align-items: end;
+    border-bottom: 1px solid var(--line);
+  }
+  .page-title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(36px, 5vw, 56px);
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .ai-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    padding: 5px 10px;
+    background: var(--accent);
+    color: #fff;
+    align-self: end;
+    margin-bottom: 8px;
+  }
+  .page-subtitle {
+    margin-top: 12px;
+    font-size: 15px;
+    color: var(--ink-dim);
+    font-weight: 300;
+  }
+  .page-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 280px;
+  }
+  .search-wrap {
+    position: relative;
+  }
+  .search-wrap svg {
+    position: absolute;
+    left: 14px; top: 50%;
+    transform: translateY(-50%);
+    color: var(--ink-mute);
+    pointer-events: none;
+  }
+  .search-input {
+    width: 100%;
+    background: #161616;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 14px;
+    padding: 12px 14px 12px 42px;
+    border-radius: 8px;
+    transition: border-color 0.25s;
+  }
+  .search-input::placeholder { color: var(--ink-mute); }
+  .search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .filter-chip {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    padding: 6px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink-dim);
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  .filter-chip:hover { color: var(--ink); border-color: var(--ink-dim); }
+  .filter-chip.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .update-pill {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-mute);
+    background: #181818;
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .update-pill .dot {
+    width: 6px; height: 6px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+  /* ========== MAIN GRID ========== */
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 36px 32px 80px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 48px;
+  }
+  @media (max-width: 1024px) {
+    .main { grid-template-columns: 1fr; }
+    .page-header { grid-template-columns: 1fr; }
+  }
+
+  /* —— 实时榜单 —— */
+  .list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  .list-header h3 {
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .list-header h3 .dot-bar {
+    width: 3px; height: 12px;
+    background: var(--accent);
+    border-radius: 1px;
+  }
+  .list-meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-mute);
+    letter-spacing: 0.06em;
+  }
+
+  .trend-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .trend-card {
+    background: #131313;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    display: grid;
+    grid-template-columns: 36px 1fr auto;
+    gap: 16px;
+    align-items: start;
+    transition: border-color 0.25s, transform 0.25s;
+  }
+  .trend-card:hover {
+    border-color: var(--accent-border);
+    transform: translateY(-1px);
+  }
+  .trend-rank {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink-mute);
+    letter-spacing: 0.04em;
+    padding-top: 2px;
+  }
+  .trend-rank.top {
+    color: var(--accent);
+  }
+  .trend-body { min-width: 0; }
+  .trend-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.4;
+    margin-bottom: 10px;
+    word-break: break-word;
+  }
+  .trend-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .trend-tag {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    padding: 3px 8px;
+    border: 1px solid var(--line-strong);
+    color: var(--ink-dim);
+    border-radius: 3px;
+  }
+  .trend-tag.emo { color: var(--ink); border-color: var(--ink-mute); }
+  .trend-tag.life-short { color: #f97316; border-color: rgba(249, 115, 22, 0.4); }
+  .trend-tag.life-mid { color: #fbbf24; border-color: rgba(251, 191, 36, 0.4); }
+  .trend-tag.life-long { color: #10b981; border-color: rgba(16, 185, 129, 0.4); }
+  .trend-kw {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-mute);
+    letter-spacing: 0.04em;
+  }
+  .trend-kw span { color: var(--ink-dim); margin-right: 8px; }
+
+  .trend-heat {
+    text-align: right;
+    font-family: var(--font-mono);
+    flex-shrink: 0;
+  }
+  .trend-heat-num {
+    font-size: 13px;
+    color: var(--ink-dim);
+    font-weight: 500;
+  }
+  .trend-heat-label {
+    font-size: 9px;
+    color: var(--ink-mute);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* —— 右侧侧栏 —— */
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .stat-card {
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-border);
+    border-radius: 14px;
+    padding: 24px;
+    backdrop-filter: blur(8px);
+  }
+  .stat-card h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .stat-card h4 svg { color: var(--accent); }
+  .stat-card p {
+    font-size: 13px;
+    color: var(--ink-dim);
+    line-height: 1.65;
+  }
+  .stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .stat-cell {
+    background: rgba(13,13,13,0.5);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px;
+  }
+  .stat-num {
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--ink);
+    line-height: 1;
+  }
+  .stat-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: var(--ink-mute);
+    text-transform: uppercase;
+    margin-top: 6px;
+  }
+
+  .emotion-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .emo-row {
+    display: grid;
+    grid-template-columns: 56px 1fr 28px;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .emo-row .name { color: var(--ink); }
+  .emo-row .bar {
+    height: 5px;
+    background: var(--line);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .emo-row .fill {
+    height: 100%;
+    background: var(--accent);
+  }
+  .emo-row .num {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ink-dim);
+    text-align: right;
+  }
+
+  /* —— 空状态 —— */
+  .empty {
+    background: #131313;
+    border: 1px dashed var(--line-strong);
+    border-radius: 10px;
+    padding: 48px 24px;
+    text-align: center;
+    color: var(--ink-mute);
+    font-size: 13px;
+  }
+
+  /* ========== FOOTER ========== */
+  .site-footer { padding: 56px 0 40px; border-top: 1px solid var(--line); }
+  .footer-mail-row { max-width: 1200px; margin: 0 auto 18px; padding: 0 32px; }
+  .footer-mail {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: var(--ink-dim);
+  }
+  .footer-mail:hover { color: var(--ink); }
+  .footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 32px 0;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--ink-dim);
+    text-transform: uppercase;
+  }
+  .footer-bottom a {
+    color: var(--ink);
+    transition: opacity 0.3s;
+  }
+  .footer-bottom a:hover { opacity: 0.55; }
+
+  .skeleton {
+    background: linear-gradient(90deg, #131313 0%, #1a1a1a 50%, #131313 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s linear infinite;
+    border-radius: 10px;
+    height: 96px;
+  }
+  @keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a href="index.html" class="brand">
+      DMEDIA
+      <span class="slash"></span>
+      <span class="tag">GO VIRAL OR GO HOME</span>
+    </a>
+    <span class="nav-spacer"></span>
+    <a href="index.html" class="nav-link">← BACK HOME</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div>
+    <h1 class="page-title">
+      社交媒体趋势
+      <span class="ai-tag">AI QUANT</span>
+    </h1>
+    <p class="page-subtitle">数据驱动驱动 · AI 量化营销研究平台 · 全榜四维瞬读</p>
+  </div>
+  <div class="page-tools">
+    <div class="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.34-4.34"/></svg>
+      <input id="search" type="text" class="search-input" placeholder="搜索趋势…"/>
+    </div>
+    <div class="filter-row">
+      <button class="filter-chip active" data-platform="微博">微博</button>
+      <button class="filter-chip" data-platform="抖音" disabled>抖音</button>
+      <button class="filter-chip" data-platform="小红书" disabled>小红书</button>
+    </div>
+    <div class="update-pill">
+      <span class="dot"></span>
+      <span id="update-text">每 3 小时自动更新</span>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <section>
+    <div class="list-header">
+      <h3><span class="dot-bar"></span>实时榜单</h3>
+      <span class="list-meta" id="list-meta">加载中…</span>
+    </div>
+    <div id="trend-list" class="trend-list">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </div>
+  </section>
+
+  <aside class="sidebar">
+    <div class="stat-card">
+      <h4>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+        AI 实时分析
+      </h4>
+      <p>基于 GLM-4.7-Flash 大模型，每 3 小时自动扫描全网热榜，对每条词条输出情感倾向、创作领域、内容形态、生命周期四维结构化分析，并按创作领域聚类。</p>
+      <div class="stat-row">
+        <div class="stat-cell">
+          <div class="stat-num" id="stat-total">—</div>
+          <div class="stat-label">总词条</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-num" id="stat-cluster">—</div>
+          <div class="stat-label">领域聚类</div>
+        </div>
+      </div>
+      <div class="emotion-bars" id="emotion-bars"></div>
+    </div>
+
+    <div class="stat-card" style="background:transparent;border-color:var(--line);">
+      <h4 style="color:var(--ink-dim);">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        数据更新说明
+      </h4>
+      <p>数据由 GitHub Actions 每 3 小时自动定时分析产出（GitHub Actions → GLM API → 提交 data/hotspots.json → Pages 重建）。当前显示为最近一次分析快照。</p>
+    </div>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-mail-row">
+    <a href="mailto:demonai2025@163.com" class="footer-mail">demonai2025@163.com</a>
+  </div>
+  <div class="footer-bottom">
+    <span>© DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
+    <a href="index.html">BACK HOME</a>
+  </div>
+</footer>
+
+<script>
+  // ===== 渲染逻辑：拉取 data/hotspots.json，渲染榜单 + 统计 =====
+  (function () {
+    const listEl = document.getElementById('trend-list');
+    const metaEl = document.getElementById('list-meta');
+    const updateEl = document.getElementById('update-text');
+    const statTotal = document.getElementById('stat-total');
+    const statCluster = document.getElementById('stat-cluster');
+    const emoBars = document.getElementById('emotion-bars');
+    const search = document.getElementById('search');
+    let DATA = { items: [], clusters: [], summary: {} };
+
+    const LIFE_CLASS = { 短期: 'life-short', 中期: 'life-mid', 长期: 'life-long' };
+
+    function renderList(filter) {
+      const items = (DATA.items || []).filter(it => {
+        if (!filter) return true;
+        return it.title.includes(filter) ||
+          (it['核心话题词'] || []).some(k => k.includes(filter));
+      });
+      if (!items.length) {
+        listEl.innerHTML = '<div class="empty">未找到匹配的词条</div>';
+        metaEl.textContent = `0 / ${DATA.items.length} 条`;
+        return;
+      }
+      metaEl.textContent = `${items.length} / ${DATA.items.length} 条 · 来源 ${DATA.source || '微博'}`;
+      listEl.innerHTML = items.slice(0, 50).map((it, i) => {
+        const life = LIFE_CLASS[it['生命周期']] || '';
+        const kws = (it['核心话题词'] || []).slice(0, 4).map(k => `<span>#${k}</span>`).join('');
+        return `
+        <div class="trend-card">
+          <div class="trend-rank ${i < 3 ? 'top' : ''}">${String(i + 1).padStart(2, '0')}</div>
+          <div class="trend-body">
+            <div class="trend-title">${escapeHtml(it.title)}</div>
+            <div class="trend-tags">
+              <span class="trend-tag emo">${it['情感倾向']}</span>
+              <span class="trend-tag">${it['创作领域']}</span>
+              <span class="trend-tag">${it['内容形态']}</span>
+              <span class="trend-tag ${life}">${it['生命周期']}</span>
+            </div>
+            <div class="trend-kw">${kws}</div>
+          </div>
+          <div class="trend-heat">
+            <div class="trend-heat-num">#${i + 1}</div>
+            <div class="trend-heat-label">RANK</div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    function renderStats() {
+      statTotal.textContent = DATA.summary['总词条数'] || (DATA.items || []).length;
+      statCluster.textContent = (DATA.clusters || []).length;
+      const emo = DATA.summary['情感分布'] || {};
+      const entries = Object.entries(emo).sort((a, b) => b[1] - a[1]).slice(0, 6);
+      const max = Math.max(1, ...entries.map(e => e[1]));
+      emoBars.innerHTML = entries.map(([n, c]) =>
+        `<div class="emo-row">
+          <span class="name">${n}</span>
+          <div class="bar"><div class="fill" style="width:${(c / max * 100).toFixed(0)}%"></div></div>
+          <span class="num">${c}</span>
+        </div>`).join('');
+      if (DATA.updated_at) {
+        updateEl.textContent = `更新于 ${DATA.updated_at}`;
+      }
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+      }[c]));
+    }
+
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort('timeout'), 15000);
+    fetch('data/hotspots.json', { signal: ctl.signal })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(d => {
+        clearTimeout(timer);
+        DATA = d;
+        renderList('');
+        renderStats();
+      })
+      .catch(err => {
+        clearTimeout(timer);
+        listEl.innerHTML = '<div class="empty">数据加载失败 — 请刷新页面重试</div>';
+        metaEl.textContent = '加载失败';
+      });
+
+    // 搜索过滤
+    search.addEventListener('input', e => renderList(e.target.value.trim()));
+  })();
+</script>
+
+</body>
+</html>
