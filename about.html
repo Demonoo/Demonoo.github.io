@@ -26,11 +26,11 @@
   }
 
   :root {
-    --bg: #ffffff;
-    --ink: #000000;
-    --ink-dim: #5a5a5a;
-    --ink-mute: #a0a0a0;
-    --line: #ececec;
+    --bg: #0d0d0d;
+    --ink: #f2f2f2;
+    --ink-dim: #9a9a9a;
+    --ink-mute: #666666;
+    --line: #242424;
     --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
     --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
     --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
@@ -48,14 +48,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  ::selection { background: #000; color: #fff; }
+  ::selection { background: var(--ink); color: var(--bg); }
   a { color: inherit; text-decoration: none; }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
 
   /* ============ 顶栏 ============ */
   .topnav {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(255,255,255,0.86);
+    background: rgba(13,13,13,0.86);
     backdrop-filter: blur(12px) saturate(120%);
     -webkit-backdrop-filter: blur(12px) saturate(120%);
     border-bottom: 1px solid var(--line);
@@ -156,7 +156,7 @@
     white-space: nowrap;
     transition: background 0.3s, border-color 0.3s;
   }
-  .chip:hover { background: #fafafa; border-color: #d4d4d4; }
+  .chip:hover { background: #1c1c1c; border-color: #3a3a3a; }
   .chip .en {
     font-family: var(--font-mono);
     font-size: 9px;
@@ -258,7 +258,7 @@
     width: 100%;
     height: 620px;
     border: 1px solid var(--line);
-    background: #fafafa;
+    background: #1a1a1a;
   }
 
   /* 视频内嵌展示 */
@@ -286,7 +286,7 @@
     position: relative;
     overflow: hidden;
     border: 1px solid var(--line);
-    background: #fafafa;
+    background: #1a1a1a;
     max-width: 300px;
     margin-top: 14px;
     margin-bottom: 14px;
@@ -337,7 +337,7 @@
   .tool .tag.live { border-color: var(--ink); color: var(--ink); }
   .tool .nm { font-size: 15.5px; font-weight: 600; line-height: 1.5; }
   .tool .ds { font-size: 13px; color: var(--ink-dim); margin-top: 6px; line-height: 1.7; }
-  .tool.dev { background: #fafafa; }
+  .tool.dev { background: #161616; }
 
   /* ============ Footer ============ */
   .site-footer { padding: 56px 0 40px; }
@@ -360,7 +360,7 @@
   }
   .footer-bottom .blink {
     display: inline-block; width: 6px; height: 6px;
-    background: #000; border-radius: 50%;
+    background: var(--ink); border-radius: 50%;
     margin-right: 6px; vertical-align: middle;
     animation: pulse 1.6s ease-in-out infinite;
   }
