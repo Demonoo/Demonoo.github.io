@@ -565,7 +565,7 @@
     <div class="bubble-block" id="bubble-block">
       <div class="bb-head">
         <span class="t">Bubble Map · 话题气泡图</span>
-        <span class="s">横轴＝连续在榜时长 · 纵轴＝热度值 · 气泡越大榜位越靠前 · 颜色＝生命周期</span>
+        <span class="s">仅取最靠近右上角的 Top 10 · 横轴＝连续在榜时长 · 纵轴＝热度值 · 气泡越大榜位越靠前 · 颜色＝生命周期</span>
       </div>
       <svg id="bubble-svg" role="img" aria-label="话题气泡图：横轴为在榜时长，纵轴为热度值"></svg>
       <div class="bb-legend" id="bb-legend"></div>
@@ -781,18 +781,27 @@
       const svg = document.getElementById('bubble-svg');
       const legendEl = document.getElementById('bb-legend');
       if (!svg) return;
-      const pts = (DATA.items || []).filter(it => Number(it['热度']) > 0);
-      if (!pts.length) {
+      const pool = (DATA.items || []).filter(it => Number(it['热度']) > 0);
+      if (!pool.length) {
         svg.setAttribute('viewBox', '0 0 760 110');
         svg.innerHTML = '<text x="380" y="56" text-anchor="middle" font-size="12" fill="#b6b4af">'
           + '本轮数据尚未包含热度值 · 下一轮产出后自动显示</text>';
         if (legendEl) legendEl.innerHTML = '';
         return;
       }
+      // 只画「最靠近右上角」的 Top 10：时长与热度各自按全局最大值归一化后求和
+      // （= 到右上角的曼哈顿距离最近），两个维度都强才排得进前面
+      const gx = Math.max(1, Math.max(...pool.map(p => Number(p['在榜小时']) || 0)));
+      const gy = Math.max(1, Math.max(...pool.map(p => Number(p['热度']) || 0)));
+      const near = it => (Number(it['在榜小时']) || 0) / gx + (Number(it['热度']) || 0) / gy;
+      const TOPN = 10;
+      const pts = pool.slice().sort((a, b) => near(b) - near(a)).slice(0, TOPN);
+
       const W = 760, H = 400, ML = 62, MR = 22, MT = 30, MB = 46;
       const pw = W - ML - MR, ph = H - MT - MB;
+      // 坐标轴按入选的 Top 10 自适应，避免这些点全挤在角落
       const xMax = Math.max(1, Math.ceil(Math.max(...pts.map(p => Number(p['在榜小时']) || 0))));
-      const yMax = Math.max(1, Math.max(...pts.map(p => Number(p['热度']) || 0))) * 1.08;
+      const yMax = Math.max(1, Math.max(...pts.map(p => Number(p['热度']) || 0))) * 1.12;
       const X = v => ML + (Math.max(0, Math.min(v, xMax)) / xMax) * pw;
       const Y = v => H - MB - (Math.max(0, Math.min(v, yMax)) / yMax) * ph;
       const P = [];
@@ -852,7 +861,8 @@
       if (legendEl) {
         legendEl.innerHTML = ['短期', '中期', '长期'].map(k =>
           '<span><i style="background:' + LIFE_COLOR[k] + '"></i>' + k + ' ' + counts[k] + '</span>').join('')
-          + '<span class="bb-dim">共 ' + pts.length + ' 条有热度数据 · 气泡大小＝榜单位置</span>';
+          + '<span class="bb-dim">Top ' + pts.length + ' / 共 ' + pool.length
+          + ' 条（按「时长＋热度」归一化取最靠近右上角） · 气泡大小＝榜单位置</span>';
       }
     }
 
