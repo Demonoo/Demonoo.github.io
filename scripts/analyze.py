@@ -136,10 +136,14 @@ def find_siblings(keyword: str, all_titles, k: int = 3):
 
 
 def _common_entities(titles, min_len: int = 3, max_len: int = 8):
-    """从同榜词条里挖出「至少在 2 条标题中出现的公共子串」→ 候选实体名
+    """从同榜词条里挖出「至少在 2 条标题中出现的公共子串」→ {候选实体: 出现条数}
 
     早春晴朗云合 / 早春晴朗战绩 / 早春晴朗有收官见面会 三条共享「早春晴朗」，
     这类重复出现的串基本就是作品/人物/事件名，可作为模型漏识别时的确定性兜底。
+
+    注意：**保留全部候选**（不做「只留最长」的合并）。因为它们粒度不同且各有用途：
+    早春晴朗（剧名，support 3）与 早春晴朗云合（剧名+数据平台，support 2）会同时存在，
+    由使用方按 support / 长度择优，避免长候选把更精确的短实体吃掉。
     """
     hit = defaultdict(set)
     for i, t in enumerate(titles):
@@ -147,10 +151,15 @@ def _common_entities(titles, min_len: int = 3, max_len: int = 8):
         for L in range(min_len, min(max_len, n) + 1):
             for s in range(n - L + 1):
                 hit[t[s:s + L]].add(i)
-    cand = {s for s, idxs in hit.items()
-            if len(idxs) >= 2 and CJK.match(s)}   # 只认纯中文实体，避免英文子串噪声
-    # 去掉被更长候选包含的短串，只保留最长实体
-    return {s for s in cand if not any(s != o and s in o for o in cand)}
+    sup = {s: len(idxs) for s, idxs in hit.items()
+           if len(idxs) >= 2 and CJK.match(s)}     # 只认纯中文实体，避免英文子串噪声
+    # 去嵌套：o 包含 s 时必然 support[o] <= support[s]。
+    # 若两者 support 相等，说明凡出现 s 的标题都出现了 o，o 是同覆盖范围的更精确形式，
+    # 此时丢掉 s（如「青岛货轮」「货轮火灾」都并入「青岛货轮火灾」）。
+    # 若 support[s] 严格更大，则 s 是覆盖面更广的独立实体，必须保留
+    # （如「早春晴朗」support 3 > 「早春晴朗云合」support 2 → 两者都留，各有用处）。
+    return {s: c for s, c in sup.items()
+            if not any(s != o and s in o and sup.get(o, -1) == c for o in sup)}
 
 
 def _restore_entities(kws, title: str, entities):
@@ -173,6 +182,10 @@ def _restore_entities(kws, title: str, entities):
             used.append(k)
             pos = i + len(k)
         if len(used) >= 2 and "".join(used) == e:
+            # 碎片本身已是公认实体时不合并：说明它是独立成立的词
+            # （「早春晴朗」已是实体，就不该被并回「早春晴朗云合」，否则粒度反而变粗）
+            if any(k in entities for k in used):
+                continue
             out = [k for k in out if k not in used]
             out.append(e)
             out.sort(key=lambda x: t.find(_norm(x)) if _norm(x) in t else 999)
@@ -206,6 +219,9 @@ def clean_keywords(raw, title: str = "", entities=None):
     if not isinstance(raw, (list, tuple)):
         return []
     title_key = _norm(title)
+    # 标题本身就是一个被同榜多次印证的实体名时（如「早春晴朗」「青岛货轮火灾」），
+    # 允许「关键词 == 整条标题」——它不是整句照抄，而是一个完整的实体名。
+    is_entity_title = bool(entities) and title_key in {_norm(e) for e in entities}
     out = []
     for k in raw:
         if not isinstance(k, str):
@@ -215,13 +231,18 @@ def clean_keywords(raw, title: str = "", entities=None):
         k = re.sub(r"\s+", "" if CJK.match(k) else " ", k)
         if not k or k in KW_STOP:
             continue
+        # 整词都由虚词/功能字构成（如「已致」）→ 它不是话题词
+        if all(ch in KW_STOP for ch in k):
+            continue
         if CJK.match(k):
             if not (2 <= len(k) <= 8):
                 continue
         elif not (2 <= len(k) <= 24):
             continue
         # 必须真实出现在词条里：既排除整句照抄，也排除模型凭空补的词
-        if title_key and (k == title or _norm(k) not in title_key):
+        if title_key and _norm(k) not in title_key:
+            continue
+        if k == title and not is_entity_title:
             continue
         if k in out:
             continue
@@ -236,13 +257,14 @@ def clean_keywords(raw, title: str = "", entities=None):
     # 实体还原：模型把网剧名/人名等切成了碎片时，用同榜挖出的实体名拼回来
     if entities:
         pruned = _restore_entities(pruned, title, entities)
-        # 实体名是强信号：凡出现在标题里的实体，必须作为关键词（模型常整块漏掉）
-        # 同时吃掉被实体名完全包含的碎片，避免「早春晴朗」+「晴朗」并存
-        forced = [e for e in sorted(entities, key=len, reverse=True)
-                  if _norm(e) in title_key]
-        if forced:
-            pruned = [k for k in pruned if not any(k != e and k in e for e in forced)]
-            pruned = [e for e in forced if e not in pruned] + pruned
+        # 实体兜底：若清洗后的关键词完全没有覆盖标题里的实体名，说明模型把主角整块漏了
+        # （如长标题里的网剧名）→ 补上标题中最具代表性的那个实体（最长优先）。
+        # 仅当选出的关键词「一个实体都没沾上」时才动手，避免像旧版那样反过来把精确短实体吃掉。
+        in_title = [(e, c) for e, c in entities.items()
+                    if _norm(e) in title_key and _norm(e) != title_key]
+        if in_title and not any(e in "".join(pruned) for e, _ in in_title):
+            best = max(in_title, key=lambda x: (len(x[0]), x[1]))[0]
+            pruned = [best] + pruned
     # 去冗余碎片（二）：同一个词下挂着 ≥2 个更短的子串，说明这些短串是同一个词被切碎的产物
     # （「重大人员伤亡」下挂「人员」「伤亡」；「早春晴朗」下挂「早春」「晴朗」）→ 丢掉短串。
     # 用「≥2 个」作门槛：单个短串可能独立成立（如「华为发布会」下的「华为」），不该误伤。
