@@ -428,6 +428,11 @@
     .page-header { grid-template-columns: 1fr; gap: 38px; padding-top: 58px; }
     .page-tools { max-width: 420px; }
     .main { grid-template-columns: 1fr; gap: 56px; }
+    /* 单列时改由 DOM 顺序决定上下：把「实时洞察」提到「实时榜单」之前优先展示，
+       数据更新说明仍留在榜单之后（display:contents 让侧栏子项直接参与 .main 的网格排序） */
+    .sidebar { display: contents; }
+    .sidebar > .panel { order: -1; }
+    .sidebar > .note { order: 1; margin-top: 0; }
   }
   @media (max-width: 640px) {
     :root { --gut: 22px; }
