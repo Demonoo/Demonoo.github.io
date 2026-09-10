@@ -32,7 +32,7 @@ API_URL = os.environ.get("LLM_API_URL", "https://ollama.com/v1/chat/completions"
 MODEL = os.environ.get("LLM_MODEL", "gpt-oss:20b")
 
 # 提示词版本：改动 build_prompt 或关键词规则时 +1，随结果写入，便于回溯是哪版规则产出
-PROMPT_VERSION = "5"
+PROMPT_VERSION = "6"
 
 DOMAINS = ["体育", "娱乐", "社会", "科技", "财经", "民生", "情感", "美食", "时尚",
            "健康", "教育", "汽车", "游戏", "影视", "旅游", "宠物", "国际", "其他"]
@@ -46,10 +46,19 @@ SENTI_PATH = os.path.join(BASE, "data", "sentiment.json")
 OUT_PATH = os.path.join(BASE, "data", "hotspots.json")
 # 上一轮 authors.py 的产物：含话题页正文挖出的实体词库
 AUTHORS_PATH = os.path.join(BASE, "data", "authors.json")
+# 词条在榜轨迹（逐轮累积）：首见时间 / 在榜轮数 / 连续轮数 / 首末热度与榜位
+HISTORY_PATH = os.path.join(BASE, "data", "history.json")
 
 MAX_RATE_STREAK = 3       # 连续限流达到此数即熔断，本轮不再调用
 MAX_CALLS_PER_RUN = 120   # 单轮调用上限：全量实时分析（当前约 50 条），留足余量
 REQUEST_TIMEOUT = 90
+
+# 生命周期的时间尺度：由 40 轮真实快照统计得出（可测跨度 228 条，中位 1.9h、
+# P75 3.4h、P90 5.5h，超过 24h 的仅 0.9%）。以 6h / 24h 为界，既能切开长尾，
+# 又不会像 24h/48h 那样把 99% 的词条挤进同一档。
+HISTORY_KEEP_DAYS = 7     # 历史里超过这些天没再出现的词条会被清理
+LIFE_MID_HOURS = 6        # 在榜 ≥ 6h → 中期
+LIFE_LONG_HOURS = 24      # 在榜 ≥ 24h → 长期（少数跨天长尾）
 
 
 def build_prompt(keyword: str, siblings=None) -> str:
@@ -73,7 +82,16 @@ def build_prompt(keyword: str, siblings=None) -> str:
         f"1. 创作领域：从 {DOMAINS} 中选一个，选最贴合的。"
         "影视剧/电影/综艺及其播放量、热度榜等衍生数据 → 选「影视」或「娱乐」\n"
         f"2. 内容形态：从 {FORMS} 中选一个\n"
-        f"3. 生命周期：从 {LIFECYCLE} 中选一个\n"
+        f"3. 生命周期：从 {LIFECYCLE} 中选一个。判据是「这个话题还能热多久」，"
+        "不是「现在有多热」：\n"
+        "   - 短期＝事件驱动、一次性爆发，通常当天即退（突发事故、明星八卦、单条爆料、"
+        "单场比赛、单款产品开售）\n"
+        "   - 中期＝有持续讨论或多轮后续节点，能维持数天（调查进展、连载作品、"
+        "持续性争议、政策落地过程）\n"
+        "   - 长期＝制度性/周期性话题，数月以上或每年反复出现（节日、高考、两会、"
+        "年度榜单、长期存在的公共议题）\n"
+        "   - 【注意】热度高 ≠ 寿命长：再爆的突发事件也是短期；只有反复复现或"
+        "有长期制度背景的才算长期\n"
         "4. 核心话题词：3-5 个，用于检索该话题的关键词，规则：\n"
         "   - 每个词都必须真实出现在「热搜词条」本身里；严禁使用「背景参考」里的任何字词\n"
         "   - 【先识别实体】作品名（剧名/电影/综艺/歌曲）、人名、品牌名、机构名必须整块保留，"
@@ -460,6 +478,112 @@ def signature(result) -> str:
     }, ensure_ascii=False, sort_keys=True)
 
 
+# ========== 词条在榜轨迹（逐轮累积，供生命周期客观判定） ==========
+
+BJ_TZ = timezone(timedelta(hours=8))   # 统一用北京时间，避免 naive/aware 混比
+
+
+def _parse_ts(s: str):
+    """解析 history.json 里的北京时间戳（带时区，便于与 now 直接相减）"""
+    try:
+        return datetime.strptime(s, "%Y-%m-%d %H:%M").replace(tzinfo=BJ_TZ)
+    except Exception:
+        return None
+
+
+def load_history():
+    if not os.path.exists(HISTORY_PATH):
+        return {"last_run": "", "topics": {}}
+    try:
+        with open(HISTORY_PATH, "r", encoding="utf-8") as f:
+            h = json.load(f)
+    except Exception:
+        return {"last_run": "", "topics": {}}
+    if not isinstance(h, dict) or not isinstance(h.get("topics"), dict):
+        return {"last_run": "", "topics": {}}
+    return h
+
+
+def update_history(hist, metrics, now_str, now_dt):
+    """把本轮每条的 hot / realpos 并入轨迹
+
+    关键区分（决定生命周期判定是否成立）：
+      · streak（连续在榜轮数）：上次被看到的时刻 == 上一轮运行时刻 → 续上，否则从 1 重来；
+      · s_first / s_hot / s_pos：**当前这一段连续在榜**的起点时刻与起点热度、榜位。
+
+    只用「首次出现到现在」会把间歇复现的老词条（5 天里断断续续上了 3 次）算成
+    「在榜 120 小时」，那是错的；真正有意义的是「这一轮连续挂了多久」。
+    """
+    prev_run = hist.get("last_run", "")
+    topics = hist.setdefault("topics", {})
+    for title, m in metrics.items():
+        rec = topics.get(title)
+        if rec is None:
+            rec = {"first": now_str, "rounds": 0, "first_hot": m["hot"], "first_pos": m["realpos"]}
+            topics[title] = rec
+        rec["rounds"] = int(rec.get("rounds", 0)) + 1
+        if rec.get("seen", "") == prev_run:
+            rec["streak"] = int(rec.get("streak", 0)) + 1
+        else:                       # 中间至少空过一轮 → 新的一段连续在榜
+            rec["streak"] = 1
+            rec["s_first"] = now_str
+            rec["s_hot"] = m["hot"]
+            rec["s_pos"] = m["realpos"]
+        rec["seen"] = now_str
+        rec["last_hot"] = m["hot"]
+        rec["last_pos"] = m["realpos"]
+    hist["last_run"] = now_str
+
+    # 清理久未出现的词条，避免历史文件无限膨胀
+    cut = now_dt - timedelta(days=HISTORY_KEEP_DAYS)
+    for title in list(topics):
+        d = _parse_ts(topics[title].get("seen", ""))
+        if d is None or d < cut:
+            del topics[title]
+    return hist
+
+
+def save_history(hist):
+    os.makedirs(os.path.dirname(HISTORY_PATH), exist_ok=True)
+    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(hist, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def lifecycle_metrics(rec, now_dt):
+    """由在榜轨迹得出（客观标签, 连续在榜小时, 在榜轮数, 连续轮数, 榜位斜率, 热度增速）
+
+    判定用的是「当前这一段连续在榜的时长」（now - s_first），不是首次出现至今，
+    否则间歇复现的老词条会被误算成长寿话题。
+    """
+    if not rec:
+        return ("短期", 0.0, 1, 1, 0.0, 0.0)
+    s_first = _parse_ts(rec.get("s_first") or rec.get("first", ""))
+    span = max((now_dt - s_first).total_seconds() / 3600.0, 0.0) if s_first else 0.0
+    rounds = int(rec.get("rounds", 1))
+    streak = int(rec.get("streak", 1))
+    if span >= LIFE_LONG_HOURS:
+        lab = "长期"
+    elif span >= LIFE_MID_HOURS:
+        lab = "中期"
+    else:
+        lab = "短期"
+    fh, lh = float(rec.get("s_hot", rec.get("first_hot", 0)) or 0), float(rec.get("last_hot", 0) or 0)
+    fp, lp = float(rec.get("s_pos", rec.get("first_pos", 0)) or 0), float(rec.get("last_pos", 0) or 0)
+    pos_slope = (lp - fp) / max(streak - 1, 1) if fp and lp else 0.0   # 负值 = 榜位在上升
+    hot_gain = (lh / fh - 1.0) if fh > 0 else 0.0
+    return (lab, round(span, 1), rounds, streak, round(pos_slope, 2), round(hot_gain, 3))
+
+
+def fuse_lifecycle(obj_label, llm_label):
+    """客观时长优先；客观不足以支撑「长期」时，允许模型以周期性/制度性话题为由判长期
+
+    「中期」是时间事实（需真的在榜 6h+），模型无从得知，故模型不能把短期抬成中期。
+    """
+    if obj_label in ("中期", "长期"):
+        return obj_label
+    return "长期" if llm_label == "长期" else "短期"
+
+
 def main():
     if not API_KEY:
         print("缺少 LLM_API_KEY / OLLAMA_API_KEY 环境变量", file=sys.stderr)
@@ -471,6 +595,17 @@ def main():
     if not items_raw:
         print("raw_hotspots.json 中没有 items", file=sys.stderr)
         sys.exit(1)
+
+    now_dt = datetime.now(BJ_TZ)
+    now_str = now_dt.strftime("%Y-%m-%d %H:%M")
+    # 在榜轨迹：把本轮的 hot / realpos 并入历史，据此得到生命周期的时间判据
+    metrics = {it["title"]: {"hot": int(it.get("hot") or 0),
+                             "realpos": int(it.get("realpos") or 0)}
+               for it in items_raw if it.get("title")}
+    hist = update_history(load_history(), metrics, now_str, now_dt)
+    save_history(hist)
+    hist_topics = hist.get("topics", {})
+    print(f"在榜轨迹：累计 {len(hist_topics)} 个词条（保留 {HISTORY_KEEP_DAYS} 天）")
 
     senti_map = {}
     if os.path.exists(SENTI_PATH):
@@ -533,34 +668,62 @@ def main():
                 analysis = r
             time.sleep(0.2)
 
+        # 生命周期：以「在榜时长」这一客观事实为主，模型只在客观为短期时
+        # 以「周期性/制度性话题」为由判长期（否则模型无从知道它挂了多久）
+        m = metrics.get(t, {})
+        obj_lab, span_h, rounds_n, streak_n, pos_slope, hot_gain = lifecycle_metrics(
+            hist_topics.get(t), now_dt)
+        life = fuse_lifecycle(obj_lab, (analysis or {}).get("生命周期", ""))
+        # 依据文案与判定口径保持一致：span_h 是「连续在榜时长」，所以配「连续轮数」
+        if rounds_n <= 1:
+            life_basis = "本轮首见"
+        elif life == "长期" and obj_lab != "长期":
+            life_basis = "模型判定·周期性"
+        elif streak_n <= 1:
+            life_basis = "重新上榜"
+        else:
+            life_basis = f"连续在榜 {span_h:g}h / {streak_n} 轮"
+        common = {
+            "生命周期": life,
+            "生命周期依据": life_basis,
+            "在榜小时": span_h,
+            "在榜轮数": rounds_n,
+            "连续轮数": streak_n,
+            "榜位斜率": pos_slope,
+            "热度增速": hot_gain,
+            "热度": m.get("hot", 0),
+            "榜位": m.get("realpos", 0),
+            "标签": it.get("label", ""),
+        }
+
         emo = senti_map.get(t) or "中性"
         if analysis:
-            items.append({
+            row = {
                 "title": t,
                 "情感倾向": emo,
                 "创作领域": analysis["创作领域"],
                 "内容形态": analysis["内容形态"],
-                "生命周期": analysis["生命周期"],
                 "核心话题词": analysis["核心话题词"],
                 "话题性质": analysis["话题性质"],
                 "分析来源": "LLM",
                 "分析版本": PROMPT_VERSION,
                 "url": it.get("url", ""),
-            })
+            }
         else:
             failed += 1
-            items.append({
+            row = {
                 "title": t,
                 "情感倾向": emo,
                 "创作领域": "",
                 "内容形态": "",
-                "生命周期": "",
                 "核心话题词": [],
                 "话题性质": "",
                 "分析来源": "",
                 "分析版本": "",
                 "url": it.get("url", ""),
-            })
+            }
+        row.update(common)
+        items.append(row)
 
     solid = sum(1 for x in items if x["创作领域"])
     print(f"共 {len(items)} 条：本轮调用模型 {called} 次 / "
@@ -587,9 +750,8 @@ def main():
         "总词条数": len(items),
     }
 
-    bj = timezone(timedelta(hours=8))
     result = {
-        "updated_at": datetime.now(bj).strftime("%Y-%m-%d %H:%M"),
+        "updated_at": now_str,
         "source": raw.get("source", ""),
         "summary": summary,
         "clusters": cluster_list,

@@ -246,6 +246,23 @@
   .trend-tag.nature-news { color: var(--v-red); }
   .trend-tag.nature-ent { color: var(--v-gold); }
 
+  .trend-metrics {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 5px 14px;
+    margin-bottom: 10px;
+    font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.08em;
+    color: var(--ink-4);
+  }
+  .trend-metrics b {
+    font-weight: 400; color: var(--ink-2);
+    font-feature-settings: 'tnum';
+  }
+  .tm-label {
+    padding: 1px 7px; border: 1px solid currentColor; border-radius: 3px;
+    color: var(--v-orange); letter-spacing: 0.14em;
+  }
+  .tm-label.lm-hot { color: var(--v-red); }
+  .tm-label.lm-new { color: var(--v-blue); }
+
   .trend-kw {
     font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.1em;
     color: var(--ink-4);
@@ -688,6 +705,27 @@
     //                    搜「iphone duo」也能命中「iPhoneDuo」）
     const normQ = s => String(s == null ? '' : s).toLowerCase().replace(/[\s#]+/g, '');
 
+    // 热度值友好化：12345678 → 1234.6万
+    const fmtHot = v => {
+      const n = Number(v) || 0;
+      if (n >= 1e8) return (n / 1e8).toFixed(1) + '亿';
+      if (n >= 1e4) return (n / 1e4).toFixed(1) + '万';
+      return String(n);
+    };
+    const LAB_CLS = { '爆': 'lm-hot', '沸': 'lm-hot', '热': '', '新': 'lm-new' };
+
+    // 硬指标条：榜单标签 / 热度值 / 榜位 / 生命周期依据（字段缺失时自动省略，兼容旧数据）
+    function metricsRow(it) {
+      const parts = [];
+      const lab = String(it['标签'] || '').trim();
+      if (lab) parts.push('<span class="tm-label ' + (LAB_CLS[lab] || '') + '">' + escapeHtml(lab) + '</span>');
+      if (Number(it['热度'])) parts.push('<span>热度 <b>' + fmtHot(it['热度']) + '</b></span>');
+      if (Number(it['榜位'])) parts.push('<span>榜位 <b>#' + Number(it['榜位']) + '</b></span>');
+      const basis = String(it['生命周期依据'] || '').trim();
+      if (basis) parts.push('<span>' + escapeHtml(basis) + '</span>');
+      return parts.length ? '<div class="trend-metrics">' + parts.join('') + '</div>' : '';
+    }
+
     function renderList(filter) {
       const all = DATA.items || [];
       const q = normQ(filter);
@@ -727,6 +765,7 @@
           +     '<span class="trend-tag">' + escapeHtml(it['内容形态'] || '—') + '</span>'
           +     '<span class="trend-tag ' + life + '">' + escapeHtml(it['生命周期'] || '—') + '</span>'
           +   '</div>'
+          +   metricsRow(it)
           +   '<div class="trend-kw">' + kws + '</div>'
           +   authorPanel(it)
           + '</div>'
