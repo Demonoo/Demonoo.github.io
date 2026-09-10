@@ -54,9 +54,11 @@ jobs:
       - name: 情绪三分类（senlou 微博微调模型，本地推理）
         run: python scripts/sentiment.py
 
-      - name: GLM 热点基因分析（增量：只分析新上榜词条）
+      - name: 热点基因分析（Ollama Cloud，增量：只分析新上榜词条）
         env:
-          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          LLM_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+          LLM_API_URL: https://ollama.com/v1/chat/completions
+          LLM_MODEL: gpt-oss:20b
         run: python scripts/analyze.py
 
       - name: 提交结果

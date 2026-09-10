@@ -481,7 +481,11 @@
     // 注意 s.weibo.com/weibo?q= 未登录会 302 到登录页（表现为空白），
     // 实测 m.weibo.cn 的 containerid 话题页无需登录、内容完整
     function jumpUrl(it) {
-      if (it && it.url) return it.url;
+      let u = (it && it.url) || '';
+      // 兼容历史数据里已废弃的 s.weibo.com 链接（未登录会跳登录页，表现为空白）
+      const m = u.match(/^https?:\/\/s\.weibo\.com\/weibo\?q=([^&]+)/);
+      if (m) u = 'https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D' + m[1];
+      if (u) return u;
       if (String(DATA.source || '').indexOf('抖音') > -1)
         return 'https://so-landing.douyin.com/landings/hotlist';
       const w = (it && it.title) || '';
