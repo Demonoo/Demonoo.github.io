@@ -2,9 +2,10 @@ name: 热榜热点基因分析
 
 on:
   schedule:
-    # 每小时跑一次（UTC）。中国时间 08:00-24:00 每小时第 0 分。
-    # 注意：GitHub 定时任务在高峰期可能延迟几分钟
-    - cron: "0 * * * *"
+    # 每小时跑一次（UTC）。刻意避开 :00 与 :30 —— 这两个分钟是全球定时任务
+    # 最拥堵的槽位，高负载时 GitHub 会把任务延迟数小时甚至直接丢弃。
+    # 设两个非高峰候选分钟（:13 / :43）互为备份，提高每小时至少命中一次的几率。
+    - cron: "13,43 * * * *"
   workflow_dispatch: {}   # 支持手动触发
 
 permissions:
@@ -23,6 +24,13 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     steps:
+      # 便于排查调度延迟：记录本轮由谁触发、cron 计划点、实际启动时刻
+      - name: 调度探针
+        run: |
+          echo "event    = ${{ github.event_name }}"
+          echo "schedule = ${{ github.event.schedule }}"
+          echo "started  = $(date -u '+%Y-%m-%dT%H:%M:%SZ') (UTC)"
+
       - name: 检出代码
         uses: actions/checkout@v4
 
@@ -35,7 +43,10 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-${{ runner.os }}-${{ hashFiles('.github/workflows/hotspot-analysis.yml') }}
+          # 固定 key：避免每次改 workflow 就整体失效、重下 torch（单轮 37min → 10min）
+          key: pip-${{ runner.os }}-torch-cpu-v2
+          restore-keys: |
+            pip-${{ runner.os }}-
 
       - name: 缓存情感模型权重（约 390MB，命中则跳过下载）
         uses: actions/cache@v4
