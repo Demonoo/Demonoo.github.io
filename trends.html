@@ -577,11 +577,23 @@
     const EMO_FILL = { 正面: 'pos', 中性: 'neu', 负面: 'neg' };
     const normEmo = (v) => EMO_MAP[v] || '中性';
 
-    // 领域配色：同一暖灰基调的 11 档低饱和色，按聚类序号循环取用
-    const DOMAIN_COLORS = [
-      '#a1834f', '#9c4a3c', '#8a6a35', '#4a5f7a', '#4f6b4a', '#7a6a8a',
-      '#a85a3c', '#b08a8a', '#6b7a6b', '#5d6b78', '#8b8a86'
-    ];
+    // 领域配色：11 个领域固定色（色相拉开 + 明度/饱和度分层，保证色块与圆点可分辨）
+    // 注意按「领域名」绑定而非按下标取色——否则聚类排序一变，颜色就会跟着换名
+    const DOMAIN_COLOR_MAP = {
+      社会: '#3E6FB0',  // 靛蓝
+      娱乐: '#D94F45',  // 朱红
+      影视: '#8A6BBE',  // 紫罗兰
+      科技: '#2E9E9E',  // 青碧
+      健康: '#3F9E63',  // 翠绿
+      教育: '#C8901A',  // 金琥珀
+      财经: '#B85C1E',  // 赭橙
+      民生: '#8A7B6B',  // 灰褐
+      时尚: '#C94F86',  // 玫红
+      汽车: '#2F4858',  // 深青灰
+      体育: '#8FA32E',  // 橄榄
+    };
+    // 兜底顺序（出现未登记的新领域时按下标循环取用）
+    const DOMAIN_COLORS = Object.values(DOMAIN_COLOR_MAP);
 
     // 认证等级 → 徽标样式
     const VERIFY_CLASS = {
@@ -716,11 +728,14 @@
       const clusters = (DATA.clusters || []).filter(c => c && c.count > 0);
       if (!clusters.length) { domLegend.classList.remove('on'); domLegend.innerHTML = ''; return; }
       const total = clusters.reduce((s, c) => s + c.count, 0) || 1;
-      const rows = clusters.map((c, i) => ({
-        name: c['领域'] || '未分析',
-        count: c.count,
-        color: DOMAIN_COLORS[i % DOMAIN_COLORS.length],
-      }));
+      const rows = clusters.map((c, i) => {
+        const name = c['领域'] || '未分析';
+        return {
+          name: name,
+          count: c.count,
+          color: DOMAIN_COLOR_MAP[name] || DOMAIN_COLORS[i % DOMAIN_COLORS.length],
+        };
+      });
       const raw = rows.map(r => r.count / total * 100);
       const pct = raw.map(v => Math.floor(v));
       const rem = 100 - pct.reduce((a, b) => a + b, 0);
