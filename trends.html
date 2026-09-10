@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="IP6AGqQly97eFLN6cPgo1D" />
 <title>社交媒体趋势 · DMEDIA</title>
 <meta name="description" content="DMEDIA 社交媒体趋势 —— 微博热榜 AI 量化分析：情感倾向 · 创作领域 · 内容形态 · 生命周期，并可展开查看每条话题的头部参与作者。" data-page-node-id="BijjoGKhKwNCClluKQ3ahr" />
+<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}();</script>
 <link rel="icon" href="assets/图标.png" type="image/png" data-page-node-id="Lyc2HJkwvAp5T7V9xUwSK1" />
 <link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin data-page-node-id="92td0k35l2hBRUahnTyTU3" />
 <style>
@@ -47,6 +48,33 @@
     --font: Arial, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
     --font-micro: Arial, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', sans-serif;
     --gut: 48px;
+    --nav-bg: rgba(255, 255, 255, 0.93);
+  }
+
+  /* ========== 暗色主题（data-theme="dark"）========== */
+  [data-theme="dark"] {
+    --paper: #131312;
+    --paper-2: #191917;
+    --paper-3: #242320;
+    --ink: #eae8e2;
+    --ink-2: #b9b7b1;
+    --ink-3: #8d8b85;
+    --ink-4: #5c5b56;
+    --rule: #2b2a26;
+    --rule-2: #3c3b36;
+    --gold: #c9b48a;
+    --gold-soft: #a1834f;
+    --pos: #6f9a66;
+    --neu: #9b9992;
+    --neg: #c9705e;
+    --life-s: #d07952;
+    --life-m: #c29a4b;
+    --life-l: #6f9a66;
+    --v-gold: #c9b48a;
+    --v-red: #c9705e;
+    --v-orange: #d07952;
+    --v-blue: #7d99c0;
+    --nav-bg: rgba(19, 19, 18, 0.93);
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -83,7 +111,7 @@
   /* ========== NAV ========== */
   .topnav {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(255, 255, 255, 0.93);
+    background: var(--nav-bg);
     backdrop-filter: blur(14px) saturate(140%);
     -webkit-backdrop-filter: blur(14px) saturate(140%);
     border-bottom: 1px solid var(--rule);
@@ -111,6 +139,18 @@
     transition: color 0.35s, border-color 0.35s;
   }
   .nav-link:hover { color: var(--ink); border-bottom-color: var(--ink); }
+  /* 明暗主题切换按钮 */
+  .theme-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px; margin-left: 2px;
+    border: 1px solid var(--rule-2); color: var(--ink-3);
+    transition: color 0.3s, border-color 0.3s, transform 0.3s;
+  }
+  .theme-toggle:hover { color: var(--ink); border-color: var(--ink); }
+  .theme-toggle .i { display: block; }
+  .theme-toggle .i-sun { display: none; }
+  [data-theme="dark"] .theme-toggle .i-sun { display: block; }
+  [data-theme="dark"] .theme-toggle .i-moon { display: none; }
 
   /* ========== HEADER ========== */
   .page-header {
@@ -357,6 +397,10 @@
   .ap-v-red { color: var(--v-red); border-color: #e0c4bd; }
   .ap-v-orange { color: var(--v-orange); border-color: #e6cdbb; }
   .ap-v-blue { color: var(--v-blue); border-color: #c3cedb; }
+  [data-theme="dark"] .ap-v-gold { border-color: #6b5b3a; }
+  [data-theme="dark"] .ap-v-red { border-color: #6b4038; }
+  [data-theme="dark"] .ap-v-orange { border-color: #6b4833; }
+  [data-theme="dark"] .ap-v-blue { border-color: #3c4c63; }
   .ap-role {
     flex: none; font-family: var(--font-micro); font-size: 11.5px;
     letter-spacing: 0.14em; color: var(--ink-2);
@@ -540,6 +584,10 @@
       <span class="tag" data-page-node-id="k9GXX0ahxTGSDQ6BMUDWQS">Go Viral Or Go Home</span>
     </a>
     <span class="nav-spacer" data-page-node-id="xZvGYWMOEablPhZWKbhG4t"></span>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切换明暗主题" title="切换明暗主题">
+      <svg class="i i-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      <svg class="i i-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
     <a href="index.html" class="nav-link" data-page-node-id="PDYKgn4CA8YrkFJwD7mEpt">← Back Home</a>
   </div>
 </nav>
@@ -792,15 +840,23 @@
       return String(Math.round(n));
     };
 
+    // 读取主题 CSS 变量（暗色模式下这些色会随 [data-theme] 切换）
+    const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
     // 话题气泡图：横轴＝连续在榜时长（客观事实），纵轴＝热度值；右上角＝又热又久＝大热门事件
     function renderBubbles() {
       const svg = document.getElementById('bubble-svg');
       const legendEl = document.getElementById('bb-legend');
       if (!svg) return;
+      const C = {
+        ink3: cssVar('--ink-3'), ink4: cssVar('--ink-4'),
+        rule: cssVar('--rule'), rule2: cssVar('--rule-2'),
+        gold: cssVar('--gold'), goldSoft: cssVar('--gold-soft'),
+      };
       const pool = (DATA.items || []).filter(it => Number(it['热度']) > 0);
       if (!pool.length) {
         svg.setAttribute('viewBox', '0 0 760 110');
-        svg.innerHTML = '<text x="380" y="56" text-anchor="middle" font-size="12" fill="#b6b4af">'
+        svg.innerHTML = '<text x="380" y="56" text-anchor="middle" font-size="12" fill="' + C.ink4 + '">'
           + '本轮数据尚未包含热度值 · 下一轮产出后自动显示</text>';
         if (legendEl) legendEl.innerHTML = '';
         return;
@@ -824,31 +880,31 @@
 
       // 右上角「大热门事件」提示区
       P.push('<rect x="' + (ML + pw * 0.6).toFixed(1) + '" y="' + MT + '" width="' + (pw * 0.4).toFixed(1)
-        + '" height="' + (ph * 0.4).toFixed(1) + '" fill="#a1834f" fill-opacity="0.05" stroke="#c9b48a"'
+        + '" height="' + (ph * 0.4).toFixed(1) + '" fill="' + C.gold + '" fill-opacity="0.05" stroke="' + C.goldSoft + '"'
         + ' stroke-width="0.5" stroke-dasharray="4 3"/>');
       P.push('<text x="' + (W - MR - 6) + '" y="' + (MT + 15) + '" text-anchor="end" font-size="11"'
-        + ' fill="#a1834f">大热门事件</text>');
+        + ' fill="' + C.gold + '">大热门事件</text>');
       // 横向网格 + 纵轴刻度
       for (let i = 0; i <= 4; i++) {
         const y = MT + ph * (i / 4);
         P.push('<line x1="' + ML + '" y1="' + y.toFixed(1) + '" x2="' + (W - MR) + '" y2="' + y.toFixed(1)
-          + '" stroke="#e8e5df" stroke-width="0.5"/>');
+          + '" stroke="' + C.rule + '" stroke-width="0.5"/>');
         P.push('<text x="' + (ML - 8) + '" y="' + (y + 4).toFixed(1) + '" text-anchor="end" font-size="11"'
-          + ' fill="#b6b4af">' + fmtHotAxis(yMax * (1 - i / 4)) + '</text>');
+          + ' fill="' + C.ink4 + '">' + fmtHotAxis(yMax * (1 - i / 4)) + '</text>');
       }
       // 坐标轴
       P.push('<line x1="' + ML + '" y1="' + MT + '" x2="' + ML + '" y2="' + (H - MB)
-        + '" stroke="#d5d1c8" stroke-width="0.5"/>');
+        + '" stroke="' + C.rule2 + '" stroke-width="0.5"/>');
       P.push('<line x1="' + ML + '" y1="' + (H - MB) + '" x2="' + (W - MR) + '" y2="' + (H - MB)
-        + '" stroke="#d5d1c8" stroke-width="0.5"/>');
-      P.push('<text x="' + ML + '" y="' + (MT - 12) + '" font-size="11" fill="#8b8a86">热度值</text>');
+        + '" stroke="' + C.rule2 + '" stroke-width="0.5"/>');
+      P.push('<text x="' + ML + '" y="' + (MT - 12) + '" font-size="11" fill="' + C.ink3 + '">热度值</text>');
       [0, 0.25, 0.5, 0.75, 1].forEach(f => {
         const v = xMax * f;
         P.push('<text x="' + X(v).toFixed(1) + '" y="' + (H - MB + 17) + '" text-anchor="middle"'
-          + ' font-size="11" fill="#b6b4af">' + (Math.round(v * 10) / 10) + 'h</text>');
+          + ' font-size="11" fill="' + C.ink4 + '">' + (Math.round(v * 10) / 10) + 'h</text>');
       });
       P.push('<text x="' + (ML + pw / 2).toFixed(1) + '" y="' + (H - 10) + '" text-anchor="middle"'
-        + ' font-size="11" fill="#8b8a86">连续在榜时长</text>');
+        + ' font-size="11" fill="' + C.ink3 + '">连续在榜时长</text>');
 
       // 颜色按「创作领域」区分（沿用领域图例那套已校准过的色板，颜色更丰富）
       const domColor = (it, i) => {
@@ -1060,8 +1116,12 @@
     });
 
     search.addEventListener('input', e => renderList(e.target.value.trim()));
+
+    // 明暗主题切换后重绘气泡图（坐标轴/网格/标注色读取 CSS 变量，需按主题刷新）
+    document.addEventListener('themechange', () => renderBubbles());
   })();
 </script>
+<script src="assets/theme.js"></script>
 
 </body>
 </html>

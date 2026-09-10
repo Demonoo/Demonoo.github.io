@@ -10,6 +10,8 @@
 <meta property="og:description" content="10 年社交媒体红人内容营销经验。" />
 <meta property="og:type" content="profile" />
 
+<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}();</script>
+
 <link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin />
 <link rel="preload" as="font" type="font/otf" href="fonts/Quattrocento-Regular.otf" crossorigin />
 
@@ -34,6 +36,25 @@
     --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
     --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
     --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+    --nav-bg: rgba(13,13,13,0.86);
+    --card: #1a1a1a;
+    --card-2: #161616;
+    --card-hover: #1c1c1c;
+    --line-strong: #3a3a3a;
+  }
+
+  /* ============ 亮色主题（data-theme="light"） ============ */
+  [data-theme="light"] {
+    --bg: #fafafa;
+    --ink: #111111;
+    --ink-dim: #555555;
+    --ink-mute: #999999;
+    --line: #e5e5e5;
+    --nav-bg: rgba(250,250,250,0.88);
+    --card: #f4f4f4;
+    --card-2: #ececec;
+    --card-hover: #eeeeee;
+    --line-strong: #cccccc;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -55,7 +76,7 @@
   /* ============ 顶栏 ============ */
   .topnav {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(13,13,13,0.86);
+    background: var(--nav-bg);
     backdrop-filter: blur(12px) saturate(120%);
     -webkit-backdrop-filter: blur(12px) saturate(120%);
     border-bottom: 1px solid var(--line);
@@ -64,6 +85,7 @@
   .topnav .wrap {
     display: flex; align-items: center;
     justify-content: space-between;
+    gap: 14px;
   }
   .brand {
     display: inline-flex; align-items: center; gap: 10px;
@@ -81,6 +103,20 @@
     transition: color 0.3s;
   }
   .back-link:hover { color: var(--ink); }
+
+  /* 明暗主题切换按钮 */
+  .nav-right { display: inline-flex; align-items: center; gap: 14px; }
+  .theme-toggle {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px;
+    border: 1px solid var(--line-strong); color: var(--ink-dim);
+    transition: color 0.3s, border-color 0.3s;
+  }
+  .theme-toggle:hover { color: var(--ink); border-color: var(--ink); }
+  .theme-toggle .i { display: block; }
+  .theme-toggle .i-moon { display: none; }
+  [data-theme="light"] .theme-toggle .i-moon { display: block; }
+  [data-theme="light"] .theme-toggle .i-sun { display: none; }
 
   /* ============ Hero ============ */
   .hero {
@@ -258,7 +294,7 @@
     width: 100%;
     height: 620px;
     border: 1px solid var(--line);
-    background: #1a1a1a;
+    background: var(--card);
   }
 
   /* 视频内嵌展示 */
@@ -337,7 +373,7 @@
   .tool .tag.live { border-color: var(--ink); color: var(--ink); }
   .tool .nm { font-size: 15.5px; font-weight: 600; line-height: 1.5; }
   .tool .ds { font-size: 13px; color: var(--ink-dim); margin-top: 6px; line-height: 1.7; }
-  .tool.dev { background: #161616; }
+  .tool.dev { background: var(--card-2); }
 
   /* ============ Footer ============ */
   .site-footer { padding: 56px 0 40px; }
@@ -397,7 +433,13 @@
       <img src="assets/图标.png" alt="DMEDIA" />
       <span>DMEDIA</span>
     </a>
-    <a class="back-link" href="index.html">← 返回首页</a>
+    <span class="nav-right">
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切换明暗主题" title="切换明暗主题">
+        <svg class="i i-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="i i-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a class="back-link" href="index.html">← 返回首页</a>
+    </span>
   </div>
 </nav>
 
@@ -551,5 +593,6 @@
   </div>
 </footer>
 
+<script src="assets/theme.js"></script>
 </body>
 </html>

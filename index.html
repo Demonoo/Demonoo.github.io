@@ -1,18 +1,20 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="zh-CN" data-page-node-id="xSgfYs0ZLh2Bd8zt1Avvpm">
+<head data-page-node-id="HrQQeYFXa3fCHzEbBqjOUZ">
+<meta charset="UTF-8" data-page-node-id="KHRbOjaO5ZzSAo47OVLXHf" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="JtDOQDJnpHtCfZraY5w04L" />
 <title>DMEDIA — 媒介即信息，信息创造价值</title>
-<meta name="description" content="DMEDIA — AI 驱动的量化营销工作室：社交媒体情绪洞察、趋势预测、营销归因与内容策略。" />
-<link rel="icon" type="image/png" href="assets/图标.png" />
-<meta property="og:title" content="DMEDIA" />
-<meta property="og:description" content="媒介即信息，信息创造价值。" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="assets/图标.png" />
+<meta name="description" content="DMEDIA — AI 驱动的量化营销工作室：社交媒体情绪洞察、趋势预测、营销归因与内容策略。" data-page-node-id="xCkvtMpCduZoGe0CYwr1DS" />
+<link rel="icon" type="image/png" href="assets/图标.png" data-page-node-id="VT9ZYEJGVUC09uyCg6FsMv" />
+<meta property="og:title" content="DMEDIA" data-page-node-id="SLqhf3wbVO2wz21xmhkteC" />
+<meta property="og:description" content="媒介即信息，信息创造价值。" data-page-node-id="ErK0abievHbnWh5MfmYetG" />
+<meta property="og:type" content="website" data-page-node-id="zovlUT5hLWR4u4oae01ON8" />
+<meta property="og:image" content="assets/图标.png" data-page-node-id="Ug4J5cIybKVy0wIpjeQawI" />
 
-<link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin />
-<link rel="preload" as="font" type="font/otf" href="fonts/Quattrocento-Regular.otf" crossorigin />
+<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}();</script>
+
+<link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin data-page-node-id="zPAaOYw1HfgiNy1sIY7K5q" />
+<link rel="preload" as="font" type="font/otf" href="fonts/Quattrocento-Regular.otf" crossorigin data-page-node-id="Rg8yng3huPa4tizztt4IXW" />
 
 <style>
   /* =========================================================
@@ -52,6 +54,28 @@
 
     --reading-w: 720px;
     --wide-w: 960px;
+
+    --nav-bg: rgba(13,13,13,0.86);
+    --card: #1a1a1a;
+    --card-2: #131313;
+    --card-hover: #1c1c1c;
+    --scroll-thumb: #3a3a3a;
+    --scroll-thumb-hover: #555555;
+  }
+
+  /* ============ 亮色主题（data-theme="light"） ============ */
+  [data-theme="light"] {
+    --bg: #fafafa;
+    --ink: #111111;
+    --ink-dim: #555555;
+    --ink-mute: #999999;
+    --line: #e5e5e5;
+    --nav-bg: rgba(250,250,250,0.88);
+    --card: #f4f4f4;
+    --card-2: #ffffff;
+    --card-hover: #eeeeee;
+    --scroll-thumb: #c9c9c9;
+    --scroll-thumb-hover: #a0a0a0;
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -71,8 +95,8 @@
   ::selection { background: var(--ink); color: var(--bg); }
   ::-webkit-scrollbar { width: 8px; height: 8px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: #3a3a3a; }
-  ::-webkit-scrollbar-thumb:hover { background: #555; }
+  ::-webkit-scrollbar-thumb { background: var(--scroll-thumb); }
+  ::-webkit-scrollbar-thumb:hover { background: var(--scroll-thumb-hover); }
 
   a { color: inherit; text-decoration: none; }
   .mono { font-family: var(--font-mono); }
@@ -103,7 +127,7 @@
     padding: 6px 0;
     border-bottom: 1px solid var(--line);
     position: sticky; top: 0;
-    background: rgba(13,13,13,0.86);
+    background: var(--nav-bg);
     backdrop-filter: blur(12px) saturate(120%);
     -webkit-backdrop-filter: blur(12px) saturate(120%);
     z-index: 50;
@@ -188,6 +212,20 @@
     height: auto;
     display: block;
   }
+
+  /* 明暗主题切换按钮 */
+  .theme-toggle {
+    flex: 0 0 auto;
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; margin-left: 12px;
+    border: 1px solid var(--line); color: var(--ink-dim);
+    transition: color 0.3s, border-color 0.3s;
+  }
+  .theme-toggle:hover { color: var(--ink); border-color: var(--ink); }
+  .theme-toggle .i { display: block; }
+  .theme-toggle .i-moon { display: none; }
+  [data-theme="light"] .theme-toggle .i-moon { display: block; }
+  [data-theme="light"] .theme-toggle .i-sun { display: none; }
 
   /* =========================================================
      HERO
@@ -300,7 +338,7 @@
     aspect-ratio: 16 / 9;
     padding: 0;
     overflow: hidden;
-    background: #1a1a1a;
+    background: var(--card);
   }
   .hero-report-preview img {
     position: absolute;
@@ -537,128 +575,132 @@
   }
 </style>
 </head>
-<body>
+<body data-page-node-id="pBODTDoMQRUiBbe7qHApO4">
 
 <!-- ========== HEADER ========== -->
-<header class="site-header">
-  <div class="wrap-wide">
-    <a href="#top" aria-label="DMEDIA" class="header-brand">
-      <img src="assets/图标.png" alt="DMEDIA" class="logo-img logo-img-sm">
-      <span class="header-text">DMEDIA</span>
+<header class="site-header" data-page-node-id="VW4uQooeQZc169y38HiA6F">
+  <div class="wrap-wide" data-page-node-id="vAOgKXzAVlv6aEm7zHn9YD">
+    <a href="#top" aria-label="DMEDIA" class="header-brand" data-page-node-id="b1HFA06KN1IWrT3V8rjMqH">
+      <img src="assets/图标.png" alt="DMEDIA" class="logo-img logo-img-sm" data-page-node-id="evrS10KiIVsldmIJUa9Eq5">
+      <span class="header-text" data-page-node-id="A2VXeLEmM28JB4302eM8VB">DMEDIA</span>
     </a>
-    <p class="header-slogan">
-      <span class="em">媒介</span>即信息，<span class="em">信息</span>创造价值。
+    <p class="header-slogan" data-page-node-id="7pX9jHRfc7VkwhUBkrlYEH">
+      <span class="em" data-page-node-id="cMaMvrJao45VxA9a3xnkBR">媒介</span>即信息，<span class="em" data-page-node-id="OeBSLZmZyw8da0OKSPWPGe">信息</span>创造价值。
     </p>
-    <div class="qr-trigger" aria-label="查看视频号二维码">
-      <img src="assets/视频号.png" alt="视频号" class="qr-icon-img">
-      <div class="qr-popover">
-        <img src="assets/二维码.jpg" alt="视频号二维码">
+    <div class="qr-trigger" aria-label="查看视频号二维码" data-page-node-id="rf4NEcc8F6HTiswd5fDFKD">
+      <img src="assets/视频号.png" alt="视频号" class="qr-icon-img" data-page-node-id="GvgXNqjQpbxaz3Yq1FC7ia">
+      <div class="qr-popover" data-page-node-id="nMuZ0VGj07gvHWjiVKxCZZ">
+        <img src="assets/二维码.jpg" alt="视频号二维码" data-page-node-id="7dMhkQHby8ZWWfvRQMUaFA">
       </div>
     </div>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切换明暗主题" title="切换明暗主题">
+      <svg class="i i-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      <svg class="i i-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
   </div>
 </header>
 
-<a id="top"></a>
+<a id="top" data-page-node-id="PdzbMQPSCoeD8ODmvdUzD2"></a>
 
 <!-- ========== HERO ========== -->
-<section class="hero">
-  <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
-    <source src="assets/helloworld.mp4" type="video/mp4">
+<section class="hero" data-page-node-id="ShgGH7pHBw699EbWjnLASG">
+  <video class="hero-video" autoplay muted loop playsinline aria-hidden="true" data-page-node-id="HgHwnBSjCmaYd1QBTOsZ7L">
+    <source src="assets/helloworld.mp4" type="video/mp4" data-page-node-id="Kl4yoU0SNXJPKFOijRLYw5">
   </video>
-  <div class="hero-overlay" aria-hidden="true"></div>
-  <div class="wrap hero-content">
+  <div class="hero-overlay" aria-hidden="true" data-page-node-id="OWXbsqNDh5H3Gw4PqyjqmR"></div>
+  <div class="wrap hero-content" data-page-node-id="uPrqAog3PdFQF5fiBMRKk0">
 
-    <h1 class="hero-title reveal">
-      <span>AI</span><span class="t-dot"></span><span>QUANT</span><span class="t-dot"></span><span>SOCIAL</span><span class="t-dot"></span><span>MARKETING</span>
+    <h1 class="hero-title reveal" data-page-node-id="ulakEOnbNrOL7ca21dUFS5">
+      <span data-page-node-id="IYjVdW6YKg5xz67jIlwy7Y">AI</span><span class="t-dot" data-page-node-id="UdJdGA6hrTTlRCqdmjq0K8"></span><span data-page-node-id="UoK9pt4h11zT9J1YUkytuA">QUANT</span><span class="t-dot" data-page-node-id="l77wvy747uPIxHMYjQyFuJ"></span><span data-page-node-id="eMOXMxAtBRhZTTMQmfyZUR">SOCIAL</span><span class="t-dot" data-page-node-id="XdTLEQMEaX6fYdFJoq5nNx"></span><span data-page-node-id="LZ9wIx81WXEVFLxzFFe7XQ">MARKETING</span>
     </h1>
-    <p class="intro reveal">
-      基于主流<span class="hl">AGENT 框架</span>，结合<span class="hl">浏览器自动化</span>、<span class="hl">大语言模型</span>、<span class="hl">机器学习</span>等技术，<br />
-      为品牌和创作者提供<span class="hl">社交媒体情绪洞察</span>、<span class="hl">趋势预测</span>、<span class="hl">营销归因</span>与<span class="hl">内容策略</span>服务。
+    <p class="intro reveal" data-page-node-id="2vzUMcdbZ4twIvnkpY65ZL">
+      基于主流<span class="hl" data-page-node-id="CXIIhBpISfIfeuR2KoBaqz">AGENT 框架</span>，结合<span class="hl" data-page-node-id="9TX0NVvEoB1BAOk2phyWqc">浏览器自动化</span>、<span class="hl" data-page-node-id="GGHIZjErdNMX9J0IU4FQqz">大语言模型</span>、<span class="hl" data-page-node-id="civiUlFmhEBLi1GBpSETtW">机器学习</span>等技术，<br  data-page-node-id="u4OjdfpdvwrCGwiuGk7btj"/>
+      为品牌和创作者提供<span class="hl" data-page-node-id="ah8O8yZaG8F1h6QHztwL48">社交媒体情绪洞察</span>、<span class="hl" data-page-node-id="Fy7M4Z1rOGxfpS8F6hhWZP">趋势预测</span>、<span class="hl" data-page-node-id="yUnSCTIEby0a7MGyuAmWHR">营销归因</span>与<span class="hl" data-page-node-id="MArljmwAigi1z82rENvFwB">内容策略</span>服务。
     </p>
 
-    <div class="hero-cta reveal">
-      <a href="about.html">关于创始人 @Demon →</a>
+    <div class="hero-cta reveal" data-page-node-id="GwVkBeVDb7aSUSHUwhEX3y">
+      <a href="about.html" data-page-node-id="wwp1hwc1IwcX3ELOjaXl9f">关于创始人 @Demon →</a>
     </div>
 
   </div>
 </section>
 
 <!-- ========== FOUR PILLARS ========== -->
-<section class="pillars" id="pillars">
-  <div class="wrap-wide">
+<section class="pillars" id="pillars" data-page-node-id="mEc3RSKK9P3l7o3R3jx9Fc">
+  <div class="wrap-wide" data-page-node-id="6AGG0kmaFuWh97cp2kqHO9">
 
-    <div class="section-ticker" aria-hidden="true" data-ticker="LLM SEARCH|基于大语言模型的搜索"></div>
-    <article class="pillar reveal">
-      <div class="pillar-main">
-        <h2 class="pillar-title">LLM SEARCH</h2>
-        <p class="pillar-subtitle">基于大语言模型的搜索 —— 把全网公开信息变成可计算的结构化洞察。</p>
-        <ul class="pillar-list">
-          <li><b>Web Search</b>聚合多源搜索通道，覆盖中文与海外英文媒体。</li>
-          <li><b>Sentiment</b>对社媒内容做情绪标注与话题聚类。</li>
-          <li><b>Digest</b>按主题自动生成每日监测简报。</li>
+    <div class="section-ticker" aria-hidden="true" data-ticker="LLM SEARCH|基于大语言模型的搜索" data-page-node-id="fJLwjUwtsMTAspx02fdoiY"></div>
+    <article class="pillar reveal" data-page-node-id="FwxF4W5CKqb4PpsFPF00e7">
+      <div class="pillar-main" data-page-node-id="5fEWXK4ODPRuX4NkI4SaSH">
+        <h2 class="pillar-title" data-page-node-id="KU11VAGsb3fkPK2wlaPvDB">LLM SEARCH</h2>
+        <p class="pillar-subtitle" data-page-node-id="w2dCDyCfZkoaiRtF5sfaJm">基于大语言模型的搜索 —— 把全网公开信息变成可计算的结构化洞察。</p>
+        <ul class="pillar-list" data-page-node-id="OvYNnGvw8TgrsHFe7CxIax">
+          <li data-page-node-id="LArHgy8yXsE8vqV5BTv6El"><b data-page-node-id="X6GlrUFK0oVVWspY3OAAhK">Web Search</b>聚合多源搜索通道，覆盖中文与海外英文媒体。</li>
+          <li data-page-node-id="GEfhavtkfr7trBRfOuq0l2"><b data-page-node-id="goqimPRRNSTVpNdtvzcYwD">Sentiment</b>对社媒内容做情绪标注与话题聚类。</li>
+          <li data-page-node-id="Y2GBnWuGBnwrk3SuuWM8GA"><b data-page-node-id="BGnZERY2ScuXUtr272qBJM">Digest</b>按主题自动生成每日监测简报。</li>
         </ul>
-        <div class="pillar-reports reveal">
-          <a class="hero-report-card" href="reports/全球社交媒体上的奥德赛时期.html">
-            <div class="hero-report-preview">
-              <img src="assets/odyssey-preview.jpg" alt="全球社交媒体上的奥德赛时期报告首屏" loading="lazy" />
+        <div class="pillar-reports reveal" data-page-node-id="QRlPsZGMIF4ABmbydqERZG">
+          <a class="hero-report-card" href="reports/全球社交媒体上的奥德赛时期.html" data-page-node-id="lZJnEmtBQtuswPWIZxLuMR">
+            <div class="hero-report-preview" data-page-node-id="61kr4KtWpWjkQxJgzTzryS">
+              <img src="assets/odyssey-preview.jpg" alt="全球社交媒体上的奥德赛时期报告首屏" loading="lazy" data-page-node-id="8atjq8g0lEbYPMkjH4fQix" />
             </div>
-            <div class="hero-report-meta">
-              <div class="hero-report-tag">Report · 社媒洞察</div>
-              <div class="hero-report-title">全球社交媒体上的奥德赛时期</div>
-              <div class="hero-report-desc">全球社交媒体高赞内容全景报告：纵览、时间线、平台数据图谱与国际视野。</div>
-              <span class="arrow">READ →</span>
+            <div class="hero-report-meta" data-page-node-id="mpnEVccl5DHPu8kk8kcYjX">
+              <div class="hero-report-tag" data-page-node-id="hZNJQYKABE1EkNbJ8xLHQa">Report · 社媒洞察</div>
+              <div class="hero-report-title" data-page-node-id="MG1NqNDGVPnZ5nrMYcKTyz">全球社交媒体上的奥德赛时期</div>
+              <div class="hero-report-desc" data-page-node-id="ST6xlEcBghJD4Byu9QA5OE">全球社交媒体高赞内容全景报告：纵览、时间线、平台数据图谱与国际视野。</div>
+              <span class="arrow" data-page-node-id="Hs1QMqvp7HPEk0krR7meaz">READ →</span>
             </div>
           </a>
-          <a class="hero-report-card" href="reports/中国电动汽车营销趋势报告.html">
-            <div class="hero-report-preview">
-              <img src="assets/ev-preview.jpg" alt="中国电动汽车营销趋势报告首屏" loading="lazy" />
+          <a class="hero-report-card" href="reports/中国电动汽车营销趋势报告.html" data-page-node-id="lJnf0HxhhViTiTC6W08QFH">
+            <div class="hero-report-preview" data-page-node-id="3bKcctv4azHlPiGyGqnFZJ">
+              <img src="assets/ev-preview.jpg" alt="中国电动汽车营销趋势报告首屏" loading="lazy" data-page-node-id="LeVTqYyAyerUJ37lSsUA96" />
             </div>
-            <div class="hero-report-meta">
-              <div class="hero-report-tag">Report · 行业趋势</div>
-              <div class="hero-report-title">2026 年中国电动汽车营销趋势报告</div>
-              <div class="hero-report-desc">市场格局、用户洞察、趋势研判、标杆案例与营销实操指南。</div>
-              <span class="arrow">READ →</span>
+            <div class="hero-report-meta" data-page-node-id="uWsy6lBc7Ez1St29XYH1oP">
+              <div class="hero-report-tag" data-page-node-id="9MjlI2WIuTvswfh9rw2EMF">Report · 行业趋势</div>
+              <div class="hero-report-title" data-page-node-id="g2uAtUIe2MT9BZrl3bw6zf">2026 年中国电动汽车营销趋势报告</div>
+              <div class="hero-report-desc" data-page-node-id="ggmGiqnySlaNZvrTh0UDMl">市场格局、用户洞察、趋势研判、标杆案例与营销实操指南。</div>
+              <span class="arrow" data-page-node-id="5lF6Ds8PzDBpYd5hw1AqCh">READ →</span>
             </div>
           </a>
         </div>
       </div>
     </article>
 
-    <div class="section-ticker" aria-hidden="true" data-ticker="CONTENT CREATOR|内容创作支持"></div>
-    <article class="pillar reveal">
-      <div class="pillar-main">
-        <h2 class="pillar-title">CONTENT CREATOR</h2>
-        <p class="pillar-subtitle">内容创作支持 —— 从选题到成稿，用数据决定写什么、怎么写。</p>
-        <ul class="pillar-list">
-          <li><b>Topic Radar</b>从热点信号中挖掘高潜力选题。</li>
-          <li><b>Style Engine</b>对齐品牌语调的内容生成与改写。</li>
-          <li><b>Report Design</b>将数据自动排版为可发布的报告页面。</li>
+    <div class="section-ticker" aria-hidden="true" data-ticker="CONTENT CREATOR|内容创作支持" data-page-node-id="MCg1voJkne2W5J2i9wWhAH"></div>
+    <article class="pillar reveal" data-page-node-id="dUPvMHFW3WZv4LdSk2V9an">
+      <div class="pillar-main" data-page-node-id="SAo2NDod1PoE8wEkkoutv9">
+        <h2 class="pillar-title" data-page-node-id="LSDG6AGT2RRkJFNXWMAS3B">CONTENT CREATOR</h2>
+        <p class="pillar-subtitle" data-page-node-id="u9gTcgZiGa6HfBNsUT1EKU">内容创作支持 —— 从选题到成稿，用数据决定写什么、怎么写。</p>
+        <ul class="pillar-list" data-page-node-id="6ITFi6MebCPFbHv6XjiCdg">
+          <li data-page-node-id="h49T4GJEzbjG5HdQf6eFSG"><b data-page-node-id="pKvfU8SdsqJ9TiX3qvfr3f">Topic Radar</b>从热点信号中挖掘高潜力选题。</li>
+          <li data-page-node-id="BJPZXGYP7W6Kg9gsmX5e0v"><b data-page-node-id="i3ttj5ZyyBHL9P03HyVc3t">Style Engine</b>对齐品牌语调的内容生成与改写。</li>
+          <li data-page-node-id="xrFYcIlghoJD9wBPG6QirQ"><b data-page-node-id="ADen3URtI49XWY1z0tUHAA">Report Design</b>将数据自动排版为可发布的报告页面。</li>
         </ul>
       </div>
     </article>
 
-    <div class="section-ticker" aria-hidden="true" data-ticker="MACHINE LEARNING|机器学习技术应用"></div>
-    <article class="pillar reveal">
-      <div class="pillar-main">
-        <h2 class="pillar-title">MACHINE LEARNING</h2>
-        <p class="pillar-subtitle">机器学习技术应用 —— 让营销决策从经验驱动走向模型驱动。</p>
-        <ul class="pillar-list">
-          <li><b>Attribution</b>多触点营销归因建模。</li>
-          <li><b>Forecast</b>趋势与声量预测。</li>
-          <li><b>Dashboard</b>指标可视化与异常预警。</li>
+    <div class="section-ticker" aria-hidden="true" data-ticker="MACHINE LEARNING|机器学习技术应用" data-page-node-id="CFVKu2lvVPr6u3sDtmmA0p"></div>
+    <article class="pillar reveal" data-page-node-id="MrcBsbsNQl47XS6uwGc5TC">
+      <div class="pillar-main" data-page-node-id="tCPN8pFaegdVQsklgGVvVB">
+        <h2 class="pillar-title" data-page-node-id="FkXr2rd3I9BPy3aZGF8S73">MACHINE LEARNING</h2>
+        <p class="pillar-subtitle" data-page-node-id="HZlYMvgepi1cVSsjLGe1ZD">机器学习技术应用 —— 让营销决策从经验驱动走向模型驱动。</p>
+        <ul class="pillar-list" data-page-node-id="uyWHT40Yvmo0DK2xnN1Y5U">
+          <li data-page-node-id="J9DVtm8DMF0qyRhCFA0MTi"><b data-page-node-id="SPLeoKGokP9C3BGWvZUqVY">Attribution</b>多触点营销归因建模。</li>
+          <li data-page-node-id="BjOyb22xltCCiqbPJ7F6RI"><b data-page-node-id="bFi0eWlAk4QdVwsLSghHCA">Forecast</b>趋势与声量预测。</li>
+          <li data-page-node-id="y0e4A9yRFIIwRDvHu2cL3B"><b data-page-node-id="LIvxbGJhNB8TJGpasOK5GV">Dashboard</b>指标可视化与异常预警。</li>
         </ul>
       </div>
     </article>
 
-    <div class="section-ticker" aria-hidden="true" data-ticker="KOL VALUE|关键意见领袖价值评估"></div>
-    <article class="pillar reveal">
-      <div class="pillar-main">
-        <h2 class="pillar-title">KOL VALUE</h2>
-        <p class="pillar-subtitle">关键意见领袖价值评估 —— 用量化指标识别真正有影响力的创作者。</p>
-        <ul class="pillar-list">
-          <li><b>Scoring</b>粉丝质量、互动率、商业转化多维评分。</li>
-          <li><b>Benchmark</b>同赛道创作者横向对比。</li>
-          <li><b>Matching</b>品牌 × KOL 智能匹配推荐。</li>
+    <div class="section-ticker" aria-hidden="true" data-ticker="KOL VALUE|关键意见领袖价值评估" data-page-node-id="FaNLSMdY1mVXYazfuevELj"></div>
+    <article class="pillar reveal" data-page-node-id="kfFhTJczVKdzagBnAjJttf">
+      <div class="pillar-main" data-page-node-id="I2onWZX37pn0gDWEmsK107">
+        <h2 class="pillar-title" data-page-node-id="JwnhZd5D5C16XAI1KnQxFd">KOL VALUE</h2>
+        <p class="pillar-subtitle" data-page-node-id="YBP8FHdgKRA3MhYjbiby3T">关键意见领袖价值评估 —— 用量化指标识别真正有影响力的创作者。</p>
+        <ul class="pillar-list" data-page-node-id="KyEAdIVXxQRzI9LNQ5TakI">
+          <li data-page-node-id="YXhKNNWV6KMYZ1ZRd2HwAB"><b data-page-node-id="jAJayR8FqWAnnG007PtYYf">Scoring</b>粉丝质量、互动率、商业转化多维评分。</li>
+          <li data-page-node-id="FC8iW2FKJAUQEMVZ6qdfzE"><b data-page-node-id="ZqUkvpqeXm3kB79hFY1tDq">Benchmark</b>同赛道创作者横向对比。</li>
+          <li data-page-node-id="2L3ETflB7nkDbqMQOiHYNU"><b data-page-node-id="e7wyQDTjZfGfpurvQMj16N">Matching</b>品牌 × KOL 智能匹配推荐。</li>
         </ul>
       </div>
     </article>
@@ -667,17 +709,17 @@
 </section>
 
 <!-- ========== FOOTER ========== -->
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-bottom">
-      <span>© DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
-      <div class="footer-links">
-        <a href="trends.html">TRENDS →</a>
-        <a href="about.html">ABOUT FOUNDER</a>
+<footer class="site-footer" data-page-node-id="HIYAV6fyy6th34X8a6q6F5">
+  <div class="wrap" data-page-node-id="zwFJcM8AvgtECZIchlFGLq">
+    <div class="footer-bottom" data-page-node-id="lUpoPATvwWUjXIt9ODx3w1">
+      <span data-page-node-id="y5ykgJesxYCiuKDmz03uG7">© DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
+      <div class="footer-links" data-page-node-id="lNy3OKN7dNFml6EiemnUvI">
+        <a href="trends.html" data-page-node-id="0IaW2vPVhTy7GLyHMZRXqF">TRENDS →</a>
+        <a href="about.html" data-page-node-id="cGU40biepHkxmoKgpUE0wB">ABOUT FOUNDER</a>
       </div>
     </div>
-    <div class="footer-mail-row">
-      <a href="mailto:demonai2025@163.com" class="footer-mail">demonai2025@163.com</a>
+    <div class="footer-mail-row" data-page-node-id="35Q9TJ2IWCv8pb9vzSRyzm">
+      <a href="mailto:demonai2025@163.com" class="footer-mail" data-page-node-id="VT0oAVOwXdmG42GnvNE5Xr">demonai2025@163.com</a>
     </div>
   </div>
 </footer>
@@ -719,5 +761,6 @@
   }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
   document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
 </script>
+<script src="assets/theme.js"></script>
 </body>
 </html>
