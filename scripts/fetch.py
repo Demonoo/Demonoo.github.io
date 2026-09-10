@@ -11,6 +11,14 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_PATH = os.path.join(BASE, "data", "raw_hotspots.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
+# 话题聚合页链接（实测结论，2026-09）：
+#   s.weibo.com/weibo?q=...  未登录会被 302 到 passport.weibo.com/sso/signin → 页面空白 ❌
+#   m.weibo.cn/search?containerid=100103type%3D1%26q%3D<话题>  无需登录、内容完整 ✅
+WEIBO_TOPIC = "https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D"
+# 抖音热点榜落地页（实测可打开）；douyin.com/search/<词> 会命中验证码中间页，
+# douyin.com/hot/<词> 返回「视频不存在」，故统一指向榜单页
+DOUYIN_HOTLIST = "https://so-landing.douyin.com/landings/hotlist"
+
 
 def _get(url, headers=None, timeout=15):
     h = {"User-Agent": UA, "Accept": "*/*"}
@@ -34,10 +42,20 @@ def fetch_weibo():
         word = it.get("word") or it.get("word_scheme", "").strip("#")
         if not word:
             continue
+        # 话题词用 #话题# 形式检索，非话题词用裸词，命中率最高
+        scheme = (it.get("word_scheme") or "").strip()
+        if scheme.startswith("#") and scheme.endswith("#") and len(scheme) > 2:
+            q = scheme
+        elif it.get("topic_flag"):
+            q = "#" + word + "#"
+        else:
+            q = word
         items.append({
             "title": word,
             "hot": it.get("num", 0),
-            "url": "https://s.weibo.com/weibo?q=" + urllib.parse.quote(word),
+            "realpos": it.get("realpos", 0),
+            "label": it.get("label_name", ""),
+            "url": WEIBO_TOPIC + urllib.parse.quote(q),
         })
     return items
 
@@ -55,7 +73,8 @@ def fetch_douyin():
         items.append({
             "title": word,
             "hot": it.get("hot_value", 0),
-            "url": "https://www.douyin.com/search/" + urllib.parse.quote(word),
+            "label": it.get("label", ""),
+            "url": DOUYIN_HOTLIST,
         })
     return items
 

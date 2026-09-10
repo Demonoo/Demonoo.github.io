@@ -353,7 +353,7 @@
 <div class="bulletin">
   <div class="bulletin-inner">
     <span>Social Media Intelligence · 热点基因图谱</span>
-    <span>每 3 小时自动更新 · 数据源 微博热榜</span>
+    <span>每 20 分钟自动更新 · 数据源 微博热榜</span>
   </div>
 </div>
 
@@ -377,7 +377,7 @@
       <span class="ai-tag">AI Quant</span>
     </h1>
     <div class="title-rule"></div>
-    <p class="page-subtitle">数据驱动的 AI 量化营销研究平台。每三小时扫描全网热榜，对每条词条输出情感倾向、创作领域、内容形态与生命周期四维结构化洞察。</p>
+    <p class="page-subtitle">数据驱动的 AI 量化营销研究平台。每 20 分钟扫描全网热榜，对每条词条输出情感倾向、创作领域、内容形态与生命周期四维结构化洞察。</p>
   </div>
   <div class="page-tools">
     <div class="search-wrap">
@@ -391,7 +391,7 @@
     </div>
     <div class="update-pill">
       <span class="dot"></span>
-      <span id="update-text">每 3 小时自动更新</span>
+      <span id="update-text">每 20 分钟自动更新</span>
     </div>
   </div>
 </header>
@@ -431,7 +431,7 @@
 
     <div class="note">
       <h4>Data Pipeline · 数据更新说明</h4>
-      <p>数据由 GitHub Actions 每 3 小时自动定时产出：抓取热榜 → 情感三分类推理 → 大模型领域分析 → 提交 data/hotspots.json → Pages 重建。当前展示为最近一次分析快照。</p>
+      <p>数据由 GitHub Actions 每 20 分钟自动定时产出：抓取热榜 → 情感三分类推理 → 领域分析（增量，仅新词条）→ 提交 data/hotspots.json → Pages 重建。当前展示为最近一次分析快照。</p>
     </div>
   </aside>
 </main>
@@ -477,13 +477,16 @@
       }[c]));
     }
 
-    // 话题聚合跳转：优先用数据自带 url，缺失则按平台拼搜索页
+    // 话题聚合跳转：优先用数据自带 url；缺失时按平台拼「能打开的」聚合页
+    // 注意 s.weibo.com/weibo?q= 未登录会 302 到登录页（表现为空白），
+    // 实测 m.weibo.cn 的 containerid 话题页无需登录、内容完整
     function jumpUrl(it) {
       if (it && it.url) return it.url;
-      const q = encodeURIComponent((it && it.title) || '');
-      return String(DATA.source || '').indexOf('抖音') > -1
-        ? 'https://www.douyin.com/search/' + q
-        : 'https://s.weibo.com/weibo?q=' + q;
+      if (String(DATA.source || '').indexOf('抖音') > -1)
+        return 'https://so-landing.douyin.com/landings/hotlist';
+      const w = (it && it.title) || '';
+      return 'https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D'
+        + encodeURIComponent('#' + w + '#');
     }
 
     function renderList(filter) {

@@ -2,12 +2,17 @@ name: 热榜热点基因分析
 
 on:
   schedule:
-    # 每 3 小时跑一次（UTC 时间）
-    - cron: "0 */3 * * *"
+    # 每 20 分钟跑一次（UTC）。注意：GitHub 定时任务在高峰期可能延迟几分钟
+    - cron: "*/20 * * * *"
   workflow_dispatch: {}   # 支持手动触发
 
 permissions:
   contents: write
+
+# 同一时间只跑一个，避免两轮互相覆盖
+concurrency:
+  group: hotspot-analysis
+  cancel-in-progress: false
 
 env:
   # 情感模型统一走国内镜像，规避 HuggingFace 原站不可达
@@ -25,6 +30,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: 缓存 pip 下载
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-${{ hashFiles('.github/workflows/hotspot-analysis.yml') }}
+
       - name: 缓存情感模型权重（约 390MB，命中则跳过下载）
         uses: actions/cache@v4
         with:
@@ -34,8 +45,8 @@ jobs:
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
-          pip install --no-cache-dir transformers
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers
 
       - name: 抓取热榜（微博 + 抖音）
         run: python scripts/fetch.py
@@ -43,7 +54,7 @@ jobs:
       - name: 情绪三分类（senlou 微博微调模型，本地推理）
         run: python scripts/sentiment.py
 
-      - name: GLM 热点基因分析（行业/形态/生命周期）
+      - name: GLM 热点基因分析（增量：只分析新上榜词条）
         env:
           GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
         run: python scripts/analyze.py
@@ -52,10 +63,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hotspots.json data/raw_hotspots.json data/sentiment.json
+          git add data/hotspots.json data/sentiment.json
           if git diff --cached --quiet; then
-            echo "数据无变化，跳过提交"
-          else
-            git commit -m "data: 更新热点基因分析 $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            echo "内容无变化，跳过提交"
+            exit 0
           fi
+          git commit -m "data: 更新热点基因分析 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+          git pull --rebase --autostash origin main || true
+          git push
