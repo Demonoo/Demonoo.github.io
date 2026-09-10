@@ -2,8 +2,9 @@ name: 热榜热点基因分析
 
 on:
   schedule:
-    # 每 20 分钟跑一次（UTC）。注意：GitHub 定时任务在高峰期可能延迟几分钟
-    - cron: "*/20 * * * *"
+    # 每小时跑一次（UTC）。中国时间 08:00-24:00 每小时第 0 分。
+    # 注意：GitHub 定时任务在高峰期可能延迟几分钟
+    - cron: "0 * * * *"
   workflow_dispatch: {}   # 支持手动触发
 
 permissions:
@@ -46,7 +47,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-          pip install transformers
+          pip install transformers websocket-client
 
       - name: 抓取热榜（微博 + 抖音）
         run: python scripts/fetch.py
@@ -61,11 +62,19 @@ jobs:
           LLM_MODEL: gpt-oss:20b
         run: python scripts/analyze.py
 
+      # 话题参与作者：需用真实浏览器渲染微博话题页（直连会被风控跳登录）
+      # runner 自带 Google Chrome；抓取失败不影响主流程（保留上一次结果）
+      - name: 采集话题参与作者（headless Chrome + CDP）
+        continue-on-error: true
+        run: |
+          google-chrome --version || chromium --version || true
+          python scripts/authors.py
+
       - name: 提交结果
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hotspots.json data/sentiment.json
+          git add data/hotspots.json data/sentiment.json data/authors.json
           if git diff --cached --quiet; then
             echo "内容无变化，跳过提交"
             exit 0

@@ -1,22 +1,23 @@
 # -*- coding: utf-8 -*-
 """
 热点基因分析：调用云端大模型，对每条热榜词条输出
-创作领域 / 内容形态 / 生命周期 / 核心话题词
+创作领域 / 内容形态 / 生命周期 / 核心话题词 / 话题性质
 
 - 情感倾向由本地小模型 sentiment.py 提供，本脚本只负责领域维度并合并两者
 - 所有分析结果均来自实时模型推理，无本地兜底、无规则伪造
+- 话题性质（新闻性 / 娱乐性）同样由模型判定，用于话题聚合页的属性区分
 
 接口：Ollama Cloud（OpenAI 兼容）
       POST https://ollama.com/v1/chat/completions
       免费档实测可用：gpt-oss:20b（4.5s/条、JSON 稳定、中文分类准确）
       需订阅的模型（glm-5.x / deepseek-v4 / kimi / minimax / mistral-large 等）返回 402
 
-设计要点（配合 20 分钟一次的高频调度）：
+设计要点（配合每小时一次的高频调度）：
 1. 增量缓存：上一轮已分析过的词条直接复用结果，只有新上榜的词条才调模型
-   —— 热榜每 20 分钟变化很小，调用量从 50 次/轮降到个位数
+   —— 热榜每小时变化很小，调用量从 50 次/轮降到个位数
 2. 条数完整：**输出条数恒等于抓到的热榜条数**，不会因限流被截断
 3. 限流熔断：连续多次限流则本轮停止调用，剩余词条沿用缓存（无缓存则留空待下轮补齐）
-4. 无变化不写盘：内容与上一轮完全一致时不写文件，避免每 20 分钟产生空提交
+4. 无变化不写盘：内容与上一轮完全一致时不写文件，避免每小时产生空提交
 """
 import os, re, sys, json, time, urllib.request, urllib.error
 from collections import Counter, defaultdict
@@ -30,12 +31,13 @@ API_URL = os.environ.get("LLM_API_URL", "https://ollama.com/v1/chat/completions"
 MODEL = os.environ.get("LLM_MODEL", "gpt-oss:20b")
 
 # 提示词版本：改动 build_prompt 或关键词规则时 +1，缓存中版本不同的词条会被重新分析
-PROMPT_VERSION = "2"
+PROMPT_VERSION = "3"
 
 DOMAINS = ["体育", "娱乐", "社会", "科技", "财经", "民生", "情感", "美食", "时尚",
            "健康", "教育", "汽车", "游戏", "影视", "旅游", "宠物", "国际", "其他"]
 FORMS = ["短视频", "图文", "深度报道", "直播", "数据可视化", "互动话题"]
 LIFECYCLE = ["短期", "中期", "长期"]
+NATURES = ["新闻性", "娱乐性"]
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_PATH = os.path.join(BASE, "data", "raw_hotspots.json")
@@ -61,8 +63,10 @@ def build_prompt(keyword: str) -> str:
         "   - 不得含标点、#号、空格；不得是单个虚字（如「的」「了」「曝」）\n"
         "   - 禁止把词条机械切成碎片。反例：「刘亦菲曾被裁掉过」不可以切成"
         "[\"刘亦菲曾\",\"裁掉过\"]，正确是 [\"刘亦菲\",\"被裁\",\"娱乐圈\"]\n"
-        "   - 禁止整句照抄词条\n\n"
-        '输出格式（严格）：{"创作领域":"","内容形态":"","生命周期":"","核心话题词":["",""]}'
+        "   - 禁止整句照抄词条\n"
+        f"5. 话题性质：从 {NATURES} 中选一个。"
+        "新闻性＝时政/经济/社会/科技/民生等公共议题；娱乐性＝明星/影视/综艺/网红等消遣话题\n\n"
+        '输出格式（严格）：{"创作领域":"","内容形态":"","生命周期":"","核心话题词":["",""],"话题性质":""}'
     )
 
 
@@ -161,6 +165,7 @@ def call_llm(keyword: str):
                 "内容形态": j.get("内容形态", "") or "",
                 "生命周期": j.get("生命周期", "") or "",
                 "核心话题词": clean_keywords(j.get("核心话题词", []), keyword),
+                "话题性质": j.get("话题性质", "") or "",
             }
         except urllib.error.HTTPError as e:
             body = ""
@@ -244,6 +249,7 @@ def main():
             and src in ("LLM", "GLM")
             and cached.get("创作领域")
             and cached.get("核心话题词")
+            and cached.get("话题性质")
             and str(cached.get("分析版本", "")) == PROMPT_VERSION
         )
         analysis = None
@@ -257,6 +263,7 @@ def main():
                     "内容形态": cached.get("内容形态", ""),
                     "生命周期": cached.get("生命周期", ""),
                     "核心话题词": kws,
+                    "话题性质": cached.get("话题性质", ""),
                 }
                 reused += 1
 
@@ -283,6 +290,7 @@ def main():
                 "内容形态": analysis["内容形态"],
                 "生命周期": analysis["生命周期"],
                 "核心话题词": analysis["核心话题词"],
+                "话题性质": analysis["话题性质"],
                 "分析来源": "LLM",
                 "分析版本": PROMPT_VERSION,
                 "url": it.get("url", ""),
@@ -296,6 +304,7 @@ def main():
                 "内容形态": "",
                 "生命周期": "",
                 "核心话题词": [],
+                "话题性质": "",
                 "分析来源": "",
                 "分析版本": "",
                 "url": it.get("url", ""),
@@ -319,6 +328,7 @@ def main():
     summary = {
         "情感分布": dict(Counter(it["情感倾向"] for it in items)),
         "领域分布": {k: len(v) for k, v in clusters.items()},
+        "性质分布": dict(Counter(it["话题性质"] for it in items if it["话题性质"])),
         "总词条数": len(items),
     }
 
@@ -347,6 +357,7 @@ def main():
     print(f"完成：{len(items)} 条写入 {OUT_PATH}")
     print("领域分布：", summary["领域分布"])
     print("情感分布：", summary["情感分布"])
+    print("性质分布：", summary["性质分布"])
 
 
 if __name__ == "__main__":
