@@ -31,7 +31,7 @@ API_URL = os.environ.get("LLM_API_URL", "https://ollama.com/v1/chat/completions"
 MODEL = os.environ.get("LLM_MODEL", "gpt-oss:20b")
 
 # 提示词版本：改动 build_prompt 或关键词规则时 +1，缓存中版本不同的词条会被重新分析
-PROMPT_VERSION = "3"
+PROMPT_VERSION = "4"
 
 DOMAINS = ["体育", "娱乐", "社会", "科技", "财经", "民生", "情感", "美食", "时尚",
            "健康", "教育", "汽车", "游戏", "影视", "旅游", "宠物", "国际", "其他"]
@@ -49,25 +49,135 @@ MAX_CALLS_PER_RUN = 60   # 单轮调用上限，防止失控
 REQUEST_TIMEOUT = 90
 
 
-def build_prompt(keyword: str) -> str:
+def build_prompt(keyword: str, siblings=None) -> str:
+    """构造分析提示词
+
+    siblings：同榜的「兄弟词条」——与当前词条共享长公共子串的其他上榜词条。
+    热榜里同一实体常被拆成多条（早春晴朗云合 / 早春晴朗战绩 / 早春晴朗有收官见面会…），
+    单看裸词条时模型无从知道「早春晴朗」是网剧名，只能按常用词切成 早春/晴朗。
+    把兄弟词条作为实体线索喂进去，模型即可推断出实体边界。
+    """
+    ctx = ""
+    if siblings:
+        ctx = ("【背景参考】同榜相关词条（只帮你判断实体边界，"
+               "其中的字词一律不得出现在答案里）：\n"
+               + "\n".join("  - " + s for s in siblings) + "\n\n")
     return (
         "你是社交媒体热点分析专家。请对热搜词条做「热点基因」分析。\n"
-        f"热搜词条：{keyword}\n\n"
+        f"热搜词条：{keyword}\n"
+        + ctx +
         "分析维度（只输出一个 JSON 对象，不要 markdown 代码块、不要任何多余文字）：\n"
-        f"1. 创作领域：从 {DOMAINS} 中选一个，选最贴合的\n"
+        f"1. 创作领域：从 {DOMAINS} 中选一个，选最贴合的。"
+        "影视剧/电影/综艺及其播放量、热度榜等衍生数据 → 选「影视」或「娱乐」\n"
         f"2. 内容形态：从 {FORMS} 中选一个\n"
         f"3. 生命周期：从 {LIFECYCLE} 中选一个\n"
         "4. 核心话题词：3-5 个，用于检索该话题的关键词，规则：\n"
-        "   - 只能是词条中出现的真实实体或话题名词：人名、品牌、作品名、事件、机构、概念\n"
+        "   - 每个词都必须真实出现在「热搜词条」本身里；严禁使用「背景参考」里的任何字词\n"
+        "   - 【先识别实体】作品名（剧名/电影/综艺/歌曲）、人名、品牌名、机构名必须整块保留，"
+        "严禁拆成常用词\n"
+        "   - 可参考「背景参考」判断实体：若一段字符在多个词条里反复出现，它多半就是实体名"
+        "（如多条都含「早春晴朗」，说明「早春晴朗」是一个整体）\n"
+        "   - 反例：「早春晴朗云合」中「早春晴朗」是网剧名，不可拆成 [\"早春\",\"晴朗\"]，"
+        "正确是 [\"早春晴朗\",\"云合\"]；「刘亦菲曾被裁掉过」不可切成 [\"刘亦菲曾\",\"裁掉过\"]，"
+        "正确是 [\"刘亦菲\",\"被裁\"]\n"
         "   - 每个词 2-8 个字（英文品牌/产品名保留原文，如 iPhone18Pro）\n"
         "   - 不得含标点、#号、空格；不得是单个虚字（如「的」「了」「曝」）\n"
-        "   - 禁止把词条机械切成碎片。反例：「刘亦菲曾被裁掉过」不可以切成"
-        "[\"刘亦菲曾\",\"裁掉过\"]，正确是 [\"刘亦菲\",\"被裁\",\"娱乐圈\"]\n"
-        "   - 禁止整句照抄词条\n"
+        "   - 禁止整句照抄词条，也不要重复输出同一个词\n"
         f"5. 话题性质：从 {NATURES} 中选一个。"
-        "新闻性＝时政/经济/社会/科技/民生等公共议题；娱乐性＝明星/影视/综艺/网红等消遣话题\n\n"
+        "新闻性＝时政/经济/社会/科技/民生等公共议题；娱乐性＝明星/影视/综艺/网红等消遣话题。"
+        "【关键】看「话题对象」而不是字面用词：只要话题对象是影视剧/明星/综艺/网红，"
+        "即使词条带「云合/收视/播放量/市占率/热度值/榜单」等数据字眼，也判「娱乐性」\n\n"
         '输出格式（严格）：{"创作领域":"","内容形态":"","生命周期":"","核心话题词":["",""],"话题性质":""}'
     )
+
+
+def _lcs_len(a: str, b: str) -> int:
+    """最长公共子串长度（用于找同榜兄弟词条）。词条很短、每轮仅几十条，DP 足够快"""
+    if not a or not b:
+        return 0
+    prev = [0] * (len(b) + 1)
+    best = 0
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        ai = a[i - 1]
+        for j in range(1, len(b) + 1):
+            if ai == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                if cur[j] > best:
+                    best = cur[j]
+        prev = cur
+    return best
+
+
+def _prefix_len(a: str, b: str) -> int:
+    n = 0
+    for x, y in zip(a, b):
+        if x != y:
+            break
+        n += 1
+    return n
+
+
+def find_siblings(keyword: str, all_titles, k: int = 3):
+    """找出与当前词条共享长公共子串（或共同前缀）的其他上榜词条
+
+    这些词条是对模型最有效的实体线索：单条看不出是剧名，多条一起就能看出。
+    """
+    scored = []
+    for t in all_titles:
+        if not t or t == keyword:
+            continue
+        n = _lcs_len(keyword, t)
+        p = _prefix_len(keyword, t)
+        if n >= 3 or p >= 2:
+            scored.append((n, p, t))
+    scored.sort(key=lambda x: (-x[0], -x[1], x[2]))
+    return [t for _, _, t in scored[:k]]
+
+
+def _common_entities(titles, min_len: int = 3, max_len: int = 8):
+    """从同榜词条里挖出「至少在 2 条标题中出现的公共子串」→ 候选实体名
+
+    早春晴朗云合 / 早春晴朗战绩 / 早春晴朗有收官见面会 三条共享「早春晴朗」，
+    这类重复出现的串基本就是作品/人物/事件名，可作为模型漏识别时的确定性兜底。
+    """
+    hit = defaultdict(set)
+    for i, t in enumerate(titles):
+        n = len(t)
+        for L in range(min_len, min(max_len, n) + 1):
+            for s in range(n - L + 1):
+                hit[t[s:s + L]].add(i)
+    cand = {s for s, idxs in hit.items()
+            if len(idxs) >= 2 and CJK.match(s)}   # 只认纯中文实体，避免英文子串噪声
+    # 去掉被更长候选包含的短串，只保留最长实体
+    return {s for s in cand if not any(s != o and s in o for o in cand)}
+
+
+def _restore_entities(kws, title: str, entities):
+    """模型把实体名切成碎片时，用完整实体名还原
+
+    仅在「碎片按序拼接后恰好等于实体名」时才替换，避免误伤正常分词。
+    """
+    t = _norm(title)
+    out = list(kws)
+    for e in sorted(entities, key=len, reverse=True):
+        if e in out or _norm(e) not in t:
+            continue
+        parts = [k for k in out if k and k in e]
+        parts.sort(key=lambda x: e.index(x))
+        used, pos = [], 0
+        for k in parts:
+            i = e.index(k)
+            if i < pos:          # 与前一个碎片重叠，跳过
+                continue
+            used.append(k)
+            pos = i + len(k)
+        if len(used) >= 2 and "".join(used) == e:
+            out = [k for k in out if k not in used]
+            out.append(e)
+            out.sort(key=lambda x: t.find(_norm(x)) if _norm(x) in t else 999)
+            break
+    return out
 
 
 KW_JUNK = re.compile(r"[#，。！？、：；,!?:;\"'“”‘’（）()\[\]【】<>《》/\\|~`^=+*&%$@]+")
@@ -82,12 +192,12 @@ def _norm(s: str) -> str:
     return re.sub(r"[\s#]+", "", s or "").lower()
 
 
-def clean_keywords(raw, title: str = ""):
+def clean_keywords(raw, title: str = "", entities=None):
     """清洗模型给出的核心话题词
 
     规则：去标点/#/空白 → 去虚词 → 限长 → 去重 → **必须是标题的子串**（挡幻觉）→ 上限 5 个
     注意：本函数只能挡结构性垃圾与幻觉，挡不住「字符上合法但语义是碎片」的词
-    （如「刘亦菲曾」「裁掉过」）——那类只能靠 build_prompt 里的反例约束。
+    （如「早春」「晴朗」）——那类靠 build_prompt 的实体约束 + entities 还原兜底。
     """
     if isinstance(raw, str):
         raw = re.split(r"[，,、;；\s]+", raw)
@@ -121,6 +231,9 @@ def clean_keywords(raw, title: str = ""):
     # 说明它是「词 + 少量虚字」拼出来的碎片（如「四大底层陷阱」含「底层陷阱」）→ 丢掉长的
     pruned = [k for k in out
               if not any(k != o and o in k and 0 < len(k) - len(o) <= 2 for o in out)]
+    # 实体还原：模型把网剧名/人名等切成了碎片时，用同榜挖出的实体名拼回来
+    if entities:
+        pruned = _restore_entities(pruned, title, entities)
     return pruned[:5]
 
 
@@ -140,11 +253,11 @@ def extract_json(text: str):
     return json.loads(t)
 
 
-def call_llm(keyword: str):
+def call_llm(keyword: str, siblings=None, entities=None):
     """返回分析 dict / "RATE_LIMITED" / None"""
     payload = json.dumps({
         "model": MODEL,
-        "messages": [{"role": "user", "content": build_prompt(keyword)}],
+        "messages": [{"role": "user", "content": build_prompt(keyword, siblings)}],
         "temperature": 0.3,
         "stream": False,
     }).encode("utf-8")
@@ -164,7 +277,7 @@ def call_llm(keyword: str):
                 "创作领域": j.get("创作领域", "") or "",
                 "内容形态": j.get("内容形态", "") or "",
                 "生命周期": j.get("生命周期", "") or "",
-                "核心话题词": clean_keywords(j.get("核心话题词", []), keyword),
+                "核心话题词": clean_keywords(j.get("核心话题词", []), keyword, entities),
                 "话题性质": j.get("话题性质", "") or "",
             }
         except urllib.error.HTTPError as e:
@@ -228,7 +341,12 @@ def main():
             senti_map[r["title"]] = r["情感倾向"]
 
     prev_map = load_prev(OUT_PATH)
+    # 同榜实体线索：兄弟词条（喂给模型）+ 重复公共子串（确定性还原兜底）
+    all_titles = [it.get("title", "") for it in items_raw if it.get("title")]
+    entities = _common_entities(all_titles)
     print(f"共 {len(items_raw)} 条热榜；上一轮缓存 {len(prev_map)} 条；模型 {MODEL}")
+    if entities:
+        print(f"同榜识别到 {len(entities)} 个候选实体：{sorted(entities, key=len, reverse=True)[:8]}")
 
     items = []
     reused = called = failed = 0
@@ -256,7 +374,7 @@ def main():
 
         if cached_ok:
             # 缓存的关键词也过一遍当前规则：清洗规则升级时无需重调模型即可自愈
-            kws = clean_keywords(cached.get("核心话题词", []), t)
+            kws = clean_keywords(cached.get("核心话题词", []), t, entities)
             if kws:
                 analysis = {
                     "创作领域": cached.get("创作领域", ""),
@@ -268,7 +386,7 @@ def main():
                 reused += 1
 
         if analysis is None and not blocked and called < MAX_CALLS_PER_RUN:
-            r = call_llm(t)
+            r = call_llm(t, find_siblings(t, all_titles), entities)
             called += 1
             if r == "RATE_LIMITED":
                 rate_streak += 1
