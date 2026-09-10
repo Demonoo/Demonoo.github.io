@@ -40,11 +40,11 @@
   }
 
   :root {
-    --bg: #ffffff;
-    --ink: #000000;
-    --ink-dim: #5a5a5a;
-    --ink-mute: #a0a0a0;
-    --line: #ececec;
+    --bg: #0d0d0d;
+    --ink: #f2f2f2;
+    --ink-dim: #9a9a9a;
+    --ink-mute: #666666;
+    --line: #242424;
 
     --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
     --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
@@ -68,11 +68,11 @@
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
   }
-  ::selection { background: #000; color: #fff; }
+  ::selection { background: var(--ink); color: var(--bg); }
   ::-webkit-scrollbar { width: 8px; height: 8px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: #d4d4d4; }
-  ::-webkit-scrollbar-thumb:hover { background: #999; }
+  ::-webkit-scrollbar-thumb { background: #3a3a3a; }
+  ::-webkit-scrollbar-thumb:hover { background: #555; }
 
   a { color: inherit; text-decoration: none; }
   .mono { font-family: var(--font-mono); }
@@ -103,7 +103,7 @@
     padding: 6px 0;
     border-bottom: 1px solid var(--line);
     position: sticky; top: 0;
-    background: rgba(255,255,255,0.86);
+    background: rgba(13,13,13,0.86);
     backdrop-filter: blur(12px) saturate(120%);
     -webkit-backdrop-filter: blur(12px) saturate(120%);
     z-index: 50;
@@ -166,9 +166,9 @@
     right: 0;
     width: 160px;
     padding: 10px;
-    background: #fff;
+    background: #1a1a1a;
     border: 1px solid var(--line);
-    box-shadow: 0 14px 40px -16px rgba(0,0,0,0.18);
+    box-shadow: 0 14px 40px -16px rgba(0,0,0,0.7);
     opacity: 0;
     visibility: hidden;
     transform: translateY(8px);
@@ -282,7 +282,7 @@
     max-width: 860px;
     border: 1px solid var(--line);
   }
-  .pillar-reports .hero-report-card { background: #fff; }
+  .pillar-reports .hero-report-card { background: #131313; }
   @media (max-width: 900px) {
     .pillar-reports { grid-template-columns: 1fr; }
   }
@@ -293,14 +293,14 @@
     overflow: hidden;
     transition: background 0.35s;
   }
-  .hero-report-card:hover { background: #fafafa; }
+  .hero-report-card:hover { background: #1c1c1c; }
   .hero-report-preview {
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
     padding: 0;
     overflow: hidden;
-    background: #f7f5f2;
+    background: #1a1a1a;
   }
   .hero-report-preview img {
     position: absolute;
@@ -522,7 +522,7 @@
   }
   .footer-bottom .blink {
     display: inline-block; width: 6px; height: 6px;
-    background: #000; border-radius: 50%;
+    background: var(--ink); border-radius: 50%;
     margin-right: 6px; vertical-align: middle;
     animation: pulse 1.6s ease-in-out infinite;
   }
@@ -573,7 +573,7 @@
     .intro { color: var(--ink-dim); text-shadow: none; }
     .hero-title .t-dot { background: var(--ink); box-shadow: none; }
     .hero-cta a { color: var(--ink); border-color: var(--ink); }
-    .hero-cta a:hover { background: var(--ink); color: #fff; }
+    .hero-cta a:hover { background: var(--ink); color: var(--bg); }
   }
 
   /* =========================================================
