@@ -276,6 +276,8 @@ KW_STOP = {"的", "了", "在", "和", "与", "被", "把", "让", "致", "为",
            "是", "有", "都", "就", "还", "也", "又", "将", "已", "曝", "传", "称", "等",
            # 纯谓语动词：做检索关键词没有信息量（精确匹配才生效，不影响「官方回应」这类实体短语）
            "造成", "导致", "引发", "致使", "成为", "表示", "进行", "予以",
+           "建议", "建议大家", "大家", "告诉", "认为", "发现", "回应", "回应称",
+           "采取", "必要措施", "可能", "该", "可",
            # 介词性/语气性虚词：单独成词时无信息量（如「与三个一有关」「其实还活着」）
            "有关", "关于", "其实", "至于", "因此", "所以", "但是", "而是", "不仅"}
 # 纯「数词 + 量词」字集：只用于拦「三个」「一种」这类 2 字碎片（见 clean_keywords），
@@ -329,7 +331,7 @@ def clean_keywords(raw, title: str = "", entities=None):
         # 必须真实出现在词条里：既排除整句照抄，也排除模型凭空补的词
         if title_key and _norm(k) not in title_key:
             continue
-        if k == title and not is_entity_title:
+        if k == title and not is_entity_title and len(title) > 3:
             continue
         if k in out:
             continue
@@ -467,6 +469,58 @@ def load_topic_lexicon(path=None):
         if lex:
             out[t] = lex
     return out
+
+
+def load_topic_kw_freq(path=None):
+    """读取上一轮 authors.py 从微博文案挖出的 n-gram 词频 → {标题: [(词, 次数), ...]}
+
+    与 lexicon 一样读到的是上一轮的产物；每轮重跑，1 小时内能自愈。
+    """
+    path = path or AUTHORS_PATH
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception:
+        return {}
+    out = {}
+    for t, tv in (d.get("topics") or {}).items():
+        if not isinstance(tv, dict):
+            continue
+        kf = tv.get("kw_freq") or []
+        if isinstance(kf, list) and kf:
+            out[t] = [tuple(x) if isinstance(x, (list, tuple)) else (x, 1) for x in kf]
+    return out
+
+
+def enrich_kw_freq(kws, title, kw_freq_list, max_kws: int = 5):
+    """用微博文案 n-gram 词频兜底：当 LLM 输出的关键词 < 2 个时，
+    按频次从 kw_freq 里选 top-N（在标题里、非停用词、未被覆盖）补上。
+    仍走硬约束：补的词必须真实出现在词条标题里，避免从无关文案里捞词。
+    """
+    kws = list(kws or [])
+    if not kw_freq_list or not title:
+        return kws
+    if len(kws) >= 2:
+        return kws
+    tk = _norm(title)
+    used = {_norm(k) for k in kws}
+    covered = "".join(kws)
+    for name, c in kw_freq_list:
+        n = _norm(name)
+        if not n or n in used:
+            continue
+        # 必须在标题里 + 不是停用词 + 跟已有词不冗余
+        if n not in tk or name in KW_STOP or all(ch in KW_STOP for ch in name):
+            continue
+        if 2 <= len(name) <= 6 and CJK.match(name):
+            kws = kws + [name]
+            used.add(n)
+            covered += name
+            if len(kws) >= max_kws:
+                break
+    return kws[:max_kws]
 
 
 def signature(result) -> str:
@@ -642,6 +696,12 @@ def main():
             merged.setdefault(name, 1)
         return merged
 
+    # 微博文案 n-gram 词频：LLM 切空/切少时按真实讨论用词兜底
+    topic_kw_freq = load_topic_kw_freq()
+    if topic_kw_freq:
+        print(f"文案词频覆盖 {len(topic_kw_freq)} 个话题，"
+              f"合计 {sum(len(v) for v in topic_kw_freq.values())} 个候选词")
+
     items = []
     called = failed = 0
     rate_streak = 0
@@ -698,6 +758,9 @@ def main():
 
         emo = senti_map.get(t) or "中性"
         if analysis:
+            # 微博文案 n-gram 兜底：标题短/LLM 切空时按真实讨论用词补
+            analysis["核心话题词"] = enrich_kw_freq(
+                analysis.get("核心话题词", []), t, topic_kw_freq.get(t, []))
             row = {
                 "title": t,
                 "情感倾向": emo,

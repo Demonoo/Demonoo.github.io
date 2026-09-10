@@ -165,8 +165,30 @@ EXTRACT_JS = r"""
   var book = tally(/《([^》]{1,20})》/g);
   var hash = tally(/#([^#\s]{2,20})#/g);
 
+  // 微博文案 n-gram 词频：从每个 .weibo-text 节点抽 2-4 字连续中文片段
+  // —— 真正的讨论热词（人名、产品名、事件术语）必出现 ≥2 次；单次 n-gram 噪声太多
+  // 注意：保留下来由 Python 端再按「必须在标题里 / 过滤作者名 / 过滤停用词」筛选
+  var wtNodes = document.querySelectorAll('.weibo-text');
+  var kw_freq = {};
+  for (var i = 0; i < wtNodes.length; i++) {
+    var txt = (wtNodes[i].innerText || '').replace(/[#@《》\n\r\u200b]/g, ' ');
+    var segs = txt.match(/[\u4e00-\u9fff]+/g) || [];
+    for (var si = 0; si < segs.length; si++) {
+      var seg = segs[si];
+      if (seg.length < 4) continue;          // 至少 4 字才有 n-gram 价值
+      for (var n = 2; n <= 4; n++) {         // 2/3/4 gram
+        for (var j = 0; j + n <= seg.length; j++) {
+          var g = seg.substr(j, n);
+          kw_freq[g] = (kw_freq[g] || 0) + 1;
+        }
+      }
+    }
+  }
+  var kw_freq_filtered = {};
+  for (var k in kw_freq) if (kw_freq[k] >= 2) kw_freq_filtered[k] = kw_freq[k];
+
   return JSON.stringify({ok: !!cards.length, stats: stats, authors: authors,
-                         book: book, hash: hash});
+                         book: book, hash: hash, kw_freq: kw_freq_filtered});
 })()
 """
 
@@ -199,11 +221,12 @@ def _lex_ok(name) -> bool:
     return bool(name) and len(name) <= 20 and bool(LEX_OK.match(name))
 
 
-def build_lexicon(book, hash_, title, max_items: int = 30):
+def build_lexicon(book, hash_, kw_freq, title, max_items: int = 30):
     """从话题页正文挖出的实体名（供 analyze.py 做「实体区间保护」）
 
     - 《…》：中文作品名的强信号，出现 1 次即采纳（权重 100+）
     - #…#：噪声大（页面会混入无关话题号、乃至整条热搜标题），要求出现 ≥2 次且长度 ≤12
+    - 微博文案 n-gram（kw_freq）：讨论热词，要求 ≥2 次且长度 2-6
     - 一律排除与词条本身等价的串（页面里词条自己的话题号会刷屏）
     """
     key = _norm_name(title)
@@ -219,8 +242,41 @@ def build_lexicon(book, hash_, title, max_items: int = 30):
             continue
         n = _norm_name(name)
         if c >= 2 and 2 <= len(name) <= 12 and n and n != key and _lex_ok(name):
+            score[name] = max(score.get(name, 0), 10 + c)
+    for name, c in (kw_freq or {}).items():
+        try:
+            c = int(c)
+        except Exception:
+            continue
+        n = _norm_name(name)
+        # 2-4 字、出现 ≥2 次、CJK 字符；过滤明显纯数字
+        if c >= 2 and 2 <= len(name) <= 4 and n and n != key and re.match(r'^[\u4e00-\u9fff]+$', name):
             score[name] = max(score.get(name, 0), c)
     return [k for k, _ in sorted(score.items(), key=lambda x: (-x[1], -len(x[0])))[:max_items]]
+
+
+def top_kw_freq(kw_freq, title, top_n: int = 40):
+    """从微博文案 n-gram 词频里挑 top_n（按频次降序，长度 2-4，纯 CJK）"""
+    key = _norm_name(title)
+    out = []
+    if not kw_freq:
+        return out
+    for name, c in sorted(kw_freq.items(), key=lambda x: (-int(x[1] or 0), -len(x[0]))):
+        try:
+            c = int(c)
+        except Exception:
+            continue
+        n = _norm_name(name)
+        if c < 2 or not n or n == key:
+            continue
+        if not (2 <= len(name) <= 4):
+            continue
+        if not re.match(r'^[\u4e00-\u9fff]+$', name):
+            continue
+        out.append([name, c])
+        if len(out) >= top_n:
+            break
+    return out
 
 
 def load_prev_lexicon(path):
@@ -353,11 +409,13 @@ def main():
                         break
                 if got:
                     authors = [enrich(a) for a in got["authors"][:TOP_N]]
-                    lex = build_lexicon(got.get("book"), got.get("hash"), title)
+                    lex = build_lexicon(got.get("book"), got.get("hash"), got.get("kw_freq"), title)
                     if not lex:
                         lex = prev_lex.get(title, [])      # 本轮没挖到 → 沿用上一轮，避免闪断
+                    kw_freq_list = top_kw_freq(got.get("kw_freq"), title)
                     topics[title] = {"stats": got.get("stats", {}),
-                                     "authors": authors, "lexicon": lex}
+                                     "authors": authors, "lexicon": lex,
+                                     "kw_freq": kw_freq_list}
                     ok_cnt += 1
                     if lex:
                         lex_cnt += 1
