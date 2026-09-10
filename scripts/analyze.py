@@ -495,14 +495,14 @@ def load_topic_kw_freq(path=None):
 
 
 def enrich_kw_freq(kws, title, kw_freq_list, max_kws: int = 5):
-    """用微博文案 n-gram 词频兜底：当 LLM 输出的关键词 < 2 个时，
-    按频次从 kw_freq 里选 top-N（在标题里、非停用词、未被覆盖）补上。
+    """用微博文案 n-gram 词频兜底：当 LLM 输出的关键词为空（0 个）时，
+    按频次从 kw_freq 里选 top-N（在标题里、非停用词、未被覆盖）补上，保证至少 1 个。
     仍走硬约束：补的词必须真实出现在词条标题里，避免从无关文案里捞词。
     """
     kws = list(kws or [])
     if not kw_freq_list or not title:
         return kws
-    if len(kws) >= 2:
+    if kws:
         return kws
     tk = _norm(title)
     used = {_norm(k) for k in kws}
