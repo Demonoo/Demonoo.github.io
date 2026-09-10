@@ -801,7 +801,9 @@
 
     const ctl = new AbortController();
     const timer = setTimeout(() => ctl.abort('timeout'), 15000);
-    const opts = { signal: ctl.signal };
+    // cache:'no-cache' → 每次打开都向服务器校验（Pages 支持 ETag/304，命中即极快），
+    // 否则浏览器会吃 GitHub Pages 的 max-age 缓存，导致"页面不更新"
+    const opts = { signal: ctl.signal, cache: 'no-cache' };
     Promise.all([
       fetch('data/hotspots.json', opts).then(r => r.ok ? r.json() : {}).catch(() => ({})),
       fetch('data/authors.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).catch(() => ({}))
