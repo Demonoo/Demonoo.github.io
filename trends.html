@@ -308,6 +308,9 @@
     border-radius: 3px;
   }
   .trend-tag.emo { color: var(--ink); border-color: var(--ink-mute); }
+  .trend-tag.emo-pos { color: #10b981; border-color: rgba(16, 185, 129, 0.45); }
+  .trend-tag.emo-neu { color: #9a9a9a; border-color: var(--line-strong); }
+  .trend-tag.emo-neg { color: #ef4444; border-color: rgba(239, 68, 68, 0.45); }
   .trend-tag.life-short { color: #f97316; border-color: rgba(249, 115, 22, 0.4); }
   .trend-tag.life-mid { color: #fbbf24; border-color: rgba(251, 191, 36, 0.4); }
   .trend-tag.life-long { color: #10b981; border-color: rgba(16, 185, 129, 0.4); }
@@ -417,6 +420,9 @@
     height: 100%;
     background: var(--accent);
   }
+  .emo-row .fill.pos { background: #10b981; }
+  .emo-row .fill.neu { background: #9a9a9a; }
+  .emo-row .fill.neg { background: #ef4444; }
   .emo-row .num {
     font-family: var(--font-mono);
     font-size: 11px;
@@ -583,6 +589,17 @@
 
     const LIFE_CLASS = { 短期: 'life-short', 中期: 'life-mid', 长期: 'life-long' };
 
+    // 情感三分类（兼容历史九类数据）
+    const EMO_MAP = {
+      振奋: '正面', 骄傲: '正面', 期待: '正面', 开心: '正面',
+      中立: '中性', 惊讶: '中性',
+      担忧: '负面', 愤怒: '负面', 悲伤: '负面',
+      正面: '正面', 中性: '中性', 负面: '负面'
+    };
+    const EMO_CLASS = { 正面: 'emo-pos', 中性: 'emo-neu', 负面: 'emo-neg' };
+    const EMO_FILL = { 正面: 'pos', 中性: 'neu', 负面: 'neg' };
+    const normEmo = (v) => EMO_MAP[v] || '中性';
+
     function renderList(filter) {
       const items = (DATA.items || []).filter(it => {
         if (!filter) return true;
@@ -597,6 +614,8 @@
       metaEl.textContent = `${items.length} / ${DATA.items.length} 条 · 来源 ${DATA.source || '微博'}`;
       listEl.innerHTML = items.slice(0, 50).map((it, i) => {
         const life = LIFE_CLASS[it['生命周期']] || '';
+        const emo = normEmo(it['情感倾向']);
+        const emoCls = EMO_CLASS[emo] || '';
         const kws = (it['核心话题词'] || []).slice(0, 4).map(k => `<span>#${k}</span>`).join('');
         return `
         <div class="trend-card">
@@ -604,7 +623,7 @@
           <div class="trend-body">
             <div class="trend-title">${escapeHtml(it.title)}</div>
             <div class="trend-tags">
-              <span class="trend-tag emo">${it['情感倾向']}</span>
+              <span class="trend-tag ${emoCls}">${emo}</span>
               <span class="trend-tag">${it['创作领域']}</span>
               <span class="trend-tag">${it['内容形态']}</span>
               <span class="trend-tag ${life}">${it['生命周期']}</span>
@@ -622,14 +641,17 @@
     function renderStats() {
       statTotal.textContent = DATA.summary['总词条数'] || (DATA.items || []).length;
       statCluster.textContent = (DATA.clusters || []).length;
-      const emo = DATA.summary['情感分布'] || {};
-      const entries = Object.entries(emo).sort((a, b) => b[1] - a[1]).slice(0, 6);
-      const max = Math.max(1, ...entries.map(e => e[1]));
-      emoBars.innerHTML = entries.map(([n, c]) =>
+      // 情感分布：归一化为三分类
+      const raw = DATA.summary['情感分布'] || {};
+      const merged = { 正面: 0, 中性: 0, 负面: 0 };
+      Object.entries(raw).forEach(([k, v]) => { merged[normEmo(k)] += v; });
+      const order = ['正面', '中性', '负面'];
+      const max = Math.max(1, ...order.map(k => merged[k]));
+      emoBars.innerHTML = order.map(n =>
         `<div class="emo-row">
           <span class="name">${n}</span>
-          <div class="bar"><div class="fill" style="width:${(c / max * 100).toFixed(0)}%"></div></div>
-          <span class="num">${c}</span>
+          <div class="bar"><div class="fill ${EMO_FILL[n]}" style="width:${(merged[n] / max * 100).toFixed(0)}%"></div></div>
+          <span class="num">${merged[n]}</span>
         </div>`).join('');
       if (DATA.updated_at) {
         updateEl.textContent = `更新于 ${DATA.updated_at}`;
