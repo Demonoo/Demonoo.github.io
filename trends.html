@@ -434,8 +434,8 @@
     .page-header { grid-template-columns: 1fr; gap: 38px; padding-top: 58px; }
     .page-tools { max-width: 420px; }
     .main { grid-template-columns: 1fr; gap: 56px; }
-    /* 单列时改由 DOM 顺序决定上下：把「实时洞察」提到「实时榜单」之前优先展示，
-       数据更新说明仍留在榜单之后（display:contents 让侧栏子项直接参与 .main 的网格排序） */
+    /* 单列时改由 DOM 顺序决定上下：把「实时洞察」提到「实时榜单」之前优先展示
+       （display:contents 让侧栏子项直接参与 .main 的网格排序） */
     .sidebar { display: contents; }
     .sidebar > .panel { order: -1; }
     .sidebar > .note { order: 1; margin-top: 0; }
@@ -539,11 +539,6 @@
       </div>
       <div class="emotion-bars" id="emotion-bars" data-page-node-id="p4HqLTV11itaO9zpd0RoSY"></div>
       <div class="domain-legend" id="domain-legend" data-page-node-id="domLegendPanel"></div>
-    </div>
-
-    <div class="note" data-page-node-id="T2F8Nt1GXZFykAeqz4hk46">
-      <h4 data-page-node-id="FqJvpFlTGmIAhGq5XLBRvy">Data Pipeline · 数据更新说明</h4>
-      <p data-page-node-id="ZSgnzsSRQ6BvVR7cantg7D">数据由 GitHub Actions 每小时自动定时产出：抓取热榜 → 情感三分类推理 → 领域分析（增量，仅新词条）→ 采集话题参与作者 → 提交 data/*.json → Pages 重建。当前展示为最近一次分析快照。</p>
     </div>
   </aside>
 </main>
