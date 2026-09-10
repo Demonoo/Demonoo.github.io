@@ -18,7 +18,7 @@
 3. 限流熔断：连续多次限流则本轮停止调用，剩余词条沿用缓存（无缓存则留空待下轮补齐）
 4. 无变化不写盘：内容与上一轮完全一致时不写文件，避免每 20 分钟产生空提交
 """
-import os, sys, json, time, urllib.request, urllib.error
+import os, re, sys, json, time, urllib.request, urllib.error
 from collections import Counter, defaultdict
 from datetime import datetime, timezone, timedelta
 
@@ -28,6 +28,9 @@ API_KEY = (os.environ.get("LLM_API_KEY")
            or "")
 API_URL = os.environ.get("LLM_API_URL", "https://ollama.com/v1/chat/completions")
 MODEL = os.environ.get("LLM_MODEL", "gpt-oss:20b")
+
+# 提示词版本：改动 build_prompt 或关键词规则时 +1，缓存中版本不同的词条会被重新分析
+PROMPT_VERSION = "2"
 
 DOMAINS = ["体育", "娱乐", "社会", "科技", "财经", "民生", "情感", "美食", "时尚",
            "健康", "教育", "汽车", "游戏", "影视", "旅游", "宠物", "国际", "其他"]
@@ -46,15 +49,75 @@ REQUEST_TIMEOUT = 90
 
 def build_prompt(keyword: str) -> str:
     return (
-        "你是社交媒体热点分析专家。请对热搜词条进行「热点基因」分析。\n"
+        "你是社交媒体热点分析专家。请对热搜词条做「热点基因」分析。\n"
         f"热搜词条：{keyword}\n\n"
-        "请从以下维度分析，并只输出一个 JSON 对象（不要 markdown 代码块、不要任何多余文字）：\n"
-        f"1. 创作领域：从 {DOMAINS} 中选一个\n"
+        "分析维度（只输出一个 JSON 对象，不要 markdown 代码块、不要任何多余文字）：\n"
+        f"1. 创作领域：从 {DOMAINS} 中选一个，选最贴合的\n"
         f"2. 内容形态：从 {FORMS} 中选一个\n"
         f"3. 生命周期：从 {LIFECYCLE} 中选一个\n"
-        "4. 核心话题词：3-5 个关键词\n\n"
+        "4. 核心话题词：3-5 个，用于检索该话题的关键词，规则：\n"
+        "   - 只能是词条中出现的真实实体或话题名词：人名、品牌、作品名、事件、机构、概念\n"
+        "   - 每个词 2-8 个字（英文品牌/产品名保留原文，如 iPhone18Pro）\n"
+        "   - 不得含标点、#号、空格；不得是单个虚字（如「的」「了」「曝」）\n"
+        "   - 禁止把词条机械切成碎片。反例：「刘亦菲曾被裁掉过」不可以切成"
+        "[\"刘亦菲曾\",\"裁掉过\"]，正确是 [\"刘亦菲\",\"被裁\",\"娱乐圈\"]\n"
+        "   - 禁止整句照抄词条\n\n"
         '输出格式（严格）：{"创作领域":"","内容形态":"","生命周期":"","核心话题词":["",""]}'
     )
+
+
+KW_JUNK = re.compile(r"[#，。！？、：；,!?:;\"'“”‘’（）()\[\]【】<>《》/\\|~`^=+*&%$@]+")
+KW_EDGE = "…—－-_·.,:;!?、，。！？# \t"
+KW_STOP = {"的", "了", "在", "和", "与", "被", "把", "让", "致", "为", "对", "从", "到",
+           "是", "有", "都", "就", "还", "也", "又", "将", "已", "曝", "传", "称", "等"}
+CJK = re.compile(r"^[\u4e00-\u9fff]+$")
+
+
+def _norm(s: str) -> str:
+    """归一化：去掉空白与 #、转小写，用于「关键词必须出自标题」的比对"""
+    return re.sub(r"[\s#]+", "", s or "").lower()
+
+
+def clean_keywords(raw, title: str = ""):
+    """清洗模型给出的核心话题词
+
+    规则：去标点/#/空白 → 去虚词 → 限长 → 去重 → **必须是标题的子串**（挡幻觉）→ 上限 5 个
+    注意：本函数只能挡结构性垃圾与幻觉，挡不住「字符上合法但语义是碎片」的词
+    （如「刘亦菲曾」「裁掉过」）——那类只能靠 build_prompt 里的反例约束。
+    """
+    if isinstance(raw, str):
+        raw = re.split(r"[，,、;；\s]+", raw)
+    if not isinstance(raw, (list, tuple)):
+        return []
+    title_key = _norm(title)
+    out = []
+    for k in raw:
+        if not isinstance(k, str):
+            continue
+        k = KW_JUNK.sub("", k).strip().strip(KW_EDGE)
+        # 中文词去掉所有空白；含拉丁字母的保留单词间单空格（如 Apple Duo）
+        k = re.sub(r"\s+", "" if CJK.match(k) else " ", k)
+        if not k or k in KW_STOP:
+            continue
+        if CJK.match(k):
+            if not (2 <= len(k) <= 8):
+                continue
+        elif not (2 <= len(k) <= 24):
+            continue
+        # 必须真实出现在词条里：既排除整句照抄，也排除模型凭空补的词
+        if title_key and (k == title or _norm(k) not in title_key):
+            continue
+        if k in out:
+            continue
+        out.append(k)
+        if len(out) >= 8:
+            break
+
+    # 去冗余碎片：若某词比另一个保留词只多出 ≤2 个字且包含它，
+    # 说明它是「词 + 少量虚字」拼出来的碎片（如「四大底层陷阱」含「底层陷阱」）→ 丢掉长的
+    pruned = [k for k in out
+              if not any(k != o and o in k and 0 < len(k) - len(o) <= 2 for o in out)]
+    return pruned[:5]
 
 
 def extract_json(text: str):
@@ -97,7 +160,7 @@ def call_llm(keyword: str):
                 "创作领域": j.get("创作领域", "") or "",
                 "内容形态": j.get("内容形态", "") or "",
                 "生命周期": j.get("生命周期", "") or "",
-                "核心话题词": j.get("核心话题词", []) or [],
+                "核心话题词": clean_keywords(j.get("核心话题词", []), keyword),
             }
         except urllib.error.HTTPError as e:
             body = ""
@@ -173,23 +236,31 @@ def main():
             continue
 
         cached = prev_map.get(t)
-        # 旧数据没有「分析来源」字段，一律视为已由模型分析过；
-        # 历史上被标记为「本地」的（关键词规则产物）必须重新用模型分析
+        # 可复用条件：模型产出且提示词版本一致。
+        # 旧规则产物（分析来源=本地）与旧版本提示词的结果一律重新分析。
         src = (cached or {}).get("分析来源", "LLM")
-        cached_ok = bool(cached and src in ("LLM", "GLM") and cached.get("创作领域"))
+        cached_ok = bool(
+            cached
+            and src in ("LLM", "GLM")
+            and cached.get("创作领域")
+            and cached.get("核心话题词")
+            and str(cached.get("分析版本", "")) == PROMPT_VERSION
+        )
         analysis = None
 
         if cached_ok:
-            analysis = {
-                "创作领域": cached.get("创作领域", ""),
-                "内容形态": cached.get("内容形态", ""),
-                "生命周期": cached.get("生命周期", ""),
-                "核心话题词": cached.get("核心话题词", []),
-            }
-            reused += 1
-        elif blocked or called >= MAX_CALLS_PER_RUN:
-            analysis = None
-        else:
+            # 缓存的关键词也过一遍当前规则：清洗规则升级时无需重调模型即可自愈
+            kws = clean_keywords(cached.get("核心话题词", []), t)
+            if kws:
+                analysis = {
+                    "创作领域": cached.get("创作领域", ""),
+                    "内容形态": cached.get("内容形态", ""),
+                    "生命周期": cached.get("生命周期", ""),
+                    "核心话题词": kws,
+                }
+                reused += 1
+
+        if analysis is None and not blocked and called < MAX_CALLS_PER_RUN:
             r = call_llm(t)
             called += 1
             if r == "RATE_LIMITED":
@@ -213,6 +284,7 @@ def main():
                 "生命周期": analysis["生命周期"],
                 "核心话题词": analysis["核心话题词"],
                 "分析来源": "LLM",
+                "分析版本": PROMPT_VERSION,
                 "url": it.get("url", ""),
             })
         else:
@@ -225,6 +297,7 @@ def main():
                 "生命周期": "",
                 "核心话题词": [],
                 "分析来源": "",
+                "分析版本": "",
                 "url": it.get("url", ""),
             })
 

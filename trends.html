@@ -510,7 +510,9 @@
         const life = LIFE_CLASS[it['生命周期']] || '';
         const emo = normEmo(it['情感倾向']);
         const emoCls = EMO_CLASS[emo] || '';
-        const kws = (it['核心话题词'] || []).slice(0, 4)
+        const kws = (it['核心话题词'] || [])
+          .map(k => String(k).replace(/#/g, '').trim())
+          .filter(k => k.length >= 2).slice(0, 4)
           .map(k => '<span>#' + escapeHtml(k) + '</span>').join('');
         return '<article class="trend-card">'
           + '<div class="trend-rank ' + (i < 3 ? 'top' : '') + '">' + String(i + 1).padStart(2, '0') + '</div>'
