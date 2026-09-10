@@ -77,13 +77,18 @@ def call_glm(keyword: str, retry: int = 2):
             content = r["choices"][0]["message"]["content"]
             return extract_json(content)
         except urllib.error.HTTPError as e:
-            # 429 限流：退避更久再重试
-            wait = 20 if e.code == 429 else 2.5 * (attempt + 1)
-            if attempt == retry:
-                print(f"  [FAIL] {keyword}: HTTP {e.code}")
-                return None
-            print(f"  [RATE-LIMIT] {keyword}: HTTP 429, 等待 {wait}s 重试")
-            time.sleep(wait)
+            if e.code == 429:
+                # 限流：短暂退避后重试一次，仍失败则标记为限流
+                if attempt == retry:
+                    print(f"  [RATE-LIMIT] {keyword}: 429 限流未恢复")
+                    return "RATE_LIMITED"
+                print(f"  [RATE-LIMIT] {keyword}: 429，等待 15s 重试")
+                time.sleep(15)
+            else:
+                if attempt == retry:
+                    print(f"  [FAIL] {keyword}: HTTP {e.code}")
+                    return None
+                time.sleep(2.5 * (attempt + 1))
         except Exception as e:
             if attempt == retry:
                 print(f"  [FAIL] {keyword}: {e}")
@@ -103,20 +108,37 @@ def main():
     print(f"共 {len(titles)} 条热榜，开始分析...")
 
     items = []
+    rate_streak = 0          # 连续限流计数
+    MAX_RATE_STREAK = 6      # 连续 6 条限流则提前收工，避免长时间空转
     for i, t in enumerate(titles, 1):
         r = call_glm(t)
+        if r == "RATE_LIMITED":
+            rate_streak += 1
+            if rate_streak >= MAX_RATE_STREAK:
+                print(f"\n连续 {rate_streak} 条触发限流，提前结束本轮（已成功 {len(items)} 条）")
+                break
+            time.sleep(1)
+            continue
+        rate_streak = 0
         if r:
             item = {
                 "title": t,
-                "情感倾向": r.get("情感倾向", "中立"),
+                "情感倾向": r.get("情感倾向", "中性"),
                 "创作领域": r.get("创作领域", "其他"),
                 "内容形态": r.get("内容形态", ""),
                 "生命周期": r.get("生命周期", ""),
                 "核心话题词": r.get("核心话题词", []),
             }
             items.append(item)
-        print(f"  [{i}/{len(titles)}] {r.get('情感倾向','?') if r else 'FAIL'}  {t}")
+            print(f"  [{i}/{len(titles)}] {r.get('情感倾向','?')}  {t}")
+        else:
+            print(f"  [{i}/{len(titles)}] FAIL  {t}")
         time.sleep(0.4)  # 逐条间隔，降低免费档限流概率
+
+    # 成功条数过少时保留旧数据，避免用残缺数据覆盖完整榜单
+    if len(items) < 10 and os.path.exists(OUT_PATH):
+        print(f"\n本轮仅 {len(items)} 条成功（疑似限流），保留原有数据不覆盖", file=sys.stderr)
+        sys.exit(0)
 
     # 聚类：按创作领域分组
     clusters = defaultdict(list)
