@@ -616,12 +616,17 @@
         + '</div>';
     }
 
+    // 检索归一化：忽略大小写、空白与 #（搜「iphone」要能命中「iPhone」，
+    //                    搜「iphone duo」也能命中「iPhoneDuo」）
+    const normQ = s => String(s == null ? '' : s).toLowerCase().replace(/[\s#]+/g, '');
+
     function renderList(filter) {
       const all = DATA.items || [];
+      const q = normQ(filter);
       const items = all.filter(it => {
-        if (!filter) return true;
-        return it.title.includes(filter) ||
-          (it['核心话题词'] || []).some(k => k.includes(filter));
+        if (!q) return true;
+        return normQ(it.title).includes(q) ||
+          (it['核心话题词'] || []).some(k => normQ(k).includes(q));
       });
       if (!items.length) {
         listEl.innerHTML = '<div class="empty">未找到匹配的词条</div>';
