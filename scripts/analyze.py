@@ -43,6 +43,8 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_PATH = os.path.join(BASE, "data", "raw_hotspots.json")
 SENTI_PATH = os.path.join(BASE, "data", "sentiment.json")
 OUT_PATH = os.path.join(BASE, "data", "hotspots.json")
+# 上一轮 authors.py 的产物：含话题页正文挖出的实体词库
+AUTHORS_PATH = os.path.join(BASE, "data", "authors.json")
 
 MAX_RATE_STREAK = 3      # 连续限流达到此数即熔断，本轮不再调用
 MAX_CALLS_PER_RUN = 60   # 单轮调用上限，防止失控
@@ -193,6 +195,59 @@ def _restore_entities(kws, title: str, entities):
     return out
 
 
+def _protect_spans(kws, title: str, entities):
+    """词库实体「区间保护」：修掉实体被切错位的碎片
+
+    词库（同榜挖掘 + 话题页正文挖掘）里的实体在标题中占据一段字符区间。
+    模型给出的关键词只要与该区间**部分重叠**、或**落在实体内部**，就是错位碎片 → 丢弃。
+    例：标题「早春晴朗云合超藏海传」，词库含「藏海传」，
+        模型切出的「超藏」（跨界重叠）与「海传」（落在实体内）都会被丢掉。
+    随后保证标题内每个未被覆盖的实体都作为关键词出现（已被更长关键词包含则跳过）。
+    """
+    if not entities or not kws:
+        return kws
+    tk = _norm(title)
+    names = {_norm(e) for e in entities}
+    spans = []
+    for e in entities:
+        ne = _norm(e)
+        if not ne or ne == tk:
+            continue
+        st = 0
+        while True:
+            i = tk.find(ne, st)
+            if i < 0:
+                break
+            spans.append((i, i + len(ne), e))
+            st = i + 1
+    if not spans:
+        return kws
+
+    out = []
+    for k in kws:
+        nk = _norm(k)
+        if nk in names:          # 它本身就是词库实体 → 保留
+            out.append(k)
+            continue
+        i = tk.find(nk)
+        if i < 0:                # 不在标题里（理论上不该发生）→ 交给既有规则
+            out.append(k)
+            continue
+        j = i + len(nk)
+        if any(i < b and a < j for a, b, _ in spans):   # 与实体区间重叠 → 丢
+            continue
+        out.append(k)
+
+    for _, _, e in spans:        # 标题内的实体必须出现
+        ne = _norm(e)
+        if any(_norm(x) == ne for x in out):
+            continue
+        if any(ne in _norm(x) for x in out):            # 已被更长关键词覆盖 → 不重复
+            continue
+        out.append(e)
+    return out
+
+
 KW_JUNK = re.compile(r"[#，。！？、：；,!?:;\"'“”‘’（）()\[\]【】<>《》/\\|~`^=+*&%$@]+")
 KW_EDGE = "…—－-_·.,:;!?、，。！？# \t"
 KW_STOP = {"的", "了", "在", "和", "与", "被", "把", "让", "致", "为", "对", "从", "到",
@@ -212,7 +267,8 @@ def clean_keywords(raw, title: str = "", entities=None):
 
     规则：去标点/#/空白 → 去虚词 → 限长 → 去重 → **必须是标题的子串**（挡幻觉）→ 上限 5 个
     注意：本函数只能挡结构性垃圾与幻觉，挡不住「字符上合法但语义是碎片」的词
-    （如「早春」「晴朗」）——那类靠 build_prompt 的实体约束 + entities 还原兜底。
+    （如「早春」「晴朗」）——那类靠 build_prompt 的实体约束 + entities 还原/区间保护兜底。
+    entities：{实体名: support}，来源为同榜重复子串 + 上一轮话题页正文词库
     """
     if isinstance(raw, str):
         raw = re.split(r"[，,、;；\s]+", raw)
@@ -273,6 +329,8 @@ def clean_keywords(raw, title: str = "", entities=None):
                   k != o and k in o
                   and sum(1 for x in pruned if x != o and x in o) >= 2
                   for o in pruned))]
+    # 词库实体区间保护：修掉「实体被切错位」的碎片（超藏/海传 → 藏海传）
+    pruned = _protect_spans(pruned, title, entities)
     seen = []
     for k in pruned:
         if k not in seen:
@@ -355,6 +413,31 @@ def load_prev(path):
     return {it.get("title"): it for it in prev.get("items", []) if it.get("title")}
 
 
+def load_topic_lexicon(path=None):
+    """读取上一轮 authors.py 从话题页正文挖出的实体词库 → {标题: [实体名]}
+
+    注意：analyze 在 authors 之前跑，所以这里读到的是**上一轮**的词库（最多 1 小时旧）。
+    剧名是稳定实体，隔一轮完全够用；且缓存词条每轮都会重跑 clean_keywords，
+    因此新词库生效后，下一轮会自动把关键词修正过来（自愈），无需升 PROMPT_VERSION。
+    """
+    path = path or AUTHORS_PATH
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception:
+        return {}
+    out = {}
+    for t, tv in (d.get("topics") or {}).items():
+        if not isinstance(tv, dict):
+            continue
+        lex = [x for x in (tv.get("lexicon") or []) if isinstance(x, str) and x]
+        if lex:
+            out[t] = lex
+    return out
+
+
 def signature(result) -> str:
     return json.dumps({
         "source": result.get("source"),
@@ -387,9 +470,29 @@ def main():
     # 同榜实体线索：兄弟词条（喂给模型）+ 重复公共子串（确定性还原兜底）
     all_titles = [it.get("title", "") for it in items_raw if it.get("title")]
     entities = _common_entities(all_titles)
+    # 话题页正文词库（上一轮 authors.py 产物）：按标题并入实体集，供区间保护使用
+    topic_lex = load_topic_lexicon()
     print(f"共 {len(items_raw)} 条热榜；上一轮缓存 {len(prev_map)} 条；模型 {MODEL}")
     if entities:
         print(f"同榜识别到 {len(entities)} 个候选实体：{sorted(entities, key=len, reverse=True)[:8]}")
+    if topic_lex:
+        print(f"正文词库覆盖 {len(topic_lex)} 个话题，"
+              f"合计 {sum(len(v) for v in topic_lex.values())} 个实体")
+
+    def ents_for(title):
+        """该词条的实体集 = 同榜实体 + 正文词库里确实出现在本词条中的实体
+
+        正文词库只对「出现在本词条标题里」的实体才有意义（区间保护的输入）；
+        其余一律不并入，避免无关话题号污染实体集。
+        """
+        tk = _norm(title)
+        extra = [e for e in (topic_lex.get(title) or []) if _norm(e) in tk]
+        if not extra:
+            return entities
+        merged = dict(entities)
+        for name in extra:
+            merged.setdefault(name, 1)
+        return merged
 
     items = []
     reused = called = failed = 0
@@ -417,7 +520,7 @@ def main():
 
         if cached_ok:
             # 缓存的关键词也过一遍当前规则：清洗规则升级时无需重调模型即可自愈
-            kws = clean_keywords(cached.get("核心话题词", []), t, entities)
+            kws = clean_keywords(cached.get("核心话题词", []), t, ents_for(t))
             if kws:
                 analysis = {
                     "创作领域": cached.get("创作领域", ""),
@@ -429,7 +532,7 @@ def main():
                 reused += 1
 
         if analysis is None and not blocked and called < MAX_CALLS_PER_RUN:
-            r = call_llm(t, find_siblings(t, all_titles), entities)
+            r = call_llm(t, find_siblings(t, all_titles), ents_for(t))
             called += 1
             if r == "RATE_LIMITED":
                 rate_streak += 1

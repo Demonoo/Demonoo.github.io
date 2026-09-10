@@ -8,6 +8,9 @@
 - 本脚本用 headless Chrome + CDP 顺序渲染每个话题页，提取：
     · 话题统计：阅读量 / 讨论量 / 主持人 / 媒体发布数
     · 前 N 位热门作者：昵称、认证等级、认证说明、身份类型、互动量
+    · 正文实体词库：从帖子正文挖「《作品名》」与高频「#话题#」
+      —— 热搜词条常把剧名切坏（早春晴朗云合超藏海传 → 超藏/海传），
+         而帖子正文里《藏海传》会完整高频出现，可反向补回实体，交给 analyze.py 做区间保护
 - 输出 data/authors.json（话题性质由 analyze.py 的大模型判定，此处不重复推断）
 
 微博认证图标对照（实测 2026-09）：
@@ -19,7 +22,7 @@
 
 依赖：websocket-client
 """
-import os, sys, json, time, subprocess, tempfile, urllib.request, urllib.parse, shutil
+import os, re, sys, json, time, subprocess, tempfile, urllib.request, urllib.parse, shutil
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOTSPOTS = os.path.join(BASE, "data", "hotspots.json")
@@ -144,7 +147,18 @@ EXTRACT_JS = r"""
     });
     if (authors.length >= 20) break;
   }
-  return JSON.stringify({ok: !!cards.length, stats: stats, authors: authors});
+
+  // 正文实体线索：《作品名》精度极高；#话题# 噪声较大，交给 Python 侧按出现次数过滤
+  function tally(re){
+    var m, o = {};
+    while ((m = re.exec(body))) { var k = (m[1] || '').trim(); if (k) o[k] = (o[k] || 0) + 1; }
+    return o;
+  }
+  var book = tally(/《([^》]{1,20})》/g);
+  var hash = tally(/#([^#\s]{2,20})#/g);
+
+  return JSON.stringify({ok: !!cards.length, stats: stats, authors: authors,
+                         book: book, hash: hash});
 })()
 """
 
@@ -160,6 +174,58 @@ def norm_url(it):
     if not q:
         q = "#" + it.get("title", "") + "#"
     return "https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D" + urllib.parse.quote(q)
+
+
+# ---------- 正文实体词库 ----------
+
+def _norm_name(s):
+    return re.sub(r"[\s#]+", "", s or "").lower()
+
+
+# 实体名只允许：字母数字下划线、汉字、间隔号、连字符、英文句点
+# —— 挡掉「#早春晴朗#」「早春晴朗云合34.8%」这类含 # 或 % 的脏值
+LEX_OK = re.compile(r"^[\w·\-\.]+$")
+
+
+def _lex_ok(name) -> bool:
+    return bool(name) and len(name) <= 20 and bool(LEX_OK.match(name))
+
+
+def build_lexicon(book, hash_, title, max_items: int = 30):
+    """从话题页正文挖出的实体名（供 analyze.py 做「实体区间保护」）
+
+    - 《…》：中文作品名的强信号，出现 1 次即采纳（权重 100+）
+    - #…#：噪声大（页面会混入无关话题号、乃至整条热搜标题），要求出现 ≥2 次且长度 ≤12
+    - 一律排除与词条本身等价的串（页面里词条自己的话题号会刷屏）
+    """
+    key = _norm_name(title)
+    score = {}
+    for name, c in (book or {}).items():
+        n = _norm_name(name)
+        if 2 <= len(name) <= 20 and n and n != key and _lex_ok(name):
+            score[name] = max(score.get(name, 0), 100 + int(c))
+    for name, c in (hash_ or {}).items():
+        try:
+            c = int(c)
+        except Exception:
+            continue
+        n = _norm_name(name)
+        if c >= 2 and 2 <= len(name) <= 12 and n and n != key and _lex_ok(name):
+            score[name] = max(score.get(name, 0), c)
+    return [k for k, _ in sorted(score.items(), key=lambda x: (-x[1], -len(x[0])))[:max_items]]
+
+
+def load_prev_lexicon(path):
+    """上一轮已挖到的词库：本轮某话题渲染失败时沿用，避免词库闪断"""
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            d = json.load(f)
+    except Exception:
+        return {}
+    return {t: v["lexicon"] for t, v in (d.get("topics") or {}).items()
+            if isinstance(v, dict) and v.get("lexicon")}
 
 
 # ---------- 身份类型推断 ----------
@@ -223,6 +289,7 @@ def main():
 
     profile = tempfile.mkdtemp(prefix="chrome-authors-")
     proc = launch_chrome(PORT, profile)
+    prev_lex = load_prev_lexicon(OUT)
 
     ts = None
     for _ in range(60):
@@ -244,6 +311,7 @@ def main():
 
     topics = {}
     ok_cnt = 0
+    lex_cnt = 0
     t0 = time.time()
     try:
         for i, it in enumerate(items, 1):
@@ -263,20 +331,38 @@ def main():
                     except Exception:
                         continue
                     if data.get("authors"):
+                        # 作者 DOM 出现得比帖子正文早：再等一会让正文加载完，
+                        # 否则正文词库（《作品名》/高频话题）会挖不全
+                        time.sleep(1.5)
+                        raw2 = cdp.evaluate(EXTRACT_JS)
+                        try:
+                            d2 = json.loads(raw2)
+                            if d2.get("authors"):
+                                data = d2
+                        except Exception:
+                            pass
                         got = data
                         break
                 if got:
                     authors = [enrich(a) for a in got["authors"][:TOP_N]]
-                    topics[title] = {"stats": got.get("stats", {}), "authors": authors}
+                    lex = build_lexicon(got.get("book"), got.get("hash"), title)
+                    if not lex:
+                        lex = prev_lex.get(title, [])      # 本轮没挖到 → 沿用上一轮，避免闪断
+                    topics[title] = {"stats": got.get("stats", {}),
+                                     "authors": authors, "lexicon": lex}
                     ok_cnt += 1
+                    if lex:
+                        lex_cnt += 1
                     print(f"  [{i:>2}/{len(items)}] ✓ {title[:26]} 作者 {len(authors)} "
-                          f"(阅读 {topics[title]['stats'].get('read','?')})")
+                          f"词库 {len(lex)} (阅读 {topics[title]['stats'].get('read','?')})")
                 else:
-                    topics[title] = {"stats": {}, "authors": []}
+                    topics[title] = {"stats": {}, "authors": [],
+                                     "lexicon": prev_lex.get(title, [])}
                     print(f"  [{i:>2}/{len(items)}] ✗ {title[:26]} 未渲染出作者")
             except Exception as e:
                 print(f"  [{i:>2}/{len(items)}] ! {title[:26]} {type(e).__name__}: {e}")
-                topics[title] = {"stats": {}, "authors": []}
+                topics[title] = {"stats": {}, "authors": [],
+                                 "lexicon": prev_lex.get(title, [])}
     finally:
         cdp.close()
         proc.terminate()
@@ -292,12 +378,14 @@ def main():
         "top_n": TOP_N,
         "topic_count": len(topics),
         "ok_count": ok_cnt,
+        "lexicon_count": lex_cnt,
         "topics": topics,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print(f"[authors] 完成 {ok_cnt}/{len(items)}，耗时 {time.time()-t0:.0f}s → {OUT}")
+    print(f"[authors] 完成 {ok_cnt}/{len(items)}，其中 {lex_cnt} 个话题挖到正文词库，"
+          f"耗时 {time.time()-t0:.0f}s → {OUT}")
 
 
 if __name__ == "__main__":
