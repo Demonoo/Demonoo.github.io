@@ -13,11 +13,12 @@
       需订阅的模型（glm-5.x / deepseek-v4 / kimi / minimax / mistral-large 等）返回 402
 
 设计要点（配合每小时一次的高频调度）：
-1. 增量缓存：上一轮已分析过的词条直接复用结果，只有新上榜的词条才调模型
-   —— 热榜每小时变化很小，调用量从 50 次/轮降到个位数
+1. 全量实时：**每轮对全部词条重新调用模型**，不复用上一轮的任何结论
+   —— 词条内容与热度随时在变，结论必须是当下的（约 50 次调用/轮）
 2. 条数完整：**输出条数恒等于抓到的热榜条数**，不会因限流被截断
-3. 限流熔断：连续多次限流则本轮停止调用，剩余词条沿用缓存（无缓存则留空待下轮补齐）
+3. 限流熔断：连续多次限流则本轮停止调用，剩余词条留空、下轮补齐（不沿用旧结果）
 4. 无变化不写盘：内容与上一轮完全一致时不写文件，避免每小时产生空提交
+5. 失败保护：整轮成功率过低时不覆盖旧数据，避免页面大面积空档
 """
 import os, re, sys, json, time, urllib.request, urllib.error
 from collections import Counter, defaultdict
@@ -30,7 +31,7 @@ API_KEY = (os.environ.get("LLM_API_KEY")
 API_URL = os.environ.get("LLM_API_URL", "https://ollama.com/v1/chat/completions")
 MODEL = os.environ.get("LLM_MODEL", "gpt-oss:20b")
 
-# 提示词版本：改动 build_prompt 或关键词规则时 +1，缓存中版本不同的词条会被重新分析
+# 提示词版本：改动 build_prompt 或关键词规则时 +1，随结果写入，便于回溯是哪版规则产出
 PROMPT_VERSION = "4"
 
 DOMAINS = ["体育", "娱乐", "社会", "科技", "财经", "民生", "情感", "美食", "时尚",
@@ -46,8 +47,8 @@ OUT_PATH = os.path.join(BASE, "data", "hotspots.json")
 # 上一轮 authors.py 的产物：含话题页正文挖出的实体词库
 AUTHORS_PATH = os.path.join(BASE, "data", "authors.json")
 
-MAX_RATE_STREAK = 3      # 连续限流达到此数即熔断，本轮不再调用
-MAX_CALLS_PER_RUN = 60   # 单轮调用上限，防止失控
+MAX_RATE_STREAK = 3       # 连续限流达到此数即熔断，本轮不再调用
+MAX_CALLS_PER_RUN = 120   # 单轮调用上限：全量实时分析（当前约 50 条），留足余量
 REQUEST_TIMEOUT = 90
 
 
@@ -472,7 +473,7 @@ def main():
     entities = _common_entities(all_titles)
     # 话题页正文词库（上一轮 authors.py 产物）：按标题并入实体集，供区间保护使用
     topic_lex = load_topic_lexicon()
-    print(f"共 {len(items_raw)} 条热榜；上一轮缓存 {len(prev_map)} 条；模型 {MODEL}")
+    print(f"共 {len(items_raw)} 条热榜；全量实时分析（不沿用旧结果）；模型 {MODEL}")
     if entities:
         print(f"同榜识别到 {len(entities)} 个候选实体：{sorted(entities, key=len, reverse=True)[:8]}")
     if topic_lex:
@@ -495,7 +496,7 @@ def main():
         return merged
 
     items = []
-    reused = called = failed = 0
+    called = failed = 0
     rate_streak = 0
     blocked = False
 
@@ -504,34 +505,9 @@ def main():
         if not t:
             continue
 
-        cached = prev_map.get(t)
-        # 可复用条件：模型产出且提示词版本一致。
-        # 旧规则产物（分析来源=本地）与旧版本提示词的结果一律重新分析。
-        src = (cached or {}).get("分析来源", "LLM")
-        cached_ok = bool(
-            cached
-            and src in ("LLM", "GLM")
-            and cached.get("创作领域")
-            and cached.get("核心话题词")
-            and cached.get("话题性质")
-            and str(cached.get("分析版本", "")) == PROMPT_VERSION
-        )
+        # 全量实时：每条词条、每一轮都重新调用模型，不复用上一轮结论
         analysis = None
-
-        if cached_ok:
-            # 缓存的关键词也过一遍当前规则：清洗规则升级时无需重调模型即可自愈
-            kws = clean_keywords(cached.get("核心话题词", []), t, ents_for(t))
-            if kws:
-                analysis = {
-                    "创作领域": cached.get("创作领域", ""),
-                    "内容形态": cached.get("内容形态", ""),
-                    "生命周期": cached.get("生命周期", ""),
-                    "核心话题词": kws,
-                    "话题性质": cached.get("话题性质", ""),
-                }
-                reused += 1
-
-        if analysis is None and not blocked and called < MAX_CALLS_PER_RUN:
+        if not blocked and called < MAX_CALLS_PER_RUN:
             r = call_llm(t, find_siblings(t, all_titles), ents_for(t))
             called += 1
             if r == "RATE_LIMITED":
@@ -539,13 +515,13 @@ def main():
                 if rate_streak >= MAX_RATE_STREAK:
                     blocked = True
                     print(f"  连续 {rate_streak} 次限流，本轮停止调用模型，"
-                          f"剩余词条沿用缓存（无缓存则留空，下轮补齐）")
+                          f"剩余词条留空、下轮补齐（不沿用任何旧结论）")
             elif r:
                 rate_streak = 0
                 analysis = r
             time.sleep(0.2)
 
-        emo = senti_map.get(t) or (cached or {}).get("情感倾向") or "中性"
+        emo = senti_map.get(t) or "中性"
         if analysis:
             items.append({
                 "title": t,
@@ -575,11 +551,14 @@ def main():
             })
 
     solid = sum(1 for x in items if x["创作领域"])
-    print(f"共 {len(items)} 条：复用缓存 {reused} 条 / 本轮调用模型 {called} 次 / "
+    print(f"共 {len(items)} 条：本轮调用模型 {called} 次 / "
           f"待下轮补齐 {failed} 条；已分析 {solid} 条")
 
-    if solid == 0 and prev_map:
-        print("本轮全部分析失败，保留原有数据不覆盖", file=sys.stderr)
+    # 失败保护：全量实时分析下，若整轮成功率过低（多为限流），
+    # 保留上一份完整数据不覆盖，避免页面大面积空档；两种情况都不复用单条结果。
+    if prev_map and solid < len(items) * 0.5:
+        print(f"本轮仅 {solid}/{len(items)} 条分析成功（疑似限流），保留原有数据不覆盖",
+              file=sys.stderr)
         sys.exit(0)
 
     clusters = defaultdict(list)
