@@ -2,520 +2,387 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>社交媒体趋势 · DMEDIA</title>
+<meta name="description" content="DMEDIA 社交媒体趋势 —— 微博热榜 AI 量化分析：情感倾向 · 创作领域 · 内容形态 · 生命周期。" />
 <link rel="icon" href="assets/图标.png" type="image/png" />
-<link rel="stylesheet" href="fonts/Marcellus-Regular.ttf" as="font" type="font/ttf" crossorigin />
-<link rel="stylesheet" href="fonts/Quattrocento-Regular.otf" as="font" type="font/otf" crossorigin />
+<link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin />
 <style>
+  /* =========================================================
+     DMEDIA · 社交媒体趋势（trends.html）
+     风格：编辑部式奢侈品语言 —— 纯白纸面 / 细发丝线 / 衬线大标
+           / 宽字距小型标签 / 无圆角无阴影
+     字体：Marcellus —— 仅用于品牌字与页面核心大标题
+           Arial      —— 其余全部文字（正文 / 标签 / 编号 / 数据）
+     ========================================================= */
+  @font-face {
+    font-family: 'Marcellus';
+    src: url('fonts/Marcellus-Regular.ttf') format('truetype');
+    font-weight: 400; font-style: normal; font-display: swap;
+  }
+
   :root {
-    --bg: #0d0d0d;
-    --ink: #f2f2f2;
-    --ink-dim: #9a9a9a;
-    --ink-mute: #666666;
-    --line: #242424;
-    --line-strong: #2f2f2f;
-    --accent: #3b82f6;
-    --accent-soft: rgba(59, 130, 246, 0.12);
-    --accent-border: rgba(59, 130, 246, 0.32);
-    --douyin: #fe2c55;
+    --paper: #ffffff;
+    --paper-2: #faf9f7;
+    --paper-3: #f3f1ec;
+    --ink: #121212;
+    --ink-2: #4a4a48;
+    --ink-3: #8b8a86;
+    --ink-4: #b6b4af;
+    --rule: #e8e5df;
+    --rule-2: #d5d1c8;
+    --gold: #a1834f;
+    --gold-soft: #c9b48a;
+    --pos: #4f6b4a;
+    --neu: #7d7b76;
+    --neg: #9c4a3c;
+    --life-s: #a85a3c;
+    --life-m: #8a6a35;
+    --life-l: #4f6b4a;
     --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
-    --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
-    --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+    --font: Arial, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    --font-micro: Arial, 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+    --gut: 48px;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
   body {
-    background: var(--bg);
+    background: var(--paper);
     color: var(--ink);
     font-family: var(--font);
     font-weight: 400;
-    font-size: 15px;
-    line-height: 1.7;
-    letter-spacing: 0.005em;
+    font-size: 15.5px;
+    line-height: 1.75;
+    letter-spacing: 0.004em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     min-height: 100vh;
   }
-  ::selection { background: var(--ink); color: var(--bg); }
-  ::-webkit-scrollbar { width: 8px; height: 8px; }
-  ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: #3a3a3a; }
+  ::selection { background: var(--ink); color: var(--paper); }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--paper-2); }
+  ::-webkit-scrollbar-thumb { background: var(--rule-2); }
+  ::-webkit-scrollbar-thumb:hover { background: var(--ink-4); }
   a { color: inherit; text-decoration: none; }
+
+  /* ========== 顶部通告条 ========== */
+  .bulletin { background: var(--paper-2); border-bottom: 1px solid var(--rule); }
+  .bulletin-inner {
+    max-width: 1280px; margin: 0 auto; padding: 9px var(--gut);
+    display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.26em;
+    text-transform: uppercase; color: var(--ink-3);
+  }
 
   /* ========== NAV ========== */
   .topnav {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(13,13,13,0.86);
-    backdrop-filter: blur(12px) saturate(120%);
-    -webkit-backdrop-filter: blur(12px) saturate(120%);
-    border-bottom: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.93);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid var(--rule);
   }
   .topnav-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 12px 32px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
+    max-width: 1280px; margin: 0 auto; padding: 18px var(--gut);
+    display: flex; align-items: center; gap: 22px;
   }
   .brand {
     font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 3px;
-    color: var(--ink);
-    display: inline-flex;
-    align-items: baseline;
-    gap: 16px;
+    font-size: 19px; letter-spacing: 0.34em; text-transform: uppercase;
+    color: var(--ink); display: inline-flex; align-items: center; gap: 18px;
+    padding-right: 4px;
   }
-  .brand .slash {
-    width: 1px; height: 16px; background: var(--line-strong);
-  }
+  .brand .slash { width: 1px; height: 14px; background: var(--rule-2); }
   .brand .tag {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.3em;
-    color: var(--ink-mute);
-    text-transform: uppercase;
+    font-family: var(--font-micro); font-size: 9px; letter-spacing: 0.3em;
+    color: var(--ink-4); text-transform: uppercase;
   }
   .nav-spacer { flex: 1; }
   .nav-link {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.18em;
-    color: var(--ink-dim);
-    text-transform: uppercase;
-    padding: 8px 14px;
-    border: 1px solid var(--line);
-    transition: border-color 0.3s, color 0.3s;
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.24em;
+    text-transform: uppercase; color: var(--ink-3);
+    padding: 5px 0; border-bottom: 1px solid transparent;
+    transition: color 0.35s, border-color 0.35s;
   }
-  .nav-link:hover { border-color: var(--ink); color: var(--ink); }
+  .nav-link:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
   /* ========== HEADER ========== */
   .page-header {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 48px 32px 28px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 32px;
-    align-items: end;
-    border-bottom: 1px solid var(--line);
+    max-width: 1280px; margin: 0 auto;
+    padding: 76px var(--gut) 42px;
+    display: grid; grid-template-columns: 1fr 300px; gap: 60px; align-items: end;
+    border-bottom: 1px solid var(--rule);
+  }
+  .kicker {
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.36em;
+    text-transform: uppercase; color: var(--gold); margin-bottom: 24px;
   }
   .page-title {
     font-family: var(--font-display);
-    font-weight: 400;
-    font-size: clamp(36px, 5vw, 56px);
-    letter-spacing: -0.01em;
-    color: var(--ink);
-    line-height: 1.1;
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    flex-wrap: wrap;
+    font-weight: 400; font-size: clamp(38px, 5.6vw, 68px);
+    line-height: 1.02; letter-spacing: -0.015em; color: var(--ink);
+    display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap;
   }
   .ai-tag {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.18em;
-    padding: 5px 10px;
-    background: var(--accent);
-    color: #fff;
-    align-self: end;
-    margin-bottom: 8px;
+    font-family: var(--font-micro); font-size: 8.5px; letter-spacing: 0.28em;
+    text-transform: uppercase; color: var(--ink-3);
+    border: 1px solid var(--rule-2); padding: 5px 9px;
+    transform: translateY(-8px); white-space: nowrap;
   }
-  .page-subtitle {
-    margin-top: 12px;
-    font-size: 15px;
-    color: var(--ink-dim);
-    font-weight: 300;
-  }
-  .page-tools {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-width: 280px;
-  }
-  .search-wrap {
-    position: relative;
-  }
+  .title-rule { width: 64px; height: 1px; background: var(--gold); margin: 28px 0 22px; }
+  .page-subtitle { font-size: 15px; color: var(--ink-3); max-width: 56ch; line-height: 1.85; }
+
+  .page-tools { display: flex; flex-direction: column; gap: 20px; }
+  .search-wrap { position: relative; }
   .search-wrap svg {
-    position: absolute;
-    left: 14px; top: 50%;
-    transform: translateY(-50%);
-    color: var(--ink-mute);
-    pointer-events: none;
+    position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+    color: var(--ink-4); pointer-events: none;
   }
   .search-input {
-    width: 100%;
-    background: #161616;
-    border: 1px solid var(--line);
-    color: var(--ink);
-    font-family: var(--font);
-    font-size: 14px;
-    padding: 12px 14px 12px 42px;
-    border-radius: 8px;
-    transition: border-color 0.25s;
+    width: 100%; background: transparent; border: 0;
+    border-bottom: 1px solid var(--rule-2); border-radius: 0;
+    color: var(--ink); font-family: var(--font); font-size: 14px;
+    padding: 10px 4px 10px 26px; transition: border-color 0.35s;
   }
-  .search-input::placeholder { color: var(--ink-mute); }
-  .search-input:focus {
-    outline: none;
-    border-color: var(--accent);
-  }
-  .filter-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
+  .search-input::placeholder { color: var(--ink-4); letter-spacing: 0.04em; }
+  .search-input:focus { outline: none; border-bottom-color: var(--ink); }
+  .filter-row { display: flex; gap: 24px; flex-wrap: wrap; }
   .filter-chip {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.14em;
-    padding: 6px 14px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    color: var(--ink-dim);
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.25s;
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.24em;
+    text-transform: uppercase; color: var(--ink-4);
+    background: transparent; border: 0; border-bottom: 1px solid transparent;
+    padding: 4px 0; cursor: pointer; transition: color 0.35s, border-color 0.35s;
   }
-  .filter-chip:hover { color: var(--ink); border-color: var(--ink-dim); }
-  .filter-chip.active {
-    background: var(--accent);
-    color: #fff;
-    border-color: var(--accent);
-  }
+  .filter-chip:hover:not(:disabled) { color: var(--ink-2); }
+  .filter-chip.active { color: var(--ink); border-bottom-color: var(--ink); }
+  .filter-chip:disabled { opacity: 0.4; cursor: not-allowed; }
   .update-pill {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--ink-mute);
-    background: #181818;
-    border: 1px solid var(--line);
-    padding: 6px 12px;
-    border-radius: 6px;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
+    display: inline-flex; align-items: center; gap: 9px;
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--ink-3);
   }
   .update-pill .dot {
-    width: 6px; height: 6px;
-    background: #10b981;
-    border-radius: 50%;
-    animation: pulse 1.6s ease-in-out infinite;
+    width: 5px; height: 5px; border-radius: 50%; background: var(--gold);
+    animation: breathe 2.8s ease-in-out infinite;
   }
-  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+  @keyframes breathe { 0%, 100% { opacity: 1 } 50% { opacity: 0.22 } }
 
-  /* ========== MAIN GRID ========== */
+  /* ========== MAIN ========== */
   .main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 36px 32px 80px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 48px;
-  }
-  @media (max-width: 1024px) {
-    .main { grid-template-columns: 1fr; }
-    .page-header { grid-template-columns: 1fr; }
+    max-width: 1280px; margin: 0 auto;
+    padding: 56px var(--gut) 96px;
+    display: grid; grid-template-columns: 1fr 320px; gap: 72px; align-items: start;
   }
 
-  /* —— 实时榜单 —— */
-  .list-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 18px;
+  .list-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--ink);
   }
-  .list-header h3 {
-    font-family: var(--font);
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    color: var(--ink);
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .list-header h3 .dot-bar {
-    width: 3px; height: 12px;
-    background: var(--accent);
-    border-radius: 1px;
+  .list-head h2 {
+    font-family: var(--font-micro); font-size: 10px; font-weight: 400;
+    letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink);
   }
   .list-meta {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--ink-mute);
-    letter-spacing: 0.06em;
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--ink-4);
   }
 
-  .trend-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
+  .trend-list { display: block; }
   .trend-card {
-    background: #131313;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 18px 20px;
-    display: grid;
-    grid-template-columns: 36px 1fr auto;
-    gap: 16px;
-    align-items: start;
-    transition: border-color 0.25s, transform 0.25s;
+    display: grid; grid-template-columns: 52px 1fr auto; gap: 20px; align-items: start;
+    padding: 24px 6px 24px 2px;
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.4s;
   }
-  .trend-card:hover {
-    border-color: var(--accent-border);
-    transform: translateY(-1px);
-  }
+  .trend-card:hover { background: var(--paper-2); }
+
   .trend-rank {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--ink-mute);
-    letter-spacing: 0.04em;
-    padding-top: 2px;
+    font-family: var(--font); font-size: 15px; letter-spacing: 0.06em;
+    color: var(--ink-4); padding-top: 4px; font-feature-settings: 'tnum';
   }
-  .trend-rank.top {
-    color: var(--accent);
-  }
+  .trend-rank.top { color: var(--gold); }
+
   .trend-body { min-width: 0; }
   .trend-title {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--ink);
-    line-height: 1.4;
-    margin-bottom: 10px;
-    word-break: break-word;
+    font-family: var(--font); font-weight: 400; font-size: 18px;
+    line-height: 1.45; letter-spacing: 0.004em; color: var(--ink);
+    margin-bottom: 13px; word-break: break-word;
   }
   .trend-title a {
-    color: inherit;
     border-bottom: 1px solid transparent;
-    transition: color 0.25s, border-color 0.25s;
+    transition: color 0.35s, border-color 0.35s;
   }
-  .trend-title a:hover {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-  }
+  .trend-title a:hover { color: var(--gold); border-bottom-color: var(--gold-soft); }
+
   .trend-tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+    display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 11px;
+    font-family: var(--font-micro); font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-3);
   }
-  .trend-tag {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.08em;
-    padding: 3px 8px;
-    border: 1px solid var(--line-strong);
-    color: var(--ink-dim);
-    border-radius: 3px;
+  .trend-tag { white-space: nowrap; }
+  .trend-tag + .trend-tag::before {
+    content: '·'; color: var(--ink-4); margin: 0 10px;
   }
-  .trend-tag.emo { color: var(--ink); border-color: var(--ink-mute); }
-  .trend-tag.emo-pos { color: #10b981; border-color: rgba(16, 185, 129, 0.45); }
-  .trend-tag.emo-neu { color: #9a9a9a; border-color: var(--line-strong); }
-  .trend-tag.emo-neg { color: #ef4444; border-color: rgba(239, 68, 68, 0.45); }
-  .trend-tag.life-short { color: #f97316; border-color: rgba(249, 115, 22, 0.4); }
-  .trend-tag.life-mid { color: #fbbf24; border-color: rgba(251, 191, 36, 0.4); }
-  .trend-tag.life-long { color: #10b981; border-color: rgba(16, 185, 129, 0.4); }
+  .trend-tag.emo-pos { color: var(--pos); }
+  .trend-tag.emo-neu { color: var(--neu); }
+  .trend-tag.emo-neg { color: var(--neg); }
+  .trend-tag.life-short { color: var(--life-s); }
+  .trend-tag.life-mid { color: var(--life-m); }
+  .trend-tag.life-long { color: var(--life-l); }
+
   .trend-kw {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--ink-mute);
-    letter-spacing: 0.04em;
+    font-family: var(--font-micro); font-size: 10px; letter-spacing: 0.1em;
+    color: var(--ink-4);
   }
-  .trend-kw span { color: var(--ink-dim); margin-right: 8px; }
+  .trend-kw span { margin-right: 13px; }
 
-  .trend-heat {
-    text-align: right;
-    font-family: var(--font-mono);
-    flex-shrink: 0;
+  .row-go {
+    font-family: var(--font); font-size: 14px; color: var(--ink-4);
+    opacity: 0.28; align-self: center; padding-top: 2px;
+    transition: opacity 0.4s, color 0.4s, transform 0.4s;
   }
-  .trend-heat-num {
-    font-size: 13px;
-    color: var(--ink-dim);
-    font-weight: 500;
-  }
-  .trend-heat-label {
-    font-size: 9px;
-    color: var(--ink-mute);
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    margin-top: 2px;
-  }
+  .trend-card:hover .row-go { opacity: 1; color: var(--gold); transform: translateX(2px); }
 
-  /* —— 右侧侧栏 —— */
-  .sidebar {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  /* ========== 侧栏 ========== */
+  .sidebar { display: flex; flex-direction: column; }
+  .panel { border: 1px solid var(--rule); padding: 30px 26px; }
+  .panel-kicker {
+    font-family: var(--font-micro); font-size: 8.5px; letter-spacing: 0.32em;
+    text-transform: uppercase; color: var(--gold); margin-bottom: 14px;
   }
-  .stat-card {
-    background: var(--accent-soft);
-    border: 1px solid var(--accent-border);
-    border-radius: 14px;
-    padding: 24px;
-    backdrop-filter: blur(8px);
+  .panel h2 {
+    font-family: var(--font); font-weight: 400; font-size: 21px;
+    letter-spacing: 0.01em; color: var(--ink); margin-bottom: 15px;
   }
-  .stat-card h4 {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--ink);
-    margin-bottom: 12px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+  .panel p { font-size: 13.5px; color: var(--ink-2); line-height: 1.9; }
+
+  .figures {
+    display: grid; grid-template-columns: 1fr 1fr;
+    border-top: 1px solid var(--rule); margin-top: 24px;
   }
-  .stat-card h4 svg { color: var(--accent); }
-  .stat-card p {
-    font-size: 13px;
-    color: var(--ink-dim);
-    line-height: 1.65;
+  .fig { padding-top: 20px; }
+  .fig + .fig { border-left: 1px solid var(--rule); padding-left: 20px; }
+  .fig-num {
+    display: block; font-family: var(--font); font-size: 36px; font-weight: 400;
+    line-height: 1; color: var(--ink); font-feature-settings: 'tnum';
   }
-  .stat-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-top: 16px;
-  }
-  .stat-cell {
-    background: rgba(13,13,13,0.5);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 12px;
-  }
-  .stat-num {
-    font-family: var(--font-display);
-    font-size: 26px;
-    font-weight: 400;
-    color: var(--ink);
-    line-height: 1;
-  }
-  .stat-label {
-    font-family: var(--font-mono);
-    font-size: 10px;
-    letter-spacing: 0.14em;
-    color: var(--ink-mute);
-    text-transform: uppercase;
-    margin-top: 6px;
+  .fig-label {
+    display: block; font-family: var(--font-micro); font-size: 8.5px;
+    letter-spacing: 0.26em; text-transform: uppercase; color: var(--ink-4); margin-top: 10px;
   }
 
   .emotion-bars {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 16px;
+    display: flex; flex-direction: column; gap: 15px;
+    margin-top: 26px; padding-top: 24px; border-top: 1px solid var(--rule);
   }
-  .emo-row {
-    display: grid;
-    grid-template-columns: 56px 1fr 28px;
-    align-items: center;
-    gap: 10px;
-    font-size: 12px;
+  .emo-row { display: grid; grid-template-columns: 46px 1fr 30px; align-items: center; gap: 12px; }
+  .emo-row .name {
+    font-family: var(--font-micro); font-size: 9.5px; letter-spacing: 0.16em; color: var(--ink-2);
   }
-  .emo-row .name { color: var(--ink); }
-  .emo-row .bar {
-    height: 5px;
-    background: var(--line);
-    border-radius: 2px;
-    overflow: hidden;
-  }
-  .emo-row .fill {
-    height: 100%;
-    background: var(--accent);
-  }
-  .emo-row .fill.pos { background: #10b981; }
-  .emo-row .fill.neu { background: #9a9a9a; }
-  .emo-row .fill.neg { background: #ef4444; }
+  .emo-row .bar { height: 2px; background: var(--paper-3); overflow: hidden; }
+  .emo-row .fill { height: 100%; background: var(--ink-3); }
+  .emo-row .fill.pos { background: var(--pos); }
+  .emo-row .fill.neu { background: var(--neu); }
+  .emo-row .fill.neg { background: var(--neg); }
   .emo-row .num {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    color: var(--ink-dim);
-    text-align: right;
+    font-family: var(--font); font-size: 13px; color: var(--ink-2);
+    text-align: right; font-feature-settings: 'tnum';
   }
 
-  /* —— 空状态 —— */
+  .note { border-top: 1px solid var(--rule); margin-top: 26px; padding-top: 26px; }
+  .note h4 {
+    font-family: var(--font-micro); font-size: 9.5px; font-weight: 400;
+    letter-spacing: 0.26em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 12px;
+  }
+  .note p { font-size: 12.5px; color: var(--ink-3); line-height: 1.9; }
+
+  /* ========== 状态 ========== */
   .empty {
-    background: #131313;
-    border: 1px dashed var(--line-strong);
-    border-radius: 10px;
-    padding: 48px 24px;
-    text-align: center;
-    color: var(--ink-mute);
-    font-size: 13px;
+    padding: 64px 24px; text-align: center; color: var(--ink-3);
+    font-size: 13px; letter-spacing: 0.04em; border-bottom: 1px solid var(--rule);
   }
-
-  /* ========== FOOTER ========== */
-  .site-footer { padding: 56px 0 40px; border-top: 1px solid var(--line); }
-  .footer-mail-row { max-width: 1200px; margin: 0 auto 18px; padding: 0 32px; }
-  .footer-mail {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    color: var(--ink-dim);
-  }
-  .footer-mail:hover { color: var(--ink); }
-  .footer-bottom {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 18px 32px 0;
-    border-top: 1px solid var(--line);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: var(--font-mono);
-    font-size: 11px;
-    letter-spacing: 0.14em;
-    color: var(--ink-dim);
-    text-transform: uppercase;
-  }
-  .footer-bottom a {
-    color: var(--ink);
-    transition: opacity 0.3s;
-  }
-  .footer-bottom a:hover { opacity: 0.55; }
-
   .skeleton {
-    background: linear-gradient(90deg, #131313 0%, #1a1a1a 50%, #131313 100%);
+    height: 104px; border-bottom: 1px solid var(--rule);
+    background: linear-gradient(90deg, transparent 0%, var(--paper-2) 50%, transparent 100%);
     background-size: 200% 100%;
-    animation: shimmer 1.4s linear infinite;
-    border-radius: 10px;
-    height: 96px;
+    animation: shimmer 1.9s linear infinite;
   }
   @keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+
+  /* ========== FOOTER ========== */
+  .site-footer { border-top: 1px solid var(--rule); padding: 64px 0 44px; background: var(--paper); }
+  .footer-mail-row { max-width: 1280px; margin: 0 auto 22px; padding: 0 var(--gut); }
+  .footer-mail {
+    font-family: var(--font); font-size: 20px; letter-spacing: 0.01em;
+    color: var(--ink); border-bottom: 1px solid transparent;
+    transition: color 0.35s, border-color 0.35s;
+  }
+  .footer-mail:hover { color: var(--gold); border-bottom-color: var(--gold-soft); }
+  .footer-bottom {
+    max-width: 1280px; margin: 0 auto; padding: 20px var(--gut) 0;
+    border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    font-family: var(--font-micro); font-size: 9px; letter-spacing: 0.22em;
+    text-transform: uppercase; color: var(--ink-4);
+  }
+  .footer-bottom a { color: var(--ink-3); transition: color 0.35s; }
+  .footer-bottom a:hover { color: var(--ink); }
+
+  /* ========== 响应式 ========== */
+  @media (max-width: 1060px) {
+    .page-header { grid-template-columns: 1fr; gap: 38px; padding-top: 58px; }
+    .page-tools { max-width: 420px; }
+    .main { grid-template-columns: 1fr; gap: 56px; }
+  }
+  @media (max-width: 640px) {
+    :root { --gut: 22px; }
+    .bulletin-inner span:last-child { display: none; }
+    .brand .tag { display: none; }
+    .page-header { padding: 44px var(--gut) 32px; }
+    .main { padding: 36px var(--gut) 64px; }
+    .trend-card { grid-template-columns: 38px 1fr auto; gap: 14px; padding: 20px 2px; }
+    .trend-title { font-size: 17px; }
+    .fig-num { font-size: 32px; }
+    .footer-bottom { flex-direction: column; align-items: flex-start; gap: 10px; }
+  }
 </style>
 </head>
 <body>
+
+<div class="bulletin">
+  <div class="bulletin-inner">
+    <span>Social Media Intelligence · 热点基因图谱</span>
+    <span>每 3 小时自动更新 · 数据源 微博热榜</span>
+  </div>
+</div>
 
 <nav class="topnav">
   <div class="topnav-inner">
     <a href="index.html" class="brand">
       DMEDIA
       <span class="slash"></span>
-      <span class="tag">GO VIRAL OR GO HOME</span>
+      <span class="tag">Go Viral Or Go Home</span>
     </a>
     <span class="nav-spacer"></span>
-    <a href="index.html" class="nav-link">← BACK HOME</a>
+    <a href="index.html" class="nav-link">← Back Home</a>
   </div>
 </nav>
 
 <header class="page-header">
   <div>
+    <div class="kicker">AI Quantitative Research</div>
     <h1 class="page-title">
       社交媒体趋势
-      <span class="ai-tag">AI QUANT</span>
+      <span class="ai-tag">AI Quant</span>
     </h1>
-    <p class="page-subtitle">数据驱动驱动 · AI 量化营销研究平台 · 全榜四维瞬读</p>
+    <div class="title-rule"></div>
+    <p class="page-subtitle">数据驱动的 AI 量化营销研究平台。每三小时扫描全网热榜，对每条词条输出情感倾向、创作领域、内容形态与生命周期四维结构化洞察。</p>
   </div>
   <div class="page-tools">
     <div class="search-wrap">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.34-4.34"/></svg>
-      <input id="search" type="text" class="search-input" placeholder="搜索趋势…"/>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.34-4.34"/></svg>
+      <input id="search" type="text" class="search-input" placeholder="搜索趋势 / 关键词…" />
     </div>
     <div class="filter-row">
       <button class="filter-chip active" data-platform="微博">微博</button>
@@ -531,8 +398,8 @@
 
 <main class="main">
   <section>
-    <div class="list-header">
-      <h3><span class="dot-bar"></span>实时榜单</h3>
+    <div class="list-head">
+      <h2>Ranking · 实时榜单</h2>
       <span class="list-meta" id="list-meta">加载中…</span>
     </div>
     <div id="trend-list" class="trend-list">
@@ -545,31 +412,26 @@
   </section>
 
   <aside class="sidebar">
-    <div class="stat-card">
-      <h4>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
-        AI 实时分析
-      </h4>
-      <p>基于 GLM-4.7-Flash 大模型，每 3 小时自动扫描全网热榜，对每条词条输出情感倾向、创作领域、内容形态、生命周期四维结构化分析，并按创作领域聚类。</p>
-      <div class="stat-row">
-        <div class="stat-cell">
-          <div class="stat-num" id="stat-total">—</div>
-          <div class="stat-label">总词条</div>
+    <div class="panel">
+      <div class="panel-kicker">AI Analysis</div>
+      <h2>实时洞察</h2>
+      <p>每日热榜经大模型完成创作领域分类与内容形态、生命周期判定，并以微博语料微调的中文情感模型完成正面 / 中性 / 负面三分类，按领域聚类呈现。</p>
+      <div class="figures">
+        <div class="fig">
+          <span class="fig-num" id="stat-total">—</span>
+          <span class="fig-label">总词条</span>
         </div>
-        <div class="stat-cell">
-          <div class="stat-num" id="stat-cluster">—</div>
-          <div class="stat-label">领域聚类</div>
+        <div class="fig">
+          <span class="fig-num" id="stat-cluster">—</span>
+          <span class="fig-label">领域聚类</span>
         </div>
       </div>
       <div class="emotion-bars" id="emotion-bars"></div>
     </div>
 
-    <div class="stat-card" style="background:transparent;border-color:var(--line);">
-      <h4 style="color:var(--ink-dim);">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        数据更新说明
-      </h4>
-      <p>数据由 GitHub Actions 每 3 小时自动定时分析产出（GitHub Actions → GLM API → 提交 data/hotspots.json → Pages 重建）。当前显示为最近一次分析快照。</p>
+    <div class="note">
+      <h4>Data Pipeline · 数据更新说明</h4>
+      <p>数据由 GitHub Actions 每 3 小时自动定时产出：抓取热榜 → 情感三分类推理 → 大模型领域分析 → 提交 data/hotspots.json → Pages 重建。当前展示为最近一次分析快照。</p>
     </div>
   </aside>
 </main>
@@ -579,8 +441,8 @@
     <a href="mailto:demonai2025@163.com" class="footer-mail">demonai2025@163.com</a>
   </div>
   <div class="footer-bottom">
-    <span>© DMEDIA ARTIFICIAL INTELLIGENCE STUDIO 版权所有 2025</span>
-    <a href="index.html">BACK HOME</a>
+    <span>© DMEDIA Artificial Intelligence Studio 2025</span>
+    <a href="index.html">Back Home</a>
   </div>
 </footer>
 
@@ -609,68 +471,72 @@
     const EMO_FILL = { 正面: 'pos', 中性: 'neu', 负面: 'neg' };
     const normEmo = (v) => EMO_MAP[v] || '中性';
 
+    function escapeHtml(s) {
+      return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    }
+
+    // 话题聚合跳转：优先用数据自带 url，缺失则按平台拼搜索页
+    function jumpUrl(it) {
+      if (it && it.url) return it.url;
+      const q = encodeURIComponent((it && it.title) || '');
+      return String(DATA.source || '').indexOf('抖音') > -1
+        ? 'https://www.douyin.com/search/' + q
+        : 'https://s.weibo.com/weibo?q=' + q;
+    }
+
     function renderList(filter) {
-      const items = (DATA.items || []).filter(it => {
+      const all = DATA.items || [];
+      const items = all.filter(it => {
         if (!filter) return true;
         return it.title.includes(filter) ||
           (it['核心话题词'] || []).some(k => k.includes(filter));
       });
       if (!items.length) {
         listEl.innerHTML = '<div class="empty">未找到匹配的词条</div>';
-        metaEl.textContent = `0 / ${DATA.items.length} 条`;
+        metaEl.textContent = '0 / ' + all.length + ' 条';
         return;
       }
-      metaEl.textContent = `${items.length} / ${DATA.items.length} 条 · 来源 ${DATA.source || '微博'}`;
+      metaEl.textContent = items.length + ' / ' + all.length + ' 条 · ' + (DATA.source || '微博');
       listEl.innerHTML = items.slice(0, 50).map((it, i) => {
         const life = LIFE_CLASS[it['生命周期']] || '';
         const emo = normEmo(it['情感倾向']);
         const emoCls = EMO_CLASS[emo] || '';
-        const kws = (it['核心话题词'] || []).slice(0, 4).map(k => `<span>#${k}</span>`).join('');
-        return `
-        <div class="trend-card">
-          <div class="trend-rank ${i < 3 ? 'top' : ''}">${String(i + 1).padStart(2, '0')}</div>
-          <div class="trend-body">
-            <div class="trend-title"><a href="${it.url || '#'}" target="_blank" rel="noopener" title="查看话题聚合">${escapeHtml(it.title)} ↗</a></div>
-            <div class="trend-tags">
-              <span class="trend-tag ${emoCls}">${emo}</span>
-              <span class="trend-tag">${it['创作领域']}</span>
-              <span class="trend-tag">${it['内容形态']}</span>
-              <span class="trend-tag ${life}">${it['生命周期']}</span>
-            </div>
-            <div class="trend-kw">${kws}</div>
-          </div>
-          <div class="trend-heat">
-            <div class="trend-heat-num">#${i + 1}</div>
-            <div class="trend-heat-label">RANK</div>
-          </div>
-        </div>`;
+        const kws = (it['核心话题词'] || []).slice(0, 4)
+          .map(k => '<span>#' + escapeHtml(k) + '</span>').join('');
+        return '<article class="trend-card">'
+          + '<div class="trend-rank ' + (i < 3 ? 'top' : '') + '">' + String(i + 1).padStart(2, '0') + '</div>'
+          + '<div class="trend-body">'
+          +   '<h3 class="trend-title"><a href="' + escapeHtml(jumpUrl(it)) + '" target="_blank" rel="noopener" title="查看话题聚合">' + escapeHtml(it.title) + '</a></h3>'
+          +   '<div class="trend-tags">'
+          +     '<span class="trend-tag ' + emoCls + '">' + emo + '</span>'
+          +     '<span class="trend-tag">' + escapeHtml(it['创作领域'] || '—') + '</span>'
+          +     '<span class="trend-tag">' + escapeHtml(it['内容形态'] || '—') + '</span>'
+          +     '<span class="trend-tag ' + life + '">' + escapeHtml(it['生命周期'] || '—') + '</span>'
+          +   '</div>'
+          +   '<div class="trend-kw">' + kws + '</div>'
+          + '</div>'
+          + '<div class="row-go" aria-hidden="true">↗</div>'
+          + '</article>';
       }).join('');
     }
 
     function renderStats() {
       statTotal.textContent = DATA.summary['总词条数'] || (DATA.items || []).length;
       statCluster.textContent = (DATA.clusters || []).length;
-      // 情感分布：归一化为三分类
       const raw = DATA.summary['情感分布'] || {};
       const merged = { 正面: 0, 中性: 0, 负面: 0 };
       Object.entries(raw).forEach(([k, v]) => { merged[normEmo(k)] += v; });
       const order = ['正面', '中性', '负面'];
       const max = Math.max(1, ...order.map(k => merged[k]));
       emoBars.innerHTML = order.map(n =>
-        `<div class="emo-row">
-          <span class="name">${n}</span>
-          <div class="bar"><div class="fill ${EMO_FILL[n]}" style="width:${(merged[n] / max * 100).toFixed(0)}%"></div></div>
-          <span class="num">${merged[n]}</span>
-        </div>`).join('');
-      if (DATA.updated_at) {
-        updateEl.textContent = `更新于 ${DATA.updated_at}`;
-      }
-    }
-
-    function escapeHtml(s) {
-      return String(s).replace(/[&<>"']/g, c => ({
-        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-      }[c]));
+        '<div class="emo-row">'
+        + '<span class="name">' + n + '</span>'
+        + '<div class="bar"><div class="fill ' + EMO_FILL[n] + '" style="width:' + (merged[n] / max * 100).toFixed(0) + '%"></div></div>'
+        + '<span class="num">' + merged[n] + '</span>'
+        + '</div>').join('');
+      if (DATA.updated_at) updateEl.textContent = '更新于 ' + DATA.updated_at;
     }
 
     const ctl = new AbortController();
@@ -679,17 +545,16 @@
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(d => {
         clearTimeout(timer);
-        DATA = d;
+        DATA = d || DATA;
         renderList('');
         renderStats();
       })
-      .catch(err => {
+      .catch(() => {
         clearTimeout(timer);
         listEl.innerHTML = '<div class="empty">数据加载失败 — 请刷新页面重试</div>';
         metaEl.textContent = '加载失败';
       });
 
-    // 搜索过滤
     search.addEventListener('input', e => renderList(e.target.value.trim()));
   })();
 </script>
