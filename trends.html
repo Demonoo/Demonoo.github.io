@@ -195,6 +195,7 @@
 
   /* ========== 话题气泡图 ========== */
   .bubble-block {
+    position: relative;
     margin: 26px 0 6px; padding: 18px 18px 12px;
     border: 1px solid var(--rule); background: var(--paper-2);
   }
@@ -211,8 +212,23 @@
     color: var(--ink-4);
   }
   #bubble-svg { display: block; width: 100%; height: auto; min-height: 220px; }
-  #bubble-svg circle { transition: fill-opacity 0.25s; }
-  #bubble-svg circle:hover { fill-opacity: 0.85; }
+  /* 空心气泡：默认只描边，悬停时才淡淡填充（CSS 优先级高于内联表现属性） */
+  #bubble-svg circle { cursor: pointer; transition: fill-opacity 0.2s, stroke-width 0.2s; }
+  #bubble-svg circle:hover { fill-opacity: 0.2; stroke-width: 2.4; }
+
+  .bb-tip {
+    position: absolute; z-index: 5; max-width: 300px;
+    padding: 9px 11px; pointer-events: none; opacity: 0;
+    background: var(--paper); border: 1px solid var(--rule-2);
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.15s;
+    font-family: var(--font); font-size: 12.5px; line-height: 1.6; color: var(--ink);
+  }
+  .bb-tip .bbt-title { font-weight: 400; margin-bottom: 3px; }
+  .bb-tip .bbt-meta {
+    font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.06em;
+    color: var(--ink-3);
+  }
   .bb-legend {
     display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px;
     font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.06em;
@@ -565,10 +581,11 @@
     <div class="bubble-block" id="bubble-block">
       <div class="bb-head">
         <span class="t">Bubble Map · 话题气泡图</span>
-        <span class="s">仅取最靠近右上角的 Top 10 · 横轴＝连续在榜时长 · 纵轴＝热度值 · 气泡越大榜位越靠前 · 颜色＝生命周期</span>
+        <span class="s">仅取最靠近右上角的 Top 10 · 横轴＝连续在榜时长 · 纵轴＝热度值 · 气泡越大榜位越靠前 · 颜色＝创作领域</span>
       </div>
       <svg id="bubble-svg" role="img" aria-label="话题气泡图：横轴为在榜时长，纵轴为热度值"></svg>
       <div class="bb-legend" id="bb-legend"></div>
+      <div class="bb-tip" id="bb-tip" aria-hidden="true"></div>
     </div>
 
     <div id="trend-list" class="trend-list" data-page-node-id="CGLAV58VR9PM0iROc0Nrle">
@@ -774,7 +791,6 @@
       if (n >= 1e4) return Math.round(n / 1e4) + '万';
       return String(Math.round(n));
     };
-    const LIFE_COLOR = { '短期': '#a85a3c', '中期': '#8a6a35', '长期': '#4f6b4a' };
 
     // 话题气泡图：横轴＝连续在榜时长（客观事实），纵轴＝热度值；右上角＝又热又久＝大热门事件
     function renderBubbles() {
@@ -834,36 +850,80 @@
       P.push('<text x="' + (ML + pw / 2).toFixed(1) + '" y="' + (H - 10) + '" text-anchor="middle"'
         + ' font-size="11" fill="#8b8a86">连续在榜时长</text>');
 
-      // 气泡：大热度先画，小气泡叠在上层，避免被遮住
+      // 颜色按「创作领域」区分（沿用领域图例那套已校准过的色板，颜色更丰富）
+      const domColor = (it, i) => {
+        const name = String(it['创作领域'] || '').trim();
+        return DOMAIN_COLOR_MAP[name] || DOMAIN_COLORS[i % DOMAIN_COLORS.length];
+      };
+      // 气泡：大热度先画，小的叠在上层；空心（仅描边），悬停才淡填充
       const ordered = pts.slice().sort((a, b) => (Number(b['热度']) || 0) - (Number(a['热度']) || 0));
-      ordered.forEach(it => {
+      bubbleItems = ordered;
+      ordered.forEach((it, i) => {
         const hot = Number(it['热度']) || 0;
         const hrs = Number(it['在榜小时']) || 0;
         const pos = Number(it['榜位']) || 0;
-        const life = LIFE_COLOR[it['生命周期']] ? String(it['生命周期']) : '短期';
-        const color = LIFE_COLOR[life];
-        const rt = pos ? 4.5 + 8.5 * Math.max(0, Math.min(1, (51 - pos) / 49)) : 7;
-        const tip = it.title + '｜连续在榜 ' + hrs + 'h · 热度 ' + fmtHot(hot)
-          + (pos ? ' · 榜位 #' + pos : '') + ' · ' + life;
-        P.push('<circle cx="' + X(hrs).toFixed(1) + '" cy="' + Y(hot).toFixed(1) + '" r="' + rt.toFixed(1)
-          + '" fill="' + color + '" fill-opacity="0.5" stroke="' + color + '" stroke-width="0.8">'
-          + '<title>' + escapeHtml(tip) + '</title></circle>');
+        const color = domColor(it, i);
+        const rt = (pos ? 5 + 9 * Math.max(0, Math.min(1, (51 - pos) / 49)) : 7.5).toFixed(1);
+        P.push('<circle data-i="' + i + '" cx="' + X(hrs).toFixed(1) + '" cy="' + Y(hot).toFixed(1)
+          + '" r="' + rt + '" fill="' + color + '" fill-opacity="0" stroke="' + color
+          + '" stroke-width="1.6"/>');
       });
 
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
       svg.innerHTML = P.join('');
 
-      const counts = { '短期': 0, '中期': 0, '长期': 0 };
-      pts.forEach(it => {
-        const l = LIFE_COLOR[it['生命周期']] ? String(it['生命周期']) : '短期';
-        counts[l] += 1;
+      // 图例按领域汇总（与气泡颜色同源）
+      const byDom = new Map();
+      ordered.forEach((it, i) => {
+        const name = String(it['创作领域'] || '').trim() || '未分类';
+        if (!byDom.has(name)) byDom.set(name, { n: 0, color: domColor(it, i) });
+        byDom.get(name).n += 1;
       });
       if (legendEl) {
-        legendEl.innerHTML = ['短期', '中期', '长期'].map(k =>
-          '<span><i style="background:' + LIFE_COLOR[k] + '"></i>' + k + ' ' + counts[k] + '</span>').join('')
+        legendEl.innerHTML = Array.from(byDom.entries()).map(function (e) {
+          return '<span><i style="background:' + e[1].color + '"></i>'
+            + escapeHtml(e[0]) + ' ' + e[1].n + '</span>';
+        }).join('')
           + '<span class="bb-dim">Top ' + pts.length + ' / 共 ' + pool.length
-          + ' 条（按「时长＋热度」归一化取最靠近右上角） · 气泡大小＝榜单位置</span>';
+          + ' 条（按「时长＋热度」归一化取最靠近右上角） · 气泡大小＝榜位 · 颜色＝创作领域</span>';
       }
+      bindBubbleTip(svg);
+    }
+
+    // 悬停提示：显示词条标题与关键指标
+    let bubbleItems = [];
+    function bindBubbleTip(svg) {
+      const tip = document.getElementById('bb-tip');
+      const block = document.getElementById('bubble-block');
+      if (!tip || !block || svg.dataset.tipBound) return;
+      svg.dataset.tipBound = '1';
+      const place = e => {
+        const r = block.getBoundingClientRect();
+        let x = e.clientX - r.left + 14, y = e.clientY - r.top + 14;
+        if (x + tip.offsetWidth > r.width - 8) x = e.clientX - r.left - tip.offsetWidth - 14;
+        if (y + tip.offsetHeight > r.height - 8) y = e.clientY - r.top - tip.offsetHeight - 14;
+        tip.style.left = Math.max(4, x) + 'px';
+        tip.style.top = Math.max(4, y) + 'px';
+      };
+      const hit = e => (e.target && e.target.closest) ? e.target.closest('circle') : null;
+      svg.addEventListener('mousemove', e => { if (tip.style.opacity === '1') place(e); });
+      svg.addEventListener('mouseover', e => {
+        const c = hit(e);
+        if (!c || c.dataset.i === undefined) return;
+        const it = bubbleItems[+c.dataset.i];
+        if (!it) return;
+        const hot = Number(it['热度']) || 0, pos = Number(it['榜位']) || 0;
+        const hrs = Number(it['在榜小时']) || 0;
+        const basis = String(it['生命周期依据'] || '');
+        tip.innerHTML = '<div class="bbt-title">' + escapeHtml(it.title) + '</div>'
+          + '<div class="bbt-meta">' + escapeHtml(String(it['创作领域'] || '—'))
+          + ' · ' + escapeHtml(String(it['生命周期'] || '—'))
+          + (basis ? '（' + escapeHtml(basis) + '）' : '')
+          + '<br>热度 ' + fmtHot(hot) + (pos ? ' · 榜位 #' + pos : '') + ' · 连续在榜 ' + hrs + 'h</div>';
+        tip.style.opacity = '1';
+        place(e);
+      });
+      svg.addEventListener('mouseout', e => { if (hit(e)) tip.style.opacity = '0'; });
     }
 
     function renderList(filter) {
