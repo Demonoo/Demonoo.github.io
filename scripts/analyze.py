@@ -234,7 +234,18 @@ def clean_keywords(raw, title: str = "", entities=None):
     # 实体还原：模型把网剧名/人名等切成了碎片时，用同榜挖出的实体名拼回来
     if entities:
         pruned = _restore_entities(pruned, title, entities)
-    return pruned[:5]
+        # 实体名是强信号：凡出现在标题里的实体，必须作为关键词（模型常整块漏掉）
+        # 同时吃掉被实体名完全包含的碎片，避免「早春晴朗」+「晴朗」并存
+        forced = [e for e in sorted(entities, key=len, reverse=True)
+                  if _norm(e) in title_key]
+        if forced:
+            pruned = [k for k in pruned if not any(k != e and k in e for e in forced)]
+            pruned = [e for e in forced if e not in pruned] + pruned
+    seen = []
+    for k in pruned:
+        if k not in seen:
+            seen.append(k)
+    return seen[:5]
 
 
 def extract_json(text: str):
