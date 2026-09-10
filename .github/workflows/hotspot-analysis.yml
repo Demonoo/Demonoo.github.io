@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  # 情感模型统一走国内镜像，规避 HuggingFace 原站不可达
+  HF_ENDPOINT: https://hf-mirror.com
+
 jobs:
   analyze:
     runs-on: ubuntu-latest
@@ -21,10 +25,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 抓取热榜
+      - name: 缓存情感模型权重（约 390MB，命中则跳过下载）
+        uses: actions/cache@v4
+        with:
+          path: models/hf-cache
+          key: sentiment-model-senlou-${{ runner.os }}-v1
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+          pip install --no-cache-dir transformers
+
+      - name: 抓取热榜（微博 + 抖音）
         run: python scripts/fetch.py
 
-      - name: GLM 热点基因分析
+      - name: 情绪三分类（senlou 微博微调模型，本地推理）
+        run: python scripts/sentiment.py
+
+      - name: GLM 热点基因分析（行业/形态/生命周期）
         env:
           GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
         run: python scripts/analyze.py
@@ -33,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hotspots.json data/raw_hotspots.json
+          git add data/hotspots.json data/raw_hotspots.json data/sentiment.json
           if git diff --cached --quiet; then
             echo "数据无变化，跳过提交"
           else

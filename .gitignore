@@ -10,3 +10,13 @@ desktop.ini
 dist/
 build/
 node_modules/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 情感模型权重（约 390MB，不入库）
+# —— 本仓库即 Pages 站点，模型入库会触发 GitHub 100MiB 单文件硬限制并被拒收
+# 运行时由 scripts/sentiment.py 从 hf-mirror.com 下载并缓存到 models/hf-cache/
+# 该目录由 GitHub Actions 的 actions/cache 持久化，缓存命中时无需重新下载
+models/

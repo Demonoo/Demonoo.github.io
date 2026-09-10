@@ -292,6 +292,15 @@
     margin-bottom: 10px;
     word-break: break-word;
   }
+  .trend-title a {
+    color: inherit;
+    border-bottom: 1px solid transparent;
+    transition: color 0.25s, border-color 0.25s;
+  }
+  .trend-title a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
   .trend-tags {
     display: flex;
     gap: 6px;
@@ -621,7 +630,7 @@
         <div class="trend-card">
           <div class="trend-rank ${i < 3 ? 'top' : ''}">${String(i + 1).padStart(2, '0')}</div>
           <div class="trend-body">
-            <div class="trend-title">${escapeHtml(it.title)}</div>
+            <div class="trend-title"><a href="${it.url || '#'}" target="_blank" rel="noopener" title="查看话题聚合">${escapeHtml(it.title)} ↗</a></div>
             <div class="trend-tags">
               <span class="trend-tag ${emoCls}">${emo}</span>
               <span class="trend-tag">${it['创作领域']}</span>
