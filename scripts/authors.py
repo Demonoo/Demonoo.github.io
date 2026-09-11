@@ -433,9 +433,10 @@ def main():
         cdp.close()
         proc.terminate()
 
-    # 一条都没抓到（多为风控/网络问题）时保留上一次结果，避免把线上数据清空
-    if ok_cnt == 0 and os.path.exists(OUT):
-        print("[authors] 本轮未抓到任何作者，保留上一次结果不覆盖", file=sys.stderr)
+    # 整体成功率过低（多为风控/网络问题）时保留上一次结果，避免把线上数据冲稀
+    # —— 仅 ok_cnt==0 保护不住「部分成功但大量失败」的轮次
+    if ok_cnt <= len(items) * 0.2 and os.path.exists(OUT):
+        print(f"[authors] 本轮仅成功 {ok_cnt}/{len(items)}（成功率过低），保留上一次结果不覆盖", file=sys.stderr)
         sys.exit(0)
 
     out = {
@@ -448,8 +449,14 @@ def main():
         "topics": topics,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1)
+    # 原子写入：先序列化并校验为合法 JSON，再写临时文件 + os.replace。
+    # 避免进程被中断时把半截 JSON 提交上线（2026-09-12 线上因此损坏一次）
+    blob = json.dumps(out, ensure_ascii=False, indent=1)
+    json.loads(blob)  # 防御性校验：写盘前确保序列化结果可解析
+    tmp = OUT + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write(blob)
+    os.replace(tmp, OUT)
     print(f"[authors] 完成 {ok_cnt}/{len(items)}，其中 {lex_cnt} 个话题挖到正文词库，"
           f"耗时 {time.time()-t0:.0f}s → {OUT}")
 

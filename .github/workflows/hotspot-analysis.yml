@@ -82,10 +82,25 @@ jobs:
           python scripts/authors.py
 
       - name: 提交结果
+        # 提交前逐个校验 JSON 可解析；损坏文件不 add，防止半截文件被推上线
+        # （2026-09-12 线上 authors.json 曾因写入中断截断而损坏）
         run: |
+          set -e
+          ADD=""
+          for f in data/hotspots.json data/sentiment.json data/authors.json data/history.json; do
+            if python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" 2>/dev/null; then
+              ADD="$ADD $f"
+            else
+              echo "[skip] $f JSON 损坏，本轮不提交"
+            fi
+          done
+          if [ -z "$ADD" ]; then
+            echo "无有效数据文件，跳过提交"
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/hotspots.json data/sentiment.json data/authors.json data/history.json
+          git add $ADD
           if git diff --cached --quiet; then
             echo "内容无变化，跳过提交"
             exit 0
