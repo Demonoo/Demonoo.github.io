@@ -81,13 +81,34 @@ jobs:
           google-chrome --version || chromium --version || true
           python scripts/authors.py
 
+      # ---- 抖音热榜独立管线（数据文件与微博完全独立）----
+      - name: 抓取抖音热榜
+        run: python scripts/fetch.py --platform douyin
+
+      - name: 抖音情绪三分类
+        run: python scripts/sentiment.py --platform douyin
+
+      - name: 抖音热点基因分析（Ollama Cloud）
+        env:
+          LLM_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+          LLM_API_URL: https://ollama.com/v1/chat/completions
+          LLM_MODEL: gpt-oss:20b
+        run: python scripts/analyze.py --platform douyin
+
+      # 抖音作者采集：搜索页未登录可能拿不到（预期），失败不影响主流程
+      - name: 采集抖音参与作者（headless Chrome + CDP）
+        continue-on-error: true
+        run: |
+          python scripts/authors.py --platform douyin
+
       - name: 提交结果
         # 提交前逐个校验 JSON 可解析；损坏文件不 add，防止半截文件被推上线
         # （2026-09-12 线上 authors.json 曾因写入中断截断而损坏）
         run: |
           set -e
           ADD=""
-          for f in data/hotspots.json data/sentiment.json data/authors.json data/history.json; do
+          for f in data/hotspots.json data/sentiment.json data/authors.json data/history.json \
+                   data/douyin_hotspots.json data/douyin_sentiment.json data/douyin_authors.json data/douyin_history.json; do
             if python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" 2>/dev/null; then
               ADD="$ADD $f"
             else

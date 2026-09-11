@@ -22,12 +22,15 @@
 
 依赖：websocket-client
 """
-import os, re, sys, json, time, subprocess, tempfile, urllib.request, urllib.parse, shutil
+import os, re, sys, json, time, argparse, subprocess, tempfile, urllib.request, urllib.parse, shutil
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOTSPOTS = os.path.join(BASE, "data", "hotspots.json")
 RAW = os.path.join(BASE, "data", "raw_hotspots.json")
 OUT = os.path.join(BASE, "data", "authors.json")
+DOUYIN_HOTSPOTS = os.path.join(BASE, "data", "douyin_hotspots.json")
+DOUYIN_RAW = os.path.join(BASE, "data", "douyin_raw_hotspots.json")
+DOUYIN_OUT = os.path.join(BASE, "data", "douyin_authors.json")
 
 TOP_N = int(os.environ.get("AUTHORS_TOP_N", "10"))
 LIMIT = int(os.environ.get("AUTHORS_LIMIT", "0"))      # 0 = 全部
@@ -70,24 +73,58 @@ class CDP:
     def __init__(self, ws_url, timeout=45):
         import websocket
         self.ws = websocket.create_connection(ws_url, timeout=timeout, suppress_origin=True)
+        self.ws.settimeout(0.5)          # 非阻塞轮询：无消息时 _recv 返回 None
         self._id = 0
+        self._events = []                # cmd() 期间到达的事件先缓存，poll_events 消费
+
+    def _recv(self):
+        try:
+            return json.loads(self.ws.recv())
+        except Exception:
+            return None
 
     def cmd(self, method, params=None):
         self._id += 1
         i = self._id
         self.ws.send(json.dumps({"id": i, "method": method, "params": params or {}}))
         while True:
-            try:
-                r = json.loads(self.ws.recv())
-            except Exception:
-                return None
+            r = self._recv()
+            if r is None:
+                return None             # 超时（0.5s）→ 不阻塞，交由上层重试
             if r.get("id") == i:
                 return r
+            self._events.append(r)      # 非本请求的响应 = 事件，缓存供 poll_events
+
+    def poll_events(self):
+        """取走缓存 + socket 上当前可用的事件消息"""
+        out = []
+        if self._events:
+            out.extend(self._events)
+            self._events = []
+        while True:
+            r = self._recv()
+            if r is None:
+                break
+            out.append(r)
+        return out
 
     def evaluate(self, expr):
         r = self.cmd("Runtime.evaluate", {"expression": expr, "returnByValue": True})
         try:
             return r["result"]["result"].get("value")
+        except Exception:
+            return None
+
+    def get_response_body(self, request_id):
+        """取 Network.responseReceived 命中的响应体（base64 自动解码）"""
+        r = self.cmd("Network.getResponseBody", {"requestId": request_id})
+        try:
+            res = r["result"]["result"]
+            body = res.get("body") or ""
+            if res.get("base64Encoded"):
+                import base64
+                body = base64.b64decode(body).decode("utf-8", "replace")
+            return body
         except Exception:
             return None
 
@@ -341,19 +378,96 @@ def enrich(a):
     return a2
 
 
+# ---------- 抖音搜索页采集（headless Chrome + 监听搜索 API） ----------
+
+DOUYIN_SEARCH_API = "aweme/v1/web/search/item"
+
+
+def collect_douyin(cdp, title, wait=PAGE_WAIT):
+    """打开抖音搜索页，监听 /aweme/v1/web/search/item/ 响应，取热门视频作者
+
+    抖音热榜词条没有对等的「话题聚合页」，搜索页数据由 JS 调带签名的搜索 API
+    拿取（a_bogus 由页面生成，无法直连复刻），故用 CDP 的 Network 域拦响应体。
+    返回 {authors, stats}；未命中 API / 被验证码拦住时返回 None。
+    """
+    url = "https://www.douyin.com/search/" + urllib.parse.quote(title) + "?type=general"
+    cdp.cmd("Page.navigate", {"url": url})
+    deadline = time.time() + wait
+    resp = None
+    while time.time() < deadline:
+        time.sleep(0.5)
+        for ev in cdp.poll_events():
+            if ev.get("method") != "Network.responseReceived":
+                continue
+            p = ev.get("params") or {}
+            resp_url = (p.get("response") or {}).get("url", "")
+            if DOUYIN_SEARCH_API not in resp_url:
+                continue
+            rid = p.get("requestId")
+            if not rid:
+                continue
+            body = cdp.get_response_body(rid)
+            if body and "search/item" in body[:400]:
+                resp = body
+                break
+        if resp:
+            break
+    if not resp:
+        return None
+    try:
+        j = json.loads(resp)
+    except Exception:
+        return None
+    authors = []
+    seen = {}
+    for item in (j.get("data") or []):
+        info = item.get("aweme_info") or {}
+        author = info.get("author") or {}
+        name = (author.get("nickname") or "").strip()
+        if not name or seen.get(name):
+            continue
+        seen[name] = 1
+        stats = info.get("statistics") or {}
+        diggs = int(stats.get("digg_count") or 0)
+        authors.append({
+            "name": name[:24],
+            "identity": "抖音创作者",
+            "text": (info.get("desc") or "").strip().replace("\n", " ")[:60],
+            "likes": diggs,
+            "hot": diggs,
+        })
+        if len(authors) >= 20:
+            break
+    if not authors:
+        return None
+    return {"authors": authors, "stats": {}}
+
+
 def main():
-    src = HOTSPOTS if os.path.exists(HOTSPOTS) else RAW
+    parser = argparse.ArgumentParser(description="话题参与作者采集（微博/抖音）")
+    parser.add_argument("--platform", choices=["weibo", "douyin"], default="weibo")
+    args = parser.parse_args()
+    is_douyin = args.platform == "douyin"
+    if is_douyin:
+        out_path = DOUYIN_OUT
+        src = DOUYIN_HOTSPOTS if os.path.exists(DOUYIN_HOTSPOTS) else DOUYIN_RAW
+        source = "抖音"
+    else:
+        out_path = OUT
+        src = HOTSPOTS if os.path.exists(HOTSPOTS) else RAW
+        source = "微博"
+
     with open(src, encoding="utf-8") as f:
         d = json.load(f)
     items = d.get("items") or [{"title": t} for t in (d.get("titles") or [])]
     items = [it for it in items if it.get("title")]
     if LIMIT > 0:
         items = items[:LIMIT]
-    print(f"[authors] 话题数 {len(items)}（源 {os.path.basename(src)}），每话题取前 {TOP_N} 位作者")
+    print(f"[authors] 话题数 {len(items)}（源 {os.path.basename(src)}，{source}），每话题取前 {TOP_N} 位作者")
 
     profile = tempfile.mkdtemp(prefix="chrome-authors-")
     proc = launch_chrome(PORT, profile)
-    prev_lex = load_prev_lexicon(OUT)
+    prev_lex = load_prev_lexicon(out_path)
 
     ts = None
     for _ in range(60):
@@ -372,6 +486,7 @@ def main():
     cdp = CDP(page["webSocketDebuggerUrl"])
     cdp.cmd("Page.enable")
     cdp.cmd("Runtime.enable")
+    cdp.cmd("Network.enable")   # 抖音搜索页需监听数据 API 响应；对微博无副作用
 
     topics = {}
     ok_cnt = 0
@@ -380,39 +495,49 @@ def main():
     try:
         for i, it in enumerate(items, 1):
             title = it["title"]
-            url = norm_url(it)
             try:
-                cdp.cmd("Page.navigate", {"url": url})
-                got = None
-                deadline = time.time() + PAGE_WAIT
-                while time.time() < deadline:
-                    time.sleep(1.0)
-                    raw = cdp.evaluate(EXTRACT_JS)
-                    if not raw:
-                        continue
-                    try:
-                        data = json.loads(raw)
-                    except Exception:
-                        continue
-                    if data.get("authors"):
-                        # 作者 DOM 出现得比帖子正文早：再等一会让正文加载完，
-                        # 否则正文词库（《作品名》/高频话题）会挖不全
-                        time.sleep(1.5)
-                        raw2 = cdp.evaluate(EXTRACT_JS)
+                if is_douyin:
+                    got = collect_douyin(cdp, title)
+                else:
+                    url = norm_url(it)
+                    cdp.cmd("Page.navigate", {"url": url})
+                    got = None
+                    deadline = time.time() + PAGE_WAIT
+                    while time.time() < deadline:
+                        time.sleep(1.0)
+                        raw = cdp.evaluate(EXTRACT_JS)
+                        if not raw:
+                            continue
                         try:
-                            d2 = json.loads(raw2)
-                            if d2.get("authors"):
-                                data = d2
+                            data = json.loads(raw)
                         except Exception:
-                            pass
-                        got = data
-                        break
+                            continue
+                        if data.get("authors"):
+                            # 作者 DOM 出现得比帖子正文早：再等一会让正文加载完，
+                            # 否则正文词库（《作品名》/高频话题）会挖不全
+                            time.sleep(1.5)
+                            raw2 = cdp.evaluate(EXTRACT_JS)
+                            try:
+                                d2 = json.loads(raw2)
+                                if d2.get("authors"):
+                                    data = d2
+                            except Exception:
+                                pass
+                            got = data
+                            break
                 if got:
-                    authors = [enrich(a) for a in got["authors"][:TOP_N]]
-                    lex = build_lexicon(got.get("book"), got.get("hash"), got.get("kw_freq"), title)
-                    if not lex:
-                        lex = prev_lex.get(title, [])      # 本轮没挖到 → 沿用上一轮，避免闪断
-                    kw_freq_list = top_kw_freq(got.get("kw_freq"), title)
+                    if is_douyin:
+                        # 抖音作者已带 identity，无正文词库可挖
+                        authors = got["authors"][:TOP_N]
+                        lex = prev_lex.get(title, [])
+                        kw_freq_list = []
+                    else:
+                        authors = [enrich(a) for a in got["authors"][:TOP_N]]
+                        lex = build_lexicon(got.get("book"), got.get("hash"),
+                                            got.get("kw_freq"), title)
+                        if not lex:
+                            lex = prev_lex.get(title, [])   # 本轮没挖到 → 沿用上一轮，避免闪断
+                        kw_freq_list = top_kw_freq(got.get("kw_freq"), title)
                     topics[title] = {"stats": got.get("stats", {}),
                                      "authors": authors, "lexicon": lex,
                                      "kw_freq": kw_freq_list}
@@ -435,20 +560,20 @@ def main():
 
     # 整体成功率过低（多为风控/网络问题）时保留上一次结果，避免把线上数据冲稀
     # —— 仅 ok_cnt==0 保护不住「部分成功但大量失败」的轮次
-    if ok_cnt <= len(items) * 0.2 and os.path.exists(OUT):
+    if ok_cnt <= len(items) * 0.2 and os.path.exists(out_path):
         print(f"[authors] 本轮仅成功 {ok_cnt}/{len(items)}（成功率过低），保留上一次结果不覆盖", file=sys.stderr)
         sys.exit(0)
 
     out = {
         "updated_at": time.strftime("%Y-%m-%d %H:%M"),
-        "source": d.get("source", "微博"),
+        "source": d.get("source", source),
         "top_n": TOP_N,
         "topic_count": len(topics),
         "ok_count": ok_cnt,
         "lexicon_count": lex_cnt,
         "topics": topics,
     }
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     # 原子写入：先序列化并校验为合法 JSON，再写临时文件 + os.replace。
     # 避免进程被中断时把半截 JSON 提交上线（2026-09-12 线上因此损坏一次）
     blob = json.dumps(out, ensure_ascii=False, indent=1)
@@ -456,12 +581,12 @@ def main():
     # ensure_ascii=False 写 UTF-8 时会抛 UnicodeEncodeError 导致整轮白跑）
     blob = blob.encode("utf-8", "replace").decode("utf-8")
     json.loads(blob)  # 防御性校验：写盘前确保序列化结果可解析
-    tmp = OUT + ".tmp"
+    tmp = out_path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         f.write(blob)
-    os.replace(tmp, OUT)
+    os.replace(tmp, out_path)
     print(f"[authors] 完成 {ok_cnt}/{len(items)}，其中 {lex_cnt} 个话题挖到正文词库，"
-          f"耗时 {time.time()-t0:.0f}s → {OUT}")
+          f"耗时 {time.time()-t0:.0f}s → {out_path}")
 
 
 if __name__ == "__main__":

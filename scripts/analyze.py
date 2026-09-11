@@ -648,6 +648,22 @@ def fuse_lifecycle(obj_label, llm_label):
 
 
 def main():
+    global RAW_PATH, SENTI_PATH, OUT_PATH, HISTORY_PATH, AUTHORS_PATH
+
+    parser = argparse.ArgumentParser(description="热点基因分析（LLM 四维）")
+    parser.add_argument("--platform", choices=["weibo", "douyin"], default="weibo")
+    args = parser.parse_args()
+    if args.platform == "douyin":
+        # 抖音独立数据文件，在榜轨迹（history）也独立，避免跨平台词条混淆
+        RAW_PATH = os.path.join(BASE, "data", "douyin_raw_hotspots.json")
+        SENTI_PATH = os.path.join(BASE, "data", "douyin_sentiment.json")
+        OUT_PATH = os.path.join(BASE, "data", "douyin_hotspots.json")
+        HISTORY_PATH = os.path.join(BASE, "data", "douyin_history.json")
+        AUTHORS_PATH = os.path.join(BASE, "data", "douyin_authors.json")
+        PLATFORM = "douyin"
+    else:
+        PLATFORM = "weibo"
+
     if not API_KEY:
         print("缺少 LLM_API_KEY / OLLAMA_API_KEY 环境变量", file=sys.stderr)
         sys.exit(1)
@@ -762,7 +778,8 @@ def main():
             "热度增速": hot_gain,
             "热度": m.get("hot", 0),
             "榜位": m.get("realpos", 0),
-            "标签": it.get("label", ""),
+            # 抖音 label 是数字档位（0/3/8…），与微博「爆/热/新」不对应，前端不显示
+            "标签": "" if PLATFORM == "douyin" else it.get("label", ""),
         }
 
         emo = senti_map.get(t) or "中性"

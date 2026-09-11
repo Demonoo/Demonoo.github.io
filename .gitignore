@@ -18,6 +18,7 @@ __pycache__/
 # 热榜原始快照（每轮热度值都会变），纯中间产物：
 # 由 fetch.py 每轮重新生成，前端不读它，入库只会让每小时一次的调度刷出大量无意义提交
 data/raw_hotspots.json
+data/douyin_raw_hotspots.json
 
 # 情感模型权重（约 390MB，不入库）
 # —— 本仓库即 Pages 站点，模型入库会触发 GitHub 100MiB 单文件硬限制并被拒收

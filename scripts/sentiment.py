@@ -14,11 +14,14 @@
       —— 用 snapshot_download(local_dir=...) 落真实文件，不建符号链接，
          Windows 本地与 Linux CI 行为一致
 
-输入 data/raw_hotspots.json → 输出 data/sentiment.json
+用法：
+  python scripts/sentiment.py                    # 微博：raw_hotspots.json → sentiment.json
+  python scripts/sentiment.py --platform douyin  # 抖音：douyin_raw_hotspots.json → douyin_sentiment.json
 """
 import os
 import sys
 import json
+import argparse
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -29,6 +32,8 @@ MODEL_ID = os.environ.get("SENTIMENT_MODEL", "senlou/weibo-sentiment-chinese-ber
 CACHE_DIR = os.path.join(BASE, "models", "hf-cache")
 RAW_PATH = os.path.join(BASE, "data", "raw_hotspots.json")
 OUT_PATH = os.path.join(BASE, "data", "sentiment.json")
+DOUYIN_RAW_PATH = os.path.join(BASE, "data", "douyin_raw_hotspots.json")
+DOUYIN_OUT_PATH = os.path.join(BASE, "data", "douyin_sentiment.json")
 
 MAX_LEN = 128
 BATCH = 32
@@ -60,11 +65,19 @@ def main():
     import torch
     from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-    with open(RAW_PATH, "r", encoding="utf-8") as f:
+    parser = argparse.ArgumentParser(description="热榜词条情感三分类")
+    parser.add_argument("--platform", choices=["weibo", "douyin"], default="weibo")
+    args = parser.parse_args()
+    if args.platform == "douyin":
+        raw_path, out_path = DOUYIN_RAW_PATH, DOUYIN_OUT_PATH
+    else:
+        raw_path, out_path = RAW_PATH, OUT_PATH
+
+    with open(raw_path, "r", encoding="utf-8") as f:
         raw = json.load(f)
     titles = [t for t in raw.get("titles", []) if t and t.strip()]
     if not titles:
-        print("raw_hotspots.json 中没有 titles", file=sys.stderr)
+        print(f"{raw_path} 中没有 titles", file=sys.stderr)
         sys.exit(1)
 
     md = resolve_model()
@@ -94,10 +107,10 @@ def main():
     from collections import Counter
     c = Counter(r["情感倾向"] for r in results)
     out = {"results": results, "分布": dict(c)}
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"情感分析完成：{len(results)} 条，分布 {dict(c)}")
+    print(f"情感分析完成（{args.platform}）：{len(results)} 条，分布 {dict(c)} → {out_path}")
     for r in results[:8]:
         print(f"  {r['情感倾向']} ({r['confidence']:.2f})  {r['title']}")
 

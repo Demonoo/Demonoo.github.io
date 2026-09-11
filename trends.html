@@ -572,7 +572,7 @@
 <div class="bulletin" data-page-node-id="y0VPmGNaEBTE2JEyfjFPas">
   <div class="bulletin-inner" data-page-node-id="gBrmo3Yo12iRE7Knh5qapO">
     <span data-page-node-id="ekGGuF4UFhXs3nBLNoTxxD">Social Media Intelligence · 热点基因图谱</span>
-    <span data-page-node-id="jemPggEOpyrZRfIkwVzB3B">每小时自动更新 · 数据源 微博热榜</span>
+    <span data-page-node-id="jemPggEOpyrZRfIkwVzB3B" id="bulletin-source">每小时自动更新 · 数据源 抖音热榜</span>
   </div>
 </div>
 
@@ -608,8 +608,8 @@
       <input id="search" type="text" class="search-input" placeholder="搜索趋势 / 关键词…" data-page-node-id="B3XVhLcB1nVM0FCFTsCDne" />
     </div>
     <div class="filter-row" data-page-node-id="kISiQSKSQrzIkHoGVHEcPH">
-      <button class="filter-chip active" data-platform="微博" data-page-node-id="9B5xNvkrGEnh0oMa0kKtIu">微博</button>
-      <button class="filter-chip" data-platform="抖音" disabled data-page-node-id="1mYGYaFKhlAXZIaXdOEoSS">抖音</button>
+      <button class="filter-chip active" data-platform="抖音" data-page-node-id="1mYGYaFKhlAXZIaXdOEoSS">抖音</button>
+      <button class="filter-chip" data-platform="微博" data-page-node-id="9B5xNvkrGEnh0oMa0kKtIu">微博</button>
       <button class="filter-chip" data-platform="小红书" disabled data-page-node-id="2OhCH6jZhpGsiO5NMEes3m">小红书</button>
     </div>
     <div class="update-pill" data-page-node-id="bRBly4vNCW6EREZwzBu47K">
@@ -674,7 +674,7 @@
 </footer>
 
 <script>
-  // ===== 渲染逻辑：拉取 hotspots.json（分析）+ authors.json（参与作者）=====
+  // ===== 渲染逻辑：拉取平台数据（微博/抖音：hotspots.json + authors.json）=====
   (function () {
     const listEl = document.getElementById('trend-list');
     const metaEl = document.getElementById('list-meta');
@@ -686,6 +686,19 @@
     const search = document.getElementById('search');
     let DATA = { items: [], clusters: [], summary: {} };
     let AUTHORS = { topics: {} };
+
+    // 平台 → 数据文件 + 兜底文案（抖音作者搜索页未登录时可能拿不到，需区分提示）
+    const PLATFORMS = {
+      微博: {
+        hot: 'data/hotspots.json', auth: 'data/authors.json',
+        empty: '本轮未采集到该话题的作者（话题页未渲染或风控），可点击右侧「话题聚合页」前往微博查看。'
+      },
+      抖音: {
+        hot: 'data/douyin_hotspots.json', auth: 'data/douyin_authors.json',
+        empty: '本轮未采集到该话题的作者（抖音搜索页未渲染或风控），可点击右侧「话题聚合页」前往抖音查看。'
+      }
+    };
+    let CUR_PLATFORM = '抖音';
 
     const LIFE_CLASS = { 短期: 'life-short', 中期: 'life-mid', 长期: 'life-long' };
 
@@ -731,15 +744,16 @@
 
     // 话题聚合跳转：优先用数据自带 url；缺失时按平台拼「能打开的」聚合页
     // 注意 s.weibo.com/weibo?q= 未登录会 302 到登录页（表现为空白），
-    // 实测 m.weibo.cn 的 containerid 话题页无需登录、内容完整
+    // 实测 m.weibo.cn 的 containerid 话题页无需登录、内容完整；
+    // 抖音词条点击后跳到 so.douyin.com/s?keyword=<词>（落地页同款跳转，未登录可访问）
     function jumpUrl(it) {
       let u = (it && it.url) || '';
       const m = u.match(/^https?:\/\/s\.weibo\.com\/weibo\?q=([^&]+)/);
       if (m) u = 'https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D' + m[1];
       if (u) return u;
-      if (String(DATA.source || '').indexOf('抖音') > -1)
-        return 'https://so-landing.douyin.com/landings/hotlist';
       const w = (it && it.title) || '';
+      if (String(DATA.source || '').indexOf('抖音') > -1)
+        return 'https://so.douyin.com/s?keyword=' + encodeURIComponent(w);
       return 'https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D'
         + encodeURIComponent('#' + w + '#');
     }
@@ -786,9 +800,10 @@
       const link = '<a class="ap-link" href="' + escapeHtml(jumpUrl(it))
         + '" target="_blank" rel="noopener">话题聚合页 ↗</a>';
       if (!au || !(au.authors || []).length) {
+        const cfg = PLATFORMS[CUR_PLATFORM] || PLATFORMS['微博'];
         return '<div class="author-panel"><div class="ap-meta">'
           + '<span class="ap-stat">参与作者<b>暂无数据</b></span>' + link
-          + '</div><div class="ap-empty">本轮未采集到该话题的作者（话题页未渲染或风控），可点击右侧「话题聚合页」前往微博查看。</div></div>';
+          + '</div><div class="ap-empty">' + escapeHtml(cfg.empty) + '</div></div>';
       }
       const s = au.stats || {};
       const meta = []
@@ -1094,26 +1109,51 @@
       btn.querySelector('.caret').textContent = open ? '－' : '＋';
     });
 
-    const ctl = new AbortController();
-    const timer = setTimeout(() => ctl.abort('timeout'), 15000);
-    // cache:'no-cache' → 每次打开都向服务器校验（Pages 支持 ETag/304，命中即极快），
-    // 否则浏览器会吃 GitHub Pages 的 max-age 缓存，导致"页面不更新"
-    const opts = { signal: ctl.signal, cache: 'no-cache' };
-    Promise.all([
-      fetch('data/hotspots.json', opts).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-      fetch('data/authors.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).catch(() => ({}))
-    ]).then(([h, a]) => {
-      clearTimeout(timer);
-      DATA = h || DATA;
-      AUTHORS = a || { topics: {} };
-      renderList('');
-      renderStats();
-      renderBubbles();
-    }).catch(() => {
-      clearTimeout(timer);
-      listEl.innerHTML = '<div class="empty">数据加载失败 — 请刷新页面重试</div>';
-      metaEl.textContent = '加载失败';
+    // 平台切换：清空搜索词、重置 DOM、按平台拉数据（每次新建 AbortController）
+    function loadData(platform) {
+      CUR_PLATFORM = platform;
+      const cfg = PLATFORMS[platform] || PLATFORMS['微博'];
+      listEl.innerHTML = '<div class="skeleton"></div>'.repeat(4);
+      metaEl.textContent = '加载中…';
+      updateEl.textContent = '每小时自动更新';
+      const bsrc = document.getElementById('bulletin-source');
+      if (bsrc) bsrc.textContent = '每小时自动更新 · 数据源 ' + platform + '热榜';
+      const ctl = new AbortController();
+      const timer = setTimeout(() => ctl.abort('timeout'), 15000);
+      // cache:'no-cache' → 每次打开都向服务器校验（Pages 支持 ETag/304，命中即极快），
+      // 否则浏览器会吃 GitHub Pages 的 max-age 缓存，导致"页面不更新"
+      const opts = { signal: ctl.signal, cache: 'no-cache' };
+      Promise.all([
+        fetch(cfg.hot, opts).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+        fetch(cfg.auth, { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+      ]).then(([h, a]) => {
+        clearTimeout(timer);
+        DATA = h || DATA;
+        AUTHORS = a || { topics: {} };
+        renderList(search.value.trim());
+        renderStats();
+        renderBubbles();
+      }).catch(() => {
+        clearTimeout(timer);
+        listEl.innerHTML = '<div class="empty">数据加载失败 — 请刷新页面重试</div>';
+        metaEl.textContent = '加载失败';
+      });
+    }
+
+    // 榜单平台切换（微博 / 抖音）
+    document.querySelectorAll('.filter-chip[data-platform]').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const p = chip.dataset.platform;
+        if (chip.disabled || p === CUR_PLATFORM) return;
+        CUR_PLATFORM = p;
+        document.querySelectorAll('.filter-chip[data-platform]').forEach(c =>
+          c.classList.toggle('active', c.dataset.platform === p));
+        search.value = '';
+        loadData(p);
+      });
     });
+
+    loadData('抖音');
 
     search.addEventListener('input', e => renderList(e.target.value.trim()));
 
