@@ -381,9 +381,13 @@ def enrich(a):
 # ---------- 抖音搜索页采集（headless Chrome + 监听搜索 API） ----------
 
 DOUYIN_SEARCH_API = "aweme/v1/web/search/item"
+# 抖音搜索页未登录必被验证码/登录页拦住，search/item API 拿不到：
+# 每条给短等待（8s）+ 检测到验证码文案立即放弃，避免 50×20s 白等
+DOUYIN_WAIT = float(os.environ.get("DOUYIN_WAIT", "8"))
+LOGIN_HINTS = ["请先登录", "登录后", "验证码", "环境异常", "安全验证"]
 
 
-def collect_douyin(cdp, title, wait=PAGE_WAIT):
+def collect_douyin(cdp, title, wait=DOUYIN_WAIT):
     """打开抖音搜索页，监听 /aweme/v1/web/search/item/ 响应，取热门视频作者
 
     抖音热榜词条没有对等的「话题聚合页」，搜索页数据由 JS 调带签名的搜索 API
@@ -412,6 +416,13 @@ def collect_douyin(cdp, title, wait=PAGE_WAIT):
                 break
         if resp:
             break
+        # 验证码/登录页出现（未命中 API 时页面 body 会含登录提示）→ 立即放弃，不白等
+        try:
+            raw = cdp.evaluate("(document.body && document.body.innerText || '').slice(0,200)")
+            if raw and any(h in raw for h in LOGIN_HINTS):
+                return None
+        except Exception:
+            pass
     if not resp:
         return None
     try:
