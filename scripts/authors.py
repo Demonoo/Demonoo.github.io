@@ -452,6 +452,9 @@ def main():
     # 原子写入：先序列化并校验为合法 JSON，再写临时文件 + os.replace。
     # 避免进程被中断时把半截 JSON 提交上线（2026-09-12 线上因此损坏一次）
     blob = json.dumps(out, ensure_ascii=False, indent=1)
+    # 清洗孤立 surrogate（CDP 传来的 emoji 会被 JSON 拆成 \ud83d\ude00 这类半对，
+    # ensure_ascii=False 写 UTF-8 时会抛 UnicodeEncodeError 导致整轮白跑）
+    blob = blob.encode("utf-8", "replace").decode("utf-8")
     json.loads(blob)  # 防御性校验：写盘前确保序列化结果可解析
     tmp = OUT + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
