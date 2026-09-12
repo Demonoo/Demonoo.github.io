@@ -1,14 +1,27 @@
 name: 热榜分析 · 微博
 
+# ── 更新节奏：自链式每小时（cron 只做兜底）──────────────────────────────
+# GitHub 的 schedule 触发是 best-effort、不可靠。2026-09-12 实测：旧 workflow
+# 用同样的 cron "13,43 * * * *"（名义 48 次/天），单日只触发 3~7 次、平均
+# 4~5 小时才跑一轮（同一天 40 次 scheduled 的排队耗时恒为 0 分钟、单轮仅
+# 13~15 分钟 → 不是队列堵塞，是 GitHub 在触发层丢弃）。官方文档亦承认
+# 「high load... some queued jobs may be dropped」。
+#
+# 因此改为【自链式】：本轮跑完 → 睡到下一个目标分钟 → 用 GITHUB_TOKEN 调
+# workflow_dispatch 触发下一轮。官方文档明确 workflow_dispatch 与
+# repository_dispatch 是「GITHUB_TOKEN 触发的事件不产生新运行」的例外 ——
+# 也就是自触发是被官方支持的，不需要任何外部服务或 PAT。
+#   · cron schedule 保留，仅作「链条断了」时的兜底重启（数小时内生效）
+#   · 关闭自链式：设置仓库变量 CHAIN_ENABLED=false，无需改本文件
+#   · 代价：每小时空转约 45 分钟 runner（public 仓库分钟数无限，无费用）
+#
 # ── 为什么与抖音分成两个 workflow、并且错开分钟 ──────────────────────────
 # 两个平台的基因分析都打同一个 Agnes 端点，单轮各约 50 次调用（≈10 分钟）。
 # 挤在一次 workflow 里跑，等于一小时内对模型连打 ~100 次请求，容易触发限流
 # （限流会走 Ollama 回退甚至整轮失败）。
-#   微博 → :13 / :43（沿用原先验证过的槽位）
-#   抖音 → :28 / :58（固定 +15 分钟）
-# 四次运行在 1 小时里均匀铺开（:13 :28 :43 :58），任意两次之间至少隔 15 分钟；
-# 每个平台仍保留「两个候选分钟互为备份」——GitHub 高负载时会延迟甚至丢弃
-# scheduled run，两个槽位能提高「每小时至少命中一次」的概率。
+#   微博 → 每小时的 :13（cron 另留 :43 作兜底）
+#   抖音 → 每小时的 :28（cron 另留 :58 作兜底）
+# 两条链固定相隔 15 分钟，保住「两平台不撞车」。
 # 刻意避开 :00 / :30：这两个分钟是全球定时任务最拥堵的槽位。
 #
 # 两平台数据文件完全独立（data/xxx.json ↔ data/douyin_xxx.json），
@@ -17,12 +30,20 @@ name: 热榜分析 · 微博
 on:
   schedule:
     - cron: "13,43 * * * *"
-  workflow_dispatch: {}   # 支持手动触发
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "触发来源：manual=手动；chain=自链式上一轮"
+        required: false
+        default: "manual"
+        type: string
 
 permissions:
   contents: write
+  actions: write   # 自链式必需：用 GITHUB_TOKEN 调 workflow_dispatch
 
-# 组名按平台分开：微博与抖音互不排队、互不取消
+# 组名按平台分开：微博与抖音互不排队、互不取消。
+# 顺带天然去重：同一时刻若有两个触发进来，旧的 pending 会被新的取消 → 不会长出第二条链
 concurrency:
   group: hotspot-weibo
   cancel-in-progress: false
@@ -34,12 +55,15 @@ env:
 jobs:
   weibo:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # 自链式要「睡到目标分钟」再触发下一轮，最多等约 80 分钟
+    # → 一轮 = 实际耗时(~25min) + 等待(≤80min)，必须放宽到 180
+    timeout-minutes: 180
     steps:
       # 便于排查调度延迟：记录本轮由谁触发、cron 计划点、实际启动时刻
       - name: 调度探针
         run: |
           echo "event    = ${{ github.event_name }}"
+          echo "source   = ${{ github.event.inputs.source || '(schedule 兜底)' }}"
           echo "schedule = ${{ github.event.schedule }}"
           echo "started  = $(date -u '+%Y-%m-%dT%H:%M:%SZ') (UTC)"
 
@@ -137,4 +161,48 @@ jobs:
             sleep 5
           done
           echo "[error] 推送连续失败"
+          exit 1
+
+      # ── 自链式：衔接下一轮（纯 GitHub，无外部依赖）──────────────────────
+      # 必须放在最后一步：它会把 runner 占用到目标分钟才退出。
+      # if: always() —— 即使前面某步失败，链条也不能断，否则小时级更新的前提就没了。
+      # 触发失败的兜底有两层：① 本步自带 3 次重试；② cron schedule 兜底重启。
+      - name: 自链式 · 衔接下一轮
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHAIN_ENABLED: ${{ vars.CHAIN_ENABLED || '1' }}
+          CHAIN_TARGET_MIN: "13"
+        run: |
+          if [ "${CHAIN_ENABLED}" != "1" ]; then
+            echo "[chain] CHAIN_ENABLED=${CHAIN_ENABLED}，自链式已关闭，跳过"
+            exit 0
+          fi
+          M=$((10#${CHAIN_TARGET_MIN}))
+          m=$((10#$(date -u +%M)))
+          s=$((10#$(date -u +%S)))
+          delta=$(( (M - m + 60) % 60 ))
+          # 至少间隔 5 分钟：避免「刚好在目标分钟上结束」时 0 秒后又跑一轮。
+          # 阈值刻意取小 —— 阈值过大会让「在目标点前几分钟结束」的情况白跳一小时，
+          # 而多跑一轮只是多 50 次模型调用，比漏掉一小时更新轻得多。
+          if [ "$delta" -lt 5 ]; then delta=$(( delta + 60 )); fi
+          wait_s=$(( delta * 60 - s ))
+          echo "[chain] 现在 $(date -u '+%H:%M:%SZ')，等待 ${wait_s}s，将在每小时 :$(printf '%02d' "$M") 触发下一轮"
+          sleep "$wait_s"
+
+          URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/hotspot-weibo.yml/dispatches"
+          for i in 1 2 3; do
+            code=$(curl -sS -o /tmp/disp.json -w '%{http_code}' -X POST \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              "$URL" -d '{"ref":"main","inputs":{"source":"chain"}}') || code=000
+            if [ "$code" = "204" ]; then
+              echo "[chain] 已触发下一轮（HTTP 204）"
+              exit 0
+            fi
+            echo "[chain][warn] 第 $i 次触发失败 HTTP ${code}：$(cat /tmp/disp.json 2>/dev/null)"
+            sleep 15
+          done
+          echo "[chain][error] 连续 3 次触发失败 —— 链条已断，等 cron 兜底重启"
           exit 1

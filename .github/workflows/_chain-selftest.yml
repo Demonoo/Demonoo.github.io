@@ -1,0 +1,43 @@
+name: _chain-selftest
+
+# 临时探针：验证「用 GITHUB_TOKEN 调 workflow_dispatch 触发自己」是否真的能创建新运行。
+# 验证通过后本文件会被删除。n=0 触发一次，被触发的那次 n=1 不再继续 → 不会失控。
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "链深度：0 会触发 1，1 不再触发"
+        required: false
+        default: "0"
+        type: string
+
+permissions:
+  actions: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 自触发
+        if: inputs.n == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "n=${{ inputs.n }}，尝试用 GITHUB_TOKEN 触发 n=1"
+          code=$(curl -sS -o /tmp/probe.json -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/_chain-selftest.yml/dispatches" \
+            -d '{"ref":"main","inputs":{"n":"1"}}') || code=000
+          echo "dispatch HTTP = ${code}"
+          cat /tmp/probe.json 2>/dev/null || true
+          echo "started_at = $(date -u '+%H:%M:%SZ')"
+          if [ "$code" != "204" ]; then
+            echo "[selftest][error] GITHUB_TOKEN 无法触发 workflow_dispatch"
+            exit 1
+          fi
+          echo "[selftest][ok] GITHUB_TOKEN 可以触发 workflow_dispatch"
+      - name: 链尾
+        if: inputs.n != '0'
+        run: echo "n=${{ inputs.n }} —— 这条运行是被自触发产生的，探针成功"
