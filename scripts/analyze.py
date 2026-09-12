@@ -890,6 +890,14 @@ def main():
             "标签": ((it.get("label_text") or "") if PLATFORM == "douyin"
                      else it.get("label", "")),
         }
+        # 抖音聚合页跳转依赖 gid/position/event_time。此前只留在 raw（已 gitignore），
+        # 导致 authors.py 只能改读 raw —— 而 raw 是「刚抓的榜」、hotspots 是「已分析的榜」，
+        # 热榜分钟级刷新时两者会错位（实测交集仅 42/50，前端表现为「词条有、作者空」）。
+        # 透传到产物文件后，authors.py 可直接以「前端消费的同一份榜单」为输入。
+        if PLATFORM == "douyin":
+            for _k in ("gid", "position", "event_time"):
+                if it.get(_k) is not None:
+                    common[_k] = it[_k]
 
         emo = senti_map.get(t) or "中性"
         if analysis:

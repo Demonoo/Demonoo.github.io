@@ -651,8 +651,12 @@ def main():
     is_douyin = args.platform == "douyin"
     if is_douyin:
         out_path = DOUYIN_OUT
-        # 抖音作者采集需要 gid/position/event_time 拼聚合页 URL，只有 raw 有 → 优先 raw
-        src = DOUYIN_RAW if os.path.exists(DOUYIN_RAW) else DOUYIN_HOTSPOTS
+        # 抖音需要 gid/position/event_time 拼聚合页 URL。
+        # **优先读产品文件 douyin_hotspots.json**（= 前端消费的同一份，词条天然对齐）；
+        # 早期的 hotspots 没透传这些字段，此时按 title 从 raw 补（见下方补字段逻辑）。
+        # 反例教训：以前无条件优先 raw，而 raw 是「刚抓的榜」、hotspots 是「已分析的榜」，
+        # 热榜分钟级刷新时两批会错位 —— 实测交集仅 42/50，前端表现为「词条在、作者空」。
+        src = DOUYIN_HOTSPOTS if os.path.exists(DOUYIN_HOTSPOTS) else DOUYIN_RAW
         source = "抖音"
         # 抖音无感风控识别 headless 指纹 → 非 headless（CI 上经 xvfb-run 提供显示）
         headless = False
@@ -666,6 +670,31 @@ def main():
         d = json.load(f)
     items = d.get("items") or [{"title": t} for t in (d.get("titles") or [])]
     items = [it for it in items if it.get("title")]
+
+    # 抖音：为缺跳转参数的条目从 raw 按 title 补齐（raw 是唯一带 gid 的原始产物）
+    if is_douyin and os.path.exists(DOUYIN_RAW):
+        try:
+            with open(DOUYIN_RAW, encoding="utf-8") as f:
+                _rd = json.load(f)
+            _idx = {x.get("title"): x for x in (_rd.get("items") or []) if x.get("title")}
+            _filled = 0
+            for it in items:
+                if it.get("gid"):
+                    continue
+                r = _idx.get(it.get("title"))
+                if not r:
+                    continue
+                for k in ("gid", "position", "event_time"):
+                    if r.get(k) is not None:
+                        it[k] = r[k]
+                _filled += 1
+            _lack = sum(1 for x in items if not x.get("gid"))
+            if _filled or _lack:
+                print(f"[authors] 从 raw 补齐 {_filled} 条跳转参数；"
+                      f"{_lack} 条缺 gid（榜单已刷新、raw 里已无该词条）→ 本轮跳过")
+        except Exception as e:
+            print(f"[authors] raw 补字段失败：{type(e).__name__}: {e}", file=sys.stderr)
+
     if LIMIT > 0:
         items = items[:LIMIT]
     scope = "聚合页横滑精选位" if is_douyin else "热门 tab（containerid type=60）"

@@ -808,7 +808,14 @@
       const au = (AUTHORS.topics || {})[it.title];
       const link = '<a class="ap-link" href="' + escapeHtml(jumpUrl(it))
         + '" target="_blank" rel="noopener">话题聚合页 ↗</a>';
-      if (!au || !(au.authors || []).length) {
+      if (!au) {
+        // 作者数据里没有这个词条 —— 是「两份数据批次不一致」（热榜分钟级刷新后
+        // authors 还没跟上），不是「该话题没有精选位」，两者不能混为一谈
+        return '<div class="author-panel"><div class="ap-meta">'
+          + '<span class="ap-stat">参与作者<b>待更新</b></span>' + link
+          + '</div><div class="ap-empty">作者数据与当前榜单批次不一致（热榜已刷新），下一轮采集后可见。</div></div>';
+      }
+      if (!(au.authors || []).length) {
         const cfg = PLATFORMS[CUR_PLATFORM] || PLATFORMS['微博'];
         return '<div class="author-panel"><div class="ap-meta">'
           + '<span class="ap-stat">参与作者<b>暂无数据</b></span>' + link
