@@ -473,6 +473,46 @@ DOUYIN_HZ_JS = r"""(() => {
   return JSON.stringify(out);
 })()"""
 
+# 失败现场诊断：区分「被风控拦截」与「该话题本来就没有横滑精选位」。
+# 判据：
+#   · 页面正常渲染（bodyLen 有量、x-text 有节点）但没有 search-horizontal-item
+#     → 该话题确实没有精选位，是**正确结果**，不该当故障
+#   · URL 被重定向（含 /login、verify）、bodyLen 极小、出现 captcha 节点
+#     → 被风控拦了，是**环境故障**
+# 有了它，CI 日志不再只有一句模糊的「未渲染出作者」，能直接看出是哪种。
+DOUYIN_DIAG_JS = r"""(() => {
+  const n = s => { try { return document.querySelectorAll(s).length } catch (e) { return -1 } };
+  const body = document.body ? (document.body.innerText || '') : '';
+  return JSON.stringify({
+    url: String(location.href).slice(0, 130),
+    bodyLen: body.length,
+    hz: n('[id^="search-horizontal-item-"]'),
+    hzAny: n('[id*="search-horizontal"]'),
+    captcha: n('[class*="captcha"],[id*="captcha"]'),
+    xtext: n('x-text'),
+    head: body.slice(0, 50).replace(/\s+/g, ' ')
+  });
+})()"""
+
+
+def douyin_diag(cdp):
+    """采集失败时的现场诊断摘要（任何异常都不上抛，返回一行字符串）"""
+    try:
+        d = json.loads(cdp.evaluate(DOUYIN_DIAG_JS) or "{}")
+    except Exception as e:
+        return f"diag 失败({type(e).__name__})"
+    if not d:
+        return "diag 空"
+    # 注意：**不能拿 captcha 节点数当判据**。实测抖音搜索页常驻一个隐藏的 captcha 容器，
+    # 正常渲染时也会命中它 —— 本地 41/50 成功那轮里，失败的 9 条 cap 全是 1，
+    # 但 body/head 显示页面其实正常渲染了搜索结果（只是该话题没有精选位）。
+    # 真正的风控特征是「页面几乎空白」或「URL 被重定向到登录/验证页」。
+    url = str(d.get("url") or "")
+    flag = "疑似风控" if (d.get("bodyLen", 0) < 300 or "/login" in url) else "无精选位"
+    return (f"[{flag}] body={d.get('bodyLen')} hz={d.get('hz')}/{d.get('hzAny')} "
+            f"cap={d.get('captcha')} x-text={d.get('xtext')} "
+            f"url={d.get('url')} head={d.get('head')!r}")
+
 
 def build_douyin_topic_url(it, pd=None):
     """构造落地页点击词条后的完整聚合页 URL（参数结构与落地页跳转一致）
@@ -538,13 +578,14 @@ def collect_douyin(cdp, it, wait=DOUYIN_WAIT):
     - 下方「搜索结果卡片」的作者行虽然带点赞数，但实测多为个人小号且**无认证节点**，
       与页面所见不符，身份类型维度失效 → 不再采用（详见 DOUYIN_HZ_JS 上方注释）
     - 横滑区是固定一组（实测 5~6 张）且卡片不含点赞数 → 本源 likes 恒为 0
-    - 未渲染出横滑区时返回 None（该话题本轮跳过，上游保留上一次 authors.json）
+    - 未渲染出横滑区时该话题本轮跳过（上游保留上一次 authors.json）
 
-    返回 {authors, stats}；缺 gid/未渲染出作者时返回 None。
+    返回 (结果, 诊断)：结果为 {authors, stats}，失败时为 None；
+    诊断仅在失败时有内容（区分风控拦截 / 话题本来就没有精选位，见 douyin_diag）。
     """
     url = build_douyin_topic_url(it, pd=None)
     if not url:
-        return None
+        return None, "缺 gid/position，无法构造聚合页 URL"
     cdp.cmd("Page.navigate", {"url": url})
     deadline = time.time() + wait
     cards = []
@@ -566,7 +607,7 @@ def collect_douyin(cdp, it, wait=DOUYIN_WAIT):
         except Exception:
             pass
     if not cards:
-        return None
+        return None, douyin_diag(cdp)
     # 同一账号可能占据多张精选卡 → 按昵称去重，保留首次出现顺序
     uniq = {}
     for x in cards:
@@ -600,7 +641,7 @@ def collect_douyin(cdp, it, wait=DOUYIN_WAIT):
             "text": (x.get("text") or "")[:80],
             "likes": 0, "hot": 0,
         })
-    return {"authors": authors, "stats": {}}
+    return {"authors": authors, "stats": {}}, ""
 
 
 def main():
@@ -667,9 +708,10 @@ def main():
     try:
         for i, it in enumerate(items, 1):
             title = it["title"]
+            diag = ""
             try:
                 if is_douyin:
-                    got = collect_douyin(cdp, it)
+                    got, diag = collect_douyin(cdp, it)
                 else:
                     url = norm_url(it)
                     cdp.cmd("Page.navigate", {"url": url})
@@ -723,11 +765,16 @@ def main():
                     topics[title] = {"stats": {}, "authors": [],
                                      "lexicon": prev_lex.get(title, [])}
                     streak_fail += 1
-                    print(f"  [{i:>2}/{len(items)}] ✗ {title[:26]} 未渲染出作者")
-                    if ok_cnt == 0 and streak_fail >= early_abort_n:
-                        print(f"[authors] 连续 {streak_fail} 个话题均未渲染出作者且 0 成功，"
-                              f"判定为风控/环境异常 → 提前终止，保留上一次结果",
-                              file=sys.stderr)
+                    print(f"  [{i:>2}/{len(items)}] ✗ {title[:26]} 未渲染出作者"
+                          + (f"\n        ↳ {diag}" if diag else ""))
+                    # 连续失败即判环境异常：抖音「合法没有精选位」的话题是**散落分布**的
+                    # （实测 13/48，前后都有成功项），连续这么多个几乎不可能是内容原因。
+                    # 旧条件还附带 ok_cnt==0，导致「跑一半才被风控」时（本轮 11 成功 → 34 连败）
+                    # 完全不触发，白烧 34×21s ≈ 12 分钟。
+                    if streak_fail >= early_abort_n:
+                        print(f"[authors] 连续 {streak_fail} 个话题未渲染出作者"
+                              f"（本轮已成功 {ok_cnt} 个）→ 判定为风控/环境异常 → "
+                              f"提前终止，保留上一次结果", file=sys.stderr)
                         break
             except Exception as e:
                 print(f"  [{i:>2}/{len(items)}] ! {title[:26]} {type(e).__name__}: {e}")
