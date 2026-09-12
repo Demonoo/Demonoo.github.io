@@ -85,7 +85,10 @@ jobs:
       - name: 采集抖音参与作者（非 headless Chrome + xvfb）
         continue-on-error: true
         run: |
-          which xvfb-run || sudo apt-get update && sudo apt-get install -y xvfb
+          # 注意：不要写成 `which xvfb-run || A && B`（会解析为 (which||A)&&B，永远执行安装）
+          if ! command -v xvfb-run >/dev/null 2>&1; then
+            sudo apt-get update && sudo apt-get install -y xvfb
+          fi
           xvfb-run -a -s "-screen 0 1280x800x24" python scripts/authors.py --platform douyin
 
       - name: 提交结果（仅抖音数据文件）
