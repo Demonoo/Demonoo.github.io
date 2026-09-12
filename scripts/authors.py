@@ -381,8 +381,12 @@ def enrich(a):
 # ---------- 抖音搜索页采集（headless Chrome + 监听搜索 API） ----------
 
 DOUYIN_SEARCH_API = "aweme/v1/web/search/item"
-# 抖音搜索页未登录必被验证码/登录页拦住，search/item API 拿不到：
-# 每条给短等待（8s）+ 检测到验证码文案立即放弃，避免 50×20s 白等
+# 抖音搜索页拿作者数据的现实（实测 2026-09）：
+# - www.douyin.com/search/<词> 未登录会 302 到 so.douyin.com/s?keyword=…
+#   （SEO/H5 版搜索页），该页不调用 aweme/v1/web/search/item API → 拦不到
+# - 桌面 UA 下 www.douyin.com/search 可能命中验证码/登录页
+# 结论：抖音作者大概率拿不到（属预期），前端有兜底文案。
+# 每条给短等待（8s）+ 检测到登录/验证码文案立即放弃，避免 50×20s 白等
 DOUYIN_WAIT = float(os.environ.get("DOUYIN_WAIT", "8"))
 LOGIN_HINTS = ["请先登录", "登录后", "验证码", "环境异常", "安全验证"]
 
