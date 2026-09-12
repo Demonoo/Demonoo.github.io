@@ -2,7 +2,7 @@
 """
 热榜采集（微博 + 抖音）
 - 微博：weibo.com/ajax/side/hotSearch（需 X-Requested-With 头）
-- 抖音：iesdouyin.com/web/api/v2/hotsearch/billboard/word/（无 cookie）
+- 抖音：so-landing.douyin.com/aweme/v1/hot/search/list/（与热榜落地页同源，免登录）
 用法：
   python scripts/fetch.py                      # 微博优先，失败兜底抖音 → data/raw_hotspots.json
   python scripts/fetch.py --platform douyin    # 只抓抖音 → data/douyin_raw_hotspots.json
@@ -66,18 +66,24 @@ def fetch_weibo():
 
 
 def fetch_douyin():
-    """抖音热榜：返回 [(title, hot, url), ...]"""
-    url = "https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/word/"
+    """抖音热榜：返回 [(title, hot, url), ...]
+
+    数据源：so-landing.douyin.com/aweme/v1/hot/search/list/
+    - 与热榜落地页（so-landing.douyin.com/landings/hotlist）同源，页面渲染的正是这个 API
+    - 实测（2026-09-12）免登录、免签名，直连返回 200，data.word_list 即热点榜词条
+    """
+    url = "https://so-landing.douyin.com/aweme/v1/hot/search/list/"
     data = _get(url, headers={"Referer": "https://so-landing.douyin.com/landings/hotlist"})
     j = json.loads(data.decode("utf-8"))
     items = []
-    for it in j.get("word_list", []):
+    for it in j.get("data", {}).get("word_list", []):
         word = it.get("word", "")
         if not word:
             continue
         items.append({
             "title": word,
-            "hot": it.get("hot_value", 0),
+            "hot": int(it.get("hot_value") or 0),
+            "realpos": int(it.get("position") or 0),
             "label": it.get("label", ""),
             # 词条点击 → 搜索聚合页（与落地页点击行为一致）；HOTLIST 仅作为榜单本身
             "url": DOUYIN_TOPIC + urllib.parse.quote(word),
