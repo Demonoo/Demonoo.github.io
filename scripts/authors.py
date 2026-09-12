@@ -7,11 +7,15 @@
   HTML 302，都会跳登录页；浏览器执行完 JS 访客流程后内容才渲染出来）。
 - 本脚本用 headless Chrome + CDP 顺序渲染每个话题页，提取：
     · 话题统计：阅读量 / 讨论量 / 主持人 / 媒体发布数
-    · 前 N 位热门作者：昵称、认证等级、认证说明、身份类型、互动量、**正文文案**
+    · **热门 tab 的前 N 条（默认 10）**：昵称、认证等级、认证说明、身份类型、互动量、**正文文案**
     · 正文实体词库：从帖子正文挖「《作品名》」与高频「#话题#」
       —— 热搜词条常把剧名切坏（早春晴朗云合超藏海传 → 超藏/海传），
          而帖子正文里《藏海传》会完整高频出现，可反向补回实体，交给 analyze.py 做区间保护
 - 输出 data/authors.json（话题性质由 analyze.py 的大模型判定，此处不重复推断）
+
+**采集口径 = 热门 tab（containerid type=60）**，见 norm_url 的注释：
+  「综合」tab（type=1）把「热门微博」和「实时微博」两区混在一个页面里、
+  且两区卡片类名相同 → 会掺进大量实时微博；换成 type=60 即纯热门，实测恰好 10 条。
 
 微博认证图标对照（实测 2026-09）：
     i.m-icon-goldv   → 金V（优质创作者）
@@ -162,6 +166,10 @@ EXTRACT_JS = r"""
     return '普通';
   }
 
+  // 热门 tab 的正文卡片。**必须在 type=60 的热门 tab 页面上取** ——
+  // 综合 tab（type=1）里「热门微博」和「实时微博」两区用的是同一个类名
+  // `.card.weibo-member`，会混进来一堆实时微博（见 norm_url 注释）。
+  // 热门 tab 实测恰好 10 条，取完即止。
   var cards = document.querySelectorAll('.card.weibo-member');
   var authors = [], seen = {};
   for (var i=0;i<cards.length;i++){
@@ -233,16 +241,29 @@ EXTRACT_JS = r"""
 
 
 def norm_url(it):
-    """把词条转成 m.weibo.cn containerid 话题页"""
+    """把词条转成 m.weibo.cn 搜索页的 **热门 tab** URL。
+
+    containerid 里的 `type=` 决定落在哪个 tab（实测 2026-09-12）：
+      `type=1`  = 综合（混排：热门头图 + 「更多热门微博」+ **实时微博** 一大串，15~20 条不等）
+      `type=60` = **热门**（就是我们要的：恰好 10 条，且不含实时微博）
+    热门 tab 是 SPA 原地切换、URL 不变，但**直接导航 type=60 就能拿到同一批卡片**，
+    省掉点击 + 二次等渲染（点击后平台会请求
+    `/api/container/getIndex?containerid=100103type%3D60%26q%3D…&page_type=searchall`）。
+    """
     u = (it.get("url") or "").strip()
-    if "m.weibo.cn/search?containerid=" in u:
-        return u
     q = ""
-    if "s.weibo.com/weibo?q=" in u:
+    if "m.weibo.cn/search?containerid=" in u:
+        # 词条自带 URL（fetch.py 写入）里已有 q，但 type 是 1（综合）→ 取 q 后重拼
+        m = re.search(r"q%3D([^&]*)", u)
+        if m:
+            q = urllib.parse.unquote(m.group(1))
+    if not q and "s.weibo.com/weibo?q=" in u:
         q = urllib.parse.unquote(u.split("q=", 1)[1].split("&")[0])
     if not q:
         q = "#" + it.get("title", "") + "#"
-    return "https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D" + urllib.parse.quote(q)
+    return ("https://m.weibo.cn/search?containerid=100103type%3D60%26q%3D"
+            + urllib.parse.quote(q))
+
 
 
 # ---------- 正文实体词库 ----------
@@ -601,7 +622,9 @@ def main():
     items = [it for it in items if it.get("title")]
     if LIMIT > 0:
         items = items[:LIMIT]
-    print(f"[authors] 话题数 {len(items)}（源 {os.path.basename(src)}，{source}），每话题取前 {TOP_N} 位作者")
+    scope = "聚合页横滑精选位" if is_douyin else "热门 tab（containerid type=60）"
+    print(f"[authors] 话题数 {len(items)}（源 {os.path.basename(src)}，{source}），"
+          f"采集口径 {scope}，每话题取前 {TOP_N} 条")
 
     profile = tempfile.mkdtemp(prefix="chrome-authors-")
     proc = launch_chrome(PORT, profile, headless=headless)
