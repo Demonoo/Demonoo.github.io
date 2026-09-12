@@ -7,10 +7,19 @@
 - 所有分析结果均来自实时模型推理，无本地兜底、无规则伪造
 - 话题性质（新闻性 / 娱乐性）同样由模型判定，用于话题聚合页的属性区分
 
-接口：Ollama Cloud（OpenAI 兼容）
-      POST https://ollama.com/v1/chat/completions
-      免费档实测可用：gpt-oss:20b（4.5s/条、JSON 稳定、中文分类准确）
-      需订阅的模型（glm-5.x / deepseek-v4 / kimi / minimax / mistral-large 等）返回 402
+接口：Agnes 2.5 Flash（OpenAI 兼容，免费档）
+      POST https://apihub.agnes-ai.com/v1/chat/completions
+      实测（2026-09-12，48 条抖音热榜）：JSON 全部合法解析，
+      单条 7.0~32.7s、均值约 10.6s，串行全量约 8.5 分钟
+      端点/模型/key 全部可经环境变量覆盖：LLM_API_URL / LLM_MODEL / LLM_API_KEY
+      （默认值即 Agnes，不设环境变量也能跑）
+
+回退模型：Ollama Cloud（https://ollama.com/v1/chat/completions，gpt-oss:20b）
+      主模型连续失败后自动接管，主模型恢复即切回；同样是实时模型推理，
+      只是换了供应商（环境变量 FALLBACK_API_URL / FALLBACK_MODEL / FALLBACK_API_KEY）
+      未配 key 时回退自动禁用；把 FALLBACK_API_URL 置空可彻底关闭
+
+历史方案（已弃用，勿据此排查）：GLM bigmodel（额度耗尽）
 
 设计要点（配合每小时一次的高频调度）：
 1. 全量实时：**每轮对全部词条重新调用模型**，不复用上一轮的任何结论
@@ -24,12 +33,38 @@ import os, re, sys, json, time, argparse, urllib.request, urllib.error
 from collections import Counter, defaultdict
 from datetime import datetime, timezone, timedelta
 
+# key 优先级：显式 LLM_API_KEY > Agnes（当前方案）> Ollama / GLM（历史遗留，仅兼容）
 API_KEY = (os.environ.get("LLM_API_KEY")
+           or os.environ.get("AGNES_API_KEY")
            or os.environ.get("OLLAMA_API_KEY")
            or os.environ.get("GLM_API_KEY")
            or "")
-API_URL = os.environ.get("LLM_API_URL", "https://ollama.com/v1/chat/completions")
-MODEL = os.environ.get("LLM_MODEL", "gpt-oss:20b")
+# 默认走 Agnes 2.5 Flash（OpenAI 兼容、免费）；CI 由 workflow 显式注入同名环境变量
+API_URL = os.environ.get("LLM_API_URL", "https://apihub.agnes-ai.com/v1/chat/completions")
+MODEL = os.environ.get("LLM_MODEL", "agnes-2.5-flash")
+
+# ---- 回退模型：Ollama Cloud（主模型限流/不可用时接管，恢复后自动切回主模型）----
+# 回退同样是**实时模型推理**，不是本地规则兜底 —— 只是换了个供应商，
+# 全量实时、每条重新分析的约束不变（见上方设计要点）。
+# 启用条件：FALLBACK_API_URL 非空 且（配了 key 或 FALLBACK_ALLOW_NO_KEY=1）。
+# 想彻底关掉回退：把 FALLBACK_API_URL 置为空字符串即可。
+FALLBACK_API_URL = os.environ.get("FALLBACK_API_URL",
+                                  "https://ollama.com/v1/chat/completions")
+FALLBACK_MODEL = os.environ.get("FALLBACK_MODEL", "gpt-oss:20b")
+FALLBACK_API_KEY = (os.environ.get("FALLBACK_API_KEY")
+                    or os.environ.get("OLLAMA_API_KEY")
+                    or "")
+FALLBACK_ON = bool(FALLBACK_API_URL) and bool(
+    FALLBACK_API_KEY or os.environ.get("FALLBACK_ALLOW_NO_KEY"))
+
+# 主模型连续失败达此次数后，后续词条直接走回退（不再逐条空等主模型重试）
+PRIMARY_GIVE_UP_AFTER = 2
+# 即便已判定主模型不可用，每 N 条仍探一次主模型，用于发现其恢复
+PRIMARY_PROBE_EVERY = 15
+
+_PRIMARY_FAILS = 0   # 主模型连续失败计数（成功即清零）
+_PRIMARY_SKIP = 0    # 回退模式下已跳过的条数（用于探测间隔取模）
+FALLBACK_USED = 0    # 本轮由回退模型接管的条数
 
 # 提示词版本：改动 build_prompt 或关键词规则时 +1，随结果写入，便于回溯是哪版规则产出
 PROMPT_VERSION = "6"
@@ -387,52 +422,102 @@ def extract_json(text: str):
     return json.loads(t)
 
 
-def call_llm(keyword: str, siblings=None, entities=None):
-    """返回分析 dict / "RATE_LIMITED" / None"""
+def _chat_once(url, key, model, prompt):
+    """单次 chat/completions 调用，返回剥壳后的 JSON dict（失败抛异常）"""
     payload = json.dumps({
-        "model": MODEL,
-        "messages": [{"role": "user", "content": build_prompt(keyword, siblings)}],
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.3,
         "stream": False,
     }).encode("utf-8")
     headers = {"Content-Type": "application/json"}
-    if API_KEY:
-        headers["Authorization"] = "Bearer " + API_KEY
+    if key:
+        headers["Authorization"] = "Bearer " + key
+    req = urllib.request.Request(url, data=payload, headers=headers)
+    resp = urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT)
+    r = json.loads(resp.read().decode("utf-8"))
+    return extract_json(r["choices"][0]["message"]["content"])
 
-    last = None
-    for attempt in range(3):
+
+def _try_model(url, key, model, prompt, attempts):
+    """按 attempts 次重试调用，返回 (json_dict|None, 错误描述|None, 末次 HTTP 码|None)
+
+    限流类（429/402/503）用更长退避 —— 这几类等一等往往就能过。
+    """
+    last, code = None, None
+    for attempt in range(attempts):
         try:
-            req = urllib.request.Request(API_URL, data=payload, headers=headers)
-            resp = urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT)
-            r = json.loads(resp.read().decode("utf-8"))
-            content = r["choices"][0]["message"]["content"]
-            j = extract_json(content)
-            return {
-                "创作领域": j.get("创作领域", "") or "",
-                "内容形态": j.get("内容形态", "") or "",
-                "生命周期": j.get("生命周期", "") or "",
-                "核心话题词": clean_keywords(j.get("核心话题词", []), keyword, entities),
-                "话题性质": j.get("话题性质", "") or "",
-            }
+            return _chat_once(url, key, model, prompt), None, None
         except urllib.error.HTTPError as e:
+            code = e.code
             body = ""
             try:
                 body = e.read().decode("utf-8", "ignore")[:120]
             except Exception:
                 pass
             last = f"HTTP {e.code} {body}"
-            if e.code in (429, 402, 503):
-                if attempt < 2:
-                    time.sleep(4 * (attempt + 1))
-                    continue
-                print(f"  [LIMIT] {keyword}: {last}")
-                return "RATE_LIMITED"
+            if attempt < attempts - 1:
+                time.sleep(4 * (attempt + 1) if e.code in (429, 402, 503)
+                           else 2 * (attempt + 1))
         except Exception as e:
             last = f"{type(e).__name__}: {e}"
-        if attempt < 2:
-            time.sleep(2 * (attempt + 1))
-    print(f"  [FAIL] {keyword}: {last}")
-    return None
+            if attempt < attempts - 1:
+                time.sleep(2 * (attempt + 1))
+    return None, last, code
+
+
+def call_llm(keyword: str, siblings=None, entities=None):
+    """返回分析 dict / "RATE_LIMITED" / None
+
+    主模型（Agnes）优先；连续失败后由回退模型（Ollama）接管，
+    并每 PRIMARY_PROBE_EVERY 条探一次主模型，一旦恢复立刻切回。
+    """
+    global _PRIMARY_FAILS, _PRIMARY_SKIP, FALLBACK_USED
+    prompt = build_prompt(keyword, siblings)
+
+    def settle(j, model_name):
+        return {
+            "创作领域": j.get("创作领域", "") or "",
+            "内容形态": j.get("内容形态", "") or "",
+            "生命周期": j.get("生命周期", "") or "",
+            "核心话题词": clean_keywords(j.get("核心话题词", []), keyword, entities),
+            "话题性质": j.get("话题性质", "") or "",
+            "_model": model_name,
+        }
+
+    last = None
+    primary_limited = False
+    # 主模型已判定不可用时，只在探测间隔上重试一次，避免每条都空等退避
+    probe_primary = True
+    if FALLBACK_ON and _PRIMARY_FAILS >= PRIMARY_GIVE_UP_AFTER:
+        _PRIMARY_SKIP += 1
+        if _PRIMARY_SKIP % PRIMARY_PROBE_EVERY != 0:
+            probe_primary = False
+            last = f"主模型连续失败 {_PRIMARY_FAILS} 次，本轮跳过"
+
+    if probe_primary:
+        j, err, code = _try_model(API_URL, API_KEY, MODEL, prompt, 3)
+        if j is not None:
+            _PRIMARY_FAILS = 0
+            _PRIMARY_SKIP = 0
+            return settle(j, MODEL)
+        primary_limited = code in (429, 402, 503)
+        _PRIMARY_FAILS += 1
+        last = err
+
+    # 回退模型：Ollama Cloud
+    if FALLBACK_ON:
+        j, err, _ = _try_model(FALLBACK_API_URL, FALLBACK_API_KEY,
+                               FALLBACK_MODEL, prompt, 2)
+        if j is not None:
+            FALLBACK_USED += 1
+            print(f"  [FALLBACK] {keyword}: 主模型不可用（{last}）→ {FALLBACK_MODEL} 接管")
+            return settle(j, FALLBACK_MODEL)
+        print(f"  [FAIL] {keyword}: 主模型与回退均失败（主 {last} / 回退 {err}）")
+    else:
+        print(f"  [FAIL] {keyword}: {last}")
+
+    return "RATE_LIMITED" if primary_limited else None
 
 
 def load_prev(path):
@@ -699,7 +784,14 @@ def main():
     entities = _common_entities(all_titles)
     # 话题页正文词库（上一轮 authors.py 产物）：按标题并入实体集，供区间保护使用
     topic_lex = load_topic_lexicon()
-    print(f"共 {len(items_raw)} 条热榜；全量实时分析（不沿用旧结果）；模型 {MODEL}")
+    print(f"共 {len(items_raw)} 条热榜；全量实时分析（不沿用旧结果）；主模型 {MODEL}")
+    if FALLBACK_ON:
+        print(f"回退模型已启用：{FALLBACK_MODEL} @ {FALLBACK_API_URL}"
+              f"（主模型连续失败 {PRIMARY_GIVE_UP_AFTER} 次后接管，"
+              f"每 {PRIMARY_PROBE_EVERY} 条探一次主模型是否恢复）")
+    else:
+        print("回退模型未启用（需 FALLBACK_API_KEY 或 OLLAMA_API_KEY；"
+              "FALLBACK_API_URL 置空亦可关闭）")
     if entities:
         print(f"同榜识别到 {len(entities)} 个候选实体：{sorted(entities, key=len, reverse=True)[:8]}")
     if topic_lex:
@@ -778,8 +870,12 @@ def main():
             "热度增速": hot_gain,
             "热度": m.get("hot", 0),
             "榜位": m.get("realpos", 0),
-            # 抖音 label 是数字档位（0/3/8…），与微博「爆/热/新」不对应，前端不显示
-            "标签": "" if PLATFORM == "douyin" else it.get("label", ""),
+            # 微博 label 本身就是文案（爆/沸/热/新…），直接透传；
+            # 抖音 label 是数字档位，文案由 fetch.py 的 DOUYIN_LABELS 映射后落在 label_text
+            # （1=新 3=热 5=首发 8=独家 9=挑战 16=辟谣 17=热议），未知码留空不猜
+            # —— 2026-09-12 逐张核对 label_url 徽标图后确认，原「抖音不显示标签」的依据已不成立
+            "标签": ((it.get("label_text") or "") if PLATFORM == "douyin"
+                     else it.get("label", "")),
         }
 
         emo = senti_map.get(t) or "中性"
@@ -795,6 +891,7 @@ def main():
                 "核心话题词": analysis["核心话题词"],
                 "话题性质": analysis["话题性质"],
                 "分析来源": "LLM",
+                "分析模型": analysis.pop("_model", ""),
                 "分析版本": PROMPT_VERSION,
                 "url": it.get("url", ""),
             }
@@ -808,6 +905,7 @@ def main():
                 "核心话题词": [],
                 "话题性质": "",
                 "分析来源": "",
+                "分析模型": "",
                 "分析版本": "",
                 "url": it.get("url", ""),
             }
@@ -817,6 +915,8 @@ def main():
     solid = sum(1 for x in items if x["创作领域"])
     print(f"共 {len(items)} 条：本轮调用模型 {called} 次 / "
           f"待下轮补齐 {failed} 条；已分析 {solid} 条")
+    if FALLBACK_ON:
+        print(f"其中由回退模型 {FALLBACK_MODEL} 接管 {FALLBACK_USED} 条")
 
     # 失败保护：全量实时分析下，若整轮成功率过低（多为限流），
     # 保留上一份完整数据不覆盖，避免页面大面积空档；两种情况都不复用单条结果。

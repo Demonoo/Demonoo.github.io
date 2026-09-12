@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-热点词条情绪三分类（云端下载 + 本地推理，不消耗 GLM 额度）
+热点词条情绪三分类（云端下载 + 本地推理，不消耗大模型 API 额度，两个平台共用）
 
 模型：senlou/weibo-sentiment-chinese-bert
       基于 hfl/chinese-bert-wwm-ext 在 10 万条微博情感数据上微调的三分类模型

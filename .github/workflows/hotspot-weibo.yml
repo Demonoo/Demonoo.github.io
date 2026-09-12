@@ -1,0 +1,140 @@
+name: 热榜分析 · 微博
+
+# ── 为什么与抖音分成两个 workflow、并且错开分钟 ──────────────────────────
+# 两个平台的基因分析都打同一个 Agnes 端点，单轮各约 50 次调用（≈10 分钟）。
+# 挤在一次 workflow 里跑，等于一小时内对模型连打 ~100 次请求，容易触发限流
+# （限流会走 Ollama 回退甚至整轮失败）。
+#   微博 → :13 / :43（沿用原先验证过的槽位）
+#   抖音 → :28 / :58（固定 +15 分钟）
+# 四次运行在 1 小时里均匀铺开（:13 :28 :43 :58），任意两次之间至少隔 15 分钟；
+# 每个平台仍保留「两个候选分钟互为备份」——GitHub 高负载时会延迟甚至丢弃
+# scheduled run，两个槽位能提高「每小时至少命中一次」的概率。
+# 刻意避开 :00 / :30：这两个分钟是全球定时任务最拥堵的槽位。
+#
+# 两平台数据文件完全独立（data/xxx.json ↔ data/douyin_xxx.json），
+# 因此各自 commit 互不重叠，不会互相覆盖。
+
+on:
+  schedule:
+    - cron: "13,43 * * * *"
+  workflow_dispatch: {}   # 支持手动触发
+
+permissions:
+  contents: write
+
+# 组名按平台分开：微博与抖音互不排队、互不取消
+concurrency:
+  group: hotspot-weibo
+  cancel-in-progress: false
+
+env:
+  # 情感模型统一走国内镜像，规避 HuggingFace 原站不可达
+  HF_ENDPOINT: https://hf-mirror.com
+
+jobs:
+  weibo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      # 便于排查调度延迟：记录本轮由谁触发、cron 计划点、实际启动时刻
+      - name: 调度探针
+        run: |
+          echo "event    = ${{ github.event_name }}"
+          echo "schedule = ${{ github.event.schedule }}"
+          echo "started  = $(date -u '+%Y-%m-%dT%H:%M:%SZ') (UTC)"
+
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 两平台共用同一份 pip / 模型缓存（key 相同即共享，命中率翻倍）
+      - name: 缓存 pip 下载
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          # 固定 key：避免每次改 workflow 就整体失效、重下 torch（单轮 37min → 10min）
+          key: pip-${{ runner.os }}-torch-cpu-v2
+          restore-keys: |
+            pip-${{ runner.os }}-
+
+      - name: 缓存情感模型权重（约 390MB，命中则跳过下载）
+        uses: actions/cache@v4
+        with:
+          path: models/hf-cache
+          key: sentiment-model-senlou-${{ runner.os }}-v1
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers websocket-client
+
+      - name: 抓取微博热榜
+        run: python scripts/fetch.py
+
+      - name: 情绪三分类（senlou 微博微调模型，本地推理）
+        run: python scripts/sentiment.py
+
+      # 微博＝基准管线（前端默认平台）；抖音为同构复刻，另见 hotspot-douyin.yml
+      - name: 微博热点基因分析（Agnes 2.5 Flash，全量实时：每条每轮重新分析）
+        env:
+          LLM_API_KEY: ${{ secrets.AGNES_API_KEY }}
+          LLM_API_URL: https://apihub.agnes-ai.com/v1/chat/completions
+          LLM_MODEL: agnes-2.5-flash
+          # 回退：Agnes 限流/不可用时由 Ollama Cloud 接管。
+          # secret 不存在 → FALLBACK_API_KEY 为空 → 回退自动禁用，不影响主流程
+          FALLBACK_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+          FALLBACK_API_URL: https://ollama.com/v1/chat/completions
+          FALLBACK_MODEL: gpt-oss:20b
+        run: python scripts/analyze.py
+
+      # 话题参与作者：需用真实浏览器渲染微博话题页（直连会被风控跳登录）
+      # runner 自带 Google Chrome；抓取失败不影响主流程（保留上一次结果）
+      - name: 采集话题参与作者（headless Chrome + CDP）
+        continue-on-error: true
+        run: |
+          google-chrome --version || chromium --version || true
+          python scripts/authors.py
+
+      - name: 提交结果（仅微博数据文件）
+        # 提交前逐个校验 JSON 可解析；损坏文件不 add，防止半截文件被推上线
+        # （2026-09-12 线上 authors.json 曾因写入中断截断而损坏）
+        run: |
+          set -e
+          ADD=""
+          for f in data/hotspots.json data/sentiment.json data/authors.json data/history.json; do
+            if python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" 2>/dev/null; then
+              ADD="$ADD $f"
+            else
+              echo "[skip] $f JSON 损坏，本轮不提交"
+            fi
+          done
+          if [ -z "$ADD" ]; then
+            echo "无有效数据文件，跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add $ADD
+          if git diff --cached --quiet; then
+            echo "内容无变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "data(weibo): 更新热点基因分析 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+          # 抖音 workflow 也在推同一个分支：先 rebase 再推，失败重试，
+          # 避免两侧提交时间靠近时后推的一方被 non-fast-forward 拒掉
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main || true
+            if git push; then
+              echo "推送成功（第 $i 次尝试）"
+              exit 0
+            fi
+            echo "[warn] 推送失败，5s 后重试（$i/5）"
+            sleep 5
+          done
+          echo "[error] 推送连续失败"
+          exit 1

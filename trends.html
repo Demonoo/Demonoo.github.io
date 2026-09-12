@@ -572,7 +572,7 @@
 <div class="bulletin" data-page-node-id="y0VPmGNaEBTE2JEyfjFPas">
   <div class="bulletin-inner" data-page-node-id="gBrmo3Yo12iRE7Knh5qapO">
     <span data-page-node-id="ekGGuF4UFhXs3nBLNoTxxD">Social Media Intelligence · 热点基因图谱</span>
-    <span data-page-node-id="jemPggEOpyrZRfIkwVzB3B" id="bulletin-source">每小时自动更新 · 数据源 抖音热榜</span>
+    <span data-page-node-id="jemPggEOpyrZRfIkwVzB3B" id="bulletin-source">每小时自动更新 · 数据源 微博热榜</span>
   </div>
 </div>
 
@@ -608,8 +608,8 @@
       <input id="search" type="text" class="search-input" placeholder="搜索趋势 / 关键词…" data-page-node-id="B3XVhLcB1nVM0FCFTsCDne" />
     </div>
     <div class="filter-row" data-page-node-id="kISiQSKSQrzIkHoGVHEcPH">
-      <button class="filter-chip active" data-platform="抖音" data-page-node-id="1mYGYaFKhlAXZIaXdOEoSS">抖音</button>
-      <button class="filter-chip" data-platform="微博" data-page-node-id="9B5xNvkrGEnh0oMa0kKtIu">微博</button>
+      <button class="filter-chip active" data-platform="微博" data-page-node-id="1mYGYaFKhlAXZIaXdOEoSS">微博</button>
+      <button class="filter-chip" data-platform="抖音" data-page-node-id="9B5xNvkrGEnh0oMa0kKtIu">抖音</button>
       <button class="filter-chip" data-platform="小红书" disabled data-page-node-id="2OhCH6jZhpGsiO5NMEes3m">小红书</button>
     </div>
     <div class="update-pill" data-page-node-id="bRBly4vNCW6EREZwzBu47K">
@@ -629,7 +629,7 @@
     <div class="bubble-block" id="bubble-block">
       <div class="bb-head">
         <span class="t">Bubble Map · 话题气泡图</span>
-        <span class="s">仅取最靠近右上角的 Top 10 · 横轴＝连续在榜时长 · 纵轴＝热度值 · 气泡越大榜位越靠前 · 颜色＝创作领域</span>
+        <span class="s">全部词条按热度分档展示 · 横轴＝连续在榜时长 · 纵轴＝热度值（动态区间） · 气泡越大榜位越靠前 · 颜色＝创作领域</span>
       </div>
       <svg id="bubble-svg" role="img" aria-label="话题气泡图：横轴为在榜时长，纵轴为热度值"></svg>
       <div class="bb-legend" id="bb-legend"></div>
@@ -687,7 +687,7 @@
     let DATA = { items: [], clusters: [], summary: {} };
     let AUTHORS = { topics: {} };
 
-    // 平台 → 数据文件 + 兜底文案（抖音作者搜索页未登录时可能拿不到，需区分提示）
+    // 平台 → 数据文件 + 兜底文案（微博为基准平台；抖音复刻同构，作者来自话题页横滑精选位）
     const PLATFORMS = {
       微博: {
         hot: 'data/hotspots.json', auth: 'data/authors.json',
@@ -695,10 +695,10 @@
       },
       抖音: {
         hot: 'data/douyin_hotspots.json', auth: 'data/douyin_authors.json',
-        empty: '本轮未采集到该话题的作者（抖音搜索页未渲染或风控），可点击右侧「话题聚合页」前往抖音查看。'
+        empty: '本轮未采集到该话题的作者（该话题在抖音没有横滑精选位，即无媒体/机构参与内容）。可点击右侧「话题聚合页」前往抖音查看。'
       }
     };
-    let CUR_PLATFORM = '抖音';
+    let CUR_PLATFORM = '微博';
 
     const LIFE_CLASS = { 短期: 'life-short', 中期: 'life-mid', 长期: 'life-long' };
 
@@ -731,15 +731,23 @@
     // 兜底顺序（出现未登记的新领域时按下标循环取用）
     const DOMAIN_COLORS = Object.values(DOMAIN_COLOR_MAP);
 
-    // 认证等级 → 徽标样式
+    // 认证等级 → 徽标样式（抖音黄V=个人领域认证，显示为金色徽标）
     const VERIFY_CLASS = {
-      金V: 'ap-v-gold', 红V: 'ap-v-red', 橙V: 'ap-v-orange', 蓝V: 'ap-v-blue'
+      金V: 'ap-v-gold', 红V: 'ap-v-red', 橙V: 'ap-v-orange', 蓝V: 'ap-v-blue',
+      黄V: 'ap-v-gold'
     };
 
     function escapeHtml(s) {
       return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
       }[c]));
+    }
+
+    // 点赞数格式化：14000 → 1.4万
+    function fmtLikes(n) {
+      n = Number(n) || 0;
+      if (n >= 10000) return (Math.round(n / 1000) / 10) + '万';
+      return String(n);
     }
 
     // 话题聚合跳转：优先用数据自带 url；缺失时按平台拼「能打开的」聚合页
@@ -777,9 +785,10 @@
       let tail;
       if (typeof a.text === 'string') {
         const t = a.text.trim();
+        const likeStr = a.likes ? ' <span class="ap-hot">赞 ' + fmtLikes(a.likes) + '</span>' : '';
         tail = t
-          ? '<span class="ap-text">' + escapeHtml(t) + '</span>'
-          : '<span class="ap-text ap-text-empty">（该条为图片/视频动态，无正文）</span>';
+          ? '<span class="ap-text">' + escapeHtml(t) + '</span>' + likeStr
+          : '<span class="ap-text ap-text-empty">（该条为图片/视频动态，无正文）</span>' + likeStr;
       } else {
         tail = '<span class="ap-hot">转 ' + (a.reposts || 0) + ' · 评 ' + (a.comments || 0)
           + ' · 赞 ' + (a.likes || 0) + '</span>';
@@ -816,8 +825,8 @@
       const rows = au.authors.map(authorRow).join('');
       return '<div class="author-panel">'
         + '<div class="ap-meta">' + meta + link + '</div>'
-        + '<div class="ap-head"><span>Top Authors · 头部参与作者</span>'
-        + '<span>按互动量排序 · 附原文文案</span></div>'
+        + '<div class="ap-head"><span>参与作者</span>'
+        + '<span>附原文文案</span></div>'
         + '<ul class="ap-list">' + rows + '</ul>'
         + '</div>';
     }
@@ -833,7 +842,14 @@
       if (n >= 1e4) return (n / 1e4).toFixed(1) + '万';
       return String(n);
     };
-    const LAB_CLS = { '爆': 'lm-hot', '沸': 'lm-hot', '热': '', '新': 'lm-new' };
+    // 榜单标签 → 配色。微博：爆/沸/热/新；抖音：热/新/首发/独家/挑战/辟谣/热议
+    // （抖音侧文案由 fetch.py 的 DOUYIN_LABELS 从数字档位映射，analyze.py 写入「标签」）
+    // 未登记的标签落回 .tm-label 默认色（--v-orange），不会消失
+    const LAB_CLS = {
+      '爆': 'lm-hot', '沸': 'lm-hot', '热': '', '新': 'lm-new',
+      '首发': 'lm-hot', '独家': 'lm-hot', '热议': 'lm-hot',
+      '挑战': 'lm-new', '辟谣': 'lm-new',
+    };
 
     // 硬指标条：榜单标签 / 热度值 / 榜位 / 生命周期依据（字段缺失时自动省略，兼容旧数据）
     function metricsRow(it) {
@@ -859,6 +875,8 @@
     const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
     // 话题气泡图：横轴＝连续在榜时长（客观事实），纵轴＝热度值；右上角＝又热又久＝大热门事件
+    // 纵轴「动态区间」：底部取本轮实际最低热度（低于它的空区不画），顶部取实际最高热度，
+    // 区间随每轮数据自动伸缩——词条都集中在其真实分布带内，低热度词条也能看清
     function renderBubbles() {
       const svg = document.getElementById('bubble-svg');
       const legendEl = document.getElementById('bb-legend');
@@ -876,43 +894,63 @@
         if (legendEl) legendEl.innerHTML = '';
         return;
       }
-      // 只画「最靠近右上角」的 Top 10：时长与热度各自按全局最大值归一化后求和
-      // （= 到右上角的曼哈顿距离最近），两个维度都强才排得进前面
-      const gx = Math.max(1, Math.max(...pool.map(p => Number(p['在榜小时']) || 0)));
-      const gy = Math.max(1, Math.max(...pool.map(p => Number(p['热度']) || 0)));
-      const near = it => (Number(it['在榜小时']) || 0) / gx + (Number(it['热度']) || 0) / gy;
-      const TOPN = 10;
-      const pts = pool.slice().sort((a, b) => near(b) - near(a)).slice(0, TOPN);
 
+      // —— 热度动态区间：底部 = 本轮实际最低热度，顶部 = 实际最高热度（留 5% 余量）——
+      const hots = pool.map(p => Number(p['热度']) || 0);
+      const yMin = Math.min(...hots);
+      const yMax = Math.max(...hots) * 1.05;
+      // —— 大热门判定：连续在榜 >24h 或 共享实体的衍生词条 ≥3 条 ——
+      // 用「核心话题词」（LLM 已整块保留实体名）聚合：同一实体被拆成多条（早春晴朗/早春晴朗云合/…）
+      // 说明它是跨词条反复出现的长期大热事件，即使单条在榜时间不长也按大热门处理
+      const BRO_HOT = 3, HOUR_HOT = 24;
+      const entitySets = new Map();          // 实体词 → 词条集合
+      pool.forEach(it => (it['核心话题词'] || []).forEach(k => {
+        const kw = String(k).trim();
+        if (kw.length < 3) return;           // 太短的常用词不参与实体聚合，避免误并
+        if (!entitySets.has(kw)) entitySets.set(kw, new Set());
+        entitySets.get(kw).add(it);
+      }));
+      const brotherCount = new Map();        // 词条 → 衍生兄弟数（共享任一实体的其他词条，按标题去重）
+      entitySets.forEach(its => {
+        if (its.size < 2) return;
+        const titles = new Set([...its].map(x => x.title));
+        its.forEach(it => {
+          if (!brotherCount.has(it)) brotherCount.set(it, new Set());
+          titles.forEach(t => { if (t !== it.title) brotherCount.get(it).add(t); });
+        });
+      });
+      const isGrand = it =>
+        (Number(it['在榜小时']) || 0) > HOUR_HOT ||
+        (brotherCount.get(it) ? brotherCount.get(it).size : 0) >= BRO_HOT;
+      const grandCount = pool.filter(isGrand).length;
       const W = 760, H = 400, ML = 62, MR = 22, MT = 30, MB = 46;
       const pw = W - ML - MR, ph = H - MT - MB;
-      // 坐标轴按入选的 Top 10 自适应，避免这些点全挤在角落
-      const xMax = Math.max(1, Math.ceil(Math.max(...pts.map(p => Number(p['在榜小时']) || 0))));
-      const yMax = Math.max(1, Math.max(...pts.map(p => Number(p['热度']) || 0))) * 1.12;
+      // 横轴按全量数据自适应（避免低时长段被挤掉）
+      const xMax = Math.max(1, Math.ceil(Math.max(...pool.map(p => Number(p['在榜小时']) || 0))));
       const X = v => ML + (Math.max(0, Math.min(v, xMax)) / xMax) * pw;
-      const Y = v => H - MB - (Math.max(0, Math.min(v, yMax)) / yMax) * ph;
+      const Y = v => H - MB - (Math.max(0, Math.min(v, yMax) - yMin) / (yMax - yMin)) * ph;
       const P = [];
 
-      // 右上角「大热门事件」提示区
+      // 右上角「大热门事件」提示区：判定 = 连续在榜 >24h 或 共享实体衍生词条 ≥3 条
       P.push('<rect x="' + (ML + pw * 0.6).toFixed(1) + '" y="' + MT + '" width="' + (pw * 0.4).toFixed(1)
         + '" height="' + (ph * 0.4).toFixed(1) + '" fill="' + C.gold + '" fill-opacity="0.05" stroke="' + C.goldSoft + '"'
         + ' stroke-width="0.5" stroke-dasharray="4 3"/>');
       P.push('<text x="' + (W - MR - 6) + '" y="' + (MT + 15) + '" text-anchor="end" font-size="11"'
-        + ' fill="' + C.gold + '">大热门事件</text>');
-      // 横向网格 + 纵轴刻度
+        + ' fill="' + C.gold + '">大热门事件 ×' + grandCount + '</text>');
+      // 横向网格 + 纵轴刻度（按动态区间等分 4 段）
       for (let i = 0; i <= 4; i++) {
         const y = MT + ph * (i / 4);
         P.push('<line x1="' + ML + '" y1="' + y.toFixed(1) + '" x2="' + (W - MR) + '" y2="' + y.toFixed(1)
           + '" stroke="' + C.rule + '" stroke-width="0.5"/>');
         P.push('<text x="' + (ML - 8) + '" y="' + (y + 4).toFixed(1) + '" text-anchor="end" font-size="11"'
-          + ' fill="' + C.ink4 + '">' + fmtHotAxis(yMax * (1 - i / 4)) + '</text>');
+          + ' fill="' + C.ink4 + '">' + fmtHotAxis(yMin + (yMax - yMin) * (1 - i / 4)) + '</text>');
       }
       // 坐标轴
       P.push('<line x1="' + ML + '" y1="' + MT + '" x2="' + ML + '" y2="' + (H - MB)
         + '" stroke="' + C.rule2 + '" stroke-width="0.5"/>');
       P.push('<line x1="' + ML + '" y1="' + (H - MB) + '" x2="' + (W - MR) + '" y2="' + (H - MB)
         + '" stroke="' + C.rule2 + '" stroke-width="0.5"/>');
-      P.push('<text x="' + ML + '" y="' + (MT - 12) + '" font-size="11" fill="' + C.ink3 + '">热度值</text>');
+      P.push('<text x="' + ML + '" y="' + (MT - 12) + '" font-size="11" fill="' + C.ink3 + '">热度值（动态区间）</text>');
       [0, 0.25, 0.5, 0.75, 1].forEach(f => {
         const v = xMax * f;
         P.push('<text x="' + X(v).toFixed(1) + '" y="' + (H - MB + 17) + '" text-anchor="middle"'
@@ -927,7 +965,7 @@
         return DOMAIN_COLOR_MAP[name] || DOMAIN_COLORS[i % DOMAIN_COLORS.length];
       };
       // 气泡：大热度先画，小的叠在上层；空心（仅描边），悬停才淡填充
-      const ordered = pts.slice().sort((a, b) => (Number(b['热度']) || 0) - (Number(a['热度']) || 0));
+      const ordered = pool.slice().sort((a, b) => (Number(b['热度']) || 0) - (Number(a['热度']) || 0));
       bubbleItems = ordered;
       ordered.forEach((it, i) => {
         const hot = Number(it['热度']) || 0;
@@ -935,9 +973,13 @@
         const pos = Number(it['榜位']) || 0;
         const color = domColor(it, i);
         const rt = (pos ? 5 + 9 * Math.max(0, Math.min(1, (51 - pos) / 49)) : 7.5).toFixed(1);
+        // 大热门：金色描边 + 淡金填充 + 星标，与普通领域色气泡区分
+        const grand = isGrand(it);
         P.push('<circle data-i="' + i + '" cx="' + X(hrs).toFixed(1) + '" cy="' + Y(hot).toFixed(1)
-          + '" r="' + rt + '" fill="' + color + '" fill-opacity="0" stroke="' + color
-          + '" stroke-width="1.6"/>');
+          + '" r="' + rt + '" fill="' + (grand ? C.gold : color) + '" fill-opacity="' + (grand ? '0.10' : '0')
+          + '" stroke="' + (grand ? C.gold : color) + '" stroke-width="' + (grand ? '2.2' : '1.6') + '"/>'
+          + (grand ? '<text x="' + X(hrs).toFixed(1) + '" y="' + (Y(hot) - 8).toFixed(1)
+            + '" text-anchor="middle" font-size="9" fill="' + C.gold + '">★</text>' : ''));
       });
 
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
@@ -955,8 +997,8 @@
           return '<span><i style="background:' + e[1].color + '"></i>'
             + escapeHtml(e[0]) + ' ' + e[1].n + '</span>';
         }).join('')
-          + '<span class="bb-dim">Top ' + pts.length + ' / 共 ' + pool.length
-          + ' 条（按「时长＋热度」归一化取最靠近右上角） · 气泡大小＝榜位 · 颜色＝创作领域</span>';
+          + '<span class="bb-dim">共 ' + pool.length + ' 条 · 纵轴区间 ' + fmtHot(yMin) + ' ~ ' + fmtHot(yMax)
+          + '（随本轮数据自动伸缩） · ★金边＝大热门（在榜&gt;24h 或衍生词条≥' + BRO_HOT + '条） · 气泡大小＝榜位 · 颜色＝创作领域</span>';
       }
       bindBubbleTip(svg);
     }
@@ -1153,7 +1195,7 @@
       });
     });
 
-    loadData('抖音');
+    loadData('微博');
 
     search.addEventListener('input', e => renderList(e.target.value.trim()));
 

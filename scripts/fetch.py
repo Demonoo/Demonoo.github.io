@@ -24,6 +24,18 @@ WEIBO_TOPIC = "https://m.weibo.cn/search?containerid=100103type%3D1%26q%3D"
 DOUYIN_HOTLIST = "https://so-landing.douyin.com/landings/hotlist"
 DOUYIN_TOPIC = "https://so.douyin.com/s?keyword="
 
+# 抖音热榜徽标：API 的 label 是数字码，含义需看图（label_url 指向 {n}.png），
+# 实测 2026-09-12 逐张核对得出；0 表示无徽标。未知码一律留空，不猜。
+DOUYIN_LABELS = {
+    "1": "新",
+    "3": "热",
+    "5": "首发",
+    "8": "独家",
+    "9": "挑战",
+    "16": "辟谣",
+    "17": "热议",
+}
+
 
 def _get(url, headers=None, timeout=15):
     h = {"User-Agent": UA, "Accept": "*/*"}
@@ -85,6 +97,9 @@ def fetch_douyin():
             "hot": int(it.get("hot_value") or 0),
             "realpos": int(it.get("position") or 0),
             "label": it.get("label", ""),
+            "label_text": DOUYIN_LABELS.get(str(it.get("label")), ""),
+            "video_count": int(it.get("video_count") or 0),
+            "discuss_count": int(it.get("discuss_video_count") or 0),
             # 聚合页构造参数（authors.py 拼完整 URL 用）：
             #   gid 话题分组 id、position 榜位、event_time 入榜时间戳
             "gid": it.get("group_id", ""),

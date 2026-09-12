@@ -1,30 +1,30 @@
-name: 热榜热点基因分析
+name: 热榜分析 · 抖音
+
+# ── 错峰说明见 hotspot-weibo.yml ──────────────────────────────────────
+# 微博 :13/:43，抖音固定 +15 分钟 → :28/:58。
+# 目的是让两个平台对同一个 Agnes 端点的调用在时间上分开，降低限流概率。
+# 抖音为微博基准管线的同构复刻，数据文件完全独立。
 
 on:
   schedule:
-    # 每小时跑一次（UTC）。刻意避开 :00 与 :30 —— 这两个分钟是全球定时任务
-    # 最拥堵的槽位，高负载时 GitHub 会把任务延迟数小时甚至直接丢弃。
-    # 设两个非高峰候选分钟（:13 / :43）互为备份，提高每小时至少命中一次的几率。
-    - cron: "13,43 * * * *"
+    - cron: "28,58 * * * *"
   workflow_dispatch: {}   # 支持手动触发
 
 permissions:
   contents: write
 
-# 同一时间只跑一个，避免两轮互相覆盖
 concurrency:
-  group: hotspot-analysis
+  group: hotspot-douyin
   cancel-in-progress: false
 
 env:
-  # 情感模型统一走国内镜像，规避 HuggingFace 原站不可达
   HF_ENDPOINT: https://hf-mirror.com
 
 jobs:
-  analyze:
+  douyin:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
-      # 便于排查调度延迟：记录本轮由谁触发、cron 计划点、实际启动时刻
       - name: 调度探针
         run: |
           echo "event    = ${{ github.event_name }}"
@@ -43,7 +43,6 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          # 固定 key：避免每次改 workflow 就整体失效、重下 torch（单轮 37min → 10min）
           key: pip-${{ runner.os }}-torch-cpu-v2
           restore-keys: |
             pip-${{ runner.os }}-
@@ -60,58 +59,40 @@ jobs:
           pip install torch --index-url https://download.pytorch.org/whl/cpu
           pip install transformers websocket-client
 
-      - name: 抓取热榜（微博 + 抖音）
-        run: python scripts/fetch.py
-
-      - name: 情绪三分类（senlou 微博微调模型，本地推理）
-        run: python scripts/sentiment.py
-
-      - name: 热点基因分析（Ollama Cloud，全量实时：每条每轮重新分析）
-        env:
-          LLM_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
-          LLM_API_URL: https://ollama.com/v1/chat/completions
-          LLM_MODEL: gpt-oss:20b
-        run: python scripts/analyze.py
-
-      # 话题参与作者：需用真实浏览器渲染微博话题页（直连会被风控跳登录）
-      # runner 自带 Google Chrome；抓取失败不影响主流程（保留上一次结果）
-      - name: 采集话题参与作者（headless Chrome + CDP）
-        continue-on-error: true
-        run: |
-          google-chrome --version || chromium --version || true
-          python scripts/authors.py
-
-      # ---- 抖音热榜独立管线（数据文件与微博完全独立）----
       - name: 抓取抖音热榜
         run: python scripts/fetch.py --platform douyin
 
       - name: 抖音情绪三分类
         run: python scripts/sentiment.py --platform douyin
 
-      - name: 抖音热点基因分析（Ollama Cloud）
+      - name: 抖音热点基因分析（Agnes 2.5 Flash）
         env:
-          LLM_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
-          LLM_API_URL: https://ollama.com/v1/chat/completions
-          LLM_MODEL: gpt-oss:20b
+          LLM_API_KEY: ${{ secrets.AGNES_API_KEY }}
+          LLM_API_URL: https://apihub.agnes-ai.com/v1/chat/completions
+          LLM_MODEL: agnes-2.5-flash
+          FALLBACK_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+          FALLBACK_API_URL: https://ollama.com/v1/chat/completions
+          FALLBACK_MODEL: gpt-oss:20b
         run: python scripts/analyze.py --platform douyin
 
       # 抖音作者采集：抖音无感风控（rmc-nocaptcha）识别 headless 指纹 →
       # 必须用非 headless Chrome（真实窗口），CI 上经 xvfb 虚拟显示运行；
-      # 聚合页需带 gid/hotlist_param 完整参数（fetch 已写入 raw），失败不影响主流程
+      # 作者来源＝话题聚合页顶部「横滑精选位」（search-horizontal-item-N）：
+      #   昵称 + 认证徽章图标 URL（零请求判定红V/蓝V/黄V）+ 视频文案 + awemeid；
+      #   该位不含点赞数（实测 DOM/Shadow DOM/悬停均无），likes 恒为 0；
+      #   没有横滑位的话题 authors 为空 —— 是正确结果（该话题无媒体/机构参与内容）；
+      #   聚合页需带 gid/hotlist_param 完整参数（fetch 已写入 raw），失败不影响主流程
       - name: 采集抖音参与作者（非 headless Chrome + xvfb）
         continue-on-error: true
         run: |
           which xvfb-run || sudo apt-get update && sudo apt-get install -y xvfb
           xvfb-run -a -s "-screen 0 1280x800x24" python scripts/authors.py --platform douyin
 
-      - name: 提交结果
-        # 提交前逐个校验 JSON 可解析；损坏文件不 add，防止半截文件被推上线
-        # （2026-09-12 线上 authors.json 曾因写入中断截断而损坏）
+      - name: 提交结果（仅抖音数据文件）
         run: |
           set -e
           ADD=""
-          for f in data/hotspots.json data/sentiment.json data/authors.json data/history.json \
-                   data/douyin_hotspots.json data/douyin_sentiment.json data/douyin_authors.json data/douyin_history.json; do
+          for f in data/douyin_hotspots.json data/douyin_sentiment.json data/douyin_authors.json data/douyin_history.json; do
             if python -c "import json,sys; json.load(open(sys.argv[1], encoding='utf-8'))" "$f" 2>/dev/null; then
               ADD="$ADD $f"
             else
@@ -129,6 +110,15 @@ jobs:
             echo "内容无变化，跳过提交"
             exit 0
           fi
-          git commit -m "data: 更新热点基因分析 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
-          git pull --rebase --autostash origin main || true
-          git push
+          git commit -m "data(douyin): 更新热点基因分析 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main || true
+            if git push; then
+              echo "推送成功（第 $i 次尝试）"
+              exit 0
+            fi
+            echo "[warn] 推送失败，5s 后重试（$i/5）"
+            sleep 5
+          done
+          echo "[error] 推送连续失败"
+          exit 1

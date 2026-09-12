@@ -351,6 +351,29 @@ BLOGGER_KW = ["博主", "创作者", "作者", "达人", "大V", "观察官", "�
 MEDIA_WEAK = ["官方微博", "网", "报", "媒体"]
 
 
+# ---------- 抖音作者身份推断 ----------
+# 抖音横滑区作者卡自带认证徽章图标（x-image[class*="verify"]，src 含颜色词），
+# 可直接判黄V/蓝V/红V，不必像早期「搜索卡片」那样靠红标或昵称猜。
+# 蓝V 里既有官方机构也有企业，再按昵称关键词细分；判词与微博 enrich 同源，
+# 保证前端「媒体 / 官方机构 / 企业品牌 / 认证」标签语义一致。
+
+# 媒体强标识：命中即判「媒体人」
+DY_MEDIA_KW = ["日报", "晚报", "时报", "早报", "新闻", "电视台", "广播", "央视", "新华社",
+               "人民网", "参考消息", "新华网", "视听", "融媒体", "传媒", "周刊", "资讯",
+               "报业", "前线", "新京报", "封面", "观察者", "澎湃", "南都", "界面",
+               "新媒体", "光明网", "环球网", "中新网", "海外网", "中青报", "经济日报"]
+# 官方机构标识
+DY_OFFICIAL_KW = ["公安", "消防", "法院", "检察", "政府", "政务", "文旅", "教育局",
+                  "气象", "应急", "卫健委", "共青团", "海关", "税务", "市场监管",
+                  "交警", "发布", "网信"]
+# 企业品牌标识
+DY_BRAND_KW = ["公司", "集团", "科技", "汽车", "手机", "银行", "保险", "官方旗舰",
+               "旗舰店", "品牌", "数码", "电商"]
+# 认证创作者（明星/达人/工作室）
+DY_CREATOR_KW = ["演员", "歌手", "导演", "主持人", "运动员", "达人", "博主", "工作室",
+                 "主理人", "大V", "作家", "医生", "律师", "老师"]
+
+
 def enrich(a):
     """补 identity（身份类型）"""
     raw = (a.get("identity_raw") or "").strip()
@@ -388,13 +411,48 @@ def enrich(a):
 # 聚合页必须带落地页点击词条时的完整参数（gid/hotlist_param/extra），
 # 裸 so.douyin.com/s?keyword=… 会被风控；实测昵称节点 class 含 nickName（2026-09-12）。
 DOUYIN_WAIT = float(os.environ.get("DOUYIN_WAIT", "15"))
-# 提取作者昵称：nickName 节点（authorInfoContainer 内昵称是独立文本节点）
-DOUYIN_NICK_JS = ("JSON.stringify(Array.from(document.querySelectorAll('[class*=\"nickName\"]'))"
-                  ".map(e => (e.innerText || '').trim()).filter(Boolean))")
+# 综合 tab 顶部横滑区（模块 douyin_hotspot_horizontal，卡片 id search-horizontal-item-N）
+# —— **本页唯一的作者来源**。
+# 实测（2026-09-12）：横滑区卡片是结构化渲染的，作者三件套各自独立成节点：
+#   x-text[class*="w-full"]   视频文案（作者发布内容）
+#   x-image[class*="avatar"]  作者头像
+#   x-text[class*="ml-4"]     作者昵称
+#   x-image[class*="verify"]  认证徽章图标（src 含颜色词 → 零请求判类型）
+# 为什么不用下方「搜索结果卡片」的作者行：那里是关键词搜索命中的任意投稿者，
+# 实测多为个人小号且**无认证节点**（verify 字段恒空 → 身份类型维度失效）；
+# 横滑区则是该热点的精选/媒体内容，作者带真实认证，与页面所见一致。
+# 容量：横滑区为固定一组，实测 track.scrollWidth == clientWidth == 560px（5~6 张），
+#       横向滚动**不会**加载更多 → 单话题作者上限就是 5~6 位。
+DOUYIN_HZ_JS = r"""(() => {
+  const out = [];
+  document.querySelectorAll('[id^="search-horizontal-item-"]').forEach(el => {
+    const clsOf = e => String((e.getAttribute && e.getAttribute('class')) || '');
+    const txt = e => (e.innerText || '').replace(/\s+/g, ' ').trim();
+    const texts = Array.from(el.querySelectorAll('x-text, [class*="normal-text"]'))
+      .filter(e => txt(e));
+    const titleEl = texts.find(e => /w-full/.test(clsOf(e))) || texts[0];
+    const nameEl = texts.find(e => /ml-4/.test(clsOf(e))) || texts[texts.length - 1];
+    if (!nameEl) return;
+    const name = txt(nameEl).slice(0, 24);
+    if (!name) return;
+    const imgs = Array.from(el.querySelectorAll('x-image, img'));
+    const imgSrc = e => String((e && e.getAttribute && e.getAttribute('src')) || '');
+    const verifyEl = imgs.find(i => /verify/.test(clsOf(i)));
+    out.push({
+      name: name,
+      text: titleEl ? txt(titleEl).slice(0, 80) : '',
+      verifySrc: imgSrc(verifyEl).slice(0, 160),
+    });
+  });
+  return JSON.stringify(out);
+})()"""
 
 
-def build_douyin_topic_url(it):
-    """构造落地页点击词条后的完整聚合页 URL（参数结构与落地页跳转一致）"""
+def build_douyin_topic_url(it, pd=None):
+    """构造落地页点击词条后的完整聚合页 URL（参数结构与落地页跳转一致）
+
+    pd 保留兼容（"video" 会带 video tab 参数）；默认综合 tab（与落地页跳转一致）。
+    """
     title = it.get("title", "")
     gid = str(it.get("gid") or "")
     try:
@@ -411,42 +469,111 @@ def build_douyin_topic_url(it):
     hp_s = json.dumps(hp, ensure_ascii=False, separators=(",", ":"))
     extra = {"hotlist_param": hp_s, "previous_page": "trending_board_page",
              "gid": gid, "enter_method": "hot_list_page"}
-    q = urllib.parse.urlencode({
+    # 视频 tab 用 switch_tab 入口，与落地页实际跳转参数一致（实测 2026-09-12）
+    enter = "switch_tab" if pd else "hot_list_page"
+    params = {
         "hideMiddlePage": "1", "needBack2Origin": "1", "from": "hot_list_page",
-        "enter_method": "hot_list_page", "previous_page": "trending_board_page",
+        "enter_method": enter, "previous_page": "trending_board_page",
         "keyword": title, "gid": gid,
         "hotlist_param": hp_s,
         "extra": json.dumps(extra, ensure_ascii=False, separators=(",", ":")),
-    })
+    }
+    if pd:
+        params["pd"] = pd
+        params["offset"] = "0"
+    q = urllib.parse.urlencode(params)
     return "https://so.douyin.com/s?" + q
 
 
-def collect_douyin(cdp, it, wait=DOUYIN_WAIT):
-    """打开抖音搜索聚合页（完整参数），DOM 提取热门视频作者昵称
+def dy_verify_from_url(url):
+    """按认证徽章图标 URL 判定认证类型（横滑推荐位 x-image，零请求）
 
-    返回 {authors, stats}；缺 gid/未渲染出昵称时返回 None。
+    实测（2026-09-12）：URL 直接含颜色词：
+      icon_verify_yellow_outlined → 黄V（个人认证）
+      icon_verify_blue_outlined   → 蓝V（机构/企业认证）
+      icon_verify_red             → 红V（持新闻许可媒体，注意无 _outlined 后缀）
     """
-    url = build_douyin_topic_url(it)
+    u = (url or "")
+    if "icon_verify_yellow" in u or "icon_verify_yellow_outlined" in u:
+        return "黄V"
+    if "icon_verify_blue" in u or "icon_verify_blue_outlined" in u:
+        return "蓝V"
+    if "icon_verify_red" in u:
+        return "红V"
+    return ""
+
+
+def collect_douyin(cdp, it, wait=DOUYIN_WAIT):
+    """打开抖音搜索聚合页综合 tab，以**顶部横滑区**为作者信息源
+
+    实测（2026-09-12，访客态未登录）：
+    - 横滑区（douyin_hotspot_horizontal）卡片里作者三件套各自独立成节点：
+      昵称 / 文案 / 认证徽章图标 URL，src 含颜色词 → 零请求判黄V·蓝V·红V
+    - 下方「搜索结果卡片」的作者行虽然带点赞数，但实测多为个人小号且**无认证节点**，
+      与页面所见不符，身份类型维度失效 → 不再采用（详见 DOUYIN_HZ_JS 上方注释）
+    - 横滑区是固定一组（实测 5~6 张）且卡片不含点赞数 → 本源 likes 恒为 0
+    - 未渲染出横滑区时返回 None（该话题本轮跳过，上游保留上一次 authors.json）
+
+    返回 {authors, stats}；缺 gid/未渲染出作者时返回 None。
+    """
+    url = build_douyin_topic_url(it, pd=None)
     if not url:
         return None
     cdp.cmd("Page.navigate", {"url": url})
     deadline = time.time() + wait
-    names = []
+    cards = []
+    stable = 0
     while time.time() < deadline:
-        time.sleep(1.0)
+        time.sleep(1.2)
         try:
-            raw = cdp.evaluate(DOUYIN_NICK_JS)
+            raw = cdp.evaluate(DOUYIN_HZ_JS)
             if raw:
-                arr = json.loads(raw)
-                names = list(dict.fromkeys(n for n in arr if n))
-                if names:
-                    break
+                cur = [x for x in json.loads(raw) if x and x.get("name")]
+                if cur:
+                    if len(cur) > len(cards):
+                        cards, stable = cur, 0
+                    else:
+                        stable += 1
+                    # 横滑区为固定一组、不随滚动增长：连续两轮数量不变即渲染完
+                    if stable >= 2:
+                        break
         except Exception:
             pass
-    if not names:
+    if not cards:
         return None
-    authors = [{"name": n[:24], "identity": "抖音创作者", "text": "", "likes": 0, "hot": 0}
-               for n in names[:TOP_N]]
+    # 同一账号可能占据多张精选卡 → 按昵称去重，保留首次出现顺序
+    uniq = {}
+    for x in cards:
+        uniq.setdefault(x["name"], x)
+    authors = []
+    for n, x in list(uniq.items())[:TOP_N]:
+        verify = dy_verify_from_url(x.get("verifySrc", ""))
+        # 身份类型：带认证按 V 标 + 昵称关键词推断；无认证留空（前端显示普通用户）
+        ident = ""
+        if verify:
+            if verify == "红V":
+                ident = "媒体人"
+            elif verify == "黄V":
+                ident = "认证创作者"
+            else:
+                if any(k in n for k in DY_MEDIA_KW):
+                    ident = "媒体人"
+                elif any(k in n for k in DY_OFFICIAL_KW):
+                    ident = "官方机构"
+                elif any(k in n for k in DY_BRAND_KW):
+                    ident = "企业品牌"
+                elif any(k in n for k in DY_CREATOR_KW):
+                    ident = "认证创作者"
+                else:
+                    ident = "机构认证"
+        authors.append({
+            "name": n[:24],
+            "verify": verify,
+            "identity": ident, "identity_raw": "",
+            "sec_uid": "",
+            "text": (x.get("text") or "")[:80],
+            "likes": 0, "hot": 0,
+        })
     return {"authors": authors, "stats": {}}
 
 
