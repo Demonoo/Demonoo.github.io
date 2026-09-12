@@ -180,6 +180,11 @@ EXTRACT_JS = r"""
 
     var raw = txt(c.querySelector('.from'));
     if (/^来自/.test(raw)) raw = '';         // 「来自 iPhone Air」是发布来源，非认证说明
+    // 认证说明可能很长，是**叠加**的多重头衔，实测最长 38 字：
+    //   「2023微博影像年年度银奖 2024微博影像年优秀摄影师 摄影世界认证摄影师」
+    //   「财联社（https://www.cls.cn）官方微博」
+    // 原先截到 24 字 → 尾巴被切掉（「…）官」/「…微博原创视」），而且会**破坏身份类型判定**
+    // （截掉「官方微博」后蓝V 判不出「官方机构」）→ 放宽到 60，只留一个防脏值的上限
     var t = txt(c.querySelector('.time')).replace(/转赞人数.*$/,'').trim();
     var nums = (txt(c.querySelector('footer')).match(/\d+/g) || []).map(Number);
     var reposts = nums[0]||0, comments = nums[1]||0, likes = nums[2]||0;
@@ -194,7 +199,7 @@ EXTRACT_JS = r"""
     authors.push({
       name: name.slice(0,24),
       verify: verifyOf(c),
-      identity_raw: raw.slice(0,24),
+      identity_raw: raw.slice(0,60),
       time: t.slice(0,14),
       text: text,
       reposts: reposts, comments: comments, likes: likes,
