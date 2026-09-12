@@ -34,6 +34,10 @@
     --rule-2: #d5d1c8;
     --gold: #a1834f;
     --gold-soft: #c9b48a;
+    --hot-red: #c0392b;
+    --hot-red-soft: #cd8078;
+    --hot-plate: #121110;
+    --hot-plate-ink: #f3f1ec;
     --pos: #4f6b4a;
     --neu: #7d7b76;
     --neg: #9c4a3c;
@@ -66,6 +70,9 @@
     --gold-soft: #a1834f;
     --hot-red: #e0705e;
     --hot-red-soft: #a85348;
+    /* 暗色下黑牌要明显比纸面更黑，否则和 #131312 糊在一起 */
+    --hot-plate: #060606;
+    --hot-plate-ink: #f3f1ec;
     --pos: #6f9a66;
     --neu: #9b9992;
     --neg: #c9705e;
@@ -273,6 +280,11 @@
   }
   .bb-tip .bbt-meta i { font-style: normal; color: var(--ink-4); }
   .bb-tip .bbt-title + .bbt-meta + .bbt-title { margin-top: 7px; }
+  /* 大热门区：文字各自带黑底色块，悬停时底色转红（提示可以看这一簇的词条） */
+  #bubble-svg rect[data-gr] { transition: fill 0.12s ease; }
+  #bubble-svg rect[data-gr].on { fill: var(--hot-red); }
+  #bubble-svg text[data-g] { transition: fill 0.12s ease; }
+  #bubble-svg text[data-g].on { fill: #ffffff; }
   .bb-legend {
     display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px;
     font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.06em;
@@ -897,6 +909,7 @@
         rule: cssVar('--rule'), rule2: cssVar('--rule-2'),
         gold: cssVar('--gold'), goldSoft: cssVar('--gold-soft'),
         hotRed: cssVar('--hot-red') || '#c0392b', hotRedSoft: cssVar('--hot-red-soft') || '#cd8078',
+        plate: cssVar('--hot-plate') || '#121110', plateInk: cssVar('--hot-plate-ink') || '#f3f1ec',
       };
       const pool = (DATA.items || []).filter(it => Number(it['热度']) > 0);
       if (!pool.length) {
@@ -1001,24 +1014,27 @@
       const Y = v => H - MB - (Math.max(0, Math.min(v, yMax) - yMin) / (yMax - yMin)) * ph;
       const P = [];
 
-      // 右上角「大热门事件」提示区：总数 + 逐簇列出实体词（悬停看簇内词条名）
+      // 右上角「大热门事件」区：红色虚线框住，框内每行文字各自配黑底色（黑底白字）
       const bx = ML + pw * 0.6, bw = pw * 0.4, bh = ph * 0.4;
-      P.push('<rect x="' + bx.toFixed(1) + '" y="' + MT + '" width="' + bw.toFixed(1)
-        + '" height="' + bh.toFixed(1) + '" fill="' + C.hotRed + '" fill-opacity="0.05" stroke="' + C.hotRedSoft + '"'
+      const padL = 12, padT = 15;
+      P.push('<rect id="grand-frame" x="' + bx.toFixed(1) + '" y="' + MT + '" width="' + bw.toFixed(1)
+        + '" height="' + bh.toFixed(1) + '" fill="' + C.hotRed + '" fill-opacity="0.04" stroke="' + C.hotRed + '"'
         + ' stroke-width="1" stroke-dasharray="4 3"/>');
-      P.push('<text x="' + (W - MR - 10) + '" y="' + (MT + 16) + '" text-anchor="end" font-size="11"'
-        + ' fill="' + C.hotRed + '">大热门事件 ×' + grandCount + ' 组</text>');
       const rowMax = 6;
-      // 逐簇文字最后再画（压住气泡，避免被盖住 / 抢不到悬停）
+      // 文字最后再画（压住气泡，避免被盖住 / 抢不到悬停）；底色块在写入 DOM 后按文字实宽贴合
       const grandP = [];
+      grandP.push('<rect data-gm="1" x="' + (bx + padL).toFixed(1) + '" y="' + (MT + padT - 6)
+        + '" width="4" height="4" fill="' + C.hotRed + '"/>');
+      grandP.push('<text id="grand-title" x="' + (bx + padL + 10).toFixed(1) + '" y="' + (MT + padT)
+        + '" font-size="11" fill="' + C.plateInk + '" letter-spacing="0.08em">大热门事件 ×' + grandCount + ' 组</text>');
       grandRows.slice(0, rowMax).forEach((g, gi) => {
-        grandP.push('<text x="' + (bx + 10).toFixed(1) + '" y="' + (MT + 33 + gi * 15) + '" font-size="11"'
-          + ' fill="' + C.hotRed + '" data-g="' + gi + '" style="cursor:help">'
+        grandP.push('<text x="' + (bx + padL).toFixed(1) + '" y="' + (MT + padT + 17 + gi * 15) + '" font-size="11"'
+          + ' fill="' + C.plateInk + '" data-g="' + gi + '" style="cursor:help">'
           + escapeHtml(g.label) + ' ×' + g.size + '</text>');
       });
       if (grandRows.length > rowMax) {
-        grandP.push('<text x="' + (bx + 10).toFixed(1) + '" y="' + (MT + 33 + rowMax * 15) + '" font-size="11"'
-          + ' fill="' + C.hotRed + '" data-g="-1" style="cursor:help">…另有 '
+        grandP.push('<text x="' + (bx + padL).toFixed(1) + '" y="' + (MT + padT + 17 + rowMax * 15)
+          + '" font-size="11" fill="' + C.plateInk + '" data-g="-1" style="cursor:help">…另有 '
           + (grandRows.length - rowMax) + ' 簇</text>');
       }
       // 横向网格 + 纵轴刻度（按动态区间等分 4 段）
@@ -1068,6 +1084,36 @@
 
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
       svg.innerHTML = P.join('') + grandP.join('');
+      // 黑底白字：量出每行文字的真实宽度，贴合地垫一块黑底色（矩形垫在文字下方）
+      const NS = 'http://www.w3.org/2000/svg';
+      const chipOf = (el, fromX, pdX, pdY) => {
+        const b = el.getBBox();
+        const x0 = fromX === null ? b.x - pdX : fromX;
+        const r = document.createElementNS(NS, 'rect');
+        r.setAttribute('x', x0.toFixed(1));
+        r.setAttribute('y', (b.y - pdY).toFixed(1));
+        r.setAttribute('width', ((b.x + b.width) - x0 + pdX).toFixed(1));
+        r.setAttribute('height', (b.height + pdY * 2).toFixed(1));
+        r.setAttribute('fill', C.plate);
+        r.setAttribute('pointer-events', 'none');
+        el.parentNode.insertBefore(r, el);
+        return r;
+      };
+      const titleEl = svg.querySelector('#grand-title');
+      if (titleEl) {
+        const tr = chipOf(titleEl, bx + padL - 2, 7, 2.5);
+        tr.setAttribute('data-gt', '1');
+      }
+      svg.querySelectorAll('text[data-g]').forEach(t => {
+        const r = chipOf(t, null, 7, 2.5);
+        r.setAttribute('data-gr', t.dataset.g);
+      });
+      // 红框固定为绘图区右上 40%×40%，整块锚定右上角；框内文字各自配黑底
+      const frameEl = svg.querySelector('#grand-frame');
+      if (frameEl) {
+        // 超过 rowMax 行会出现「…另有 N 簇」溢出行，框高放宽一档
+        frameEl.setAttribute('height', (grandRows.length > rowMax ? bh + 18 : bh).toFixed(1));
+      }
       bubbleGrand = grandRows;
 
       // 图例按领域汇总（与气泡颜色同源）
@@ -1113,6 +1159,10 @@
         const gt = hitGrand(e);
         if (gt) {
           const gi = +gt.dataset.g;
+          // 底色块跟着一起点亮
+          gt.classList.add('on');
+          const chip = svg.querySelector('rect[data-gr="' + gi + '"]');
+          if (chip) chip.classList.add('on');
           const rows = gi >= 0 ? [bubbleGrand[gi]] : bubbleGrand.slice(bubbleRowMax);
           const ok = rows.filter(Boolean);
           if (ok.length) {
@@ -1141,7 +1191,10 @@
         tip.style.opacity = '1';
         place(e);
       });
-      svg.addEventListener('mouseout', e => { if (hit(e) || hitGrand(e)) tip.style.opacity = '0'; });
+      svg.addEventListener('mouseout', e => {
+        if (hitGrand(e)) svg.querySelectorAll('.on').forEach(n => n.classList.remove('on'));
+        if (hit(e) || hitGrand(e)) tip.style.opacity = '0';
+      });
     }
 
     function renderList(filter) {
