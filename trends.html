@@ -555,8 +555,9 @@
 
   /* ========== 响应式 ========== */
   @media (max-width: 1060px) {
-    .page-header { grid-template-columns: 1fr; gap: 38px; padding-top: 58px; }
-    .page-tools { max-width: 420px; }
+    /* 保持两列：搜索框固定右上（与下方侧栏/气泡图右缘对齐），缩放画面时不跳位 */
+    .page-header { grid-template-columns: 1fr 250px; gap: 30px; padding-top: 58px; }
+    .page-tools { max-width: none; }
     .main { grid-template-columns: 1fr; gap: 56px; }
     /* 单列时改由 DOM 顺序决定上下：把「实时洞察」提到「实时榜单」之前优先展示
        （display:contents 让侧栏子项直接参与 .main 的网格排序） */
@@ -569,7 +570,9 @@
     .bulletin-inner { font-size: 10.5px; letter-spacing: 0.14em; white-space: nowrap; }
     .bulletin-inner span:last-child { display: none; }
     .brand .tag { display: none; }
-    .page-header { padding: 44px var(--gut) 32px; }
+    /* 手机上才恢复单列堆叠（搜索框回落到标题下方） */
+    .page-header { grid-template-columns: 1fr; gap: 38px; padding: 44px var(--gut) 32px; }
+    .page-tools { max-width: 420px; }
     .main { padding: 36px var(--gut) 64px; }
     .list-head { flex-direction: column; align-items: flex-start; gap: 8px; }
     .trend-card { grid-template-columns: 38px 1fr; gap: 14px; padding: 20px 2px; }
