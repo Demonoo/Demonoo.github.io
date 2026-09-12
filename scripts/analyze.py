@@ -34,11 +34,15 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone, timedelta
 
 # key 优先级：显式 LLM_API_KEY > Agnes（当前方案）> Ollama / GLM（历史遗留，仅兼容）
-API_KEY = (os.environ.get("LLM_API_KEY")
-           or os.environ.get("AGNES_API_KEY")
-           or os.environ.get("OLLAMA_API_KEY")
-           or os.environ.get("GLM_API_KEY")
-           or "")
+# 记录命中的变量名：secret 没配时（CI 里 ${{ secrets.X }} 会展开成空串）
+# 必须能一眼看出「key 从哪来 / 根本没来」，否则会静默落到回退模型
+_KEY_ORDER = ("LLM_API_KEY", "AGNES_API_KEY", "OLLAMA_API_KEY", "GLM_API_KEY")
+API_KEY = ""
+API_KEY_SRC = ""
+for _n in _KEY_ORDER:
+    if os.environ.get(_n):
+        API_KEY, API_KEY_SRC = os.environ[_n], _n
+        break
 # 默认走 Agnes 2.5 Flash（OpenAI 兼容、免费）；CI 由 workflow 显式注入同名环境变量
 API_URL = os.environ.get("LLM_API_URL", "https://apihub.agnes-ai.com/v1/chat/completions")
 MODEL = os.environ.get("LLM_MODEL", "agnes-2.5-flash")
@@ -785,6 +789,15 @@ def main():
     # 话题页正文词库（上一轮 authors.py 产物）：按标题并入实体集，供区间保护使用
     topic_lex = load_topic_lexicon()
     print(f"共 {len(items_raw)} 条热榜；全量实时分析（不沿用旧结果）；主模型 {MODEL}")
+    print(f"  端点 {API_URL}")
+    if API_KEY:
+        print(f"  鉴权 key 来源：{API_KEY_SRC}（{API_KEY[:4]}…{API_KEY[-4:]}）")
+    else:
+        # CI 里 ${{ secrets.X }} 若不存在会展开成空串 → 这里必须吼一声，
+        # 否则整轮会静默落到回退模型（表现为「跑成功了但模型不对」）
+        print("  ⚠️ 未取到任何 API key（LLM_API_KEY / AGNES_API_KEY / "
+              "OLLAMA_API_KEY / GLM_API_KEY 全为空）→ 主模型调用会 401，"
+              "本轮将由回退模型接管")
     if FALLBACK_ON:
         print(f"回退模型已启用：{FALLBACK_MODEL} @ {FALLBACK_API_URL}"
               f"（主模型连续失败 {PRIMARY_GIVE_UP_AFTER} 次后接管，"
