@@ -11,7 +11,7 @@
 <meta property="og:type" content="website" data-page-node-id="zovlUT5hLWR4u4oae01ON8" />
 <meta property="og:image" content="assets/图标.png" data-page-node-id="Ug4J5cIybKVy0wIpjeQawI" />
 
-<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}();</script>
+<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t="dark"}document.documentElement.setAttribute("data-theme",t)}();</script>
 
 <link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin data-page-node-id="zPAaOYw1HfgiNy1sIY7K5q" />
 <link rel="preload" as="font" type="font/otf" href="fonts/Quattrocento-Regular.otf" crossorigin data-page-node-id="Rg8yng3huPa4tizztt4IXW" />
@@ -49,7 +49,7 @@
     --line: #242424;
 
     --font-display: 'Marcellus', 'Songti SC', Georgia, serif;
-    --font: 'Quattrocento', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
+    --font: Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
     --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
 
     --reading-w: 720px;
@@ -246,7 +246,9 @@
     object-fit: contain;
     object-position: center bottom;
     z-index: -2;
+    opacity: 0.6;
   }
+  [data-theme="light"] .hero-video { opacity: 0.6; }
   .hero-overlay {
     position: absolute;
     inset: 0;
@@ -276,6 +278,24 @@
     vertical-align: middle;
     box-shadow: 0 0 6px rgba(0,0,0,0.25);
   }
+  /* 参考 trends 的「kicker + 大标题 + 分隔线 + 副文」编辑式版面：
+     上小标 + 细分隔线，把"广告味"换成"编辑部味"，文字统一白色 */
+  .hero-kicker {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 22px;
+    text-shadow: 0 1px 8px rgba(0,0,0,0.35);
+  }
+  .hero-rule {
+    width: 64px;
+    height: 1px;
+    background: #fff;
+    margin: 26px auto 20px;
+  }
 
   .intro {
     font-family: var(--font);
@@ -295,11 +315,15 @@
     font-weight: 600;
   }
   .hero-cta {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
     margin-top: 32px;
   }
   .hero-cta a {
-    display: inline-block;
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 260px;
     font-family: var(--font-mono);
     font-size: 12px;
     letter-spacing: 0.14em;
@@ -310,7 +334,6 @@
     transition: background 0.3s, color 0.3s;
   }
   .hero-cta a:hover { background: #fff; color: #000; }
-  .hero-cta a + a { margin-left: 12px; }
 
   /* —— 报告卡片（归属于 LLM SEARCH 板块） —— */
   .pillar-reports {
@@ -611,9 +634,11 @@
   <div class="hero-overlay" aria-hidden="true" data-page-node-id="OWXbsqNDh5H3Gw4PqyjqmR"></div>
   <div class="wrap hero-content" data-page-node-id="uPrqAog3PdFQF5fiBMRKk0">
 
+    <div class="hero-kicker reveal" data-page-node-id="Tu0q5JxP3iL6zN1r5bXW8m">Agent · Marketing Studio</div>
     <h1 class="hero-title reveal" data-page-node-id="ulakEOnbNrOL7ca21dUFS5">
       <span data-page-node-id="IYjVdW6YKg5xz67jIlwy7Y">AI</span><span class="t-dot" data-page-node-id="UdJdGA6hrTTlRCqdmjq0K8"></span><span data-page-node-id="UoK9pt4h11zT9J1YUkytuA">QUANT</span><span class="t-dot" data-page-node-id="l77wvy747uPIxHMYjQyFuJ"></span><span data-page-node-id="eMOXMxAtBRhZTTMQmfyZUR">SOCIAL</span><span class="t-dot" data-page-node-id="XdTLEQMEaX6fYdFJoq5nNx"></span><span data-page-node-id="LZ9wIx81WXEVFLxzFFe7XQ">MARKETING</span>
     </h1>
+    <div class="hero-rule reveal" aria-hidden="true"></div>
     <p class="intro reveal" data-page-node-id="2vzUMcdbZ4twIvnkpY65ZL">
       基于主流<span class="hl" data-page-node-id="CXIIhBpISfIfeuR2KoBaqz">AGENT 框架</span>，结合<span class="hl" data-page-node-id="9TX0NVvEoB1BAOk2phyWqc">浏览器自动化</span>、<span class="hl" data-page-node-id="GGHIZjErdNMX9J0IU4FQqz">大语言模型</span>、<span class="hl" data-page-node-id="civiUlFmhEBLi1GBpSETtW">机器学习</span>等技术，<br  data-page-node-id="u4OjdfpdvwrCGwiuGk7btj"/>
       为品牌和创作者提供<span class="hl" data-page-node-id="ah8O8yZaG8F1h6QHztwL48">社交媒体情绪洞察</span>、<span class="hl" data-page-node-id="Fy7M4Z1rOGxfpS8F6hhWZP">趋势预测</span>、<span class="hl" data-page-node-id="yUnSCTIEby0a7MGyuAmWHR">营销归因</span>与<span class="hl" data-page-node-id="MArljmwAigi1z82rENvFwB">内容策略</span>服务。

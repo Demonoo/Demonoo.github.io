@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="IP6AGqQly97eFLN6cPgo1D" />
 <title>社交媒体趋势 · DMEDIA</title>
 <meta name="description" content="DMEDIA 社交媒体趋势 —— 微博热榜 AI 量化分析：情感倾向 · 创作领域 · 内容形态 · 生命周期，并可展开查看每条话题的热门参与作者。" data-page-node-id="BijjoGKhKwNCClluKQ3ahr" />
-<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}();</script>
+<script>!function(){var t=null;try{t=localStorage.getItem('dmedia-theme')}catch(e){}if(t!=="light"&&t!=="dark"){t="dark"}document.documentElement.setAttribute("data-theme",t)}();</script>
 <link rel="icon" href="assets/图标.png" type="image/png" data-page-node-id="Lyc2HJkwvAp5T7V9xUwSK1" />
 <link rel="preload" as="font" type="font/ttf" href="fonts/Marcellus-Regular.ttf" crossorigin data-page-node-id="92td0k35l2hBRUahnTyTU3" />
 <style>
@@ -165,15 +165,35 @@
   .page-header {
     max-width: 1280px; margin: 0 auto;
     padding: 76px var(--gut) 42px;
-    display: grid; grid-template-columns: 1fr; gap: 38px;
+    position: relative; overflow: hidden;
     border-bottom: 1px solid var(--rule);
+  }
+  /* 文字块浮在背景视频之上（同 index/about 的 hero 视频套路） */
+  .page-header > div:first-child, .page-tools { position: relative; z-index: 1; }
+  /* header 品牌视频：铺满整块做背景（cover + 顶部渐隐遮罩避开标题），
+     与首页/创始人页 hero 视频效果一致 */
+  .header-video {
+    position: absolute; inset: 0;
+    z-index: 0;
+    width: 100%; height: 100%;
+    border: none; pointer-events: none;
+    opacity: 0.15;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 45%);
+    mask-image: linear-gradient(to bottom, transparent 0, #000 45%);
+  }
+  [data-theme="light"] .header-video { opacity: 0.3; }
+  .header-video video {
+    display: block; width: 100%; height: 100%;
+    object-fit: cover; object-position: center bottom;
   }
   .kicker {
     font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.36em;
     text-transform: uppercase; color: var(--gold); margin-bottom: 24px;
   }
   .page-title {
-    font-family: var(--font-display);
+    /* 中文标题走 Arial 字体链；'Songti SC' 在 var(--font-display) 链路里
+       是衬线中文，会让"社交媒体趋势"回退成宋体，故这里不沿用 display 字体 */
+    font-family: var(--font);
     font-weight: 400; font-size: clamp(38px, 5.6vw, 68px);
     line-height: 1.02; letter-spacing: -0.015em; color: var(--ink);
     display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap;
@@ -187,7 +207,7 @@
   .title-rule { width: 64px; height: 1px; background: var(--gold); margin: 28px 0 22px; }
   .page-subtitle { font-size: 15px; color: var(--ink-3); max-width: 56ch; line-height: 1.85; }
 
-  .page-tools { display: flex; flex-direction: column; gap: 20px; max-width: 420px; }
+  .page-tools { display: flex; flex-direction: column; gap: 20px; max-width: 420px; margin-top: 32px; }
   .search-wrap { position: relative; }
   .search-wrap svg {
     position: absolute; left: 0; top: 50%; transform: translateY(-50%);
@@ -555,8 +575,12 @@
 
   /* ========== 响应式 ========== */
   @media (max-width: 1060px) {
-    /* 搜索框位置全宽度统一：header 恒为单列（搜索框在副标题下方左侧），缩放/全屏不跳位 */
+    /* 主区单列 */
     .main { grid-template-columns: 1fr; gap: 56px; }
+    /* 缩放档背景视频更淡（9%），纯背景用途，不随主题变化（全屏档是 15%/30%） */
+    .header-video,
+    [data-theme="light"] .header-video,
+    [data-theme="dark"] .header-video { opacity: 0.09; }
     /* 单列时改由 DOM 顺序决定上下：把「实时洞察」提到「实时榜单」之前优先展示
        （display:contents 让侧栏子项直接参与 .main 的网格排序） */
     .sidebar { display: contents; }
@@ -568,7 +592,7 @@
     .bulletin-inner { font-size: 10.5px; letter-spacing: 0.14em; white-space: nowrap; }
     .bulletin-inner span:last-child { display: none; }
     .brand .tag { display: none; }
-    /* 手机档只收紧留白，搜索框位置与桌面一致 */
+    /* 手机档只收紧留白，搜索框位置与桌面一致；视频已由 1060 档转为 header 背景 */
     .page-header { padding: 44px var(--gut) 32px; }
     .main { padding: 36px var(--gut) 64px; }
     .list-head { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -632,6 +656,9 @@
       <span class="dot" data-page-node-id="iUJYg9nGfhWUHxWTvDZKWX"></span>
       <span id="update-text" data-page-node-id="Pb0hROGmDAx6T4vuBJ8NN7">每小时自动更新</span>
     </div>
+  </div>
+  <div class="header-video" data-page-node-id="newHWVideo01">
+    <video src="assets/HW.mp4" autoplay muted loop playsinline aria-label="品牌视频"></video>
   </div>
 </header>
 
