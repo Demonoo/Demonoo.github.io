@@ -64,6 +64,8 @@
     --rule-2: #3c3b36;
     --gold: #c9b48a;
     --gold-soft: #a1834f;
+    --hot-red: #e0705e;
+    --hot-red-soft: #a85348;
     --pos: #6f9a66;
     --neu: #9b9992;
     --neg: #c9705e;
@@ -894,6 +896,7 @@
         ink3: cssVar('--ink-3'), ink4: cssVar('--ink-4'),
         rule: cssVar('--rule'), rule2: cssVar('--rule-2'),
         gold: cssVar('--gold'), goldSoft: cssVar('--gold-soft'),
+        hotRed: cssVar('--hot-red') || '#c0392b', hotRedSoft: cssVar('--hot-red-soft') || '#cd8078',
       };
       const pool = (DATA.items || []).filter(it => Number(it['热度']) > 0);
       if (!pool.length) {
@@ -919,9 +922,18 @@
         const t = String(s).trim().replace(/#/g, '').replace(/\s+/g, '');
         return isAscii(t) ? t.toLowerCase() : t;
       };
+      // 通用词停用表：这些是「角色名 / 平台名 / 连接词」，不是事件实体。
+      // 它们会在多条互不相关的标题里同时出现，把「火锅店赔光 + 猥亵锦鲤 + 编造催资助」
+      // 这类完全无关的事件并成一组假大热门（回放 32 轮实测的主要误报来源）。
+      const STOP_KW = new Set([
+        '男子', '女子', '女孩', '男孩', '女生', '男生', '老人', '官方', '通报', '回应', '声明',
+        '网友', '专家', '媒体', '后续', '进展', '曝光', '视频', '直播', '热搜', '评论区',
+        '抖音', '微博', '快手', 'b站', '小红书', '阿里', '一个', '什么', '为什么', '怎么',
+        '这些', '那些', '现场', '首次', '最新', 'vs', 'pk',
+      ]);
       // 实体词至少 2 字（队伍缩写 AL / iG / T1、两字队名 狼队 也算实体）；
       // 更短的单字不入池，避免「决赛/状态」这类通用词把不相关词条并到一起
-      const keepKw = k => !!k && k.length >= 2;
+      const keepKw = k => !!k && k.length >= 2 && !STOP_KW.has(k);
       const entMap = new Map();              // 实体词（归一化）→ 词条下标（pool 序）
       const entRaw = new Map();              // 实体词（归一化）→ 首次出现的原始写法，用于展示
       pool.forEach((it, i) => (it['核心话题词'] || []).forEach(raw => {
@@ -992,21 +1004,21 @@
       // 右上角「大热门事件」提示区：总数 + 逐簇列出实体词（悬停看簇内词条名）
       const bx = ML + pw * 0.6, bw = pw * 0.4, bh = ph * 0.4;
       P.push('<rect x="' + bx.toFixed(1) + '" y="' + MT + '" width="' + bw.toFixed(1)
-        + '" height="' + bh.toFixed(1) + '" fill="' + C.gold + '" fill-opacity="0.05" stroke="' + C.goldSoft + '"'
-        + ' stroke-width="0.5" stroke-dasharray="4 3"/>');
+        + '" height="' + bh.toFixed(1) + '" fill="' + C.hotRed + '" fill-opacity="0.05" stroke="' + C.hotRedSoft + '"'
+        + ' stroke-width="1" stroke-dasharray="4 3"/>');
       P.push('<text x="' + (W - MR - 10) + '" y="' + (MT + 16) + '" text-anchor="end" font-size="11"'
-        + ' fill="' + C.gold + '">大热门事件 ×' + grandCount + ' 组</text>');
+        + ' fill="' + C.hotRed + '">大热门事件 ×' + grandCount + ' 组</text>');
       const rowMax = 6;
       // 逐簇文字最后再画（压住气泡，避免被盖住 / 抢不到悬停）
       const grandP = [];
       grandRows.slice(0, rowMax).forEach((g, gi) => {
         grandP.push('<text x="' + (bx + 10).toFixed(1) + '" y="' + (MT + 33 + gi * 15) + '" font-size="11"'
-          + ' fill="' + C.gold + '" data-g="' + gi + '" style="cursor:help">'
+          + ' fill="' + C.hotRed + '" data-g="' + gi + '" style="cursor:help">'
           + escapeHtml(g.label) + ' ×' + g.size + '</text>');
       });
       if (grandRows.length > rowMax) {
         grandP.push('<text x="' + (bx + 10).toFixed(1) + '" y="' + (MT + 33 + rowMax * 15) + '" font-size="11"'
-          + ' fill="' + C.gold + '" data-g="-1" style="cursor:help">…另有 '
+          + ' fill="' + C.hotRed + '" data-g="-1" style="cursor:help">…另有 '
           + (grandRows.length - rowMax) + ' 簇</text>');
       }
       // 横向网格 + 纵轴刻度（按动态区间等分 4 段）
