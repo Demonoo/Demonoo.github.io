@@ -269,6 +269,8 @@
     font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.06em;
     color: var(--ink-3);
   }
+  .bb-tip .bbt-meta i { font-style: normal; color: var(--ink-4); }
+  .bb-tip .bbt-title + .bbt-meta + .bbt-title { margin-top: 7px; }
   .bb-legend {
     display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px;
     font-family: var(--font-micro); font-size: 11.5px; letter-spacing: 0.06em;
@@ -906,30 +908,77 @@
       const hots = pool.map(p => Number(p['热度']) || 0);
       const yMin = Math.min(...hots);
       const yMax = Math.max(...hots) * 1.05;
-      // —— 大热门判定：连续在榜 >24h 或 共享实体的衍生词条 ≥3 条 ——
-      // 用「核心话题词」（LLM 已整块保留实体名）聚合：同一实体被拆成多条（早春晴朗/早春晴朗云合/…）
-      // 说明它是跨词条反复出现的长期大热事件，即使单条在榜时间不长也按大热门处理
-      const BRO_HOT = 3, HOUR_HOT = 24;
-      const entitySets = new Map();          // 实体词 → 词条集合
-      pool.forEach(it => (it['核心话题词'] || []).forEach(k => {
-        const kw = String(k).trim();
-        if (kw.length < 3) return;           // 太短的常用词不参与实体聚合，避免误并
-        if (!entitySets.has(kw)) entitySets.set(kw, new Set());
-        entitySets.get(kw).add(it);
+      // —— 大热门判定 ——
+      // ① 成簇：共享同一「核心话题词」实体的词条连成一簇（兰香如故 / IG·AL / 演唱会…）
+      //    同一事件被榜单拆成多条 → 跨词条反复出现 → 按大热门处理，即使单条在榜时间不长
+      // ② 长在榜：单条连续在榜 >24h 也算
+      const GROUP_MIN = 4, HOUR_HOT = 24;
+      const isAscii = s => /^[\x00-\x7F]+$/.test(s);
+      // 去 # 去空白；纯字母数字统一小写（AL / iG / IG 视为同一实体）
+      const normKw = s => {
+        const t = String(s).trim().replace(/#/g, '').replace(/\s+/g, '');
+        return isAscii(t) ? t.toLowerCase() : t;
+      };
+      // 中文实体至少 3 字（挡掉「决赛」这类通用词），纯字母数字实体至少 2 字（战队缩写 AL / iG / T1）
+      const keepKw = k => !!k && (isAscii(k) ? k.length >= 2 : k.length >= 3);
+      const entMap = new Map();              // 实体词（归一化）→ 词条下标（pool 序）
+      const entRaw = new Map();              // 实体词（归一化）→ 首次出现的原始写法，用于展示
+      pool.forEach((it, i) => (it['核心话题词'] || []).forEach(raw => {
+        const k = normKw(raw);
+        if (!keepKw(k)) return;
+        if (!entMap.has(k)) { entMap.set(k, []); entRaw.set(k, String(raw).trim().replace(/#/g, '')); }
+        entMap.get(k).push(i);
       }));
-      const brotherCount = new Map();        // 词条 → 衍生兄弟数（共享任一实体的其他词条，按标题去重）
-      entitySets.forEach(its => {
-        if (its.size < 2) return;
-        const titles = new Set([...its].map(x => x.title));
-        its.forEach(it => {
-          if (!brotherCount.has(it)) brotherCount.set(it, new Set());
-          titles.forEach(t => { if (t !== it.title) brotherCount.get(it).add(t); });
+      // 并查集：实体把词条连成簇（AL 连 2 条、IG 连 3 条 → 整个 LOL 赛事簇）
+      const par = pool.map((_, i) => i);
+      const find = x => { while (par[x] !== x) { par[x] = par[par[x]]; x = par[x]; } return x; };
+      entMap.forEach(ids => {
+        if (ids.length < 2) return;
+        ids.slice(1).forEach(n => {
+          const a = find(ids[0]), b = find(n);
+          if (a !== b) par[b] = a;
         });
       });
-      const isGrand = it =>
-        (Number(it['在榜小时']) || 0) > HOUR_HOT ||
-        (brotherCount.get(it) ? brotherCount.get(it).size : 0) >= BRO_HOT;
-      const grandCount = pool.filter(isGrand).length;
+      const comp = new Map();                // 簇根 → 词条下标
+      pool.forEach((_, i) => {
+        const r = find(i);
+        if (!comp.has(r)) comp.set(r, []);
+        comp.get(r).push(i);
+      });
+      // 簇的展示名 = 簇内命中词条数最多的实体词（最多 3 个，如「IG · AL」）
+      // 命中的词条被另一实体完全覆盖的，视为切词碎片而丢弃（如「州演唱会」⊂「演唱会」）
+      const groupLabel = ids => {
+        const set = new Set(ids);
+        const hitOf = k => new Set(entMap.get(k).filter(i => set.has(i)));
+        const cand = [...entMap.entries()]
+          .map(e => [e[0], hitOf(e[0]).size])
+          .filter(e => e[1] >= 2)
+          .sort((a, b) => b[1] - a[1]);
+        const picked = [];
+        cand.forEach(e => {
+          const se = hitOf(e[0]);
+          if (picked.some(p => [...se].every(i => hitOf(p[0]).has(i)))) return;
+          picked.push(e);
+        });
+        return picked.slice(0, 3).map(e => entRaw.get(e[0]) || e[0]);
+      };
+      const grandFlag = new Map();           // 词条 → 'group' / 'hour'
+      const grandRows = [];                  // 右上角方框里逐行展示
+      comp.forEach(ids => {
+        if (ids.length < GROUP_MIN) return;
+        ids.forEach(i => grandFlag.set(pool[i], 'group'));
+        grandRows.push({
+          label: groupLabel(ids).join(' · '), size: ids.length,
+          items: ids.slice().sort((a, b) =>
+            (Number(pool[a]['榜位']) || 99) - (Number(pool[b]['榜位']) || 99)).map(i => pool[i]),
+        });
+      });
+      grandRows.sort((a, b) => b.size - a.size);
+      const hourOnly = pool.filter(it => !grandFlag.has(it) && (Number(it['在榜小时']) || 0) > HOUR_HOT);
+      hourOnly.forEach(it => grandFlag.set(it, 'hour'));
+      if (hourOnly.length) grandRows.push({ label: '长在榜 ＞24h', size: hourOnly.length, items: hourOnly });
+      const isGrand = it => grandFlag.has(it);
+      const grandCount = grandFlag.size;
       const W = 760, H = 400, ML = 62, MR = 22, MT = 30, MB = 46;
       const pw = W - ML - MR, ph = H - MT - MB;
       // 横轴按全量数据自适应（避免低时长段被挤掉）
@@ -938,12 +987,26 @@
       const Y = v => H - MB - (Math.max(0, Math.min(v, yMax) - yMin) / (yMax - yMin)) * ph;
       const P = [];
 
-      // 右上角「大热门事件」提示区：判定 = 连续在榜 >24h 或 共享实体衍生词条 ≥3 条
-      P.push('<rect x="' + (ML + pw * 0.6).toFixed(1) + '" y="' + MT + '" width="' + (pw * 0.4).toFixed(1)
-        + '" height="' + (ph * 0.4).toFixed(1) + '" fill="' + C.gold + '" fill-opacity="0.05" stroke="' + C.goldSoft + '"'
+      // 右上角「大热门事件」提示区：总数 + 逐簇列出实体词（悬停看簇内词条名）
+      const bx = ML + pw * 0.6, bw = pw * 0.4, bh = ph * 0.4;
+      P.push('<rect x="' + bx.toFixed(1) + '" y="' + MT + '" width="' + bw.toFixed(1)
+        + '" height="' + bh.toFixed(1) + '" fill="' + C.gold + '" fill-opacity="0.05" stroke="' + C.goldSoft + '"'
         + ' stroke-width="0.5" stroke-dasharray="4 3"/>');
-      P.push('<text x="' + (W - MR - 6) + '" y="' + (MT + 15) + '" text-anchor="end" font-size="11"'
+      P.push('<text x="' + (W - MR - 10) + '" y="' + (MT + 16) + '" text-anchor="end" font-size="11"'
         + ' fill="' + C.gold + '">大热门事件 ×' + grandCount + '</text>');
+      const rowMax = 6;
+      // 逐簇文字最后再画（压住气泡，避免被盖住 / 抢不到悬停）
+      const grandP = [];
+      grandRows.slice(0, rowMax).forEach((g, gi) => {
+        grandP.push('<text x="' + (bx + 10).toFixed(1) + '" y="' + (MT + 33 + gi * 15) + '" font-size="11"'
+          + ' fill="' + C.gold + '" data-g="' + gi + '" style="cursor:help">'
+          + escapeHtml(g.label) + ' ×' + g.size + '</text>');
+      });
+      if (grandRows.length > rowMax) {
+        grandP.push('<text x="' + (bx + 10).toFixed(1) + '" y="' + (MT + 33 + rowMax * 15) + '" font-size="11"'
+          + ' fill="' + C.gold + '" data-g="-1" style="cursor:help">…另有 '
+          + (grandRows.length - rowMax) + ' 簇</text>');
+      }
       // 横向网格 + 纵轴刻度（按动态区间等分 4 段）
       for (let i = 0; i <= 4; i++) {
         const y = MT + ph * (i / 4);
@@ -990,7 +1053,8 @@
       });
 
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
-      svg.innerHTML = P.join('');
+      svg.innerHTML = P.join('') + grandP.join('');
+      bubbleGrand = grandRows;
 
       // 图例按领域汇总（与气泡颜色同源）
       const byDom = new Map();
@@ -1005,13 +1069,15 @@
             + escapeHtml(e[0]) + ' ' + e[1].n + '</span>';
         }).join('')
           + '<span class="bb-dim">共 ' + pool.length + ' 条 · 纵轴区间 ' + fmtHot(yMin) + ' ~ ' + fmtHot(yMax)
-          + '（随本轮数据自动伸缩） · ★金边＝大热门（在榜&gt;24h 或衍生词条≥' + BRO_HOT + '条） · 气泡大小＝榜位 · 颜色＝创作领域</span>';
+          + '（随本轮数据自动伸缩） · ★金边＝大热门（同实体词条≥' + GROUP_MIN
+          + ' 条，或单条在榜＞' + HOUR_HOT + 'h；方框内为各簇实体词，悬停看词条名） · 气泡大小＝榜位 · 颜色＝创作领域</span>';
       }
       bindBubbleTip(svg);
     }
 
     // 悬停提示：显示词条标题与关键指标
     let bubbleItems = [];
+    let bubbleGrand = [], bubbleRowMax = 6;   // 大热门方框的分簇数据（悬停用，须在 renderBubbles 外的作用域）
     function bindBubbleTip(svg) {
       const tip = document.getElementById('bb-tip');
       const block = document.getElementById('bubble-block');
@@ -1025,9 +1091,27 @@
         tip.style.left = Math.max(4, x) + 'px';
         tip.style.top = Math.max(4, y) + 'px';
       };
-      const hit = e => (e.target && e.target.closest) ? e.target.closest('circle') : null;
+      const hit = e => (e.target && e.target.closest) ? e.target.closest('circle[data-i]') : null;
+      const hitGrand = e => (e.target && e.target.closest) ? e.target.closest('text[data-g]') : null;
       svg.addEventListener('mousemove', e => { if (tip.style.opacity === '1') place(e); });
       svg.addEventListener('mouseover', e => {
+        // 大热门方框里的实体词：列出该簇的全部词条名
+        const gt = hitGrand(e);
+        if (gt) {
+          const gi = +gt.dataset.g;
+          const rows = gi >= 0 ? [bubbleGrand[gi]] : bubbleGrand.slice(bubbleRowMax);
+          const ok = rows.filter(Boolean);
+          if (ok.length) {
+            tip.innerHTML = ok.map(g =>
+              '<div class="bbt-title">' + escapeHtml(g.label) + ' · 同实体 ' + g.size + ' 条</div>'
+              + '<div class="bbt-meta">' + g.items.map(x =>
+                  '#' + (Number(x['榜位']) || 0) + ' ' + escapeHtml(x.title)
+                  + ' <i>' + fmtHot(x['热度']) + '</i>').join('<br>') + '</div>').join('');
+            tip.style.opacity = '1';
+            place(e);
+          }
+          return;
+        }
         const c = hit(e);
         if (!c || c.dataset.i === undefined) return;
         const it = bubbleItems[+c.dataset.i];
@@ -1043,7 +1127,7 @@
         tip.style.opacity = '1';
         place(e);
       });
-      svg.addEventListener('mouseout', e => { if (hit(e)) tip.style.opacity = '0'; });
+      svg.addEventListener('mouseout', e => { if (hit(e) || hitGrand(e)) tip.style.opacity = '0'; });
     }
 
     function renderList(filter) {
