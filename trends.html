@@ -919,8 +919,9 @@
         const t = String(s).trim().replace(/#/g, '').replace(/\s+/g, '');
         return isAscii(t) ? t.toLowerCase() : t;
       };
-      // 中文实体至少 3 字（挡掉「决赛」这类通用词），纯字母数字实体至少 2 字（战队缩写 AL / iG / T1）
-      const keepKw = k => !!k && (isAscii(k) ? k.length >= 2 : k.length >= 3);
+      // 实体词至少 2 字（队伍缩写 AL / iG / T1、两字队名 狼队 也算实体）；
+      // 更短的单字不入池，避免「决赛/状态」这类通用词把不相关词条并到一起
+      const keepKw = k => !!k && k.length >= 2;
       const entMap = new Map();              // 实体词（归一化）→ 词条下标（pool 序）
       const entRaw = new Map();              // 实体词（归一化）→ 首次出现的原始写法，用于展示
       pool.forEach((it, i) => (it['核心话题词'] || []).forEach(raw => {
@@ -978,7 +979,8 @@
       hourOnly.forEach(it => grandFlag.set(it, 'hour'));
       if (hourOnly.length) grandRows.push({ label: '长在榜 ＞24h', size: hourOnly.length, items: hourOnly });
       const isGrand = it => grandFlag.has(it);
-      const grandCount = grandFlag.size;
+      // ×N 的口径是「组数」（同实体词条成组算 1 组），不是被标亮的词条总数
+      const grandCount = grandRows.length;
       const W = 760, H = 400, ML = 62, MR = 22, MT = 30, MB = 46;
       const pw = W - ML - MR, ph = H - MT - MB;
       // 横轴按全量数据自适应（避免低时长段被挤掉）
@@ -993,7 +995,7 @@
         + '" height="' + bh.toFixed(1) + '" fill="' + C.gold + '" fill-opacity="0.05" stroke="' + C.goldSoft + '"'
         + ' stroke-width="0.5" stroke-dasharray="4 3"/>');
       P.push('<text x="' + (W - MR - 10) + '" y="' + (MT + 16) + '" text-anchor="end" font-size="11"'
-        + ' fill="' + C.gold + '">大热门事件 ×' + grandCount + '</text>');
+        + ' fill="' + C.gold + '">大热门事件 ×' + grandCount + ' 组</text>');
       const rowMax = 6;
       // 逐簇文字最后再画（压住气泡，避免被盖住 / 抢不到悬停）
       const grandP = [];
