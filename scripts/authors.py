@@ -630,6 +630,12 @@ def main():
     ok_cnt = 0
     lex_cnt = 0
     t0 = time.time()
+    # 早退保护：连续 N 个话题一个作者都没渲染出来，且本轮至今 0 成功
+    # → 几乎必然是机房 IP 被风控 / 浏览器环境异常，而不是话题真的没有作者。
+    # 实测 GitHub Actions 上微博只成功前 3/50，剩下 47 个每个空等 PAGE_WAIT，
+    # 白烧 ~40 分钟（接近 90 分钟 job timeout）。此时直接早退并保留上一次结果。
+    early_abort_n = int(os.environ.get("AUTHORS_EARLY_ABORT", "10"))
+    streak_fail = 0
     try:
         for i, it in enumerate(items, 1):
             title = it["title"]
@@ -680,6 +686,7 @@ def main():
                                      "authors": authors, "lexicon": lex,
                                      "kw_freq": kw_freq_list}
                     ok_cnt += 1
+                    streak_fail = 0
                     if lex:
                         lex_cnt += 1
                     print(f"  [{i:>2}/{len(items)}] ✓ {title[:26]} 作者 {len(authors)} "
@@ -687,11 +694,22 @@ def main():
                 else:
                     topics[title] = {"stats": {}, "authors": [],
                                      "lexicon": prev_lex.get(title, [])}
+                    streak_fail += 1
                     print(f"  [{i:>2}/{len(items)}] ✗ {title[:26]} 未渲染出作者")
+                    if ok_cnt == 0 and streak_fail >= early_abort_n:
+                        print(f"[authors] 连续 {streak_fail} 个话题均未渲染出作者且 0 成功，"
+                              f"判定为风控/环境异常 → 提前终止，保留上一次结果",
+                              file=sys.stderr)
+                        break
             except Exception as e:
                 print(f"  [{i:>2}/{len(items)}] ! {title[:26]} {type(e).__name__}: {e}")
                 topics[title] = {"stats": {}, "authors": [],
                                  "lexicon": prev_lex.get(title, [])}
+                streak_fail += 1
+                if ok_cnt == 0 and streak_fail >= early_abort_n:
+                    print(f"[authors] 连续 {streak_fail} 个话题均异常且 0 成功 → 提前终止",
+                          file=sys.stderr)
+                    break
     finally:
         cdp.close()
         proc.terminate()
