@@ -1027,7 +1027,7 @@
       // 文字最后再画（压住气泡，避免被盖住 / 抢不到悬停）；底色块在写入 DOM 后按文字实宽贴合
       const grandP = [];
       grandP.push('<text id="grand-title" text-anchor="end" x="' + tx.toFixed(1) + '" y="' + (MT + padT)
-        + '" font-size="11" fill="' + C.plateInk + '" letter-spacing="0.08em">大热门事件 ×' + grandCount + ' 组</text>');
+        + '" font-size="11" fill="' + C.ink3 + '" letter-spacing="0.08em">大热门事件 ×' + grandCount + ' 组</text>');
       grandRows.slice(0, rowMax).forEach((g, gi) => {
         grandP.push('<text text-anchor="end" x="' + tx.toFixed(1) + '" y="' + (MT + padT + 17 + gi * 15)
           + '" font-size="11" fill="' + C.plateInk + '" data-g="' + gi + '" style="cursor:help">'
@@ -1102,9 +1102,7 @@
       };
       const titleEl = svg.querySelector('#grand-title');
       if (titleEl) {
-        const tr = chipOf(titleEl, null, 7, 2.5);
-        tr.setAttribute('data-gt', '1');
-        // 标题左侧的红点：贴着标题底色块，承担「热」的信号
+        // 标题不加底色（跟随气泡图主题色），只保留左侧红点承担「热」的信号
         const tb = titleEl.getBBox();
         const sq = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
         sq.setAttribute('x', (tb.x - 13).toFixed(1));
@@ -1122,7 +1120,7 @@
       const frameEl = svg.querySelector('#grand-frame');
       if (frameEl) {
         let maxB = MT + fh;
-        svg.querySelectorAll('rect[data-gr], rect[data-gt]').forEach(r => {
+        svg.querySelectorAll('rect[data-gr]').forEach(r => {
           maxB = Math.max(maxB, +r.getAttribute('y') + +r.getAttribute('height'));
         });
         frameEl.setAttribute('height', (maxB - MT + 12).toFixed(1));
