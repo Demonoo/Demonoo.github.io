@@ -57,15 +57,17 @@ def find_chrome():
     return None
 
 
-def launch_chrome(port, profile):
+def launch_chrome(port, profile, headless=True):
     exe = find_chrome()
     if not exe:
         raise RuntimeError("未找到 Chrome/Chromium，无法渲染话题页")
     args = [exe, f"--user-data-dir={profile}", f"--remote-debugging-port={port}",
-            "--headless=new", "--disable-gpu", "--no-sandbox", "--no-first-run",
+            "--disable-gpu", "--no-sandbox", "--no-first-run",
             "--disable-dev-shm-usage", "--disable-blink-features=AutomationControlled",
             "--no-proxy-server", "--proxy-bypass-list=*",
             "--window-size=430,900", "about:blank"]
+    if headless:
+        args.insert(4, "--headless=new")
     return subprocess.Popen(args, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
@@ -378,83 +380,73 @@ def enrich(a):
     return a2
 
 
-# ---------- 抖音搜索页采集（headless Chrome + 监听搜索 API） ----------
+# ---------- 抖音搜索聚合页作者采集（非 headless Chrome + DOM 提取昵称） ----------
 
-DOUYIN_SEARCH_API = "aweme/v1/web/search/item"
-# 抖音搜索页拿作者数据的现实（实测 2026-09）：
-# - www.douyin.com/search/<词> 未登录会 302 到 so.douyin.com/s?keyword=…
-#   （SEO/H5 版搜索页），该页不调用 aweme/v1/web/search/item API → 拦不到
-# - 桌面 UA 下 www.douyin.com/search 可能命中验证码/登录页
-# 结论：抖音作者大概率拿不到（属预期），前端有兜底文案。
-# 每条给短等待（8s）+ 检测到登录/验证码文案立即放弃，避免 50×20s 白等
-DOUYIN_WAIT = float(os.environ.get("DOUYIN_WAIT", "8"))
-LOGIN_HINTS = ["请先登录", "登录后", "验证码", "环境异常", "安全验证"]
+# 抖音无感风控（rmc-nocaptcha）会识别 headless 自动化指纹：headless 下搜索 API
+# 返回 verify_check 空数据，DOM 无作者；真实窗口（含 xvfb 虚拟显示）可通过验证。
+# 因此抖音作者采集必须用非 headless 模式（CI 上经 xvfb-run 提供显示）。
+# 聚合页必须带落地页点击词条时的完整参数（gid/hotlist_param/extra），
+# 裸 so.douyin.com/s?keyword=… 会被风控；实测昵称节点 class 含 nickName（2026-09-12）。
+DOUYIN_WAIT = float(os.environ.get("DOUYIN_WAIT", "15"))
+# 提取作者昵称：nickName 节点（authorInfoContainer 内昵称是独立文本节点）
+DOUYIN_NICK_JS = ("JSON.stringify(Array.from(document.querySelectorAll('[class*=\"nickName\"]'))"
+                  ".map(e => (e.innerText || '').trim()).filter(Boolean))")
 
 
-def collect_douyin(cdp, title, wait=DOUYIN_WAIT):
-    """打开抖音搜索页，监听 /aweme/v1/web/search/item/ 响应，取热门视频作者
+def build_douyin_topic_url(it):
+    """构造落地页点击词条后的完整聚合页 URL（参数结构与落地页跳转一致）"""
+    title = it.get("title", "")
+    gid = str(it.get("gid") or "")
+    try:
+        rank = int(it.get("position") or it.get("realpos") or 0)
+    except Exception:
+        rank = 0
+    try:
+        ts = int(it.get("event_time") or 0)
+    except Exception:
+        ts = 0
+    if not (gid and rank and ts):
+        return None
+    hp = {"board_type": 0, "rank": rank, "time": ts}
+    hp_s = json.dumps(hp, ensure_ascii=False, separators=(",", ":"))
+    extra = {"hotlist_param": hp_s, "previous_page": "trending_board_page",
+             "gid": gid, "enter_method": "hot_list_page"}
+    q = urllib.parse.urlencode({
+        "hideMiddlePage": "1", "needBack2Origin": "1", "from": "hot_list_page",
+        "enter_method": "hot_list_page", "previous_page": "trending_board_page",
+        "keyword": title, "gid": gid,
+        "hotlist_param": hp_s,
+        "extra": json.dumps(extra, ensure_ascii=False, separators=(",", ":")),
+    })
+    return "https://so.douyin.com/s?" + q
 
-    抖音热榜词条没有对等的「话题聚合页」，搜索页数据由 JS 调带签名的搜索 API
-    拿取（a_bogus 由页面生成，无法直连复刻），故用 CDP 的 Network 域拦响应体。
-    返回 {authors, stats}；未命中 API / 被验证码拦住时返回 None。
+
+def collect_douyin(cdp, it, wait=DOUYIN_WAIT):
+    """打开抖音搜索聚合页（完整参数），DOM 提取热门视频作者昵称
+
+    返回 {authors, stats}；缺 gid/未渲染出昵称时返回 None。
     """
-    url = "https://www.douyin.com/search/" + urllib.parse.quote(title) + "?type=general"
+    url = build_douyin_topic_url(it)
+    if not url:
+        return None
     cdp.cmd("Page.navigate", {"url": url})
     deadline = time.time() + wait
-    resp = None
+    names = []
     while time.time() < deadline:
-        time.sleep(0.5)
-        for ev in cdp.poll_events():
-            if ev.get("method") != "Network.responseReceived":
-                continue
-            p = ev.get("params") or {}
-            resp_url = (p.get("response") or {}).get("url", "")
-            if DOUYIN_SEARCH_API not in resp_url:
-                continue
-            rid = p.get("requestId")
-            if not rid:
-                continue
-            body = cdp.get_response_body(rid)
-            if body and "search/item" in body[:400]:
-                resp = body
-                break
-        if resp:
-            break
-        # 验证码/登录页出现（未命中 API 时页面 body 会含登录提示）→ 立即放弃，不白等
+        time.sleep(1.0)
         try:
-            raw = cdp.evaluate("(document.body && document.body.innerText || '').slice(0,200)")
-            if raw and any(h in raw for h in LOGIN_HINTS):
-                return None
+            raw = cdp.evaluate(DOUYIN_NICK_JS)
+            if raw:
+                arr = json.loads(raw)
+                names = list(dict.fromkeys(n for n in arr if n))
+                if names:
+                    break
         except Exception:
             pass
-    if not resp:
+    if not names:
         return None
-    try:
-        j = json.loads(resp)
-    except Exception:
-        return None
-    authors = []
-    seen = {}
-    for item in (j.get("data") or []):
-        info = item.get("aweme_info") or {}
-        author = info.get("author") or {}
-        name = (author.get("nickname") or "").strip()
-        if not name or seen.get(name):
-            continue
-        seen[name] = 1
-        stats = info.get("statistics") or {}
-        diggs = int(stats.get("digg_count") or 0)
-        authors.append({
-            "name": name[:24],
-            "identity": "抖音创作者",
-            "text": (info.get("desc") or "").strip().replace("\n", " ")[:60],
-            "likes": diggs,
-            "hot": diggs,
-        })
-        if len(authors) >= 20:
-            break
-    if not authors:
-        return None
+    authors = [{"name": n[:24], "identity": "抖音创作者", "text": "", "likes": 0, "hot": 0}
+               for n in names[:TOP_N]]
     return {"authors": authors, "stats": {}}
 
 
@@ -465,12 +457,16 @@ def main():
     is_douyin = args.platform == "douyin"
     if is_douyin:
         out_path = DOUYIN_OUT
-        src = DOUYIN_HOTSPOTS if os.path.exists(DOUYIN_HOTSPOTS) else DOUYIN_RAW
+        # 抖音作者采集需要 gid/position/event_time 拼聚合页 URL，只有 raw 有 → 优先 raw
+        src = DOUYIN_RAW if os.path.exists(DOUYIN_RAW) else DOUYIN_HOTSPOTS
         source = "抖音"
+        # 抖音无感风控识别 headless 指纹 → 非 headless（CI 上经 xvfb-run 提供显示）
+        headless = False
     else:
         out_path = OUT
         src = HOTSPOTS if os.path.exists(HOTSPOTS) else RAW
         source = "微博"
+        headless = True
 
     with open(src, encoding="utf-8") as f:
         d = json.load(f)
@@ -481,7 +477,7 @@ def main():
     print(f"[authors] 话题数 {len(items)}（源 {os.path.basename(src)}，{source}），每话题取前 {TOP_N} 位作者")
 
     profile = tempfile.mkdtemp(prefix="chrome-authors-")
-    proc = launch_chrome(PORT, profile)
+    proc = launch_chrome(PORT, profile, headless=headless)
     prev_lex = load_prev_lexicon(out_path)
 
     ts = None
@@ -512,7 +508,7 @@ def main():
             title = it["title"]
             try:
                 if is_douyin:
-                    got = collect_douyin(cdp, title)
+                    got = collect_douyin(cdp, it)
                 else:
                     url = norm_url(it)
                     cdp.cmd("Page.navigate", {"url": url})

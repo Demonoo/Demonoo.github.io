@@ -95,11 +95,14 @@ jobs:
           LLM_MODEL: gpt-oss:20b
         run: python scripts/analyze.py --platform douyin
 
-      # 抖音作者采集：搜索页未登录可能拿不到（预期），失败不影响主流程
-      - name: 采集抖音参与作者（headless Chrome + CDP）
+      # 抖音作者采集：抖音无感风控（rmc-nocaptcha）识别 headless 指纹 →
+      # 必须用非 headless Chrome（真实窗口），CI 上经 xvfb 虚拟显示运行；
+      # 聚合页需带 gid/hotlist_param 完整参数（fetch 已写入 raw），失败不影响主流程
+      - name: 采集抖音参与作者（非 headless Chrome + xvfb）
         continue-on-error: true
         run: |
-          python scripts/authors.py --platform douyin
+          which xvfb-run || sudo apt-get update && sudo apt-get install -y xvfb
+          xvfb-run -a -s "-screen 0 1280x800x24" python scripts/authors.py --platform douyin
 
       - name: 提交结果
         # 提交前逐个校验 JSON 可解析；损坏文件不 add，防止半截文件被推上线

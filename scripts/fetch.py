@@ -85,6 +85,11 @@ def fetch_douyin():
             "hot": int(it.get("hot_value") or 0),
             "realpos": int(it.get("position") or 0),
             "label": it.get("label", ""),
+            # 聚合页构造参数（authors.py 拼完整 URL 用）：
+            #   gid 话题分组 id、position 榜位、event_time 入榜时间戳
+            "gid": it.get("group_id", ""),
+            "position": it.get("position", ""),
+            "event_time": it.get("event_time", ""),
             # 词条点击 → 搜索聚合页（与落地页点击行为一致）；HOTLIST 仅作为榜单本身
             "url": DOUYIN_TOPIC + urllib.parse.quote(word),
         })
