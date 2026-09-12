@@ -334,6 +334,13 @@
     transition: background 0.3s, color 0.3s;
   }
   .hero-cta a:hover { background: #fff; color: #000; }
+  .hero-cta a + a { margin-left: 0; }
+  /* 移动端：两个按钮改纵向排列——min-width:260px × 2 + gap 在 ≤640px 视口
+     （可用宽 = 视口 - 64px padding < 532px）会横向溢出被截断 */
+  @media (max-width: 640px) {
+    .hero-cta { flex-direction: column; gap: 12px; }
+    .hero-cta a { width: 100%; max-width: 340px; min-width: 0; }
+  }
 
   /* —— 报告卡片（归属于 LLM SEARCH 板块） —— */
   .pillar-reports {
