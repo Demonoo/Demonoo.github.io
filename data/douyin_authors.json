@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-13 16:41",
+ "updated_at": "2026-09-13 17:41",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
- "ok_count": 37,
+ "topic_count": 31,
+ "ok_count": 19,
  "lexicon_count": 0,
  "topics": {
   "东北入秋的仪式是一锅酱大骨": {
@@ -60,6 +60,46 @@
      "text": "#媒体原创 #服贸会14年成绩单有多亮眼 【#服贸会见证中国服务贸易焕新升级 】从2012年服贸会的前身——首届京交会至今，服贸会已经走过14个年头。通过一组数",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "挖掘机在长沙，驾驶舱却在北京？6G工程机械远程驾驶系统亮相#2026服贸会 ，未来操作员通过网络即可实现远程操作。期待！（总台记者 乃扎尔 裴勇博）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广西头条NEWS",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "广西壮族自治区主席韦韬：广西的好东西应该大大方方自信展示，让更多人爱上广西。#服贸会# #广西# （林浩 王伟臣）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息｜2026年中国国际服务贸易交易会在北京开幕（记者：沈倩、阮帅）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#2026年中国国际服务贸易交易会今日开幕1830余家企业线下参展",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -82,10 +122,52 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "小胖夺冠后发抖音": {
+  "朝鲜向东部海域发射多枚弹道导弹": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "或针对韩美日联演，朝鲜向东部海域发射多枚弹道导弹！（正午国防军事）#朝鲜半岛 #半岛局势",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三沙卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "正面硬刚！韩美日举行联演，朝鲜多枚弹道导弹射向东部海域（央视军事）@抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海南广播电视总台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "朝鲜凌晨向东部海域发射多枚弹道导弹 “韩、美、日三国正密切共享有关导弹的情报，并保持戒备态势” #朝鲜 #导弹 #视听海南APP",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中广融媒中心",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "据国是直通车报道：据新加坡联合早报消息，韩国军方表示，朝鲜12日凌晨从元山地区向东部海域发射了多枚弹道导弹。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "莫雷加德4:1战胜雨果夺冠": {
    "stats": {},
@@ -121,69 +203,12 @@
      "hot": 0
     },
     {
-     "name": "双圈金满蛋",
+     "name": "悦健体育",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "莫雷加德4:3张本智和 张本智和3:4不敌莫雷加德无缘决赛 #澳门冠军赛 #张本智和 #莫雷加德",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "朝鲜向东部海域发射多枚弹道导弹": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "或针对韩美日联演，朝鲜向东部海域发射多枚弹道导弹！（正午国防军事）#朝鲜半岛 #半岛局势",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "韩国联合参谋本部9月12日通报 朝鲜向东部海域发射多枚弹道导弹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新社国是直通车",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朝鲜向东部海域发射多枚弹道导弹，或针对韩美日联合军演",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三沙卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "正面硬刚！韩美日举行联演，朝鲜多枚弹道导弹射向东部海域（央视军事）@抖音小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朝鲜凌晨向东部海域发射多枚弹道导弹，韩国国家安全委员会为此召开紧急安全评估会议",
+     "text": "雨果4：2干翻头号种子松岛辉空，闯进澳门冠军赛四强，松岛辉空被打到怀疑人生！#松岛辉空 #雨果 #澳门冠军赛 #乒乓球",
      "likes": 0,
      "hot": 0
     }
@@ -203,41 +228,24 @@
      "text": "#伊朗股市单日大涨153000点 ！ 距750万点整数关口一步之遥 #伊朗股指 #股市 （来源：第一财经 编辑：熊晨）",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "来重庆的快乐从一碗小面开始": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "特别乌啦啦",
-     "verify": "",
-     "identity": "",
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "在重庆第一次吃不加辣的「重庆小面」～不能吃辣的朋友赶紧尝尝吧 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火",
+     "text": "伊朗股市单日大涨逾15万点",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "五小区彭于晏",
+     "name": "伊朗李林",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "重庆人的一天总有一顿离不开一碗小面 #人间烟火 #无辣不欢 #美食推荐官#重庆小面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红楼食记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全国面食都在卷，重庆小面靠调料逆天改命！ #美食 #抖音精选 #重庆小面 #美食分享",
+     "text": "伊朗昨天一个鸡蛋30万里亚尔，今天40万里亚尔，让石油大国面临着经济封锁与民生困难，守着液体黄金，却还要紧巴巴过日子，真正把匹夫无罪怀璧其罪展现的淋漓尽致。你在",
      "likes": 0,
      "hot": 0
     }
@@ -269,6 +277,26 @@
      "hot": 0
     },
     {
+     "name": "极光新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 哈尔滨马拉松全马第一名已经冲线！起点哈尔滨音乐公园，终点太阳岛，第一名15000美金奖金到手！ #2026哈尔滨马拉松 #你怎么知道我来哈马了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "跑步回家的夏老师",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈尔滨马拉松冲线时刻 虽然没有PB，但我没有因为伤痛弃赛，就是战胜了胆怯的自己#舌尖上的哈马 #你怎么知道我来哈马了 #哈尔滨马拉松 #2026哈尔滨马拉松#哈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "游不动的小明",
      "verify": "",
      "identity": "",
@@ -279,22 +307,12 @@
      "hot": 0
     },
     {
-     "name": "轻松",
-     "verify": "",
-     "identity": "",
+     "name": "小房不停脚",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026哈尔滨马拉松已于9月13日7时30分在哈尔滨音乐公园正式鸣枪开跑，3万名来自全球各地的跑者沿松花江两岸完成了本次赛事。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "胡万斤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈尔滨冲线时刻2小时59分48秒！#哈尔滨马拉松 #2026哈尔滨马拉松 #哈尔滨马拉松太香了 #舌尖上的哈马 #你怎么知道我来哈马了",
+     "text": "前方或许没有答案，但一定有新的故事#哈尔滨马拉松#跑步#舌尖上的哈马#你怎么知道我来哈马了#2026哈尔滨马拉松",
      "likes": 0,
      "hot": 0
     }
@@ -312,6 +330,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "突传利空！半导体暗盘集体下跌，OpenAI和Anthropic的跌幅分别达到7%和2.8%。#OpenAI#Anthropic#半导体#财经（编辑：杨）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奥尔特曼：OpenAI不会在2026年上市 当地时间9月12日，据报道，OpenAI首席执行官山姆·奥尔特曼在采访中表示，鉴于对人工智能的安全担忧，OpenAI",
      "likes": 0,
      "hot": 0
     },
@@ -336,22 +364,29 @@
      "hot": 0
     },
     {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国顶尖AI天才辞职 他发出警告: AI会在2030年前 导致全人类灭亡 指责美AI巨头“拿人命赌博”（编辑:旺旺）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "美AI研究员严峻警告：AI会在2030年前导致人类灭亡 研发有进化能力的超级智能体 美AI巨头被指“拿人命赌博”",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当古代名画里的人走出了画框": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "方天画",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《虢国夫人游春图》走出了画卷 古代仕女画丨唐代宫廷画家张萱，画作描绘了天宝十一年（公元752年），唐玄宗宠妃杨玉环的三姐虢国夫人及其眷从、侍从盛装骑马出游的奢华",
      "likes": 0,
      "hot": 0
     }
@@ -393,12 +428,12 @@
      "hot": 0
     },
     {
-     "name": "潮新闻",
+     "name": "经视直播",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9月13日，六小龄童发布讣告： 我尊敬的堂兄、二哥章金云（艺名小七龄童）因病医治无效，不幸于2026年9月12日中午12:06分在故乡绍兴离世，享年84岁。 他",
+     "text": "小七龄童离世，享年84岁，六小龄童：是我的老师，他的离世是绍剧艺术的一大损失！",
      "likes": 0,
      "hot": 0
     },
@@ -430,96 +465,22 @@
      "hot": 0
     },
     {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 “尾号985面包车4000里护送女儿报到”视频系AI制作？白岩松：消耗网友感情，这种AI造谣、造假可能更要面对法律的鉴别和处理。#新闻周刊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "评事妹",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#985车牌千里送娃上哈工大为谣言#别再让AI造谣欺骗公众了“985车牌千里送娃上哈工大”？假！又是一AI视频。针对网传内容，常州警方已经核实，根本没有“苏DW",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当古代名画里的人走出了画框": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "方天画",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《虢国夫人游春图》走出了画卷 古代仕女画丨唐代宫廷画家张萱，画作描绘了天宝十一年（公元752年），唐玄宗宠妃杨玉环的三姐虢国夫人及其眷从、侍从盛装骑马出游的奢华",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "给萌宠举办一场发布会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "养一个小燕子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新品小猫发布会，猫咪原生态#猫咪#治愈系萌宠瞬间 #小猫咪在想什么呢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "坚果Nutsy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新品坚果Nutsy发布会来啦 #小猫发布会 #萌宠出道计划 #抖音玩法挑战赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "布墩墩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小汪发布会#西高地",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吃黄柚子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新品小猫发布会 #建模猫 #萌猫统治世界 #猫猫统治宇宙 #宇宙第一萌猫 #苹果发布会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橘猫多啦🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "duo啦咪发布会来了！ 为了环保，我们将不再提供任何包装。 原创：@石头汉堡 #猫咪 #橘猫 #抖音ai #猫统治世界需要多久 #ai创作浪潮计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "零零.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新品狸花猫发布会，原生态，重新定义萌。 原创@石头汉堡 ～～ #一看就没什么心眼的猫猫 #发布会 #有镜头感的小猫",
      "likes": 0,
      "hot": 0
     }
@@ -541,6 +502,16 @@
      "hot": 0
     },
     {
+     "name": "永州广播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "终场哨响，比分定格0:2，恭喜永州队拿走了宝贵的三分，感谢常德。#2026湘超 #永湘甄选・永州融媒948助威团 #湘超永州队 #常德vs永州 #湘超联赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "红网·红视频",
      "verify": "红V",
      "identity": "媒体人",
@@ -557,16 +528,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "2026湘超联赛常德对战永州，永州再进一球保持2∶0领先 2026湘超常德主场对战永州，永州队再进一球保持2∶0领先。永州队几乎抢到全部高点。#媒体原创 #直击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新湖南",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "踢一场球，兴一座城。湘超常规赛常德队vs永州队，穿紫河街道“街草”出动，唱响兴民街。（记者 刘蓉 编辑 恒星）#湘超",
      "likes": 0,
      "hot": 0
     },
@@ -738,106 +699,66 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "今夜的风悄悄月悄悄 吻你的眉梢": {
+  "给萌宠举办一场发布会": {
    "stats": {},
    "authors": [
     {
-     "name": "77.",
+     "name": "养一个小燕子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今夜的风悄悄月悄悄 吻你的眉梢 #王安宇 #向全世界安利",
+     "text": "新品小猫发布会，猫咪原生态#猫咪#治愈系萌宠瞬间 #小猫咪在想什么呢",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "KeMengZ-",
+     "name": "坚果Nutsy",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“今夜的风悄悄月悄悄，吻你的眉梢”",
+     "text": "新品坚果Nutsy发布会来啦 #小猫发布会 #萌宠出道计划 #抖音玩法挑战赛",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "焦不糖",
+     "name": "布墩墩",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今夜的风悄悄 月悄悄 吻你的眉梢#风月吻眉梢 #白敬亭 #白敬亭进行曲 #向全世界安利 #舞台荷尔蒙暴击",
+     "text": "小汪发布会#西高地",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "破碎哭包buss（喜欢你的第三年",
+     "name": "吃黄柚子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今夜的风悄悄月悄悄 吻你的眉梢~",
+     "text": "新品小猫发布会 #建模猫 #萌猫统治世界 #猫猫统治宇宙 #宇宙第一萌猫 #苹果发布会",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "拾一",
+     "name": "橘猫多啦🍊",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今夜的风悄悄 月悄悄 吻你的眉梢",
+     "text": "duo啦咪发布会来了！ 为了环保，我们将不再提供任何包装。 原创：@石头汉堡 #猫咪 #橘猫 #抖音ai #猫统治世界需要多久 #ai创作浪潮计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "多样调调",
+     "name": "零零.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今夜的风悄悄月悄悄 吻你的眉梢。#礼越 #多样调调",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "破碎鱼丸🥣🌧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今夜的风悄悄 月悄悄 吻你的眉梢 #王安宇#风月吻眉梢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "锐锐在这儿👦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今夜的风悄悄月悄悄 吻你的眉梢~",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我不是孙千",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“今夜的风悄悄 月悄悄 吻你的眉梢” #孙千 #小狗日记 #风月吻眉梢 #今夜的风悄悄月悄悄",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好好和久久",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今夜的风悄悄 月悄悄 吻你的眉梢～ #风月吻眉梢",
+     "text": "新品狸花猫发布会，原生态，重新定义萌。 原创@石头汉堡 ～～ #一看就没什么心眼的猫猫 #发布会 #有镜头感的小猫",
      "likes": 0,
      "hot": 0
     }
@@ -845,26 +766,48 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "一代人有一代人的呆毛潮流": {
+  "小胖夺冠后发抖音": {
    "stats": {},
    "authors": [
     {
-     "name": "干饭小魔女鸣酱",
+     "name": "广州TTG小胖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "命运的洪流也无法阻挡我继续向前走！ #TTG夺冠 #小胖六冠打野 #广州TTG #广州TTG小胖 #2026KPL夏季赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "iPhone Duo研究了些什么": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "说唱巅峰总决赛舞台锐评": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱说唱的迪伦",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "终于理解为啥老一辈看我们不顺眼了#发型 #高中生 #呆毛 #非主流 原博主cr：@宝儿",
+     "text": "巅峰对决总决赛 军训现场 盛宇大天才！ #说唱巅峰对决 #盛宇",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "方❤️拿铁",
+     "name": "伦尔Luner",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "终于理父母当年看非主流的我们是什么感受了，有没有人科普一下呆毛是啥玩意#呆毛",
+     "text": "可以给那奇沃夫颁发一个巅峰最佳黑怕最佳real奖了！#那奇沃夫 #我们的生活 #WolfGangLifeIV #说唱 #说唱巅峰对决",
      "likes": 0,
      "hot": 0
     }
@@ -979,485 +922,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "孙千剧内憋屈剧外疯狂输出": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爆姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "孙千剧内受的气 剧外全撒出去了#早春晴朗 #孙千 #井柏然 #花絮 #搞笑",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "夏日入侵企画KPL夏决演出": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "刀郎线上音乐会1小时点赞破亿": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "55岁刀郎妥妥人气王！山歌万里线上音乐会今夜开唱 刀郎让C位展示古琴琵琶 1小时内点赞量破亿#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月12日晚，刀郎时隔两年再举行“山歌”主题线上演出，徐子尧、刀小娟等担任伴唱。年轻的艺术家们携手带来《打酸枣》《采花调》等充满民族风格的作品。 刀郎以推荐人的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奔流视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "55岁刀郎妥妥人气王！山歌万里线上音乐会今夜开唱，刀郎让C位展示古琴琵琶，1小时内点赞量破亿。#刀郎 （来源 | 红星新闻 编辑 | 马昭君）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王俊凯现身LPL现场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "椰小香.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大屏之神！#王俊凯#王俊凯英雄联盟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DARKSTAR王俊凯暗星站",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赛前发言一下 #王俊凯 #2026LPL总决赛 #英雄联盟15周年庆典 #王俊凯英雄联盟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "暴龙小哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王俊凯英雄联盟15周年登场， 网友：电竞男神又来了！#英雄联盟15周年 #王俊凯英雄联盟 #2026lpl总决赛 #lpl总决赛狂欢周末 #2026lpl",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "孩子第一次上学belike": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小赖超开心.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "才2岁9个月。 一边扒着午饭，一边无声地掉眼泪。 看着老师发来的视频，小小的她在园里委屈落泪，我坐在家里，眼泪也止不住地往下掉。 原来难熬的不只有孩子，还有隔着",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "细扒兰香如故前6集细节": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "豆和小何的叨叨入戏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这些情感塑造的微小点真的很让人喜欢 #谭松韵 #刘学义 #新剧 #电视剧 #剧评",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "Lost盘旋手势舞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我是大哈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋 在我脑海里面～^",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小林好烦呐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋在我脑海里面 #变装#转场#你总是盘旋在我脑海里面 #对口型#手势舞 yc@ 椰椰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "醒醒醒醒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋 在我脑海里面～ #lost #帅 #你总是盘旋在我脑海里面 #手势舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大次一口",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋在我脑海里面#翻唱 #Lost #手势舞 #情绪音乐玩法新风向 #抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "婗可拉岛芭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋在我脑海里面 #你总是盘旋在我脑海里面 #对口型 #BJHG夹克外套 #BJHG外套 #BJHG 参考@Nana不拿拿 和@椰椰 做完妆造没来得及卸就",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亚米小甜豆（求关注版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋在我脑海里面～（yc:@Nana不拿拿 ）#Nana摇 #手势舞转场教程 #一学就会系列 #抖音玩法合伙人计划 #抖舞玩法模范生 @DOU+小助手 @",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "aboluoo是美少女",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋在我脑海里面～ #你总是盘旋在我脑海里面 #手势舞 #一学就会系列 #简单手势舞 #fyp",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "童谣爸比（沈大叔）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你总是盘旋 在我脑海里面～#手势舞教程 #反差萌 #Lost #你总是盘旋在我脑海里面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "施拉姆姆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超简单lost手势舞来啦，20G网速展示拍起来～#你总是盘旋在我脑海里面 #手势舞教程 #一学就会 #抖音玩法达人挑战赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栗子暖暖暖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下课一起走好嘛#lost #你总是盘旋在我脑海里面 #女高 #手势舞 #夜晚街头随拍",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "说唱巅峰总决赛舞台锐评": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爱说唱的迪伦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巅峰对决总决赛 军训现场 盛宇大天才！ #说唱巅峰对决 #盛宇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "伦尔Luner",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可以给那奇沃夫颁发一个巅峰最佳黑怕最佳real奖了！#那奇沃夫 #我们的生活 #WolfGangLifeIV #说唱 #说唱巅峰对决",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "寰际西安职业赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "HQC",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“一枝独秀不是春，百花齐放春满园”#中国健体 #米当卡寰际西安职业赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "IFBB PRO传统.李伟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我就喜欢撕吧#就是干#就是过招#米当卡寰际西安职业赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大学生健美观察（健美比赛指南）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "传奇的39号健美选手又来了！ 39号张学友再次上台，这次是西安寰际星耀资格赛的赛场 #39号健美选手 #39号张学友 #西安寰际 #寰际星耀资格赛 #米当卡寰际",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "寰际中国职业赛|10.06石家庄",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁能锁定#米当卡寰际西安职业赛 男子健体冠军 答案就在9月13日 国内男子健体载入史册的一场对决 强度顶满 @米当卡官方旗舰店 @米当卡运动营养旗舰店 @GTA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "程亦山",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "检录成功，13号台上见#米当卡寰际西安职业赛 #古典#程亦山",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "iPhone Duo研究了些什么": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "跟着李白游南京": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "兰香如故刘学义李梦夫妻修罗场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧兰香如故（活热播出中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "到头来，还是错付了 #兰香如故 #赵星棠 #钱少泽 #李梦 #马闻远",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秋刀鱼",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "林锦岐抓小三名场面来了！负我者，休怪我心狠无情！#刘学义李梦抓小三名场面来了 #兰香如故 #刘学义 #李梦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "可可加盐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#兰香如故刘学义李梦名场面来了 本以为是两情相悦，可大难临头却被情人反咬一口，赵星棠一腔深情终究错付了 #兰香如故",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黄景瑜不愧是最爱沙漠之人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黄景瑜",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "走啊 一起去沙漠看海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黄景瑜工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "手上的事先暂停，请立刻来看@黄景瑜 的沙漠飞驰🏜️🏍️#黄景瑜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "草原云·北方新报",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员黄景瑜现身内蒙古乌海，沙漠骑摩托也太帅了！#黄景瑜#乌海 #一半沙漠一半海",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "宋威龙寻找洲同学": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "coke老师",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "洲痞武装 #宋威龙寻找洲同学",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "何秋亊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在找我吗 洲同学#宋威龙寻找洲同学 #宋威龙也是三角洲威龙 #洲同学报到 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "夜刀神狗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重回学生时代#宋威龙寻找洲同学 #洲同学报到 #三角洲行动 #宋威龙也是三角洲威龙 #洲妹行动",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一种新的吵架方式": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "库里深圳球迷见面会直播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "15点@Stephen Curry｜史蒂芬·库里 将直播深圳球迷见面会活动！来抖音看库里中国行！#抖音球星直播季 #2026库里中国行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "深视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 9月13日，2026#库里中国行 深圳站，库里在深圳李宁中心和球迷们一起互动，全程氛围超嗨！还在现场给球迷送了签名球鞋。#库里闪现深圳 #NBA #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "深渊无间大结局": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "解析辅助涵巅峰对决钟馗博弈技巧": {
    "stats": {},
    "authors": [
@@ -1475,165 +939,55 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "一代人有一代人的呆毛潮流": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "夏日入侵企画KPL夏决演出": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "王俊凯现身LPL现场": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "细扒兰香如故前6集细节": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "今夜的风悄悄月悄悄 吻你的眉梢": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "孩子第一次上学belike": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "三十人组团拍摄还原神仙朝元大典": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "抢零食大赛玩上心眼了": {
+  "孙千剧内憋屈剧外疯狂输出": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "刀郎线上音乐会1小时点赞破亿": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
   "陈小春哈尔滨演唱会": {
    "stats": {},
-   "authors": [
-    {
-     "name": "陈小春",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爾濱。來了。。 #巡演日记 #陈小春哈尔滨演唱会 #letmedrive #打卡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "这就是黑龙江",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈小春哈尔滨演唱《大东北是我的家乡》 解锁新曲风 东北歌拿捏住了 演唱会惊喜彩蛋 东北味儿直接焊在现场#陈小春#陈小春哈尔滨演唱会 #歌手陈小春",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "早秋闺蜜互换穿搭挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "热辣冰冰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我和不同风格的好朋友互换衣服…#和姐妹一起拍#和姐妹互换穿衣风格 #热辣冰冰#今天穿什么 #闺蜜ootd穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "你总说流星划过天空时很亮": {
-   "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "张凌赫刺棠权谋感拿捏了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "张凌赫",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "归朝藏锋，万般皆入掌中。#刺棠 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张凌赫工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#张凌赫 风起，剑扬，棠花开，叶亭宴/叶壑@张凌赫 至。#张凌赫叶亭宴 #刺棠 #叶亭宴",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "洛天依原创歌曲终冕发布": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "当我一口气看完一部动漫": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "兰香如故观后感": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "铁锤电波",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天崩开局，全员演技戳人，兰香如故太好哭。天崩开局😭全员演技在线，兰香如故太好哭了 谭松韵和刘学义主演的《兰香如故》开播了，刚看完一集，完全哭麻了，说说打动我的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆和小何的叨叨入戏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这些情感塑造的微小点真的很让人喜欢 #谭松韵 #刘学义 #新剧 #电视剧 #剧评",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老窦家小张",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "兰香如故播了4集我哭2集，我都哭无奈了 #兰香如故 #兰香如故开播 #谭松韵 #许兰香 #刘学义",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "马嘉祺的冰箱里没有鸡蛋": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "时代少年团-马嘉祺",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冰箱里面有什么？鸡蛋呢？！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“马嘉祺冰箱里没有鸡蛋”上热搜，马嘉祺新EP主打歌《冰箱没有鸡蛋》正式上线，还发文：在家准备早餐首选鸡蛋，所以“小气球”们 ，冰箱里没有什么？#马嘉祺冰箱里没有",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   }
  }
 }
