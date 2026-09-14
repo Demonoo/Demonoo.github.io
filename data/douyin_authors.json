@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-14 16:50",
+ "updated_at": "2026-09-14 17:45",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
- "ok_count": 28,
+ "topic_count": 20,
+ "ok_count": 10,
  "lexicon_count": 0,
  "topics": {
   "全国多地观测到金星伴月美景": {
@@ -40,12 +40,12 @@
      "hot": 0
     },
     {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "/ Y-Sco11-End",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#2026年度最后一次长庚伴月将现身 金星将于9月14日靠近蛾眉月，上演金星伴月的天象。金星运行轨迹将在10月后发生变化，逐渐由昏星转变为晨星。",
+     "text": "地理老师说：“星月相伴”是一种天象，各自发光，彼此照亮，可是，金星伴月只偶然一次，繁星点点才是常态。 语文老师说：“月望金星相思久，金星望月情意长，此星只伴月，",
      "likes": 0,
      "hot": 0
     }
@@ -114,6 +114,16 @@
      "hot": 0
     },
     {
+     "name": "文昌每日谈",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金砖交棒中国，先别急着欢呼，印度留了一手 #零基础看懂全球 #全球创作者计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "允华说",
      "verify": "黄V",
      "identity": "认证创作者",
@@ -122,14 +132,51 @@
      "text": "“搅局者”转身！金砖峰会上，印度对华示好，想通了？ #零基础看懂全球 #全球创作者计划",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "胡塞武装对沙特空军基地发动打击": {
+   "stats": {},
+   "authors": [
     {
-     "name": "文昌每日谈",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金砖交棒中国，先别急着欢呼，印度留了一手 #零基础看懂全球 #全球创作者计划",
+     "text": "#媒体原创也门胡塞武装发言人9月14日表示，过去5天内，沙特出动F-15战机和“台风”战机发动了300余次空袭，袭击了也门大部分省份。作为回应，胡塞武装打击了沙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大众新闻-大众日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "胡塞对沙特空军基地发动大规模打击，称沙特5天空袭也门300多次 这是回应！所有打击均精准命中目标，并给该基地造成了重大损失（CCTV国际时讯）#沙特 #也门 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#胡塞对沙特空军基地发动大规模打击 所有打击均精准命中目标 #也门胡塞武装表示#沙特5天空袭也门300多次",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "胡塞武装封锁曼德海峡 又一个潘多拉魔盒被打开 蒋晓峰：美国势力被赶出中东 不是没有可能 而是在哪一天有多彻底#总编辑时间 #胡塞武装 #曼德海峡",
      "likes": 0,
      "hot": 0
     }
@@ -211,43 +258,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "东北入秋的仪式是一锅酱大骨": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "刘雨鑫JASON",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑龙江鹤岗，只做2样菜的特色馆子，尝尝怎么样？ #人间烟火 #鹤岗 #酱大骨 #酸菜 #东北菜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱吃汉堡堡🍔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日份：酱大骨 软烂脱骨的酱大骨#大骨头啃起来嘎嘎香",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鑫妈美食日记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "高压锅酱大骨，简单美味，脱骨软糯，大口吃肉太过瘾了#酱大骨 #下饭菜 #家常菜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "中国男篮三连胜头名出线": {
    "stats": {},
    "authors": [
@@ -300,51 +310,51 @@
      "text": "中国男篮亚运会三连胜晋级八强",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国男篮三连胜以小组第一晋级亚运会男篮八强，1/4决赛将在9月16日对阵沙特。郭士强指导展望淘汰赛：“小组赛跟淘汰赛是不一样的比赛，淘汰赛对球员来说压力会更大一",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "胡塞武装对沙特空军基地发动打击": {
+  "东北入秋的仪式是一锅酱大骨": {
    "stats": {},
    "authors": [
     {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "刘雨鑫JASON",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创也门胡塞武装发言人9月14日表示，过去5天内，沙特出动F-15战机和“台风”战机发动了300余次空袭，袭击了也门大部分省份。作为回应，胡塞武装打击了沙",
+     "text": "黑龙江鹤岗，只做2样菜的特色馆子，尝尝怎么样？ #人间烟火 #鹤岗 #酱大骨 #酸菜 #东北菜",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "爱吃汉堡堡🍔",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "作为回应，也门胡塞武装对沙特空军基地发起大规模军事行动（新闻直播间）#中东局势 #红海 #f15",
+     "text": "今日份：酱大骨 软烂脱骨的酱大骨#大骨头啃起来嘎嘎香",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "鑫妈美食日记",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#胡塞对沙特空军基地发动大规模打击 所有打击均精准命中目标 #也门胡塞武装表示#沙特5天空袭也门300多次",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "胡塞武装封锁曼德海峡 又一个潘多拉魔盒被打开 蒋晓峰：美国势力被赶出中东 不是没有可能 而是在哪一天有多彻底#总编辑时间 #胡塞武装 #曼德海峡",
+     "text": "高压锅酱大骨，简单美味，脱骨软糯，大口吃肉太过瘾了#酱大骨 #下饭菜 #家常菜",
      "likes": 0,
      "hot": 0
     }
@@ -396,6 +406,16 @@
      "hot": 0
     },
     {
+     "name": "农民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国务院对中国船舶集团青岛北海造船有限公司“9·10”重大火灾事故提级调查",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
@@ -407,16 +427,6 @@
     },
     {
      "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国务院对中国船舶集团青岛北海造船有限公司“9·10”重大火灾事故提级调查",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
@@ -461,6 +471,26 @@
      "text": "“超级央行周”来了！#下周美日英集体议息 ：#美联储加息概率飙至90 #日本时隔3个月或再加息",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "中国证券报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国8月核心CPI超预期 美联储9月加息概率飙升至90%",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黄金情报局",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美联储加息！G7央行超级周！黄金假死！高盛改口暗藏杀机！ 抓住本周黄金走势的逻辑主线，利空出尽是利好。#黄金 #金价 #财经 #经济 #加息",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -468,181 +498,30 @@
   },
   "王曼昱登顶女单世界第一": {
    "stats": {},
-   "authors": [
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 WTT排名更新：王曼昱登顶世界第一！#精选主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年9月14日，国际乒联最新世界排名更新，王曼昱以9115分反超孙颖莎，登顶女单世界第一。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国际乒联最新世界排名：女单王曼昱9115分排名第一，超孙颖莎140分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国际乒联更新第38周世界排名，王曼昱以9115积分登顶世界第一，此前瑞典大满贯夺冠曾说“给自己提提气”，走的每一步都算数，曼昱加油！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月14日（发布），王曼昱以9115分反超孙颖莎，登顶女单世界第一！终结莎莎连续50个月霸榜纪录。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#王曼昱女单排名世界第一 】#王曼昱中国女乒历史第11位登顶者 9月14日，WTT澳门冠军赛结束后，王曼昱以9115分首次升至女单世界第一，孙颖莎以8975分",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "席琳迪翁重返演唱会舞台": {
    "stats": {},
-   "authors": [
-    {
-     "name": "𝑺𝒖𝒏𝒔𝒉𝒊𝒏𝒆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "席琳迪翁时隔六年回归 闪耀巴黎。#celinedion #MyHeartWillGoOn #席琳迪翁巴黎演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "CelineDion席琳迪翁资讯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "席琳迪翁病后重生 复出归来 席琳·迪翁9月12日晚在巴黎Plenitude Arena 开始了她备受期待的 16 场驻唱演出，演出开始时她不禁热泪盈眶。这是她自",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑇𝑒𝑒𝑛𝑎𝑔𝑒𝑟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "席琳迪翁一开口 我就坠入爱河了#thepoweroflove #音乐分享 #巴黎演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "中国女足5:1中国香港女足": {
    "stats": {},
-   "authors": [
-    {
-     "name": "体坛周报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运开门红！中国女足5-1战胜中国香港（编辑：CZQ） #中国女足 #中国香港女足 #名古屋亚运会 #王霜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王霜双响 中国女足取得亚运会开门红。北京时间9月14日傍晚，亚运会女足小组赛G组第一轮，中国女足5比1击败中国香港女足，获得小组赛开门红！#中国女足 #2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间9月14日18:00，亚运女足小组赛G组，中国女足在岐阜长良川竞技场对阵中国香港女足。上半场，王霜送出助攻，陈巧珠远射破门，张炜琪利用中国女足防线配合失",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会：开门红！中国女足5-1大胜中国香港队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国女足",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#亚运会开门红！ 陈巧珠远射先拔头筹，王霜2传2射，司雨、王妍雯建功，中国女足5比1中国香港女足。 #中国女足",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 2026亚运会女足小组赛G组，中国女足5比1战胜中国香港女足，取得亚运会开门红！（央视频号：奥运来了）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "网红暴躁的小张姥娘离世": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "在贷款和全款中选择拍同款": {
+  "中国队晋级U20女足世界杯16强": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "兰香如故热度破29000": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -652,797 +531,17 @@
    "authors": [],
    "lexicon": []
   },
-  "赵雷我记得以儿子视角创作": {
+  "在贷款和全款中选择拍同款": {
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "兰香如故热度破29000": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧兰香如故（活热播出中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "难怪今天这么热闹！原来是#兰香如故 站内热度破29000！🔥感谢各位观众老爷支持！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "腾讯视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#兰香如故 🌼站内热度破29000🔥大小姐当丫鬟努力打工⛈️大少爷沙场归来认真宅斗！#谭松韵 #刘学义 #电视剧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   },
   "鹤岗这顿四人餐十人够吃": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "发明猪咪可爱颂的人简直是天才": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "张真源的抖音太有感觉了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "时代少年团-张真源",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "运动系男孩🙌🏻 #慵懒松弛感 #燕麦系 #有点感觉",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "媒体评郭有才走红后争议": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "叫号取餐被选中belike": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "九是吕黄",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成功被餐厅第十三顺位选中 #nba选秀 #叫号取餐选秀大会 #抽象 #社牛 #超燃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "轶wen",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没有扯平 只能我赢#NBA选秀 #保罗乔治 #超然 #雄狮 #叫号取餐选秀大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猪猪宝o",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成功被yasiko延边饭店第十三顺位选中#NBA选秀 #叫号取餐选秀大会 #yasiko延边饭店 #超燃 #内容过于真实",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "许钟豪",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "被一些麻辣烫选中了 #当你被一些麻辣烫选中 #叫号取餐选秀大会 #超燃 #保罗乔治 #许钟豪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Fine青锋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成功被408顺位选中#NBA选秀#叫号取餐选秀大会 #一品鱼悦 #范青锋 #家人小聚的快乐食光",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "原来上世纪国产电器就这么先进了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "兰香如故林府人均舞王来的": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "biubiubiu小猫朝我跑来": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我拥有世上最好的亲人": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "兰香如故坏茬一个接一个": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "Tim阿信梦幻联动采访苹果CEO": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "HYROX回应选手赛场失禁事件": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "长城新媒体",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "HYROX冠军选手赛场腹泻失禁，一路污渍坚持完赛夺冠，赛事方连夜回应：已全面消杀、更换地毯。央视锐评：体育拼搏，不是罔顾他人权益硬撑到底。#HYROX北京站 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 HYROX选手赛场上突然\"窜稀\" 千人被迫在脏污场地比拼 3天4份声明！#HYROX创始人道歉了 一句\"情况不可预见\"难掩赛事漏洞 比赛需要拼搏但更",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "HYROX健身跑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "HYROX北京站情况补充说明与整改公告。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "要“拼搏”更要“规则”！央视谈HYROX选手赛场失禁，组委会并未进行干预。#媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Vista看天下",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "HYROX北京站比赛中，一位选手大便失禁的风波继续发酵。官方坚称，这是运动员突破自我极限。但大便失禁带来的公共健康风险，却由其他选手承担了。这公平吗？（文｜张恒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "央视评“HYROX选手赛场失禁”：真正的体育拼搏不应罔顾公共卫生与他人权益",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月14日，HYROX 官方账号hyroxworld回应HYROX赛事北京站赛道污染事件，称将审查网暴运动员行为。央视对此发表评论：真正的体育拼搏，不是罔顾公共",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小汤说事",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "HYROX选手赛场失禁规则 #媒体人精选计划 #hyrox #规则",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "三角洲口琴演奏教学": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "代练通-小陈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "盘点三角洲近期超好听的口琴乐谱，一起来分享你心中的神曲吧 #三角洲行动 #三角洲群星新赛季 #三角洲S11群星新赛季 #三角洲口琴",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆豆做攻略（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "守夜人口琴4个琴谱最细获取攻略 #三角洲行动 #三角洲s11群星新赛季 #来抖同洲玩 #我来同你玩 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "魔兽世界新作无限定档11月5日": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "永久锁60级 没有飞行坐骑 不会推进后续，魔兽世界新作《无限》定档11月5日，一千多个新任务 九个新地下城 新种族“天裔”，慢慢玩 不着急 网友：这体量 够玩到",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "枫叶大象Clark",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "魔兽无限官宣没说的5件事：没飞行 国服公告只说了 11 月 5 日上线、有游戏时间就能玩。暴雪嘉年华 Forever What's Next 面板讲的硬规矩，国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "说游戏的阿裤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "魔兽世界新作重启？平行剧情if线？ #游戏#魔兽新作把PDD炸出来了#魔兽世界无限#CG",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "呼叫网管",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "离谱：这都是啥啊？魔兽世界整了个自己魔改自己的新游戏！ #暴雪嘉年华魔兽新作首曝 #魔兽世界无限",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "十万个梗百科",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "十万个大事件之：蛇皮！全体起立！#魔兽新作把PDD炸出来了 #魔兽世界无限",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "兰香如故九皋这么美要迷死谁": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "潘毅鸿",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "九皋也是闯入新赛道了 #兰香如故 #我的追剧日志 #九皋 #男扮女装",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "早春晴朗迎来收官": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "细扒兰香如故前6集细节": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "豆和小何的叨叨入戏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这些情感塑造的微小点真的很让人喜欢 #谭松韵 #刘学义 #新剧 #电视剧 #剧评",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "给萌宠举办一场发布会": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "绝不承认手机妈对我的印象": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Promises",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "省流不准#拿起手机就是兵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "记得.微笑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "记得.微笑",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我不是 chord.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么意思啊？我要签断亲协议#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "峰峰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我在手机眼中的形象 #手机妈对我的印象",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "东北懒娘们",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这纯是后妈 #抖音玩法合伙人计划 #抖音玩法合伙人 #我在手机眼中的形象 #搞笑视频 #内容过于真实",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "求己",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "。。。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一个灵活的胖子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一个灵活的胖子",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一瓯春定档0917": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一瓯春(定档0917",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#一瓯春定档0917 爱让上位者低头！#一瓯春 #许凯 #周也 （按姓氏笔画排序）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我叫徐振轩",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#一瓯春定档0917 在这横塘棋局中，李从心也无法从心...#一瓯春",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "威龙爆闪转场挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "如果说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "洲同学正在加载中#威龙爆闪转场挑战 #私设",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宋威龙",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是这样爆闪吗?@三角洲行动 #威龙爆闪转场 #宋威龙寻找洲同学 #三角洲行动 #洲同学报到",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "徐生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我陪你打回去#威龙爆闪转场挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人猿泰山",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "运气不错啊 碰上我了 #威龙爆闪转场挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牛油果子哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "看闪 #威龙爆闪转场挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "暴躁emo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "起来 我陪你打回去 #威龙爆闪转场挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "夜刀神狗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "猛攻#威龙爆闪转场挑战 #宋威龙寻找洲同学 #洲同学报到 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "扑倒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我来同你玩 #洲彦祖再集结 #三角洲行动 #三角洲开学季 #洲同学报到 #三角洲啥都有创作大赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "墨菲特",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的箭下全是秘密 #威龙爆闪转场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鹿鹿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邪恶猫猫头 #威龙爆闪转场挑战 #宋威龙寻找洲同学 #洲同学报到 #三角洲行动 #洲妹行动",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "宋威龙寻找洲同学": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "BGM一响山河都有了宿命感": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "孩子第一次上学belike": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "这一套不知道你顶不顶得住": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "玄桉📿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啊！ #猛女发疯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一块旺旺饼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "抑郁太大众了，我现在玩的是早睡早起，锻炼身体#有空多健身没事早点睡 #剪映ai #剪映 #猛女出拳#Ai@渝欢 原视频作者在这 无心抄袭 发着玩的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咕碌🥕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一套不知道我顶不顶得住🕶️ #自由搏击 #出招摇摆舞大赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光⁰⁹⁰⁴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "整这么帅？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "绿藻球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "白大拿 我要冠军赛的合同！ #ufc #剪映让好作品告别AI感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "匸㕕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我只能静静看着，多说一句，感觉都有生命危险#剪映让好作品告别AI感 #练拳击的女生有多酷 #打拳的女生最酷 #猛女出拳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "啥b",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啥b",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鲨鱼头🦈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今晚的coke#coke #coke老师#格斗姿势",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋腚",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "出拳即答案，犹豫是败笔 #拳力以赴 #抽象空击 原作者@渝欢 如有侵权，马上删视频",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "手机没王女士（广东双马尾版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你要坚持投诉我也略懂一些拳脚🙃",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "南阳扣碗一口香到上头": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "二百者也",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "河南南阳开盲盒： 远郊小村香溢远，数家扣碗客来稠。#扣碗 #人间烟火 #地方特色美食 #二百者也",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🌈鱼多多去下厨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "扣碗条子肉 在河南丈母娘家吃的蒸碗，今天还在回味，继续分享！#河南传统八大碗 #扣碗条子肉 #下饭硬菜推荐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咔咔就是炒(家常菜)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "河南宴席八大扣碗｜老式素扣碗豆腐，一扣瞬间香透了 河南八大扣碗里的素扣碗豆腐，老式宴席做法。老豆腐先炸定型，碗底铺上黄花菜、粉条，调好料汁上锅慢蒸 40 分钟。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "公瑾爆蛋火锅版": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Renyi毅哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "穿越山城菜市场，感受秋天满配火锅的宵夜快乐！公瑾爆蛋盖浇饭加上3块8一盘的嫩肉片，辣涮土豆泥炸鸡腿也太惊艳了！#我选择火锅作为入秋仪式感 #火锅 #宵夜 #路边",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当我不小心染上蔡徐坤审美穿搭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "暴躁小张",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不小心染上蔡徐坤的审美…… #早秋穿搭 #外套 #穿搭技巧 #尝试一种很新的穿搭思路 #审美积累",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鹿洋不吃折耳根",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟着我担蔡徐坤学穿搭，我赢麻了！当时坤哥的这套舞台造型一出来，我就觉得超级帅。跟着坤哥还学了一个服装新词，原来这种风格叫做“拿破仑”，于是我就想着，等秋天的时候",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "洛天依原创歌曲终冕发布": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "当我一口气看完一部动漫": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "跟着李白游南京": {
    "stats": {},
    "authors": [],
    "lexicon": []
