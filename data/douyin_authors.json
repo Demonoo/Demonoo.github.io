@@ -1,41 +1,61 @@
 {
- "updated_at": "2026-09-14 12:34",
+ "updated_at": "2026-09-14 13:48",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 46,
- "ok_count": 23,
+ "topic_count": 20,
+ "ok_count": 10,
  "lexicon_count": 0,
  "topics": {
-  "中国队晋级U20女足世界杯16强": {
+  "中国男篮三连胜头名出线": {
    "stats": {},
    "authors": [
     {
-     "name": "新华社电视",
-     "verify": "蓝V",
+     "name": "五星体育",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "U20女足世界杯：不敌西班牙 中国队以小组第三晋级",
+     "text": "亚运三连胜，中国男篮头名出线！。今天中午，中国男篮迎来了本届亚运会的最后一场小组赛，最终中国队以105比61大胜菲律宾队，以小组第一的身份昂首出线！ #中国男篮",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国女足",
+     "name": "环视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会三连胜！中国男篮大胜菲律宾，小组第一出线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山东体育休闲频道",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "晋级十六强！ #U20女足世界杯# 小组赛第三轮，中国U-20女足1比3西班牙U-20女足，黄嘉欣破门。中国队在小组赛以一胜一平一负的成绩获得小组第三晋级淘汰赛",
+     "text": "中国男篮亚运会三连胜晋级八强",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大众新闻•半岛都市报",
-     "verify": "蓝V",
+     "name": "广东体育频道",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国U20女足1比3不敌西班牙，小组第三出线、淘汰赛首轮将战意大利！“唯一球迷”带着“娘家人”来了！（来源 中国新闻网 编辑 林靓）#中国队晋级U20女足世界杯",
+     "text": "上届亚运会半决赛，#中国男篮 遭菲律宾逆转淘汰。在今天结束的亚运会小组赛，中国男篮以105-61大胜对手，以三连胜获得小组出线。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "体坛周报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小组赛三连胜出线！中国男篮105-61大胜菲律宾 （编辑：CZQ） #中国男篮 #亚运会 #菲律宾男篮 #王俊杰",
      "likes": 0,
      "hot": 0
     }
@@ -80,10 +100,99 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "五天服贸会交出亮眼成绩单": {
+  "一组数据看金砖20年": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "经济日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "数说金砖 | 一组数据看金砖20年 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "薛小荣",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "难怪伊朗不慌，中俄伊外长金砖互动，特朗普制裁大棒不好使了！ #全球创作者计划 #零基础看懂全球 #抖音精选 #硬核深度计划 #时代砺剑高燃出列",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "文昌每日谈",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金砖交棒中国，先别急着欢呼，印度留了一手 #零基础看懂全球 #全球创作者计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中国女足5:1中国香港女足": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "体坛周报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运开门红！中国女足5-1战胜中国香港（编辑：CZQ） #中国女足 #中国香港女足 #名古屋亚运会 #王霜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王霜双响 中国女足取得亚运会开门红。北京时间9月14日傍晚，亚运会女足小组赛G组第一轮，中国女足5比1击败中国香港女足，获得小组赛开门红！#中国女足 #2026",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会：开门红！中国女足5-1大胜中国香港队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国女足亚运会小组赛首胜！5比1大胜中国香港女足，9月17日对阵乌兹别克斯坦队，一人一句为女足姑娘们加油👏#中国女足",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大众新闻•半岛都市报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "首战开门红！中国女足亚运首战5:1大胜中国香港，王霜梅开二度，青岛姑娘张程雪替补出战#中国女足 #青岛故事 （半岛全媒体记者 潘立超 编辑 林靓）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "国务院对青岛船厂火灾提级调查": {
    "stats": {},
@@ -119,12 +228,12 @@
      "hot": 0
     },
     {
-     "name": "中国新闻网",
+     "name": "央视网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 致25人死亡、5人受伤，国务院对青岛货轮火灾事故提级调查",
+     "text": "国务院对中国船舶集团青岛北海造船有限公司“9·10”重大火灾事故提级调查#快看联播",
      "likes": 0,
      "hot": 0
     },
@@ -149,96 +258,12 @@
      "hot": 0
     },
     {
-     "name": "大象新闻",
+     "name": "新京报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9月14日，国务院对中国船舶集团青岛北海造船有限公司“9·10”重大火灾事故提级调查@大象新闻主持人陈静华",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中国男篮三连胜头名出线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运三连胜，中国男篮头名出线！。今天中午，中国男篮迎来了本届亚运会的最后一场小组赛，最终中国队以105比61大胜菲律宾队，以小组第一的身份昂首出线！ #中国男篮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会三连胜！中国男篮大胜菲律宾，小组第一出线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "山东体育休闲频道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国男篮亚运会三连胜晋级八强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "体坛周报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小组赛三连胜出线！中国男篮105-61大胜菲律宾 （编辑：CZQ） #中国男篮 #亚运会 #菲律宾男篮 #王俊杰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "广东体育频道",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上届亚运会半决赛，#中国男篮 遭菲律宾逆转淘汰。在今天结束的亚运会小组赛，中国男篮以105-61大胜对手，以三连胜获得小组出线。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#名古屋亚运 三连胜！#中国男篮头名出线 #中国男篮105-61大胜，送#菲律宾小组赛即被淘汰 ，报杭州亚运“一箭之仇”，小组赛全胜#晋级八强",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中国女足vs中国香港女足": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运女足小组赛第1轮 中国女足半场2比1领先 #中国女足 #亚运会",
+     "text": "国务院对中国船舶集团青岛北海造船有限公司“9·10”重大火灾事故提级调查",
      "likes": 0,
      "hot": 0
     }
@@ -260,12 +285,12 @@
      "hot": 0
     },
     {
-     "name": "叫我小沝(zǐ)子",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "电竞熊猫酱",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "好想这样“忙”13天！ #转场 #telephone转场 #请选择你的请3休13心动目的地 #我的秋日限定 #我的秋日慢充旅行",
+     "text": "只有请3休13才能得到真正的全国落地签啊！#请选择你的请3休13心动目的地 #我的秋日限定 #我的秋日慢充旅行",
      "likes": 0,
      "hot": 0
     },
@@ -374,765 +399,64 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "文物里的长征故事": {
+  "胡塞武装对沙特空军基地发动打击": {
    "stats": {},
    "authors": [
     {
-     "name": "起点新闻",
+     "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "文物里的长征故事｜“红军锅”见证军民鱼水情深 在陕西延安吴起县，有一口特殊的“红军锅”。说它是口锅，其实是一口普通的农家水缸。1935 年 10 月，历经千难万",
+     "text": "#媒体原创也门胡塞武装发言人9月14日表示，过去5天内，沙特出动F-15战机和“台风”战机发动了300余次空袭，袭击了也门大部分省份。作为回应，胡塞武装打击了沙",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "今视频长天新闻",
+     "name": "央视军事",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "于都老红军手写83页回忆录讲述长征故事。 珍藏70年长征回忆录手稿首次亮相，老红军李金生1955年亲笔撰写，记录走过的漫漫长征，由其侄子保存在于都家乡。#长征文",
+     "text": "作为回应，也门胡塞武装对沙特空军基地发起大规模军事行动（新闻直播间）#中东局势 #红海 #f15",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "湖北日报",
+     "name": "大众新闻-大众日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爷爷腾出房子，让红二十五军住进家里。军政委吴焕先中弹负伤后，被抬到这里抢救。红军走时没什么东西可送，留下一只手电筒，三代人珍藏至今。（记者：董凤龙、鲁腾、余宽宏",
+     "text": "胡塞对沙特空军基地发动大规模打击，称沙特5天空袭也门300多次 这是回应！所有打击均精准命中目标，并给该基地造成了重大损失（CCTV国际时讯）#沙特 #也门 #",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "曼联0:1曼城": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【英超独家】逆境之下魔人发威！福登红牌下场，少打一人的曼城凭借哈兰德抢点破门，在老特拉福德赢下首轮 曼市德比！#曼联0比1曼城 #哈兰德 #曼市德比 #英超 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【英超独家】多纳鲁马最后时刻神扑，哈兰德打进唯一进球，曼城1比0曼联联赛4连胜，詹俊：马雷斯卡有能名帅。#多纳鲁马最后时刻神扑 #曼联0比1曼城 #曼城联赛4连",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "英超官方承认，哈兰德判罚有失误，曼城1:0击败曼联#陈晓睿#英超承认哈兰德判罚有失误",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汉青书半霍去病",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "曼联0-1曼城，明明多打一人却是耻辱性地完败….裁判你又抢戏了。 #曼联 #曼城 #马雷斯卡 #哈兰德 #英超",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海口观察",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "曼城1比0击败曼联 哈兰德打进全场唯一进球 8场进9球！哈兰德加冕英超曼巿德比最佳射手！#曼城",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "网红暴躁的小张姥娘离世": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "暴躁的小张",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "姥娘于公历2026年9月13日19点骤然辞世，一生勤劳善良，勤俭持家，护佑子女平安成长，万般不舍，却无力回天，往后只能与思念中相见，愿姥娘安息，一路走好！#悼念",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月14日报道，#暴躁的小张姥娘离世 ： 姥娘骤然辞世，万般不舍却无力回天，账号两天前还发布了姥娘的视频。#田姥姥留言送别姥娘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 700万粉丝网红“暴躁的小张”突发讣告：83岁姥姥骤然离世。其两年前曾突发心梗住院，常与千万粉丝网红“田姥姥”合拍视频，田姥姥留言：老姐姐一路走好。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁老皮特",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们敬爱的“亲曼”姥姥于2026年9月13日与世长辞，永远的离开了我们……您长眠，吾辈常念",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "网红“暴躁的小张”姥姥去世 在睡梦中安详地离开 家人:万般不舍 却无力回天 网红“田姥姥”IP已在山东: “老姐姐一路走好” （编辑:旺旺）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "在贷款和全款中选择拍同款": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "温温子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iPhone Duo 所有人尖叫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "该用户爱小雅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "心气全无#上学@豆豆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DJ黑皮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我先用上了 我男朋友给我在美国抢来的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lili",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新手机就是好用#换手机的1000个理由",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": ".",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "扒拉棍小魔仙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不好意思 #iphoneduo #用帅大叔特效记录日常所有人打开手机用帅大叔报备 #大叔的帅是一种感觉 #候车厅自拍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王大乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我先用上了，男朋友在美国直接发回来的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小A同学",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不好意思先用上了#iphoneduo",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Mermaid",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#iphone18",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "unforgettable",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#不要羡慕#iPhoneduo",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中国足球小将西班牙捧杯": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国足球小将",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#中国足球小将 乔治庆祝动作🤟🏻🤟🏻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "董路",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今晚巴塞罗那小将大聚餐！ 听说了吗？#中国足球小将西班牙捧杯 #董路",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国足球小将2018队在西班牙夺冠，9战全胜！三个月前2014队曾捧起“小世界杯”。中国足球的未来，值得期待！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国蓝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 九战全胜，点球击败梅西母队，中国足球小将2018队今晨西班牙夺冠，时隔三个月再次海外杯赛夺冠，韩承均荣膺赛事最佳射手和MVP。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "起点新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 中国足球小将2018队全胜战绩豪取西班牙BRAVA杯冠军！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "早春晴朗迎来收官": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "王曼昱登顶女单世界第一": {
    "stats": {},
-   "authors": [
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 WTT排名更新：王曼昱登顶世界第一！#精选主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年9月14日，国际乒联最新世界排名更新，王曼昱以9115分反超孙颖莎，登顶女单世界第一。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国际乒联更新第38周世界排名，王曼昱以9115积分登顶世界第一，此前瑞典大满贯夺冠曾说“给自己提提气”，走的每一步都算数，曼昱加油！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#王曼昱女单排名世界第一 】#王曼昱中国女乒历史第11位登顶者 9月14日，WTT澳门冠军赛结束后，王曼昱以9115分首次升至女单世界第一，孙颖莎以8975分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月14日（发布），王曼昱以9115分反超孙颖莎，登顶女单世界第一！终结莎莎连续50个月霸榜纪录。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今视频长天新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王曼昱 首次登顶女单世界第一！9115分力压#孙颖莎 ，此前拿下瑞典大满贯冠军后霸气比1指天！外战战绩亮眼 ，向超级全满贯发起冲击！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "鹤岗这顿四人餐十人够吃": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "刘雨鑫JASON",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑龙江鹤岗，本地人的宝藏小店，尝尝怎么样？ #人间烟火 #鹤岗 #东北菜 #宝藏小店 #肘子",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵雷我记得以儿子视角创作": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我的偶像巨顽皮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来赵雷都有儿子了，原来这首歌我们以前都理解错了...#赵雷我记得",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京时间",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创这才是最大的彩蛋！赵雷“没有信号”鸟巢演唱会完美收官，结束时抱着儿子谢幕，透露爆火的《我记得》这首歌是站在儿子的角度创作的。这也是赵雷的儿子首次公开出",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "原来上世纪国产电器就这么先进了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "福福",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "福福",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "B-北风",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "海尔什么时候重新做这款冰箱啊。我评论了@福福 的作品： 海尔有个黄色的小冰箱我好喜欢，现在都没有这种了[流泪]两层，上翻，下抽屉#海尔",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奈小妹",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我每天都坚持上网就是来看这些美好的视频#老辈子的洗碗机审美有多超前 #90年代居然已经在解放双手洗碗了 #原来上世纪国产电器就这么先进了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "给萌宠举办一场发布会": {
+  "曼联0:1曼城": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "姜乘澜新手套组明星阵容": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "姜乘澜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新手套组好啦！上线倒计时！！！ 项目创意策划 Project Creative: @姜乘澜工作室！（惯澜高手版） 造型 Styling: theBallroom",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "iOS 27明日正式更新": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "21世纪经济报道",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iOS 27明日凌晨正式更新，进一步优化液态玻璃设计，提升系统流畅度。苹果官网暂无AI相关功能介绍（编辑：杨浩凯）#iPhone18pro #iPhone",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "biubiubiu小猫朝我跑来": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "事与愿违",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "事与愿违",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吼吼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "吼吼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AAA忧郁男大ovo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哪只是特效",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "707",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "707",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Raintree",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Raintree",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "烫冰6",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "烫冰6",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天份",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天份",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我想睡个好觉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@鱼鱼（昭全游戏🥣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好可爱呀我现在每天就像这样走两下感觉特别通透二编:不要吵架呀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "離情別緒.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#biubiu",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我拥有世上最好的亲人": {
+  "中国足球小将西班牙捧杯": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "张真源的抖音太有感觉了": {
+  "网红暴躁的小张姥娘离世": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "绝不承认手机妈对我的印象": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "HYROX回应选手赛场失禁事件": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "威龙爆闪转场挑战": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "一瓯春定档0917": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "发明猪咪可爱颂的人简直是天才": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "怎么到处都是尴尬狗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "777",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "坐我车上干什么",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "10",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "把球还我我要回家了#我的同桌看起来有点尴尬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豪哥，梦想碎了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#同桌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "偶尔萌",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好尴尬 碰到和我一样的单身狗了#我的同桌看起来有点尴尬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鸡腿（手艺人版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我的同桌看起来有点尴尬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奶龙，梦想乐了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#健身 #健身打卡 #AR",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大凯家的法斗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "旁边的是啥狗？ #我的同桌看起来有点尴尬 #法斗 #法斗萌宠 #萌宠 #狗狗",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "南阳扣碗一口香到上头": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "BGM一响山河都有了宿命感": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "一代人有一代人的呆毛潮流": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "细扒兰香如故前6集细节": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "豆和小何的叨叨入戏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这些情感塑造的微小点真的很让人喜欢 #谭松韵 #刘学义 #新剧 #电视剧 #剧评",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "孩子第一次上学belike": {
+  "在贷款和全款中选择拍同款": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1142,42 +466,22 @@
    "authors": [],
    "lexicon": []
   },
-  "宋威龙寻找洲同学": {
+  "早春晴朗迎来收官": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "这一套不知道你顶不顶得住": {
+  "兰香如故林府人均舞王来的": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "兰香如故九皋这么美要迷死谁": {
+  "鹤岗这顿四人餐十人够吃": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "跟着李白游南京": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "当我不小心染上蔡徐坤审美穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "洛天依原创歌曲终冕发布": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "当我一口气看完一部动漫": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "来重庆的快乐从一碗小面开始": {
+  "赵雷我记得以儿子视角创作": {
    "stats": {},
    "authors": [],
    "lexicon": []
