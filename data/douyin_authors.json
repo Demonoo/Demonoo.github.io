@@ -1,11 +1,38 @@
 {
- "updated_at": "2026-09-16 04:46",
+ "updated_at": "2026-09-16 05:43",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
+ "topic_count": 50,
  "ok_count": 39,
  "lexicon_count": 0,
  "topics": {
+  "国台办：祖国统一大势不可阻挡": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "看台海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 国台办：我们欢迎台湾同胞为“两制”台湾方案提出意见建议#看台海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国三农发布",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国台办：祖国统一的大势不可阻挡，欢迎台湾同胞为“两制”台湾方案提出意见建议",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "赵家驹巨人之旅破纪录夺冠": {
    "stats": {},
    "authors": [
@@ -16,16 +43,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "赛后专访｜赵家驹：不再跑168公里以上组别赵家驹巨人之旅330夺冠，成绩65:55:22，刷新赛道纪录！330公里、24000米爬升，日夜煎熬，数次流鼻血，身体",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赵家驹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巨人之旅330公里，终于完成了……",
      "likes": 0,
      "hot": 0
     },
@@ -88,41 +105,14 @@
      "text": "#媒体原创 冲线现场！中国选手赵家驹 “巨人之旅330”越野赛夺冠 祝贺！",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "特种兵玩家准备开启快闪模式": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我有四个姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "突袭重庆找大姐之旅来啦 #欢乐一家人#旅游日常vlog",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "拉木小伙",
-     "verify": "",
-     "identity": "",
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "跨越3500公里，把和田切糕带到重庆来福士 #切糕 #记录真实生活#拉木#大学生重新定义游客照 #全国地标被大学生玩明白了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "罗得意",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "所有人都给我开始耍起 #特种兵玩家准备开启快闪模式 #国庆下一站 #国庆吃喝玩乐节 #国庆当然要出发 #周五开启假期倒计时",
+     "text": "#媒体原创 #媒体精选计划 #95后赵家驹赢得巨人之旅330中国首冠 用时65小时55分22秒刷新纪录 辍学做保安跑外卖终成\"中国耐力王\" #赵家驹跑完巨人之旅",
      "likes": 0,
      "hot": 0
     }
@@ -135,10 +125,72 @@
    "authors": [],
    "lexicon": []
   },
-  "首届辣门零食大赛": {
+  "国乒今日出征亚运会": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "看看新闻Knews",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奔赴亚运！中国体育代表团抵达名古屋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "曹巍",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带着国旗出征，带着平安回家。名古屋的赛场，愿你们顺顺利利，等你们凯旋。亚运加油！#国乒 #亚运会 #曹巍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今视频长天新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国乒乓球队清晨出征日本！#王楚钦 #孙颖莎 #王曼昱 压阵，启程前拍摄出征大合影！#国乒出征亚运会 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国蓝新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国乒启程出发本届亚运会！9月16日，孙颖莎王楚钦王曼昱身穿蓝色队服，现身机场好养眼！莎莎听到球迷喊加油 点头回应。王队出场自带“大哥气场”，排队时忍不住揉揉睡眼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月16日，北京。王励勤、秦志戬、肖战、王皓、马琳、邱贻可等人启程出征亚运会。#直击第一线 #文娱体万象观",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LuckyStar幸运星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凌晨四点 马龙送国乒出发名古屋亚运会 自己开车来回 总是默默的为这个集体付出着 乒坛第一爱集体的人 #马龙 #亚运会乒乓球 #国乒 #马龙乒坛历史第一人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "赵家驹夺冠后第一条抖音": {
    "stats": {},
@@ -160,63 +212,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "赢了！#赵家驹 #冠军 347公里，24000+爬升，用时65小时57分钟！打破赛会17年以来最快记录！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "西甲埃尔切2:3皇家马德里": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【西甲独家】有惊无险收下三分！姆巴佩无私分球助攻埃斯皮推射空门得手，皇马3比2绝杀埃尔切，本场姆总传射建功 #埃斯皮绝杀 #姆巴佩无私助攻 #埃尔切2比3皇家马",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "足球观众席",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神级换人，比赛最后时刻穆里尼奥换上埃斯皮，随后绝杀对手#足球的魅力#dou来足球季#穆里尼奥#皇马",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小周侃球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "碾压局！埃尔切vs皇马，居莱尔任意球直接破门！姆巴佩破门！ #皇马 #西甲 #居莱尔 #埃尔切vs皇马 #姆巴佩",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天蓝足球（赛事速报）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又玩这么刺激？焦点对决，埃尔切VS皇马！ #足球咕起来 #皇马 #姆巴佩 #dou来足球季 #天蓝足球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "足球观典",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "身价1.4亿的迪奥曼德终于有助攻了！！皇马队史最贵引援太难了！！皇马3：2补时绝杀埃尔切",
      "likes": 0,
      "hot": 0
     }
@@ -308,63 +303,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "日本一全球鹰无人侦察机坠毁": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本航空自卫队推测失联“全球鹰”无人机已坠毁 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看台海",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本一“全球鹰”无人机失联 推测已坠毁#看台海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本“全球鹰”无人侦察机坠毁，日方分析，事故原因可能是发动机等出现故障",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "前方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日方推定“全球鹰”无人侦察机已坠毁。（央视新闻）编辑：王王",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本推测失联“全球鹰”无人机已坠毁，日航空自卫队共有3架 据日本共同社15日晚报道，日本航空自卫队推测，当天下午失联的“全球鹰”无人侦察机已坠毁。 当地时间15",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "假期出游装箱倒计时": {
    "stats": {},
    "authors": [
@@ -439,6 +377,110 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "全国地标被大学生玩明白了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "拉木小伙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跨越3500公里，把和田切糕带到重庆来福士 #切糕 #记录真实生活#拉木#大学生重新定义游客照 #全国地标被大学生玩明白了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "想吃芝士了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来重庆我只干一件事 尝一下必吃榜#重庆轻轨 #吃轻轨 #全国地标被大学生玩明白了#大学生重新定义游客照",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "艾哟喂",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "是自绿的一天 #大学生 #全国地标被大学生玩明白了/#大学生重新定义游客照",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "花呗白条将不再列入默认支付选项": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月30日起，花呗 白条等平台月付将退出支付选项，“顺手借出来的钱”有人替你取消了，我们仍等待关闭月付和开通一样简单。（编辑：ZH）#精选主播说 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再也不用担心手滑点错了！9月30日起 #花呗月付将退出常规支付选项 强制区隔，分区独立展示！想用信贷产品付款需主动勾选",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鄂尔多斯观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "付款页面大调整，9月30日起支付与信贷彻底分开。#金融新规 #花呗 #无感借贷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "合肥新站区",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月30日起，花呗、白条等不再列入默认支付选项",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“平台月付将退出支付选项”冲上热搜 9月30日起，花呗、白条、月付等金融产品将与支付工具迎来强制区隔，用户需主动点击才能了解。据21世纪经济报道，支付场景的金融",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再也不用担心手滑点错了！9月30日起！花呗、白条、月付等将退出常规支付选项，强制区隔！分区独立展示！想用信贷产品付款需主动勾选#一财情报局#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "平陆运河建成通航": {
    "stats": {},
    "authors": [
@@ -506,214 +548,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "祝贺赵家驹破纪录夺冠": {
+  "花16万可买站务员工作系谣言": {
    "stats": {},
    "authors": [
     {
-     "name": "WanderMountainSummit",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜赵家驹夺冠！！！破记录！！！65小时55分22秒，穿越330公里阿尔卑斯山区，在25座高山垭口与超过24000米爬升中，把极限再次推向新的高度。 冠军不是瞬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亚薇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赢了！#赵家驹 #冠军 347公里，24000+爬升，用时65小时57分钟！打破赛会17年以来最快记录！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
+     "name": "人民网江苏",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 冲线现场！中国选手赵家驹 “巨人之旅330”越野赛夺冠 祝贺！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "65小时55分22秒！世界最艰难越野赛中国选手赵家驹破纪录夺冠 #媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "创造亚洲历史！赵家驹巨人之旅330公里，65小时55分22秒破纪录夺冠",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "全国地标被大学生玩明白了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "拉木小伙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跨越3500公里，把和田切糕带到重庆来福士 #切糕 #记录真实生活#拉木#大学生重新定义游客照 #全国地标被大学生玩明白了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "想吃芝士了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来重庆我只干一件事 尝一下必吃榜#重庆轻轨 #吃轻轨 #全国地标被大学生玩明白了#大学生重新定义游客照",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "艾哟喂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是自绿的一天 #大学生 #全国地标被大学生玩明白了/#大学生重新定义游客照",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国乒今日出征亚运会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "看看新闻Knews",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奔赴亚运！中国体育代表团抵达名古屋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曹巍",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带着国旗出征，带着平安回家。名古屋的赛场，愿你们顺顺利利，等你们凯旋。亚运加油！#国乒 #亚运会 #曹巍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "全时体育all sports（综合资讯）",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王励勤领衔国乒全队出发名古屋亚运会#孙颖莎 #国乒出征 #王楚钦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 本次亚运会，国乒男队派出王楚钦领衔的“一老带四新”阵容。王楚钦：本次封闭集训更多是在补基础，让自己逐渐恢复到一个比较好的状态。（央视频号：总台电视资",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国蓝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国乒启程出发本届亚运会！9月16日，孙颖莎王楚钦王曼昱身穿蓝色队服，现身机场好养眼！莎莎听到球迷喊加油 点头回应。王队出场自带“大哥气场”，排队时忍不住揉揉睡眼",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李在明支持率连续9周下滑": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "韩国总统李在明支持率连续9周下滑，创上任以来新低",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月14日，韩国总统李在明支持率连续9周下滑，支持率为33.8%，是其去年6月上任以来新低",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "马龙曹巍等众将送国乒出征": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "曹巍",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带着国旗出征，带着平安回家。名古屋的赛场，愿你们顺顺利利，等你们凯旋。亚运加油！#国乒 #亚运会 #曹巍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牛冠凯",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会出发！加油！冲冲冲！ #2026名古屋亚运会 #乒乓球 #国乒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LuckyStar幸运星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "凌晨四点 马龙送国乒出发名古屋亚运会 自己开车来回 总是默默的为这个集体付出着 乒坛第一爱集体的人 #马龙 #亚运会乒乓球 #国乒 #马龙乒坛历史第一人",
+     "text": "花16万元买一个地铁站务员的工作？辟谣：相关信息背离事实、误导公众，苏州地铁招聘过程中不收取任何费用",
      "likes": 0,
      "hot": 0
     }
@@ -785,6 +629,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "马龙曹巍等众将送国乒出征": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "曹巍",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带着国旗出征，带着平安回家。名古屋的赛场，愿你们顺顺利利，等你们凯旋。亚运加油！#国乒 #亚运会 #曹巍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "牛冠凯",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会出发！加油！冲冲冲！ #2026名古屋亚运会 #乒乓球 #国乒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LuckyStar幸运星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凌晨四点 马龙送国乒出发名古屋亚运会 自己开车来回 总是默默的为这个集体付出着 乒坛第一爱集体的人 #马龙 #亚运会乒乓球 #国乒 #马龙乒坛历史第一人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "兰香如故热度破30000": {
    "stats": {},
    "authors": [
@@ -822,157 +703,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "赵露思新剧告别信正式官宣": {
+  "伊普斯维奇2:4阿森纳": {
    "stats": {},
    "authors": [
     {
-     "name": "明星娱乐一线",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#赵露思 新剧自导自演，终于正式官宣告别信了，露思快2年了终于又要进组了！期待！！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 赵露思官宣新剧《告别信》，首次同时担任导演与主演，工作室：导演赵露思你好，初次见面请多指教，#赵露思",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风芒新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赵露思将解锁新身份，新剧《告别信》正式官宣，她将同时出任导演和领衔主演#赵露思",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "兰香如故抖音追剧团": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我是豹子姐",
+     "name": "新爱体育直播",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "兰香如故全员来啦！看看大家的状态怎么样 #兰香如故 #兰香如故抖音追剧团 #谭松韵 #刘学义",
+     "text": "天赋溢出屏幕！16岁道曼一条龙油炸丸子过人破门+梅开二度，阿森纳4-2客胜伊镇晋级联赛杯16强 #道曼 #阿森纳 #伊普斯维奇 #联赛杯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "娱乐圈小蜜",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谭松韵刘学义同框剧宣 俊男靓女好养眼 这对cp感如何？#谭松韵 #刘学义 #兰香如故 #兰香如故抖音追剧团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "酒酿熊子",
+     "name": "天蓝足球（赛事速报）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我滴神啊谭松韵白到发光了…… #谭松韵 #兰香如故 #兰香如故抖音追剧团 #谭松韵剧宣 这就是气质如兰吧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "不去焦虑还未发生的事": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "A7",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
+     "text": "道曼双响！英联杯第三轮，伊普斯维奇VS阿森纳！ #英联杯 #阿森纳 #伊普斯维奇 #足球咕起来 #dou来足球季",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "2^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "￴￴￴￴ ￴ ᅟ ￴ ￴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候可以改掉事情还没发生就焦虑的坏习惯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "HelloKitty",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯#焦虑 #阳光下的公交#情绪 #提前焦虑就是自我内耗 @DOU+上热门 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "林一艾米新剧灵魂交换": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "艾米",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#阿禅 我重生了，这一次我变成了@林一 ？！🫣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林一",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#阿禅 🤯我怎么被迫切号成...@艾米 了？！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电视剧阿禅（时间冻结版",
+     "name": "咪咕足球",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#阿禅首发预告 纵使结局早已写定，我们仍要在每次循环里，倾覆所有既定 #阿禅 陈艾米（#艾米 ）#林一 （按姓氏笔画排序）#酷的2027年度片单",
+     "text": "天赋溢出屏幕！16岁道曼开场抓住对手失误一条龙闪击破门，下半场接苏维门迪传球，轻松梅开二度！#道曼梅开二度 #阿森纳vs伊普斯维奇 #dou来足球季 #联赛杯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小乃侃球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "3线6连胜！阿森纳4-2伊普斯维奇!进英联杯16强 道曼双响 #阿森纳 #伊普斯维奇 #英联杯 #dou来足球季 #伊普斯维奇vs阿森纳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英伦足球大叔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "英联杯第三轮 伊普斯维奇vs阿森纳 #阿森纳 #足球赛事 #英联杯 #足球 #足球的魅力",
      "likes": 0,
      "hot": 0
     }
@@ -980,51 +760,118 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "杨洋日常这个萌": {
+  "引力一号遥三运载火箭发射成功": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一箭九星！引力一号遥三运载火箭发射成功。（总台中国之声记者 张棉棉）#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全球最大固体火箭引力一号，堆叠9星入轨海上发射圆满成功 #引力一号",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐鲁频道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "近距离！震撼原声！引力一号遥三运载火箭，在东海比了个耶~9月16日，由烟台海阳东方航天港总装出厂的引力一号（遥三）运载火箭，在我国东海海域点火升空，成功将搭载的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一箭九星，感受原声震撼！引力一号遥三运载火箭发射成功。祝贺！（总台记者 杨弘杨 拍摄 郭金祺 司文馨 郭鹏晖）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "空天逐梦",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全球最大固体火箭引力一号成功发射一箭九星！#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "酷的2027年度片单": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "向咪许愿一个iPhone 18": {
+  "外交部回应当前中日关系问题": {
    "stats": {},
    "authors": [
     {
-     "name": "生菜°",
-     "verify": "",
-     "identity": "",
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "音频原创作者@垃圾堆里的小狗",
+     "text": "【#蓝厅见 】日本代表团访华 外交部为何重申中日关系症结所在？#媒体原创 #抖音精选计划 #精选主播说",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "垃圾堆里的小狗",
-     "verify": "",
-     "identity": "",
+     "name": "中国日报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#流浪猫也有被爱（被骚扰）的权利 用原声请艾特原创谢谢☺️",
+     "text": "外交部发言人郭嘉昆15日在例行记者会上答问时表示，中国外交部部长助理刘彬14日会见来华访问的日中友好议员联盟青年议员代表团。中方强调，日本首相高市早苗涉台错误言",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "金刚堆堆",
-     "verify": "",
-     "identity": "",
+     "name": "光明网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你兜里有钱没？",
+     "text": "外交部：高市早苗涉台错误言行是当前中日关系面临严重困难的最大症结",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "我是奶泷",
-     "verify": "",
-     "identity": "",
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#压力一只小猫咪 #干饭橘猫 #iphone18",
+     "text": "外交部：日本首相高市早苗涉台错误言行是当前中日关系面临严重困难的最大症结。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "外交部：高市早苗涉台错误言行是当前中日关系面临严重困难的最大症结",
      "likes": 0,
      "hot": 0
     }
@@ -1036,201 +883,6 @@
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "兰香如故的野心女子图鉴": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "云从星来",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“敬她们蓬勃向上的生命力。” #兰香如故 #谭松韵 #女性群像 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白衣不见-",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“世道艰辛，女子之间的情谊更显珍贵！” #兰香如故 #混剪产粮团 #许兰香 #赵星棠 #薛桂花",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蒙娜丽鲨鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“倘若她们都不信命呢？”【女子群像】 #兰香如故 #谭松韵 #了不起的混剪团 #混剪产粮团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "陈都灵陈靖可邀你进入玩偶世界": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "陈都灵",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "遵守规则？我即是规则 #今天也没变成玩偶呢 #白幼薇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陈靖可",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拼尽全力，我会守护好自己身边的人 #今天也没变成玩偶呢 #沈墨",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李梦本人也被马闻远美到了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "星闻壹线",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李梦坦白完全被马闻远美貌征服 #兰香如故 #李梦 #兰香如故抖音追剧团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "泠青沼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我要笑鼠了🤣#兰香如故 #李梦 #马闻远 @抖音媒体内容优推官 @抖音电视剧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "你就承认你的压力来源了吧": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我不是变态",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈哈哈哈哈服 #矛盾#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "偷狗也要养你",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "偷狗也要养你",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一二",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一二",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鸽师傅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "鸽师傅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝟳𝙞𝙖𝙣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "破如防",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "开朗的爱坤男孩（太美版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "笑了 #今天的精神面貌 #下班日常记录",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "22冠军套即将上线手瓦": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "里昂亮（无畏契约手游）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9.24日限定套装【22冠军套】局内超前爆料抢先看 #手瓦22冠军套 #无畏契约手游 #手瓦展示品味 #手瓦豪一夏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋总不是总",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "22冠军套上线手瓦,局内实机抢鲜看！ #无畏契约手游 #手瓦22冠军套#手瓦豪一夏 #手瓦展示品味 #创作阶梯计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "探长（无畏契约手游）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "22冠军确定为手瓦新赛季护航套 这个终结特效奖杯，人人都能体验职业选手拿冠军的感觉了#无畏契约手游#手瓦22冠军套#手瓦展示品味#手瓦豪一夏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   },
   "本咪今天有点头大呢": {
    "stats": {},
@@ -1339,36 +991,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "用美食安利你的家乡": {
+  "赵露思新剧告别信正式官宣": {
    "stats": {},
    "authors": [
     {
-     "name": "日食记",
+     "name": "明星娱乐一线",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【薄荷排骨】薄荷入菜，连不爱的同事都抢着吃。#云南菜 #人在异乡胃在故乡 #抖音美食跟学大赛 #这也能开播",
+     "text": "#赵露思 新剧自导自演，终于正式官宣告别信了，露思快2年了终于又要进组了！期待！！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凤姐的菜",
-     "verify": "",
-     "identity": "",
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这样做的浇汁豆又香又嫩，做出来比大鱼大肉还要好吃#浇汁豆腐#家常美食#用美食安利你的家乡",
+     "text": "#媒体原创 赵露思官宣新剧《告别信》，首次同时担任导演与主演，工作室：导演赵露思你好，初次见面请多指教，#赵露思",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "烟火里的江西",
-     "verify": "",
-     "identity": "",
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "欢迎收看《烟火里的江西》家常美食“板栗烧鸡” #板栗烧鸡 #家常菜 #乡村美食 #用美食安利你的家乡 #烟火里的江西",
+     "text": "赵露思新剧《告别信》正式公布，将首次同时担任导演和领衔主演，作品改编自德国小说《十三封自杀告别信》，讲述女性谷底重生的荒诞治愈故事#媒体原创 #媒体精选计划 #",
      "likes": 0,
      "hot": 0
     }
@@ -1376,41 +1028,88 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "酷的2027年度片单": {
+  "不去焦虑还未发生的事": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "A7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "2^",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "￴￴￴￴ ￴ ᅟ ￴ ￴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候可以改掉事情还没发生就焦虑的坏习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "HelloKitty",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯#焦虑 #阳光下的公交#情绪 #提前焦虑就是自我内耗 @DOU+上热门 @DOU+小助手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "22冠军套即将上线手瓦": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "张卓尔三公小考夯爆了": {
+  "林一艾米新剧灵魂交换": {
    "stats": {},
    "authors": [
     {
-     "name": "披荆斩棘",
+     "name": "艾米",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿禅 我重生了，这一次我变成了@林一 ？！🫣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林一",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿禅 🤯我怎么被迫切号成...@艾米 了？！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电视剧阿禅（时间冻结版",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "孙楠、李光洁、王赫野、张卓尔、邵子恒组三公小考舞台《24个比利》。#披荆斩棘 #披荆斩棘2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋糕才不给你",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "披荆斩棘三公《24个比利》小考没有一个拖后腿的！ #王赫野 #李光洁 #邵子恒 #张卓尔#披荆斩棘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "追光侦探",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张卓尔你到底还有多少惊喜啊！#张卓尔 #披荆斩棘 #唱歌 #颜值 #张卓尔三公组队",
+     "text": "#阿禅首发预告 纵使结局早已写定，我们仍要在每次循环里，倾覆所有既定 #阿禅 陈艾米（#艾米 ）#林一 （按姓氏笔画排序）#酷的2027年度片单",
      "likes": 0,
      "hot": 0
     }
@@ -1455,36 +1154,472 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "第五人格新角色神童PV首曝": {
+  "向咪许愿一个iPhone 18": {
    "stats": {},
    "authors": [
     {
-     "name": "网易第五人格",
+     "name": "生菜°",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "音频原创作者@垃圾堆里的小狗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "垃圾堆里的小狗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#流浪猫也有被爱（被骚扰）的权利 用原声请艾特原创谢谢☺️",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金刚堆堆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你兜里有钱没？",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是奶泷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#压力一只小猫咪 #干饭橘猫 #iphone18",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "日本一全球鹰无人侦察机坠毁": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本航空自卫队推测失联“全球鹰”无人机已坠毁 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看台海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本一“全球鹰”无人机失联 推测已坠毁#看台海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "前方+",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日方推定“全球鹰”无人侦察机已坠毁。（央视新闻）编辑：王王",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本“全球鹰”无人侦察机坠毁，日方分析，事故原因可能是发动机等出现故障",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本推测失联“全球鹰”无人机已坠毁，日航空自卫队共有3架 据日本共同社15日晚报道，日本航空自卫队推测，当天下午失联的“全球鹰”无人侦察机已坠毁。 当地时间15",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "你就承认你的压力来源了吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不是变态",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈哈哈服 #矛盾#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "偷狗也要养你",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "偷狗也要养你",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一二",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一二",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鸽师傅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "鸽师傅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝟳𝙞𝙖𝙣",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "破如防",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "开朗的爱坤男孩（太美版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑了 #今天的精神面貌 #下班日常记录",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "陈都灵陈靖可邀你进入玩偶世界": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "陈都灵",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "遵守规则？我即是规则 #今天也没变成玩偶呢 #白幼薇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈靖可",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拼尽全力，我会守护好自己身边的人 #今天也没变成玩偶呢 #沈墨",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "杨洋日常这个萌": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "兰香如故的野心女子图鉴": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "云从星来",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“敬她们蓬勃向上的生命力。” #兰香如故 #谭松韵 #女性群像 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白衣不见-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“世道艰辛，女子之间的情谊更显珍贵！” #兰香如故 #混剪产粮团 #许兰香 #赵星棠 #薛桂花",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蒙娜丽鲨鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“倘若她们都不信命呢？”【女子群像】 #兰香如故 #谭松韵 #了不起的混剪团 #混剪产粮团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "用美食安利你的家乡": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "日食记",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【薄荷排骨】薄荷入菜，连不爱的同事都抢着吃。#云南菜 #人在异乡胃在故乡 #抖音美食跟学大赛 #这也能开播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤姐的菜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这样做的浇汁豆又香又嫩，做出来比大鱼大肉还要好吃#浇汁豆腐#家常美食#用美食安利你的家乡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "烟火里的江西",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欢迎收看《烟火里的江西》家常美食“板栗烧鸡” #板栗烧鸡 #家常菜 #乡村美食 #用美食安利你的家乡 #烟火里的江西",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "时尚主播们集结出招了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "首届辣门零食大赛": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "这一生能有几个秋天": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "岁月静好",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天，这一生能有多少值得怀念……#人生百味自己体会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "相遇就是缘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天，这一生能有多少值得怀念…",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "清 ღ 秋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天，这一生有多少值得怀念……#人生百味自己体会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "倾城之恋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天🍂，这一生有多少值得怀念……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "平凡🍀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天，这一生能有多少值得怀念……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天涯咫尺（71年猪）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天，这一生能有多少值得怀念…",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "坤…",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天🍂，这一生有多少值得怀念……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "隨缘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一生能有几个秋天，这一生有多少值得怀念，#岩壁旁的旅人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🐠～和伟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "于和伟#实力派演员#照片里的时光",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "兰香如故抖音追剧团": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我是豹子姐",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "全新【求生者】“神童”故事视频爆料： 鲜有岛民知道，那个常坐在北岸墓碑陪故友说话的孩子，曾是外界报纸争相报道的“神童”。他们只知无论唤他什么他都会抬头回应，仿佛",
+     "text": "兰香如故全员来啦！看看大家的状态怎么样 #兰香如故 #兰香如故抖音追剧团 #谭松韵 #刘学义",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "橘子小猫",
-     "verify": "",
-     "identity": "",
+     "name": "娱乐圈小蜜",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "没想到神童真是个善良小正太呀🥹 #第五人格 #第五人格亚运版本 #第五人格追光逐梦 #第五人格庄园速递 #第五人格神童",
+     "text": "谭松韵刘学义同框剧宣 俊男靓女好养眼 这对cp感如何？#谭松韵 #刘学义 #兰香如故 #兰香如故抖音追剧团",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小小小砸墨",
+     "name": "酒酿熊子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "原来神童并不是费费！新求生者神童故事PV爆料！#第五人格 #第五人格追光逐梦 #第五人格神童故事pv首曝 #第五人格亚运版本",
+     "text": "我滴神啊谭松韵白到发光了…… #谭松韵 #兰香如故 #兰香如故抖音追剧团 #谭松韵剧宣 这就是气质如兰吧",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "许你星河千里杀青": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "伊莫PC端正式上线": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "伊莫",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "S1赛季「逐风启程」——《伊莫》PC端今日上线 有些奇迹，潜藏于世界的角落。 它们是草木间悄然呼吸的生灵，是幽暗中翩跹引路的微光，是不经意间掠过云端的庞大巨影。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "功夫道鸽〔伊莫〕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "公测第一天千万不要浪费，保姆及开荒攻略带你完美必坑！ #伊莫 #伊莫s1赛季逐风启程 #伊莫新手攻略 #上精选APP看伊莫 #伊莫9月16日PC上线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "癫小二",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "伊莫公测保姆级开荒攻略！入坑不踩坑！伊莫公测开荒核心技巧 #游戏鉴赏家 #伊莫 #伊莫s1赛季逐风启程 #伊莫观察日记 #伊莫新手攻略",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "游戏大顽家",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Uzi 演绎热血名场面，伊莫大世界即刻开战 #uzi暴揍小黑子 #LOL #Uzi",
      "likes": 0,
      "hot": 0
     }
@@ -1509,7 +1644,12 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "豆包手机助手新版抢先体验": {
+  "请选择你的请3休13心动目的地": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "绝不承认手机妈对我的印象": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1621,96 +1761,63 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这一生能有几个秋天": {
+  "我也要开箱百元宝藏": {
    "stats": {},
    "authors": [
     {
-     "name": "岁月静好",
-     "verify": "",
-     "identity": "",
+     "name": "抖音美妆",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这一生能有几个秋天，这一生能有多少值得怀念……#人生百味自己体会",
+     "text": "百元预算能买到哪些真宝藏？这次小美把大家反复提名、认真分享的好物整理成宝藏杂志啦！最终从底妆、眼妆、唇妆、护肤等品类中选出了46件百元宝藏。来对答案，看看你常用",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "相遇就是缘",
+     "name": "Elvis增增",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这一生能有几个秋天，这一生能有多少值得怀念…",
+     "text": "百元盲盒VS贵妇盲盒大开箱 #我也要开箱百元宝藏 #抖音美妆宝藏 #抖音精选作者宠粉福利",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "燕麦系睡衣主理人上线": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "婷小小",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家好今天我是睡衣主理人哈哈哈 #燕麦系睡衣主理人上线 #燕麦系 #燕麦格雷 #秋上新 #越南鼓卡点舞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "清 ღ 秋",
+     "name": "桃子汽水",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这一生能有几个秋天，这一生有多少值得怀念……#人生百味自己体会",
+     "text": "我是睡衣主理人～ #燕麦系睡衣主理人上线#秋上新#燕麦系#燕麦格雷 #嘉桐摇舞蹈挑战",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "倾城之恋",
+     "name": "森系颖宝",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这一生能有几个秋天🍂，这一生有多少值得怀念……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "平凡🍀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一生能有几个秋天，这一生能有多少值得怀念……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天涯咫尺（71年猪）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一生能有几个秋天，这一生能有多少值得怀念…",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "坤…",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一生能有几个秋天🍂，这一生有多少值得怀念……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隨缘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一生能有几个秋天，这一生有多少值得怀念，#岩壁旁的旅人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🐠～和伟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "于和伟#实力派演员#照片里的时光",
+     "text": "唔唔～#嘉桐摇#燕麦系睡衣主理人上线#秋上新#燕麦系#燕麦格雷",
      "likes": 0,
      "hot": 0
     }
@@ -1775,86 +1882,44 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "时尚主播们集结出招了": {
+  "特种兵玩家准备开启快闪模式": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "我有四个姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "突袭重庆找大姐之旅来啦 #欢乐一家人#旅游日常vlog",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拉木小伙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跨越3500公里，把和田切糕带到重庆来福士 #切糕 #记录真实生活#拉木#大学生重新定义游客照 #全国地标被大学生玩明白了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "罗得意",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人都给我开始耍起 #特种兵玩家准备开启快闪模式 #国庆下一站 #国庆吃喝玩乐节 #国庆当然要出发 #周五开启假期倒计时",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "公瑾爆蛋火锅版": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我也要开箱百元宝藏": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音美妆",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "百元预算能买到哪些真宝藏？这次小美把大家反复提名、认真分享的好物整理成宝藏杂志啦！最终从底妆、眼妆、唇妆、护肤等品类中选出了46件百元宝藏。来对答案，看看你常用",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Elvis增增",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "百元盲盒VS贵妇盲盒大开箱 #我也要开箱百元宝藏 #抖音美妆宝藏 #抖音精选作者宠粉福利",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "燕麦系睡衣主理人上线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "婷小小",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家好今天我是睡衣主理人哈哈哈 #燕麦系睡衣主理人上线 #燕麦系 #燕麦格雷 #秋上新 #越南鼓卡点舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "森系颖宝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唔唔～#嘉桐摇#燕麦系睡衣主理人上线#秋上新#燕麦系#燕麦格雷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桃子汽水",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我是睡衣主理人～ #燕麦系睡衣主理人上线#秋上新#燕麦系#燕麦格雷 #嘉桐摇舞蹈挑战",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "鹤岗这顿四人餐十人够吃": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "燕麦系部落格女孩": {
    "stats": {},
    "authors": [],
    "lexicon": []
