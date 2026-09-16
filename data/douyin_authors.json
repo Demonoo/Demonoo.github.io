@@ -1,11 +1,38 @@
 {
- "updated_at": "2026-09-16 07:44",
+ "updated_at": "2026-09-16 08:43",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 37,
+ "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
+  "中国男篮vs沙特": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "今视频长天新闻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运男篮1/4 决赛｜中国男篮迎战沙特阿拉伯男篮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国男篮八强迎战沙特 淘汰赛多重看点值得期待 中国男篮迎战沙特 半决赛有望迎来海峡德比 #亚运会 #中国男篮",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "赵家驹巨人之旅破纪录夺冠": {
    "stats": {},
    "authors": [
@@ -80,49 +107,22 @@
      "hot": 0
     },
     {
+     "name": "津云",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 65小时跑完330公里 赵家驹为什么能夺冠？（津云主播 孟繁达）#媒体精选计划 #赵家驹 #越野跑 #赵家驹夺冠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "创造亚洲历史！赵家驹巨人之旅330公里，65小时55分22秒破纪录夺冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "65小时55分22秒！世界最艰难越野赛中国选手赵家驹破纪录夺冠 #媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中国男篮vs沙特": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "今视频长天新闻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运男篮1/4 决赛｜中国男篮迎战沙特阿拉伯男篮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国男篮八强迎战沙特 淘汰赛多重看点值得期待 中国男篮迎战沙特 半决赛有望迎来海峡德比 #亚运会 #中国男篮",
      "likes": 0,
      "hot": 0
     }
@@ -140,6 +140,46 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#3分钟读懂平陆运河如何通江达海 #平陆运河背后的硬核数字",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "平陆运河今日正式通航！AI 漫剧《平陆沧澜录：通江达海》带你以东方神话演绎世纪工程，看河灵少年通江达海，解锁大国水运智慧。 #媒体精选计划 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "工人日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #新中国首条通江达海运河 ，#平陆运河 总体设计技术负责人回忆开工时刻：有种热血沸腾的感觉！（工人日报记者 蒋菡） #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月16日，平陆运河正式通航！这是新中国成立以来建造的第一条通江达海的运河。耗时4年建设，总投资700多亿元。这样一条运河能带来怎样的经济效益？听平",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#平陆运河 今天通航! 从北到南，134.2公里的世纪工程，#新闻深一度 带你一起看。",
      "likes": 0,
      "hot": 0
     }
@@ -234,43 +274,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "赢了！#赵家驹 #冠军 347公里，24000+爬升，用时65小时57分钟！打破赛会17年以来最快记录！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一口气带你了解平陆运河": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "星球研究所",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国地图，多了一点！ 这是新中国第一条通江达海的大运河，平陆运河。有了它，广西甚至大西南从此便多了一条更近、更快的出海通道。#平陆运河 #拍一拍身边的地理 #全",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻联播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "平陆运河正式通航！这条世纪运河刷新多项建设纪录，揽获多项“之最”。跟随我们，从起点到终点，把134.2公里的风景尽收眼底。#联播一瞬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一年省出70个西湖！新中国首个通江达海大运河有多重要？ 727 亿、4 年时间、2 万多名建设者，开挖的土石方相当于 3 个三峡工程 —— 这是新中国成立以来第",
      "likes": 0,
      "hot": 0
     }
@@ -436,12 +439,131 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "今年秋天都在穿条纹": {
+  "花呗白条将不再列入默认支付选项": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月30日起，花呗 白条等平台月付将退出支付选项，“顺手借出来的钱”有人替你取消了，我们仍等待关闭月付和开通一样简单。（编辑：ZH）#精选主播说 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "湖南卫视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 花呗 白条 月付将从付款页面“搬家” 八部门新规9月30日起实施#精选主播说#芒果主播评#支付#花呗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再也不用担心手滑点错了！9月30日起 #花呗月付将退出常规支付选项 强制区隔，分区独立展示！想用信贷产品付款需主动勾选",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鄂尔多斯观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "付款页面大调整，9月30日起支付与信贷彻底分开。#金融新规 #花呗 #无感借贷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "多平台回应月付将退出支付选项 9月15日，平台月付将退出支付选项话题登上热搜。针对该消息，支付宝、美团、抖音、京东等多家平台客服均回应记者称，目前未接到相关通知",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月30日起，花呗、白条、月付等金融产品将与支付工具迎来强制区隔，不再列入默认支付选项！用户需主动点击才能了解。 9月15日，话题“平台月付将退出支付选项”冲上",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "时尚主播们集结出招了": {
+  "世界越野跑冠军赵家驹是谁": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爬升高度堪比3座珠峰!世界越野跑冠军赵家驹是谁？ 当过保安 做过外卖小哥 每天能挣100元都觉得幸#媒体原创#赵家驹巨人之旅破纪录夺冠 #赵家驹夺冠后第一条抖音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "斯巴达勇士赛SpartanRace",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“ 站上起点，我就要证明自己是天下第一！” 赵家驹创造历史！ 斯巴达超兽冠军勇士、超兽世锦赛中国男子纪录保持者@赵家驹 用时65:55:22，在阿尔卑斯群山之间",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "创造亚洲历史！赵家驹巨人之旅330公里，65小时55分22秒破纪录夺冠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "65小时55分22秒！世界最艰难越野赛中国选手赵家驹破纪录夺冠 #媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 冲线现场！中国选手赵家驹 “巨人之旅330”越野赛夺冠 祝贺！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "今年秋天都在穿条纹": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -473,6 +595,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "国台办发言人回应《参考消息》记者提问：祖国统一的大势不可阻挡#媒体原创 #国台办",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海峡新干线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国台办:祖国统一的大势滚滚向前 不可阻挡 #海峡新干线",
      "likes": 0,
      "hot": 0
     },
@@ -524,22 +656,32 @@
      "hot": 0
     },
     {
+     "name": "司寇眈眈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "灵魂附体变身宠物伙伴，大世界捉宠游戏还能这么玩！ #伊莫 #伊莫s1赛季逐风启程 #游戏鉴赏家#伊莫9月16日PC上线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "癫小二",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "伊莫公测保姆级开荒攻略！入坑不踩坑！伊莫公测开荒核心技巧 #游戏鉴赏家 #伊莫 #伊莫s1赛季逐风启程 #伊莫观察日记 #伊莫新手攻略",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "老青椒",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "【乐子快爆】捉宠赛道即将迎来全面洗牌！ 黑马频出他能笑到最后吗？#伊莫 #伊莫s1赛季逐风启程 #游戏鉴赏家#伊莫9月16日PC上线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "十万个挑战",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "千人捉宠挑战赛！胜利阵营瓜分10亿金币！ #伊莫 #伊莫S1赛季逐风启程 #伊莫9月16日PC上线 #十万个挑战 #AI创作",
      "likes": 0,
      "hot": 0
     }
@@ -601,6 +743,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "一口气带你了解平陆运河": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "星球研究所",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国地图，多了一点！ 这是新中国第一条通江达海的大运河，平陆运河。有了它，广西甚至大西南从此便多了一条更近、更快的出海通道。#平陆运河 #拍一拍身边的地理 #全",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "平陆运河正式通航！这条世纪运河刷新多项建设纪录，揽获多项“之最”。跟随我们，从起点到终点，把134.2公里的风景尽收眼底。#联播一瞬",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一年省出70个西湖！新中国首个通江达海大运河有多重要？ 727 亿、4 年时间、2 万多名建设者，开挖的土石方相当于 3 个三峡工程 —— 这是新中国成立以来第",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "不要吝啬对孩子说我爱你": {
    "stats": {},
    "authors": [
@@ -631,285 +810,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "孩子的内心细腻且柔软，永远不要吝啬对孩子说“我爱你”。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "兰香如故热度破30000": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧兰香如故（火热播出中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#兰香如故 站内热度破30000🔥感谢「香」亲们的喜爱❤️哒～",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "腾讯视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#兰香如故 🌼站内热度破30000🔥进入爆款俱乐部🎉人间烟火🔛众生百态☺️满庭好戏全家福❗️感恩陪伴，共赴温情✨#谭松韵 #刘学义 #电视剧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "剪了个瓜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#兰香如故热度破30000 谭松韵、刘学义《兰香如故》热度破30000，登爆款俱乐部！目前，男女主感情线还没展开，男二还没登场，女主的事业线也还没大幅推进～很难",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "花呗白条将不再列入默认支付选项": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "国+社区",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 9月30日起，花呗 白条等平台月付将退出支付选项，“顺手借出来的钱”有人替你取消了，我们仍等待关闭月付和开通一样简单。（编辑：ZH）#精选主播说 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "再也不用担心手滑点错了！9月30日起 #花呗月付将退出常规支付选项 强制区隔，分区独立展示！想用信贷产品付款需主动勾选",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鄂尔多斯观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "付款页面大调整，9月30日起支付与信贷彻底分开。#金融新规 #花呗 #无感借贷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“平台月付将退出支付选项”冲上热搜 9月30日起，花呗、白条、月付等金融产品将与支付工具迎来强制区隔，用户需主动点击才能了解。据21世纪经济报道，支付场景的金融",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "合肥新站区",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月30日起，花呗、白条等不再列入默认支付选项",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "酷的2027年度片单": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "马龙曹巍等众将送国乒出征": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "曹巍",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带着国旗出征，带着平安回家。名古屋的赛场，愿你们顺顺利利，等你们凯旋。亚运加油！#国乒 #亚运会 #曹巍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牛冠凯",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会出发！加油！冲冲冲！ #2026名古屋亚运会 #乒乓球 #国乒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LuckyStar幸运星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "凌晨四点 马龙送国乒出发名古屋亚运会 自己开车来回 总是默默的为这个集体付出着 乒坛第一爱集体的人 #马龙 #亚运会乒乓球 #国乒 #马龙乒坛历史第一人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "香港公布首个五年规划": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社消息｜香港特区首个五年规划正式公布（记者：甄晓博、刘展威、许朗轩）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "直新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 9月16日，香港特区行政长官李家超正式公布《香港特别行政区经济和社会发展第一个五年规划（2026-2030年）》并发表特区行政长官2026年施政报告",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "香港第一个五年规划，今日正式公布 9月16日，香港特区行政长官李家超公布《香港第一个五年规划（2026-2030）》，并同时发表2026年《施政报告》。这是香港",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "香港特区政府16日正式公布《香港特别行政区经济和社会发展第一个五年规划（2026-2030年）》。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李家超公布香港第一个五年规划 #香港 #五年规划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "闯进动物的快乐星球": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "赵露思新剧告别信正式官宣": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "明星娱乐一线",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#赵露思 新剧自导自演，终于正式官宣告别信了，露思快2年了终于又要进组了！期待！！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 赵露思官宣新剧《告别信》，首次同时担任导演与主演，工作室：导演赵露思你好，初次见面请多指教，#赵露思",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月16日（发布）。赵露思新剧《告别信》正式官宣，首次担任导演并领衔主演，作品改编自德国作家科斯汀・吉尔原著小说《十三封自杀告别信》。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "雪迷宫2官宣原班人马": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐课代表孙小寒",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#雪迷宫2官宣原班人马 哈岚风雪再起真相待重寻#雪迷宫 #雪迷宫2 #黄景瑜 #王子奇",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵家驹赛中补给吃了啥": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "张伟强",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巨人之旅330公里104公里补给处 #巨人之旅 #越野赛 赵家驹实力领先于104公里补给站 @植电 @凯乐石FUGA@Rudy鲁迪眼镜 @Vibram@Suun",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "NuclearKitty在赛场",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【巨人之旅330 实况报道】 赵家驹打卡203公里补给点。这个站点，是他上一届巨人之旅的退赛之地。 今日他顺利进站休整20分钟，完成补给后出站，继续征战330公",
      "likes": 0,
      "hot": 0
     }
@@ -1024,6 +924,164 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "兰香如故热度破30000": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电视剧兰香如故（火热播出中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#兰香如故 站内热度破30000🔥感谢「香」亲们的喜爱❤️哒～",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "腾讯视频",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#兰香如故 🌼站内热度破30000🔥进入爆款俱乐部🎉人间烟火🔛众生百态☺️满庭好戏全家福❗️感恩陪伴，共赴温情✨#谭松韵 #刘学义 #电视剧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "剪了个瓜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#兰香如故热度破30000 谭松韵、刘学义《兰香如故》热度破30000，登爆款俱乐部！目前，男女主感情线还没展开，男二还没登场，女主的事业线也还没大幅推进～很难",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "酷的2027年度片单": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "马龙曹巍等众将送国乒出征": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "曹巍",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带着国旗出征，带着平安回家。名古屋的赛场，愿你们顺顺利利，等你们凯旋。亚运加油！#国乒 #亚运会 #曹巍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "牛冠凯",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会出发！加油！冲冲冲！ #2026名古屋亚运会 #乒乓球 #国乒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LuckyStar幸运星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凌晨四点 马龙送国乒出发名古屋亚运会 自己开车来回 总是默默的为这个集体付出着 乒坛第一爱集体的人 #马龙 #亚运会乒乓球 #国乒 #马龙乒坛历史第一人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "兰香如故的野心女子图鉴": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "云从星来",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“敬她们蓬勃向上的生命力。” #兰香如故 #谭松韵 #女性群像 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白衣不见-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“世道艰辛，女子之间的情谊更显珍贵！” #兰香如故 #混剪产粮团 #许兰香 #赵星棠 #薛桂花",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蒙娜丽鲨鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“倘若她们都不信命呢？”【女子群像】 #兰香如故 #谭松韵 #了不起的混剪团 #混剪产粮团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "闯进动物的快乐星球": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "赵露思新剧告别信正式官宣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "明星娱乐一线",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#赵露思 新剧自导自演，终于正式官宣告别信了，露思快2年了终于又要进组了！期待！！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月16日（发布）。赵露思新剧《告别信》正式官宣，首次担任导演并领衔主演，作品改编自德国作家科斯汀・吉尔原著小说《十三封自杀告别信》。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 赵露思官宣新剧《告别信》，首次同时担任导演与主演，工作室：导演赵露思你好，初次见面请多指教，#赵露思",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "向咪许愿一个iPhone 18": {
    "stats": {},
    "authors": [
@@ -1071,6 +1129,55 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "雪迷宫2官宣原班人马": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐课代表孙小寒",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#雪迷宫2官宣原班人马 哈岚风雪再起真相待重寻#雪迷宫 #雪迷宫2 #黄景瑜 #王子奇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "时尚主播们集结出招了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "赵家驹赛中补给吃了啥": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张伟强",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "巨人之旅330公里104公里补给处 #巨人之旅 #越野赛 赵家驹实力领先于104公里补给站 @植电 @凯乐石FUGA@Rudy鲁迪眼镜 @Vibram@Suun",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "NuclearKitty在赛场",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【巨人之旅330 实况报道】 赵家驹打卡203公里补给点。这个站点，是他上一届巨人之旅的退赛之地。 今日他顺利进站休整20分钟，完成补给后出站，继续征战330公",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "日本一全球鹰无人侦察机坠毁": {
    "stats": {},
    "authors": [
@@ -1085,22 +1192,12 @@
      "hot": 0
     },
     {
-     "name": "看台海",
+     "name": "荆楚网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "日本一“全球鹰”无人机失联 推测已坠毁#看台海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本“全球鹰”无人侦察机坠毁，日方分析，事故原因可能是发动机等出现故障",
+     "text": "日本推测失联“全球鹰”无人机已坠毁，日航空自卫队共有3架 据日本共同社15日晚报道，日本航空自卫队推测，当天下午失联的“全球鹰”无人侦察机已坠毁。 当地时间15",
      "likes": 0,
      "hot": 0
     },
@@ -1115,12 +1212,116 @@
      "hot": 0
     },
     {
-     "name": "荆楚网",
+     "name": "长江云新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "日本推测失联“全球鹰”无人机已坠毁，日航空自卫队共有3架 据日本共同社15日晚报道，日本航空自卫队推测，当天下午失联的“全球鹰”无人侦察机已坠毁。 当地时间15",
+     "text": "日本“全球鹰”无人侦察机坠毁，日方分析，事故原因可能是发动机等出现故障",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看台海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本一“全球鹰”无人机失联 推测已坠毁#看台海",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "跟着短剧演员学秋冬穿搭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "可可欧阳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我跟着短剧演员学穿搭，就会得到…#跟着短剧演员学秋冬穿搭 #当短剧穿搭回归现实#秋冬穿搭 #早秋穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "妖孽",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "转眼又是一年秋#跟着短剧演员学秋冬穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娱小癫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这也太适合普通打工人了！这波安利，我狂吃！#跟着短剧演员学秋冬穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "不去焦虑还未发生的事": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "A7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "2^",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "￴￴￴￴ ￴ ᅟ ￴ ￴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候可以改掉事情还没发生就焦虑的坏习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🥥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候才能改掉事情还没发生就焦虑的坏习惯#海边自由感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "HelloKitty",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯#焦虑 #阳光下的公交#情绪 #提前焦虑就是自我内耗 @DOU+上热门 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
@@ -1195,95 +1396,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "兰香如故的野心女子图鉴": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "云从星来",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“敬她们蓬勃向上的生命力。” #兰香如故 #谭松韵 #女性群像 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白衣不见-",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“世道艰辛，女子之间的情谊更显珍贵！” #兰香如故 #混剪产粮团 #许兰香 #赵星棠 #薛桂花",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蒙娜丽鲨鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“倘若她们都不信命呢？”【女子群像】 #兰香如故 #谭松韵 #了不起的混剪团 #混剪产粮团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "不去焦虑还未发生的事": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "A7",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "2^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "￴￴￴￴ ￴ ᅟ ￴ ￴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候可以改掉事情还没发生就焦虑的坏习惯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "HelloKitty",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩 什么时候能改掉事情还没发生就焦虑的坏习惯#焦虑 #阳光下的公交#情绪 #提前焦虑就是自我内耗 @DOU+上热门 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "许你星河千里杀青": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "早晚温差穿搭指南": {
    "stats": {},
    "authors": [
@@ -1321,36 +1433,133 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "林一艾米新剧灵魂交换": {
+  "本咪今天有点头大呢": {
    "stats": {},
    "authors": [
     {
-     "name": "艾米",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "泡芙崽崽🐱",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#阿禅 我重生了，这一次我变成了@林一 ？！🫣",
+     "text": "大头大头下雨不愁。#金渐层猫咪卖萌视频 #萌系表情猫 #金渐层猫咪卖萌 #大头特效 #萌系表情猫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "林一",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "我朋友叫旺财",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#阿禅 🤯我怎么被迫切号成...@艾米 了？！",
+     "text": "对不起，我自己先笑一会儿。#AI宠物微缩大头照 #抖音ai创作全新升级",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "电视剧阿禅（时间冻结版",
+     "name": "Boboo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI宠物微缩大头照 #抖音ai创作全新升级 #不敢骗你养小狗 #有了小狗搭子就不会无聊了 #谁能拒绝憨憨的小狗狗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "_-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI宠物微缩大头照 #抖音ai创作全新升级 我胖怎么那么可爱#阿拉斯加#阿拉斯猪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奶盖妹妹🐕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大头好可爱！！！！#AI宠物微缩大头照 #抖音ai创作全新升级 #本咪今天有点头大呢 #世界破烂小狗可可爱爱 #柯基",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一份煎蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太可爱喽。#AI宠物微缩大头照 #抖音ai创作全新升级 #被狗狗治愈的一天 #柴犬 #狗狗脑子里都在想什么",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "板栗是个跟屁虫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI宠物微缩大头照 #抖音ai创作全新升级",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你家隔壁的二柱子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "对郭咪来说大头特效也就那么一回事儿...因为本来头就很大#AI宠物微缩大头照 #抖音ai创作全新升级",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "懒💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "家有魔丸。#AI宠物微缩大头照",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一条是麻雀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在门外洗衣服，就这么萌萌地看我。#AI宠物微缩大头照 #抖音ai创作全新升级",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "玩偶剧先导预告正式发布": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "今天也没变成玩偶呢",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#阿禅首发预告 纵使结局早已写定，我们仍要在每次循环里，倾覆所有既定 #阿禅 陈艾米（#艾米 ）#林一 （按姓氏笔画排序）#酷的2027年度片单",
+     "text": "#酷的2027年度片单 玩偶游戏正式开启🔛是绝境还是新生 #今天也没变成玩偶呢先导预告 #今天也没变成玩偶呢",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娱乐报姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈都灵陈靖可今天也没变成玩偶呢先导预告一出来大事很妙！#今天也没变成玩偶呢 #陈都灵 #陈靖可 #白幼薇 #无限流",
      "likes": 0,
      "hot": 0
     }
@@ -1455,53 +1664,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "杨洋日常这个萌": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "本咪今天有点头大呢": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "陈都灵陈靖可邀你进入玩偶世界": {
+  "用美食安利你的家乡": {
    "stats": {},
    "authors": [
     {
-     "name": "陈都灵",
+     "name": "日食记",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "遵守规则？我即是规则 #今天也没变成玩偶呢 #白幼薇",
+     "text": "【薄荷排骨】薄荷入菜，连不爱的同事都抢着吃。#云南菜 #人在异乡胃在故乡 #抖音美食跟学大赛 #这也能开播",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "陈靖可",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拼尽全力，我会守护好自己身边的人 #今天也没变成玩偶呢 #沈墨",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "米兰集市1欧淘衣太快乐了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "思雨和姐姐Eve",
+     "name": "凤姐的菜",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一欧一件，我今天买了十几件嘿嘿 #姐姐 #生活 #米兰papiniano集市",
+     "text": "这样做的浇汁豆又香又嫩，做出来比大鱼大肉还要好吃#浇汁豆腐#家常美食#用美食安利你的家乡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "烟火里的江西",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欢迎收看《烟火里的江西》家常美食“板栗烧鸡” #板栗烧鸡 #家常菜 #乡村美食 #用美食安利你的家乡 #烟火里的江西",
      "likes": 0,
      "hot": 0
     }
@@ -1509,10 +1701,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我也要开箱百元宝藏": {
+  "林一艾米新剧灵魂交换": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "艾米",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿禅 我重生了，这一次我变成了@林一 ？！🫣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林一",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿禅 🤯我怎么被迫切号成...@艾米 了？！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电视剧阿禅（时间冻结版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿禅首发预告 纵使结局早已写定，我们仍要在每次循环里，倾覆所有既定 #阿禅 陈艾米（#艾米 ）#林一 （按姓氏笔画排序）#酷的2027年度片单",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "iOS27表现如何": {
    "stats": {},
@@ -1571,6 +1795,131 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "米兰集市1欧淘衣太快乐了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "思雨和姐姐Eve",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一欧一件，我今天买了十几件嘿嘿 #姐姐 #生活 #米兰papiniano集市",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我也要开箱百元宝藏": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音美妆",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "百元预算能买到哪些真宝藏？这次小美把大家反复提名、认真分享的好物整理成宝藏杂志啦！最终从底妆、眼妆、唇妆、护肤等品类中选出了46件百元宝藏。来对答案，看看你常用",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Elvis增增",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "百元盲盒VS贵妇盲盒大开箱 #我也要开箱百元宝藏 #抖音美妆宝藏 #抖音精选作者宠粉福利",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "特种兵玩家准备开启快闪模式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我有四个姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "突袭重庆找大姐之旅来啦 #欢乐一家人#旅游日常vlog",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拉木小伙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跨越3500公里，把和田切糕带到重庆来福士 #切糕 #记录真实生活#拉木#大学生重新定义游客照 #全国地标被大学生玩明白了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "罗得意",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人都给我开始耍起 #特种兵玩家准备开启快闪模式 #国庆下一站 #国庆吃喝玩乐节 #国庆当然要出发 #周五开启假期倒计时",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "公瑾爆蛋火锅版": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Renyi毅哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "穿越山城菜市场，感受秋天满配火锅的宵夜快乐！公瑾爆蛋盖浇饭加上3块8一盘的嫩肉片，辣涮土豆泥炸鸡腿也太惊艳了！#我选择火锅作为入秋仪式感 #火锅 #宵夜 #路边",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "鹤岗这顿四人餐十人够吃": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "刘雨鑫JASON",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黑龙江鹤岗，本地人的宝藏小店，尝尝怎么样？ #人间烟火 #鹤岗 #东北菜 #宝藏小店 #肘子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直播鹤岗",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "千万粉丝博主刘雨鑫来鹤岗 打卡宝泉岭宝藏小店 品尝地道东北菜 菜码大味道好 实惠到根本吃不完#鹤岗宝泉岭 #刘雨鑫打卡鹤岗 #鹤岗 #东北菜菜码大#好吃实惠",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "燕麦系睡衣主理人上线": {
    "stats": {},
    "authors": [
@@ -1613,62 +1962,47 @@
    "authors": [],
    "lexicon": []
   },
-  "用美食安利你的家乡": {
+  "燕麦系部落格女孩": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "特种兵玩家准备开启快闪模式": {
+  "南阳扣碗一口香到上头": {
    "stats": {},
    "authors": [
     {
-     "name": "我有四个姐",
-     "verify": "",
-     "identity": "",
+     "name": "二百者也",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "突袭重庆找大姐之旅来啦 #欢乐一家人#旅游日常vlog",
+     "text": "河南南阳开盲盒： 远郊小村香溢远，数家扣碗客来稠。#扣碗 #人间烟火 #地方特色美食 #二百者也",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "拉木小伙",
+     "name": "🌈鱼多多去下厨",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "跨越3500公里，把和田切糕带到重庆来福士 #切糕 #记录真实生活#拉木#大学生重新定义游客照 #全国地标被大学生玩明白了",
+     "text": "扣碗条子肉 在河南丈母娘家吃的蒸碗，今天还在回味，继续分享！#河南传统八大碗 #扣碗条子肉 #下饭硬菜推荐",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "罗得意",
+     "name": "咔咔就是炒(家常菜)",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "所有人都给我开始耍起 #特种兵玩家准备开启快闪模式 #国庆下一站 #国庆吃喝玩乐节 #国庆当然要出发 #周五开启假期倒计时",
+     "text": "河南宴席八大扣碗｜老式素扣碗豆腐，一扣瞬间香透了 河南八大扣碗里的素扣碗豆腐，老式宴席做法。老豆腐先炸定型，碗底铺上黄花菜、粉条，调好料汁上锅慢蒸 40 分钟。",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "公瑾爆蛋火锅版": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "鹤岗这顿四人餐十人够吃": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "燕麦系部落格女孩": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   }
  }
 }
