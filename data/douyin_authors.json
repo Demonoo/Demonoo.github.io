@@ -1,24 +1,14 @@
 {
- "updated_at": "2026-09-18 01:43",
+ "updated_at": "2026-09-18 03:43",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 44,
+ "ok_count": 43,
  "lexicon_count": 0,
  "topics": {
   "九一八事变爆发95周年": {
    "stats": {},
    "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "九一八事变爆发95周年｜勿忘国耻 吾辈自强",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "央视网",
      "verify": "红V",
@@ -40,12 +30,32 @@
      "hot": 0
     },
     {
+     "name": "国防部发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "九一八｜这一天，永不忘！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 九一八事变是日本蓄谋已久的侵略行为，然而95年前，日本媒体却将日军侵略粉饰成“被迫应战”“实施自卫”，用谎言蒙蔽本国民众。九一八的警钟长鸣，不仅是在",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "1931年9月18日，九一八事变爆发。95年过去，硝烟散尽，但血与泪的烙印永不能忘！以史为鉴，警钟长鸣。#媒体原创",
      "likes": 0,
      "hot": 0
     },
@@ -77,16 +87,6 @@
      "hot": 0
     },
     {
-     "name": "元气妹妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "读懂四川的浪漫，不止于烟火人间，更藏在川西甘孜的雪山旷野之间。#到四川就要耍起 #DIY我的川西调色盘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "荔枝小桃",
      "verify": "",
      "identity": "",
@@ -95,21 +95,36 @@
      "text": "想学功夫练仙术 国庆到四川 巴适得很！ #到四川就要耍起",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "元气妹妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "读懂四川的浪漫，不止于烟火人间，更藏在川西甘孜的雪山旷野之间。#到四川就要耍起 #DIY我的川西调色盘",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "我国绿色贸易进出口规模居全球首位": {
+  "十五五各地推进城市更新": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "秋冬外套一衣穿三季穿搭分享": {
    "stats": {},
    "authors": [
     {
-     "name": "经济日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "陈醉醉",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我国绿色贸易进出口规模居全球首位#贸易 #绿色贸易",
+     "text": "秋冬外套一衣穿三季 #基础版穿搭 #普通人韩女感速成穿搭 #被问爆的穿搭公式 #小裙子穿搭秋冬 #韩系层次感穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -174,23 +189,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秋冬外套一衣穿三季穿搭分享": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "陈醉醉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋冬外套一衣穿三季 #基础版穿搭 #普通人韩女感速成穿搭 #被问爆的穿搭公式 #小裙子穿搭秋冬 #韩系层次感穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "我们重复型人格遇到美食belike": {
    "stats": {},
    "authors": [
@@ -233,16 +231,100 @@
    "authors": [],
    "lexicon": []
   },
-  "载人飞碟亮相义乌售价约80万": {
+  "美军一架F16战斗机坠毁": {
    "stats": {},
    "authors": [
     {
-     "name": "纵览新闻",
+     "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "义乌开始卖“UFO”了！一台只要80万元。#精选主播说 #媒体精选计划",
+     "text": "美军一架F-16战斗机坠毁，飞行员弹射逃生，现场燃起熊熊大火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场画面 美军一架F-16战机坠毁燃起大火 飞行员弹射逃生#媒体原创 #美军战机坠毁 #F16战斗机 #弹射逃生 #燃起大火",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "无畏契约26冠军套实机演示曝光": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Gus",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026冠军套抢先体验展示 #无畏契约26冠军套 #Gus",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "超饿的晴乐（无畏契约GAME社区）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "26冠军套实机演示！先丢三把 #无畏契约 #无畏契约26冠军套 #无畏契约上海冠军赛 #讷瓦开学季 #无畏契约26冠军套",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "仁德king",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "26冠军套实机演示，终结特效夯爆了，看来必须得拿下了#瓦 #26冠军套",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "戏狗(无畏契约)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无畏契约2026冠军套实机演示来了！！高清 #无畏契约 #无畏契约26冠军套 #无畏契约上海冠军赛 #讷瓦开学季 #讷瓦世界",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "载人飞碟亮相义乌售价约80万": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "80万一台!义乌开始卖\"UFO\"了！能水陆两栖、垂直起降、支持自动驾驶，义乌商户:俄、美等海外客商很感兴趣，曾一笔订单卖出100架",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "80万一台！浙江义乌开始卖“UFO”了，能上天下海、垂直起降、支持自动驾驶。义乌商户：俄、美等海外客商很感兴趣，此前曾一笔就卖出100架",
      "likes": 0,
      "hot": 0
     },
@@ -257,146 +339,22 @@
      "hot": 0
     },
     {
-     "name": "都市现场",
+     "name": "闪电新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "80万一台！义乌开始卖“UFO”了，你会买吗？ #义乌开始卖UFO了 #义乌飞行器",
+     "text": "科幻电影照进现实！浙江义乌开始卖“UFO”了，售价80万元，可搭载1至2名乘客。#飞碟 #UFO #义乌",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "80万一台!义乌开始卖\"UFO\"了！能水陆两栖、垂直起降、支持自动驾驶，义乌商户:俄、美等海外客商很感兴趣，曾一笔订单卖出100架",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今日关注",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来打卡！“载人飞碟”可上天、下水，支持自动驾驶，售价约80万，你心动了吗？（义乌市融媒体中心 义乌发布）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "日本改组内阁名单公布": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "速瞰天下",
+     "name": "齐鲁晚报·果然视频",
      "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "高市早苗内阁调整，日本右翼口中的“亲华派”林芳正离任。林芳正实际上在下一步大棋。#林芳正 #日本内阁改组 #零基础看懂全球 #全球创作者计划#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "日本首相高市早苗17日改组内阁，维新会议员首次入阁。#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "前方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "改组后的高市内阁17日下午正式成立，日本维新会议员首次入阁，新农林水产大臣和文部科学大臣曾因“黑金”丑闻受到处分。（央视新闻）编辑：王王",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本首相高市早苗今天（9月17日）对内阁进行改组。当地时间今天下午，内阁官房长官木原稔发布了改组后的内阁名单。其中，内阁官房长官木原稔、财务大臣片山皋月、防卫大",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本高市早苗内阁全体阁僚辞职以进行内阁改组（记者：李林欣、陈泽安、蓝建中）#媒体精选",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵家驹回应巨人之旅330夺冠": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "赵家驹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你要永远相信你自己，没有比人更高的山了……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赵家驹：人生的敌人始终只有你自己。#媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亚薇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赵家驹完成巨人之旅347公里后的状态 还能又跑又跳，还能俯卧撑，说话还很有力气，要不是看着你跑完300多公里，真的有点怀疑……#赵家驹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 赵家驹：革命先辈长征都能走那么远 我们中国人可以的 我们中国人真的不差！#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海报新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "从外卖小哥跑到巨人之巅!赵家驹巨人之旅越野跑夺冠65小时55分跑过330公里 硬扛疲惫与无尽黑夜 累到自扇巴掌#媒体原创 #媒体精选计划 （编辑：刘伯垚）",
+     "text": "浙江义乌开始卖“UFO”了：无需跑道垂直起降，支持自动驾驶，可搭载1至2名乘客，单笔订单曾卖出1.2亿元",
      "likes": 0,
      "hot": 0
     }
@@ -471,26 +429,253 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "上海申花亚冠遭遇误判": {
+  "跟董宇辉了解平陆运河的强大": {
    "stats": {},
    "authors": [
     {
-     "name": "东方体育日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "越位不吹，手球不吹。申花亚冠多次遭遇误判#上海申花vs淡滨尼流浪者",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
+     "name": "与辉同行",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "没有VAR+误判+折射，这球真的是没招了。#上海申花半场1比1淡滨尼流浪者 #上海申花亚冠二遭遇误判 #上海申花vs淡滨尼流浪者",
+     "text": "平陆运河开通啦！#董宇辉 #与辉同行 #董宇辉拥有暖评最多的评论区",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当我和马龙一起参加开学典礼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "北京体育大学",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我和马龙一起参加开学典礼～～ #开学典礼#冠军#北体开学典礼#马龙#北京体育大学",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "曾的很饿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "龙队无需任何 BGM 不过什么叫马龙是我同学🤔#马龙 #开学典礼 #北京体育大学",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北体大开学典礼上，马龙、冯雨为母校献礼 （北京日报客户端记者 陈嘉堃 编辑 周航）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "被驻马店的煎鸡面片惊艳到了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "朱一龙回应“没演过这么装的角色”": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音电影",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#朱一龙 回应#电影空枪 演了个最“装”角色 #抖音影人局",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电影空枪",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "烟花下的独舞。#电影空枪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "谭松韵刘学义我的官配放饭了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "谭松韵seven",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "♣️♣️♣️ #兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘学义",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全 肯 定#兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小沈阳沈春阳贾冰新电影定档国庆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小沈阳",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大宝儿@沈春阳 ，这把咱俩再搭一下 #电影什么意思夫妇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电影什么意思夫妇",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别吵，我在烧烤😳 #电影什么意思夫妇 #小沈阳 #沈春阳 #贾冰 #魏翔",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "沈阳举行勿忘九一八撞钟鸣警仪式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天沈阳举行勿忘“九一八”撞钟鸣警仪式，在9时18分拉响警报。铭记历史，警钟长鸣！（人民日报记者刘佳华、胡婧怡）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "警钟14响！沈阳举行勿忘九一八撞钟鸣警仪式 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "勿忘九一八撞钟鸣警仪式在沈阳举行（记者：杨青、高铭、赵泳、刘斌）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "警钟14响！沈阳举行勿忘九一八撞钟鸣警仪式#九一八事变爆发95周年",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天，沈阳举行“勿忘九一八”撞钟鸣警仪式，14响警世钟，14年浴血抗战！勿忘九一八，警钟长鸣，吾辈当自强！#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "赵家驹回应巨人之旅330夺冠": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "赵家驹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你要永远相信你自己，没有比人更高的山了……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赵家驹：人生的敌人始终只有你自己。#媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "亚薇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赵家驹完成巨人之旅347公里后的状态 还能又跑又跳，还能俯卧撑，说话还很有力气，要不是看着你跑完300多公里，真的有点怀疑……#赵家驹",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 赵家驹：革命先辈长征都能走那么远 我们中国人可以的 我们中国人真的不差！#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从外卖小哥跑到巨人之巅!赵家驹巨人之旅越野跑夺冠65小时55分跑过330公里 硬扛疲惫与无尽黑夜 累到自扇巴掌#媒体原创 #媒体精选计划 （编辑：刘伯垚）",
      "likes": 0,
      "hot": 0
     }
@@ -542,16 +727,6 @@
      "hot": 0
     },
     {
-     "name": "毛毛酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "毛毛的鼻头是一粒大板栗🌰•̀ω•́🌰。#泰迪 #萌宠 #头像 #inmyfeeling #歌曲底色",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "故里",
      "verify": "",
      "identity": "",
@@ -562,12 +737,22 @@
      "hot": 0
     },
     {
+     "name": "毛毛酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毛毛的鼻头是一粒大板栗🌰•̀ω•́🌰。#泰迪 #萌宠 #头像 #inmyfeeling #歌曲底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "是你的花",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "难道我又多想了 又这样了 我怎么有这样的底色.",
+     "text": "难道我又多想了 又这样了 我怎么有这样的底色.#歌曲底色",
      "likes": 0,
      "hot": 0
     },
@@ -605,112 +790,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "被驻马店的煎鸡面片惊艳到了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "谭松韵刘学义我的官配放饭了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "谭松韵seven",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "♣️♣️♣️ #兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘学义",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全 肯 定#兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "无畏契约26冠军套实机演示曝光": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Gus",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026冠军套抢先体验展示 #无畏契约26冠军套 #Gus",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "超饿的晴乐（无畏契约GAME社区）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "26冠军套实机演示！先丢三把 #无畏契约 #无畏契约26冠军套 #无畏契约上海冠军赛 #讷瓦开学季 #无畏契约26冠军套",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "仁德king",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "26冠军套实机演示，终结特效夯爆了，看来必须得拿下了#瓦 #26冠军套",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "戏狗(无畏契约)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无畏契约2026冠军套实机演示来了！！高清 #无畏契约 #无畏契约26冠军套 #无畏契约上海冠军赛 #讷瓦开学季 #讷瓦世界",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小沈阳沈春阳贾冰新电影定档国庆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小沈阳",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大宝儿@沈春阳 ，这把咱俩再搭一下 #电影什么意思夫妇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电影什么意思夫妇",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别吵，我在烧烤😳 #电影什么意思夫妇 #小沈阳 #沈春阳 #贾冰 #魏翔",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "张潓萍巨人之旅越野赛破亚洲纪录": {
    "stats": {},
    "authors": [
@@ -735,183 +814,32 @@
      "hot": 0
     },
     {
-     "name": "光明顶评论",
+     "name": "廿一山山",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张潓萍，这是真的会飞#张潓萍 #巨人之旅 #跑步 #女性 #女性力量",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国越野赵家驹获巨人之旅330公里总冠军 65小时鏖战阿尔卑斯翻越25座高山 热爱和坚持让平凡人也能冲破极限站上巅峰#中安时评 #光明顶评论 #媒体原创 #精选",
+     "text": "曾是外卖骑手 如今世界越野跑夺冠 妻子首次更新赵家驹赛后视频：又跑又跳，还能俯卧撑 父亲：10年前不支持他跑步，怕他养不活#媒体原创#媒体精选计划#当事人会客厅",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "摸娱少女",
+     "name": "Jerry彬",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不懂就问 我和他真的是同一个物种吗 #赵家驹 #巨人之旅 #越野赛 #夺冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "菜泡饭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国最狠的男人🔥赵家驹🔥 破纪录夺冠！创造历史，燃爆全场🏆强者之路！ #巨人之旅 #越野跑 #极限运动",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "TES 3:1 IG": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "fuker解说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "锐评 tes3-1 战胜 ig 第一局， tes 前期 5-0 开局，是怎么被翻的？ theshy 掘墓再度发力！帮助 ig 先下一程！#2026lpl #th",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL大锤赛事速看",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "IGvsTES速看G1：S16全球总决赛门票争夺战！TheShy Rookie大战JackeyLove！#S16资格赛 #英雄联盟S16 #TheShy #TE",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不是山谷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TES对战IG IG再现不科学团战 #S16资格赛 #英雄联盟S16 #TES对战IG",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘小D（从不摆烂）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小天大虫子40分钟七层被动？姿态：这给谁不玉？ #海斗大赛#天生好斗#文斗武斗不如海斗#英雄联盟15周年#英雄联盟战斗之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "嗷呜嗷呜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哥哥的又犯病了！#S16资格赛 #英雄联盟S16 #TES对战IG #英雄联盟15周年 #英雄联盟战斗之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李sir解说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在输给巴西之前，滔博是无敌的 #S16资格赛#英雄联盟S16#TES战胜IG #theshy #上抖音聊LPL",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中国男篮半决赛将对阵日本男篮": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "因为女篮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "挺进半决赛！中国男篮亚运会击败沙对决日本！廖三宁30分真激情 #中国男篮 #名古屋亚运会 #亚运会观察员已就位 #亚运会有什么看点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月18日晚，中国男篮VS日本男篮！#2026年亚运会男篮半决赛 关注，一起为中国队加油！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国男篮战胜沙特进4强，半决赛将对阵日本队与中国台北队的胜者（编辑：阿联）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间9月18日18时20分，#名古屋亚运会男篮半决赛 #中国男篮对日本男篮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国男篮9月18日将对阵日本队，日本男篮战胜中国台北队挺进4强，一人一句为中国队加油！#亚运会 #中国男篮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "山西日报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 9月18日18时20分 亚运会男篮半决赛，中国男篮对阵日本男篮#亚运男篮 #中国男篮vs日本男篮 #廖三宁",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "鸠山由纪夫：日本人须怀谢罪之心": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "豫视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "鸠山由纪夫：作为日本人，必须一直怀有谢罪的心情。 他曾两次前往侵华日军南京大屠杀遇难同胞纪念馆，长期呼吁日本应就侵略殖民向中国等受害国道歉 #日本 #首相 #鸠",
+     "text": "赛程已过三分之一，100公里，用时16小时，累计爬升8488，还是处于第一领先状态，大家可以猜猜完赛成绩，猜一件凯乐石短袖#越野跑 #凯乐石fuga #赵家驹 ",
      "likes": 0,
      "hot": 0
     }
@@ -1014,22 +942,22 @@
    "stats": {},
    "authors": [
     {
-     "name": "张姐移动面包摊10元3个(酷仕族)",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网爆火的超长蛋挞制作流程分享给大家 #面包 #摆摊 #餐饮创业 #超长蛋挞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "😶‍🌫️🥶",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "超长蛋挞教程 #超长蛋挞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张姐移动面包摊10元3个(酷仕族)",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网爆火的超长蛋挞制作流程分享给大家 #面包 #摆摊 #餐饮创业 #超长蛋挞",
      "likes": 0,
      "hot": 0
     },
@@ -1047,261 +975,52 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影手游篮球佐助首曝": {
+  "展示我新学的闪身步": {
    "stats": {},
-   "authors": [
-    {
-     "name": "火影忍者手游情报君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全新原创A忍宇智波佐助「篮球之星」即将上线，9月29日免费领取活动开启，敬请期待！#火影忍者手游 #火影手游篮球佐助首曝 #篮球佐助",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁村大聪明",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新a忍：宇智波佐助（篮球之星）免费送！骨架打篮球的来了 #火影忍者手游 #权威忍者攻略 #木叶村抽象家",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "火影忍者萝卜【请你了没】",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超级重磅消息！ 原创篮球之星佐助将在9月29号免费获取！ #火影手游晓朱鼬#火影忍者手游#游戏花样乱斗#游戏破壁计划#火影手游篮球佐助首曝",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一瓯春开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一瓯春(定档0917",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女孩，命运要掌握在自己手里！#一瓯春 #周也 #徐振轩 #许凯周也新剧没有认怂的义务",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "ROSÉ新歌MV是苹果18拍的": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "roses_are_rosie",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "准备好，new trick 美东时间9.17晚7点发布，使用iPhone 18 Pro拍摄。 get set ready. “new trick” by ROS",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "BLACKPINK",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "rosé和苹果合作的特别单曲 《new trick》将于美东时间9月17日下午7时发行！#rosé #朴彩英",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "Steam秋促即将到来": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "第五人格进入大染色时代": {
+  "张晋宜吴添豪没搭上就嗑上了": {
    "stats": {},
    "authors": [
     {
-     "name": "橘子小猫",
+     "name": "吴添豪_",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“偶尔有点小脾气，你一哄我就消气～” #红果短剧金秋奇遇日 #吴添豪 #张晋宜 #果子秋日剧会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "⭐️星动818⭐️",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚运会全角色蓝皮超美染色方案来啦✨。#第五人格 #第五人格亚运版本 #第五人格追光逐梦 #第五人格庄园速递 #第五人格你的人来了",
+     "text": "舞台同框好亮眼谁被吴添豪张晋宜岳雨婷圈粉 #吴添豪 #张晋宜 #岳雨婷",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "鱼笙笙（第五人格小鱼）",
+     "name": "我就叫泡芙",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小回忆染色方案来啦‼️所有孩厨们码住了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "石头 stone",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时装染色第一批抽象圣体来了 #第五人格 #第五人格追光逐梦 #第五人格亚运版本 #第五人格你的人来了",
+     "text": "继续接首搭！ #吴添豪 #张晋宜 #短剧推荐 #磕糖现场 #红果短剧金秋奇遇日",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "Yamy汕尾红海湾录制广东秋晚": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "汕尾日报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国风说唱+非遗太出圈了！Yamy郭颖在汕尾红海湾录制广东秋晚 #汕尾 #好海水在汕尾 #去汕尾看大湾区秋晚 #Yamy汕尾解锁广东秋晚非遗名场面 #Yamy汕尾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "广东卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这是湾区秋晚在红海湾拍摄的现场盛况，网友：汕尾要火了！#Yamy汕尾红海湾录制广东秋晚 #去汕尾看大湾区秋晚 #跟着广东秋晚来汕尾休憩一下 #汕尾藏着我的松弛感",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小鹏G9L正式上市": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "直播日照",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏G9L正式上市，全系价格公布#小鹏G9L全系价格公布",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红网·红视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏G9L上市价格公布23.18万起#小鹏G9L正式上市",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "观淄博",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏G9L限时起售价23.18万元 发布会期间何小鹏发布会两次玩梗#何小鹏发布会两次玩梗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新派观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "何小鹏发布会玩捣乱梗#小鹏G9L正式上市#何小鹏发布会玩捣乱梗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今日快讯",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏汽车举行G9L上市发布会 新车限时售价23.18万元起#小鹏G9L公布价格",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "电影生化危机爆发夜海外口碑": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "1905电影网",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "接单送快递竟踏入绝境！《生化危机：爆发夜》海外开分口碑炸裂！#电影生化危机爆发夜 #生化危机爆发夜海外开分",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "朱一龙回应“没演过这么装的角色”": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音电影",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#朱一龙 回应#电影空枪 演了个最“装”角色 #抖音影人局",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电影空枪",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "烟花下的独舞。#电影空枪",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张踩铃称别用旧样本劝年轻人勇敢": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "理想i9续航首测": {
    "stats": {},
@@ -1340,16 +1059,117 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "古乐风华录第一颂好神性": {
+  "第五人格进入大染色时代": {
    "stats": {},
    "authors": [
     {
-     "name": "古乐风华录",
+     "name": "橘子小猫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会全角色蓝皮超美染色方案来啦✨。#第五人格 #第五人格亚运版本 #第五人格追光逐梦 #第五人格庄园速递 #第五人格你的人来了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鱼笙笙（第五人格小鱼）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小回忆染色方案来啦‼️所有孩厨们码住了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "石头 stone",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时装染色第一批抽象圣体来了 #第五人格 #第五人格追光逐梦 #第五人格亚运版本 #第五人格你的人来了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "超长长长长长蛋挞测评来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "大参考",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月15日（发布），超长长长蛋挞爆火，到底是啥味？！记者实测：比平常的蛋挞要酥脆！一直掉渣，店员：用的面粉鸡蛋会好一些，市民：没什么区别，主要是图个新奇！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "惠子发哥♐️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超长长长长长蛋挞相当之难吃 不酥不脆蛋挞芯很少 #超长蛋挞 #被蛋挞绑架了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "贪吃瑜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网爆火6款网红蛋挞大测评！60厘米超长蛋挞和巨大蛋挞，哪个味道更好？#蛋挞 #超长蛋挞 #葡式蛋挞 #肯德基",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Yamy汕尾红海湾录制广东秋晚": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "汕尾日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国风说唱+非遗太出圈了！Yamy郭颖在汕尾红海湾录制广东秋晚 #汕尾 #好海水在汕尾 #去汕尾看大湾区秋晚 #Yamy汕尾解锁广东秋晚非遗名场面 #Yamy汕尾",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广东卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是湾区秋晚在红海湾拍摄的现场盛况，网友：汕尾要火了！#Yamy汕尾红海湾录制广东秋晚 #去汕尾看大湾区秋晚 #跟着广东秋晚来汕尾休憩一下 #汕尾藏着我的松弛感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "电影生化危机爆发夜海外口碑": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "1905电影网",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#古乐风华录 愿意追随乐神的请扣1。",
+     "text": "接单送快递竟踏入绝境！《生化危机：爆发夜》海外开分口碑炸裂！#电影生化危机爆发夜 #生化危机爆发夜海外开分",
      "likes": 0,
      "hot": 0
     }
@@ -1357,66 +1177,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "无畏契约冠军套": {
+  "ROSÉ新歌MV是苹果18拍的": {
    "stats": {},
    "authors": [
     {
-     "name": "柴羊（无畏契约）",
-     "verify": "",
-     "identity": "",
+     "name": "roses_are_rosie",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "（原版高清版本）无畏契约26冠军套实机演示！ 大家觉得怎么样？#无畏契约#无畏契约上海冠军赛#无畏契约26冠军套",
+     "text": "准备好，new trick 美东时间9.17晚7点发布，使用iPhone 18 Pro拍摄。 get set ready. “new trick” by ROS",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "HanHan（无畏契约）",
+     "name": "BLACKPINK",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "26冠军套真的很帅 #无畏契约 #hanhan无畏契约",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "s77（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这波马爆料了 #无畏契约 #无畏契约上海冠军赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "FXX（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当你看26冠军套预告时... #无畏契约 #无畏契约冠军套",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "千小季游戏解说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一个视频带你了解关于无畏契约新版本的更新内容，26冠军套将在今晚八点爆料！#无畏契约 #讷瓦开学季 #讷瓦世界 #无畏契约异变轮战 #无畏契约26冠军套",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "解说小贤（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "二六冠军套宣传图确定/明天将有实机演示 #无畏契约 #无畏冠军团 #无畏契约冠军赛前瞻发布会 #2026无畏契约冠军赛主题曲 #923无畏契约年度大版本更新",
+     "text": "rosé和苹果合作的特别单曲 《new trick》将于美东时间9月17日下午7时发行！#rosé #朴彩英",
      "likes": 0,
      "hot": 0
     }
@@ -1424,10 +1204,37 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "一口气带你了解平陆运河": {
+  "张踩铃称别用旧样本劝年轻人勇敢": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "许凯周也复仇开局": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "周也yeah",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和谢清圆的第一章🦚 #一瓯春",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "许凯",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和沈润的第一章 严瑞同上 #一瓯春",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "中秋国庆回家吗": {
    "stats": {},
@@ -1536,6 +1343,90 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "中国男篮半决赛将对阵日本男篮": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "因为女篮",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "挺进半决赛！中国男篮亚运会击败沙对决日本！廖三宁30分真激情 #中国男篮 #名古屋亚运会 #亚运会观察员已就位 #亚运会有什么看点",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月18日晚，2026年亚运会男篮半决赛，中国男篮VS日本男篮。一起为中国队加油！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9.18 这天，中国男篮半决赛对阵东道主日本（编辑：刘伯垚）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月18日晚，中国男篮VS日本男篮！#2026年亚运会男篮半决赛 关注，一起为中国队加油！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国男篮战胜沙特进4强，半决赛将对阵日本队与中国台北队的胜者（编辑：阿联）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间9月18日18时20分，#名古屋亚运会男篮半决赛 #中国男篮对日本男篮",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "古乐风华录第一颂好神性": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "古乐风华录",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#古乐风华录 愿意追随乐神的请扣1。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "早知青春如此之快就不畏惧镜头了": {
    "stats": {},
    "authors": [
@@ -1573,159 +1464,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "少女感是早秋穿搭天花板": {
+  "用混剪盘点兰香如故里的女性群像": {
    "stats": {},
    "authors": [
     {
-     "name": "一坨嗯嗯",
+     "name": "倾世夭夭",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "💌 #拍照 #少女感 #早秋穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "展示我新学的闪身步": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "蛋仔S33森林童话季曝光": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "网易蛋仔派对",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "S33派对季官宣，三款新外观曝光！ 城堡里没有任何打斗痕迹，莱奥王子就这么凭空消失了？！ 寻找王子已刻不容缓，9月25日（下周五）全新派对季【森林童话季】重磅开",
+     "text": "【群像｜花朵拟人】“百花齐放，各展锋芒” #兰香如故 #许兰香 #谭松韵 #了不起的混剪团 #混剪产粮团",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "皮蛋教官",
+     "name": "AMthereal",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "蛋仔新赛季确定是森林童话季 #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔惊魂攻略站 #蛋仔开学学蛋语#蛋仔高玩小课堂",
+     "text": "失去你的时间快比拥有你的时间久了。 #兰香如故 #谭松韵 #许兰香 #混剪产粮团 #了不起的混剪团",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小昊（蛋仔派对）",
+     "name": "CHINLOCK",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "蛋仔新赛季确定主题为森林童话季…… #蛋仔派对 #蛋仔高玩小课堂 #蛋仔开学学蛋语 #蛋仔派对摄影剪辑师 #蛋仔奇思妙想计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黑龙江特色鱼生谁吃谁迷糊": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "刘雨鑫JASON",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑龙江佳木斯，吃东北特色，尝尝怎么样？ #人间烟火 #佳木斯 #鱼生 #林蛙 #东北菜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中华·家常味",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "独属于东北人的削鱼片，零下40度的鱼生，趁凉吃才过瘾！ #削鱼片 #鱼生 #特色美食 #东北美食",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张晋宜吴添豪没搭上就嗑上了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴添豪_",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“偶尔有点小脾气，你一哄我就消气～” #红果短剧金秋奇遇日 #吴添豪 #张晋宜 #果子秋日剧会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "⭐️星动818⭐️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "舞台同框好亮眼谁被吴添豪张晋宜岳雨婷圈粉 #吴添豪 #张晋宜 #岳雨婷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我就叫泡芙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "继续接首搭！ #吴添豪 #张晋宜 #短剧推荐 #磕糖现场 #红果短剧金秋奇遇日",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "落日合唱派对国庆场官宣": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "周深工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月1日晚7点，周深@卡布叻_周深 在贵州·奢香古镇·大地指纹#抖音落日合唱派对 等你，共赴我们的小美满！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抖音",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#落日合唱派对国庆场官宣10月1日19:00，来#抖音落日合唱派对和周深及多位抖音创作者，相约贵州·奢香古镇·大地指纹 ，一起合唱！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抖音落日合唱派对",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#抖音落日合唱派对 我们在一起就是地久天长～从平遥到贵州，期待共赴下一场合唱之约！10月1日19:00， 贵州·奢香古镇·大地指纹 不见不散！",
+     "text": "“要和野草一样 在哪都要活的有滋有味” #兰香如故 #了不起的混剪团 #混剪产粮团 #谭松韵 #刘学义",
      "likes": 0,
      "hot": 0
     }
@@ -1770,36 +1538,166 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "吃鸡搭子行为大赏": {
+  "潘毅鸿现代装帅得好权威": {
    "stats": {},
    "authors": [
     {
-     "name": "阿凯（川剧摇）",
+     "name": "潘毅鸿",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "😎☝🏻#兰香如故 #我的追剧日志 #九皋 #holymoly",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一口气带你了解平陆运河": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "赵家驹赛中补给吃了啥": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张伟强",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "好舞不挑曲一键跟跳中#专业动作请勿模仿#吃鸡搭子行为大赏 #和平精英#川剧摇",
+     "text": "巨人之旅330公里104公里补给处 #巨人之旅 #越野赛 赵家驹实力领先于104公里补给站 @植电 @凯乐石FUGA@Rudy鲁迪眼镜 @Vibram@Suun",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "呜呜ww",
-     "verify": "",
-     "identity": "",
+     "name": "NuclearKitty在赛场",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "大手子：抓到一只野生番茄 #大手子 #小番茄 #吃鸡搭子行为大赏 #青年创作者成长计划",
+     "text": "【巨人之旅330 实况报道】 赵家驹打卡203公里补给点。这个站点，是他上一届巨人之旅的退赛之地。 今日他顺利进站休整20分钟，完成补给后出站，继续征战330公",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "蛋仔S33森林童话季曝光": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "网易蛋仔派对",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "S33派对季官宣，三款新外观曝光！ 城堡里没有任何打斗痕迹，莱奥王子就这么凭空消失了？！ 寻找王子已刻不容缓，9月25日（下周五）全新派对季【森林童话季】重磅开",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小小胡教授（备考北大版）",
+     "name": "皮蛋教官",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "考上清华北大和无敌战神10800分难度数 #和平精英 #吃鸡搭子行为大赏#小小胡教授",
+     "text": "蛋仔新赛季确定是森林童话季 #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔惊魂攻略站 #蛋仔开学学蛋语#蛋仔高玩小课堂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小昊（蛋仔派对）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蛋仔新赛季确定主题为森林童话季…… #蛋仔派对 #蛋仔高玩小课堂 #蛋仔开学学蛋语 #蛋仔派对摄影剪辑师 #蛋仔奇思妙想计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我们一起去南澳岛看日落吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "南澳岛雪碧.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不敢想象 我们两个人在这里玩会有多爽 #南澳岛 #一起看海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝗠𝘅1𝘀𝘁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "东海岸的日落很美，希望下次是和你一起 #汕头东海岸 #海边日落 #火烧云 #大疆mavic4pro",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "1.05",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再一次来汕头 我们还能在南澳岛相遇吗#南澳岛 #北回归线 #南澳的夕阳",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "少女感是早秋穿搭天花板": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "一坨嗯嗯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "💌 #拍照 #少女感 #早秋穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黑龙江特色鱼生谁吃谁迷糊": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "刘雨鑫JASON",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黑龙江佳木斯，吃东北特色，尝尝怎么样？ #人间烟火 #佳木斯 #鱼生 #林蛙 #东北菜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中华·家常味",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "独属于东北人的削鱼片，零下40度的鱼生，趁凉吃才过瘾！ #削鱼片 #鱼生 #特色美食 #东北美食",
      "likes": 0,
      "hot": 0
     }
