@@ -1,24 +1,14 @@
 {
- "updated_at": "2026-09-18 17:39",
+ "updated_at": "2026-09-18 18:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 43,
+ "ok_count": 41,
  "lexicon_count": 0,
  "topics": {
   "中国海警正告菲方停止侵权挑衅": {
    "stats": {},
    "authors": [
-    {
-     "name": "光明日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "菲律宾船只突然加速，斜插我海警艇船艏，导致发生碰撞，中国海警局回应。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "央视网",
      "verify": "红V",
@@ -30,12 +20,12 @@
      "hot": 0
     },
     {
-     "name": "人民网",
+     "name": "环球时报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "菲律宾公务船故意冲撞中方海警船！外交部：停止海上侵权挑衅，停止散播虚假叙事！",
+     "text": "#环球时报快评 ：“九一八”当天挑衅，菲律宾自己掂量后果（编辑：大河）#媒体原创",
      "likes": 0,
      "hot": 0
     },
@@ -50,12 +40,126 @@
      "hot": 0
     },
     {
-     "name": "环球时报",
+     "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#环球时报快评 ：“九一八”当天挑衅，菲律宾自己掂量后果（编辑：大河）#媒体原创",
+     "text": "现场画面曝光！菲船突然加速冲撞我海警艇10分钟内两次恶意斜插 中国海警：正告菲方立即停止挑衅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国军号",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国海警就菲船只碰撞我海警艇发表谈话",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "大理追一场会游动的洱海星河": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "车厘子.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蓝调下的洱海渔灯好美 想和你一起 #大理 #旅行 #渔灯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "BeiMo Films 梓瑞🎬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大理渔灯 我愿称为大理最浪漫的节目#大理渔灯 #属于城市里的限定浪漫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "空白",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大理鱼灯 #洱海渔灯 #洱海 #鱼灯节 #文笔村 #说走就走的旅行",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乌梅子酱～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大理洱海 温馨提示看渔灯得去高的地方😬#打卡S湾 #洱海边的浪漫 #洱海渔灯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "警钟长鸣 吾辈自强": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "14响警世钟，14年浴血抗战！#九一八事变爆发95周年 9时18分，辽宁多地拉响防空警报。警钟长鸣，吾辈自强！#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "铭记历史，警钟长鸣！见证“勿忘九一八”撞钟鸣警仪式完整版（记者：杨青、高铭、赵泳、刘斌）#媒体原创#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "95年前的今天，九一八事变爆发。铭记那些血泪屈辱，铭记先辈的不屈抗争。勿忘历史，吾辈自强！#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天是九一八事变95周年。 十四年抗战烽火的背后，是千千万万的英雄用血肉挽救了破碎的山河。铭记历史，吾辈自强！#快看祝早安",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江苏新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "九一八事变爆发95周年，江苏各地统一试鸣防空警报，勿忘国耻，吾辈自强！（荔枝新闻中心编辑：小柱 焱茹 田远 综合：江苏各地方台）",
      "likes": 0,
      "hot": 0
     }
@@ -100,73 +204,71 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "警钟长鸣 吾辈自强": {
+  "抖音作者现场见证快舟火箭升空": {
    "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "14响警世钟，14年浴血抗战！#九一八事变爆发95周年 9时18分，辽宁多地拉响防空警报。警钟长鸣，吾辈自强！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "铭记历史，警钟长鸣！见证“勿忘九一八”撞钟鸣警仪式完整版（记者：杨青、高铭、赵泳、刘斌）#媒体原创#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天是九一八事变95周年。 十四年抗战烽火的背后，是千千万万的英雄用血肉挽救了破碎的山河。铭记历史，吾辈自强！#快看祝早安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "95年前的今天，九一八事变爆发。铭记那些血泪屈辱，铭记先辈的不屈抗争。勿忘历史，吾辈自强！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国军号",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "警钟14响，勿忘九一八！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "秋冬外套一衣穿三季穿搭分享": {
+  "住建部：我国房地产进入存量时代": {
    "stats": {},
    "authors": [
     {
-     "name": "陈醉醉",
-     "verify": "",
-     "identity": "",
+     "name": "中国网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "秋冬外套一衣穿三季 #基础版穿搭 #普通人韩女感速成穿搭 #被问爆的穿搭公式 #小裙子穿搭秋冬 #韩系层次感穿搭",
+     "text": "住房城乡建设部：我国房地产进入存量时代 9月18日，国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会。住房城乡建设部新闻发言人、副部长陈绍旺在发布会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国网直播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "住房城乡建设部：我国房地产进入存量时代 #开局起步“十五五” （编辑：郭天虎 | 初审：董超 | 终审：戴凡）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国房地产进入存量时代，面对房地产市场发生的重大变化，人们的安居需求如何得到更好满足？答案就在“好房子”里。要把新房子建好，把老旧房屋改好，把服务做好。全链条、",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 我国房地产正式进入存量时代。住建部今天在国新办发布会上表示，当前，房地产市场出现了“两个转变”。一个是房地产市场供求关系发生重大变化，就是买房的人说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社电视",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "住房城乡建设部：房地产市场供求关系发生重大变化",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "住房城乡建设部：#我国房地产进入存量时代 #房地产",
      "likes": 0,
      "hot": 0
     }
@@ -204,73 +306,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "在广东南雄油山镇上朔村，一面老墙上留存着当年红军留下的《当红军歌》，南雄市史志办公室主任黄树材介绍，这是全国唯一一首有歌词、有曲谱、能传唱的红军歌曲。如今，红色",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "住建部：我国房地产进入存量时代": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "住房城乡建设部：我国房地产进入存量时代 9月18日，国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会。住房城乡建设部新闻发言人、副部长陈绍旺在发布会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻联播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我国房地产进入存量时代，面对房地产市场发生的重大变化，人们的安居需求如何得到更好满足？答案就在“好房子”里。要把新房子建好，把老旧房屋改好，把服务做好。全链条、",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 我国房地产正式进入存量时代。住建部今天在国新办发布会上表示，当前，房地产市场出现了“两个转变”。一个是房地产市场供求关系发生重大变化，就是买房的人说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国网直播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "住房城乡建设部：我国房地产进入存量时代 #开局起步“十五五” （编辑：郭天虎 | 初审：董超 | 终审：戴凡）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社电视",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "住房城乡建设部：房地产市场供求关系发生重大变化",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "住房城乡建设部：#我国房地产进入存量时代 #房地产",
      "likes": 0,
      "hot": 0
     }
@@ -335,51 +370,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "抖音作者现场见证快舟火箭升空": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "大理追一场会游动的洱海星河": {
+  "秋冬外套一衣穿三季穿搭分享": {
    "stats": {},
    "authors": [
     {
-     "name": "车厘子.",
+     "name": "陈醉醉",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "蓝调下的洱海渔灯好美 想和你一起 #大理 #旅行 #渔灯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "BeiMo Films 梓瑞🎬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大理渔灯 我愿称为大理最浪漫的节目#大理渔灯 #属于城市里的限定浪漫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "空白",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大理鱼灯 #洱海渔灯 #洱海 #鱼灯节 #文笔村 #说走就走的旅行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "乌梅子酱～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大理洱海 温馨提示看渔灯得去高的地方😬#打卡S湾 #洱海边的浪漫 #洱海渔灯",
+     "text": "秋冬外套一衣穿三季 #基础版穿搭 #普通人韩女感速成穿搭 #被问爆的穿搭公式 #小裙子穿搭秋冬 #韩系层次感穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -431,22 +431,22 @@
      "hot": 0
     },
     {
-     "name": "宁夏广电新闻中心",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "油价调整通知 #油价 国内加油站将会在9月24日24时进行油价调整，受到本周国际油价连续上涨的影响，目前国际原油变化率已达到10.94%，预计上调油价635元/",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "第一财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "油价大涨！ 9月24日24时进行调整，预计上调油价635元/吨，每升将会上涨0.48-0.57元#一财情报局#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宁夏广电新闻中心",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "油价调整通知 #油价 国内加油站将会在9月24日24时进行油价调整，受到本周国际油价连续上涨的影响，目前国际原油变化率已达到10.94%，预计上调油价635元/",
      "likes": 0,
      "hot": 0
     }
@@ -464,6 +464,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "更胜一筹！JDG3比1战胜WE晋级下一轮对战IG！ #S16资格赛#英雄联盟S16#WE对战JDG #JDG战胜WE",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "滕尊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "JDG 3-1 WE！中野状态回暖，Gala零阵亡兜底 #S16资格赛 #英雄联盟S16 #Gala冒泡赛战神 #JDG战胜WE #Gala状态",
      "likes": 0,
      "hot": 0
     },
@@ -486,31 +496,51 @@
      "text": "[LPL赛区S16资格赛]【WE vs JDG】第三局速看 #S16资格赛 #英雄联盟S16 #WE对战JDG #2026LPL #上抖音聊LPL",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "滕尊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "JDG 3-1 WE！中野状态回暖，Gala零阵亡兜底 #S16资格赛 #英雄联盟S16 #Gala冒泡赛战神 #JDG战胜WE #Gala状态",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "我国科学家发现5亿多年前新物种": {
+  "美军一架F16战斗机坠毁": {
    "stats": {},
    "authors": [
     {
-     "name": "冰城新闻",
+     "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "西北大学科研团队取得重要发现，发现5.18亿年前“玉净虫” 。为早期演化研究提供关键证据！#西北大学#科研团队#玉净虫 👉#冰城新闻 （编辑：徐洋 审核：姜威",
+     "text": "美军一架F-16战斗机坠毁，飞行员弹射逃生，现场燃起熊熊大火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场画面 美军一架F-16战机坠毁燃起大火 飞行员弹射逃生#媒体原创 #美军战机坠毁 #F16战斗机 #弹射逃生 #燃起大火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门广电",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一架美国F-16战斗机坠毁，飞行员弹射逃生（编辑/烨鑫）#美国 #F16战斗机 #坠毁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "起点新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国一架F-16战机坠毁",
      "likes": 0,
      "hot": 0
     }
@@ -659,56 +689,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "住建部：住宅层高标准提至3米": {
+  "博主回应记录妈妈的最后14天": {
    "stats": {},
    "authors": [
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "旺哥记录生活",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "住房城乡建设部：新建住宅层高标准从原来的2米8提高到3米，4楼及以上住宅都要加装电梯。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华每日电讯",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "住房城乡建设部：针对群众反映楼层低的问题，将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯。（中国新闻网）#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 住房城乡建设部：针对群众反映楼层低的问题，将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 住房城乡建设部：针对群众反映楼层低的问题，我们将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 我国房地产正式进入存量时代。住建部今天在国新办发布会上表示，当前，房地产市场出现了“两个转变”。一个是房地产市场供求关系发生重大变化，就是买房的人说",
+     "text": "妈妈最后的十四天，回答网友的疑问",
      "likes": 0,
      "hot": 0
     }
@@ -768,14 +758,78 @@
      "text": "人民币兑美元汇率创2023年1月以来新高，在岸、离岸人民币双双突破6.7",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "郭士强复盘中国男篮攻防问题": {
+   "stats": {},
+   "authors": [
     {
-     "name": "湾财社",
+     "name": "五星体育",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "升破6.7！人民币兑美元大涨 #在岸离岸人民币兑美元升破67 #人民币兑美元大涨创新高 9月18日，在岸、离岸人民币兑美元均震荡拉升。截至发稿，离岸人民币兑美元",
+     "text": "整场发挥不佳 中国男篮攻防存在问题 郭士强赛后复盘 中国男篮攻防两端存在问题#亚运会 #中国男篮vs日本男篮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月18日，亚运会男篮半决赛，中国男篮78-97不敌日本男篮，无缘决赛。队伍将在 9 月 20 日 15:40 与伊朗队争夺铜牌。正视差距，总结问题",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "郭士强：这场比赛全队防守确实做得不好 | 奥运来了 #中国男篮 #名古屋亚运会 #郭士强",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我国科学家发现5亿多年前新物种": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "冰城新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西北大学科研团队取得重要发现，发现5.18亿年前“玉净虫” 。为早期演化研究提供关键证据！#西北大学#科研团队#玉净虫 👉#冰城新闻 （编辑：徐洋 审核：姜威",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长安大/西大保研团",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西北大学科研团队发现 5.18 亿年前“胶膜玉净虫”：刷新步带动物共祖演化认知!#西北大学 #西北大学保研 #西北大学保研率 #动物化石 #胶膜玉净虫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国发现全球新物种，0.1毫米“九江喇叭虫”，可用来监测水体健康，这也是我国首次发现该属新种。全球就20多种",
      "likes": 0,
      "hot": 0
     }
@@ -907,104 +961,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "谭松韵刘学义我的官配放饭了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "谭松韵seven",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "♣️♣️♣️ #兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘学义",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全 肯 定#兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "陆星材演绎田小娟辞职舞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "i-dle",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "[CUBE ENT] #陆星材 辞职报告 在此郑重说明：辞职后和CUBE依旧相处愉快，双方之间并无任何问题。 #田小娟 #SO浪漫的辞职舞 #小娟的绝妙人生 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "萌萌的娃娃看这里": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黑暗中的雨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "紫藤花。#azone #mjd #azone美亚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鱼头星星百宝箱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嘘—— 好像有两位小朋友，正在偷偷靠近…… 让我们猜猜是谁呀？👀 #虞书欣#鱼头星星百宝箱#虞书欣周边#虞书欣棉花娃娃 #棉花娃娃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝐻𝓎𝒹𝓇𝒶𝓃𝑔𝑒𝒶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宝宝呀 谢谢你一直陪着我#棉花娃娃 #秦彻#大一新生#秦彻",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "博主回应记录妈妈的最后14天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "旺哥记录生活",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妈妈最后的十四天，回答网友的疑问",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "茶汤太痛了": {
    "stats": {},
    "authors": [
@@ -1042,95 +998,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "世界是个巨大的游乐场": {
+  "谭松韵刘学义我的官配放饭了": {
    "stats": {},
    "authors": [
     {
-     "name": "Fall",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "被冲走了 #巨型马桶 #世界是个巨大的游乐场 #网红厕所打卡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "⁷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "像一场梦#世界是个巨大的游乐场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "格机格机格机",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世界是个巨大的游乐场 祝我在这个世界玩的尽兴！！#记录这一刻#幸福 #迪士尼",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "Apple Watch S12首发评测": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "钟文泽",
+     "name": "谭松韵seven",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Apple Watch Series 12丨一切为了心脏健康",
+     "text": "♣️♣️♣️ #兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Eva的科技生活",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Apple Watch S12 / Ultra 4首发评测：真正的升级，在背面？#抖音前沿科技首发计划#上抖音精选App看科技热点#AppleWatchUltr",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "学姐潇潇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "AppleWatch巨大升级的一代！巨难选的一代🫠 #AppleWatch #applewatchs12 #applewatchultra4 #苹果手表",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "三角洲二周年庆全盘点": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "娜扎赶上了网纱面具转场的末班车": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娜扎nz",
+     "name": "刘学义",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不许说我的可爱小打底像秋衣 #燕麦系",
+     "text": "全 肯 定#兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
      "likes": 0,
      "hot": 0
     }
@@ -1225,6 +1112,139 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "世界是个巨大的游乐场": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Fall",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "被冲走了 #巨型马桶 #世界是个巨大的游乐场 #网红厕所打卡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "⁷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "像一场梦#世界是个巨大的游乐场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "格机格机格机",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界是个巨大的游乐场 祝我在这个世界玩的尽兴！！#记录这一刻#幸福 #迪士尼",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Apple Watch S12首发评测": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "钟文泽",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Apple Watch Series 12丨一切为了心脏健康",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Eva的科技生活",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Apple Watch S12 / Ultra 4首发评测：真正的升级，在背面？#抖音前沿科技首发计划#上抖音精选App看科技热点#AppleWatchUltr",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "学姐潇潇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "AppleWatch巨大升级的一代！巨难选的一代🫠 #AppleWatch #applewatchs12 #applewatchultra4 #苹果手表",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "三角洲二周年庆全盘点": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "萌萌的娃娃看这里": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黑暗中的雨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "紫藤花。#azone #mjd #azone美亚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鱼头星星百宝箱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嘘—— 好像有两位小朋友，正在偷偷靠近…… 让我们猜猜是谁呀？👀 #虞书欣#鱼头星星百宝箱#虞书欣周边#虞书欣棉花娃娃 #棉花娃娃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝐻𝓎𝒹𝓇𝒶𝓃𝑔𝑒𝒶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宝宝呀 谢谢你一直陪着我#棉花娃娃 #秦彻#大一新生#秦彻",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "陆星材演绎田小娟辞职舞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "i-dle",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "[CUBE ENT] #陆星材 辞职报告 在此郑重说明：辞职后和CUBE依旧相处愉快，双方之间并无任何问题。 #田小娟 #SO浪漫的辞职舞 #小娟的绝妙人生 #",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "Time Machine原唱MJ入驻抖音": {
    "stats": {},
    "authors": [
@@ -1235,6 +1255,23 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "Hi, 我是mj apanay，我来抖音了，谢谢你们喜欢我的歌《time machine》，不久后我会来中国，很期待和大家见面~ #timemachine #治",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "爸爸是我的专属心理医生": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "春游",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爱你 我最好的心理医生",
      "likes": 0,
      "hot": 0
     }
@@ -1272,43 +1309,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "我西藏的人脉在哪里呀！#西藏 #牦牛肉 #牛肉干 #室友",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "手把手教你做超长长长长长蛋挞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "😶‍🌫️🥶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超长蛋挞教程 #超长蛋挞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张姐移动面包摊10元3个(酷仕族)",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网爆火的超长蛋挞制作流程分享给大家 #面包 #摆摊 #餐饮创业 #超长蛋挞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lෆiuᥫᩣ ᒻᵒᵛᵄ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "排队买不上的超长长长蛋挞，自己在家安排了，据说买的蛋液很少都是皮，咱这皮薄馅多😀",
      "likes": 0,
      "hot": 0
     }
@@ -1387,16 +1387,6 @@
      "hot": 0
     },
     {
-     "name": "周易v📷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#你是我等不到的人 谎称在等缘分 才迟迟晚婚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "张文兰",
      "verify": "",
      "identity": "",
@@ -1407,12 +1397,12 @@
      "hot": 0
     },
     {
-     "name": "臭宝",
+     "name": "周易v📷",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#你是我等不到的人 #正在进行石女士 谎称在等缘分 才迟迟晚婚 实则旧疾未愈 怎添新痕@请你吃辣堡",
+     "text": "#你是我等不到的人 谎称在等缘分 才迟迟晚婚",
      "likes": 0,
      "hot": 0
     },
@@ -1427,22 +1417,22 @@
      "hot": 0
     },
     {
-     "name": "iy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我真的没有精力把时间给一些只会让我猜忌和不安的人 #你是我等不到的人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "宥桐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "谎称在等缘分 才迟迟晚婚 实则旧疾未愈 怎添新痕.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "iy",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我真的没有精力把时间给一些只会让我猜忌和不安的人 #你是我等不到的人",
      "likes": 0,
      "hot": 0
     },
@@ -1455,65 +1445,14 @@
      "text": "我并不是一个将就的人 我想要的 我憧憬的 我都愿意再等一等#你是我等不到的人",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "法国足球队将公布新一期大名单": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "法国国家足球队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "本周，锁定齐达内出任法国国家队主教练后的首次大名单官宣。#法国队 #齐达内",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "亚运会乒乓球项目抽签": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #媒体精选计划 #文娱体万象观 #名古屋亚运会 邵佳一：像赵松源这些年轻的球员都具备未来走向更高的条件（央视频号：足球之夜）",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "新闻联合播",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "名古屋亚运会有多离谱， 滞留机场成囧途，集装箱变宿舍。外面下大雨，房间成池塘，运动员怒斥“史上最差”。#亚运会 #日本 #名古屋亚运会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "爸爸是我的专属心理医生": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "春游",
+     "name": "弟弟",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱你 我最好的心理医生",
+     "text": "#你是我等不到的人 我也想找个陪我到老的人 安安稳稳过这一生#seven eleven",
      "likes": 0,
      "hot": 0
     }
@@ -1521,10 +1460,79 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "宋亚轩心机小狗说晚安": {
+  "手把手教你做超长长长长长蛋挞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "😶‍🌫️🥶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超长蛋挞教程 #超长蛋挞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张姐移动面包摊10元3个(酷仕族)",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网爆火的超长蛋挞制作流程分享给大家 #面包 #摆摊 #餐饮创业 #超长蛋挞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Lෆiuᥫᩣ ᒻᵒᵛᵄ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "排队买不上的超长长长蛋挞，自己在家安排了，据说买的蛋液很少都是皮，咱这皮薄馅多😀",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "沈北夜市有多好逛": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "条纹卫衣百搭又出片": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "许凯周也复仇开局": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "周也yeah",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和谢清圆的第一章🦚 #一瓯春",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "许凯",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和沈润的第一章 严瑞同上 #一瓯春",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "当我和马龙一起参加开学典礼": {
    "stats": {},
@@ -1563,26 +1571,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "许凯周也复仇开局": {
+  "吃鸡搭子行为大赏": {
    "stats": {},
    "authors": [
     {
-     "name": "周也yeah",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "阿凯（川剧摇）",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "和谢清圆的第一章🦚 #一瓯春",
+     "text": "好舞不挑曲一键跟跳中#专业动作请勿模仿#吃鸡搭子行为大赏 #和平精英#川剧摇",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "许凯",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "呜呜ww",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "和沈润的第一章 严瑞同上 #一瓯春",
+     "text": "大手子：抓到一只野生番茄 #大手子 #小番茄 #吃鸡搭子行为大赏 #青年创作者成长计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小小胡教授（备考北大版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "考上清华北大和无敌战神10800分难度数 #和平精英 #吃鸡搭子行为大赏#小小胡教授",
      "likes": 0,
      "hot": 0
     }
@@ -1590,10 +1608,22 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "沈北夜市有多好逛": {
+  "娜扎赶上了网纱面具转场的末班车": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "娜扎nz",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不许说我的可爱小打底像秋衣 #燕麦系",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "蛋仔S33森林童话季曝光": {
    "stats": {},
@@ -1659,43 +1689,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "张晋宜吴添豪没搭上就嗑上了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴添豪_",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“偶尔有点小脾气，你一哄我就消气～” #红果短剧金秋奇遇日 #吴添豪 #张晋宜 #果子秋日剧会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "⭐️星动818⭐️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "舞台同框好亮眼谁被吴添豪张晋宜岳雨婷圈粉 #吴添豪 #张晋宜 #岳雨婷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我就叫泡芙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "继续接首搭！ #吴添豪 #张晋宜 #短剧推荐 #磕糖现场 #红果短剧金秋奇遇日",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "小沈阳沈春阳贾冰新电影定档国庆": {
    "stats": {},
    "authors": [
@@ -1728,7 +1721,7 @@
    "authors": [],
    "lexicon": []
   },
-  "福州人从小吃到大的早餐": {
+  "宋亚轩心机小狗说晚安": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1770,42 +1763,15 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这个中秋打卡安徽鳌鱼灯": {
+  "福州人从小吃到大的早餐": {
    "stats": {},
-   "authors": [
-    {
-     "name": "小九叔i",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "愿我们都平安健康，顺遂无忧 #腼腆男孩 #记录#这个中秋打卡安徽鳌鱼灯 #美在中秋月圆时",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Formal",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在徽州看到了辛弃疾笔下的“凤箫声动，玉壶光转，一夜鱼龙舞。”#唐模 #徽州 #鱼灯#飞天鳌鱼灯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "勇敢琳琳，不怕困难",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唐模飞天鳌鱼最佳观赏位攻略 下午早点去不止咖啡二楼占位置，最好的位置是二楼拐角 #唐模 #鱼灯 #徽州鱼灯 #旅游攻略 #真实生活分享计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "黑龙江特色鱼生谁吃谁迷糊": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   }
  }
 }
