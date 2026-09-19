@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-19 08:41",
+ "updated_at": "2026-09-19 09:42",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 38,
+ "ok_count": 36,
  "lexicon_count": 0,
  "topics": {
   "沙特首都利雅得遭空袭": {
@@ -40,22 +40,22 @@
      "hot": 0
     },
     {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "沙特首都利雅得传出爆炸声，居民收到防空警报",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "沙特首都遭空袭 不断传来导弹拦截声响 当地居民收到防空警报 胡塞武装称沙特本周发动300次空袭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "观山东",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "据央视新闻报道，当地时间9月19日凌晨，沙特首都利雅得遭到空袭，上空传来导弹拦截的声音",
      "likes": 0,
      "hot": 0
     }
@@ -87,16 +87,6 @@
      "hot": 0
     },
     {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 祝贺！中国女篮以111:46大胜泰国队，取得亚运会开门红🎉（人民网记者 杨磊 图片来源：人民日报记者 陶相安）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视网快看",
      "verify": "红V",
      "identity": "媒体人",
@@ -107,12 +97,32 @@
      "hot": 0
     },
     {
-     "name": "广东体育频道",
+     "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国女篮亚运会小组赛取得开门红，杨舒予表示希望将中国女篮的精神贯彻始终。#中国女篮65分大胜泰国女篮 #杨舒予",
+     "text": "111:46！赢了！#中国女篮大胜泰国65分 拿下亚运会开门红!",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国女篮111比46大胜泰国女篮 取得亚运会开门红 2026名古屋亚运会女篮小组赛，中国队111比46大胜泰国队，迎来本届亚运会开门红。中国队6人得分上双，杨舒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐鲁晚报·果然视频",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 中国女篮111:46大胜泰国队，取得亚运会开门红。（齐鲁晚报·齐鲁壹点特派记者 刘瑞平）",
      "likes": 0,
      "hot": 0
     }
@@ -172,24 +182,24 @@
      "text": "港澳青少年升旗队代表乘高铁访京，学生路上高唱《歌唱祖国》：去北京看升旗感到兴奋#香港 #北京#向国旗敬礼 #港澳青少年升旗队代表访京",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "大公文匯",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京欢迎你们！#向国旗敬礼#港澳青少年升旗队代表访京",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "2026亚运会今天开幕": {
+  "2026亚运会开幕式举行": {
    "stats": {},
    "authors": [
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当你在开幕式场馆外拍中国代表团队员 你就会看到……|奥运来了 #亚运会 #亚运会开幕式",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "央视频",
      "verify": "红V",
@@ -221,12 +231,12 @@
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "国+社区",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "老将坚守，“05后”新星已亮，所有人都为梦想而战。#2026亚运会 中国队上场了！#媒体原创",
+     "text": "#媒体原创 亚运会还没开赛，选手先住进集装箱？简约办赛不能变成凑合办赛 （编辑：CJ） #精选主播说 #名古屋亚运会 #名古屋亚运住宿争议",
      "likes": 0,
      "hot": 0
     }
@@ -234,10 +244,32 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "2026抖音创作者大会": {
+  "二万五千里长征路上留下的难忘记忆": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "90多年前，一位红军战士一路走一路画，为二万五千里长征留下珍贵的画集。行走在新时代长征路上的你，是否也有难忘记忆？#媒体原创#媒体精选计划#长征",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新时代的长征路丨红军靠什么穿越雪山草地？这位英国学者找到了答案。 一位英国学者，循着长征的足迹走过夹金山，也走进那片草地。山峦以高度写下牺牲，而看似平缓的草地，",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "能夸夸我的beta吗": {
    "stats": {},
@@ -276,33 +308,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "二万五千里长征路上留下的难忘记忆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "90多年前，一位红军战士一路走一路画，为二万五千里长征留下珍贵的画集。行走在新时代长征路上的你，是否也有难忘记忆？#媒体原创#媒体精选计划#长征",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新时代的长征路丨红军靠什么穿越雪山草地？这位英国学者找到了答案。 一位英国学者，循着长征的足迹走过夹金山，也走进那片草地。山峦以高度写下牺牲，而看似平缓的草地，",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "巴基斯坦称将不惜一切支持沙特": {
    "stats": {},
    "authors": [
@@ -317,22 +322,22 @@
      "hot": 0
     },
     {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【巴基斯坦军方表示“不惜一切”支持沙特】 沙特和巴基斯坦2025年9月签署《共同战略防御协议》，被视为双方结成军事同盟关系。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 巴基斯坦军方表示“不惜一切”支持沙特（央视频号：总台电视资讯）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巴基斯坦军方表示“不惜一切”支持沙特。",
      "likes": 0,
      "hot": 0
     },
@@ -357,12 +362,12 @@
      "hot": 0
     },
     {
-     "name": "环球网",
-     "verify": "红V",
+     "name": "龙视新闻",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "巴基斯坦表态了，这是一个重要信号 #媒体精选计划 #精选主播说",
+     "text": "9月18日（发布），巴基斯坦军方表示“不惜一切”支持沙特，将协助保卫沙特境内宗教圣地麦加和麦地那；胡塞武装否认袭击麦加，指责沙特“撒谎”（来源：央视新闻）",
      "likes": 0,
      "hot": 0
     }
@@ -380,16 +385,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "美国批准对乌克兰近27亿美元军售 当地时间9月18日，美国国务院宣布，已批准一项价值26.8亿美元的军售计划，向乌克兰出售防空系统研发升级的相关设备和服务，并已",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#美国批准对乌克兰近27亿美元军售 】当地时间9月18日，美国国务院宣布，已批准一项价值26.8亿美元的军售计划，向乌克兰出售防空系统研发升级的相关设备和服务",
      "likes": 0,
      "hot": 0
     }
@@ -431,12 +426,39 @@
      "hot": 0
     },
     {
-     "name": "人民网",
+     "name": "中国军号",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国海警就菲船只碰撞我海警艇发表谈话",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国网直播",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "菲律宾公务船故意冲撞中方海警船！外交部：停止海上侵权挑衅，停止散播虚假叙事！",
+     "text": "外交部：菲律宾公务船故意冲撞中方海警船，严重违反国际法和国际关系基本准则 #大国外交 （编辑：郭天虎 | 初审：董超 | 终审：戴凡）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "超长蛋挞的风吹到蛋糕界了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "来一口Noble",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今日份幸福~吃超长长长长长蛋挞蛋糕！巧克力抹茶玉米口味三拼！ #超长蛋挞 #沉浸式 #沉浸式做蛋糕 #蛋挞 #蛋糕",
      "likes": 0,
      "hot": 0
     }
@@ -488,76 +510,12 @@
      "hot": 0
     },
     {
-     "name": "中国三农发布",
+     "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "四川攀枝花盐边县突发泥石流，已致5人失联",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "兰香如故林锦岐吃醋了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧兰香如故（火热播出中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这样的笑容你从未对我笑过 #兰香如故 #许兰香 #林锦岐 #薛桂花 #韩粱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "会火",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好克制的表达 兰香如故我将永远拥护你！#兰香如故 #cp #谭松韵 #刘学义",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我不是大师定档0924": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "李一桐Q",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "怕我？还是爱我 #我不是大师定档0924 #我不是大师",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李现ing",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我不是大师定档0924 符吗？我就问你服吗？#我不是大师",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我不是大师（长风起改名版",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我不是大师定档0924 新身份解锁，这一局自此开启。#我不是大师 @李一桐Q 李雪（#李一桐）#江飞燕",
+     "text": "#四川攀枝花泥石流已致5人失联 !应急管理厅调动翼龙无人机赴现场开展通信恢复和空中侦察",
      "likes": 0,
      "hot": 0
     }
@@ -614,12 +572,108 @@
      "hot": 0
     },
     {
-     "name": "合肥晚报",
+     "name": "都市现场",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“错换人生28年”当事人姚策生父去世，姚策生母：已安葬，长期压抑，纠纷、官司以及网友的误解，情绪得不到排解，各种疾病导致心脏衰竭。（极目新闻）",
+     "text": "“错换人生28年”当事人姚策生父去世，18日已在河南驻马店安葬。姚策生母：长期压抑，情绪得不到排解，各种纠纷、官司以及网友的误解持续，呼吁大家停止网暴行为。#姚",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我不是大师定档0924": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李一桐Q",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怕我？还是爱我 #我不是大师定档0924 #我不是大师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李现ing",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我不是大师定档0924 符吗？我就问你服吗？#我不是大师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我不是大师（长风起改名版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我不是大师定档0924 新身份解锁，这一局自此开启。#我不是大师 @李一桐Q 李雪（#李一桐）#江飞燕",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2026抖音创作者大会": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "兰香如故林锦岐吃醋了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电视剧兰香如故（火热播出中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这样的笑容你从未对我笑过 #兰香如故 #许兰香 #林锦岐 #薛桂花 #韩粱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "会火",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好克制的表达 兰香如故我将永远拥护你！#兰香如故 #cp #谭松韵 #刘学义",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "冬城猎凶大结局": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "生逢其时大结局": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "一瓯春周也修罗心显化": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "周也yeah",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "坏吗？准备更坏#一瓯春",
      "likes": 0,
      "hot": 0
     }
@@ -681,22 +735,22 @@
      "hot": 0
     },
     {
-     "name": "emo周",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小火车嘟嘟开……#宿舍出道计划 #重生之我在宿舍拍抖音 #宿舍一学就会系列",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "小羽.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "开火车嘟嘟嘟#大一新生#kiatjuddai",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "emo周",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小火车嘟嘟开……#宿舍出道计划 #重生之我在宿舍拍抖音 #宿舍一学就会系列",
      "likes": 0,
      "hot": 0
     },
@@ -734,16 +788,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "一瓯春周也修罗心显化": {
+  "拼豆界开始进攻服装界了": {
    "stats": {},
    "authors": [
     {
-     "name": "周也yeah",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "提上日辰",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "坏吗？准备更坏#一瓯春",
+     "text": "谁敢信？这是用两百万颗拼豆做的cos服… #拼豆#提上日辰#cos#和平精英#幻音九尾",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "第五人格加页手记全新叙事玩法": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "欧皓辰（第五人格）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个新叙事也太好玩了吧！ #第五人格 #第五人格加页手记 #悬疑摸金还得第五人格 #第五人格亚运版本#第五人格你的人来了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老鸭好卡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "卢卡：好了好了知道区别了…… #第五人格 #第五人格你的人来了 #第五人格追光逐梦#第五人格加页手记#悬疑摸金还得第五人格",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第五人格灵儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "异象这波也是幸福者退让了... #第五人格 #第五人格追光逐梦 #第五人格加页手记 #悬疑摸金还得第五人格 #第五人格亚运版本",
      "likes": 0,
      "hot": 0
     }
@@ -858,41 +949,55 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "生逢其时大结局": {
+  "彩色系早秋穿搭教程": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "RNA结构少女",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "打破规训！就要用三原色穿搭法穿七种颜色 请注意！！本视频所提到的“规训”是指把某句经验性总结当作唯一真理，并用这句话攻击别人的穿搭的人 这句话本身不是规训，且可",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Time Machine原唱MJ入驻抖音": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "mj apanay",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Hi, 我是mj apanay，我来抖音了，谢谢你们喜欢我的歌《time machine》，不久后我会来中国，很期待和大家见面~ #timemachine #治",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "来大理追一场会游动的洱海星河": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "第五人格加页手记全新叙事玩法": {
+  "欢迎来龙餐馆票房破二十二亿": {
    "stats": {},
    "authors": [
     {
-     "name": "欧皓辰（第五人格）",
-     "verify": "",
-     "identity": "",
+     "name": "电影欢迎来龙餐馆",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这个新叙事也太好玩了吧！ #第五人格 #第五人格加页手记 #悬疑摸金还得第五人格 #第五人格亚运版本#第五人格你的人来了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老鸭好卡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "卢卡：好了好了知道区别了…… #第五人格 #第五人格你的人来了 #第五人格追光逐梦#第五人格加页手记#悬疑摸金还得第五人格",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第五人格灵儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "异象这波也是幸福者退让了... #第五人格 #第五人格追光逐梦 #第五人格加页手记 #悬疑摸金还得第五人格 #第五人格亚运版本",
+     "text": "票房破二十二亿，感谢60600000位观众来到龙餐馆💌 #欢迎来龙餐馆",
      "likes": 0,
      "hot": 0
     }
@@ -900,78 +1005,185 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秦腔名家李爱琴逝世": {
+  "又到了吃虾怪的季节": {
    "stats": {},
-   "authors": [
-    {
-     "name": "起点新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陕西著名秦腔表演艺术家李爱琴先生逝世，享年87岁 #陕西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "前方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "痛别！李爱琴同志逝世。（陕视新闻）编辑:小语",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 请停留三秒，为一代秦腔宗师李爱琴先生献上一束花。2026年9月19日8时33分，李爱琴先生与世长辞，享年87岁。（记者：张媛）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "著名秦腔表演艺术家李爱琴，于今早（9月19日）与世长辞，享年87岁。李爱琴，生于1939年，陕西西安人。一级演员，著名秦腔表演艺术家，国家级非物质文化遗产秦腔项",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秦之声",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一级演员、著名秦腔表演艺术家、国家级非物质文化遗产秦腔项目代表性传承人、秦腔表演艺术家终身成就奖获得者李爱琴于2026年9月19日早上8点33分离世，享年87岁",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "提前开练中秋送礼物动作": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "拼豆界开始进攻服装界了": {
+  "萌萌的娃娃看这里": {
    "stats": {},
    "authors": [
     {
-     "name": "提上日辰",
+     "name": "黑暗中的雨",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁敢信？这是用两百万颗拼豆做的cos服… #拼豆#提上日辰#cos#和平精英#幻音九尾",
+     "text": "紫藤花。#azone #mjd #azone美亚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鱼头星星百宝箱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嘘—— 好像有两位小朋友，正在偷偷靠近…… 让我们猜猜是谁呀？👀 #虞书欣#鱼头星星百宝箱#虞书欣周边#虞书欣棉花娃娃 #棉花娃娃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "和何喝🫦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "姝美😭😭#bjd #私养 #娃圈 #小姝",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "条纹控的出街ootd": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "谎称在等缘分 才迟迟晚婚": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "JackeyLove：世界赛我们来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "JackeyLove",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界赛，我们来了 #TES #JackeyLove #tes晋级世界赛 #TES对战IG",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "有西藏室友才有的牦牛肉干": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "我怎么有这样的底色": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天冷冷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的生活状态belike：就这样了 别多想了 反正我也没好的办法#混音 #情绪#歌曲底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今天你酸了吗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "难道我又多想了 又这样了。#歌曲底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "MaiKe",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《底色》我太爱这首歌了 本来是准备拍的vlog的但是发现素材太少了 所以就这么发吧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "bionxxx",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我到底是谁？ #外星从 #张兴朝 #李黑李嘉诚 #底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "故里",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人为什么会有那么多细碎的情绪呢 #底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "尾巴是我",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大头也很萌嘛٩(˃̶͈̀௰˂̶͈́)و。我们也有大头照啦哈哈哈！好可爱！好萌！ 🐘素🍰-ai玩法-Q版大头 #像素蛋糕AI生图好好玩 #极简拼贴让日常照片变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "350Ton-Xll！《底色》周三下午发",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《底色》已经发布感谢收听#hiphop #rnb #说唱 #rap #记录真实生活",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "用户30885660901",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我会一直陪着你 永远(๑'ᵕ'๑)⸝⋆* #歌曲底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毛毛酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毛毛的鼻头是一粒大板栗🌰•̀ω•́🌰。#泰迪 #萌宠 #头像 #inmyfeeling #歌曲底色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是你的花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "难道我又多想了 又这样了 我怎么有这样的底色.#歌曲底色",
      "likes": 0,
      "hot": 0
     }
@@ -1016,361 +1228,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "萌萌的娃娃看这里": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黑暗中的雨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "紫藤花。#azone #mjd #azone美亚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鱼头星星百宝箱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嘘—— 好像有两位小朋友，正在偷偷靠近…… 让我们猜猜是谁呀？👀 #虞书欣#鱼头星星百宝箱#虞书欣周边#虞书欣棉花娃娃 #棉花娃娃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝐻𝓎𝒹𝓇𝒶𝓃𝑔𝑒𝒶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宝宝呀 谢谢你一直陪着我#棉花娃娃 #秦彻#大一新生#秦彻",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "JackeyLove：世界赛我们来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "JackeyLove",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世界赛，我们来了 #TES #JackeyLove #tes晋级世界赛 #TES对战IG",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "条纹控的出街ootd": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "AI红毯让我原地出道": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "臭虫ღ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "少女的决心 石破天惊 #AI红毯让我原地出道 #我的电商主舞台 #抖音创作者大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美女小碗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "凡事发生皆有利于我 #AI红毯让我原地出道 #我的电商主舞台 #抖音创作者大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "起司橙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "姐姐點到為止 #AI红毯让我原地出道 #我的电商主舞台 #抖音创作者大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "韩冰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "居然真的有男孩子愿意大晚上跑过来 给我送吃的 我真的很感动 就是配送费贵了#AI红毯让我原地出道 #我的电商主舞台 #抖音创作者大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小豚豚豚鼠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的红毯高光时刻belike #ai红毯让我原地出道 #我在抖音拍特效 #随变ai随便玩 #我的电商主舞台",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天啦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下次见 #AI红毯让我原地出道 #我的电商主舞台",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "乔乔.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "漂亮的御姐 有杀气 #AI红毯让我原地出道 #我的电商主舞台 #抖音创作者大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "任智桃🍑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "只要在变好，慢点又何妨#AI红毯让我原地出道",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "Time Machine原唱MJ入驻抖音": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "mj apanay",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Hi, 我是mj apanay，我来抖音了，谢谢你们喜欢我的歌《time machine》，不久后我会来中国，很期待和大家见面~ #timemachine #治",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "马嘉祺燕麦系火光变身": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "这个中秋打卡安徽鳌鱼灯": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小九叔i",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "愿我们都平安健康，顺遂无忧 #腼腆男孩 #记录#这个中秋打卡安徽鳌鱼灯 #美在中秋月圆时",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Formal",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在徽州看到了辛弃疾笔下的“凤箫声动，玉壶光转，一夜鱼龙舞。”#唐模 #徽州 #鱼灯#飞天鳌鱼灯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "勇敢琳琳，不怕困难",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唐模飞天鳌鱼最佳观赏位攻略 下午早点去不止咖啡二楼占位置，最好的位置是二楼拐角 #唐模 #鱼灯 #徽州鱼灯 #旅游攻略 #真实生活分享计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "来大理追一场会游动的洱海星河": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "超长蛋挞的风吹到蛋糕界了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "来一口Noble",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日份幸福~吃超长长长长长蛋挞蛋糕！巧克力抹茶玉米口味三拼！ #超长蛋挞 #沉浸式 #沉浸式做蛋糕 #蛋挞 #蛋糕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "布伦特福德3:0切尔西": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "脸都不要了！切尔西防线漏洞百出，布伦特福德3比0击溃蓝军，三轮不胜掉到第七，场场丢球，大马丁神情恍惚人麻了...#布伦特福德vs切尔西 #切尔西连续21场联赛丢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【英超独家】后防线四处漏风！切尔西三球完败布伦特福德连续三轮不胜，开季以来各项赛事狂丢15球 #布伦特福德3比0切尔西 #切尔西三轮不胜 #切尔西后防线四处漏风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "百态体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "扑得了单刀，扑不了猪队友！世界杯冠军门将在切尔西被活活打成背景板#切尔西#大马丁#英超#布伦特福德3:0切尔西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "切尔西云斗罗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#英超 #布伦特福德vs切尔西 #跑外卖的切尔西球迷 #切尔西云斗罗 切尔西客场0-3惨败布伦特福德。本斗罗白天有多狂，晚上就有多疼。史上最强打脸！！！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "渣渣足球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“三轮不胜！切尔西0比3完败布伦特福德” #大马丁 #守门员 #恩佐 #战术 #dou来足球季",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "彩色系早秋穿搭教程": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "RNA结构少女",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "打破规训！就要用三原色穿搭法穿七种颜色 请注意！！本视频所提到的“规训”是指把某句经验性总结当作唯一真理，并用这句话攻击别人的穿搭的人 这句话本身不是规训，且可",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国产韩剧打开AI爽剧新赛道": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "海底蟹黄堡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "等级森严的财阀高校，从没人敢越界挑战， 张知安挠头：没听说过，赢了不就好了？#漂亮的恶意 #即梦片场 #即梦ai创作者成长计划 #校园",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "素以",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "韩国男高遇见川渝转校生的天#国产韩剧打开ai爽剧新赛道 #漂亮的恶意 #韩道勋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洗一洗好吗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没有不爱上女主的义务 #国产韩剧打开AI爽剧新赛道",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "欢迎来龙餐馆票房破二十二亿": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电影欢迎来龙餐馆",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "票房破二十二亿，感谢60600000位观众来到龙餐馆💌 #欢迎来龙餐馆",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "檀健次回应空枪广西普通话出圈": {
    "stats": {},
    "authors": [
@@ -1391,192 +1248,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "我们老实人豁出去了就这样：#电影空枪 #檀健次广西普通话模仿挑战",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "你对我的存在 只关于你和我": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "7ingz_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 是关于you and i #夜海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Jiaozi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 只关于 you and I #歌曲明知故犯#Max李玄#官宣#情绪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "BOHE-",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 只关于you and i#夜海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天冷冷 ‍",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 只关于 you and I#混音 #情绪 #官宣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Kosame",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秋意",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#今天看海了吗 你对我的存在 只关于you and i",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芒果我的最爱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 只关于you and i#夜海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "敗給反函数",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 只关于ʏᴏᴜ ᴀɴᴅ ɪ。#08 #摩羯座 #金主训 #juhoon#韩系穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋挞大王'.ㅅ'",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你对我的存在 只关于 you and I #Baekhyun#伯贤 #歌曲明知故犯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "溏心蛋教主（被金主训翻牌版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好明媚 好可爱 抓到一只美美享受舞台的小猪🐽 #金主训#Juhoon #享受舞台上的每一刻 #cortis早期 #zmm",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "谎称在等缘分 才迟迟晚婚": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "又到了吃虾怪的季节": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "@薛然",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学做吃播第263天#吃播#虾怪#寄居蟹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "伊夏夏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "虾怪扒皮有意思🤔 #虾怪 #寄居蟹 #爱吃食物的女孩子 #海鲜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杉杉大王（贪吃版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大大大大虾怪#虾怪#寄居蟹#美食判官已上线#测评",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "头戴王冠让荣耀向我俯首": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "可食用芋头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“荣耀向我俯首” #叶罗丽精灵梦 #冰公主 #cos #变装",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "歪比",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我要荣耀向我俯首 #王子系 原创@Olora",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Asu丶艾斯",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "安柏公主的权威我后知后觉 #小公主苏菲亚 #安柏 #私设 #帝政裙 #asu丶艾斯",
      "likes": 0,
      "hot": 0
     }
@@ -1621,10 +1292,99 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "有西藏室友才有的牦牛肉干": {
+  "国产韩剧打开AI爽剧新赛道": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "海底蟹黄堡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "等级森严的财阀高校，从没人敢越界挑战， 张知安挠头：没听说过，赢了不就好了？#漂亮的恶意 #即梦片场 #即梦ai创作者成长计划 #校园",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "素以",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "韩国男高遇见川渝转校生的天#国产韩剧打开ai爽剧新赛道 #漂亮的恶意 #韩道勋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洗一洗好吗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没有不爱上女主的义务 #国产韩剧打开AI爽剧新赛道#即梦AI #即梦片场",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秦腔名家李爱琴逝世": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 请停留三秒，为一代秦腔宗师李爱琴先生献上一束花。2026年9月19日8时33分，李爱琴先生与世长辞，享年87岁。（记者：张媛）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "前方+",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "痛别！李爱琴同志逝世。（陕视新闻）编辑:小语",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "著名秦腔表演艺术家李爱琴，于今早（9月19日）与世长辞，享年87岁。李爱琴，生于1939年，陕西西安人。一级演员，著名秦腔表演艺术家，国家级非物质文化遗产秦腔项",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【痛悼！#陕西著名秦腔表演艺术家李爱琴逝世 】陕视新闻记者从李爱琴老师家属处了解到，著名秦腔表演艺术家李爱琴，于今早（9月19日）与世长辞，享年87岁。（来源 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "据陕视新闻，著名秦腔表演艺术家李爱琴，于今早（9月19日）与世长辞，享年87岁。李爱琴，生于1939年，陕西西安人。一级演员，著名秦腔表演艺术家，国家级非物质文",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "济南的秋天藏着老舍笔下的温柔": {
    "stats": {},
@@ -1663,15 +1423,191 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "你对我的存在 只关于你和我": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "7ingz_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 是关于you and i #夜海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "BOHE-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 只关于you and i#夜海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Jiaozi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 只关于 you and I #歌曲明知故犯#Max李玄#官宣#情绪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天冷冷 ‍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 只关于 you and I#混音 #情绪 #官宣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天冷冷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 只关于你和我 #歌曲明知故犯 #Max李玄 #情绪 #混音 @DOU+小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Kosame",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "1/1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秋意",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#今天看海了吗 你对我的存在 只关于you and i",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "敗給反函数",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 只关于ʏᴏᴜ ᴀɴᴅ ɪ。#08 #摩羯座 #金主训 #juhoon#韩系穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果我的最爱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你对我的存在 只关于you and i#夜海",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火影手游新皮肤测评": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "马嘉祺燕麦系火光变身": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "头戴王冠让荣耀向我俯首": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "可食用芋头",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“荣耀向我俯首” #叶罗丽精灵梦 #冰公主 #cos #变装",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "歪比",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我要荣耀向我俯首 #王子系 原创@Olora",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Asu丶艾斯",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "安柏公主的权威我后知后觉 #小公主苏菲亚 #安柏 #私设 #帝政裙 #asu丶艾斯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "沈北夜市有多好逛": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "被驻马店的煎鸡面片惊艳到了": {
+  "这个中秋打卡安徽鳌鱼灯": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "小九叔i",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "愿我们都平安健康，顺遂无忧 #腼腆男孩 #记录#这个中秋打卡安徽鳌鱼灯 #美在中秋月圆时",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Formal",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在徽州看到了辛弃疾笔下的“凤箫声动，玉壶光转，一夜鱼龙舞。”#唐模 #徽州 #鱼灯#飞天鳌鱼灯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "勇敢琳琳，不怕困难",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "唐模飞天鳌鱼最佳观赏位攻略 下午早点去不止咖啡二楼占位置，最好的位置是二楼拐角 #唐模 #鱼灯 #徽州鱼灯 #旅游攻略 #真实生活分享计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "拜仁7:0横扫柏林联合": {
    "stats": {},
@@ -1683,16 +1619,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "啤酒节耍起！德甲第4轮，我仁主场7-0大胜柏林联合。此役奥利塞帽子戏法，凯恩双响，小穆、塞巴里破门。#拜仁#足球#奥利塞#凯恩",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天蓝足球（赛事速报）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "七球狂胜，降维打击！德甲联赛第四轮，拜仁慕尼黑VS柏林联合！ #德甲 #拜仁 #柏林联合 #足球咕起来 #dou来足球季",
      "likes": 0,
      "hot": 0
     },
@@ -1717,12 +1643,22 @@
      "hot": 0
     },
     {
-     "name": "直播吧",
+     "name": "天蓝足球（赛事速报）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "格局🫴。德甲第4轮，拜仁7-0横扫柏林联合，凯恩打进两球。赛后凯恩在混采区域接受采访时，被问到有关金球奖竞争的话题。 凯恩： “我不怎么喜欢谈论自己，我专注于",
+     "text": "七球狂胜，降维打击！德甲联赛第四轮，拜仁慕尼黑VS柏林联合！ #德甲 #拜仁 #柏林联合 #足球咕起来 #dou来足球季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西看台的Louis",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "德甲拜仁VS柏林联合：3个关键信息差 #德甲 #拜仁慕尼黑VS柏林联合 #布伦特福德VS切尔西 #毕尔巴鄂VS阿拉维斯 #西班牙人VS莱万特 摩纳哥VS朗斯",
      "likes": 0,
      "hot": 0
     }
