@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-19 03:41",
+ "updated_at": "2026-09-19 04:40",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 43,
+ "ok_count": 42,
  "lexicon_count": 0,
  "topics": {
   "沙特首都利雅得遭空袭": {
@@ -40,22 +40,22 @@
      "hot": 0
     },
     {
-     "name": "央视网快看",
+     "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沙特首都利雅得传出爆炸声，居民收到防空警报",
+     "text": "#沙特首都利雅得凌晨突遭空袭 上空传来导弹拦截声 也门胡塞武装此前称：#沙特一周空袭也门300次",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "红星新闻",
+     "name": "豫视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沙特首都遭空袭 不断传来导弹拦截声响 当地居民收到防空警报 胡塞武装称沙特本周发动300次空袭",
+     "text": "突发！沙特首都利雅得遭到空袭，上空传来导弹拦截的声音， 当地居民收到防空警报#沙特 #利雅得 #空袭 #导弹 #国际新闻 （编辑：晓晓）",
      "likes": 0,
      "hot": 0
     }
@@ -92,22 +92,12 @@
      "hot": 0
     },
     {
-     "name": "经济日报",
+     "name": "央视网财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "住房城乡建设部：房地产市场供求关系发生重大变化，房地产进入存量时代#房地产 #存量房 #二手房",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "证券时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "住建部：把新房子做好，好房子会越来越多#房地产",
+     "text": "住房城乡建设部：房地产进入存量时代 现房销售是大势所趋",
      "likes": 0,
      "hot": 0
     },
@@ -118,6 +108,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "住房城乡建设部：#我国房地产进入存量时代 #房地产",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华每日电讯",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "住房城乡建设部：针对群众反映楼层低的问题，将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯。（中国新闻网）#",
      "likes": 0,
      "hot": 0
     }
@@ -286,53 +286,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "四川攀枝花突发泥石流有人失联": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "四川盐边县突发泥石流 已致5人失联（记者：杨进、袁波）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "四川攀枝花盐边县突发泥石流 有人员失联 应急管理厅已派出工作组赶赴现场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "四川攀枝花一地突发泥石流，有人员失联",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月19日凌晨，#四川攀枝花盐边县支六河村附近突发泥石流 有人员失联",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "沈鼓集团相关异常账户暂停交易": {
    "stats": {},
    "authors": [
@@ -357,16 +310,6 @@
      "hot": 0
     },
     {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #沈鼓集团上市两日股价暴涨12倍，上交所出手：相关异常账户暂停交易",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "风口财经",
      "verify": "红V",
      "identity": "媒体人",
@@ -377,12 +320,79 @@
      "hot": 0
     },
     {
-     "name": "新闻深呼吸",
-     "verify": "蓝V",
+     "name": "中国财富网",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沈鼓变 “神股”？午后盘中暴涨超297% 两次临停。为什么这只装备股被疯抢？#股票 #资本 #股市 #热点",
+     "text": "股价两天暴涨1200%，沈鼓集团遭爆炒，上交所出手，对相关投资者暂停交易",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "久韭究财",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沈鼓上市两天就被监管冻账什么信号 #沈鼓",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中国女篮111:46大胜泰国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 祝贺！！2026名古屋亚运会女篮小组赛，中国队111比46大胜泰国队，迎来本届亚运会开门红。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运首秀中国女篮狂胜65分！。在刚刚结束的#亚运会 女篮小组赛中，#中国女篮 111比46击败泰国女篮，轻松收获开门红！中国队使用十人轮换且全部有得分进账，其中",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国女篮111比46大胜泰国女篮 取得亚运会开门红 2026名古屋亚运会女篮小组赛，中国队111比46大胜泰国队，迎来本届亚运会开门红。中国队6人得分上双，杨舒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "工人日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 祝贺！爱知·名古屋亚运会中国女篮战胜对手泰国队，拿下亚运开门红。（工人日报特派记者 王伟伟 赖志凯）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 祝贺！中国女篮以111:46大胜泰国队，取得亚运会开门红🎉（人民网记者 杨磊 图片来源：人民日报记者 陶相安）",
      "likes": 0,
      "hot": 0
     }
@@ -424,22 +434,22 @@
      "hot": 0
     },
     {
-     "name": "小周侃球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拜仁7-0柏林联合，奥利赛独造5球，凯恩双响，小鹿破门。 #拜仁 #德甲 #拜仁vs柏林联合 #拜仁7比0柏林联合",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "猪肉炖粉条",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "当拜仁遇到柏林联合…… #搞笑 #沙雕动画 #德甲 #拜仁 #柏林联合",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西看台的Louis",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "德甲拜仁VS柏林联合：3个关键信息差 #德甲 #拜仁慕尼黑VS柏林联合 #布伦特福德VS切尔西 #毕尔巴鄂VS阿拉维斯 #西班牙人VS莱万特 摩纳哥VS朗斯",
      "likes": 0,
      "hot": 0
     }
@@ -471,12 +481,12 @@
      "hot": 0
     },
     {
-     "name": "中国军号",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "直新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国海警就菲船只碰撞我海警艇发表谈话",
+     "text": "#媒体原创 又是菲律宾！菲船无视警告故意擦碰中国海警艇，中国海警局：立即停止挑衅， 否则后果自负！#菲律宾 #南海 #精选主播说 #媒体精选计划",
      "likes": 0,
      "hot": 0
     },
@@ -494,56 +504,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "住建部：住宅层高标准提至3米": {
+  "我不是大师定档0924": {
    "stats": {},
    "authors": [
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "李一桐Q",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "住房城乡建设部：新建住宅层高标准从原来的2米8提高到3米，4楼及以上住宅都要加装电梯。#媒体原创",
+     "text": "怕我？还是爱我 #我不是大师定档0924",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "李现ing",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "住房城乡建设部：新建住宅层高标准从原来的2米8提高到3米，4楼及以上住宅都要加装电梯。",
+     "text": "#我不是大师定档0924 符吗？我就问你服吗？#我不是大师",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新华每日电讯",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "我不是大师（长风起改名版",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "住房城乡建设部：针对群众反映楼层低的问题，将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯。（中国新闻网）#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 住房城乡建设部：针对群众反映楼层低的问题，将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 住房城乡建设部：针对群众反映楼层低的问题，我们将层高标准从原来的2米8提高到3米；为解决老年群体上下楼的问题，新标准提出4楼及以上住宅都要加装电梯。",
+     "text": "#我不是大师定档0924 新身份解锁，这一局自此开启。#我不是大师 @李一桐Q 李雪（#李一桐）#江飞燕",
      "likes": 0,
      "hot": 0
     }
@@ -551,46 +541,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "第48届世界技能大赛": {
+  "四川攀枝花泥石流已致5人失联": {
    "stats": {},
    "authors": [
     {
-     "name": "看看新闻Knews",
+     "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 冲刺吧，选手！揭秘上海世赛中国选手百天冲刺备赛 #七分之一 #全民迎世赛 #直击第一线 #媒体精选计划",
+     "text": "四川盐边县突发泥石流 已致5人失联（记者：杨进、袁波）#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "广州日报",
+     "name": "央视网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 粤匠出征，17名广东选手将代表中国出战第48届世界技能大赛#世界技能大赛 #世赛 #第48届世界技能大赛 #技能大赛",
+     "text": "四川攀枝花盐边县突发泥石流 有人员失联 应急管理厅已派出工作组赶赴现场",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "冲呀花花采访团",
+     "name": "人民网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一下飞机，两点震撼！ 参加世界技能大赛的各国选手陆续抵达上海。一下飞机，选手就被震撼了：干净的厕所、热情的人民！",
+     "text": "四川盐边县突发泥石流，已致5人失联。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "东方娱乐番茄台",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9月22日，第48届世界技能大赛即将在上海开幕。世界技能大赛不只是一场金字塔尖的竞技，更像一份面向未来的职业指南：它把产业正在需要什么、技术正在改变什么、年轻人",
+     "text": "四川盐边县突发泥石流 已致5人失联",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "四川攀枝花盐边县突发泥石流 已致5人失联",
      "likes": 0,
      "hot": 0
     }
@@ -642,86 +642,12 @@
      "hot": 0
     },
     {
-     "name": "大象新闻",
+     "name": "长江云新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9月14日，韩国总统李在明支持率连续9周下滑，支持率为33.8%，是其去年6月上任以来新低",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "ROSÉ新歌New Trick": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "roses_are_rosie",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“new trick” 很快是你的，记得是美东时间9/17晚7点哦 💙 “new trick” is yours, 9/17 at 7pm ET 💙 #RO",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "布伦特福德3:0切尔西": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "脸都不要了！切尔西防线漏洞百出，布伦特福德3比0击溃蓝军，三轮不胜掉到第七，场场丢球，大马丁神情恍惚人麻了...#布伦特福德vs切尔西 #切尔西连续21场联赛丢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【英超独家】后防线四处漏风！切尔西三球完败布伦特福德连续三轮不胜，开季以来各项赛事狂丢15球 #布伦特福德3比0切尔西 #切尔西三轮不胜 #切尔西后防线四处漏风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "渣渣足球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“三轮不胜！切尔西0比3完败布伦特福德” #大马丁 #守门员 #恩佐 #战术 #dou来足球季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "百态体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "扑得了单刀，扑不了猪队友！世界杯冠军门将在切尔西被活活打成背景板#切尔西#大马丁#英超#布伦特福德3:0切尔西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "切尔西云斗罗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#英超 #布伦特福德vs切尔西 #跑外卖的切尔西球迷 #切尔西云斗罗 切尔西客场0-3惨败布伦特福德。本斗罗白天有多狂，晚上就有多疼。史上最强打脸！！！",
+     "text": "韩国总统李在明支持率连续9周下滑，创上任以来新低",
      "likes": 0,
      "hot": 0
     }
@@ -748,7 +674,7 @@
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#知道自己要往哪整了 六点半，被抖音确定是丑八怪",
+     "text": "#知道自己要往哪整了 别点赞了朋友们，看看拉倒了",
      "likes": 0,
      "hot": 0
     },
@@ -836,6 +762,63 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "布伦特福德3:0切尔西": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕足球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "脸都不要了！切尔西防线漏洞百出，布伦特福德3比0击溃蓝军，三轮不胜掉到第七，场场丢球，大马丁神情恍惚人麻了...#布伦特福德vs切尔西 #切尔西连续21场联赛丢",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【英超独家】后防线四处漏风！切尔西三球完败布伦特福德连续三轮不胜，开季以来各项赛事狂丢15球 #布伦特福德3比0切尔西 #切尔西三轮不胜 #切尔西后防线四处漏风",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "体坛导报",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "英超-布伦特福德-切尔西#足球 #英超 #布伦特福德vs切尔西 #布伦特福德 #切尔西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "百态体育",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "扑得了单刀，扑不了猪队友！世界杯冠军门将在切尔西被活活打成背景板#切尔西#大马丁#英超#布伦特福德3:0切尔西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "切尔西云斗罗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#英超 #布伦特福德vs切尔西 #跑外卖的切尔西球迷 #切尔西云斗罗 切尔西客场0-3惨败布伦特福德。本斗罗白天有多狂，晚上就有多疼。史上最强打脸！！！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "中国男篮不敌日本无缘决赛": {
    "stats": {},
    "authors": [
@@ -873,56 +856,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "赵家驹回应巨人之旅330夺冠": {
+  "第48届世界技能大赛": {
    "stats": {},
    "authors": [
     {
-     "name": "赵家驹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你要永远相信你自己，没有比人更高的山了……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
+     "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "赵家驹：人生的敌人始终只有你自己。#媒体原创 #媒体精选计划",
+     "text": "#媒体原创 无人机考核=炫酷飞手?设计、组装、测试、维护，操控、编程、路径规划、系统调试、故障排除和现场决策……都是第48届世界技能大赛无人机系统项目中国选手曾",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "亚薇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赵家驹完成巨人之旅347公里后的状态 还能又跑又跳，还能俯卧撑，说话还很有力气，要不是看着你跑完300多公里，真的有点怀疑……#赵家驹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
+     "name": "冲呀花花采访团",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 赵家驹：革命先辈长征都能走那么远 我们中国人可以的 我们中国人真的不差！#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海报新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "从外卖小哥跑到巨人之巅!赵家驹巨人之旅越野跑夺冠65小时55分跑过330公里 硬扛疲惫与无尽黑夜 累到自扇巴掌#媒体原创 #媒体精选计划 （编辑：刘伯垚）",
+     "text": "一下飞机，两点震撼！ 参加世界技能大赛的各国选手陆续抵达上海。一下飞机，选手就被震撼了：干净的厕所、热情的人民！",
      "likes": 0,
      "hot": 0
     }
@@ -930,16 +883,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "陆星材演绎田小娟辞职舞": {
+  "ROSÉ新歌New Trick": {
    "stats": {},
    "authors": [
     {
-     "name": "i-dle",
+     "name": "roses_are_rosie",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "[CUBE ENT] #陆星材 辞职报告 在此郑重说明：辞职后和CUBE依旧相处愉快，双方之间并无任何问题。 #田小娟 #SO浪漫的辞职舞 #小娟的绝妙人生 #",
+     "text": "“new trick” 很快是你的，记得是美东时间9/17晚7点哦 💙 “new trick” is yours, 9/17 at 7pm ET 💙 #RO",
      "likes": 0,
      "hot": 0
     }
@@ -983,6 +936,11 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "快来和我们一起开火车": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "世界是个巨大的游乐场": {
    "stats": {},
@@ -1055,43 +1013,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "Apple Watch S12首发评测": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "钟文泽",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Apple Watch Series 12丨一切为了心脏健康",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Eva的科技生活",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Apple Watch S12 / Ultra 4首发评测：真正的升级，在背面？#抖音前沿科技首发计划#上抖音精选App看科技热点#AppleWatchUltr",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "学姐潇潇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "AppleWatch巨大升级的一代！巨难选的一代🫠 #AppleWatch #applewatchs12 #applewatchultra4 #苹果手表",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "三角洲二周年庆全盘点": {
    "stats": {},
    "authors": [],
@@ -1154,6 +1075,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "中秋转眼来到，我什么都不要，只要孩子们健健康康，平平安安…#中秋节妈妈的心愿 #来中石化易捷抢免单 @中石化易捷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "xinleniu",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中秋转眼来到，我什么都不要，只要我的孩子们，健健康康，平平安安，心想事成，一顺百顺，这就是中秋节妈妈的心愿！",
      "likes": 0,
      "hot": 0
     },
@@ -1238,36 +1169,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "又到了吃虾怪的季节": {
+  "Apple Watch S12首发评测": {
    "stats": {},
    "authors": [
     {
-     "name": "@薛然",
-     "verify": "",
-     "identity": "",
+     "name": "钟文泽",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "学做吃播第263天#吃播#虾怪#寄居蟹",
+     "text": "Apple Watch Series 12丨一切为了心脏健康",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "伊夏夏",
+     "name": "Eva的科技生活",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "虾怪扒皮有意思🤔 #虾怪 #寄居蟹 #爱吃食物的女孩子 #海鲜",
+     "text": "Apple Watch S12 / Ultra 4首发评测：真正的升级，在背面？#抖音前沿科技首发计划#上抖音精选App看科技热点#AppleWatchUltr",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "杉杉大王（贪吃版）",
+     "name": "学姐潇潇",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "大大大大虾怪#虾怪#寄居蟹#美食判官已上线#测评",
+     "text": "AppleWatch巨大升级的一代！巨难选的一代🫠 #AppleWatch #applewatchs12 #applewatchultra4 #苹果手表",
      "likes": 0,
      "hot": 0
     }
@@ -1299,12 +1230,12 @@
      "hot": 0
     },
     {
-     "name": "光明日报",
+     "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "菲律宾船只突然加速，斜插我海警艇船艏，导致发生碰撞，中国海警局回应。#媒体原创",
+     "text": "现场画面曝光！菲船突然加速冲撞我海警艇10分钟内两次恶意斜插 中国海警：正告菲方立即停止挑衅",
      "likes": 0,
      "hot": 0
     },
@@ -1314,17 +1245,17 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "极其危险！菲蓄意挑衅现场视频：菲船只突然加速斜插碰撞致我海警艇船剧烈摇晃，菲船大角度倾斜 视频显示，菲船在十分钟内两次接连斜插我海警艇船艏，挑衅意味明显。在菲3",
+     "text": "#环球时报快评 ：“九一八”当天挑衅，菲律宾自己掂量后果（编辑：大河、小雅）#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "中国军号",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场画面曝光！菲船突然加速冲撞我海警艇10分钟内两次恶意斜插 中国海警：正告菲方立即停止挑衅",
+     "text": "中国海警就菲船只碰撞我海警艇发表谈话",
      "likes": 0,
      "hot": 0
     }
@@ -1332,16 +1263,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "博主回应记录妈妈的最后14天": {
+  "又到了吃虾怪的季节": {
    "stats": {},
    "authors": [
     {
-     "name": "旺哥记录生活",
+     "name": "@薛然",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "妈妈最后十四天的视频答疑",
+     "text": "学做吃播第263天#吃播#虾怪#寄居蟹",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "伊夏夏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "虾怪扒皮有意思🤔 #虾怪 #寄居蟹 #爱吃食物的女孩子 #海鲜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杉杉大王（贪吃版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大大大大虾怪#虾怪#寄居蟹#美食判官已上线#测评",
      "likes": 0,
      "hot": 0
     }
@@ -1446,110 +1397,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "爸爸是我的专属心理医生": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "有西藏室友才有的牦牛肉干": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "秋冬外套一衣穿三季穿搭分享": {
+  "博主回应记录妈妈的最后14天": {
    "stats": {},
    "authors": [
     {
-     "name": "陈醉醉",
+     "name": "旺哥记录生活",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "秋冬外套一衣穿三季 #基础版穿搭 #普通人韩女感速成穿搭 #被问爆的穿搭公式 #小裙子穿搭秋冬 #韩系层次感穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "WE 1:3 JDG": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "LPL赛事高能君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "更胜一筹！JDG3比1战胜WE晋级下一轮对战IG！ #S16资格赛#英雄联盟S16#WE对战JDG #JDG战胜WE",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "联盟爆爆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "JDG3:1战胜WE…Gala四把KDA豪取25-0-16，冒泡赛概念神又要发力？#JDG #Gala #电竞 #名场面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "滕尊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "JDG 3-1 WE！中野状态回暖，Gala零阵亡兜底 #S16资格赛 #英雄联盟S16 #Gala冒泡赛战神 #JDG战胜WE #Gala状态",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL电竞小鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奥拉夫这英雄真是后排克星！团战拿他毫无办法！小徐这奥拉夫侧底消灭WE拿下赛点！#WE对战JDG #S16资格赛 #英雄联盟S16 #英雄联盟15周年 #英雄联盟",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "手把手教你做超长长长长长蛋挞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "😶‍🌫️🥶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超长蛋挞教程 #超长蛋挞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张姐移动面包摊10元3个(酷仕族)",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网爆火的超长蛋挞制作流程分享给大家 #面包 #摆摊 #餐饮创业 #超长蛋挞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lෆiuᥫᩣ ᒻᵒᵛᵄ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "排队买不上的超长长长蛋挞，自己在家安排了，据说买的蛋液很少都是皮，咱这皮薄馅多😀",
+     "text": "妈妈最后十四天的视频答疑",
      "likes": 0,
      "hot": 0
     }
@@ -1738,32 +1595,86 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "谭松韵刘学义我的官配放饭了": {
+  "秋冬外套一衣穿三季穿搭分享": {
    "stats": {},
    "authors": [
     {
-     "name": "谭松韵seven",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "陈醉醉",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "♣️♣️♣️ #兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘学义",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全 肯 定#兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
+     "text": "秋冬外套一衣穿三季 #基础版穿搭 #普通人韩女感速成穿搭 #被问爆的穿搭公式 #小裙子穿搭秋冬 #韩系层次感穿搭",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "理想i9续航首测": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "超级小马哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网首测！理想i9Home极限续航挑战！ #全新理想i9首发动态评测 #理想i9 #理想i9Home#理想新车发布会#i9续航测试",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黑理想",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "理想i9续航全网首测 北京➡️青岛全程700+km#理想i9 #理想i9Home",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Smart",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "i9home 高速续航预告",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "陆星材演绎田小娟辞职舞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "i-dle",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "[CUBE ENT] #陆星材 辞职报告 在此郑重说明：辞职后和CUBE依旧相处愉快，双方之间并无任何问题。 #田小娟 #SO浪漫的辞职舞 #小娟的绝妙人生 #",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "爸爸是我的专属心理医生": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "有西藏室友才有的牦牛肉干": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "你对我的存在 只关于你和我": {
    "stats": {},
@@ -1872,36 +1783,31 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "理想i9续航首测": {
+  "沈北夜市有多好逛": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "谭松韵刘学义我的官配放饭了": {
    "stats": {},
    "authors": [
     {
-     "name": "超级小马哥",
-     "verify": "",
-     "identity": "",
+     "name": "谭松韵seven",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "全网首测！理想i9Home极限续航挑战！ #全新理想i9首发动态评测 #理想i9 #理想i9Home#理想新车发布会#i9续航测试",
+     "text": "♣️♣️♣️ #兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "黑理想",
-     "verify": "",
-     "identity": "",
+     "name": "刘学义",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "理想i9续航全网首测 北京➡️青岛全程700+km#理想i9 #理想i9Home",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Smart",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "i9home 高速续航预告",
+     "text": "全 肯 定#兰香如故 #兰香如故抖音追剧团 #我的追剧日志",
      "likes": 0,
      "hot": 0
     }
@@ -1909,26 +1815,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "许凯周也复仇开局": {
+  "花小龙带陈小春自律的一天": {
    "stats": {},
    "authors": [
     {
-     "name": "周也yeah",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "花小龙",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "和谢清圆的第一章🦚 #一瓯春",
+     "text": "今天带陈小春哥自律！ #自律 #日常vlog #陈小春 #花小龙",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "手把手教你做超长长长长长蛋挞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "😶‍🌫️🥶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超长蛋挞教程 #超长蛋挞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "许凯",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "张姐移动面包摊10元3个(酷仕族)",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "和沈润的第一章 严瑞同上 #一瓯春",
+     "text": "全网爆火的超长蛋挞制作流程分享给大家 #面包 #摆摊 #餐饮创业 #超长蛋挞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Lෆiuᥫᩣ ᒻᵒᵛᵄ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "排队买不上的超长长长蛋挞，自己在家安排了，据说买的蛋液很少都是皮，咱这皮薄馅多😀",
      "likes": 0,
      "hot": 0
     }
@@ -1973,89 +1906,104 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "沈北夜市有多好逛": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "花小龙带陈小春自律的一天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "花小龙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天带陈小春哥自律！ #自律 #日常vlog #陈小春 #花小龙",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "41岁C罗入选葡萄牙国家队": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "直播吧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "官方：41岁C罗入选葡萄牙国家队！#C罗 #葡萄牙 #足球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "41岁C罗继续入选葡萄牙国家队，8月曾称已开始规划退役后的生涯，可能迎来职业生涯的最后一个赛季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大众新闻•半岛都市报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "葡萄牙男足国家队公布新一期名单，41岁C罗继续为国出征，8月曾称可能迎来职业生涯最后一个赛季#C罗 （来源 体坛周报 编辑 陈剑飞）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "时光足球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "41岁C罗入选葡萄牙国家队！葡萄牙名单：B费、菲利克斯入选，莱奥、拉莫斯在列#C罗 #dou来足球季 #葡萄牙队 #利雅得胜利 #欧国联",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙头战法",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗再冲一次世界杯！#C罗 #葡萄牙队 #FCONLINE #FCOL金球计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "宋亚轩心机小狗说晚安": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "能夸夸我的beta吗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "一喜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有情绪都要靠自己消化 没关系 运动会救我千千万万次 #攀岩 #能夸夸我的beta吗 #上墙吧岩友 #吊环 #运动穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Jia啊🧗‍♀️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是你见过最恶心的背 #墙上岩究生来了#能夸夸我的beta吗#上墙吧攀岩人 #上墙吧岩友 #大疆action6",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奥运攀岩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "beta合集 这条线弄个beta合集，这条线其实还是蛮有趣，有大概五六种完成方式、就直接跳的，有正面墙壁去跳的，也背对墙壁去跳的，然后有撑着那个红色的五角星静态",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "WE 1:3 JDG": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "LPL赛事高能君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "更胜一筹！JDG3比1战胜WE晋级下一轮对战IG！ #S16资格赛#英雄联盟S16#WE对战JDG #JDG战胜WE",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "滕尊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "JDG 3-1 WE！中野状态回暖，Gala零阵亡兜底 #S16资格赛 #英雄联盟S16 #Gala冒泡赛战神 #JDG战胜WE #Gala状态",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "联盟爆爆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "JDG3:1战胜WE…Gala四把KDA豪取25-0-16，冒泡赛概念神又要发力？#JDG #Gala #电竞 #名场面",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "JDG晋级资格赛下一轮 与IG争夺最后一张门票 #JDG战胜WE #JDG #S16资格赛 #英雄联盟S16 #2026LPL",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LOL电竞小鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奥拉夫这英雄真是后排克星！团战拿他毫无办法！小徐这奥拉夫侧底消灭WE拿下赛点！#WE对战JDG #S16资格赛 #英雄联盟S16 #英雄联盟15周年 #英雄联盟",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   }
  }
 }
