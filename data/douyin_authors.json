@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-20 14:42",
+ "updated_at": "2026-09-20 16:19",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 48,
- "ok_count": 43,
+ "ok_count": 37,
  "lexicon_count": 0,
  "topics": {
   "潘展乐100米自夺冠": {
@@ -40,6 +40,16 @@
      "hot": 0
     },
     {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 风芒新闻直击名古屋亚运会 0.04秒，手指甲的距离！世界纪录保持者潘展乐男子100米自由泳夺冠完成卫冕！为中国男子游泳夺得首金#直击第一线 #名古屋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "潮新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -50,12 +60,12 @@
      "hot": 0
     },
     {
-     "name": "风芒新闻",
+     "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 风芒新闻直击名古屋亚运会 0.04秒，手指甲的距离！世界纪录保持者潘展乐男子100米自由泳夺冠完成卫冕！为中国男子游泳夺得首金#直击第一线 #名古屋",
+     "text": "拼到最后1米反超！#潘展乐夺金 ：我心里憋着一口气。#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -125,16 +135,6 @@
      "text": "9月20日 日本 名古屋亚运会武术女子全能比赛，中国队选手童心成功卫冕该项目冠军，“学武术没有捷径 要非常努力才能看起来毫不费力”，网友：00后的童心 稳得让人",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "人民政协网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "童心夺得亚运会武术女子全能比赛金牌",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -187,6 +187,100 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "国庆国旗氛围已上线": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "微光航拍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这才是国庆节该有的样子！#五星红旗迎风飘扬",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "清雅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太原迎泽大桥已经插上五星红旗，一阵阵秋 风拂过，红旗迎风飘扬，浓浓的国庆气息扑 面而来，锦绣太原，喜迎国庆#迎泽大桥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红色暖阳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有一种红叫中国红，迎泽大桥上已经插满了国旗，五星红旗随风飘扬，国庆节的氛围越来越浓。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中美经贸磋商在美国纽约开始举行": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中美经贸磋商在美国纽约开始举行#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "商务部新闻发言人就中美经贸磋商有关问题答记者问",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "经中美双方商定，中共中央政治局委员、国务院副总理何立峰将于9月19日—23日率团赴美国与美方举行经贸磋商。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "经中美双方商定，中共中央政治局委员、国务院副总理何立峰将于9月19日—23日率团赴美国与美方举行经贸磋商。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国三农发布",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "经中美双方商定，中共中央政治局委员、国务院副总理何立峰将于9月19日—23日率团赴美国与美方举行经贸磋商。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "中国U23男足0:0伊朗U23": {
    "stats": {},
    "authors": [
@@ -221,16 +315,6 @@
      "hot": 0
     },
     {
-     "name": "豫视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间9月20日，2026爱知·名古屋亚运会男足小组赛第二轮，中国男足0比0战平伊朗男足。下半场中国队打出精彩角球配合，老将吴曦一脚凌空斩击中横梁#亚运会 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "环球时报",
      "verify": "红V",
      "identity": "媒体人",
@@ -239,41 +323,14 @@
      "text": "亚运会男足小组赛第2轮，中国0-0战平伊朗，目前中国队一胜一平，以净胜球劣势排名小组第二（编辑：豆啵）",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆国旗氛围已上线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "微光航拍",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这才是国庆节该有的样子！#五星红旗迎风飘扬",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "清雅",
-     "verify": "",
-     "identity": "",
+     "name": "豫视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "太原迎泽大桥已经插上五星红旗，一阵阵秋 风拂过，红旗迎风飘扬，浓浓的国庆气息扑 面而来，锦绣太原，喜迎国庆#迎泽大桥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红色暖阳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有一种红叫中国红，迎泽大桥上已经插满了国旗，五星红旗随风飘扬，国庆节的氛围越来越浓。",
+     "text": "北京时间9月20日，2026爱知·名古屋亚运会男足小组赛第二轮，中国男足0比0战平伊朗男足。下半场中国队打出精彩角球配合，老将吴曦一脚凌空斩击中横梁#亚运会 #",
      "likes": 0,
      "hot": 0
     }
@@ -355,6 +412,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "董建华公祭仪式在港举行": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "董建华先生公祭仪式在香港举行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "创大现场随机解锁老熟人": {
    "stats": {},
    "authors": [
@@ -392,80 +466,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我看亚运会开幕式belike": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "赵丽娜",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "看个亚运开幕式真的很难绷 #亚运观察员已就位 #亚运会有什么看点 #名古屋亚运会 #猎奇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爆姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "每个人出场都很在努力绷住#亚运会开幕式 #搞笑 #名古屋亚运会 #日本 #抽象",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昊老师",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "名古屋·亚运会开幕式，公司年会？？？#亚运会 #开幕式#名古屋#公司年会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "把平凡的一天拍出名场面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "今日快讯",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不用等纪念日，不用等大事发生。生活中的一点小事，就值得用手机记录下来。#把平凡的一天拍出名场面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "在频率之外",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生活里呃每一帧，都是名场面#把平凡的一天拍出名场面 #记录生活",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "回声不打烊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "平凡生活也能用手机拍出名场面#把平凡的一天拍出名场面",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "桂花香飘散在风里": {
    "stats": {},
    "authors": [
@@ -496,23 +496,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "桂花香飘散在风里 想你想你想你#风里已经有桂花香 #满树都是桂花香",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "沈佳润全开麦演绎新歌就骗我一次": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "沈佳润Nina",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#就骗我一次韩文版 世上没有永恒的关系，爱情、亲情也许都不会一直围绕在我们身边。但仅仅作为一个个小小的人类，明知道逝去的人不会回来，却还总在梦里盼着亲人的一声声",
      "likes": 0,
      "hot": 0
     }
@@ -577,60 +560,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "2026湾区升明月晚会": {
+  "沈佳润全开麦演绎新歌就骗我一次": {
    "stats": {},
    "authors": [
     {
-     "name": "电影频道融媒体中心",
-     "verify": "",
-     "identity": "",
+     "name": "沈佳润Nina",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026湾区升明月大湾区电影音乐晚会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国电影报道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026湾区升明月 周深亮相 “湾区升明月” 舞台，演绎经典金曲《泪海》。细腻充沛的情绪铺满整个舞台，勾起满满的怀旧氛围感，用歌声复刻经典的动人力量！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "董建华公祭仪式在港举行": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "董建华先生公祭仪式在香港举行",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "UFC331约书亚夺蝇量级冠军": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "UFC终极格斗冠军赛",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无可争议的UFC蝇量级世界冠军——约书亚-万！！！#UFC331 #UFC",
+     "text": "#就骗我一次韩文版 世上没有永恒的关系，爱情、亲情也许都不会一直围绕在我们身边。但仅仅作为一个个小小的人类，明知道逝去的人不会回来，却还总在梦里盼着亲人的一声声",
      "likes": 0,
      "hot": 0
     }
@@ -662,26 +601,6 @@
      "hot": 0
     },
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会官网搞错比分，王楚钦赢下两局后显示0:2落后，韩乔生吐槽：比分都能写错，名古屋亚运会，它是真的想被世人记住啊！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“真的很生气、真无语”名古屋亚运会官网搞错王楚钦比分，连赢两局，比分却显示其0：2落后。#亚运会 #乒乓球 #体育",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "齐鲁晚报·果然视频",
      "verify": "蓝V",
      "identity": "媒体人",
@@ -700,12 +619,116 @@
      "text": "#媒体原创 离谱！#名古屋亚运会把王楚钦比分记反了 现场和官网一起出错 解说郭焱吐槽：开\"国际玩笑\"呢？",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "四川日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“真的很生气、真无语”名古屋亚运会官网搞错王楚钦比分，连赢两局，比分却显示其0：2落后。#亚运会 #乒乓球 #体育",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月20日（发布）。亚运会官网搞错王楚钦比分，王楚钦赢下两局后，官网显示其0：2落后，最终王楚钦3：0完胜对手，解说郭焱吐槽“开国际玩笑呢”。",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "萨鲁基安肘击KO鲁飞": {
+  "富勒姆vs曼联": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "曼联足球俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前往伦敦🚅今晚见🔴#曼联#富勒姆vs曼联#英超",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "体育观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "曼城vs桑德兰 AC米兰vs莱切 富勒姆vs曼联 拉科鲁尼亚vs皇家贝蒂斯#曼城vs桑德兰 #AC米兰vs莱切 #富勒姆vs曼联 #拉科鲁尼亚vs皇家贝蒂斯 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南融体坛",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "伯恩茅斯vs利物浦 马竞vs皇马 富勒姆vs曼联#伯恩茅斯vs利物浦 #马竞vs皇马 #富勒姆vs曼联 #西甲 #英超",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三胖子观魔MuDaily",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "客场挑战农场主富勒姆！曼联能否止住颓势？？#曼联 #英超 #富勒姆vs曼联 #卡里克 #拉什福德",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱吃西瓜的十号",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周末狂欢，本周五场值得观看的英超比赛 #曼联 #曼城 #阿森纳 #利物浦 #维拉",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2026湾区升明月晚会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电影频道融媒体中心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026湾区升明月大湾区电影音乐晚会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国电影报道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#2026湾区升明月 周深亮相 “湾区升明月” 舞台，演绎经典金曲《泪海》。细腻充沛的情绪铺满整个舞台，勾起满满的怀旧氛围感，用歌声复刻经典的动人力量！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "UFC331约书亚夺蝇量级冠军": {
    "stats": {},
    "authors": [
     {
@@ -714,37 +737,7 @@
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "在首回合还剩4秒时，萨鲁基安砍肘直接KO鲁飞！#UFC331 #UFC",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "怪兽UFC",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萨少首回合连环肘终结鲁菲锁定下一个挑战权 萨鲁基安是如何ko鲁菲的呐？我们一起欣赏解读 #格斗 #萨鲁基安 #萨鲁基安ko鲁菲 #托普利亚 #青年创作者成长计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天赋格斗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萨鲁基安KO鲁菲：真正的杀招不是摔跤 #萨鲁基安#ufc331 #格斗#抖音精选#mma",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "UFC陈总",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜萨鲁基安 萨鲁基安首回合KO鲁飞拿下UFC6连胜！他会是下一个冠军挑战者吗？#UFC #萨鲁基安 #托普利亚 #奥利维拉 #帕迪平布雷特",
+     "text": "无可争议的UFC蝇量级世界冠军——约书亚-万！！！#UFC331 #UFC",
      "likes": 0,
      "hot": 0
     }
@@ -773,6 +766,60 @@
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "把平凡的一天拍出名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "今日快讯",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不用等纪念日，不用等大事发生。生活中的一点小事，就值得用手机记录下来。#把平凡的一天拍出名场面",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "在频率之外",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生活里呃每一帧，都是名场面#把平凡的一天拍出名场面 #记录生活",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "回声不打烊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "平凡生活也能用手机拍出名场面#把平凡的一天拍出名场面",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "田曦薇好适合穿旗袍": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小田",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#可可妆 青~",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "iPhone Duo上手排面拉满": {
    "stats": {},
@@ -808,6 +855,16 @@
      "hot": 0
     },
     {
+     "name": "c_z1。",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "已到货",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "跳跳虎🐅",
      "verify": "",
      "identity": "",
@@ -816,104 +873,10 @@
      "text": "折叠屏#iphoneDuo",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "TaintedAim",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#折叠屏的快乐",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "一口中秋蟹味鲜": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "电影重生2定档": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "文俊辉",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "纵享丝滑 #电影重生2 #文俊辉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "cucn201白客",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在这里，得遵守我的规矩 #电影重生2 #白客",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电影重生2",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "枪声一响，希拉登场，听得很爽，看得也很爽！#电影重生2 #梁洛施",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "周深湾区升明月全开麦现场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "主持人 小翟",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "周深炸场《湾区升明月2026》，《泪海》稳得一批！#全开麦演唱会现场 #湾区升明月 #周深 #澳门 #演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "深圳卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "周深解锁《泪海》新舞台 还说“这可是小时候抱过我的歌” 当经典旋律遇上治愈嗓音，这场舞台直接戳中了无数人的心巴！9月20日，中国澳门，“湾区升明月”2026大湾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "1905电影网",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#周深演绎经典情歌泪海 周深开口破防！周深湾区舞台演绎许茹芸经典情歌《泪海》，”你怎么舍得让我的泪流向海”心碎感拉满。#周深 #2026湾区升明月 #湾区升明月",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "首届糯门零食大赛": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "人们常常因为有了小咪而感到幸福": {
    "stats": {},
@@ -952,36 +915,135 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "谭松韵分享兰香如故幕后故事": {
+  "电影重生2定档": {
    "stats": {},
    "authors": [
     {
-     "name": "中国日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "文俊辉",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 #谭松韵分享兰香如故幕后故事 #谭松韵说围读剧本像回到校园 古装剧《兰香如故》正在热播，主演谭松韵在接受中国日报采访时分享了剧集的幕后故事，她说围读",
+     "text": "纵享丝滑 #电影重生2 #文俊辉",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "四川卫视",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "cucn201白客",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9 月 15 日，电视剧《兰香如故》追剧团活动在北京举办。谭松韵现场分享角色创作感受，解读角色心怀期许、向上生活的人物内核。#兰香如故 #谭松韵",
+     "text": "在这里，得遵守我的规矩 #电影重生2 #白客",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大象文娱",
+     "name": "电影重生2",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谭松韵说兰香的幸运是她自己该得的。你递出去的光，早晚会照回你自己。 #谭松韵 #兰香如故 #谭松韵说爱出者爱返",
+     "text": "枪声一响，希拉登场，听得很爽，看得也很爽！#电影重生2 #梁洛施",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "左手右手翻唱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "梅柯📸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那一刻，我也被净化了 #军训才艺表演 #大学生活#才艺表演 #蜂花",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大一女生军训时唱起童年回忆，声音仿佛自带“净化”。网友：一开口全身起鸡皮疙瘩了！@梅柯📸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "美羊羊Axda¹⁸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "战损版美羊羊，大家要的完整版来啦～ #美羊羊#童年回忆 #大学生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山竹大王不尖叫～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今日是#楼道唱歌 #左手右手 #翻唱 永远可以是小孩儿～",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叙时",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当困难来临的时候…… #喜羊羊与灰太狼 #左手右手 #翻唱 #全开麦实力 #上热门",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一口中秋蟹味鲜": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "周深湾区升明月全开麦现场": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "主持人 小翟",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周深炸场《湾区升明月2026》，《泪海》稳得一批！#全开麦演唱会现场 #湾区升明月 #周深 #澳门 #演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "深圳卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周深解锁《泪海》新舞台 还说“这可是小时候抱过我的歌” 当经典旋律遇上治愈嗓音，这场舞台直接戳中了无数人的心巴！9月20日，中国澳门，“湾区升明月”2026大湾",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "1905电影网",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#周深演绎经典情歌泪海 周深开口破防！周深湾区舞台演绎许茹芸经典情歌《泪海》，”你怎么舍得让我的泪流向海”心碎感拉满。#周深 #2026湾区升明月 #湾区升明月",
      "likes": 0,
      "hot": 0
     }
@@ -1016,36 +1078,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "人和奶茶有过这一瞬间就够了": {
+  "网红小狗彪哥疑被人投毒致死": {
    "stats": {},
    "authors": [
     {
-     "name": "🐽阿喵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一杯奶茶拿下#人和奶茶有过这一瞬间就够了 #我的秋日限定",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "慕慕有奶糖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "喝到好喝的奶茶 我就开始跳 #人和奶茶有这一瞬间就够了 #我的秋日限定 #holymoly",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叫我小沝(zǐ)子",
+     "name": "章律安康",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "那个感觉，懂得都懂！ #严成玹 #holymoly #人和奶茶有过这一瞬间就够了",
+     "text": "网红小狗彪哥疑被人投毒，目前警方已经介入。很多人以为，毒死一条狗赔点钱就完了。说实话，还真不是这样。如果是在公共场所投毒，是很可能构成投放危险物质罪的。如果是针",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "林心如苏有朋古巨基同台合唱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月20日，2026湾区升明月节目单公布，林心如、苏有朋、古巨基将同台合唱《情深深雨濛濛》。如萍、杜飞、何书桓再度相聚，经典角色重逢，一开口就是几代人的青春回忆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#古巨基苏有朋林心如合唱回忆杀 9月20日，“湾区升明月”2026大湾区电影音乐晚会现场，林心如、苏有朋、古巨基同台合唱《情深深雨濛濛》。 #情深深雨濛濛经典角",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "粤TV",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#情深深雨濛濛三人组再同框 9月20日晚，“湾区升明月”2026大湾区电影音乐晚会举行，古巨基、苏有朋、林心如同台唱响《情深深雨濛濛》，当年的书桓、杜飞、如萍再",
      "likes": 0,
      "hot": 0
     }
@@ -1107,22 +1186,22 @@
      "hot": 0
     },
     {
-     "name": "民生和小翠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一个人心中只有一个宝贝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "铁锅不炖大鹅",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "一个人心中只有一个宝贝 #猫猫依存症 #懒猫本猫 #懒咪 #橘猫睡姿 #曼基康矮脚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "民生和小翠",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一个人心中只有一个宝贝",
      "likes": 0,
      "hot": 0
     },
@@ -1153,238 +1232,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "一个人心中只有一个宝贝。#狗狗日常记录 #被小狗治愈的一天 #软萌泰迪 #萌宠生活碎片 #狗狗可爱计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曹骏偷心斯文败类变装": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "曹骏",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个变装，能偷走你的心吗？#曹骏披荆斩棘打开版 #披荆斩棘 #王子系变装",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "披荆斩棘",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#阿云嘎 被#曹骏 的可爱狠狠戳中，逮住机会就不停打趣逗弄！#披荆斩棘 #披荆斩棘2026",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "男子200米个人混合泳汪顺摘铜": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "汪顺获得亚运会男子200米个人混合泳铜牌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新民晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#名古屋亚运会 摘铜！五朝元老为何坚持？#汪顺 的回答好暖！自己曾经受过挫折，希望能给更多人鼓励！#媒体原创#汪顺好暖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "胡晓闲",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "续写传奇！恭喜汪顺连续五届登上领奖台！ #汪顺 #名古屋亚运会 #一首说唱带你认识亚运健儿 #人物故事 #榜样的力量",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宁波日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拼尽全力！汪顺获200米混铜牌 大度祝贺对手！两人年龄差11岁 网友：下山的神遇见上山的人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "越牛新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "汪顺已经燃尽了！亚运会男子200米个人混合泳决赛，汪顺获得第三，起水的时候差点踉跄了一下#热点新闻事件 #汪顺 #亚运会 #游泳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 2026爱知·名古屋亚运会男子200米 个人混合泳决赛 32岁汪顺获铜牌 两名日本选手包揽金银牌 32岁汪顺比金牌得主大11岁 汪顺五次征战亚运会均",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 32岁老将汪顺第五次参加亚运会，200米混合泳夺得第三名，赛后心态超赞：游得非常开心，弥补了5年前在日本没有观众的遗憾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国蓝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 亚运会男子200米个人混合泳，汪顺获得铜牌。领奖时观众大喊他的名字，依然是大家力挺的那个顺哥！#汪顺",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "抖音电商作者峰会开幕": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "张国伟_国家伟大",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我真帅 #我的电商主舞台 #抖音电商作者峰会开幕 #抖音创作者大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张歆艺",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女演员的抽象日常，不为人知的一面～ #反差 #女演员的日常 #张歆艺",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "金铲铲黑科技花仙稻草人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "金铲铲诛星（阵容码公开群可自取）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《花仙子稻草人》无需转职也可以打满层花仙子奖励！ #金铲铲自然之力 #金铲铲新版本上分阵容 #云顶之弈自然之力 #云顶之弈s18",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁老施（金铲铲之战）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "花仙子稻草人 s18稻草人主C阵容保姆级运营教学来了，技能回复生命值增益花仙子羁绊打钱速度，依靠经济优势碾压全场！#青年创作者成长计划 #金铲铲自然之力 #金铲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "狸里♡v♡（金铲铲之战）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "花仙子稻草人 S18自然之力教学来啦，稻草人主c，无需转职也可以打爆花仙！快来试试吧#金铲铲之战 #金铲铲自然之力 #精选计划 #铲一把",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "陈思诚新电影阵容梦回士兵突击": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电影神探之痕迹",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“好久不见，伍班副。”#电影神探之痕迹 #陈思诚 #张译 #邢佳栋",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "传说三忍大蛇丸全技能爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "火影忍者手游情报君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#传说三忍大蛇丸全技能爆料 蜕皮切换，随“形”应变？快随萌黄一起探查他的实力！#火影忍者手游 #火影忍者",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁村大聪明",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秽土转生做奥义、夺舍斩杀、传说大蛇丸全技能来啦，我吐蛇蛇吐我#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白鹦鹉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【传说大蛇丸全爆料】竟然能夺舍对手！ #火影忍者手游 #传说三忍大蛇丸全技能爆料 #火影手游晓朱鼬 #权威忍者攻略 #木叶村抽象家",
      "likes": 0,
      "hot": 0
     }
@@ -1429,6 +1276,218 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "曹骏偷心斯文败类变装": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "曹骏",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个变装，能偷走你的心吗？#曹骏披荆斩棘打开版 #披荆斩棘 #王子系变装",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "披荆斩棘",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿云嘎 被#曹骏 的可爱狠狠戳中，逮住机会就不停打趣逗弄！#披荆斩棘 #披荆斩棘2026",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "下次和闺蜜一起拍马面裙双生花": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "hi^",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "粉蓝双生并蒂莲。#马面裙#新中式#国风#双生#并蒂莲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "摸娱搭子王美丽",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闺蜜 我找到马面裙最出片的方法了#马面裙 #拍照构图 #拍摄思路 #神图 #审美积累",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "xin^",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西湖纵有千般美#马面裙 #双生花 #东方美学",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "金铲铲黑科技花仙稻草人": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "金铲铲诛星（阵容码公开群可自取）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《花仙子稻草人》无需转职也可以打满层花仙子奖励！ #金铲铲自然之力 #金铲铲新版本上分阵容 #云顶之弈自然之力 #云顶之弈s18",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "隔壁老施（金铲铲之战）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "花仙子稻草人 s18稻草人主C阵容保姆级运营教学来了，技能回复生命值增益花仙子羁绊打钱速度，依靠经济优势碾压全场！#青年创作者成长计划 #金铲铲自然之力 #金铲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "狸里♡v♡（金铲铲之战）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "花仙子稻草人 S18自然之力教学来啦，稻草人主c，无需转职也可以打爆花仙！快来试试吧#金铲铲之战 #金铲铲自然之力 #精选计划 #铲一把",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "传说三忍大蛇丸全技能爆料": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "火影忍者手游情报君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#传说三忍大蛇丸全技能爆料 蜕皮切换，随“形”应变？快随萌黄一起探查他的实力！#火影忍者手游 #火影忍者",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "隔壁村大聪明",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秽土转生做奥义、夺舍斩杀、传说大蛇丸全技能来啦，我吐蛇蛇吐我#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白鹦鹉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【传说大蛇丸全爆料】竟然能夺舍对手！ #火影忍者手游 #传说三忍大蛇丸全技能爆料 #火影手游晓朱鼬 #权威忍者攻略 #木叶村抽象家",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王力宏盖世英雄炸场了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "1905电影网",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#王力宏盖世英雄炸场了 王力宏《盖世英雄》湾区炸场！京剧戏腔 + 嘻哈，国风封神 #王力宏 #2026湾区升明月 #湾区升明月2026大湾区电影音乐晚会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "主持人 小翟",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《湾区升明月 2026》舞台，王力宏，太享受了叭！#王力宏 #演唱会 #全开麦演唱会现场 #湾区升明月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 歌手王力宏在“湾区升明月”2026大湾区电影音乐晚会带来代表作《盖世英雄》，酷炫舞台彰显音乐态度！#文娱体万象观",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "人和奶茶有过这一瞬间就够了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "🐽阿喵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一杯奶茶拿下#人和奶茶有过这一瞬间就够了 #我的秋日限定",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "慕慕有奶糖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "喝到好喝的奶茶 我就开始跳 #人和奶茶有这一瞬间就够了 #我的秋日限定 #holymoly",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叫我小沝(zǐ)子",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那个感觉，懂得都懂！ #严成玹 #holymoly #人和奶茶有过这一瞬间就够了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "藏在超长长长长长蛋挞里的惊喜": {
    "stats": {},
    "authors": [
@@ -1466,150 +1525,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "万物皆可AI面部检查": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "ℒ花城",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "若娜瓦の面部检查（评论的和若娜瓦约会）#原神创作者激励计划 #若娜瓦 #原神至冬 #死之执政 动作参考@ShuiShui",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "水姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "水姐嫌弃脸AI面部检查 #水姐 #面部检查 #嫌弃脸 #社畜眼镜男 @水姐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "喵波菈-bola",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "玩弄一下 #仙子 #师尊 #合欢宗 #宗主",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "丑橘456",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丑橘の面部检查 #丑橘 #哈基米 #猫咪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "永远跟党走（家里150只跳跳）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蛇 #小峰布偶猫 #响尾蛇 #布偶猫 #猫咪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "旋转的路由器",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天使也能用这个Ai模板 #天使#守望先锋#3D区#3D建模#AI",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "公式化串子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大调查一下康哥 #剪映让好作品告别AI感 #zmjjkk #舞蹈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "muagyeon",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哥几个我这回真的想退出了 你们怎么把我传到群里了呀。我颜面尽毁#王昊哲#whzy #blg",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "炸鸡（燕云十六声）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "江叔の面部检查 #燕云十六声 #江晏 #燕云说书人计划 #万物皆可燕云",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "罗哥，梦想哭了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "字母骆#精神氮泵 #日常 #m #萌宠出道计划 #成精的萌宠",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "下次和闺蜜一起拍马面裙双生花": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "hi^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "粉蓝双生并蒂莲。#马面裙#新中式#国风#双生#并蒂莲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "摸娱搭子王美丽",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闺蜜 我找到马面裙最出片的方法了#马面裙 #拍照构图 #拍摄思路 #神图 #审美积累",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小池抚🌙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "池中并蒂莲，岸上双生花 #马面裙#京云染 #双子星 #卡点",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "同顿饭不同人拍照对比": {
    "stats": {},
    "authors": [],
@@ -1617,230 +1532,43 @@
   },
   "提前预制国庆节约会穿搭": {
    "stats": {},
-   "authors": [
-    {
-     "name": "什么时候",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆节约会穿搭4选1。#女大学生穿搭分享 #ootd穿搭 #穿搭分享 #ootd我的穿搭日记 #穿搭日记",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "邹雪糕秋冬ootd一键码住": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抹茶大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我已经开始期待冬天到来了！#跟着邹雪糕提前预习冬日穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "八仙果",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冬日我就这样穿，包美哒！#跟着邹雪糕提前预习冬日穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爆姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个冬天我直接抄作业。#跟着邹雪糕提前预习冬日穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这首歌的频率快得像逝去的青春": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小灰灰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这首歌的频率太快了，就像逝去的青春，眨眼间闲散#雪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "成不凡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这首歌的频率太快了，就像逝去的青春，眨眼间闲散#雪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这首歌的频率太快了 就像逝去的青春 眨眼间闲散……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你比流星难等",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这首歌的频率太快了，就像逝去的青春，眨眼间消散#雪 （yc：@恨 ）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "意中人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这首歌的频率太快了 就像逝去的青春 眨眼间闲散",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张睿艾热齐天舞台全程高能": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "披荆斩棘",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#张睿 #艾热 国风唱腔燃唱《齐天》，一声嘶吼撕裂舞台，大圣的桀骜与狂气扑面而来！#披荆斩棘 #披荆斩棘2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "艾热",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张，睿不可当。@张睿Ray 和 艾，热情似火。@ 我自己。《齐天》率先出战。 #披荆斩棘 #披荆斩棘直播",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Kim老师",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "声乐老师锐评《披荆斩棘2026》三公上半场完整版 #艾热 #披荆斩棘2026 #披哥 #张睿 #齐天",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "超长蛋挞的风吹到蛋糕界了": {
    "stats": {},
-   "authors": [
-    {
-     "name": "来一口Noble",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日份幸福~吃超长长长长长蛋挞蛋糕！巧克力抹茶玉米口味三拼！ #超长蛋挞 #沉浸式 #沉浸式做蛋糕 #蛋挞 #蛋糕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超长蛋挞代购价是原价3倍多 超长蛋挞这5类人别吃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洛视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "60厘米“超长长长长蛋挞”火了！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "邹雪糕秋冬ootd一键码住": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "这首歌的频率快得像逝去的青春": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "济南的秋天藏着老舍笔下的温柔": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "原来热巴拨动的是我的心弦": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "第一视角记录回家过中秋": {
+  "谭松韵分享兰香如故幕后故事": {
    "stats": {},
-   "authors": [
-    {
-     "name": "孟老六",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爸妈有五个女儿，中秋节马上到了，五个女儿回来走中秋。以前家里女儿多，总被别人议论，现如今，家里女儿多，反倒成了旁人羡慕的事。#原创视频 #家庭情感 #vlog日",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "达不溜TU.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "山东女婿第一次送节礼#山东送节礼 #中秋节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "涡阳跑腿找大静",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中秋节回家看看啦～#中秋#涡阳跑腿#大静#中秋节回娘家#回家看看",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "张睿艾热齐天舞台全程高能": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   }
  }
 }
