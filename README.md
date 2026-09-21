@@ -62,6 +62,7 @@ dmedia-site/
 ├── about.html          # 创始人页
 ├── trends.html         # 社交媒体趋势（核心功能页）
 ├── reports/            # 报告页（每篇自包含，可独立分享）
+│   ├── 早春晴朗评论区舆情分析.html
 │   ├── 全球社交媒体上的奥德赛时期.html
 │   └── 中国电动汽车营销趋势报告.html
 ├── data/               # CI 自动更新的热榜数据（前端直接 fetch）
@@ -120,5 +121,6 @@ git push origin main
 1. 把报告 HTML 放入 `reports/`（自包含样式，便于独立分享）
 2. 用无头 Chrome 生成首屏封面到 `assets/<name>-preview.jpg`
 3. 在 `index.html` 的 `.pillar-reports` 中复制一个 `hero-report-card`，填好链接 / 图片 / 标题与简介
+4. 如需在创始人页 `about.html` 展示，复制一个 `.campaign.split` 板块，右栏换成 `.report-card`（图片 + `READ →` 页脚）
 
 — © 2026 DMEDIA Studio
