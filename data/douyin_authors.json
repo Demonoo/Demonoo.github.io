@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-22 14:43",
+ "updated_at": "2026-09-22 16:05",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 48,
- "ok_count": 44,
+ "topic_count": 42,
+ "ok_count": 28,
  "lexicon_count": 0,
  "topics": {
   "我国首批航天员已全部停航停训": {
@@ -30,6 +30,16 @@
      "hot": 0
     },
     {
+     "name": "河南日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“航天英雄”杨利伟走进国新办，分享中国航天故事。 9月21日下午，国新办举行“新征程上的奋斗者”中外记者见面会。中国载人航天工程副总设计师、特级航天员杨利伟等航",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "南方日报·南方+",
      "verify": "红V",
      "identity": "媒体人",
@@ -40,22 +50,12 @@
      "hot": 0
     },
     {
-     "name": "羊城晚报•羊城派",
+     "name": "长江日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【在月球工作没有备份和救援】9月21日，中国载人航天工程副总设计师、特级航天员杨利伟亮相国新办“新征程上的奋斗者”中外记者见面会。谈到载人登月，杨利伟坦言，整个",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "上海证券报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杨利伟寄语中国载人登月航天员：相信自己 相信团队 特别要相信中国载人航天几十年所积累的工程力量和能力（记者：安然）",
+     "text": "“中国飞上太空第一人”杨利伟亮相国新办，“我是坐着拖拉机就上去了”，如今空间站变“三室一厅”，有空气炸锅能现炸鸡翅",
      "likes": 0,
      "hot": 0
     }
@@ -107,22 +107,22 @@
      "hot": 0
     },
     {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张展硕获男子1500米自由泳金牌",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "五星体育",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "张展硕1500米自轻松夺冠。北京时间9月22日，在爱知·名古屋亚运会游泳男子1500米自由泳决赛中，19岁的中国小将张展硕展现了超强的实力，他全程游得游刃有余，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "温州瓯海发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张展硕夺得1500米自由泳金牌 亚洲历史第二快成绩仅次于孙杨，中国队实现该项目亚运会五连冠",
      "likes": 0,
      "hot": 0
     }
@@ -147,6 +147,48 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "用条纹打开韩系穿搭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "和好友一起打开川西慢旅行": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "翟潇闻",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天地辽阔，怎么走都不会错#心动赴川西 #遇见城市 #上抖音跟小团 #和好友一起打开川西慢旅行 #友趣的川西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沈月",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "只有山想见你，你才能见到山。 #心动赴川西 #遇见城市 #上抖音跟小团 #和好友一起打开川西慢旅行 #友趣的川西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "旅小七",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闯进川西慢充模式，不赶路才是正经事 #慢充旅行 #心动赴川西 #和好友一起打开川西慢旅行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "中国女排亚运会三连冠": {
    "stats": {},
    "authors": [
@@ -157,6 +199,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "夺冠瞬间！中国女排卫冕亚运会冠军！ #中国女排 #亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国排球ChinaVolley",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第 32 金🥇。中国女排，团结一心！2026亚运会第32金前来报道！#亚运会夺金请报数 #名古屋亚运会",
      "likes": 0,
      "hot": 0
     },
@@ -191,131 +243,22 @@
      "hot": 0
     },
     {
-     "name": "universe",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们名古屋亚运会夺冠啦！！！！ 中国女排，团结一心！2026亚运会第32金来抖音报到啦！#亚运会夺金请报数 #名古屋亚运会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民网",
+     "name": "工人日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 中国女排3∶0战胜日本女排，实现亚运会三连冠！转发祝贺🎉（人民网 胡雪蓉）",
+     "text": "#媒体原创 今天（22日）名古屋亚运会女子排球决赛，中国女排3-0完胜日本队夺得金牌，实现亚运会三连冠。赛后，现场球迷激动呐喊落泪，他告诉记者：“从亚锦赛亚军一",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网快看",
+     "name": "潮新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国女排成就亚运“十冠王”，2比10落后逆转！主教练说：这就是女排精神！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长长长假吃长长长蛋挞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "来一口Noble",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日份幸福~吃超长长长长长蛋挞蛋糕！巧克力抹茶玉米口味三拼！ #超长蛋挞 #沉浸式 #沉浸式做蛋糕 #蛋挞 #蛋糕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "懂酸奶的阿牛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "幸福是一条超长长长蛋挞🥰蛋挞酸奶夹教学 #超长蛋挞 #超长长长蛋挞 #冷萃酸奶也可以这样吃 #冷萃酸奶#谁懂这一口的好吃程度",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栗子的日常",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "主播也是做上这个超长蛋挞了好吧。 #电饭煲 #超长长长蛋挞 #蛋挞#抽象#猎奇",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用条纹打开韩系穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "2026中国民营企业500强发布": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社消息｜“2026中国民营企业500强”发布 （记者：李帅、郝杰）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今日关注",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【财经『姗』板斧】2026民企500强榜单发布，民营经济告别粗放增长、实体经济强势回归，广东企业成高质量转型标杆。（央视财经）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026中国民营企业500强榜单发布",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "净赚1.83万亿、纳税1.3万亿，2026中国民企500强出炉：京东、阿里、恒力排名前三，华为第4，比亚迪第5，腾讯第6",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026中国民营企业500强出炉。#媒体精选计划",
+     "text": "#媒体原创 3∶0！中国女排完胜日本队，实现亚运会三连冠 成为“十冠王”，队员庄宇珊：打日本队 我们要赢。主教练：队员们想要赢球的欲望很强",
      "likes": 0,
      "hot": 0
     }
@@ -390,36 +333,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "和好友一起打开川西慢旅行": {
+  "超长蛋挞爆火出圈": {
    "stats": {},
    "authors": [
     {
-     "name": "翟潇闻",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天地辽阔，怎么走都不会错#心动赴川西 #遇见城市 #上抖音跟小团 #和好友一起打开川西慢旅行 #友趣的川西",
+     "text": "#媒体原创 60厘米超长蛋挞火了，多地供不应求，武汉单厂日产能1000到2000箱，一根≈6到8个普通蛋挞，接近两顿饭。专家建议：可以尝 但这5类人建议别凑热闹",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "沈月",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "大参考",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "只有山想见你，你才能见到山。 #心动赴川西 #遇见城市 #上抖音跟小团 #和好友一起打开川西慢旅行 #友趣的川西",
+     "text": "60厘米的超长蛋挞火爆出圈，热量超1000千卡，妥妥的“热量炸弹”。医院提醒，血糖不稳、高血脂、肠胃薄弱、减重人群尽量别跟风尝鲜，儿童也不宜多吃。热闹背后，健康",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "旅小七",
-     "verify": "",
-     "identity": "",
+     "name": "今日关注",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "闯进川西慢充模式，不赶路才是正经事 #慢充旅行 #心动赴川西 #和好友一起打开川西慢旅行",
+     "text": "60厘米“超长蛋挞”火了！最新提醒：“超长蛋挞”的酥皮和蛋挞液都属于高热量食物，特定人群要谨慎适量食用。（央广网）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "近日，一款长60厘米的“超长蛋挞”爆火出圈，有医院发文表示，超长蛋挞按体积和常见配方粗略估算，热量轻松超过1000千卡（编辑：浩宇）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "安徽日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#超长蛋挞 60厘米“超长蛋挞”火了！最新提醒：热量可能轻松超过1000千卡，特定人群要谨慎适量食用。#饮食健康 #热量",
      "likes": 0,
      "hot": 0
     }
@@ -427,10 +390,334 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "一地一张中秋名片": {
+  "中国队男子4×100米混接夺金": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会四连冠！2026亚运会男子4×100米混合泳接力决赛。由徐嘉余、董志豪、徐放、潘展乐组成的中国队以3分27秒89夺得金牌。看总台体育评论员张萌萌的现场点评",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国蓝新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "四连冠！中国队夺得亚运会男子4×100米混合泳接力金牌。#媒体原创 #名古屋亚运会 #潘展乐 #徐嘉余",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赛前赛后丨中国男子4×100混接亚运四连冠#名古屋亚运会 #混合接力4x100 #潘展乐 #徐嘉余",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会男子4乘100米混合泳接力，中国队力压日韩成功卫冕，实现亚运四连冠！夺冠后潘展乐霸气展示泳帽上的国旗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月22日，名古屋亚运会男子4×100米混合泳接力决赛，由徐嘉余、董志豪、徐放、潘展乐组成的中国队夺得金牌！中国队在男子4×100米混合泳接力项目实现四连冠，潘",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 四连冠！中国队夺得亚运会男子4×100米混合泳接力金牌#2026亚运会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "全网都在恭喜中国女排夺冠": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "惠若琪",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "站在中间的是谁家的“孩子们”啊 是我们🎉中国女排🇨🇳冠军🏆 #亚运会 #排球 #中国女排",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "薛明",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🇨🇳恭喜中国女排！名古屋亚运摘金🎖️！！！#中国女排亚运会三连冠力 #2026亚运我来了 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵丽娜",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜女排夺冠，看口型猜我说了啥！ #中国女排亚运会三连冠#亚运观察员已就位 #亚运会有什么看点#名古屋亚运会#中国女排",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2026中国民营企业500强发布": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息｜“2026中国民营企业500强”发布 （记者：李帅、郝杰）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#2026中国民营企业500强榜单发布",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "净赚1.83万亿、纳税1.3万亿，2026中国民企500强出炉：京东、阿里、恒力排名前三，华为第4，比亚迪第5，腾讯第6",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026中国民营企业500强出炉。#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今日关注",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【财经『姗』板斧】2026民企500强榜单发布，民营经济告别粗放增长、实体经济强势回归，广东企业成高质量转型标杆。（央视财经）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一场10年2.57万家庭的团圆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音集团",
+     "verify": "蓝V",
+     "identity": "企业品牌",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一个转身、一脚油门、一张车票……你回家的路有多远？对于他们来说，家，是没有坐标的终点。抖音寻人以一线牵起归途，为每一位漂泊之人写下归期。2016—2026，#抖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "快看",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "科技赋能寻亲十年，抖音寻人促成2.57万个家庭团圆，最多一天助力200人回家",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿园的逃跑计划",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我遇到一个蜘蛛侠，在路边罚站了18年… #抖音寻人十周年 #一场10年25700个家庭的团圆 #人间观察计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈困困",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "她骑过六十万公里的灰色，只为找到她.. 感谢抖音寻人邀请，用AI还原了一位妈妈27年的寻女之路... 故事源于真实的寻亲故事，全片由小云雀AI制作。 #抖音寻人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王者S44巅峰定榜之夜直播": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王者荣耀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王者荣耀S44巅峰赛定榜之夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "等我刷把宗师",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山谷游戏解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宗师一个晚上冲上一百分逼近斌斌，@云木木电竞 晋级赛两次撞车斌斌单子号！#等我刷把宗师 #王者荣耀斌斌 #巅峰第一 #云木木电竞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "y阳光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "发育路独自升级#王者荣耀精彩团战 #峡谷日常 #王者荣耀 #王者荣耀巅峰赛日常 #王者荣耀精彩时刻",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小牛马游戏解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "本赛季最雷霆的man 盘点琴酒S44赛季经典名场面@顾里电竞工作室 #琴酒司空震 #王者荣耀 #巅峰第一",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "女排姑娘的庆祝动作是ok和胜利": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王梦洁_闪闪一袋糖🧸",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#亚运会夺金请报数#名古屋亚运会 挫败、坚持、磨炼、拼搏这是事业和人生的必经之路。任何事都不会一帆风顺，拼就完了。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "universe",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们名古屋亚运会夺冠啦！！！！ 中国女排，团结一心！2026亚运会第32金来抖音报到啦！#亚运会夺金请报数 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "俄军凌晨大规模打击乌克兰": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄国防部：俄军凌晨使用陆基、海基、空基高精度武器和无人机大规模打击乌克兰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄国防部：#俄军凌晨大规模打击乌克兰 使用陆基、海基、空基高精度武器和无人机",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "湖北日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄军凌晨大规模打击乌克兰，高精度武器瞄准军工综合体，此前乌发射超1000架无人机干扰俄选举。（剪辑：萌萌、实习生赵圣鑫）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "中秋国庆调休和高速政策提醒": {
    "stats": {},
@@ -456,143 +743,22 @@
      "hot": 0
     },
     {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "重要提醒！下周日要上班 中秋高速不免费#中秋节 #调休",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "宁夏广电新闻中心",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "中秋 国庆假期，高速免费通行时间提醒！#中秋节 #国庆节 #高速公路通行 #提醒 2026年中秋、国庆假期即将到来，特别提醒，中秋节假期期间高速公路不免费，另根",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今年中秋是“十五的月亮十七圆”": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 今年中秋，十五的月亮十七圆！转给家人，一起赏月❤️#一地一张中秋名片 #美在中秋月圆时",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今年中秋，“十五的月亮十七圆”！愿月圆人团圆，万事皆如愿！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 今年的中秋很特别，月亮最圆时刻出现在9月27日0时49分，是少见的“十五的月亮十七圆”。（央视频号：总台电视资讯）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "超长蛋挞爆火出圈": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "国+社区",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 60厘米超长蛋挞火了，多地供不应求，武汉单厂日产能1000到2000箱，一根≈6到8个普通蛋挞，接近两顿饭。专家建议：可以尝 但这5类人建议别凑热闹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大参考",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "60厘米的超长蛋挞火爆出圈，热量超1000千卡，妥妥的“热量炸弹”。医院提醒，血糖不稳、高血脂、肠胃薄弱、减重人群尽量别跟风尝鲜，儿童也不宜多吃。热闹背后，健康",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "近日，一款长60厘米的“超长蛋挞”爆火出圈，有医院发文表示，超长蛋挞按体积和常见配方粗略估算，热量轻松超过1000千卡（编辑：浩宇）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "安徽日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#超长蛋挞 60厘米“超长蛋挞”火了！最新提醒：热量可能轻松超过1000千卡，特定人群要谨慎适量食用。#饮食健康 #热量",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "60厘米超长蛋挞走红",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长假穿搭听劝中": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "阿颜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大四学姐听劝学穿搭的第一天 想学穿搭的姐妹可以蹲住一起学穿搭呀，裤子是主包线下实体店买的，喜欢的宝宝可以搜搜弯刀裤~#女生宿舍ootd #女大学生日常穿塔 #宿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "福娃🧃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "pov 早秋穿搭*6 #抖音风格实验室 #国庆出游穿搭 #长假穿搭听劝中 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赵啾啾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我这无法磨灭的打扮欲！只买有趣的衣服～ #长假穿搭听劝中 #我的长长长假 #不费力出游穿搭 #抖音时尚设计师大赛 #对此类穿搭没有抵抗力",
      "likes": 0,
      "hot": 0
     }
@@ -707,146 +873,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "胡昌升任西藏自治区党委书记": {
+  "一地一张中秋名片": {
    "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 胡昌升任西藏自治区党委书记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏等3省区党委主要负责同志职务调整#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏等3省区党委主要负责同志职务调整",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏等3省区党委主要负责同志职务调整",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏等3省区党委主要负责同志职务调整",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "胡昌升任西藏自治区党委书记",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "俄军凌晨大规模打击乌克兰": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄国防部：俄军凌晨使用陆基、海基、空基高精度武器和无人机大规模打击乌克兰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄国防部：#俄军凌晨大规模打击乌克兰 使用陆基、海基、空基高精度武器和无人机",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湖北日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄军凌晨大规模打击乌克兰，高精度武器瞄准军工综合体，此前乌发射超1000架无人机干扰俄选举。（剪辑：萌萌、实习生赵圣鑫）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "全网博主都在整活安利家乡": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "超级草根🏀王师傅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "家乡美食分享，连菜汤都喝完了！#运城凉菜#洋妈拌面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "相宜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "与华相宜 渭南",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "会火",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有什么我眼睛一闭一睁就能到这些地方爽玩的办法啊#全网博主都在整活安利家乡",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "一人一个旅行信息差": {
    "stats": {},
@@ -924,102 +954,307 @@
   },
   "无畏契约史上最大版本更新": {
    "stats": {},
-   "authors": [
-    {
-     "name": "坏水电竞(无畏契约)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国服上线以来最大更新 #无畏契约 #瓦学弟 #坏水电竞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江辞（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带你体验新枪悍狼和异变轮战 #无畏契约 #我的十月被瓦包围了#无畏契约超级娱乐模式瓦斗 #无畏契约新枪悍狼#当我第一次玩瓦斗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老六闭眼说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无畏契约全冠军皮肤盘点 从21到26冠军皮肤你最喜欢的是哪一套？#无畏契约 #26冠军套 #枪皮 #游戏 #瓦罗兰特",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "CR_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无畏契约26冠军套时间确定9.16日爆料 #无畏契约 #无畏契约26冠军套 #无畏契约26冠军 #无畏契约冠军赛 #无畏契约上海冠军赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "sage（州/瓦测评）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "26冠军套真的很帅 #无畏契约冠军套 #无畏契约26冠军套 #26冠军套 #瓦罗兰特 #林语游戏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一年一度烟火榜老吃家集合": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "特别乌啦啦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在驻马店第一次吃「鸡肉馍」～吃不完根本吃不完 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火#一年一度烟火榜老吃家集合",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一坨小草莓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这下知道为啥都向往重庆人的生活了#烟火榜 #一年一度烟火榜老吃家集合",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杰恩大大",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京秋天，本地人反复吃出来的烟火榜宝藏小店，烟火气才是一座城市最鲜活的味道#一年一度烟火榜老吃家集合#烟火榜#烟火榜夯吃挑战#国庆吃遍全国烟火味#国庆出门化身当",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "各省月饼有自己的代言人": {
-   "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "今年中秋是“十五的月亮十七圆”": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 今年中秋，十五的月亮十七圆！转给家人，一起赏月❤️#一地一张中秋名片 #美在中秋月圆时",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今年中秋，“十五的月亮十七圆”！愿月圆人团圆，万事皆如愿！#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 今年的中秋很特别，月亮最圆时刻出现在9月27日0时49分，是少见的“十五的月亮十七圆”。（央视频号：总台电视资讯）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "胡昌升任西藏自治区党委书记": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 胡昌升任西藏自治区党委书记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏等3省区党委主要负责同志职务调整#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏等3省区党委主要负责同志职务调整",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "农民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏等3省区党委主要负责同志职务调整",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏等3省区党委主要负责同志职务调整",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "胡昌升任西藏自治区党委书记",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "全网博主都在整活安利家乡": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "超级草根🏀王师傅",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "家乡美食分享，连菜汤都喝完了！#运城凉菜#洋妈拌面",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "相宜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "与华相宜 渭南",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "会火",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有没有什么我眼睛一闭一睁就能到这些地方爽玩的办法啊#全网博主都在整活安利家乡",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "长长长假吃长长长蛋挞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "来一口Noble",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今日份幸福~吃超长长长长长蛋挞蛋糕！巧克力抹茶玉米口味三拼！ #超长蛋挞 #沉浸式 #沉浸式做蛋糕 #蛋挞 #蛋糕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "懂酸奶的阿牛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幸福是一条超长长长蛋挞🥰蛋挞酸奶夹教学 #超长蛋挞 #超长长长蛋挞 #冷萃酸奶也可以这样吃 #冷萃酸奶#谁懂这一口的好吃程度",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "栗子的日常",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "主播也是做上这个超长蛋挞了好吧。 #电饭煲 #超长长长蛋挞 #蛋挞#抽象#猎奇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "长假穿搭听劝中": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "阿颜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大四学姐听劝学穿搭的第一天 想学穿搭的姐妹可以蹲住一起学穿搭呀，裤子是主包线下实体店买的，喜欢的宝宝可以搜搜弯刀裤~#女生宿舍ootd #女大学生日常穿塔 #宿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "福娃🧃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "pov 早秋穿搭*6 #抖音风格实验室 #国庆出游穿搭 #长假穿搭听劝中 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵啾啾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我这无法磨灭的打扮欲！只买有趣的衣服～ #长假穿搭听劝中 #我的长长长假 #不费力出游穿搭 #抖音时尚设计师大赛 #对此类穿搭没有抵抗力",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火影圈创大群星闪耀时": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "呲牙乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们有这样的豪友吗 #火影圈创大群星闪耀时 #呲牙乐 #夸大 #豪 #章鱼哥的房子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小咩快跑丶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "群豪闪耀 #火影忍者 #火影忍者手游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "肥佬男主",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "执剑敛锋芒，抬眼尽孤寒。奶痞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黑牛与绅士",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最新一线的火手新闻来啦 #黑牛与绅士#奶狗#晨间新闻#2026抖音创作者大会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "手工自制斑斓椰香流心月饼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "瑶乡阿美",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "斑斓入皮，椰香流心，斑斓椰香流心冰皮月饼 #星乡村星农人 #冰皮月饼 #水晶月饼 #手工月饼 #水晶月饼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南有扶桑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个斑斓月饼，里面这一根根绿色的丝丝是啥啊？为啥长得跟潍坊的青萝卜丝一样？？？？#斑斓月饼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@小鱼儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "心心念念的斑斓椰丝蛋黄月饼终于吃上啦😄😃，果然没失望，不齁甜不腻，超推荐！#斑斓椰丝蛋黄月饼 #月饼#中秋#超推荐的美食",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "我在现场见证亚运金牌诞生": {
    "stats": {},
@@ -1098,46 +1333,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影圈创大群星闪耀时": {
+  "一年一度烟火榜老吃家集合": {
    "stats": {},
    "authors": [
     {
-     "name": "呲牙乐",
+     "name": "特别乌啦啦",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你们有这样的豪友吗 #呲牙乐 #夸大 #豪 #章鱼哥的房子 #朋友",
+     "text": "在驻马店第一次吃「鸡肉馍」～吃不完根本吃不完 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火#一年一度烟火榜老吃家集合",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小咩快跑丶",
+     "name": "一坨小草莓",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "群豪闪耀 #火影忍者 #火影忍者手游",
+     "text": "这下知道为啥都向往重庆人的生活了#烟火榜 #一年一度烟火榜老吃家集合",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "肥佬男主",
+     "name": "杰恩大大",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "执剑敛锋芒，抬眼尽孤寒。奶痞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黑牛与绅士",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最新一线的火手新闻来啦 #黑牛与绅士#奶狗#晨间新闻#2026抖音创作者大会",
+     "text": "北京秋天，本地人反复吃出来的烟火榜宝藏小店，烟火气才是一座城市最鲜活的味道#一年一度烟火榜老吃家集合#烟火榜#烟火榜夯吃挑战#国庆吃遍全国烟火味#国庆出门化身当",
      "likes": 0,
      "hot": 0
     }
@@ -1145,136 +1370,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "广东的鱼灯把中秋氛围拉满了": {
+  "来宁夏体验慢充旅行": {
    "stats": {},
-   "authors": [
-    {
-     "name": "田二",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "广州的鱼灯闹街。风里慢慢有了秋的味道 又是一年九月底#鱼灯市集 #街拍#光孝路",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "信息时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "广州中秋限定！藏在金鱼花灯里的传统浪漫延续了31年，今年推出“尾巴会动”的金鱼新款，快来打卡吧#广州靓机位 #中秋 #鱼灯#热搜广州 #粤光宝盒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小熊·视界📸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "广府的夜景夯爆了#小城夜游正当时 #遇见千年鱼灯 #打卡古风夜市 #广府文化",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小大人打工日常belike": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "呆᳐呆小晗᳐੭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唉 小大人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "捧花见面.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#幼稚上班族",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星野眠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上班了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "諵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#孩子王出社会#蜡笔小新西装上班照片 #抖音合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "追梦的小白",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当你内心幼稚，却又到了上班的年纪。 #精神状态belike #头像 #p图教程 #玩法达人中心 #追梦的小白",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "手工自制斑斓椰香流心月饼": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "瑶乡阿美",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "斑斓入皮，椰香流心，斑斓椰香流心冰皮月饼 #星乡村星农人 #冰皮月饼 #水晶月饼 #手工月饼 #水晶月饼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "南有扶桑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个斑斓月饼，里面这一根根绿色的丝丝是啥啊？为啥长得跟潍坊的青萝卜丝一样？？？？#斑斓月饼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "@小鱼儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "心心念念的斑斓椰丝蛋黄月饼终于吃上啦😄😃，果然没失望，不齁甜不腻，超推荐！#斑斓椰丝蛋黄月饼 #月饼#中秋#超推荐的美食",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "上海全球冠军赛预测": {
    "stats": {},
@@ -1313,996 +1412,55 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "哈兰德和野兽先生梦幻联动": {
+  "董志豪带着两枚金牌来抖音报到了": {
    "stats": {},
-   "authors": [
-    {
-     "name": "野兽先生MrBeast",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这可能是我和哈宝吃过最吓人的一顿饭😅 #MrBeast #mrbeast野兽先生 #超能挑战赛 #超能演剧情大赛 #超能演剧场2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "哈兰德ErlingHaaland",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2 youtubers 🎥 俩视频创作者🎥 #哈兰德 #野兽先生",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "来宁夏体验慢充旅行": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王美丽.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "银川真的太适合慢充了！ #慢充旅行 #在宁夏慢充像误入大地调色盘 #宁夏文旅消费券#银川文旅流量扶持计划 #国庆给生活放个假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Alan牛牛旅行日记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一次宁夏吧，在大漠长风里，慢慢看沙起沙落，静静等落日归山✨ #慢充旅行 #在宁夏慢充像误入大地调色盘 #宁夏文旅消费券 #国庆给生活放个假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是阿峰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带着大家一起来银川慢充旅行~ #慢充旅行 #在宁夏慢充像误入大地调色盘 #宁夏文旅消费券 #国庆给生活放个假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "超级暴暴龙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "沙漠水城-云天中卫 两天时间，随机体验慢充旅行，好好感受沙漠水城-云天中卫！#慢充旅行 #在宁夏慢充像误入大地调色盘 #宁夏文旅消费券 #宁夏#国庆给生活放个假",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "林锦岐娶许兰香乱成一锅粥": {
    "stats": {},
-   "authors": [
-    {
-     "name": "电视剧兰香如故（火热播出中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赐婚圣旨到—— #兰香如故 #许兰香 #林锦岐 #薛桂花 #韩粱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "羽落星辰剪辑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "遍体鳞伤也绝不后悔，林锦岐不惜承受家法，只求圣旨赐婚兰香#兰香如故 #谭松韵 #刘学义 #兰香如故剧情持续走高",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "董志豪带着两枚金牌来抖音报到了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "❄️🐤🐵",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#亚运会夺金请报数 2026亚运会第19金、31金董志豪来抖音报到！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "董志豪：没想到能游这么快 | 亚运来了#董志豪 #名古屋亚运会 #游泳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会四连冠！2026亚运会男子4×100米混合泳接力决赛。由徐嘉余、董志豪、徐放、潘展乐组成的中国队以3分27秒89夺得金牌。看总台体育评论员张萌萌的现场点评",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国体育报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#直击亚运 ｜亚运会游泳男子100米蛙泳，#董志豪 与日本选手并列夺得冠军，个人首次登上亚运会最高领奖台。赛后董志豪坦言第一次比大赛很紧张，冲刺时使出了全力，这",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "江苏泳将董志豪100米蛙泳夺冠：收获个人首枚亚运金牌，未来目标更高！（荔枝新闻中心记者：毕然 周颖）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "张艺凡敦煌妆造封神": {
    "stats": {},
-   "authors": [
-    {
-     "name": "张艺凡ZYF",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "画中仙，月下舞，和张十二娘一起走进敦煌的故事！#电影敦煌英雄 #电影敦煌英雄定档中秋节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是丸子吖",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唐人-永不为奴 #电影敦煌英雄 #电影敦煌英雄定档中秋节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "剧好侃",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "质感这一块，还得是“纯手搓”#电影敦煌英雄 #电影敦煌英雄定档中秋节",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "朴成训cha了小妹你别慌": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "ENHYPEN",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小妹你别慌 ✌️ #SUNGHOON #朴成训 #ENHYPEN",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "狗熊哆嗦毛舞步你会了吗": {
    "stats": {},
-   "authors": [
-    {
-     "name": "吕快乐发财",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我觉得这才是最地道的版本 变成这个版本后，才知道明老师的拟态有多逼真传神，太厉害了！#AI萌猫舞蹈教学 #抖音ai创作#狗熊哆嗦毛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灯灯等等我",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI萌猫舞蹈教学 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "狮俗人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI萌猫舞蹈教学 #抖音ai创作 #狗熊哆嗦毛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "许广辉",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《狗熊哆嗦毛》 明文军老师，在这说声抱歉了🧎‍♂️实在憋不住了，太想笑了#狗熊哆嗦毛 #山东鼓子秧歌 #鼓子秧歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "“肉肉”饲养员",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "狗熊哆嗦毛 #狗熊哆嗦毛 #AI萌猫舞蹈教学 #抖音ai创作 #抖音创作者大会 #抖音二创激励计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "马（干饭版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#狗熊哆嗦毛 #闪身步 自用素材 无水印可下载 https://pan.quark.cn/s/affc50beee93",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🐠。",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下面请欣赏：我自己哆嗦毛 #AI萌猫舞蹈教学 #抖音ai创作 #狗熊哆嗦毛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吕途漫漫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大哥，你可是北极熊啊！ #AI萌猫舞蹈教学 #抖音ai创作 #抖音二创激励计划 #狗熊哆嗦毛 #北极熊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好多鱼🐟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "两个忍者来的🥷🏻#展示我新学的闪身步 #狗熊哆嗦毛 #民间舞 #闪身步 #抖音潮流舞蹈大赛 舞搭子：@麦芽糖的🍬 🌷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汪汪队开大会 ੯‧̀͡ ζྀི",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI萌猫舞蹈教学 #抖音ai创作 最地道的版本来啦#狗熊哆嗦毛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "想回到你身边对你说声sorry": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "风信子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "想回到你身边 对你说声Sorry#转场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "孟西",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“耳钉是一枚不起眼的戒指” #重生亡妻年少时鳏夫他又茶又装",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Anan",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "想回到你身边#金主训 #juhoon #CORTIS",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ree",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为什么送我耳钉。#h3r3",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "瑟瑟发抖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为什么送我耳钉。#氛围感 #洋桔梗 #女友视角",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "h3R3刘清云",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "想回到你身边。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "niu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如果你也听h3R3",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪漫收藏家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "想回到你身边，对你说声sorry #想回到你身边 #ai漫剧 #出租屋文学 #回到你身边",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白家易",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为什么要送我耳钉#校园#转场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人类",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "错过什么都好 错过你不好#天蝎",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "兰香如故是下一个知否吗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "鲤娱Der妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "林府“盛明兰” #兰香如故#知否#盛明兰#影视剧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "开心呱呱乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "庶女嫁侯爷，林绣茹和明兰一样，知道靠人不如靠己！#林绣茹 #明兰 #兰香如故 #知否 #庶女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不如听猫姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好剧情 烂设定 希望后面不要崩 既想要女性议题带来的热度和口碑，又不肯放弃原著“落难千金＋豪门主母＋大团圆he”的商业基本盘 前十二集很好看，后面不一定。 #兰",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "原来你是我等不到的人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "正在进行石女士",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谎称在等缘分才迟迟晚婚 #你是我等不到的人 #正在进行石女士#无声卡清唱 #音为有你",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "172Hz",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谎称在等缘分 才迟迟晚婚 实则旧疾未愈 怎添新痕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张文兰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我并不是一个将就的人 我想要的 我憧憬的 我都愿意再等一等",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "弟弟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#你是我等不到的人 #正在进行石女士 谎称在等缘分 才迟迟晚婚 实则旧疾未愈 怎添新痕#请你吃辣堡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑰 𝑫𝒐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么都是相互的 我认准你 就会和你同舟共济 但如果你待我不真诚 那我不要爱 也不要你 其实我挺想和你有以后的 我们好好的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "空白",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谎称在等缘分 才迟迟晚婚 实则旧疾未愈 怎添新痕#关于晚婚 #天蝎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新忠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "于人于物 只要是我想要的 我愿意一等再等 #新忠 #情感文案",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Wang",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谎称在等缘分 才迟迟晚婚 实则旧疾未愈怎添新痕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姜川",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谎称在等缘分 才迟迟晚婚 实则旧疾未愈 怎添新痕#你是我等不到的人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不许勾引我",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谎称在等缘分 才迟迟晚婚 实则旧疾未 怎添新痕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆出门化身当地老饕": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "田哈哈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆吃美食地道老北晋#国庆出门化身当地老饕 #国庆下一站 #国庆吃喝玩乐节 #国庆当然要出发 #慢充旅行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是小程同学",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "本来主打一个速度与激情，最后被《慢充旅行倡议》强制调成了0.5倍速#慢充旅行 #加入慢充旅行倡议慢慢开逛 #国庆出门化身当地老饕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蜡笔小颖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当你有个能吃又会吃的“老饕”弟弟… #国庆出门化身当地老饕 #国庆下一站 #国庆吃喝玩乐节 #国庆当然要出发 #慢充旅行",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "单依纯下班就这么闪走了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "单依纯工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "单依纯下了班就这么闪走了 #展示我新学的闪身步 #负基础跳舞 #闪身步 #刀群舞 #单依纯你怎么了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "求你爱 总是等待 像个乞丐": {
    "stats": {},
-   "authors": [
-    {
-     "name": "谢己",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "笨蛋美女",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱总是等待像个乞丐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "折耳根大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱总是等待",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑰 𝑫𝒐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我心疼你 于是暗自许下诺言 以后的路多难 我都会陪你走",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "起个名字真男",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "苦瓜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐#爱情乞丐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": ".郭baby_.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "淇 淇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不晚",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人人都有心，但不是人人都有品",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "又见椿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐#相爱好难",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "不画扮熟的眼线 不用涂抹粉底液": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "汪也学会闪身步了": {
+  "兰香如故是下一个知否吗": {
    "stats": {},
-   "authors": [
-    {
-     "name": "Yyyyy.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI美短猫复古vhs舞蹈教学 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝙊𝙘𝙝𝙖_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI美短猫复古vhs舞蹈教学🪓🪓🪓",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "露思的幸运星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可可爱爱的doe#AI美短猫复古vhs舞蹈教学",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "dakeke",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "墩墩也会闪身步 #AI美短猫复古vhs舞蹈教学 #抖音ai创作 #和马零距离",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小花",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI美短猫复古vhs舞蹈教学 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "再也不熬夜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI美短猫复古vhs舞蹈教学 #抖音ai创作 #眉姐#眉姐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "YY🎶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "噜噜闪身步 #水豚噜噜 #AI美短猫复古vhs舞蹈教学 #抖音ai创作#抖音创作者激励计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆子肥肥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "AI柴犬闪身步教学 #AI美短猫复古vhs舞蹈教学 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "随便发发",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "噜噜闪身步 这大长腿 #AI美短猫复古vhs舞蹈教学 #抖音ai创作 #水豚噜噜 #抖音创作者激励计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牙有菜🫐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "卡包到了果就这样去取#蓝粉色 #lm #lmp #果果 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "被我的旅游攻略满意得睡不着": {
+  "生化危机爆发夜海外票房口碑双爆": {
    "stats": {},
-   "authors": [
-    {
-     "name": "Nic到处跑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大学生暑假一个人独行法国巴黎3天2晚花费不超过2000元攻略来了！#巴黎 #巴黎攻略 #旅行 #背包客 #旅游攻略",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "温海L",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我大一花1.5w去了8个国家12个城市 因为在欧洲留学买的往返廉航机票，有时候大巴火车，国内出发往返欧洲我最便宜我买过三千七，所以价格不会和我在欧洲留学差很多",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "发呆蓝栗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小韩规则怪谈24条...真正的旅游手册..... #韩国旅游 #首尔病 #釜山 #韩国攻略 #旅行攻略",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "女明星严肃进入旗袍珠宝时代": {
+  "小大人打工日常belike": {
    "stats": {},
-   "authors": [
-    {
-     "name": "小田",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#可可妆 青~",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赵露思工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "暗香浮动 墨与红 花与她。@赵露思 #赵露思",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "怀瑜Yu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "cult片来新人了 #古力娜扎",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "黄霄雲的侧脸一开口就是秋天": {
+  "哈兰德和野兽先生梦幻联动": {
    "stats": {},
-   "authors": [
-    {
-     "name": "Iuk",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋天里的落叶 挥手同树告别#黄霄雲#侧脸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桃桃原创素材",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋天里的落叶 挥手同树告别 #黄霄雲 #侧脸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Zy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋天里的落叶 挥手同树告别 . #秋天#落叶",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "全体美食进入超长时代": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "蜂蜜抽子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全民进入纯过日子时代#糖醋排骨#家常菜#家庭餐桌日常#吃美了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "z7.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么超长蛋挞，那玩意儿能有超长驴肉火烧得劲儿嘛#驴肉火烧太好吃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "穷小子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "河南勒别吃蛋挞了吃豆角吧#超长长长蛋挞",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   }
  }
 }
