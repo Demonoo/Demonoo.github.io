@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-09-22 03:49",
+ "updated_at": "2026-09-22 04:47",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 47,
- "ok_count": 33,
+ "topic_count": 43,
+ "ok_count": 30,
  "lexicon_count": 0,
  "topics": {
   "中国女排将与日本女排争夺金牌": {
@@ -40,12 +40,32 @@
      "hot": 0
     },
     {
-     "name": "生活帮",
+     "name": "合肥市广播电视台",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026年名古屋亚运会女排决赛，中国女排vs日本女排，将于今天（9月22日）北京时间18:20打响，中国女排冲击队史亚运第10冠，力拼亚运三连冠。#中国女排 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极光新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月22日（发布时间），一起为中国女排加油！今晚中国女排对阵日本女排，争夺亚运金牌，中国女排全力卫冕，冲击亚运会十冠王（综合网络）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蓬勃新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9月22日，2026年亚运会18:20打响女排冠军战，卫冕冠军中国队对阵东道主日本队。中国女排力争卫冕+冲击亚运十冠王。",
+     "text": "中国女排，今天与日本队争冠！ #中国女排 #亚运会 #日本 #中国女排将与日本女排争夺金牌",
      "likes": 0,
      "hot": 0
     },
@@ -63,10 +83,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "挑战N种方式到创大": {
+  "全体美食进入超长时代": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "z7.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "什么超长蛋挞，那玩意儿能有超长驴肉火烧得劲儿嘛#驴肉火烧太好吃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "穷小子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "河南勒别吃蛋挞了吃豆角吧#超长长长蛋挞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蜂蜜抽子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全民进入纯过日子时代#糖醋排骨#家常菜#家庭餐桌日常#吃美了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "我国加快建立现代化粮食流通体系": {
    "stats": {},
@@ -125,46 +177,19 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "全体美食进入超长时代": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "z7.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么超长蛋挞，那玩意儿能有超长驴肉火烧得劲儿嘛#驴肉火烧太好吃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蜂蜜抽子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全民进入纯过日子时代#糖醋排骨#家常菜#家庭餐桌日常#吃美了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙哥的梦（一米礼盒）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "幸福是拥有两个超长长长的列车火烧#超长长长火烧 #超长火烧 #列车火烧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "中秋国庆调休和高速政策提醒": {
    "stats": {},
    "authors": [
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "重要提醒！下周日要上班 中秋高速不免费#中秋节 #调休",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "大象新闻",
      "verify": "红V",
@@ -186,16 +211,6 @@
      "hot": 0
     },
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重要提醒！下周日要上班 中秋高速不免费#中秋节 #调休",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "宁夏广电新闻中心",
      "verify": "红V",
      "identity": "媒体人",
@@ -208,6 +223,68 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "2026中国民营企业500强发布": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息｜“2026中国民营企业500强”发布 （记者：李帅、郝杰）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#2026中国民营企业500强榜单发布",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "净赚1.83万亿、纳税1.3万亿，2026中国民企500强出炉：京东、阿里、恒力排名前三，华为第4，比亚迪第5，腾讯第6",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月22日，全国工商联在天津发布“2026中国民营企业500强”。结果显示，京东集团、阿里巴巴（中国）有限公司、恒力集团有限公司位居前三。 记者了解到，今年全国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 2026中国民营企业500强出炉！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "挑战N种方式到创大": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "今年中秋一起走月吗": {
    "stats": {},
@@ -256,11 +333,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "首届糯门零食大赛": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "中秋一起登上杭州月亮船": {
    "stats": {},
    "authors": [
@@ -303,6 +375,63 @@
    "authors": [],
    "lexicon": []
   },
+  "张展硕回应反超绝杀日本队": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#张展硕游出1分42秒92最快分段 张展硕：“正常正常～”👍 @央视体育#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 打破亚洲纪录、最后时刻反超日本队，#2026亚运会 男子4×200米自由泳接力金牌。赛后张展硕说：“正常，正常。”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #张展硕说正常正常 【#张展硕霸气回应反超 】徐海博、费立纬、潘展乐、张展硕组成的中国队，夺得亚运会男子4×200米自由泳接力金牌。张展硕最后时刻反",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 落后1.89秒算什么？张展硕最后一棒逆转日本队，男子4×200米自由泳接力时隔16年再夺金！赛后回应：反超都在预料之内，很正常！#直击第一线 #名古",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如此排棒？！ 潘展乐：张展硕是“奇迹之子” 我最菜所以我第三棒 奥运来了#名古屋亚运会 #游泳 #潘展乐 #张展硕",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "把平凡的一天拍出名场面": {
    "stats": {},
    "authors": [
@@ -344,6 +473,90 @@
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "今年第26号台风或将生成": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "安徽视讯",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 台风“舒力基”酝酿中，国庆出行要盯紧它！（编辑：小丢）西北太平洋上热带扰动91W正在发育，未来几天可能加强为今年第26号台风“舒力基”。如果副热带高",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小鱼追风🅥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杜鹃（强热带风暴级）今日位于东京南偏西约380公里，向东北趋向日本以南，对我国无影响。91W位于关岛以南，海温高、风切变小，预计中秋节前后可能命名为第26号台风",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "苹果新机或更名为iPhone 20": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "财经网科技",
+     "verify": "蓝V",
+     "identity": "企业品牌",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "逢9必跳?苹果新机或更名为iPhone20，正面配备无边四曲面瀑布屏+小灵动岛#iPhone20 #苹果新品 #Apple #iPhone19",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "苹果或跳过iPhone19直接出20 9月21日，博主“数码闲聊站”曝光了iPhone 20 Pro系列的早期屏幕参数。据其透露，iPhone 20 Pro将配",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "热点直通车",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "苹果新机或更名为iPhone 20！网友：小米跟不跟？#苹果20 #iPhone20 #iPhone #苹果 #手机",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "AI硬核科技",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "iPhone 19 没了？ 苹果直接上 20 周年纪念款 #iPhone19 #iPhone20 #小米 #苹果 #苹果20周年",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小白测评",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "iPhone18Pro还没用上iPhone20的就爆料来了？ #iPhone18Pro#iPhone20#applewatchS12#抖音前沿科技首发计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "汪也学会闪身步了": {
    "stats": {},
@@ -452,83 +665,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "如萍书桓湾区升明月后台同框": {
+  "国际油价21日显著下跌": {
    "stats": {},
    "authors": [
     {
-     "name": "中国电影报道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026湾区升明月后台花絮 #如萍书桓湾区升明月后台同框 2026“湾区升明月”《情深深雨濛濛》如萍、书桓后台限时回归！古巨基特意挑选了一套和剧中书桓风格相近",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电影频道融媒体中心",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#书桓杜飞如萍来湾区升明月了 情深深雨濛濛，多少楼台烟雨中。“湾区升明月”2026大湾区电影音乐晚会现场，“书桓”#古巨基 “杜飞”#苏有朋、“如萍”#林心如 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "苹果新机或更名为iPhone 20": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "财经网科技",
-     "verify": "蓝V",
-     "identity": "企业品牌",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "逢9必跳?苹果新机或更名为iPhone20，正面配备无边四曲面瀑布屏+小灵动岛#iPhone20 #苹果新品 #Apple #iPhone19",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
+     "name": "人民网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "苹果或跳过iPhone19直接出20 9月21日，博主“数码闲聊站”曝光了iPhone 20 Pro系列的早期屏幕参数。据其透露，iPhone 20 Pro将配",
+     "text": "#媒体原创 国际油价，显著下跌！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "热点直通车",
+     "name": "滁州市广播电视台",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "苹果新机或更名为iPhone 20！网友：小米跟不跟？#苹果20 #iPhone20 #iPhone #苹果 #手机",
+     "text": "北京时间9月21日早晨，国际油价直线下挫，WTI原油价格跌至93.4美元/桶，现报93.498美元/桶；布伦特原油价格跌破100美元整数关口，最低报98.12美",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "手机没电了",
-     "verify": "",
-     "identity": "",
+     "name": "今日关注",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "iPhone20首次曝光。#iPhone #苹果 #苹果手机 #数码科技 #娱乐评论大赏 iPhone17Promax iPhone17 iPhone18",
+     "text": "国际油价新一周交易开始后走弱，21日盘中跌幅扩大，收盘时国际原油期货价格显著下跌。（新华社）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "AI硬核科技",
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "9月21日，受中东局势略有缓和等因素影响，国际油价显著下跌",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小女说油价",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "iPhone 19 没了？ 苹果直接上 20 周年纪念款 #iPhone19 #iPhone20 #小米 #苹果 #苹果20周年",
+     "text": "#油价最新消息#油价播报#车主",
      "likes": 0,
      "hot": 0
     }
@@ -643,6 +829,137 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "中塑股份世纪数码今日上市": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "21世纪经济报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#A股 两只新股上市首日大涨，#中塑股份 盘中狂飙超400%，单签浮盈超12万元#A股 #投资 #媒体原创 （作者：林健民 视频编辑：柳润瑛 编辑：李燕娜 ）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#A股 两只新股上市首日暴涨#中塑股份中一签浮盈超10万 #世纪数码 开盘大涨288.64%",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海量财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "A股又见大“肉签”，中塑股份上市首日涨420%，中一签赚11.6万元（财联社、21世纪经济报道）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "无畏契约史上最大版本更新": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "坏水电竞(无畏契约)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国服上线以来最大更新 #无畏契约 #瓦学弟 #坏水电竞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雷雷（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新武器悍狼!盖亚将再次复仇! #无畏冠军团 #无畏契约新武器 #无畏契约悍狼 #无畏契约上海冠军赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿拆在睡觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新枪械warden实机演示 #无畏契约 #无畏契约新版本",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柴羊（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无畏契约新版本特工熟练度系统 卡面奖励是动态卡面！#无畏契约 #无畏契约新版本 #无畏契约26冠军套 #我的十月被瓦包围了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无畏小保子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带有二倍瞄准镜的warden爆料 #游戏破壁计划 #讷瓦开学季 #讷瓦世界#无畏契约新武器#无畏冠军团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "赵露思民国旗袍造型太绝了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "壮壮_Rosy",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "过来来给你二妈请个早安#赵露思 #上城士 #壮壮_Rosy",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵露思工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如岸芷汀兰，郁郁绽芳华。 @赵露思 #赵露思",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "上城士",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "七岁时第一次穿上旗袍，@赵露思 便感受到这件衣服独有的优雅与仪式感。如今再谈旗袍，她有了更丰富的理解：旗袍不仅承载着东方美学，也可以成为女性表达个人审美与生活态",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "emoji动物摇": {
    "stats": {},
    "authors": [
@@ -740,254 +1057,9 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中塑股份世纪数码今日上市": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "21世纪经济报道",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#A股 两只新股上市首日大涨，#中塑股份 盘中狂飙超400%，单签浮盈超12万元#A股 #投资 #媒体原创 （作者：林健民 视频编辑：柳润瑛 编辑：李燕娜 ）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#A股 两只新股上市首日暴涨#中塑股份中一签浮盈超10万 #世纪数码 开盘大涨288.64%",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海量财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "A股又见大“肉签”，中塑股份上市首日涨420%，中一签赚11.6万元（财联社、21世纪经济报道）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "投资快报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日打新必看！中塑股份（301686.SZ），世纪数码（920229.BJ）今日上市#股票#投资 （记者：林健民；视频编辑：肖航）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张展硕回应反超绝杀日本队": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#张展硕游出1分42秒92最快分段 张展硕：“正常正常～”👍 @央视体育#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #张展硕说正常正常 【#张展硕霸气回应反超 】徐海博、费立纬、潘展乐、张展硕组成的中国队，夺得亚运会男子4×200米自由泳接力金牌。张展硕最后时刻反",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 打破亚洲纪录、最后时刻反超日本队，#2026亚运会 男子4×200米自由泳接力金牌。赛后张展硕说：“正常，正常。”",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 落后1.89秒算什么？张展硕最后一棒逆转日本队，男子4×200米自由泳接力时隔16年再夺金！赛后回应：反超都在预料之内，很正常！#直击第一线 #名古",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵露思民国旗袍造型太绝了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "壮壮_Rosy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "过来来给你二妈请个早安#赵露思 #上城士 #壮壮_Rosy",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赵露思工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如岸芷汀兰，郁郁绽芳华。 @赵露思 #赵露思",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "上城士",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "七岁时第一次穿上旗袍，@赵露思 便感受到这件衣服独有的优雅与仪式感。如今再谈旗袍，她有了更丰富的理解：旗袍不仅承载着东方美学，也可以成为女性表达个人审美与生活态",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2026中国民营企业500强发布": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社消息｜“2026中国民营企业500强”发布 （记者：李帅、郝杰）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026中国民营企业500强榜单发布",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "证券日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“2026中国民营企业500强”发布 京东 阿里巴巴 恒力 居前三",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月22日，全国工商联在天津发布“2026中国民营企业500强”。结果显示，京东集团、阿里巴巴（中国）有限公司、恒力集团有限公司位居前三。 记者了解到，今年全国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“2026中国民营企业500强”发布 9月22日，全国工商联在天津发布“2026中国民营企业500强”。结果显示，京东集团、阿里巴巴（中国）有限公司、恒力集团有",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "林思琪三周年与你双向奔赴": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "林思琪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三周年我们来啦 7.30分不见不散#集体赴约见证林思琪三周年",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "菠萝油🍍",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁来了这是#林思琪 #安静公主",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栀子花开⁰⁴⁷（林思琪9月21周年庆）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太权威了林思琪你好样的 #林思琪 #林思琪三周年 #林思琪三周年双向奔赴好震撼 #应援打卡地 #集体赴约见证林思琪三周年",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "沈鼓集团股价持续波动": {
    "stats": {},
    "authors": [
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#沈鼓集团股价持续波动 专业人士：#沈鼓集团存在明显炒作现象 上交所再通报：予以密切关注 #沈鼓集团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 科技股一跌，妖股就开始炸场。沈鼓集团两天暴涨1200%，市盈率炒到243倍，今天一把跌了 48%，高位进场的直接闷里面；华瓷股份走出五连板，市场掀起",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "经济观察报",
      "verify": "蓝V",
@@ -999,12 +1071,22 @@
      "hot": 0
     },
     {
-     "name": "新闻深呼吸",
+     "name": "中国财富网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沈鼓集团股价大涨又大跌，上交所再次通报",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕西日报",
      "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沈鼓变 “神股”？午后盘中暴涨超297% 两次临停。为什么这只装备股被疯抢？#股票 #资本 #股市 #热点",
+     "text": "上交所发布《关于沈鼓集团相关情况的通报》。#通报 #上交所 #沈鼓集团 #谨慎投资 #股票",
      "likes": 0,
      "hot": 0
     },
@@ -1017,31 +1099,118 @@
      "text": "沈鼓集团暴涨变“神鼓” 9月18日午后，沈鼓集团（C沈鼓）突然暴力拉升，盘中涨幅一度涨超297%，股价最高触及82.59元/股，日内换手率超过80%，成交额逼近",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 科技股一跌，妖股就开始炸场。沈鼓集团两天暴涨1200%，市盈率炒到243倍，今天一把跌了 48%，高位进场的直接闷里面；华瓷股份走出五连板，市场掀起",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "王楚钦回应亚运会官网标错比分": {
+  "亚运男足U23出线形势分析": {
    "stats": {},
    "authors": [
     {
-     "name": "长城新媒体",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "潘谈中超",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "比分写反引热议，但赛场上的实力不会被“写反”！#亚运会官网搞错王楚钦比分 在其2:0领先时页面显示0:2落后。网友认为这种低级错误不应出现在洲际赛事中，呼吁主办",
+     "text": "中国男足亚运队小组赛0-0战平伊朗，若想小组第一出线需要什么条件？#u23国足 #亚运会 #国足 #潘伟力 #潘谈中超",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "马俊哲律师",
+     "name": "董老厮",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚运会官网将王楚钦比分由2：0错写为0：2#亚运会官网将王楚钦比分由2：0错写为0：2 #亚运会官网 #王楚钦",
+     "text": "国足0-0伊朗，下场打平即出线，是时候考虑体育作为主课可行吗 #国足 #u23 #体育 #董老厮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梅戈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国足0比0战平伊朗？这场国足真的不一样！ 上半场30%控球死守，下半场中横梁+半场吊门差点掀翻伊朗。这场0-0，和以前真的不一样。9月23日末轮对阿联酋，不输就",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新今体育",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国足0:0伊朗！ U23国足平伊朗：吴曦不可替代 下场又是熟悉的打平出线！#足球 #体育 #新今体育",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "足坛前哨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "U23国足用防守拿到出线关键一分！ #安东尼奥",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中国女排决赛见": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "惠若琪",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "决赛见🎉🏐#排球 #亚运会 #中国女排",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵蕊蕊",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜中国女排战胜泰国挺进决赛❤️👏🎊 #中国女排 #亚运会 #王奥芊 #女排",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "飞奔的蜗牛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拉锯对决！中国女排苦战五局，复仇泰国闯入决赛#女排亚运会#中国女排#泰国女排#吴梦洁#庄宇珊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洋洋在努力",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国女排连拿两局2比1逆转泰国拿到赛点！决赛就在眼前加油中国女排！#中国女排vs泰国女排 #女排亚运会",
      "likes": 0,
      "hot": 0
     },
@@ -1051,7 +1220,37 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小插曲无碍胜利！ 王楚钦：对手实力超出想象 但我自己第一场专注度很高 奥运来了#亚运会 #国乒 #王楚钦",
+     "text": "赛前赛后丨再战泰国 这次我们赢了！#中国女排战胜泰国挺进决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 中国女排晋级亚运会决赛！9月21日，名古屋亚运会女排半决赛，中国女排与泰国女排鏖战五局，最终3:2逆转击败对手。继续加油！ #名古屋亚运会 #文娱体",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 为中国女排加油！9月22日晚#2026亚运会 女排决赛，中国女排将对阵日本女排。中国女排队员张籽萱：亚运会备战，我们对日本队有针对性训练。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东方体育日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【东现场】中国女排3-2击败泰国女排晋级决赛，赵勇：我们的求胜心更强一些#亚运会 #中国女排",
      "likes": 0,
      "hot": 0
     }
@@ -1059,96 +1258,147 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "来自小棉袄的暖心祝福": {
+  "亚运会双金林鑫瑜来抖音报到啦": {
    "stats": {},
    "authors": [
     {
-     "name": "为了谁",
-     "verify": "",
-     "identity": "",
+     "name": "小林崽崽",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "为了谁",
+     "text": "2026亚运会第2金林鑫瑜来抖音报到啦！#亚运会夺金请报数 #铁人三项",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "雨后的彩虹",
-     "verify": "",
-     "identity": "",
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#每天都在长大的宝宝",
+     "text": "#媒体原创 林鑫瑜、黄安琪包揽#2026亚运会 铁人三项女子个人赛金银牌。到达终点后两人拥抱；赛后采访两人说彼此互相兜底，勇敢去拼金牌。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "百年达仿石漆及蜂窝大板吊",
-     "verify": "",
-     "identity": "",
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#爱笑的宝宝健康快乐 #婴儿笑容治愈系",
+     "text": "亚运会女子铁人三项中国队包揽金银牌 9月20日，#名古屋亚运会 女子铁人三项比赛，中国选手包揽金银牌！ 中国选手#林鑫瑜 以57分37秒的成绩夺冠，另一名中国选",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "毛柒柒",
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 中国姑娘太争气了！#中国队一早连夺三金 #亚运会女子铁人三项包揽金银牌 #林鑫瑜锁定首个洛杉矶奥运会席位 \"下去就是干！\"杭州亚运会遗憾终弥补",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "是谁收到了自家文旅的月饼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "想给你拍个月亮",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "萌娃上线 1",
+     "text": "收到了涡妈寄来的月饼🥮@涡阳涡河文旅",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "英姐",
+     "name": "雾煾",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "英姐",
+     "text": "勇敢的人先享受世界。@宁远文旅 亲爱的文旅你该火🔥看见这个真的泪目了꒦ິ^꒦ິ更想回家了😭😭😭太宠了，亲爱的文旅，这波必须秀#宁远文旅 #被宁远文旅惦记",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "晨子和奶奶《关👍回❤️》",
+     "name": "望秋",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我家小宝子，小小的举动，总能暖到心坎 平凡的日子，藏着满满的小美好。 喜欢的朋友，点个关注不迷路，方便以后常来看小宝子成长～#人类幼崽 #快乐心态快乐生活",
+     "text": "收到了涡阳文旅寄来的月饼，不愧是nb县！@涡阳涡河文旅 #涡阳文旅 #月饼",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国庆中秋请假教程来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吃个橙子不",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人严肃学习！直接干票大的😉 假期这不就有了吗 给自己想美了#大学生 #放假",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大肚陆哥《驾校教练》",
+     "name": "王威wei",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#这样的萌娃你们喜欢吗",
+     "text": "中秋加国庆怎么请假最合理？ #放假 #搞笑 #内容过于真实 #打工人 #吐槽",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "鸿佳姐姐",
+     "name": "Mr.🍬",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "看宝宝说的这么好，奶奶们要听宝宝的话#软乎乎小奶娃福气满满 #软软的婴儿 #有福气小奶娃 #软萌宝宝已上线",
+     "text": "懂的人下周将喜提中秋国庆13天连假 你们先试试，成功了我就跟上#打工人请假指南 #中秋节 #国庆节 #请假 #中秋国庆放假",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "敦煌英雄定档中秋9月25日": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国电影报道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电影敦煌英雄定档中秋节 终于等到！定档中秋9月25日，大银幕见证万里风沙中的英雄归途。#电影敦煌英雄",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "@鸭队长",
-     "verify": "",
-     "identity": "",
+     "name": "1905电影网",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#家有萌宝烦恼全消",
+     "text": "#电影敦煌英雄定档中秋节 空降中秋！多年后再次定档，9月25日大银幕进敦煌的故事。#电影敦煌英雄 #1905影讯直击",
      "likes": 0,
      "hot": 0
     }
@@ -1186,214 +1436,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "孙楠、李光洁、王赫野、张卓尔、邵子恒《24个比利》解锁人格的拉扯与对峙，在歌声里和自我交锋！#披荆斩棘 #披荆斩棘2026",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张朝阳称AI能给结果但不能创新": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月21日报道，近日在一次公开分享中，张朝阳称AI能给结果但不能创新，AI可以快速给出结果，但人类要通过自己问问题和研究来学习",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "济南生活频道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#张朝阳称AI能给结果但不能创新 ，自主推导能让人更加理解知识，人类要通过问问题和研究来学习",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻大叔",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月20日，北京。#张朝阳称AI能给结果但不能创新 ，AI能够迅速输出数理等科学问题的标准答案，学习应当依靠自身提问与研究推导！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "亚运男足U23出线形势分析": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新今体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国足0:0伊朗！ U23国足平伊朗：吴曦不可替代 下场又是熟悉的打平出线！#足球 #体育 #新今体育",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "足坛前哨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "U23国足用防守拿到出线关键一分！ #安东尼奥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "朗尼克（中国制躁）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会u23国足0比0战平伊朗#唯有足球不可辜负 #国足 #中国足球 #u23国足 #亚运会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潘谈中超",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国男足亚运队小组赛0-0战平伊朗，若想小组第一出线需要什么条件？#u23国足 #亚运会 #国足 #潘伟力 #潘谈中超",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "董老厮",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国足0-0伊朗，下场打平即出线，是时候考虑体育作为主课可行吗 #国足 #u23 #体育 #董老厮",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "单依纯下班就这么闪走了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "单依纯工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "单依纯下了班就这么闪走了 #展示我新学的闪身步 #负基础跳舞 #闪身步 #刀群舞 #单依纯你怎么了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "牵我的手好吗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一亿年光阴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手 好吗 不要丢下我 好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大炮轰地球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手 好吗不要丢下我 好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "16²",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手 好吗 不要丢下我 好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "土豆杀手_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手 好吗 不要丢下我 好吗 #inmyfeelings #随拍#治愈#分享照片#牵我的手好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "檁（财源广进版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手好吗 #焦虑型 #焦虑型依恋人格 #焦虑型依恋#焦虑型人格 #牵我的手好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三治秋生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手好吗 不要丢下我好吗 . #infp#氛围感#inmyfeelings#牵我的手好吗#吴琳珂",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "用户0724427710",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵着我的手 好吗 不要丢下我 好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "如初",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手 好吗 不要留下我 好吗 #inmyfeelings #infp #牵我的手好吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吴琳珂Moske",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牵我的手好吗，不要丢下我好吗#吴琳珂 #牵我的手好吗",
      "likes": 0,
      "hot": 0
     }
@@ -1572,6 +1614,16 @@
      "hot": 0
     },
     {
+     "name": "起个名字真男",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "求你爱 总是等待 像个乞丐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "TONG",
      "verify": "",
      "identity": "",
@@ -1600,14 +1652,118 @@
      "text": "求你爱 总是等待 像个乞丐",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "单依纯下班就这么闪走了": {
+   "stats": {},
+   "authors": [
     {
-     "name": "起个名字真男",
+     "name": "单依纯工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "单依纯下了班就这么闪走了 #展示我新学的闪身步 #负基础跳舞 #闪身步 #刀群舞 #单依纯你怎么了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "来自小棉袄的暖心祝福": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "为了谁",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "求你爱 总是等待 像个乞丐",
+     "text": "为了谁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雨后的彩虹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#每天都在长大的宝宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "百年达仿石漆及蜂窝大板吊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#爱笑的宝宝健康快乐 #婴儿笑容治愈系",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毛柒柒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萌娃上线 1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "英姐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晨子和奶奶《关👍回❤️》",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我家小宝子，小小的举动，总能暖到心坎 平凡的日子，藏着满满的小美好。 喜欢的朋友，点个关注不迷路，方便以后常来看小宝子成长～#人类幼崽 #快乐心态快乐生活",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大肚陆哥《驾校教练》",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#这样的萌娃你们喜欢吗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "抖友",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#爱笑的宝宝快乐多",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鸿佳姐姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看宝宝说的这么好，奶奶们要听宝宝的话#软乎乎小奶娃福气满满 #软软的婴儿 #有福气小奶娃 #软萌宝宝已上线",
      "likes": 0,
      "hot": 0
     }
@@ -1617,272 +1773,20 @@
   },
   "第五人格神童粉发兽耳正太": {
    "stats": {},
-   "authors": [
-    {
-     "name": "网易第五人格",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【第四十五赛季·精华2】海报爆料！ 内含【稀世时装】“神童”-谎，【奇珍时装】守墓人-苍白之旅，【奇珍时装】“杰克”-入谶之蝰，将于9月30日维护后上线。 #第",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "可乐飞走了（第五人格）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神童伴生金的建模真的帅到我了！#第五人格#第五人格追光逐梦#第五人格亚运版本 #第五人格你的人来了 #第五人格神童",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "王嘉尔新歌ThankYou上线": {
    "stats": {},
-   "authors": [
-    {
-     "name": "王嘉尔",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Thank You 我们生活在一个已经够混乱的世界里。 有太多不确定的事情，太多我们控制不了的东西。 对我来说，娱乐行业存在的意义，其实就是服务大家，给大家带来",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "吃鸡手势舞挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "阿凯（川剧摇）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好舞不挑曲一键跟跳中#专业动作请勿模仿#吃鸡搭子行为大赏 #和平精英#川剧摇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吃啥呢给我也来一口",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的枪法有亿点善良 #吃鸡手势舞挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋挞小屁孩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "帅是一种感觉#吃鸡手势舞挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "畅子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "年少 太萌 懂՞╥⩊╥՞ #和平精英#一键解锁重庆吃鸡派对",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "冬日雪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这里有物资！#吃鸡手势舞挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "糖醋里脊本脊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "整装待发！ #吃鸡手势舞挑战 #卡点舞 #甜妹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "郜什么",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我来救你 #甜妹 #手势舞 #吃鸡手势舞挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汁汁玉米",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我和建模怪同框belike… @T.... @鱼眼珠子 @香香鱼. #和平精英 #一键解锁重庆吃鸡派对",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Kva",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "权威搭子已就位，鸡否 #和平精英 #一键解锁重庆吃鸡派对 #holymoly",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "L佳诺_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "救救我 救救我！ #吃鸡手势舞挑战 #甜妹",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黄霄雲的侧脸一开口就是秋天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Iuk",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋天里的落叶 挥手同树告别#黄霄雲#侧脸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桃桃原创素材",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋天里的落叶 挥手同树告别 #黄霄雲 #侧脸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Zy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋天里的落叶 挥手同树告别 . #秋天#落叶",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "吕蕺儿救兰香这段看泪目了": {
    "stats": {},
-   "authors": [
-    {
-     "name": "电视剧兰香如故（火热播出中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“我只能帮你到这了”#兰香如故 #许兰香 #吕蕺儿 #谭松韵 #刘美含",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一零一七说剧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "兰香被卖到青烟楼后遇到了蕺儿，蕺儿和兰香换装送她离开.... #兰香如故 #兰香如故剧情持续走高",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "独西夕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#歌曲牡丹亭 蕺儿救了兰香～她以后的日子肯定更加不好过了～#兰香如故看入迷了 #兰香如故",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "氧化菊白昼小熊穿可可系好养眼": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "氧化菊",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我猜这个视频你要看四遍 @白昼小熊 @+1 @不爱吃榴莲的Nana #可可系#秋冬变身可人儿",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "抖音电商作者来创大团建了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "兰香如故是下一个知否吗": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "小沈阳组茶花开了太好哭了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "人们常常因为有了小咪而感到幸福": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "发视频解锁你的下一任对象": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "看星空看日落不如看我的眼眸": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1892,17 +1796,27 @@
    "authors": [],
    "lexicon": []
   },
-  "超长蛋挞爆火出圈": {
+  "iPhone 18 Pro被指死机频发": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "女明星严肃进入旗袍珠宝时代": {
+  "跟与辉同行用AI打开山西": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "一瓯春沈润手刃灭门仇人": {
+  "牵我的手好吗": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "抖音电商作者来创大团建了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "兰香如故是下一个知否吗": {
    "stats": {},
    "authors": [],
    "lexicon": []
