@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-26 13:43",
+ "updated_at": "2026-09-26 14:44",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
@@ -8,30 +8,8 @@
  "topics": {
   "中美两国元首夫妇茶叙": {
    "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "独家视频！习近平和彭丽媛同美国总统特朗普夫妇茶叙。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场视频！习近平和彭丽媛同美国总统特朗普夫妇茶叙#近镜头#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "中美达成八点成果共识": {
    "stats": {},
@@ -57,12 +35,12 @@
      "hot": 0
     },
     {
-     "name": "一林大话世界",
-     "verify": "",
-     "identity": "",
+     "name": "中国三农发布",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "外交部定调，中美构建“建设性战略稳定”关系！ 对世界意味着什么？#零基础看懂全球 #来抖音精选App看天下事 #全球现场100计划",
+     "text": "中美同意共同构建“基于尊重、公平、对等的建设性战略稳定关系”",
      "likes": 0,
      "hot": 0
     }
@@ -102,14 +80,81 @@
      "text": "在美国国家档案馆 “我和美国尼克松总统 作出了相同的选择” #媒体原创",
      "likes": 0,
      "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中国男足亚运四强": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "80后老球迷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "酣畅淋漓！中国U23男足3比0泰国U23，晋级亚运会四强，半决赛将对阵韩国，张玉宁替补建功，胡荷韬破门 #足球的魅力 #中国U23男足vs泰国U23 #dou来",
+     "likes": 0,
+     "hot": 0
     },
     {
-     "name": "中国新闻网",
+     "name": "五星体育",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 在美国国家档案馆，“我和美国尼克松总统作出了相同的选择”#媒体精选计划 #直击第一线",
+     "text": "你可以相信中国男足！28年，四强了！。北京时间9月26日，爱知·名古屋亚运会男足1/4决赛，中国男足3比0轻取泰国男足，跻身四强！这是1998年曼谷亚运会至今中",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "光明网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国队时隔28年重返亚运男足四强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国体育报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#直击亚运 | 中国U23男足打进亚运会四强！创造亚运会足球U23改制以来最佳成绩。一场场去拼，创造更多历史，是球员们的共同期待。#亚运会 记者：李刚 赵刚 编",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三球大胜泰国！中国亚运男足时隔28年再入亚运四强 #爱知名古屋亚运会 #中国U23 #张玉宁 #中国队时隔28年再入亚运男足四强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国队时隔28年重返亚运男足四强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 时隔28年，中国男足重返亚运会四强！9月26日，#2026亚运会 男足1/4决赛中，中国队3∶0战胜泰国队。半决赛将对阵韩国队，继续加油！",
      "likes": 0,
      "hot": 0
     }
@@ -156,27 +201,17 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 亚运会乒乓球混双决赛，林诗栋/蒯曼、王楚钦/孙颖莎两对组合包揽冠亚军，颁奖现场同时升起两面五星红旗，祝贺！#名古屋亚运会 #文娱体万象观",
+     "text": "#媒体原创 林诗栋/蒯曼摘得2026年亚运会乒乓球混双金牌，赛后他们表示：跟“大哥”“大姐”打决赛，这样的结果是真没想到。（央视频号：亚运来了）#文娱体万象观 ",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "人民视频",
+     "name": "中国之声",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 林诗栋/蒯曼4:0战胜卫冕冠军王楚钦/孙颖莎，夺得金牌！中国队包揽金银牌🎉（人民网记者 杨磊 人民日报记者 陶相安摄）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“栋曼组合”首次夺得亚运会混双金牌，“莎头组合”银牌。国乒包揽亚运混双金银牌，祝贺！#2026亚运会 （视频来源：央视网）",
+     "text": "林诗栋/蒯曼4：0战胜王楚钦/孙颖莎，获得亚运会乒乓球混双金牌。林诗栋/蒯曼：赢在心态。（总台中国之声记者 方亮）#媒体精选计划 #名古屋亚运会",
      "likes": 0,
      "hot": 0
     },
@@ -186,17 +221,17 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 26日晚，爱知·名古屋亚运会乒乓球混合双打决赛在丰田市天空体育馆结束。年轻组合林诗栋/蒯曼以4:0战胜卫冕冠军王楚钦/孙颖莎，夺得金牌。王楚钦/孙颖",
+     "text": "#媒体原创 两面五星红旗同时升起！在刚刚结束的爱知·名古屋亚运会乒乓球混双决赛中，林诗栋/蒯曼收获金牌，王楚钦 /孙颖莎摘得银牌。祝贺中国队！#一探亚运 （中国",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "环球时报",
+     "name": "央视一套",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "林诗栋蒯曼亚运会混双金牌，王楚钦孙颖莎摘银（编辑：大河）",
+     "text": "#媒体原创 【#金牌银牌一起展示五星红旗 】2026年亚运会乒乓球混双决赛，林诗栋、蒯曼收获金牌，王楚钦、孙颖莎摘得银牌。赛后，选手们一起展示五星红旗，再次祝贺",
      "likes": 0,
      "hot": 0
     }
@@ -238,16 +273,6 @@
      "hot": 0
     },
     {
-     "name": "国+社区",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间9月26日，名古屋亚运会乒乓球男单1/4决赛，林诗栋4-2战胜松岛辉栋，晋级四强，半决赛将对阵林昀儒。日本男单张本智和、松岛辉空主场双双止步八强。#林诗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
@@ -256,333 +281,71 @@
      "text": "林诗栋4：2战胜松岛辉空，和王楚钦一同闯入男单半决赛，亚运乒乓球男单日本选手全军覆没",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间9月26日，名古屋亚运会乒乓球男单1/4决赛，林诗栋4-2战胜松岛辉栋，晋级四强，半决赛将对阵林昀儒。日本男单张本智和、松岛辉空主场双双止步八强。#林诗",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "中秋最好的团圆是回家": {
+  "要等到月亮变全你才会回到我身边": {
    "stats": {},
    "authors": [
     {
-     "name": "Wink",
+     "name": "不知名小问",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "空气那么新鲜，家人在我身边～#家人团聚 #中秋节快乐 #做一桌爱吃的菜 #innyfeeling #和家人在一起的日子",
+     "text": "要等到月亮变全 你才会回到我身边",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "是热爱生活的宝妈",
+     "name": "夭冷冷",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中秋家宴 | 月圆人圆，祝大家中秋节快乐。中秋一家人围在一起吃顿家宴，大概就是最踏实的小幸福🌕今天的团圆饭给大家提供一些小灵感，㊗️宝子们双节快乐！ 今日菜单",
+     "text": "要等到月亮变全 你才会回到我身边#等你的季节#中秋节#混音#情绪",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "安徽文旅",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "万千游子奔赴家乡，皖皖等候皖宝们回家（素材支持：@狮子座高大伟 、二姐家常菜、杨妈厨房日记、安徽小玖、吴吴、王老三土菜教学、小小刘掌柜、吉吉爱做饭）#安徽文旅 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中国男足亚运四强": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "80后老球迷",
+     "name": "天冷冷",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "酣畅淋漓！中国U23男足3比0泰国U23，晋级亚运会四强，半决赛将对阵韩国，张玉宁替补建功，胡荷韬破门 #足球的魅力 #中国U23男足vs泰国U23 #dou来",
+     "text": "要等到月亮变全 你才会回到我身边#等你的季节 #混音",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你可以相信中国男足！28年，四强了！。北京时间9月26日，爱知·名古屋亚运会男足1/4决赛，中国男足3比0轻取泰国男足，跻身四强！这是1998年曼谷亚运会至今中",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光明网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国队时隔28年重返亚运男足四强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三球大胜泰国！中国亚运男足时隔28年再入亚运四强 #爱知名古屋亚运会 #中国U23 #张玉宁 #中国队时隔28年再入亚运男足四强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国队时隔28年重返亚运男足四强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 时隔28年，中国男足重返亚运会四强！9月26日，#2026亚运会 男足1/4决赛中，中国队3∶0战胜泰国队。半决赛将对阵韩国队，继续加油！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终场哨响！中国队3：0战胜泰国队，时隔28年重返亚运男足四强。下一场，中国队将在半决赛对阵韩国队。（记者：陈柔漪、吴丹妮）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "晒出你手中的中秋金牌月饼": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运健儿都来抖音报到啦！速速来关注🏅。中秋吃月饼！也吃金牌月饼！亚运会如火如荼进行中，中国代表团收获颇丰！截至目前，已经有100+名亚运健儿来抖音报到，晒出自",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "余思涵🐠",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会中国代表团第97金来报到啦。拼搏不负佳节，祝大家中秋喜乐团圆！🌕🥇🥇🥇🥇 #亚运会夺金请报数 #名古屋亚运会#中秋节快乐 #击剑 #女子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "艾尼",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第79金是我，昨天夺冠今天才领奖，有点晚了就祝大家中秋节快乐吧！#亚运会夺金请报数 #名古屋亚运会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "屋昂",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "名古屋亚运会第81金前来报到 中秋节🥮➕生日🎂🟰冠军🏆 #2026名古屋亚运会 #亚运会夺金请报数 #名古屋亚运会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "柺",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第66金来报道啦！#亚运会夺金请报数 #名古屋亚运会，祝大家六六大顺！#中国举重#亚运会举重首金 #亚运冠军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lucy",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会第103金来报道啦！#亚运会夺金请报数 #名古屋亚运会 #皮划艇静水@好久不见.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "wsywsy",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们又来了，带着第102金！！#亚运会夺金请报数 #名古屋亚运会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "白宫欢迎晚宴的细致与用心": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #白宫欢迎晚宴的细致与用心 #精选主播说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马斯克 黄仁勋等美企高管出席白宫欢迎国宴 美媒：出席宾客掌管企业市值超35万亿美元#马斯克 #黄仁勋 #中美",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 马斯克、黄仁勋、苏世民、奥尔特曼等出席白宫欢迎宴会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰网",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "凤凰直击白宫晚宴：伊万卡身着中式元素服饰，带着会中文的女儿来了#国际 #外交 #直击第一线 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #特朗普夫妇为中方举行欢迎宴 #白宫国宴主桌宾客有谁 ？马斯克、黄仁勋、库克等现身 #直击第一线",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "中美达成300亿美元对等降税安排": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中美达成300亿美元对等降税安排",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国三农发布",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中美同意共同构建“基于尊重、公平、对等的建设性战略稳定关系”",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "EDG对阵LOUD": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "无畏契约",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无畏契约上海全球冠军赛 | 小组赛 第二日 第一场 NS 0:2 NRG 第二场 KC 2:0 XLG 赛事预告 9月26日 17:00开赛 第一场 GE vs",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无畏契约电竞",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "竭尽全力 方能无悔 | 无畏契约上海全球冠军赛 第三日 宣传片 无畏契约上海全球冠军赛第三日的比赛即将开始！ 首登冠军赛的GE能否在对阵强敌VIT的这场比赛中展",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雨辰（无畏契约）",
+     "name": "一鱼魚𓆡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "926！EDG加油！#无畏契约 #无畏契约上海全球冠军赛 #edg #我的十月被瓦包围了",
+     "text": "要等到月亮变全 你才会回到我身边",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "交换一张你镜头里的月亮": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "anddmc",
+     "name": "刘幸运lucky",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "交换一张你镜头里的月亮🌕。#摄影 #中秋节 #月亮",
+     "text": "要等到月亮变全 你才会回到我身边 #等你的季节 #中秋节 #情绪 #异地",
      "likes": 0,
      "hot": 0
     }
@@ -687,179 +450,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我与复联4的终局之约": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "晒出你的中秋节手抄报": {
+  "白宫欢迎晚宴的细致与用心": {
    "stats": {},
    "authors": [
     {
-     "name": "V7",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神作。@枝枝（昭游戏裴🥣） #黑板报 #中秋节 #奶娃 #mj",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鿘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "##黑板报画 #校园生活记录 #中秋国庆黑板报 🙃🙃这是玉兔😋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "冬、",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你们要的中秋节线稿！#国庆中秋手抄报 #迎中秋手抄报 #小学生手抄报中秋",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今年中秋送这一根就够了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "散白抑郁于",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老爸期待的也是这个是吧？#今年中秋送这一根就够了#向全世界安利超长蛋挞#超长蛋挞#父子日常#散白",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不吃奶露拖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是谁还没收到中秋超超超超超长蛋挞！！！！！！ #惊喜#今年中秋送这一根就够了#向全世界安利超长蛋挞#超长蛋挞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黑淘爱睡觉💤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超长长长长长长长蛋挞也是吃上了#狗狗 #小狗的心眼全用在吃上了 #罗威纳",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我拍到了古诗词里的中秋": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "金鑫鑫的取景框📷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我拍到了古诗词里的中秋🌕 #中秋节 #中式美学 #氛围感 #治愈系风景 #月亮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一码游贵州",
+     "name": "中国新闻社",
      "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "贵贵带你走进古诗词里的中秋~#带你看看诗词里的中秋 #美在中秋月圆时 #中秋国庆回家吗 #贵州旅游 #国风古韵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "云上酒泉",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天马湖畔读中秋，读懂中国人的月下浪漫#网络中国节·中秋#月满中秋#中秋诗词 （酒泉融媒记者 殷小乔 实习生 郑熠）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "谢霆锋重庆演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "锋味",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#EvolutionNicLive 重慶，一起再進化。#巡演日记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "锋味官方",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#EvolutionNicLive 📸昨日中秋彩排纪实。 @锋味 今晚重庆，舞台相见🎤#谢霆锋重庆演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "刘欢歌曲回顾": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环球网",
-     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "音乐家刘欢病逝，享年63岁，盘点那些他留在中国人记忆中的旋律，一起送别刘欢老师！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青蜂侠",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "盘点刘欢演唱的经典曲目：既是豪放的好汉也能柔情似月北京奥运亮相世界 #媒体原创 #刘欢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻晨报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#再听一遍刘欢老师的经典歌曲 #音乐家刘欢去世享年63岁 《好汉歌》《我和你》《我欲成仙》··· 哪首经典让你印象深刻？#媒体原创",
+     "text": "#媒体原创 #白宫欢迎晚宴的细致与用心 #精选主播说",
      "likes": 0,
      "hot": 0
     },
@@ -869,104 +469,37 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "怀念63岁音乐家刘欢！#重温刘欢经典曲目从头再来 ，唱尽一代人半生风雨",
+     "text": "#媒体原创 #特朗普为中方举行欢迎宴会 国宴菜单来了：芝麻脆皮海鲈鱼融入中国元素！搭配小白菜、茄子 喝的气泡酒是尼克松访华同款！#直击第一线",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "豫视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "刘欢：别那么看重所谓“明星包袱”，把音乐看得高一点，把自己看得低一点，永远仰视音乐！#鲁健访谈 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "刘欢病逝 丧事从简不举行追悼会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "青蜂侠",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "音乐家#刘欢 在上海病逝，享年63岁 两方机构发布#讣告 ：丧事从简，公益项目将继续运营",
+     "text": "白宫晚宴菜单公布！海鲈鱼搭配小白菜和烤茄子，还有南瓜浓汤、蛋糕和冰淇淋！特朗普现场举杯发表讲话，马斯克、黄仁勋、库克坐在一桌#美国 #媒体原创 #精选主播说 （",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "秒懂金融",
+     "name": "凤凰卫视",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "他唱给十亿人听，走时却不让人送 #刘欢去世 #刘欢",
+     "text": "马斯克 黄仁勋等美企高管出席白宫欢迎国宴 美媒：出席宾客掌管企业市值超35万亿美元#马斯克 #黄仁勋 #中美",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 著名音乐家、音乐教育家、“刘欢原创音乐公益金”发起人刘欢老师，于2026年9月25日上午9点52分，在上海家人的陪伴下安详离世，享年63岁。《好汉歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰WEEKLY",
+     "name": "凤凰网",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一代人的背景音乐停了。送别刘欢，送别那些围坐电视机前的夜晚。#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潇湘晨报·晨视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "音乐家刘欢老师9月25日在上海病逝享年63岁，对外经贸大学发布讣告，该校工作人员:遵照其生前遗愿不办遗体告别仪式，不成立治丧委员会，也不举行追悼会#媒体原创 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "国+社区",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 9月26日，对外经济贸易大学发布讣告：我国著名音乐家刘欢，于2026年9月25日上午9时52分在上海病逝，享年63岁。感谢刘欢老师留下的经典乐章，愿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "百姓关注",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 主播说新闻｜刘欢：安静退场，作品留声",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华每日电讯",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "著名音乐家刘欢去世。送别！一路走好！（新华社）#新华每日电讯",
+     "text": "凤凰直击白宫晚宴：伊万卡身着中式元素服饰，带着会中文的女儿来了#国际 #外交 #直击第一线 #媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -974,36 +507,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "您拨打的用户正在旅游中": {
+  "中秋最好的团圆是回家": {
    "stats": {},
    "authors": [
     {
-     "name": "闲豆花",
+     "name": "Wink",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Sorry 您拨打的用户正在徒步中📞 #户外自由计划 #颤抖的双腿和前进的脚步 #我的徒步生活 #户外转场 #川西徒步",
+     "text": "空气那么新鲜，家人在我身边～#家人团聚 #中秋节快乐 #做一桌爱吃的菜 #innyfeeling #和家人在一起的日子",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Zoey",
+     "name": "是热爱生活的宝妈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Sorry 您拨打的用户正在旅途中 国庆旅行拍起来！#telephone转场#旅行转场专用bgm #泰国旅游",
+     "text": "中秋家宴 | 月圆人圆，祝大家中秋节快乐。中秋一家人围在一起吃顿家宴，大概就是最踏实的小幸福🌕今天的团圆饭给大家提供一些小灵感，㊗️宝子们双节快乐！ 今日菜单",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "北仑娜娜Joyce",
-     "verify": "",
-     "identity": "",
+     "name": "安徽文旅",
+     "verify": "蓝V",
+     "identity": "官方机构",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "对不起，您拨打的用户正在旅游中#旅游转场 #转场视频 #北仑 #北仑推荐 #北仑旅游",
+     "text": "万千游子奔赴家乡，皖皖等候皖宝们回家（素材支持：@狮子座高大伟 、二姐家常菜、杨妈厨房日记、安徽小玖、吴吴、王老三土菜教学、小小刘掌柜、吉吉爱做饭）#安徽文旅 ",
      "likes": 0,
      "hot": 0
     }
@@ -1011,105 +544,103 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "别人的中秋VS神的中秋": {
+  "晒出你手中的中秋金牌月饼": {
    "stats": {},
    "authors": [
     {
-     "name": "小柳同学爱剪辑",
-     "verify": "",
-     "identity": "",
+     "name": "抖音体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“神的中秋”模版来啦｜神准备怎么过中秋呀 #中秋节 #剪映模版 #剪同款 #中秋快乐",
+     "text": "亚运健儿都来抖音报到啦！速速来关注🏅。中秋吃月饼！也吃金牌月饼！亚运会如火如荼进行中，中国代表团收获颇丰！截至目前，已经有100+名亚运健儿来抖音报到，晒出自",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小淇（血透版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中秋节快乐哥哥姐姐弟弟妹妹！#尿毒症晚期#尿毒症晚期女孩#中秋节快乐 #中秋 #中秋节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你对得起我吗？！！！！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神的中秋注定与凡人不同 #光遇 #光遇中秋节活动 #光遇中秋礼包",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Whatever",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神是没办法的#来自数学的压迫感 #平平无奇的数学天才",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "嘻 嘻 哈 哈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "减脂人迎来最难的国庆加中秋假期 #中秋节#减脂#自律#国庆",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长假闪身全国各地": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "圈宁CeoxNim",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我想用闪身步回家，但偏偏社恐加牛马 #闪身步 #假期 #回家 #长假闪身全国各地 #国庆给生活放个假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汉堡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闪身步实际落地运用#长假闪身全国各地",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今天我对月亮许愿": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "道明我们都在爱你": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴克群",
+     "name": "余思涵🐠",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "无比感谢最美的朋友们一起为道明造梦 @苏醒AllenSu @王栎鑫 @陆虎 @王铮亮 @陈楚生 @张远Bird @陈赫 @宝石Gem （10月17日巡演西安版）",
+     "text": "2026亚运会中国代表团第97金来报到啦。拼搏不负佳节，祝大家中秋喜乐团圆！🌕🥇🥇🥇🥇 #亚运会夺金请报数 #名古屋亚运会#中秋节快乐 #击剑 #女子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "艾尼",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第79金是我，昨天夺冠今天才领奖，有点晚了就祝大家中秋节快乐吧！#亚运会夺金请报数 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "屋昂",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "名古屋亚运会第81金前来报到 中秋节🥮➕生日🎂🟰冠军🏆 #2026名古屋亚运会 #亚运会夺金请报数 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柺",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026亚运会第66金来报道啦！#亚运会夺金请报数 #名古屋亚运会，祝大家六六大顺！#中国举重#亚运会举重首金 #亚运冠军",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Lucy",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会第103金来报道啦！#亚运会夺金请报数 #名古屋亚运会 #皮划艇静水@好久不见.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "wsywsy",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们又来了，带着第102金！！#亚运会夺金请报数 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宋 佳 媛",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第95金来啦！女子铅球冠军是我 #亚运会夺金请报数 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "交换一张你镜头里的月亮": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "anddmc",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "交换一张你镜头里的月亮🌕。#摄影 #中秋节 #月亮",
      "likes": 0,
      "hot": 0
     }
@@ -1174,36 +705,565 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "一个人的中秋也有仪式感": {
+  "晒出你的中秋节手抄报": {
    "stats": {},
    "authors": [
     {
-     "name": "张壮",
+     "name": "V7",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "39岁独居女生 一个人过中秋节 我的中秋节晚餐 四菜一酒 敬自由 敬自己#我独自生活 #中秋节快乐",
+     "text": "神作。@枝枝（昭游戏裴🥣） #黑板报 #中秋节 #奶娃 #mj",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "嘉尘的旅居生活",
+     "name": "鿘",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一个人也要开开心心 祝大家中秋节快乐，自己买菜做饭的中秋节 #中秋节 #vlog #异国他乡 #嘉尘在泰国 #泰国生活",
+     "text": "##黑板报画 #校园生活记录 #中秋国庆黑板报 🙃🙃这是玉兔😋",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "甜甜糯糯糖葫芦",
+     "name": "冬、",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中秋一人食vlog 原以为一个人过节会很孤单，但是其实真的还好，世界上真的没有这么多人会关注你#真实生活记录 #盛香亭 #中秋快乐",
+     "text": "你们要的中秋节线稿！#国庆中秋手抄报 #迎中秋手抄报 #小学生手抄报中秋",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "谢霆锋重庆演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "锋味",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#EvolutionNicLive 重慶，一起再進化。#巡演日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "锋味官方",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#EvolutionNicLive 📸昨日中秋彩排纪实。 @锋味 今晚重庆，舞台相见🎤#谢霆锋重庆演唱会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我拍到了古诗词里的中秋": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "金鑫鑫的取景框📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我拍到了古诗词里的中秋🌕 #中秋节 #中式美学 #氛围感 #治愈系风景 #月亮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "何平Apple",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "历时三年走遍各地，我拍到了古诗词里的中秋 “今人不见古时月，今月曾经照古人”。 历时三年踏遍山川湖海，只为拍出古诗词里的月亮。古往今来一代代文人为月亮吟诗作画，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一码游贵州",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "贵贵带你走进古诗词里的中秋~#带你看看诗词里的中秋 #美在中秋月圆时 #中秋国庆回家吗 #贵州旅游 #国风古韵",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "EDG对阵LOUD": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "无畏契约",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无畏契约上海全球冠军赛 | 小组赛 第二日 第一场 NS 0:2 NRG 第二场 KC 2:0 XLG 赛事预告 9月26日 17:00开赛 第一场 GE vs",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雪乃荔荔枝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人把光借给EDG！ #无畏契约 #雪乃荔荔枝 #无畏契约上海冠军赛 #荔枝解说上海冠军赛 #EDG",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雨辰（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "926！EDG加油！#无畏契约 #无畏契约上海全球冠军赛 #edg #我的十月被瓦包围了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洋洋电竞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "作为外赛区最想交战的对手 EDG的上海冠军赛首战究竟会表现如何 一期视频带你搞清楚EDG还有哪些底牌没有亮出来#EDG #ZmjjKK #Smoggy #LOU",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Smoggy",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来吧 #EDG上海冠军赛首战加油 #EDG #无畏契约 #smoggy #一起为EDG主场加油助威",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "满月在杯中升起": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "简单醺",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中式浪漫调酒｜海上生明月，一杯盛满月色 中秋的浪漫，不一定在远方海边。 在家调一杯海上生明月，把月光装进杯子里。 ✅配方： 杯中放入半杯冰块 15ml蓝橙酒倒入",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "那是家煮茶记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杯中揽月🌕中秋限定特调・秋江望月 中秋赏月，不如饮一杯秋江望月🍂 蓝柑果冻打底，椰子水柔化口感，冷泡桂花白酒注入灵魂。 清冽桂香伴着淡淡酒香，这是属于秋天的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吨吨喝一杯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🌕中秋氛围感特调 | 赏月好搭档🥮✨🐇 一杯特调，一轮明月，祝大家中秋快乐，团圆美满🌙#分享你的桂花特调 #中秋快乐 #渐变饮品 #治愈系蓝饮 #diy",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我与复联4的终局之约": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "中秋被吉安飞天浪漫震撼到了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "是剧剧呀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这回真体验到大宋的浪漫风采了#吉安 #中秋被吉安飞天浪漫震撼到了 #中秋来吉安看一场飞天盛宴",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "刘欢歌曲回顾": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "音乐家刘欢病逝，享年63岁，盘点那些他留在中国人记忆中的旋律，一起送别刘欢老师！#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青蜂侠",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "盘点刘欢演唱的经典曲目：既是豪放的好汉也能柔情似月北京奥运亮相世界 #媒体原创 #刘欢",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻晨报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#再听一遍刘欢老师的经典歌曲 #音乐家刘欢去世享年63岁 《好汉歌》《我和你》《我欲成仙》··· 哪首经典让你印象深刻？#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怀念63岁音乐家刘欢！#重温刘欢经典曲目从头再来 ，唱尽一代人半生风雨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刘欢：别那么看重所谓“明星包袱”，把音乐看得高一点，把自己看得低一点，永远仰视音乐！#鲁健访谈 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "八月十六的夜藏着更细腻的浪漫": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吕先生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "都说十五的月亮十六圆，八月十六的月色褪去昨日喧嚣，一轮饱满的圆月静静悬在墨蓝色夜空，清辉如水，温柔漫过屋顶与树梢。没有中秋当夜的热闹，这份圆满来得从容安静，月光",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "丁叮顶鼎",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赏月🎑。八月十六，云揽明月，月色半遮，别有一番温柔🎑##满月圆月 #中秋赏月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山野与城",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "八月十六，月色依旧圆满。十五的月亮十六圆。 昨夜喧嚣散去，今晚静静望月 告别过往，慢慢开启新的一程 人间万事，慢慢来，皆有回甘 #八月十六 #月亮 #望月 #人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "长假闪身全国各地": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "圈宁CeoxNim",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我想用闪身步回家，但偏偏社恐加牛马 #闪身步 #假期 #回家 #长假闪身全国各地 #国庆给生活放个假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汉堡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闪身步实际落地运用#长假闪身全国各地",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "重庆共青团",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "放假就这样闪到重庆 #闪身步 #闪身步教学 #重庆旅游 #中秋国庆假期",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "刘欢病逝 丧事从简不举行追悼会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "青蜂侠",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "音乐家#刘欢 在上海病逝，享年63岁 两方机构发布#讣告 ：丧事从简，公益项目将继续运营",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秒懂金融",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "他唱给十亿人听，走时却不让人送 #刘欢去世 #刘欢",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 著名音乐家、音乐教育家、“刘欢原创音乐公益金”发起人刘欢老师，于2026年9月25日上午9点52分，在上海家人的陪伴下安详离世，享年63岁。《好汉歌",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰WEEKLY",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一代人的背景音乐停了。送别刘欢，送别那些围坐电视机前的夜晚。#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "音乐家刘欢老师9月25日在上海病逝享年63岁，对外经贸大学发布讣告，该校工作人员:遵照其生前遗愿不办遗体告别仪式，不成立治丧委员会，也不举行追悼会#媒体原创 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "百姓关注",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 主播说新闻｜刘欢：安静退场，作品留声",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月26日，对外经济贸易大学发布讣告：我国著名音乐家刘欢，于2026年9月25日上午9时52分在上海病逝，享年63岁。感谢刘欢老师留下的经典乐章，愿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国著名音乐家刘欢病逝",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "就借这月光再与你对望": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "段俊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就借着月光 再与你对望 #借月 #段俊 #钢琴#美在中秋月圆时",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天冷冷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以前觉得千里共婵娟太过矫情 直到我和你相隔千里万里 我居然也抬头看向天空.#混音 #借月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张與息",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“就让这月光，将你的回程路照亮” #借月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝑇.萨满.𝑠𝑚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就借这月光，再与你对望#借月#中秋节",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阴阳先生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就借这月光 再与你对望 #段俊 #钢琴 #借月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "kria",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那就借着这 月光在与你对望。见与不见 都愿平安 纵使相隔千里 共赏一轮明月 也算相逢 我们见不到面 那就让我们看同一个月亮 就当是我们见面了吧#中秋#见不到你的",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "您拨打的用户正在旅游中": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "闲豆花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Sorry 您拨打的用户正在徒步中📞 #户外自由计划 #颤抖的双腿和前进的脚步 #我的徒步生活 #户外转场 #川西徒步",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Zoey",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Sorry 您拨打的用户正在旅途中 国庆旅行拍起来！#telephone转场#旅行转场专用bgm #泰国旅游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北仑娜娜Joyce",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "对不起，您拨打的用户正在旅游中#旅游转场 #转场视频 #北仑 #北仑推荐 #北仑旅游",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "华晨宇一个人盘了场晚会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "巨星火火",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "知道的是来过中秋，不知道的以为是跨年来啦！#华晨宇一个人盘了场晚会 #华晨宇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "甜筒妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "离开了华晨宇谁还能这样宠我！#华晨宇一个人盘了场晚会 #华晨宇",
      "likes": 0,
      "hot": 0
     }
@@ -1212,6 +1272,85 @@
    "kw_freq": []
   },
   "打包个月亮寄给你": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "道明我们都在爱你": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吴克群",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无比感谢最美的朋友们一起为道明造梦 @苏醒AllenSu @王栎鑫 @陆虎 @王铮亮 @陈楚生 @张远Bird @陈赫 @宝石Gem （10月17日巡演西安版）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "今天我对月亮许愿": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "句句不提中秋 句句都是中秋": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "张雪机车冲刺第七冠": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "懂车帝赛事",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张雪机车今晚继续争冠 德比斯追赶年度冠军，卡里卡苏洛主场冲击赛季最佳，9月26日晚20:00，@懂车帝赛事 全程中文解说陪伴 #张雪机车 #德比斯 #卡里卡苏洛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第1眼新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月19日，重庆，张雪在摩博会现场跟大家一起分享，车手德比斯“同款夺冠原浆”，一句打趣“里面可能有冠军的口水”逗笑全场，明年的目标：喝WSBK第一个",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张雪机车",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "WSBK｜意大利站-Race1 第四名！#东鹏特饮张雪机车埃文兄弟工厂队 #张雪机车",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "WSBK意大利克雷莫纳站WorldSSP排位赛落幕，张雪机车德比斯拿到第8名，赛后张雪亲临 P 房，为德比斯擦汗加油。德比斯发视频表示整体发挥尚可，对正赛充满信",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王嘉尔三次被cue名场面": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1300,22 +1439,22 @@
      "hot": 0
     },
     {
-     "name": "7 7",
+     "name": "霅",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "7 7",
+     "text": "中秋节！ 哥仨不用急哈，我们弯妹（公主们）有自己的灯笼🏮 #ONER#中秋节灯笼#应援棒灯笼",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "oneOne^",
+     "name": "凡的快乐堡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我们琴弦有自己的中秋灯笼🏮 #henry刘宪华 #琴弦 #应援棒 #追星女 #中秋",
+     "text": "一代人有一代人的中秋灯笼 #黄子弘凡#快乐最棒#应援棒#中秋节#中秋灯笼",
      "likes": 0,
      "hot": 0
     }
@@ -1323,51 +1462,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "句句不提中秋 句句都是中秋": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "张雪机车冲刺第七冠": {
+  "井柏然刘雯现身李荣浩演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "懂车帝赛事",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张雪机车今晚继续争冠 德比斯追赶年度冠军，卡里卡苏洛主场冲击赛季最佳，9月26日晚20:00，@懂车帝赛事 全程中文解说陪伴 #张雪机车 #德比斯 #卡里卡苏洛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "WSBK意大利克雷莫纳站WorldSSP排位赛落幕，张雪机车德比斯拿到第8名，赛后张雪亲临 P 房，为德比斯擦汗加油。德比斯发视频表示整体发挥尚可，对正赛充满信",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张雪机车",
+     "name": "爱看新闻",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "WSBK｜意大利站-排位赛集锦 #东鹏特饮张雪机车埃文兄弟工厂队 #张雪机车",
+     "text": "#李荣浩上海演唱会 井柏然刘雯双双现身李荣浩演唱会#井柏然 #刘雯 #井柏然刘雯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "第1眼新闻",
+     "name": "新湖南",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 9月19日，重庆，张雪在摩博会现场跟大家一起分享，车手德比斯“同款夺冠原浆”，一句打趣“里面可能有冠军的口水”逗笑全场，明年的目标：喝WSBK第一个",
+     "text": "9月25日，上海。井柏然、刘雯在现场观看李荣浩演唱会。观众互动环节，李荣浩说你们深爱的Luke在现场，刘雯也在。（编辑：童童）#早春晴朗 #井柏然 #刘雯 #上",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荔枝新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 真情侣才最好磕 李荣浩巡回演唱会上海站 现场cue井柏然刘雯在包厢",
      "likes": 0,
      "hot": 0
     }
@@ -1375,220 +1499,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "范丞丞满钻外套酷炫登场": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "王嘉尔三次被cue名场面": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "华晨宇一个人盘了场晚会": {
+  "别人的中秋VS神的中秋": {
    "stats": {},
    "authors": [
     {
-     "name": "巨星火火",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "知道的是来过中秋，不知道的以为是跨年来啦！#华晨宇一个人盘了场晚会 #华晨宇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "甜筒妹",
+     "name": "小柳同学爱剪辑",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "离开了华晨宇谁还能这样宠我！#华晨宇一个人盘了场晚会 #华晨宇",
+     "text": "“神的中秋”模版来啦｜神准备怎么过中秋呀 #中秋节 #剪映模版 #剪同款 #中秋快乐",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "董思成邓恩熙舞台太甜了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "就借这月光再与你对望": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "段俊",
+     "name": "小淇（血透版）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "就借着月光 再与你对望 #借月 #段俊 #钢琴#美在中秋月圆时",
+     "text": "中秋节快乐哥哥姐姐弟弟妹妹！#尿毒症晚期#尿毒症晚期女孩#中秋节快乐 #中秋 #中秋节",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "天冷冷",
+     "name": "你对得起我吗？！！！！",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "以前觉得千里共婵娟太过矫情 直到我和你相隔千里万里 我居然也抬头看向天空.#混音 #借月",
+     "text": "神的中秋注定与凡人不同 #光遇 #光遇中秋节活动 #光遇中秋礼包",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "张與息",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“就让这月光，将你的回程路照亮” #借月",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑇.萨满.𝑠𝑚",
+     "name": "Whatever",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "就借这月光，再与你对望#借月#中秋节",
+     "text": "神是没办法的#来自数学的压迫感 #平平无奇的数学天才",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "kria",
+     "name": "嘻 嘻 哈 哈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "那就借着这 月光在与你对望。见与不见 都愿平安 纵使相隔千里 共赏一轮明月 也算相逢 我们见不到面 那就让我们看同一个月亮 就当是我们见面了吧#中秋#见不到你的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阴阳先生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "就借这月光 再与你对望 #段俊 #钢琴 #借月",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "火影手游篮球佐助全技能爆料": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "游泳冠军天团在抖音接力秀金牌": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "潘展乐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第8、23、31、74金潘展乐来抖音报到啦！#亚运会夺金请报数",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "徐嘉余",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "游泳运动员徐嘉余前来报道 四金一铜完成本次亚运会～继续怀揣梦想迎接新挑战#亚运最前线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李冰洁_",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#亚运夺金请报数 2026亚运会第7、11、30、75、90金李冰洁来抖音报到啦！（五金店开张🥳）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "唐钱婷",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会🥇🥇🥇GR×3 继续蓄力向前#2026名古屋亚运会 #亚运夺金请报数 #名古屋亚运会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张雨霏",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第11、47、88、94 金张雨霏来抖音报到啦！😏 #亚运会夺金请报数",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "覃海洋",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#亚运会夺金请报数 2026亚运会第89金覃海洋来抖音报到啦！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "彭旭玮_🐰",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第28-43-94🏅彭旭玮来抖音报道了！祝大家中秋快乐🥮 #亚运会夺金请报数",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "❄️🐤🐵",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#亚运会夺金请报数 2026亚运会第19金、31金董志豪来抖音报到！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吴卿风",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第11、71金吴卿风来抖音报到啦～#亚运会夺金请报数",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昭熠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第18金万乐天来抖音报到啦！ #亚运会夺金请报数",
+     "text": "减脂人迎来最难的国庆加中秋假期 #中秋节#减脂#自律#国庆",
      "likes": 0,
      "hot": 0
     }
@@ -1597,6 +1557,16 @@
    "kw_freq": []
   },
   "生活中的闪身步实战运用": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "董思成邓恩熙舞台太甜了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "范丞丞满钻外套酷炫登场": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1621,6 +1591,92 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "<“世界顶级杀手”正在带妹>1-5合集 新粉纯享版 \"世界顶级杀手\"最难的任务竟然是带小老外继妹！ 一口气看完纯享版!+未公开加长花絮! #AI创作浪潮计划 #",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "恨意王者语音包太魔性了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王者荣耀恨意【国一野猪】",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑够了没有#国服猪八戒 #恨意语音包 #王者荣耀 #笑声",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火影手游篮球佐助全技能爆料": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "我不是大师富家女抢已婚男": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不是大师(江湖打假办营业中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我不是大师 是多少次的恐惧和绝望，才会形成这样的本能......#张晓谦 #高睿菲儿 #周文心 #白文兰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱奇艺",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我不是大师 就这个情仇味带感！#李现 #李一桐",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中秋家宴硬菜制作教程": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "董董爱生活",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "挑战最夯中秋硬菜，满满一桌山东味道依旧拿人！#梭子蟹 #挑战各地最夯中秋硬菜 #美食 #红烧肉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我就再吃一口",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又是忙忙碌碌，烧一桌中秋家宴的一天～ #挑战各地最夯中秋硬菜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "范范的菜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中秋家宴硬菜！葱烧豆腐鲈鱼煲寓意年年有余 #中秋家宴 #中秋硬菜#鲈鱼煲 #豆腐煲",
      "likes": 0,
      "hot": 0
     }
@@ -1675,36 +1731,43 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中秋家宴硬菜制作教程": {
+  "一瓯春母女线好反转": {
    "stats": {},
    "authors": [
     {
-     "name": "董董爱生活",
+     "name": "一瓯春(鲨疯了",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#一瓯春母女线好反转 以赎罪的开始，掺杂爱的结局...#一瓯春 #陈意涵Estelle #苗圃",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这个假期去田野里听一场音乐会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "红妹🐰🐰🎤",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "挑战最夯中秋硬菜，满满一桌山东味道依旧拿人！#梭子蟹 #挑战各地最夯中秋硬菜 #美食 #红烧肉",
+     "text": "🌾贵州绝美梯田音乐会氛围感拉满。站在错落的梯田间，晚风裹着山野气息漫过肩头。 旋律响起来的瞬间，那些放不下的人、没圆满的遗憾，顺着歌声一点点漫出来。 走遍天涯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "我就再吃一口",
+     "name": "难祈爱.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "又是忙忙碌碌，烧一桌中秋家宴的一天～ #挑战各地最夯中秋硬菜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "范范的菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中秋家宴硬菜！葱烧豆腐鲈鱼煲寓意年年有余 #中秋家宴 #中秋硬菜#鲈鱼煲 #豆腐煲",
+     "text": "#记录家乡文旅发展 #奢香古镇梯田音乐会 赴一场梯田夜色，星光落满层叠山野✨",
      "likes": 0,
      "hot": 0
     }
@@ -1742,139 +1805,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "这局保证我是好人只是偶尔有点狠#电影重生2 #阿如那",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "唐尼把斯塔克演成了形容词": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "井柏然刘雯现身李荣浩演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爱看新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#李荣浩上海演唱会 井柏然刘雯双双现身李荣浩演唱会#井柏然 #刘雯 #井柏然刘雯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新湖南",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月25日，上海。井柏然、刘雯在现场观看李荣浩演唱会。观众互动环节，李荣浩说你们深爱的Luke在现场，刘雯也在。（编辑：童童）#早春晴朗 #井柏然 #刘雯 #上",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荔枝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 真情侣才最好磕 李荣浩巡回演唱会上海站 现场cue井柏然刘雯在包厢",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这个假期去田野里听一场音乐会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "红妹🐰🐰🎤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🌾贵州绝美梯田音乐会氛围感拉满。站在错落的梯田间，晚风裹着山野气息漫过肩头。 旋律响起来的瞬间，那些放不下的人、没圆满的遗憾，顺着歌声一点点漫出来。 走遍天涯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "难祈爱.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#记录家乡文旅发展 #奢香古镇梯田音乐会 赴一场梯田夜色，星光落满层叠山野✨",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "超长的风刮到了月饼界": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "你的三水",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超长长长长月饼来了#超长的风吹到了月饼界",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豪赤赤好吃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邪修的长长长长长月饼现世啦 #超长的风刮到了月饼届 #满级吃商通关赛 #邪修做饭有多简单 #超长月饼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "真香泡面",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超长洋芋折耳根月饼 #超长的风刮到了月饼界 #折耳根月饼 #折耳根 #自制月饼 #中秋吃月饼",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我不是大师富家女抢已婚男": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我不是大师(江湖打假办营业中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我不是大师 是多少次的恐惧和绝望，才会形成这样的本能......#张晓谦 #高睿菲儿 #周文心 #白文兰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱奇艺",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我不是大师 就这个情仇味带感！#李现 #李一桐",
      "likes": 0,
      "hot": 0
     }
