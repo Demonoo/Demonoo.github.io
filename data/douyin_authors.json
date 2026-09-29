@@ -1,11 +1,48 @@
 {
- "updated_at": "2026-09-29 14:44",
+ "updated_at": "2026-09-29 15:47",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 47,
+ "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
+  "我的玩心满电了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "可可oi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "💨社畜逃离办公室之中秋爽玩3day结算画面！！ #超会玩人生大派对 #我的玩心满电了 #中秋节 #我要辞职了田小娟 #转场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "勇敢小琦（运动版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "诡秘！假期来清迈旅游了，怎么和安吉似的？！ #超会玩人生大派对 #我的玩心满电了 #国庆 #假期 #旅游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "曹颖儿Chovin",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "旅行vlog｜去有风的地方 #超会玩人生大派对 #我的玩心满电了 #我的长长长假 #天地辽阔穿什么都对 #不费力出游穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "陈妤颉极限反超混接4x100米夺冠": {
    "stats": {},
    "authors": [
@@ -56,43 +93,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 40 秒 78！“小孩姐”陈妤颉最后一棒极限反超，中国队夺得亚运会田径4×100米混合接力金牌（大象新闻记者李桂苹 刘丝雨 李一龙 刘思睿 编辑：赵",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的玩心满电了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "可可oi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "💨社畜逃离办公室之中秋爽玩3day结算画面！！ #超会玩人生大派对 #我的玩心满电了 #中秋节 #我要辞职了田小娟 #转场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "勇敢小琦（运动版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诡秘！假期来清迈旅游了，怎么和安吉似的？！ #超会玩人生大派对 #我的玩心满电了 #国庆 #假期 #旅游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曹颖儿Chovin",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "旅行vlog｜去有风的地方 #超会玩人生大派对 #我的玩心满电了 #我的长长长假 #天地辽阔穿什么都对 #不费力出游穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -151,16 +151,6 @@
      "hot": 0
     },
     {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈芋汐首夺亚运女子10米台金牌！张家齐送上祝福：天才中的天才，21岁还能跳出 430多分！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
@@ -171,12 +161,22 @@
      "hot": 0
     },
     {
-     "name": "七星体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#陈芋汐 再现“满分跳”，夺得#女子10米跳台 冠军。#你好亚运",
+     "text": "陈芋汐首夺亚运女子10米台金牌！张家齐送上祝福：天才中的天才，21岁还能跳出 430多分！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "水花消失术！名古屋亚运会跳水女子10米跳台决赛，陈芋汐以432.65分夺得金牌！祝贺！#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -248,12 +248,12 @@
      "hot": 0
     },
     {
-     "name": "证券时报",
+     "name": "央视网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【时报经济眼】新购房人注意了！史上首次，中央财政帮你还房贷利息3类人群获益，最高省近5万元#媒体精选计划 #房贷",
+     "text": "10月1日起我国将对居民购房实施贷款贴息！ 可享受贴息的贷款规模最高可达100万元，财政部门给予年化1个百分点的贴息。",
      "likes": 0,
      "hot": 0
     }
@@ -308,6 +308,157 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "请3休13的那批人现在都在哪了。我在大理#云南大理 #大理苍山云影 #大理的云和山 #山与云的浪漫 #休假中",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "最好的祝福献给祖国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "概念黁（nún）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "提前祝大家国庆节快乐！#最好的祝福献给祖国 #学功夫练武术",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "军歌嘹亮，你我同唱。与杨洪基、易烊千玺、陈明、 @韩庚 、 @王仁君 、@张淇welly 、@国家大剧院王凯 、@王晰 、@熊梓淇 、@徐子尧Xuzy 相约CC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "非遗传承人孔令伟",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "非遗百尺竿头竹竿之上国旗飘扬、庆国庆 #最好的祝福献给祖国 #中国人能飞 #非遗守护人 #长长长假给祖国整点新技艺#国庆国旗氛围已上线",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "住房贴息贷款什么意思": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "直男财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "年轻人福音！居民房贷贴息来了，最高补5万 #燃起来了大国重器 #真财实学计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东张西望",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "五分钟看懂房贷贴息：中央财政第一次下场给房贷贴钱？ #媒体原创 #热点解读看财经 #房贷贴息",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "评论员王攀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#10月起对居民购房实施贷款贴息 10月1日起我国将对居民购房实施贷款贴息（新华社）#攀谈天下 #媒体人精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财经小师妹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "居民房贷贴息政策来了，房贷“降息”如何影响普通人？ #媒体精选计划 #燃起来了大国重器 #真财实学计划 #热点解读看财经 #房贷贴息",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "超说财经",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超说财经：居民房贷贴息政策来了！ #居民房贷贴息政策来了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "房贷贴息来了，谁能享受？（记者：申铖、刘慧）#财经慧说 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "证券时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【时报经济眼】新购房人注意了！史上首次，中央财政帮你还房贷利息3类人群获益，最高省近5万元#媒体精选计划 #房贷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月1日起，我国将对居民使用新发放商业性个人住房贷款购房实施贴息。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@所有人 买房国家有贴息了！财政部：10月1日起，我国将对居民购房实施贷款贴息",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "安洗莹卫冕亚运会羽毛球女单冠军": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "BWF世界羽联",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "安洗莹击败山口茜，成为历史上首位在亚运会羽毛球女单项目上卫冕的球员👑同时这也是她本赛季单项第八冠！#羽毛球 #安洗莹 #亚运会",
      "likes": 0,
      "hot": 0
     }
@@ -379,83 +530,12 @@
      "hot": 0
     },
     {
-     "name": "哈尔滨日报",
+     "name": "极目新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚运会电子竞技和平精英决赛，中国队夺得银牌 #亚运会 #和平精英",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "安洗莹卫冕亚运会羽毛球女单冠军": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "BWF世界羽联",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "安洗莹击败山口茜，成为历史上首位在亚运会羽毛球女单项目上卫冕的球员👑同时这也是她本赛季单项第八冠！#羽毛球 #安洗莹 #亚运会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "最好的祝福献给祖国": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "概念黁（nún）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "提前祝大家国庆节快乐！#最好的祝福献给祖国 #学功夫练武术",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "军歌嘹亮，你我同唱。与杨洪基、易烊千玺、陈明、 @韩庚 、 @王仁君 、@张淇welly 、@国家大剧院王凯 、@王晰 、@熊梓淇 、@徐子尧Xuzy 相约CC",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "非遗传承人孔令伟",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "非遗百尺竿头竹竿之上国旗飘扬、庆国庆 #最好的祝福献给祖国 #中国人能飞 #非遗守护人 #长长长假给祖国整点新技艺#国庆国旗氛围已上线",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "假期户外垂钓成为休闲热门": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "拂晓新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#假期户外垂钓成为休闲热门 9月29日，假期户外垂钓走红，市民在水边寻得假日松弛感。",
+     "text": "中国队和平精英项目斩获亚运会银牌，全力以赴就是赛场最好的答卷，继续加油！",
      "likes": 0,
      "hot": 0
     }
@@ -532,24 +612,29 @@
   },
   "宋佳获金鹰奖最佳女主角": {
    "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "于和伟获金鹰奖最佳男主角": {
+   "stats": {},
    "authors": [
     {
-     "name": "电视剧山花烂漫时",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜#宋佳 荣获#第33届金鹰奖 最佳女主角奖！心怀赤诚演绎师者大爱，致敬伟大的张桂梅校长！#山花烂漫时 #宋佳获金鹰奖最佳女主角",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湖南卫视",
+     "name": "封面新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【宋佳凭《山花烂漫时》 获第33届金鹰奖最佳女主角】 #金鹰奖 恭喜#宋佳 获第33届金鹰奖最佳女主角 #金鹰奖获奖名单 #第33届金鹰奖 #金鹰奖颁奖典礼",
+     "text": "祝贺！于和伟凭《沉默的荣耀》获金鹰奖“最佳男主角”#于和伟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 第33届中国电视金鹰奖颁奖典礼 于和伟凭借《沉默的荣耀》荣获最佳男主角 “作为演员我很幸福 今天得到这份殊荣我更幸福了”#金鹰节 #于和伟",
      "likes": 0,
      "hot": 0
     },
@@ -564,22 +649,99 @@
      "hot": 0
     },
     {
-     "name": "封面新闻",
+     "name": "潮新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "实至名归！宋佳凭《山花烂漫时》获金鹰奖“最佳女主角”",
+     "text": "于和伟凭借《沉默的荣耀》获得第33届金鹰奖最佳男主角奖，今年6月凭同一角色获“白玉兰奖”，本年度收获三座最佳男主角奖杯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "环球网",
+     "name": "湖南卫视",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "宋佳凭借《山花烂漫时》张桂梅一角获金鹰奖最佳女主角奖",
+     "text": "【于和伟获第33届金鹰奖最佳男主角】 #金鹰奖 恭喜#于和伟 获第33届金鹰奖最佳男主角 #金鹰奖获奖名单 #第33届金鹰奖 #金鹰奖颁奖典礼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "于和伟凭借《沉默的荣耀》获金鹰奖最佳男主角奖。恭喜！#金鹰奖",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "梅婷获金鹰奖最佳女配角": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电视剧生命树(生生不息🌳",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "高原风起，生命成林🌳。恭喜 #生命树 斩获第33届中国电视金鹰奖三项重磅荣誉： 最佳电视剧、最佳电视剧编剧、最佳女配角@梅婷 感恩金鹰节组委会的认可，感恩每一",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "深圳卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "23年后再捧金鹰奖！ 梅婷凭《生命树》获最佳女配角 9月29日，第33届中国电视金鹰奖颁奖典礼。梅婷凭借《生命树》获金鹰奖最佳女配角奖。#金鹰奖颁奖典礼 #梅婷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "梅婷凭《生命树》获得金鹰奖最佳女配角奖，领奖时激动落泪，背过身擦眼泪，原型寒梅医生不远千里来到现场送梅婷“奖牌”#媒体原创 #直击第一线 #媒体精选计划 #金鹰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创【浪涨现场】9月29日 湖南长沙， 梅婷获金鹰奖最佳女配角!《生命树》中饰演女医生张勤勤，获奖感言感谢《生命树》剧组，特别提到并感谢了杨紫 胡歌 李光",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "湖南卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【梅婷获第33届金鹰奖最佳女配角】 #金鹰奖 恭喜#梅婷 获第33届金鹰奖最佳女配角！ #金鹰奖获奖名单 #第33届金鹰奖 #金鹰奖颁奖典礼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 9月29日，长沙。第33届金鹰奖颁奖典礼上，梅婷凭借《生命树》张勤勤一角拿下最佳女配角。角色原型寒梅医生从两千公里外青海赶来，送上山石，以此作为送给",
      "likes": 0,
      "hot": 0
     }
@@ -627,6 +789,28 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "允许一切流走 假期除外🫰 #美食 #中秋节 #剪映 #抽象 #语录",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "金鹰奖颁奖典礼": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "十一假期适合i人的旅行转场来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "炸毛阿战",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十一旅行拍这个！更适合i人的旅行转场",
      "likes": 0,
      "hot": 0
     }
@@ -691,26 +875,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "2026国庆档电影怎么选": {
+  "国庆出游新中式旗袍穿搭": {
    "stats": {},
    "authors": [
     {
-     "name": "太和的房间",
+     "name": "小猫睡不醒ya",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国庆档避坑指南！8部新片超详细前瞻，有大烂片！ #长长长假电影时间 #影娱热点团 #国庆电影 #国庆档",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "河南手机报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026国庆档电影怎么选 自9月30日起至10月5日，国庆档多部新片即将陆续上映，题材覆盖刑侦、喜剧、动画、惊悚、动作等多个赛道，目前陈思诚执导的《神探之痕迹》",
+     "text": "我的红色新中式旗袍穿搭合集来啦。#旗袍 #国庆出游穿搭 #新中式穿搭 #国风古韵 #国庆",
      "likes": 0,
      "hot": 0
     }
@@ -718,168 +892,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "金鹰奖颁奖典礼": {
+  "用可爱颂打开我的长长长假": {
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "梅婷获金鹰奖最佳女配角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "深圳卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "23年后再捧金鹰奖！ 梅婷凭《生命树》获最佳女配角 9月29日，第33届中国电视金鹰奖颁奖典礼。梅婷凭借《生命树》获金鹰奖最佳女配角奖。#金鹰奖颁奖典礼 #梅婷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创【浪涨现场】9月29日 湖南长沙， 梅婷获金鹰奖最佳女配角!《生命树》中饰演女医生张勤勤，获奖感言感谢《生命树》剧组，特别提到并感谢了杨紫 胡歌 李光",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱奇艺",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#金鹰奖 #梅婷金鹰奖最佳女配 恭喜演员#梅婷 凭借#生命树 中张勤勤一角，荣获第33届中国电视金鹰奖最佳女配角！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月29日晚，第33届中国电视金鹰奖在长沙揭晓。梅婷凭借《生命树》中张勤勤一角荣获最佳女配角。登台领奖时，梅婷情难自抑，背过身悄悄擦拭泪水。发布获奖感言时，她特",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新文娱",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生命树角色原型给梅婷带了昆仑山的玉 #生命树角色原型给梅婷带了昆仑山的玉 #金鹰给了你奖杯我要给你我的奖杯 被#金鹰奖 这一幕打动到～第33届中国电视金鹰奖颁奖",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这个假期我的毛孩子不孤单": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "球球是只猫",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带猫狗自驾蹭饭日记之“吉林-磐石” @汪丷先生 家的辣椒酱 #这个假期我的毛孩子不孤单 #国庆给生活放个长假 #万物可爱计划 #vlog日常",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西卡船长",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "挑战小狗脾气 #这个假期我的毛孩子不孤单 #国庆给生活放个长假 #万物可爱计划 #边牧西卡 #澳牧西米露",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "AI把知识拍成大片了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电子智人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Vibe 知识大赏｜信息论 惊奇之学 “床前明月__” 你一定猜到了。所以那个字，几乎没有告诉你任何东西。 “那天夜里，窗外下起了__” 这一次你猜不到——而猜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Iwanau",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Vibe知识大赏 | 《运气的形状》本视频由#Claude5.5 制作 #opus5.5#概率 #ai新星计划 #vibe知识大赏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "骑老爷爷过马路被罚300",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Vibe知识大赏｜《opus家族史》#Claude5.5 #remotion #vibe知识大赏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李一桐是闪身步真传弟子": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐小豹豹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#原来李一桐是闪身步真传弟子 桐姐原来如此超前..#李一桐 #我不是大师 #我不是大师抖音追剧团 #闪身步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "搜狐娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "舞王舞后来的 #李现 #李一桐 #李现李一桐学功夫手势舞 #我不是大师 #我不是大师抖音追剧团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星娱乐Online",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#李一桐 闪身步太可爱了，把自己都逗笑了#原来李一桐是闪身步真传弟子 #我不是大师 #我不是大师抖音追剧团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   },
   "山川湖海从不催我赶路": {
    "stats": {},
@@ -928,56 +944,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "梁伟铿王昶获羽毛球男双亚军": {
+  "我的国庆旅行第一站": {
    "stats": {},
    "authors": [
     {
-     "name": "体坛报",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "sad",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“梁王”组合摘银！创国羽36年来亚运会男双最好成绩，王昶：希望以后每届决赛都有中国队 （拍摄 钟樑 剪辑 潘笑坤）#名古屋亚运会",
+     "text": "如果天气好的话 国庆第一站就青岛吧#青岛#随拍",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "lawfy_",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "梁伟铿/王昶获得羽毛球男双亚军",
+     "text": "天气好的话 国庆第一站就上海吧#上海",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "Nik",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "北京时间9月29日，名古屋亚运会羽毛球男双决赛，中国组合梁伟铿/王昶以1-2不敌印尼组合马丁/卡尔南多，收获男双亚军。（编辑：小岸）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#梁伟铿 /#王昶 以1-2不敌印尼组合，获#名古屋亚运会 羽毛球男双亚军，为国羽男双夺下36年来亚运最佳战绩。#羽毛球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "育见新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在9月29日晚结束的爱知·名古屋亚运会羽毛球男双决赛中，中国队组合梁伟铿/王昶1:2惜败印尼组合卡尔南多/马丁，获得银牌。#第20届亚运会 #小明陪你看亚运 #",
+     "text": "天气好的话 国庆第一站就上海吧#上海",
      "likes": 0,
      "hot": 0
     }
@@ -985,86 +981,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中国女足不敌朝鲜无缘决赛": {
+  "假期闲不住就来做拼布小灯": {
    "stats": {},
    "authors": [
     {
-     "name": "后浪视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "小隐的手工日常",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#中国女足0比2不敌朝鲜 姚伟不慎自摆乌龙，将与日韩败者争夺铜牌 #亚运女足 #女足",
+     "text": "摸索着做了个可爱的拼布小台灯～✨中秋节原本打算休息的，可还是闲不住。 之前买的一些布料和花边，本来打算缝点抱枕、发圈之类的，比较实用的小东西，结果今天突发奇想，",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "♡",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "吴海燕：女足需要更多耐心 亚运会女足半决赛中，中国女足0比2不敌朝鲜队，遗憾无缘决赛。赛后，队长吴海燕接受采访，呼吁大家给女足更多耐心和关注，失败了也球轻喷。#",
+     "text": "给好朋友做的拼布台灯！准备礼物的人最先感受到幸福 #自己diy小台灯 #拼布手工 #手作台灯 #缝纫日常 #礼物",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "雷速体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "闪闪手作商店",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国女足全场0射正，不敌朝鲜女足无缘决赛 #足球 #中国女足 #亚运会 #中国足球 #dou来足球季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "体坛周报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无缘亚运决赛！ 姚伟打入乌龙球， 中国女足0比2不敌朝鲜，将参加季军赛 ！（编辑：刘显军）#中国女足 #中国女足VS朝鲜女足 #中国女足不敌朝鲜女足 #中国女足",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "足球报",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国女足不敌朝鲜，无缘亚运会女足决赛，将与日韩败者争夺铜牌 #中国女足 #中国足球 #亚运会 #中国女足0比2朝鲜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间9月29日中午2时，2026爱知·名古屋亚运会女足半决赛，中国女足在静冈县小笠山综合运动公园体育场对阵朝鲜女足。中国女足0-2负朝鲜，无缘决赛。中国女足",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "前方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月29日，亚运会女足半决赛，中国女足79分钟再丢一球，0比2落后朝鲜女足，无缘亚运会决赛。（新华社、极目新闻）编辑：周周",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月28日（发布）。亚运会中国女足0-2负朝鲜无缘决赛，定位球两度丢球+全场1射正，姚伟乌龙，中国女足将参加亚运铜牌赛，对阵日本女足vs韩国女足的负者。",
+     "text": "可爱粉蓝色小灯台💡 #布艺拼贴画 #拼布装饰画 #拼布台灯 #布艺手工diy #治愈系",
      "likes": 0,
      "hot": 0
     }
@@ -1072,16 +1018,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "陈妤颉说金牌属于中国队": {
+  "陈伯狙击赛S6遗憾失守": {
    "stats": {},
    "authors": [
     {
-     "name": "陈妤颉",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "顾笙游戏解说",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "离18岁成年还有95天！ 最好的礼物收入囊中！！ 妈妈Y～我有出息了#2026名古屋亚运会 #陈妤颉#名古屋亚运会 #我的亚运会关键帧",
+     "text": "陈伯狙击赛第六期迎来大结局！#陈伯全能王 #陈伯百万二创激励计划 #陈伯王者狙击赛奖金福利加码",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山谷游戏解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈伯在210万基础上继续打，@云木木电竞 一直打到10月2号凌晨还有三天时间！#陈伯狙击赛奖金福利加码 #陈伯百万二创激励计划 #陈伯全能王 #云木木电竞",
      "likes": 0,
      "hot": 0
     }
@@ -1318,6 +1274,119 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "杨紫张一山对视就聊起来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱芭拉",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俩人一对视就聊起来了 #第33届金鹰节 #杨紫 #张一山 #直拍",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李一桐是闪身步真传弟子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐小豹豹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原来李一桐是闪身步真传弟子 桐姐原来如此超前..#李一桐 #我不是大师 #我不是大师抖音追剧团 #闪身步",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "搜狐娱乐",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "舞王舞后来的 #李现 #李一桐 #李现李一桐学功夫手势舞 #我不是大师 #我不是大师抖音追剧团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "星娱乐Online",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#李一桐 闪身步太可爱了，把自己都逗笑了#原来李一桐是闪身步真传弟子 #我不是大师 #我不是大师抖音追剧团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这个假期我的毛孩子不孤单": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "球球是只猫",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带猫狗自驾蹭饭日记之“吉林-磐石” @汪丷先生 家的辣椒酱 #这个假期我的毛孩子不孤单 #国庆给生活放个长假 #万物可爱计划 #vlog日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小柯宠火锅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "车买好了 小狗的心没买回来#这个假期我的毛孩子不孤单#国庆给生活放个长假 #万物可爱计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2026国庆档电影怎么选": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "太和的房间",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆档避坑指南！8部新片超详细前瞻，有大烂片！ #长长长假电影时间 #影娱热点团 #国庆电影 #国庆档",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "河南手机报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026国庆档电影怎么选 自9月30日起至10月5日，国庆档多部新片即将陆续上映，题材覆盖刑侦、喜剧、动画、惊悚、动作等多个赛道，目前陈思诚执导的《神探之痕迹》",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的信仰是中国红": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "街边小巷拍照姿势指南": {
    "stats": {},
    "authors": [
@@ -1345,16 +1414,93 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "轻松拿捏国庆节手抄报": {
+  "学会这个可以加入天相派吗": {
    "stats": {},
    "authors": [
     {
-     "name": "晚风呢喃^_^",
+     "name": "萧萧乐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🖊️慕多星小红心丙烯马克笔#画画#手绘#丙烯马克笔#绘画教程#国庆节手抄报",
+     "text": "学会了学会了，终于学会了，这怎么不是《我不是大师》的手势舞呢#我不是大师演我被骗 #我不是大师 #李现 #手势舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Shirvian-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感受。#李一桐 #我不是大师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海一天",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我不是大师 社会没有参天树，给你礼数要接住。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "进度条战士",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我来模仿上官诚明手势舞！ #我不是大师演我被骗#我不是大师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蛋挞.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我模仿上官诚明手势时belike #我不是大师演我被骗#我不是大师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "A郭郭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我来模仿上官诚明手势舞 一句震巽艮兑巽山风，看似高深卦辞，实则是骗子用来唬人的话术。#我不是大师#我不是大师演我被骗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "饭饭碎碎念",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "听说天相派见面是要先来一套手势舞 #我不是大师演我被骗#我不是大师",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "轻松拿捏国庆节手抄报": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "某某某",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "手绘祖国万象，每一笔都是对祖国的热爱💗 关于手工作业：妈行、妈会、妈整🤣#国庆节手工#国庆手抄报#国庆手工画",
      "likes": 0,
      "hot": 0
     },
@@ -1369,12 +1515,12 @@
      "hot": 0
     },
     {
-     "name": "四氧化三铁",
+     "name": "娴而有度",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我的国庆节手抄报！#手绘#国庆节手抄报",
+     "text": "10万元，付出总有回报#手抄报作业庆国庆🚩",
      "likes": 0,
      "hot": 0
     }
@@ -1446,22 +1592,22 @@
      "hot": 0
     },
     {
-     "name": "夜己深",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你留下的痕迹刚刚好 不深不浅却足够让我甘之如饴 ᅟ ᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "磷08110128",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "却发现爱一定要有回应",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "夜己深",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你留下的痕迹刚刚好 不深不浅却足够让我甘之如饴 ᅟ ᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟᅟ",
      "likes": 0,
      "hot": 0
     },
@@ -1533,167 +1679,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "穆祉丞路过变装一下": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "穆祉丞",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "路过中#时装周已就位 #hello时尚季",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟着豆包读懂千年山西": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "蒙曼",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#跟着豆包读懂千年山西 在诗词里解锁山西古建背后的岁月故事。#跟着豆包逛懂山西 #国庆给生活放个长假 #大有学问",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "云潇羽",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#跟着豆包逛懂山西 这一站我来到了山西壶口瀑布#跟着豆包读懂千年山西#国庆给生活放个长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆包",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "豆包成为山西文旅官方AI讲解员。今天，和山西籍导演贾樟柯一起，用豆包逛平遥，在行走中读懂山西。#跟着豆包逛懂山西#豆包山西文旅AI讲解员 #山西文物出片时刻",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的信仰是中国红": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "暖暖～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生于华夏，何其有幸，祝我的祖国岁岁荣光#国庆假期被安排明白了 #祖国万岁 #庆国庆#文案",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林子🌹🌹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我的信仰是中国红 我追随的光是五角星的光，我喜欢的红是鲜艳的中国红，我守护的心是赤诚的中国心，我热爱的国是孕育了华夏5000年文明的中国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "开心每一天",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#剪映 #祝福祖国生日快乐 #中国汉文化#@D0U+小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🌷花开富贵🌷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#如果信仰有颜色那一定是中国红🇨🇳 #生在红旗下长在春风里人民有信仰国家有力量",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国山东网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如果信仰有颜色，那一定是中国红！国庆佳节将至，山东济南、临沂、菏泽、日照等城市主干道路有序悬挂五星红旗，整齐划一的红旗迎风飘扬，连片的中国红扮靓城市，营造热烈庄",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "素颜清雅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#国风魅力永流传",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "萍乡交警",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如果信仰有颜色，一定是中国红#国庆节 #有一种信仰叫中国红 #传承红色精神爱我中华",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "💐心想事成💐(兰妹)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#上传一张自己的照片就可以了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "✎ℳ๓一米阳光✾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#国风魅力永流传 #盛世国风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "金色霞光",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我们泱泱华夏汉服颜色全部是红色，泱泱华夏一抹红……🇨🇳🇨🇳🇨🇳🔥🔥🔥",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "过节待客少不了的香芋卷": {
    "stats": {},
    "authors": [
@@ -1721,6 +1706,65 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "祝今天生日的你也生日快乐！！！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国庆开启skillcation模式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "椰椰雪球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界是我的兴趣班 #国庆开启Skillcation模式 #国庆给生活放个长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一粟Sue",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "福建学武当七星剑，4天一套剑法是什么体验 #假期第一天去哪 #我的长长长假 #旅行兴趣班 #交换100个旅途故事 #长长长假期旅行慢游",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "无可替代这是我家小朋友": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "国庆假期进入倒计时": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小青梅 ぶ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "喜欢晴天喜欢雨天 喜欢离国庆更近的每一天 #赵丽颖#薛杉杉#国庆#假期",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "H .ì _ í. D",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "假期我来啦。。#国庆",
      "likes": 0,
      "hot": 0
     }
@@ -1758,226 +1802,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "金鹰节首次设立微短剧荣誉单元，家庭短剧《家里家外》斩获多项大奖#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "无可替代这是我家小朋友": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "ENEMY获金鹰年度微短剧": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "湖南娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#ENEMY获得金鹰年度微短剧 煎饼夏天还是太权威了 #张家俊 #ENEMY #短剧 #金鹰节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湖南卫视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 你追的微短剧也能“上桌”了！#芒果主播评 #微短剧 #第16届金鹰电视艺术节 #金鹰节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红果免费短剧",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梨园情深，国仇家恨，时空变幻此情不改，@夏天妹妹 @煎饼果仔（张问初） 并肩而战，不忘初心。#ENEMY",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆开启skillcation模式": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "椰椰雪球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世界是我的兴趣班 #国庆开启Skillcation模式 #国庆给生活放个长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一粟Sue",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "福建学武当七星剑，4天一套剑法是什么体验 #假期第一天去哪 #我的长长长假 #旅行兴趣班 #交换100个旅途故事 #长长长假期旅行慢游",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2026美好奇妙夜官宣": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "周深工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一起来看看#2026美好奇妙夜 吧！@卡布叻_周深",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "毛晓彤",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026美好奇妙夜 一起推开另一个世界的大门，带你来看看我的奇妙夜吧！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "胡彦斌",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026美好奇妙夜 带你来看看我的奇妙夜吧！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆假期进入倒计时": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小青梅 ぶ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "喜欢晴天喜欢雨天 喜欢离国庆更近的每一天 #赵丽颖#薛杉杉#国庆#假期",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "H .ì _ í. D",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "假期我来啦。。#国庆",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆一起学功夫练武术": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "概念黁（nún）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "提前祝大家国庆节快乐！#最好的祝福献给祖国 #学功夫练武术",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“萌”混过关？不，凭实力！5岁洪拳传承人黄子君吼出了中国少年的模样。#最好的祝福献给祖国 （来源：茂名洪拳父女）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学功夫练武术，这次不止扎马步！#最好的祝福献给祖国 #燃 #帅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "～小霞客🇨🇳",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学功夫，练武术，师傅教我扎马步。 #学功夫 #练武术 #学功夫练武术",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "靖茹没烦恼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学功夫，练武术，看谁需要我帮助！#百young非遗计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "臻臻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学功夫 练武术！#ryudai #kungfujumpstyle #学功夫练武术",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "淬火正当时，快来和新排长们一起来学功夫、练武术 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Innokids英之子乐队",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现学的武术，现做的汉服，就在这个国庆给祖国献个礼 #最好的祝福献给祖国 #学功夫练武术 #英之子乐队 #AI偶像星光计划",
      "likes": 0,
      "hot": 0
     }
