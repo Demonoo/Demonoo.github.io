@@ -1,38 +1,11 @@
 {
- "updated_at": "2026-10-01 06:42",
+ "updated_at": "2026-10-01 10:04",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 50,
- "ok_count": 47,
+ "topic_count": 44,
+ "ok_count": 32,
  "lexicon_count": 0,
  "topics": {
-  "天安门广场国庆升旗仪式": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "迎着清晨的第一缕阳光，在雄壮的国歌声中，五星红旗冉冉升起！祝祖国山河锦绣，愿人民幸福安康！#最好的祝福献给祖国 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场高喊“祖国生日快乐！” 转发祝福祖国 天安门放飞10000多只和平鸽 #国庆现场指南 #国庆国旗氛围已上线",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "国庆节快乐": {
    "stats": {},
    "authors": [
@@ -47,6 +20,76 @@
      "hot": 0
     },
     {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【#国庆天安门广场升国旗完整视频 转发！祝福中国！】迎着清晨的第一缕阳光，在雄壮的国歌声中，五星红旗冉冉升起！祝祖国山河锦绣，愿人民幸福安康！#最好",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国旗护卫队完成升旗任务后，归营途中高唱《歌唱祖国》。步履铿锵，歌声嘹亮，让人心潮澎湃！一起祝福祖国！#联播一瞬 #国庆现场指南 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "深视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 10月1日，香港特区政府在金紫荆广场举行升旗仪式，庆祝中华人民共和国成立77周年。（深圳卫视驻港记者 杜伊婷；深视新闻编辑：黄奋 温展<见习>）#国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #最好的祝福献给祖国 完整版来了！天安门广场举行国庆升旗仪式。祝祖国山河锦绣，愿人民幸福安康！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 西安新城广场，市民早起等候升旗。这是独属中国人的仪式感，祝福祖国繁荣昌盛。（记者：周杰 李晓鹏 单琳）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜班",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月1日，广西南宁。清晨五六时的南宁民族广场，他们都在等着国旗升起，祝我们伟大的祖国生日快乐！#南宁#国庆#升旗仪式",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洪观新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月1日，江西南昌。八一广场国庆升旗仪式，现场高喊“祖国万岁”，如果信仰有颜色，那一定是中国红。 #南昌 #八一广场升旗仪式 #中国万岁 #祖国万岁 #英雄城",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "大象新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -55,34 +98,51 @@
      "text": "#媒体原创 10月1日北京，独属于中国人的浪漫！东方破晓、五星红旗冉冉升起，一起祝福伟大的祖国（记者：胡靖雯 罗栋巍 编辑：青遥 责编：王慧 监制：李洁敏）#媒",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "天安门广场国庆升旗仪式": {
+   "stats": {},
+   "authors": [
     {
-     "name": "四川观察",
+     "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#庆祝新中国成立77周年 10月1日清晨，成都天府广场举行升旗仪式。数万市民朋友彻夜排队，一起唱起《歌唱祖国》，祝福祖国繁荣昌盛！#亲爱的祖国生日快乐 #媒体原",
+     "text": "国旗护卫队完成升旗任务后，归营途中高唱《歌唱祖国》。步履铿锵，歌声嘹亮，让人心潮澎湃！一起祝福祖国！#联播一瞬 #国庆现场指南 #媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "红星新闻",
-     "verify": "红V",
+     "name": "中国新闻社",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "又是一年国庆时，一人一句祝福伟大的祖国母亲生日快乐！ #最好的祝福献给祖国",
+     "text": "现场高喊“祖国生日快乐！” 转发祝福祖国 天安门放飞10000多只和平鸽 #国庆现场指南 #国庆国旗氛围已上线",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "教画画的盼盼老师（有课）",
+     "name": "JASON吴",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "以手绘献礼国庆，愿家国永安🇨🇳 #祖国母亲生日快乐 #77周 #国庆快乐 #爱国主题手工画 #国庆节主题画",
+     "text": "人生心愿 #vlog日常#国庆#升国旗#最好的祝福献给祖国#Jason吴",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #庆祝新中国成立77周年 #凌晨起床看升旗 #这是中国人国庆的独有浪漫 凌晨3点，有人奔赴广场，静待国旗升起。有人驻守边关，守护山河无恙。有人坚守于",
      "likes": 0,
      "hot": 0
     }
@@ -90,36 +150,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我国加快建设现代化水网": {
+  "这就是我们守护的山河万疆": {
    "stats": {},
    "authors": [
     {
-     "name": "央视一套",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 #前九月我国现代化水网建设成绩单亮眼 【#我国加快建设现代化水网 】国务院新闻办今天（9月30日）举行“开局起步‘十五五’”系列主题新闻发布会，水利",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "经济日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "推进水网建设既要“硬投资”又要“软建设” #开局起步“十五五”发布会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "证券日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "推进水网建设 既要“硬投资” 又要“软建设”#开局起步“十五五”发布会#媒体原创",
+     "text": "“红日升在东方，其大道满霞光”。每一个平凡又伟大的瞬间，是这锦绣中华的模样。从山河无恙到烟火寻常，每一秒都让人心潮澎湃。这就是我们守护的山河万疆。#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -127,36 +167,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国庆节文案": {
+  "小孩姐陈妤颉携三金一银来了": {
    "stats": {},
    "authors": [
     {
-     "name": "穆染",
-     "verify": "",
-     "identity": "",
+     "name": "陈妤颉",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "推荐在10.1国庆节发的封神文案#情感共鸣#国庆节",
+     "text": "啊！是三金王啊！来了别催了，亚运第98金、131金、143金都是我！6个比赛日跑7枪，收获🏅🏅🏅🥈！#亚运会夺金请报数 #名古屋亚运会 #最好的祝福献给",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "多巴胺✨",
-     "verify": "",
-     "identity": "",
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "什么一生一世一双人 我是共产主义接班人。²⁰²⁶/₁₀.₀₁ ˗ˋˏ 🇨🇳 ˎˊ˗ 𝐈 ᰔᩚ 𝐂𝐡𝐢𝐧𝐚🇨🇳🎇 如果信念有颜色，那一定是中",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "饼饼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中华民族永存 这盛世如您所愿。#原创 #文字 #国庆 #家国 #山河无恙",
+     "text": "亚运会女子4x100米接力，中国队梁小静、刘国怡、刘峡君、陈妤颉夺金！祝贺！#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -278,26 +308,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "小孩姐陈妤颉携三金一银来了": {
+  "国庆节文案": {
    "stats": {},
    "authors": [
     {
-     "name": "陈妤颉",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "穆染",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "啊！是三金王啊！来了别催了，亚运第98金、131金、143金都是我！6个比赛日跑7枪，收获🏅🏅🏅🥈！#亚运会夺金请报数 #名古屋亚运会 #最好的祝福献给",
+     "text": "推荐在10.1国庆节发的封神文案#情感共鸣#国庆节",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "多巴胺✨",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚运会女子4x100米接力，中国队梁小静、刘国怡、刘峡君、陈妤颉夺金！祝贺！#媒体原创",
+     "text": "什么一生一世一双人 我是共产主义接班人。²⁰²⁶/₁₀.₀₁ ˗ˋˏ 🇨🇳 ˎˊ˗ 𝐈 ᰔᩚ 𝐂𝐡𝐢𝐧𝐚🇨🇳🎇 如果信念有颜色，那一定是中",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "饼饼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中华民族永存 这盛世如您所愿。#原创 #文字 #国庆 #家国 #山河无恙",
      "likes": 0,
      "hot": 0
     }
@@ -359,6 +399,16 @@
      "hot": 0
     },
     {
+     "name": "小涛不乘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个特效脸小的慎用 #holymoly #严成玹 #手势舞 #小涛不乘 @卑微的oyt",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "二百四十九点九",
      "verify": "",
      "identity": "",
@@ -397,16 +447,6 @@
      "text": "假期在家可以这样放烟花🎆第三视角揭秘#跟着HolyMoly放烟花 #假期一起HolyMoly #抖音玩法合伙人计划 #抖舞玩法模范生 #有毅思夫妇",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "张淼怡",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来公园锻炼啦！ #holymoly #长长长假星日记#假期一起HolyMoly",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -426,22 +466,22 @@
      "hot": 0
     },
     {
+     "name": "一粒小饼饼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们生在红旗下 长在春风里#国庆节快乐 #我在这里给祖国庆生 #转场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "一个富贵",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "我们生在红旗下 长在春风里 #国庆 #国庆节 #最好的祝福献给祖国 #我们生在红旗下长在春风里",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "饭饭麻麻菜菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "愿山河无恙，祖国繁荣富强！ #祝福祖国繁荣昌盛",
      "likes": 0,
      "hot": 0
     }
@@ -600,7 +640,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "喝无醇啤酒开车不算酒驾系谣言": {
+  "本周谣言鉴别": {
    "stats": {},
    "authors": [
     {
@@ -609,7 +649,7 @@
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "饮用无醇啤酒后，开车不构成酒驾？ 别被这个谣言误导！无醇啤酒并非绝对无酒精，驾车人群应杜绝饮用各类无醇啤酒，从源头规避酒驾风险，保障出行安全。#科学鉴真时刻 #",
+     "text": "【2026.9.28-2026.9.30】本周谣言鉴赏 | 四川甘孜州街头出现棕熊？#谣零零计划",
      "likes": 0,
      "hot": 0
     }
@@ -622,16 +662,93 @@
    "authors": [],
    "lexicon": []
   },
+  "穆欣月用金牌进行曲告别亚运": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "桃晚安",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国体育代表团第151金前来报道！ 这是我们的第151金，亚运会的旅途圆满画下句号，未来继续加油#亚运会夺金请报数 #第五人格亚运金牌 #第五人格中国队第151",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "名古屋亚运会《第五人格》电竞项目，中国队战胜日本队摘金，穆欣月成为首位亚运电竞女子冠军 #名古屋亚运会 #第五人格 #穆欣悦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻深呼吸",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "关键局“力挽狂澜”！ 穆欣月成亚运会电竞首位冠军女选手#亚运#电竞#金牌#冠军#小孩姐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娱乐报姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "代入监管视角太痛苦了，所以我选择代入桃晚安视角#第五人格 #第五人格亚运会 #桃晚安 #游戏 #电子竞技",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 “桃晚安”你真的做到了😭20岁穆欣月亚运电竞首位女子冠军，5局0失误 ，解说狂喊“不愧是我们中国姑娘！”#穆欣月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "打游戏也能为国争光！中国队2:0淘汰韩国队 晋级第五人格亚运4强 20岁穆欣月是中国电竞队唯一女将#亚运会第五人格项目决赛日 #媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "会火大明星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜中国队夺冠！！恭喜穆欣月（桃晚安）成为亚运会电竞赛史上第一个冠军女选手！！！#桃晚安 #亚运会 #中国队获第五人格亚运金牌 #第五人格 #穆欣月",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "用中国人能飞献礼国庆": {
    "stats": {},
    "authors": [
     {
-     "name": "老邓（SuperDeng）",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国人能飞@范十三 #邓超 #你是我的超级英雄 #国庆版中国人能飞 #长长长假给祖国整点新技艺 #长长长假星日记",
+     "text": "【中国人，会飞？！】人类的飞天梦想，中国正将其一一实现。邀你一起以国庆版中国人能飞献礼祖国华诞。#媒体原创 #媒体精选计划#最好的祝福献给祖国 #中国人能飞",
      "likes": 0,
      "hot": 0
     },
@@ -652,6 +769,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "祝福祖国 繁荣昌盛！ 这一抹中国红，是刻在骨子里的浪漫！#用中国人能飞献礼国庆 #中国人能飞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "喜羊羊与灰太狼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国羊狼能飞！祝福我们的祖国如巨龙腾飞，蒸蒸日上！#最好的祝福献给祖国 #中国人能飞 #二次元的方式给祖国献祝福",
      "likes": 0,
      "hot": 0
     },
@@ -696,69 +823,12 @@
      "hot": 0
     },
     {
-     "name": "超级飞侠",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国侠会飞 #超级飞侠 #用中国人能飞献礼国庆 #最好的祝福献给祖国 #中国人能飞 #二次元的方式给祖国献祝福",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "金牌进行曲传到亚运自行车队了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "WEI-苏婉",
+     "name": "爱摆牌的龙龙（代摆服务）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我也来报个道～第146金#2026亚运我来了 #名古屋亚运会 #场地自行车 @白胖肉多的小巩 @陳凝@Dawn.. @迪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Run🚲",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第138金 中国场地自行车队男子短距离报道 #场地自行车 #亚运会夺金请报数 @Sunny_☀️ @CcccT @解han👀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Dawn..",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会第146金来报道了#名古屋亚运会#亚运会金牌报数 #场地自行车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王丽娟TrackCycling",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026亚运会第137金王丽娟来报到啦 #名古屋亚运会 #亚运金牌 #亚运夺金请报数#场地自行车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "罗xh🍀",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚运会第137金罗雪凰来抖音报到啦 #亚运会金牌请报数#场地自行车 #场地自行车女子团体竞速 #亚运会",
+     "text": "中国人能飞｜多米诺扑克牌国庆版本#最好的祝福献给祖国 #中国人能飞 #手工 #多米诺",
      "likes": 0,
      "hot": 0
     }
@@ -790,12 +860,12 @@
      "hot": 0
     },
     {
-     "name": "潇湘晨报·晨视频",
+     "name": "生活帮",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "华为Mate 90系列新品发布，售价5999元起 顶配18999元，余承东：在内存大涨价的今天，我们的价格是非常有诚意的#华为Mate90售价公布#华为mate",
+     "text": "#媒体原创 10月1日，#华为Mate90 系列手机正式发布，售价5999元起，全系搭载旗舰韬芯片、HarmonyOS 7，支持四卡三待。 余承东：在内存大涨价",
      "likes": 0,
      "hot": 0
     },
@@ -810,49 +880,12 @@
      "hot": 0
     },
     {
-     "name": "越牛新闻",
+     "name": "潇湘晨报·晨视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月1日报道，余承东官宣华为Mate 90系列：5999元起，典藏版10999元起，非凡大师12999元起，发布10倍变焦模块相机#Mate90 #华为 #余",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆大军已抵达全世界": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "是砂砂呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆大军抵达南非😀 飞了十几个小时，以为没出国😬 #国庆大军 #日落海岸的浪漫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小兔早点睡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "安塔利亚航班上80%都是中国人😂 🤣不想让中国人瞎等 嗷一嗓子都回头了 #我在国庆旅游前线#社牛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "未知数21",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🇨🇳国庆大军已占领十二门徒#海边人从众 #大洋路海边 #大洋路海边风景 #排队看海 #海边排队",
+     "text": "华为Mate 90系列新品发布，售价5999元起 顶配18999元，余承东：在内存大涨价的今天，我们的价格是非常有诚意的#华为Mate90售价公布#华为mate",
      "likes": 0,
      "hot": 0
     }
@@ -884,12 +917,32 @@
      "hot": 0
     },
     {
+     "name": "外滩碎嘴孙二娘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "依旧规矩不能坏，依旧吃了不烧心#漫剧 #短剧 #美食 #主角",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "张的麻辣拌🇨🇳 (合肥摆摊)",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "立柱一些规矩 #张的麻辣拌 #红果短剧 #不烧心 #ai短剧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "upup（三角洲行动）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当三角洲进入大烧心时代！ #三角洲行动 #三角洲产粮团 #洲言洲语#不烧心",
      "likes": 0,
      "hot": 0
     },
@@ -971,16 +1024,6 @@
      "hot": 0
     },
     {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#C罗发文确认离开葡萄牙队集训 ，葡足协主席与主帅赶往机场挽留未果。“在合适时机会向所有葡萄牙人说明离开原因”此前葡萄牙与挪威比赛中 C罗热身但未上场。#C罗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -989,111 +1032,88 @@
      "text": "C罗离开国家队训练营 主帅、足协主席追到机场无果 好友：他遭到“背叛” 分析称其将正式结束国家队生涯",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗突然宣布离开国家队集训,葡萄牙足协主席与主帅赶往机场挽留未果。",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "换上红装为祖国庆生": {
+  "国庆大军已抵达全世界": {
    "stats": {},
    "authors": [
     {
-     "name": "你咋这样。（找血仆）",
+     "name": "是砂砂呀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#祖国万岁 #明星贺国庆 #国庆同框留念 #换上红装为祖国庆生 #爱国从我做起",
+     "text": "国庆大军抵达南非😀 飞了十几个小时，以为没出国😬 #国庆大军 #日落海岸的浪漫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "毛桃",
+     "name": "小兔早点睡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "毛桃",
+     "text": "安塔利亚航班上80%都是中国人😂 🤣不想让中国人瞎等 嗷一嗓子都回头了 #我在国庆旅游前线#社牛",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "赵守云：美满幸福",
+     "name": "未知数21",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#唱响红歌礼赞祖国",
+     "text": "🇨🇳国庆大军已占领十二门徒#海边人从众 #大洋路海边 #大洋路海边风景 #排队看海 #海边排队",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国庆吃遍全国烟火味": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "牛哥不牛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "贵州人的嘴真严啊，烙锅好好吃#烟火榜 #烟火榜夯吃挑战 #国庆吃遍全国烟火味",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Angel🌷🐒(安琪)",
-     "verify": "",
-     "identity": "",
+     "name": "里里Kayla🔥",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "妈妈今天您的一周年纪念日，我就这样看看您",
+     "text": "来到一座城，除了尽收眼底的风物，还有沉淀在烟火里的地道滋味。#烟火榜 #烟火榜夯吃挑战#国庆吃遍全国烟火味",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "往事如烟(拒私聊)",
+     "name": "Renyi毅哥",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "喜迎国庆，祝福祖国繁荣昌盛，国泰民安，国庆节快乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "幸福快乐31313",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#剪映让好作品告别AI感#感恩祖国牢记使命不忘初心 #我和我的祖国全家福 #与国庆合影留念 @抖加🔥上热门🔥dou+🔥热点宝 @抖音作者助手 @抖音美食推",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "谭老二",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谭老二",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "笑看人生7979",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "笑看人生7979",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "文文奶奶😘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#喜迎国庆全家福",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大唐@",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#创作者中心 #创作灵感 #换上红装为祖国庆生",
+     "text": "开启小长假寻味之旅！用这份实地攻略揭秘山海交融的烟火魔法，第四战：潮汕！#国庆吃遍全国烟火味 #国庆当然要出发 #烟火榜 #烟火探探探 #烟火榜夯吃挑战",
      "likes": 0,
      "hot": 0
     }
@@ -1104,6 +1124,16 @@
   "别人的国庆假期vs我的国庆假期": {
    "stats": {},
    "authors": [
+    {
+     "name": "王同学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别人的国庆VS我的国庆#内容过于真实 #迷惑行为大赏 #精神状态belike",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "人间小珩记",
      "verify": "",
@@ -1123,14 +1153,61 @@
      "text": "别人的假期vs我的假期 #精神状态belike #内容过于真实 #真实还原",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "金牌进行曲传到亚运自行车队了": {
+   "stats": {},
+   "authors": [
     {
-     "name": "小宋和你",
+     "name": "WEI-苏婉",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "别人的国庆假期vs我的国庆假期。你的十一我的十一好像不一样##国庆假期 #搞笑 #内容过于真实 #十一假期",
+     "text": "我也来报个道～第146金#2026亚运我来了 #名古屋亚运会 #场地自行车 @白胖肉多的小巩 @陳凝@Dawn.. @迪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Run🚲",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第138金 中国场地自行车队男子短距离报道 #场地自行车 #亚运会夺金请报数 @Sunny_☀️ @CcccT @解han👀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Dawn..",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会第146金来报道了#名古屋亚运会#亚运会金牌报数 #场地自行车",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王丽娟TrackCycling",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026亚运会第137金王丽娟来报到啦 #名古屋亚运会 #亚运金牌 #亚运夺金请报数#场地自行车",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "罗xh🍀",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会第137金罗雪凰来抖音报到啦 #亚运会金牌请报数#场地自行车 #场地自行车女子团体竞速 #亚运会",
      "likes": 0,
      "hot": 0
     }
@@ -1185,43 +1262,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国庆吃遍全国烟火味": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Renyi毅哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "开启小长假寻味之旅！用这份实地攻略揭秘山海交融的烟火魔法，第四战：潮汕！#国庆吃遍全国烟火味 #国庆当然要出发 #烟火榜 #烟火探探探 #烟火榜夯吃挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牛哥不牛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "贵州人的嘴真严啊，烙锅好好吃#烟火榜 #烟火榜夯吃挑战 #国庆吃遍全国烟火味",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "里里Kayla🔥",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来到一座城，除了尽收眼底的风物，还有沉淀在烟火里的地道滋味。#烟火榜 #烟火榜夯吃挑战#国庆吃遍全国烟火味",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "国庆仪式感从看升旗开始": {
    "stats": {},
    "authors": [
@@ -1246,12 +1286,12 @@
      "hot": 0
     },
     {
-     "name": "你的佳哥",
+     "name": "JASON吴",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一生最值得的一次排队，亲眼见证天安门升旗，现场真的会热泪盈眶，生逢盛世，祝福我们伟大的祖国！#国庆仪式感从看升旗开始 #国庆给生活放个假 #祝福祖国繁荣昌盛 #",
+     "text": "人生心愿 #vlog日常#国庆#升国旗#最好的祝福献给祖国#Jason吴",
      "likes": 0,
      "hot": 0
     }
@@ -1259,375 +1299,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "魅影神捕定档": {
+  "十一假期就看现发4先导片": {
    "stats": {},
    "authors": [
     {
-     "name": "魅影神捕（1002诡蜜震撼魅味",
+     "name": "腾讯视频现在就出发",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "六大诡案现世，虚相之下异象丛生 #魅影神捕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "罗云熙",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#魅影神捕定档 亢龙千机阵🌪️ 出！ #魅影神捕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "阿拉善英雄会来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“英雄”集结阿拉善英雄会，听一听各地车友真心话（来源：阿拉善融媒）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "乌海融媒",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "引擎轰鸣 奔赴沙海｜乌海坦克团出发阿拉善英雄会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "重生2白客活埋梁洛施男鬼感拉满": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电影重生2",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "omg～这个#白客 真的吓到我了#电影重生2 #梁洛施 #卡斯柏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一年一度国庆出片大赛": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "唱响桑田沧海迎国庆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "可爱橙Jensen",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "五百年沧海桑田……萌娃 #爱我中国从小做起 #国庆节快乐 #爱国从娃娃做起 #萌娃日常记录 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "木•兰🌷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "😄😜😎喜迎国庆，祝宝宝们假期愉快，日日皆欢喜❤️❤️❤️",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一人一车走江湖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#带着五星红旗登山 #保护祖国每一寸山河",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "高高好",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "复兴尚未成功，同志仍需努力 #萌宝出境 #民族复兴 #中华民族伟大复兴 #国庆 #ai",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李莎·洋雪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "山河万里仍在召唤 风霜刻下了不屈的答案～",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李初恋🍭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "回望千年风雨，几度桑田沧海。 那些坚守与不屈，造就了我们现在的盛世山河🇨🇳#五百年桑田沧海 #国庆国旗氛围已上线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娇子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#唱响桑田沧海迎国庆 回望千年风雨，几度桑田沧海。 那些坚守与不屈，造就了我们现在的盛世山河#五百年桑田沧海 ＃国庆国旗氛围已上线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好多鱼🐟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "依然是志向不改 依然是信念不衰！#五百年桑田沧海 #原创编舞 #祝福祖国繁荣昌盛 #一支舞庆祝国庆 #抖音潮流舞蹈大赛 编舞：@好多鱼🐟 @麦芽糖的🍬 🌷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "月月吖～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#唱响桑田沧海迎国庆 #致敬最可爱的人 #五百年桑田沧海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白白",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "山河万里仍在召唤，风霜刻下不屈的答案。一曲经典，道尽不屈的信念#一首让人热血沸腾的歌 #五百年桑田沧海",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "鞠婧祎撕拉片又美出了新高度": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "鞠婧祎_Official",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又双叒叕撕拉了，满意之！ @鞠婧祎 #鞠婧祎 #苏绿夏 #万花世界 #长长长假星日记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓝色屿祎",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "撕拉片的神#鞠婧祎 #鞠婧祎万花世界苏绿夏 #苏绿夏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小7-🍒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "鞠婧祎撕拉片又美出新高度了 撕拉片最严厉的母亲来了 鞠姐又带着苏绿夏撕拉片杀回来了 鞠婧祎出片就像呼吸一样简单 每次都是不同感觉，侧颜的神！ #鞠婧祎 #苏绿夏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "游本昌孙女发布悼念长文": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Angela游叶盈琪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的爷爷在睡梦中去到了极乐世界 怀着沉痛的心情翻看手机相册。 爷爷的教导与疼爱，仍历历在目。 他常常教我们如何做人做事，如何面对生活，而他自己，一直躬身践行。 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 “属于游本昌的人生剧本，也圆满落幕了。”长孙女发文送别爷爷，回忆爷孙俩比心的点滴。那句“等你们上完学教你们表演”的约定，成了永远的怀念。#游本昌长孙",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长长长假电影时间": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "兔娘爆改逆战未来摆摊主理人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "兔娘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啊？我对面的啊#逆战未来 #武汉光谷#兔娘爆改逆战未来摆摊主理人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爪 琊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天又花了一个亿收购兔娘的小摊#兔娘爆改逆战未来摆摊主理人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逆战烧饼哥（日常号）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "就会口嗨的小烧饼，见到人又不敢说话了！ #游戏 #逆战烧饼哥 #兔娘 #逆战未来 #兔娘爆改逆战未来摆摊主理人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆把旅行过成兴趣班": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "郭大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆不旅游的话，做这些事也很有趣的好吧！#国庆假期被安排明白了 #国庆超会玩指南 #世界就是我的兴趣班 #兴趣班 #假期生活",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小石在这Lois",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "景德镇落地签🎨画瓷全攻略附价格清单📝 #世界就是一个巨大的兴趣班 #skillcation #景德镇陶瓷 #景德镇旅游攻略 #画瓷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Yuri就是点点妈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "真情实感！大理不能错过的体验 #旅行推荐官 #大理 #大理遛娃 #亲子旅行攻略 #云南大理",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猫猫的小娱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闺蜜这是我给你定制的skillcation版国庆假期 #国庆开启Skillcation模式 #国庆给生活放个长假 #假期 #旅行 #Skillcation",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张井舒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "旅行5年，亲身实测7个小众好玩的兴趣班 #旅游攻略 #攀岩 #旅行兴趣班",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "梦露Double",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请尽情享受你只活一次的人生#瀑降 #国庆把旅行过成兴趣班 #国庆给生活放个长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灵娜Bell",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "30岁高精力enfj用自驾+慢跑打开城市周末 #慢跑#自驾#假期出行#sportcation#周末去哪儿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "广西文化和旅游厅",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆来广西解锁旅行“兴趣班”，体验指尖非遗的手作乐趣！#国庆把旅行过成兴趣班 #国庆给生活放个长假 #秋冬游广西 #广西不止有",
+     "text": "#白敬亭一本正经胡说八道#白敬亭是怎么能忍住不笑出声的～#现在就出发#现在就出发4",
      "likes": 0,
      "hot": 0
     }
@@ -1672,673 +1353,312 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "差点抱住你了": {
+  "什么意思夫妇不用多想大笑就好": {
    "stats": {},
    "authors": [
     {
-     "name": "啦啦啦",
-     "verify": "",
-     "identity": "",
+     "name": "芒果妈妈",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "差点抱住你了 可惜梦醒了@人类",
+     "text": "这演员阵容他们凑在一起唠嗑我都觉得搞笑！#电影什么意思夫妇 #小沈阳 #沈春阳",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "掉一颗虎牙",
-     "verify": "",
-     "identity": "",
+     "name": "电影什么意思夫妇（影院乐映中",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "差点抱住你了 可惜梦醒了",
+     "text": "魏翔 ：是我大晚上不睡觉出现幻觉了吗？#电影什么意思夫妇 #长长长假电影时间 #国庆档观影repo",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "超级喜欢安乾镐的一个小女孩呀",
-     "verify": "",
-     "identity": "",
+     "name": "抖音电影",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "👀是#可啦啦椰岛电波黑#可啦啦 差點抱住你了 可惜夢醒了꧞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牛爷爷变性给图图妈当闺蜜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "牛爷爷变性给图图妈当闺蜜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "-Angel.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "-Angel.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "貌似",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不喜欢我那我走好了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吴所谓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "差点抱住你了 可惜梦醒了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好不好",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "差点抱住你了 可惜梦醒了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我能抚平你皱起的眉吗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "👀是#可啦啦椰岛电波黑#可啦啦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "棉姐。梦想哭了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "差一点就抱住你了 可惜梦醒了#几度梦回大唐",
+     "text": "万万没想到还有第二关 #电影什么意思夫妇 #长长长假电影时间 #国庆档观影repo",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "换上红装为祖国庆生": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "你咋这样。（找血仆）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#祖国万岁 #明星贺国庆 #国庆同框留念 #换上红装为祖国庆生 #爱国从我做起",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毛桃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毛桃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵守云：美满幸福",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#唱响红歌礼赞祖国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "真爱一生🍀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真爱一生🍀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Angel🌷🐒(安琪)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "妈妈今天您的一周年纪念日，我就这样看看您",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "幸福快乐31313",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#剪映让好作品告别AI感#感恩祖国牢记使命不忘初心 #我和我的祖国全家福 #与国庆合影留念 @抖加🔥上热门🔥dou+🔥热点宝 @抖音作者助手 @抖音美食推",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "往事如烟(拒私聊)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "喜迎国庆，祝福祖国繁荣昌盛，国泰民安，国庆节快乐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "谭老二",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谭老二",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "笑看人生7979",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑看人生7979",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "文文奶奶😘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#喜迎国庆全家福",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "阿拉善英雄会来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“英雄”集结阿拉善英雄会，听一听各地车友真心话（来源：阿拉善融媒）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乌海融媒",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "引擎轰鸣 奔赴沙海｜乌海坦克团出发阿拉善英雄会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "鞠婧祎撕拉片又美出了新高度": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "鞠婧祎_Official",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又双叒叕撕拉了，满意之！ @鞠婧祎 #鞠婧祎 #苏绿夏 #万花世界 #长长长假星日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蓝色屿祎",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "撕拉片的神#鞠婧祎 #万花世界 #苏绿夏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小7-🍒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "鞠婧祎撕拉片又美出新高度了 撕拉片最严厉的母亲来了 鞠姐又带着苏绿夏撕拉片杀回来了 鞠婧祎出片就像呼吸一样简单 每次都是不同感觉，侧颜的神！ #鞠婧祎 #苏绿夏",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "罗云熙新剧养了一狗一狼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "魅影神捕（1002诡蜜震撼魅味",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#魅影神捕 照进生活的一束光 罗弋（#罗云熙 ）#黎斯 #陆柯燃",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "长长长假电影时间": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "游本昌孙女发布悼念长文": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Angela游叶盈琪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的爷爷在睡梦中去到了极乐世界 怀着沉痛的心情翻看手机相册。 爷爷的教导与疼爱，仍历历在目。 他常常教我们如何做人做事，如何面对生活，而他自己，一直躬身践行。 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 “属于游本昌的人生剧本，也圆满落幕了。”长孙女发文送别爷爷，回忆爷孙俩比心的点滴。那句“等你们上完学教你们表演”的约定，成了永远的怀念。#游本昌长孙",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国庆把旅行过成兴趣班": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "兔娘爆改逆战未来摆摊主理人": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "唱响桑田沧海迎国庆": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "重生2白客活埋梁洛施男鬼感拉满": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "公布一下我的国庆安排": {
    "stats": {},
-   "authors": [
-    {
-     "name": "故里",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#打工人的工作状态 别人度假，我守岗，祝大家国庆快乐。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "家有～龙凤胎",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "公布一下我国庆的安排: 1号带娃、2号带娃、3号带娃， 天天带娃，全年无休， 没有动态的日子里，我都在好好带娃。 争取把肺气炸，把腰累断，把头带秃，把人带傻。#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝓓𝓪𝓲𝓼𝔂.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#当代年轻人的工作现状 #奶茶店工作日常 #打工人现状调查",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "田田的装修日记🏠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的假期安排好了，你们都安排好了吗 #我的长长长假 #创作者中心 #创作灵感 #上热门",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贪嘴的小猫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "贪嘴的小猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "少来烦我。",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#现代人打工现状 #打工常态 你们安排好了吗，我老早就安排好了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🥰🥰西于",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#国庆上班不放假",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "李一桐学功夫直拍来了": {
+  "一年一度国庆出片大赛": {
    "stats": {},
-   "authors": [
-    {
-     "name": "李一桐Q",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学功夫！ #剧剧抖有戏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "轻松拿捏国庆节手抄报": {
+  "魅影神捕定档": {
    "stats": {},
-   "authors": [
-    {
-     "name": "某某某",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "手绘祖国万象，每一笔都是对祖国的热爱💗 关于手工作业：妈行、妈会、妈整🤣#国庆节手工#国庆手抄报#国庆手工画",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "✨大乔乔✨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#盛世华诞手抄报 #红色主题手抄报",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娴而有度",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10万元，付出总有回报#手抄报作业庆国庆🚩",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "用闪身步打开国庆假期": {
    "stats": {},
-   "authors": [
-    {
-     "name": "建鹏🇨🇳",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用闪身步打开国庆～ #转场 #闪身蹦沙卡拉卡 #国庆开启Skillcation#国庆给生活放个长假 #闪身步出道挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘敢敢",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "帮我看看我闪对了没 #你的闪身步闪去哪里 #闪身步出道挑战 #闪身蹦沙卡拉卡 #国庆给生活放个长假 #闪身步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江江•古典舞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学到了～ ’#闪身步 #你的闪身步闪去哪里 #氛围感舞蹈 #抖音潮流舞蹈大赛 #长长长假舞起来 Yc：@丽子吖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "万千惠💖30号中午12点欧莱雅大专场！",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一起学会闪身步的，还有我的相机……#闪身步 #万物皆可闪身步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "烁锦涵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "自从学了闪身步，国庆出游不在话下 #你的闪身步闪去哪里 #民族风非遗 #苗族姑娘 #非遗服饰有多美",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "种地吧赵小童",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "果然舞蹈对我来说还是有些难度… #国庆闪身全国各地 #国庆给生活放个假 #长长长假星日记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "D郑业成C",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "行走江湖，技多不压身 #闪身步 #狗熊哆嗦毛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李梦",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "势必带着闪身步走向国✨ #闪身步#国庆闪身全国各地 #国庆给生活放个假#我的梦享生活#长长长假星日记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辰亦儒",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "练习这么多次最后一击…#国庆闪身全国各地 #国庆给生活放个假 #汪东城 #辰亦儒 #闪身步",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "恭喜桃晚安": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐报姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "代入监管视角太痛苦了，所以我选择代入桃晚安视角#第五人格 #第五人格亚运会 #桃晚安 #游戏 #电子竞技",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "打游戏也能为国争光！中国队2:0淘汰韩国队 晋级第五人格亚运4强 20岁穆欣月是中国电竞队唯一女将#亚运会第五人格项目决赛日 #媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月30日，#亚运会第五人格中国队摘金 ，#穆欣月成首位亚运电竞女子冠军 。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "会火大明星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜中国队夺冠！！恭喜穆欣月（桃晚安）成为亚运会电竞赛史上第一个冠军女选手！！！#桃晚安 #亚运会 #中国队获第五人格亚运金牌 #第五人格 #穆欣月",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国队斩获第五人格亚运会金牌，这是亚运首个非对称电竞项目；队内唯一女选手20岁的穆欣月关键局“力挽狂澜”，决赛因技术问题一度暂停",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "没想到神探之痕迹尺度这么大": {
    "stats": {},
-   "authors": [
-    {
-     "name": "电影神探之痕迹",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "专挑落单女孩作案，这样的恶魔曾真实存在。#电影神探之痕迹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小影娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆假期已经等不及见证中国刑侦宗师的巅峰锋芒了#电影神探之痕迹 #神探之痕迹刑侦八虎四虎齐聚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "竖三",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈思诚新作来了！张译&马丽&陈明昊，一代神探崔道植！ #电影神探之痕迹 #刑侦八虎崔道植被拍成电影了 #电影推荐 #影娱热点团 #悬疑",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "强军战歌小提琴演绎版": {
+  "轻松拿捏国庆节手抄报": {
    "stats": {},
-   "authors": [
-    {
-     "name": "董浩冉violinist",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听吧新征程号角吹响. #强军战歌 #国庆节 #小提琴 #氛围感 #长长长假音乐打卡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "温暖相随",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陶然亭公园现场！蔡红花老师小提琴演奏《强军战歌》。弓弦起落铿锵有力，旋律激昂振奋人心，娴熟的运弓功底尽显实力。红色经典回荡林间，家国热血涌上心头，在场听众为之动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雯雯violin🎻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我在公园演奏《强军战歌》，听到最后太激动人心了！#国庆 #强军战歌 #路人视角 #旗袍与小提琴",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "余红里粤语甜心爆改东北大碴子": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "满分嗑学家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "统一语言只需要一个东北人！ #余红旧事 #王佳佳 #东北 #粤语 #余红旧事吃瓜荒诞情感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桃厂情感专线",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一刻王佳佳心都融化了，又骗人生闺女！#余红旧事 #余红旧事吃瓜荒诞情感 #王佳佳 #马伊琍",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "为一门课奔赴一座城": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "梦茹啊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第一视角带你感受陕西西安--赳赳大秦 #赳赳大秦 #赳赳大秦两周年 #为一部剧奔赴一座城 #借你一副赳赳脊梁 #西安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "伟伟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "伟伟携非遗出战青耘三晋，铿锵武迓鼓震山城 #青耘三晋 #平定武迓鼓 #为一门课奔赴一座城 #国庆给生活放个长假 #国家级非遗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "煎饼访古",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一天走完常熟6处国保：从南宋方塔到梅李聚沙塔 如果只有一天，常熟应该怎么访古？ 不逛商业街，不走常规旅游路线。这一次，从常熟老城出发，沿着6处全国重点文物保护单",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆看奥德赛银幕出游3小时": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "乔见晴天",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆反向旅行｜懒人情侣躺平式出游 国庆反向旅行，避开人潮，和对象躺平“出游”～ #国庆看奥德赛银幕出游3小时#我的观影后遗症 #电影奥德赛#国庆档观影repo",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猫眼电影",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#国庆节 和#诺兰 重返#电影奥德赛 ，来一场古希腊之旅#国庆看奥德赛银幕出游3小时#国庆档观影repo",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "美人余定档1009": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "常华森",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美人余定档1009 婚姻问题，找离婚律师#焦旭 就对了！#美人余",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美人余（1009瓜瓜坠地版",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美人余定档1009 全员做局，好戏登场，婚姻狼人杀高能开演，你准备好入局了吗?#美人余 #李一桐 #王佳佳 #常华森 #曾梦雪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "乔振宇",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美人余定档1009 模范老公还是____ ？#狄立人 的真实身份，来看#美人余 便知🎭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "对话“小孩姐”陈妤颉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "石甫天",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "对话“小孩姐”陈妤颉：青春如风，奔跑正当时 在2026爱知·名古屋亚运会收获了三金一银的中国短跑运动员陈妤颉在亚运赛后接受了中国日报《上场》节目主持人石甫天的采",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "对话陈妤颉：青春如风，奔跑正当时 在2026爱知·名古屋亚运会收获了三金一银的中国短跑运动员陈妤颉在亚运赛后接受了中国日报《上场》节目主持人石甫天的采访。第一次",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "知之News",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 三金一银光荣下班！“小孩姐” 陈妤颉：我真牛啊！#亚运会 #小孩姐",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆接稿人营业中": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "宸玥台（求推荐古风oc）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "清冷鬼感水墨头。一张就能吃到的米米水墨头，这个小画师有人想吃吗 #oc #约稿展示 #稿件展示 #古二 #国庆接稿人营业中",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "coco（许愿厕所里每次都有厕纸）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "近期画的一些稿子… #国庆接稿人营业中 #画画 #绘画 #古风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "yunmoqi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奇奇怪怪的东西增加了 #国庆接稿人营业中#我的长长长假 #打开二次元长长长假生活方式 #绘画 #稿件展示",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   }
  }
 }
