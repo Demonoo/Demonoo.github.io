@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-03 00:40",
+ "updated_at": "2026-10-03 01:47",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 50,
- "ok_count": 44,
+ "topic_count": 33,
+ "ok_count": 21,
  "lexicon_count": 0,
  "topics": {
   "全世界都知道中国人放假了": {
@@ -169,6 +169,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "中国功夫献礼祖国": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "一个人也可以看世界": {
    "stats": {},
    "authors": [
@@ -196,6 +201,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "丰收的彩带": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不是啥D",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丰收的彩带#家乡#丰收#国庆节",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是荷包蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丰收的彩带。#土地 #家乡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "害羞指甲油",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丰收的彩带#丰收季 #土地",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "假期色彩出游穿搭示范": {
    "stats": {},
    "authors": [
@@ -206,58 +248,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "你所追求的一切也在等你 #不费力出游穿搭 #天地辽阔穿什么都对",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "普通人尝试杨贵妃穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "属于中国人的地球online": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "a3_Kiko",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "卢浮宫地球online接力成功！独属于中国人的浪漫💕 #巴黎 #课本接力 #旅行推荐官 #卢浮宫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "YOUnique",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赴一场课本里的百年之约 阿芙乐尔号，接力成功✌️ #圣彼得堡 #课本接力 #俄罗斯旅游 #地球百科君 #卸下负担轻松上场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "夕元木马",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "埃及时间2026年9月29日已打卡并完成接力！世界这本书又翻开了一页（凭一己之力找到书并传递下去），中国人排队接力中哈哈#金字塔 #埃及 #开罗 #埃及金字塔 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DTTS街舞出海计划",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们在法国的隐藏关卡你们找得到吗！#中国人的浪漫 #课本接力 #法国 #卢浮宫 #特步少年出海计划",
      "likes": 0,
      "hot": 0
     }
@@ -593,31 +583,14 @@
      "text": "JDG VS T1 前瞻及预测。无畏契约上海冠军赛败者组第一轮预测（第四场） JDG 2:1 T1 欢迎大家理性讨论 尽管最不被看好 但偏偏你最争气 #无畏契约",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "胡军李乃文向佐纯过日子人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "来看娱乐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这三个凑一起有不笑的风险吗 #李乃文是向佐的榜一大哥 #向佐搞抽象是为了被记住 #胡军李乃文养成系助理 #大哥小助理",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "大哥小助理",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "雨辰（无畏契约）",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "就说看#大哥小助理 能学到真东西吧 #胡军 #李乃文 #向佐 #胡军李乃文向佐纯过日子人",
+     "text": "连续4天看完VCTCN冠军赛的我#无畏契约 #无畏契约上海全球冠军赛 #JDG首战不敌FUT #我的十月被瓦包围了",
      "likes": 0,
      "hot": 0
     }
@@ -652,48 +625,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中国的国庆节世界的黄金周": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爽姐开放麦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国的国庆节就是世界的黄金周啊#国庆 #放假 #出国 #娱乐评论大赏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "动静新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国人真能飞！国庆黄金周 全世界景点进入中国人接管模式",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱丸有点料",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国的国庆节，就是世界的黄金周啊 #我的长长长假 #国庆 #放假 #出国 #娱乐评论大赏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我不是大师这把开局地狱级难度": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "王俊凯拍戏遇上真刀太好笑": {
    "stats": {},
    "authors": [
@@ -721,53 +652,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "天津解放桥节日氛围拉满了": {
+  "胡军李乃文向佐纯过日子人": {
    "stats": {},
    "authors": [
     {
-     "name": "江东大宝贝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#天津解放桥灯光秀 #天津 #国庆 #爱国 #抖音 国庆晚上在解放桥，突然传来振奋人心的小号声，原来是一位小哥在吹号子，现场齐唱起了歌声～ #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "和小杨的恋爱日记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我和我的祖国 #我的祖国❤ 天津解放桥@人民路吹号人民 现场氛围真的不错",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光影天津",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年10月1日天津解放桥，人气爆棚，人山人海！ #天津 #解放桥 #天津夜景 #天津海河 #国庆节",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曾辉备战Trap唱跳舞台": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "曾辉啊～～",
+     "name": "来看娱乐",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "努力驯服四肢中…练舞去了🕺#曾辉荆棘日记#披荆斩棘#曾辉",
+     "text": "这三个凑一起有不笑的风险吗 #李乃文是向佐的榜一大哥 #向佐搞抽象是为了被记住 #胡军李乃文养成系助理 #大哥小助理",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大哥小助理",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就说看#大哥小助理 能学到真东西吧 #胡军 #李乃文 #向佐 #胡军李乃文向佐纯过日子人",
      "likes": 0,
      "hot": 0
     }
@@ -812,518 +716,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "把对祖国的祝福跳成一支舞": {
+  "曾辉备战Trap唱跳舞台": {
    "stats": {},
    "authors": [
     {
-     "name": "天在下雨我在想你",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天在下雨我在想你",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小甜甜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爱跳舞的小萌娃又来啦 #祝福祖国#AI萌娃跳舞#萌娃日常#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "玲姐🍎",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中秋快乐！月圆人圆，日子美满，福寿安康！ #红歌 #创作者中心#抖音玩法合伙人计划 #抖音小助手#中秋节快乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小雪AI创作",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爱跳舞的小姑娘翩翩起舞✨氛围感拉满，爱心花海，风景如画#我爱你中国 #萌娃古典舞 #AI舞蹈同款 #创作者伙伴计划 #抖音玩法达人中心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秋爽🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋爽🍊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱跳舞梅姐(樱花恋）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#爱生活爱舞蹈爱自己 #热爱生活舞出健康",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "西藏贵州福建广东等地有暴雨": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中安在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中央气象台：今早到明天，西藏、贵州、福建、广东等地有暴雨或大暴雨；安徽、四川、重庆、陕西、河南、广西等地有中到大雨；内蒙古有雪（编辑：尔川）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "前方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中央气象台：今早到明天，西藏、贵州、福建、广东等地有暴雨，云南、四川、重庆、贵州、河南、安徽等地中到大雨；内蒙古局地有雨夹雪或雪（中央气象台）编辑：景明#中央气",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "起点新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆出行注意添衣 谨防感冒，西藏 贵州 福建等地有暴雨，内蒙古局地有雪，西安局地有小到中雨 #国庆 #天气 #西安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "3预警齐发！10月2日20时到3日20时，河南、安徽等地有中到大雨，重庆、贵州等地有暴雨或大暴雨（编辑：卓光）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆出行注意！中央气象台发布最新天气公报： 10月1日8时至2日8时，陕西南部、重庆北部和东南部、湖北西部、湖南西部、贵州、云南东部、广西西北部、广东东部和南部",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "脱缰凯带你识破养老骗局": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "脱缰凯✨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世上无灵丹妙药，警惕养老诈骗 @二烟 导演@小包老师😇 摄像@迪锥美羊羊 道具@战神7 狼人@仙女味的廉静 好人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "花小龙带小沈阳自律的一天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "花小龙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天带小沈阳自律 #自律 #日常vlog #小沈阳 #花小龙",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赖伟明holymoly帅出新高度": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "赖伟明",
+     "name": "曾辉啊～～",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Holymoly #长长长假星日记 #holymoly #不呆不欲 #假期一起HolyMoly",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆假期不烧心指南": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "早川（演唱会全勤版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "依旧不烧心#檀健次#红果短剧 #抽象",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿琪啊嚏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟着老大爬不烧心。#高海拔户外徒步 #川西美景#徒步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凑活活",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆这样过…不烧心 #国庆假期被安排明白了 #浪漫的体质#宅家生活指南",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆包只会吃饭🐱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我cos不烧心，不能坏了规矩#ooc致歉 #cos #先把规矩立住 #不烧心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "炸虾🍤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "先把规矩立住，才能走得放心。#高海拔徒步 #不烧心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鲨鱼强子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这样的国庆不烧心 #真实还原 #不烧心 #规矩不能忘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋蛋大王🥚ྀི",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欧尼你不开演唱会的时候我烧心的很…#kpop演唱会 #红果短剧 #不烧心 #金泰妍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "city",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟着我爬雪山，不烧心。#朗卡雪山 #雪山 #爬山 #一起爬山吗 @DOU+小助手 #红果短剧 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "兔妈遛娃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "规矩立住，国庆出游不烧心#国庆#旅游 #红果短剧 #热门 #创作者扶持计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2026KPL年度总决赛正式开赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "KPL王者荣耀职业联赛",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "敢逐云霄志！ 2026KPL年度总决赛今日正式开赛，通往冠军的征程就此开启！前路浩荡，未来可期，期待大家的表现！#2026KPL年总宣传片 #十年同行你我皆在场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王者荣耀",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#KPL十周年CG 从峡谷到康平路，再到荣耀的赛场。不论是十年十人与他们的代表英雄，还是无数赛场上拼搏的身影，这十年，我们从未停止追逐。让我们共赴这场属于KPL",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Caviar_酱酱酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "钎城你绷好点啊😂 #kpl#深圳dyg钎城 #kpl年总#KPL有我在场 #KPL十周年",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆第一条祝福送给你": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "露露情感",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亲爱的老婆。国庆第一条祝福我想送给你，祝你起床舒心，出门顺心，遇事宽心，回家暖心，福运常伴，平安顺遂。愿所有烦恼随秋风散去，日子温柔安稳，往后朝夕平安欢喜，我们",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "高妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亲爱的老婆。国庆第一条祝福我想送给你，祝你起床舒心，出门顺心，遇事宽心，回家暖心，福运常伴，平安顺遂。愿所有烦恼随秋风散去，日子温柔安稳，往后朝夕平安欢喜，我们",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杰歌",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杰歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王现军",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王现军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "全心全意，为您服务！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全心全意，为您服务！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "心碎了谁来安慰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老婆 祝你国庆节快乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "专业室内外装修",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老婆，国庆快乐#愿不再年轻的我们越来越好 #珍惜限量版的每一天 #愿不再年轻的我们健康快乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "民权县晓鹏建筑工程有限公司，肖国庆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "民权县晓鹏建筑工程有限公司，肖国庆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汉景衣咕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "汉景衣咕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "～萧～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#好好爱珍惜每一天",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "十一出门耍起不如裹起": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "袋子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "出门耍起不如在家裹起 #裹起 #国庆安排 #舒服",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "邓紫棋25天连开12场演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "半知名观众花花（一早木版）",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "高精力人群看到解解的演唱会也力竭了！这也太高精力了！#邓紫棋国庆魔鬼行程 #邓紫棋踩18厘米高跟鞋刷步数 #邓紫棋巡演强度堪比帕梅拉#邓紫棋25天连开12场演唱",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "郑州金融岛把张杰演唱会续上了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "八妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "星星们集合！金融岛国庆应援！ 国庆和星星们一起大合唱！#张杰应援 #北龙湖金融岛 #张杰郑州演唱会 #我在金融岛过秋天 #张杰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "翟吃吃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆节来郑州看张杰演唱会请直冲金融岛！金融岛真的不只是拍照打卡地 逛吃一整天都能安排得满满当当！ 下午三四点先在岛上找家店坐坐 胖哥俩肉蟹煲 太犇牛都挺不错的 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用中国红定格国庆仪式感": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "四川广元国庆烟花秀太震撼了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我草莓糟了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个国庆你会来广元吗。#广元 #烟花秀 #烟花秀 #vivoX200ultra",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "木 木",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "与世界失联的2个小时#国庆之夜 #长江夜空被烟花点亮 #南昌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你在闹啥子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我們太迷戀這些瞬間了 #广元#烟花秀",
+     "text": "努力驯服四肢中…练舞去了🕺#曾辉荆棘日记#披荆斩棘#曾辉",
      "likes": 0,
      "hot": 0
     }
@@ -1333,326 +735,53 @@
   },
   "巴黎时装周设计美出新高度": {
    "stats": {},
-   "authors": [
-    {
-     "name": "2I",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太帅了 anna大人 #田中杏奈 #anna #meovv #巴黎时装周",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ELLE世界时装之苑",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "迎面而来的@王一博 💚！谁懂这份宿命感～#罗意威2027春夏时装秀 #王一博 #LOEWE #ELLE带你看时装周 #hello时尚季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "FashionBo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Saint Laurent 27巴黎大秀 #秀场直击 #审美积累 #ysl #巴黎时装周 #刘雯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "天津解放桥节日氛围拉满了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "假期开启气泡熊卖萌模式": {
    "stats": {},
-   "authors": [
-    {
-     "name": "欠我一个拥抱.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你冷不冷你饿不饿 你想不想我#neo小黑环pro#neo美瞳#萌妹子手势舞 #嘉桐摇 #09",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": ".cccccy.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "那再发一遍呗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小趴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我现在 唯一期待的就是 这个冬天有你在#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "微微一笑火鸡面",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TvT#库存#轻松熊特效 #芭吻美瞳 #芭吻黑糖巧巧#wami假睫毛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Dreamcut- -1",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "^^#太帅了邢大人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九月天🥣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆我来啦～ 疑似此人已经放弃此账号#手势舞 #十一假期",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "现在就出发第四季站内热度破两万": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现在就出发第四季站内热度破两万，创2026年度腾讯视频综艺最快纪录，沈腾演我许愿“工作半年、休息半年”",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "云南文旅你的兵来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "无畏小羊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "云南文旅快来认领 #民族文化出圈 #云南文旅",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "成龙大哥用歌声祝福祖国": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "成龙 （日常记录）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "祝祖国生日快乐，祝你们国庆快乐！#最好的祝福献给祖国",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "双重叠影卡出国庆双倍氛围": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "是小敏敏吖🌻⁶¹⁸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "心中有信仰，眼里有星光，此生入华夏，何其有幸🇨🇳#AI国庆节双重叠影#国庆节#国庆氛围感 #红色热爱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "婵婵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#每个中国女孩都长了一张国泰民安的脸 #全红婵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一枝梅分享",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#今日份魅力暴击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "对方已关了你",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "对方已关了你",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小凤生活号",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#红底国庆照 #爱国主题写真",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘诗雨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "举国同庆，祝家人们国庆节快乐。 #让我们一起守护中国🙏🏻 #祖国在我心中爱国从我做起 #我和国旗贴贴脸 #五星红旗下的笑容",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "来了云南才懂什么叫慢生活": {
    "stats": {},
-   "authors": [
-    {
-     "name": "大理甜也花园咖啡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好想一直坐在洱海边发发呆 吹吹风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "7oii",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人为什么不能一辈子都待在云南呢.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "饭饭而烫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "昆明有一条通往滇池的路，传说两个人一起走过就永远不会分开#日落",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "国庆假期古建筑拍照技巧": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "水果味儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "4个万能古建筑拍照技巧‼️避开人群拍大片📷 去滕王阁和其他古建筑就这么拍吧 #古建筑拍照 #我的假期出片心法 #滕王阁 #南昌拍照 #假期是一万次的快门键",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "奇侠大营救之风卷围城定档寒假": {
+  "我不是大师这把开局地狱级难度": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "换上红装为祖国庆生": {
+  "脱缰凯带你识破养老骗局": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "国庆宅家吃什么": {
+  "成龙大哥用歌声祝福祖国": {
    "stats": {},
-   "authors": [
-    {
-     "name": "夏妈厨房",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超级好吃的五谷焖饭！祝大家国庆快乐！ #家常炒饭 #家常美食分享 #懒人做饭指南",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一人逸食",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "假期没安排，那就安排它！鲜到跺脚！ 家人们，国庆快乐要好好享受假期！没有出门在家吃着这锅葱姜焗海鲜，好好放松身心也是顶夯的享受～#一人逸食 #葱姜焗海鲜#国庆 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小张有在好好吃饭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆假期纯过日子vlog ❗️这面老香了 #纯过日子休假教程 #美食vlog #宅家一人食晚餐吃什么 #减脂餐 #抖音老吃家成长计划 @DOU+上热门 @抖音小",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "云南文旅你的兵来了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "邓紫棋25天连开12场演唱会": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "花小龙带小沈阳自律的一天": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   }
  }
 }
