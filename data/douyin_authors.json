@@ -1,11 +1,48 @@
 {
- "updated_at": "2026-10-03 01:47",
+ "updated_at": "2026-10-03 02:50",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 33,
+ "topic_count": 34,
  "ok_count": 21,
  "lexicon_count": 0,
  "topics": {
+  "EDG发文道歉": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "LPL电竞小卒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "EDG止步16强把对手打笑了，4名选手合同到期康康谈未来规划，autumn道歉找不到适合EDG阵容，EDG官博发文道歉！#无畏契约上海全球冠军赛#胖虎陪你看上海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无畏契约电竞",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "GE连下两城淘汰EDG JDG三局鏖战不敌T1 #GE上海冠军赛战胜EDG #T1上海冠军赛战胜JDG #无畏契约上海全球冠军赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秋忆i",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【冠军赛复盘】惨败GE！为什么EDG的冠军赛表现这么差？ #无畏契约上海全球冠军赛 #EDG #GE #ZMJJKK #UdoTan",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "全世界都知道中国人放假了": {
    "stats": {},
    "authors": [
@@ -53,47 +90,27 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中国游客生动诠释一呼百应": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我国秋粮收获进度已过三成": {
+  "一组数据看咱们这77年": {
    "stats": {},
    "authors": [
     {
-     "name": "央视一套",
+     "name": "经济日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 【#我国秋粮开始大面积收获 】#我国秋粮收获进度已过三成 我国秋粮品种多，从南到北覆盖广，是全年粮食生产的大头，约占总产量的3/4。农业农村部最新农",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我国秋粮收获过两成",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋粮收获陆续展开 各地抢抓时机保丰收",
+     "text": "山河焕新、笃定前行，一组数据看咱们这 77 年 #媒体原创",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "中国游客生动诠释一呼百应": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "一支舞庆祝国庆": {
    "stats": {},
@@ -132,6 +149,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "中国功夫献礼祖国": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "在拍一种很新的假期生活vlog": {
    "stats": {},
    "authors": [
@@ -169,10 +191,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中国功夫献礼祖国": {
+  "国庆献礼卷起来了": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "方面面",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "星星之火，可以燎原 #星星之火可以燎原 #国庆节 #艺术 #创意 #方面面 二创素材临摹自:段江华老师油画作品《中流砥柱》",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王鹊艺象",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我用雨水画一幅画，盛世华诞，举国同庆，祝祖国生日快乐！#国庆 #国庆节#祝福祖国#家国同庆#艺术在抖音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "震滇西",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "震滇西原创《China中国》 庆祖国华诞，守九州河山。 #震滇西原创歌曲 #China中国 #国庆献礼 #国庆节快乐",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "一个人也可以看世界": {
    "stats": {},
@@ -194,43 +248,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "一个人旅行美国 United to New York， 半夜看到机票往返2k，就冲动下单了。 虽然吃的很差，还是忍了吧。 #纽约 #旅游 #大学生 #solet",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "丰收的彩带": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我不是啥D",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丰收的彩带#家乡#丰收#国庆节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是荷包蛋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丰收的彩带。#土地 #家乡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "害羞指甲油",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丰收的彩带#丰收季 #土地",
      "likes": 0,
      "hot": 0
     }
@@ -292,23 +309,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "兰香如故杜翠雀同款发型教程": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小武哒哒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全真发｜兰香如故杜翠雀同款发型教程 #汉服发型教程 #汉服发型 #兰香如故 #杜翠雀 #时尚",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "披荆斩棘2026四公舞台": {
    "stats": {},
    "authors": [
@@ -348,6 +348,16 @@
      "text": "#媒体原创 网传喝“无醇”啤酒不算酒驾，是真的吗？交警提示：“无醇”并不等于零酒精，只要有饮酒行为，请勿驾车出行。（央视频号：#真相来了 ）#媒体精选计划 #抖",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十一聚餐注意：无醇啤酒也是酒，开车千万别喝（编辑：大河）",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -373,43 +383,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "【冠军赛复盘】惨败GE！为什么EDG的冠军赛表现这么差？ #无畏契约上海全球冠军赛 #EDG #GE #ZMJJKK #UdoTan",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "情侣枕头大战开赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "被褥日记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "情侣枕头大赛 #情侣日常",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雾散醒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "两人为了一杯甜醅子奶茶大打出手#情侣日常互动 #沙雕情侣游戏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汁汁嫩牛堡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#情侣 #枕头大战 #损友 #互殴",
      "likes": 0,
      "hot": 0
     }
@@ -583,16 +556,6 @@
      "text": "JDG VS T1 前瞻及预测。无畏契约上海冠军赛败者组第一轮预测（第四场） JDG 2:1 T1 欢迎大家理性讨论 尽管最不被看好 但偏偏你最争气 #无畏契约",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "雨辰（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "连续4天看完VCTCN冠军赛的我#无畏契约 #无畏契约上海全球冠军赛 #JDG首战不敌FUT #我的十月被瓦包围了",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -652,26 +615,63 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "胡军李乃文向佐纯过日子人": {
+  "情侣枕头大战开赛": {
    "stats": {},
    "authors": [
     {
-     "name": "来看娱乐",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "被褥日记",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这三个凑一起有不笑的风险吗 #李乃文是向佐的榜一大哥 #向佐搞抽象是为了被记住 #胡军李乃文养成系助理 #大哥小助理",
+     "text": "情侣枕头大赛 #情侣日常",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大哥小助理",
+     "name": "雾散醒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "两人为了一杯甜醅子奶茶大打出手#情侣日常互动 #沙雕情侣游戏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汁汁嫩牛堡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#情侣 #枕头大战 #损友 #互殴",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我不是大师这把开局地狱级难度": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不是大师(江湖打假办营业中",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "就说看#大哥小助理 能学到真东西吧 #胡军 #李乃文 #向佐 #胡军李乃文向佐纯过日子人",
+     "text": "#我不是大师 这把开局直接地狱级难度。#徐洋 #青年祖爷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "佳音影视",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李现新剧一开播冲上热榜，上官诚明设局人贩子，做春秋大梦！ #鹅家我不是大师民国悬疑黑马 #我不是大师 #李现 #李一桐 #好剧推荐",
      "likes": 0,
      "hot": 0
     }
@@ -716,16 +716,41 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "曾辉备战Trap唱跳舞台": {
+  "假期开启气泡熊卖萌模式": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "天津解放桥节日氛围拉满了": {
    "stats": {},
    "authors": [
     {
-     "name": "曾辉啊～～",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "江东大宝贝",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "努力驯服四肢中…练舞去了🕺#曾辉荆棘日记#披荆斩棘#曾辉",
+     "text": "#天津解放桥灯光秀 #天津 #国庆 #爱国 #抖音 国庆晚上在解放桥，突然传来振奋人心的小号声，原来是一位小哥在吹号子，现场齐唱起了歌声～ #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "和小杨的恋爱日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我和我的祖国 #我的祖国❤ 天津解放桥@人民路吹号人民 现场氛围真的不错",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "光影天津",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026年10月1日天津解放桥，人气爆棚，人山人海！ #天津 #解放桥 #天津夜景 #天津海河 #国庆节",
      "likes": 0,
      "hot": 0
     }
@@ -733,42 +758,12 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "曾辉备战Trap唱跳舞台": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "巴黎时装周设计美出新高度": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "天津解放桥节日氛围拉满了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "假期开启气泡熊卖萌模式": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "来了云南才懂什么叫慢生活": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我不是大师这把开局地狱级难度": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "脱缰凯带你识破养老骗局": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "成龙大哥用歌声祝福祖国": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "云南文旅你的兵来了": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -778,7 +773,37 @@
    "authors": [],
    "lexicon": []
   },
-  "花小龙带小沈阳自律的一天": {
+  "把对祖国的祝福跳成一支舞": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "脱缰凯带你识破养老骗局": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "赖伟明holymoly帅出新高度": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "兰香如故杜翠雀同款发型教程": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "胡军李乃文向佐纯过日子人": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "用一幅画献上对祖国的祝福": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "云南文旅你的兵来了": {
    "stats": {},
    "authors": [],
    "lexicon": []
