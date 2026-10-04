@@ -1,11 +1,58 @@
 {
- "updated_at": "2026-10-04 22:01",
+ "updated_at": "2026-10-04 22:39",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 32,
- "ok_count": 21,
+ "topic_count": 49,
+ "ok_count": 45,
  "lexicon_count": 0,
  "topics": {
+  "B费谈C罗离队": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕足球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哥，还是回来吧！B费：希望C罗不要情绪上头时做决定，如果他真想离开，也应该在一个充满欢庆的日子里告别，而不是以如今这样的方式... #B费谈C罗离队 #dou来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小欧说足球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "队内风波越闹越大，新队长B费终于站出来定调了！ #B费 #C罗 #葡萄牙 #足球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新爱体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "B费：希望C罗不要一时情绪上头离开国家队，他值得更好的告别方式 #B费 #C罗 #葡萄牙队 #欧国联 #上新爱体育看欧国联",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "被客汗母小咪寐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗的怒火，这次烧到了孩子身上！ #迷你罗 #c罗 #葡萄牙 #FC足球世界 #FC球星计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "市井人家的炊烟笑语总是令人心安": {
    "stats": {},
    "authors": [
@@ -93,6 +140,33 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "我国假日经济持续升温": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #数看我国假日经济持续升温 【#水上航程丈量假日消费新活力 】从河流到湖泊，从大江到海洋，每一段航程，都丈量着假日消费的真实温度。 国庆假期的西湖，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "热门景区人从众，局部地区人山人海……这个国庆假期别急着出发，先看完这份大数据预报。（总台央视记者 王琰 朱江 孙蓟潍 张昊）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "是谁在重庆免费听了soldout": {
    "stats": {},
    "authors": [
@@ -123,33 +197,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "山河无恙，国泰民安。祝祖国繁荣昌盛！ 小时候就听过这首很燃的歌，今天居然碰到原唱Jon Steingard叔叔，所以我决定和觉醒战队的伙伴们完成这次街舞快闪，祝",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我国假日经济持续升温": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #数看我国假日经济持续升温 【#水上航程丈量假日消费新活力 】从河流到湖泊，从大江到海洋，每一段航程，都丈量着假日消费的真实温度。 国庆假期的西湖，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "热门景区人从众，局部地区人山人海……这个国庆假期别急着出发，先看完这份大数据预报。（总台央视记者 王琰 朱江 孙蓟潍 张昊）#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -231,6 +278,16 @@
      "hot": 0
     },
     {
+     "name": "新民晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第二十届亚洲运动会在日本名古屋闭幕。169金89银83铜，#名古屋亚运会中国代表团创境外亚运历史最佳背后，中国体育强在哪儿？#精选主播说 #媒体精选计划 #媒体",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
@@ -264,33 +321,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "国庆和父母川西自驾第三天，堪比花少2，吵了两天，现在已经互不说话了#川西自驾途中 #国庆川西自驾指南 #自驾 #川渝父母",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆漂亮旗袍妆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Friday周五",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟着露思进入旗袍时代，今天一样的镜头一样的场景一样的打光一路画到底#赵露思 #赵露思仿妆 #赵露思旗袍 #新中式旗袍#国庆漂亮旗袍妆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "椰子熊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赵露思旗袍灵感妆～淡颜化完清丽又婉约，也太美了！ #化妆前后对比 #中式温婉妆 #旗袍妆容 #赵露思 #仿妆",
      "likes": 0,
      "hot": 0
     }
@@ -332,16 +362,6 @@
      "hot": 0
     },
     {
-     "name": "独牙赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“奥秘·李斯”犍为独牙传奇中式九球公开赛8强出炉！你最看好谁夺冠？#独牙传奇 #独牙九球比赛 #千万打感才配追分 #独牙冠军1000万 #独牙",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "爱球客🎱",
      "verify": "",
      "identity": "",
@@ -350,140 +370,14 @@
      "text": "质疑声再大点 #张堃鹏#独牙#独牙传奇#台球#剪映",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "苏超苏州2:1常州": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "江苏新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "苏州2比1常州！ #苏超淘汰赛 1/4决赛首回合，苏州队占得先机！#2026苏超 #苏超苏州vs常州 （荔枝新闻中心编辑：小可 小鱼 责编：小柱）",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "小鱼视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“苏超”淘汰赛中，40岁老将王飞打进反超球，助力苏州队2:1战胜常州队！主教练陈婉婷：今年是他最后一年踢苏超，我们也一直在等他进球。#苏超 #苏州VS常州 #苏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "苏州发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "绝杀！逆转！苏州队2:1常州队 #江苏dou知道 #苏州同城 #苏超",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长长长假美食判官": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "B费谈C罗离队": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哥，还是回来吧！B费：希望C罗不要情绪上头时做决定，如果他真想离开，也应该在一个充满欢庆的日子里告别，而不是以如今这样的方式... #B费谈C罗离队 #dou来",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新爱体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "B费发声：C罗值得所有人尊重，请葡萄牙队内不要划分阵营不要分裂 #B费 #C罗 #葡萄牙队 #欧国联 #上新爱体育看欧国联",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小欧说足球",
+     "name": "阿乐玩杆🎱（乐仕台球器材）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "队内风波越闹越大，新队长B费终于站出来定调了！ #B费 #C罗 #葡萄牙 #足球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星光路人甲",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "B费谈C罗离队。上轮对着挪威缺席的B费今晚的欧国联将复出。他对于C罗退出葡萄牙国家队感到非常惊讶。曼联中场表示：我刚看到他离开酒店，然后打开手机，看到他已经退出",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "苏超盐城2:0宿迁": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "江苏新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终场战报：盐城2比0宿迁！“鹿战队”赢下#苏超淘汰赛 1/4决赛首回合！#苏超盐城VS宿迁 #2026苏超 （荔枝新闻中心编辑： 兰兰 小柱）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#苏超盐城vs宿迁 下半场进行到第80分钟，盐城队边线大力手抛球，31号张文骏禁区抽射破门，梅开二度，将比分改写为盐城队2:0宿迁队。 #江苏超会玩 #苏超",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荔枝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 今晚苏超淘汰赛继续，盐城队2：0宿迁队。盐城队主教练黄勇赛后接受采访：球队很长时间没有赢球，这场胜利，希望在国庆给球迷带来快乐。接下来全队将全力以赴",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辫子哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【苏超前瞻】盐城vs宿迁：防守铁壁对决反击利刃！谁能获胜？ 盐城打宿迁，风格完全相反的两队。盐城防守硬，可惜缺个正经中锋，7 场没赢过了；宿迁进攻猛，高驰单刀基",
+     "text": "张堃鹏邻居拿下奥斯本兹征途三 #台球 #张堃鹏 #奥斯本兹征途三 #台球是一种生活 #阿乐玩杆",
      "likes": 0,
      "hot": 0
     }
@@ -548,6 +442,85 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "国庆漂亮旗袍妆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Friday周五",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟着露思进入旗袍时代，今天一样的镜头一样的场景一样的打光一路画到底#赵露思 #赵露思仿妆 #赵露思旗袍 #新中式旗袍#国庆漂亮旗袍妆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "椰子熊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赵露思旗袍灵感妆～淡颜化完清丽又婉约，也太美了！ #化妆前后对比 #中式温婉妆 #旗袍妆容 #赵露思 #仿妆",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "长长长假美食判官": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "苏超盐城2:0宿迁": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "江苏新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "终场战报：盐城2比0宿迁！“鹿战队”赢下#苏超淘汰赛 1/4决赛首回合！#苏超盐城VS宿迁 #2026苏超 （荔枝新闻中心编辑： 兰兰 小柱）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江苏卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#苏超盐城vs宿迁 下半场进行到第80分钟，盐城队边线大力手抛球，31号张文骏禁区抽射破门，梅开二度，将比分改写为盐城队2:0宿迁队。 #江苏超会玩 #苏超",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "辫子哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【苏超前瞻】盐城vs宿迁：防守铁壁对决反击利刃！谁能获胜？ 盐城打宿迁，风格完全相反的两队。盐城防守硬，可惜缺个正经中锋，7 场没赢过了；宿迁进攻猛，高驰单刀基",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江苏新闻广播",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "苏超淘汰赛首回合：谁主沉浮？@圆嘟嘟记者欢欢 VS@记者冰清 打起来了？！#泰州vs南通 #徐州vs无锡 #盐城vs宿迁 #苏州vs常州 #苏超淘汰赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "这顿饭已严肃品鉴不烧心": {
    "stats": {},
    "authors": [
@@ -578,6 +551,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "干净饮食不烧心 #15美金拼好饭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "苏超苏州2:1常州": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "江苏新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "苏州2比1常州！ #苏超淘汰赛 1/4决赛首回合，苏州队占得先机！#2026苏超 #苏超苏州vs常州 （荔枝新闻中心编辑：小可 小鱼 责编：小柱）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苏州发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "绝杀！逆转！苏州队2:1常州队 #江苏dou知道 #苏州同城 #苏超",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小鱼视频",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“苏超”淘汰赛中，40岁老将王飞打进反超球，助力苏州队2:1战胜常州队！主教练陈婉婷：今年是他最后一年踢苏超，我们也一直在等他进球。#苏超 #苏州VS常州 #苏",
      "likes": 0,
      "hot": 0
     }
@@ -629,6 +639,16 @@
      "hot": 0
     },
     {
+     "name": "金装才子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中网第三轮前瞻。#创作者中心 #创作灵感 15位参赛的中国选手，中网两轮过后仅剩文文和心然了，还都是外卡选手。显然看点是心然VS芙妹这场了，以前小时候都叫心然小",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "老郑家那闺女",
      "verify": "",
      "identity": "",
@@ -642,157 +662,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "神探之痕迹细节越扒越有": {
+  "国庆假期宅家无聊怎么办": {
    "stats": {},
    "authors": [
     {
-     "name": "野人少女",
+     "name": "彭爸修炼手册",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "无监控无DNA 七天创造牙痕断案先例！致敬刑侦泰斗崔道植！ #电影神探之痕迹 #刑侦八虎 #电影神探之痕迹观后感 #国庆档观影repo #影娱热点团",
+     "text": "婆婆带娃小妙招，低成本高质量遛娃！ #亲子游戏 #低成本带娃 #我的长长长假 #长长长假带娃指南#国庆反向带娃不扎堆",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "灯影刘肉丝",
+     "name": "就想挨打",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "三重内核，尺度巨大，当之无愧的国庆档最佳！ 《神探之痕迹》观后感 #国庆档观影repo #电影神探之痕迹 #电影神探之痕迹观后感 #影娱热点团 #陈思诚",
+     "text": "猪鼻子憋笑挑战#孙子逊 #搞笑 #内容过于真实 #憋笑挑战",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "毛嗑Alan小清新",
+     "name": "旋风牛肉粒",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国刑侦八虎 【神眼 崔道植】 #奇闻奇事 #真实事件 #国庆 #刑侦八虎 #电影神探之痕迹",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "欧国联英格兰7:0克罗地亚": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小乃侃球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "惨案！英格兰7-0克罗地亚 贝林1射3传凯恩2射1传萨卡双响 #英格兰 #克罗地亚 #贝林厄姆 #哈里凯恩 #英格兰vs克罗地亚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 10月4日（发布），欧国联今天凌晨出“惨案”，贝林厄姆1射3传 凯恩2射1传，英格兰7-0克罗地亚，控球率英格兰64%，全场碾压式优势 有点不像英格",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间10月4日凌晨，欧国联A3组第3轮，英格兰客场7比0大胜克罗地亚。克罗地亚队长莫德里奇赛后接受了媒体的采访。莫德里奇表示自己在国家队效力了20年，这是第",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豫视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "克罗地亚队史最惨失利！主场0：7惨败英格兰，莫德里奇：我在国家队待了20年，第一次在比赛后感到羞耻#足球 #克罗地亚 #英格兰 （编辑：小波）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 克罗地亚0比7惨败于英格兰，莫德里奇回应：“我在克罗地亚队已经二十年了，但这是我第一次在一场比赛后感到羞愧”（澎湃新闻记者 马作宇）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "袁一琦武汉演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "无乐不欢Online",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "袁一琦你要我QQ不要 我想看你QQ空间#袁一琦 #袁一琦UNKNOWN演唱会 #袁一琦武汉演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "袁一琦工作室",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "'𝐔𝐍𝐊𝐍𝐎𝐖𝐍' 𝐂𝐨𝐧𝐜𝐞𝐫𝐭 𝐓𝐨𝐮𝐫 城市切换，舞台上线。@袁一琦（10.4武汉演唱会版 #袁一琦 #袁一琦UNKN",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鳄鱼小兔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "彩排都这么萌的琦琦！ #袁一琦 #袁一琦武汉演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "披哥Believer舞台好燃": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "披荆斩棘",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王传君、王啸坤、艾热、王以太《Believer》，把磨难化作前行力量，于逆境之中坚守信念！#披荆斩棘 #披荆斩棘2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "艾热",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今晚《Believer》就差这一哆嗦。🫨#披荆斩棘 #艾师傅披荆斩棘日记 #狗熊哆嗦毛 #长长长假星日记",
+     "text": "盘点六款长假宅家必玩的游戏 #热点 #游戏 #游戏推荐 #国庆 #宅家dou剧场",
      "likes": 0,
      "hot": 0
     }
@@ -907,6 +806,137 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "国庆假期过得飞快": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "訨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一眨眼国庆假期已经接近尾声了，时间过的可真快呀，好像啥也没干，就又要开始上班上课了，下次见面，就是跨年夜了！#国庆假期结束了 #国庆假期最后一天 #我的国庆假期",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小七",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#今日分享#10.4返程#堵车 10.4号返程，就开始堵车了！你们不是放假7天吗？出发这么早干嘛呢！😂😂😂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ㅤㅤㅤㅤㅤㅤ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "假期为何过得如此之快#国庆假期",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一条抖音告别名古屋亚运会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "CHN-1",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#亚运会闭幕式#一条抖音结束名古屋亚运会。幸担任亚运会闭幕式旗手，倍感光荣。感恩祖国信任，感恩团队一路相伴。高举国旗，使命在肩，不忘初心，继续向前！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #文娱体万象观 #名古屋亚运会 《亚运之约》专访中国男足队员吴曦、李昊及主教练安东尼奥参加专访。时隔28年，中国男足再次登上亚运领奖台！这枚铜牌是新",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈圆将👑",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运第116金是我！成功捍卫了110米栏的荣誉！ #亚运会夺金请报数 #名古屋亚运会#陈圆将",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "卢为",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026亚运会第99金来抖音报到啦！#亚运会夺金请报数 @陈芋汐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拜合拉木Bakram",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🥉 #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "穷游富游不如少年游": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "太阳旅行日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三毛 好像有一瞬间。你的痛苦 我感同身受。#交换100个旅途故事 #长长长假期旅行慢游 #穷游富游不如少年游 #三毛 #看世界",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "郑粥粥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我们穿汉服终于踏上长城！才懂得了什么叫做终不似少年游#长城 #欲买桂花同载酒终不似少年游 #明制汉服 #潮汕女孩",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "独行",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "穷游富游都不如少年游 欲买桂花同载酒 终不似少年游. #独行#旅行#少年游 #徒步",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "我的国庆安排belike": {
    "stats": {},
    "authors": [
@@ -944,16 +974,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王橹杰路灯下跳舞好有氛围感": {
+  "神探之痕迹细节越扒越有": {
    "stats": {},
    "authors": [
     {
-     "name": "TF家族",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "野人少女",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "适合夜晚散步的地方 在路灯下跳完这支舞吧🍂 #TF家族练习生 王橹杰 #长长长假星日记",
+     "text": "无监控无DNA 七天创造牙痕断案先例！致敬刑侦泰斗崔道植！ #电影神探之痕迹 #刑侦八虎 #电影神探之痕迹观后感 #国庆档观影repo #影娱热点团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "灯影刘肉丝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三重内核，尺度巨大，当之无愧的国庆档最佳！ 《神探之痕迹》观后感 #国庆档观影repo #电影神探之痕迹 #电影神探之痕迹观后感 #影娱热点团 #陈思诚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毛嗑Alan小清新",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国刑侦八虎 【神眼 崔道植】 #奇闻奇事 #真实事件 #国庆 #刑侦八虎 #电影神探之痕迹",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "袁一琦武汉演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "无乐不欢Online",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "袁一琦你要我QQ不要 我想看你QQ空间#袁一琦 #袁一琦UNKNOWN演唱会 #袁一琦武汉演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "袁一琦工作室",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "'𝐔𝐍𝐊𝐍𝐎𝐖𝐍' 𝐂𝐨𝐧𝐜𝐞𝐫𝐭 𝐓𝐨𝐮𝐫 城市切换，舞台上线。@袁一琦（10.4武汉演唱会版 #袁一琦 #袁一琦UNKN",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鳄鱼小兔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "彩排都这么萌的琦琦！ #袁一琦 #袁一琦武汉演唱会",
      "likes": 0,
      "hot": 0
     }
@@ -980,6 +1067,734 @@
   },
   "怎么一跤就摔到川西了": {
    "stats": {},
+   "authors": [
+    {
+     "name": "霜霜降",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么一跤摔到山里了#徒步稻城亚丁 #川西旷野 #川西生命力 #转场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姜姜～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么摔了一跤就到川西了～#户外 #猎空舞 #守望先锋 #川西慢充旅行日记 #我的国庆慢充宝藏城市",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "溯.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么摔了一跤就到川西了～ #川西美景 #转场 #户外自由计划#川西旅行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "于子迪当选亚运会女子MVP": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息｜汶颂、于子迪当选第20届亚运会最有价值运动员（记者：杨帆、孙哲）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "于子迪获评亚运会女子MVP#于子迪 #游泳 #MVP #名古屋亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 厉害了河北“小孩姐” ！13岁游泳运动员于子迪成为亚运会史上最年轻MVP。她首次参加亚运会就斩获3金，也是首位在境外参加亚运会获此殊荣的中国选手。未",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "于子迪（13岁）汶颂（20岁），当选本届亚运会最有价值运动员，祝贺小将，未来可期！#亚运会 #于子迪 #汶颂 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "保定日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从全运到亚运 对话于子迪：三金之后 向着新目标奋力游进",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026亚运会男女MVP出炉，单人奖金高达25000美元！中国选手于子迪当选女子MVP，首次参加亚运会便斩获3枚金牌！#名古屋亚运会 #于子迪 #游泳 #中国 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "光明网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚运会MVP公布！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "日本就驻日美军杀人案向美方抗议": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本警方逮捕一驻日美军士兵 涉杀人抢劫 日本向美方提出抗议 高市早苗:极为遗憾 #日本 #美国 #驻日美军 #高市早苗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 高市早苗：强烈要求美方最大限度配合调查，严肃军纪，彻底防止类似事件再次发生#美国 #日本",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #驻日美军涉嫌劫杀日本女子 \"四箭齐发\" 日本高层集体破防 政治表演！日美同盟才是关键 美军只\"哀悼\"不撤军 高市查命案都要看脸色 谈何尊严? #媒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "驻冲绳美军涉嫌杀害当地女性，日本防相罕见硬刚美军：完全不可接受！强烈抗议！#日本 #冲绳 #美国 #美军 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "高市早苗：强烈要求美方最大限度配合调查，严肃军纪，彻底防止类似事件再次发生，驻日美军涉杀人案更多细节披露：197人连夜搜捕，嫌疑人在娱乐区被抓，面对调查称不知道",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "神探之痕迹尺度大到一愣又一愣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电影神探之痕迹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "思诺笑之后，突脸镜头+1#电影神探之痕迹 #陈飞宇 #国庆档观影repo",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "像当地人一样旅行": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "一听夏夏！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "希望大家都能玩的愉快嗷！#日常分享 #碎碎念 #旅游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "高原",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "找一个本地本地朋友带玩一天是种什么样的体验#交换世界计划 #交换100个旅途故事 #神都洛阳穿越记 #寻迹洛神13天穿越派对 #中秋国庆寻迹洛神",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "灯泡萝卜🥕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "出去溜达溜达（不是最近）#农村生活日常 #vlog旅行记 #闲逛 #像当地人一样旅行 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的假期有娃陪": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "不卖牛奶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别的不清楚 给娃娃拍人生四格是我的强项 #我的假期有娃陪 #棉花娃娃 #人生四格 #出片",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "椰子鸡梦女",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刚到家的时候他还有点拘谨 现在无法无天了，直接霸占我家了 #娃圈总动员 #我的长长长假 #bjd #我的假期有娃陪 #bjd私养",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王橹杰路灯下跳舞好有氛围感": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "TF家族",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "适合夜晚散步的地方 在路灯下跳完这支舞吧🍂 #TF家族练习生 王橹杰 #长长长假星日记",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "余红旧事婚后比婚礼还刺激": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "余红旧事（来者都是客",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#余红旧事 弟弟不听话还被其女友贴脸挑衅，这姐姐也太难当了 #余红旧事婚后比婚礼还刺激 #马伊琍 #王佳佳 #张哲华",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小熠说片儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新婚彻夜死寂！夹在两个女人中间的刘阳，恶果自食 #余红旧事 #张哲华 #马伊琍 #向涵之 #余红旧事值得回味的细节",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "把假期调成快乐模式": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "欧国联英格兰7:0克罗地亚": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天蓝足球（赛事速报）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "惨案之夜！焦点对决，克罗地亚VS英格兰！ #英格兰 #克罗地亚 #贝林厄姆 #天蓝足球 #dou来足球季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间10月4日凌晨，欧国联A3组第3轮，英格兰客场7比0大胜克罗地亚。克罗地亚队长莫德里奇赛后接受了媒体的采访。莫德里奇表示自己在国家队效力了20年，这是第",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿宝足球故事",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "实在耻辱，莫德里奇怒喷国家队 #欧国联英格兰7比0克罗地亚 #FCONLINE #FCOL金球计划 #莫德里奇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙视新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 10月4日（发布），欧国联今天凌晨出“惨案”，贝林厄姆1射3传 凯恩2射1传，英格兰7-0克罗地亚，控球率英格兰64%，全场碾压式优势 有点不像英格",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "UEFA欧洲杯",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欧国联A级联赛第三轮第三比赛日战报。🇭🇷🏴󠁧󠁢󠁥󠁮󠁧󠁿上半场，贝林厄姆直塞助攻凯恩破门，戈登倒三角助攻贝林破门，夸安萨传中戈登头球破门，贝林厄",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "重生2阿如那为救梁洛施以身堵门": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电影重生2",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#阿如那 演纯爱？手拿把掐～#电影重生2 #长长长假电影时间 #国庆档观影repo",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "披哥Believer舞台好燃": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "披荆斩棘",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王传君、王啸坤、艾热、王以太《Believer》，把磨难化作前行力量，于逆境之中坚守信念！#披荆斩棘 #披荆斩棘2026",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "艾热",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今晚《Believer》就差这一哆嗦。🫨#披荆斩棘 #艾师傅披荆斩棘日记 #狗熊哆嗦毛 #长长长假星日记",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王聪虽败犹荣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "UFC终极格斗冠军赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王聪后程发力奋力直追，双方战至比赛最后一秒！#UFC332 #王聪VS席尔瓦 #UFC",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李羲承DOM摇": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "辛承之",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "death of me还能战一百年#李羲承 #直拍 #DOM摇 #DEATH_OF_ME #DeathofMe舞蹈挑战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李羲承_HEESEUNG小鹿园",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "摇起来(yc@辛承之)✂️小怡 #DOM摇 #长长长假追星日记 #李羲承",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Ever15（关注就嫁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我就边跳DOM摇边展示穿搭 （yc：@辛承之） #DOM摇 #李羲承 #Evan #Deathofme舞蹈挑战 #变装",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "放假回村也能居家健身": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱运动的亚君儿💕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆放假回村训练✅ 回村没有条件 就创造条件 任何东西都可以是器械#国庆 #回村锻炼 #国庆在家练 #户外健身 #练背",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "吴克群变身蜘蛛侠漫展发传单寻亲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吴克群",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "愿天下无拐，愿所有孩子平安回家 #吴克群的巡演看世界 #人间观察计划 #一场10年25700个家庭的团圆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月4日（发布）。歌手吴克群国庆假期身穿蜘蛛侠服装现身西安，帮寻子18年的伍兴虎发数千份传单，当事人回应：非常感激。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "泰山景区回应出现火情": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 泰山出现火情，多架直升机参与扑救，景区称目前正常运营，部分路段已管控，当地应急：已有救援队上山救援",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "文思静语",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泰山火情历经4小时成功扑灭 #泰山 #中国速度 #消防直升机 #森林防火人人有责",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵小胖🇨🇳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泰山这是着火了嘛#泰山着火 #泰山冒烟 #山顶着火 #泰山 #直升机救火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蛤蟆伟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#泰山#泰山山火救援",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌈98K",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泰山不明原因冒烟，立马打了火警电话！第一次报火警给了泰山，愿泰山无恙！也希望来旅游的宝子们拒绝携带烟火！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "起个什么名字呢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泰山着火了。上山不要带火种，哪怕带了，烟头及时掐灭。#泰山着火 #消防救援 #消防安全 #泰山 #旅游",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄霄雲全开麦唱响歌唱祖国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黄霄雲（重庆10.24巡演版）",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "祝亲爱的祖国繁荣昌盛！！ #歌唱祖国 #国庆节 #国庆闪身全国各地",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ObscureW",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄霄雲 - 歌唱祖国 #黄霄雲 #国庆 #歌唱祖国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今天飘来一朵雲",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄霄雲国庆节在枣庄拼盘演唱会唱《歌唱祖国》正能量输出 #黄霄雲 #歌唱祖国 #黄霄雲现场版live",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "和老照片里的自己跨时空合影": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "明花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时光悄悄换了模样，有些遗憾，只能讲给从前的自己听。#致我们的青春一去不复返 #旧照片里的青春回忆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王海梅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "七零后年代结婚照",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赵同学.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间过得好快",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "向日葵的微笑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "与年轻时的自己合影，你看我有几分像从前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "傲骨一身",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#和老照片里的自己跨时空合影 #气场不减当年",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娟儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间会带走任何人，只是早或晚#和老照片里的自己跨时空合影",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乡村生活",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "岁月就像一把杀猪刀，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "家有二宝.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "七零后的结婚照，那时的我好年轻哟😄",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "露营摆盘记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时光飞逝转眼间我们都不再年轻了 ，看看你的18 岁！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张大新",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当年穿婚纱的我，如今半百之人了。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "挑战0元搭车完成长途旅行": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "崔丁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好人应该有好报 #长长长假期旅行慢游 #交换100个旅途故事 #葛仙村",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄明昊重庆演唱会": {
+   "stats": {},
    "authors": [],
    "lexicon": []
   },
@@ -988,45 +1803,133 @@
    "authors": [],
    "lexicon": []
   },
-  "余红旧事婚后比婚礼还刺激": {
+  "张家齐发文告别我家那闺女": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“妈妈，人生是旷野”张家齐发长文总结《我家那闺女》 我想像每一个努力生活的普通女孩一样 学着掌控和主导自己的人生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奥运冠军张家齐参加综艺后发文：妈妈，我想像每个普通女孩一样，学着掌控和主导人生，拥有更健全、更丰富的人格",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张家齐总结《我家那闺女》：感谢节目组记录最普通、最真实日常，每期都有认真看，也确实有新的认知和反思，接下来将以观察室嘉宾身份出现（张旭）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "日本就驻日美军杀人案向美方抗议": {
+  "井迪和粉丝牵手走台好甜": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "神探之痕迹尺度大到一愣又一愣": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "黄明昊重庆演唱会": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "国庆假期宅家无聊怎么办": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "李羲承DOM摇": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "把假期调成快乐模式": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "小新",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#live现场记录 井迪，#第三视角 #井迪儿 #牛魔王逍遥谷",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "赵露思当证婚人": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "都市现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆假期，网友偶遇赵露思在成都参加婚礼，视频中赵露思造型朴素低调，身穿白衬衫搭配牛仔裤。 赵露思在婚礼上担任证婚人 #网友偶遇赵露思在成都参加婚礼 #赵露思当证",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "发财露（好运版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "网友发的露思参加了表姐的婚礼📍🥹 #赵露思#偶遇赵露思 #明星零距离",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈一碗饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "是谁这么幸运在婚礼上遇到了赵露思！！💜 #赵露思 #可露丽",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国庆档观影repo": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小玄 夜说书",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“刑侦八虎”崔道植：横跨45年，四桩重案背后的10大细节！ #国庆档观影repo",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘老师说电影",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这电影指定有点啥说法 #长长长假电影时间 #影娱热点团 #国庆档观影repo",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大名卷卷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《神探之痕迹》非常主旋律的一部作品 #神探之痕迹 #长长长假电影时间 #国庆档观影repo",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   }
  }
 }
