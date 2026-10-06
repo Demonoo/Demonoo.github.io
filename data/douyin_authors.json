@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-06 08:43",
+ "updated_at": "2026-10-06 09:44",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
- "ok_count": 41,
+ "topic_count": 48,
+ "ok_count": 39,
  "lexicon_count": 0,
  "topics": {
   "中国代表点名驳斥6国": {
@@ -30,22 +30,22 @@
      "hot": 0
     },
     {
-     "name": "CCTV4",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当地时间10月5日，中国常驻联合国副代表孙磊在联大第三委员会一般性辩论中针对西方国家进行答辩发言，奉劝少数国家停止编造散布涉华谎言，停止借人权问题搞政治操弄。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "极光新闻",
      "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "中国代表点名警告英国、澳大利亚、日本、爱尔兰、捷克、立陶宛，在发言中恶意诋毁中国人权状况！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东南早报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国代表点名警告英澳日等国，无权对中国说三道四。",
      "likes": 0,
      "hot": 0
     },
@@ -63,56 +63,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国足vs塔吉克斯坦": {
+  "国庆假期余额不足": {
    "stats": {},
    "authors": [
     {
-     "name": "新重庆-重庆日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "刘点快乐",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#邵佳一称明天完美结束本次热身赛 国足10月6日晚进行本次热身赛最后一战 赛前新闻发布会主帅邵佳一表态 球队从前两场失利中振作起来 明天给球迷们一个完美的答案#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国男足今天将战塔吉克斯坦队，国足主帅邵佳一：会给全国球迷一个完美的答案。#国足#邵佳一",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 今晚19时35分，邵佳一率领的中国男足将在重庆国际足球邀请赛中迎来最后一场比赛，对手是实力一般的塔吉克斯坦队。国足亟需一场“说得过去”的胜利来平息外",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "观海新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邵佳一：相信明天会给全国球迷一个完美的答案。来源：重庆日报",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 主教练邵佳一：“非常抱歉。”10月2日晚，在重庆进行的CFA中国之队国际足球邀请赛中，国足0比5惨败巴勒斯坦，队史首次输给对手。（#重庆广电-第1眼",
+     "text": "我什么都还没干呢。。 #国庆倒计时 #假期余额不足 #精神状态belike #内容过于真实",
      "likes": 0,
      "hot": 0
     }
@@ -177,16 +137,93 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国庆假期余额不足": {
+  "国足vs塔吉克斯坦": {
    "stats": {},
    "authors": [
     {
-     "name": "刘点快乐",
-     "verify": "",
-     "identity": "",
+     "name": "新重庆-重庆日报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我什么都还没干呢。。 #国庆倒计时 #假期余额不足 #精神状态belike #内容过于真实",
+     "text": "#邵佳一称明天完美结束本次热身赛 国足10月6日晚进行本次热身赛最后一战 赛前新闻发布会主帅邵佳一表态 球队从前两场失利中振作起来 明天给球迷们一个完美的答案#",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国男足今天将战塔吉克斯坦队，国足主帅邵佳一：会给全国球迷一个完美的答案。#国足#邵佳一",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 今晚19时35分，邵佳一率领的中国男足将在重庆国际足球邀请赛中迎来最后一场比赛，对手是实力一般的塔吉克斯坦队。国足亟需一场“说得过去”的胜利来平息外",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "观海新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "邵佳一：相信明天会给全国球迷一个完美的答案。来源：重庆日报",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第1眼新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 主教练邵佳一：“非常抱歉。”10月2日晚，在重庆进行的CFA中国之队国际足球邀请赛中，国足0比5惨败巴勒斯坦，队史首次输给对手。（#重庆广电-第1眼",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "日本开始第24轮核污染水排海": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本开始第24轮核污染水排海，排放总量约7800吨，含放射性氚总量约1.2万亿贝克勒尔。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本开始第24轮核污染水排海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青蜂侠",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无视国际社会质疑！日本开始第24轮核污染水排海，排放总量约7800吨#热点 #精选主播说 #媒体原创 #日本 #核污水排海",
      "likes": 0,
      "hot": 0
     }
@@ -218,12 +255,12 @@
      "hot": 0
     },
     {
-     "name": "Erany📸",
+     "name": "-淑冰ing",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "下次回来就是2027年了，祝各位游子们返程一路平安 #中国高铁 #和谐号 #高铁 #铁路摄影",
+     "text": "下次回来就是2027年了#行李好重 #大学生返校#返程",
      "likes": 0,
      "hot": 0
     }
@@ -268,79 +305,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "假期打卡北京的秋天": {
+  "当美食判官回顾假期": {
    "stats": {},
-   "authors": [
-    {
-     "name": "爱拍照的Nydia📷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间是来不及细算的 直到冷空气夹着回忆袭来才发觉又是一年 #北京 #秋天 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Mlo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这条街的策划是天才#北平的秋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "明天就暴富！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好像那是一个秋天 夕阳西下。#分享照片#你说得对人是应该多出去走走 #胡同 #北京秋天氛围感穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "日本开始第24轮核污染水排海": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本开始第24轮核污染水排海，排放总量约7800吨，含放射性氚总量约1.2万亿贝克勒尔。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本开始第24轮核污染水排海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青蜂侠",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无视国际社会质疑！日本开始第24轮核污染水排海，排放总量约7800吨#热点 #精选主播说 #媒体原创 #日本 #核污水排海",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "明珍珍死刑前画面曝光": {
    "stats": {},
@@ -386,79 +354,12 @@
      "hot": 0
     },
     {
-     "name": "中原新闻网",
+     "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "@中原新闻网#29岁明珍珍死刑前画面曝光 #毫无悔意甚至带着笑意 “既然人已经死了就把他们埋掉” #民警披露:用机枪扫射甚至拉一批人进行补枪#明珍珍死刑前画面曝",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "上抖音看梅西告别战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "阿根廷国家足球队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "归队！熟悉的身影再次回到熟悉的地方。 又一次穿上蓝白战袍，这一次格外不同。 10月7日，静待属于梅西和所有阿根廷球迷的特别之战！ #阿根廷国家队 #阿根廷队 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新爱体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最后的探戈！10月7日7:00，@新爱体育 全程视频直播梅西国家队告别战：阿根廷🆚贝宁 #梅西 #阿根廷队 #梅西告别战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王楚淇",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "淇言万物：明早七点，梅西阿根廷告别之战，不见不散！ #梅西告别赛 #阿根廷 #王楚淇说球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "丁偉傑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梅西国家队告别战！不可错过！ #梅西 #阿根廷 #梅西告别赛 #粤语解说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "战术睡衣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梅西国家队告别战 10月7日直播解说别错过#阿根廷 #梅西 #梅西告别赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "导演说球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梅西国家队告别战，导老师陪你一起看 #梅西告别赛 #阿根廷 #梅西",
+     "text": "“尸体带不回，也要把生物检材带回来！”民警冒着缅甸果敢地区战事风险，深入缅北电诈园区调查取证，带回明家“10·20”命案和赌诈犯罪的核心关键物证。#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -500,83 +401,22 @@
      "hot": 0
     },
     {
+     "name": "亚克西视角",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "过去24小时沙特对胡塞武装控制区多地实施94次空袭 【中央广播电视总台维吾尔语】",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "新闻夜航",
      "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月5日（发布）。胡塞武装：24小时内遭沙特和也门政府军狂轰106次，萨那一大型医院附近遭袭，胡塞武装反击，导弹和无人机装击沙特阿美两处设施",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "乌一夜发射650架无人机袭莫斯科": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#乌军一夜650架无人机袭莫斯科地区#乌克兰一夜发射650架无人机打击俄首都",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跑步真的伤膝盖吗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "科学辟谣",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一个视频揭秘跑步不伤膝盖的医学原理，转发给你身边有需要的人看~#跑步 #膝盖 #健康 #医学原理",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "手帐人的假期战利品": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "凯蒂欧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#手帐进货 #手帐 #鲨里鲨气#whatislove",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芋头Ooko",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "旅行✈️如何0成本空手套手帐素材！😎 最近在旅游！总结一下自己常薅手帐素材的地方 📍机场✈️ 📍地铁站🚉 📍酒店🏨 📍景点服务台or出入口导览标识",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吱吱哈哈（嘿嘿求关注版",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "阿勒泰捡秋🍂用DIY记录和好朋友的旅行 #打开世界这本书 #我的长长长假 #假期不停手大赏 #手帐人的假期战利品 #国庆宅家人MVP结算",
      "likes": 0,
      "hot": 0
     }
@@ -661,208 +501,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "听潮阁启冬眠国庆打卡手势舞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "𝑇.冬眠¹²²¹（白佳的弟）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你应该马上来～ #听潮阁启冬眠 #国庆 #手势舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "顺手牵猪🐷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一键跟随这一块。 音频:@𝑇.冬眠¹²²¹ #听潮阁启冬眠 #听潮阁冬眠 #手势舞 #非本人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑫𝒎.洋洋¹²²¹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@𝑇.冬眠¹²²¹ 囧囧囧囧囧~#听潮阁启冬眠 #听潮阁冬眠 #小海眠的冬眠日记 #ai舞蹈",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "心与心的朋友我不认识了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "嘞是唐孃孃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《我信任的，交心的，交流的，心与心》 #超能演剧场2026 #国庆给生活放个长假 #即梦AI创作者成长计划 #花少2 #嘞是唐孃孃",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "不烧心的一周": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "LET蜜橙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《依旧不烧心》立住一些规矩 #火影忍者手游 #火影主播AI二创 #水姐 #银色虞姬 #LibTV创作者成长计划 本视频由LibTV生成@水姐（老公晚安） @晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "摆渡人生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天体验的副本是:不烧心的一周！#国庆假期 #不烧心 #短剧 #人生副本",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "自然醒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国庆这样玩不烧心#不烧心 #红果短剧 #豆包 @洛珩（全游戏电竞🥣） #AI",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "挑战看生化危机不被吓到惊跳": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "舒嬷嬷MOMO",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "连我这个生化危机老玩家都表示被恶心到了 #电影生化危机爆发夜 #生化危机新片超前观影口碑",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "七根华子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和小十岁男友来看恐怖片是什么体验 #情侣日常#恋爱日常#电影生化危机爆发夜 #生化危机新片超前观影口碑",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "变色毛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "看电影《生化危机：爆发夜》看一半把我俩吓出影厅了！#电影生化危机爆发夜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "剧版喜剧之王开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "杨超越",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "热热闹闹的我们✨。📸群像的魅力是多彩的 可是我怎么感觉 我们现在开始串色了哈哈哈 #电视剧喜剧之王 #剧版喜剧之王开播",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王建华是小小华",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁能比我眼睛小！ #剧版喜剧之王开播 今天不拍什么，今天看#电视剧喜剧之王",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李晨",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#剧版喜剧之王开播 村头如战场，看我如何拿下这局😎#电视剧喜剧之王",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李荣浩临沂演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "李荣浩",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "临沂 day1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Pivot",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "永远的紫荆花#全开麦演唱会现场 #李荣浩临沂演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "琅琊新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在全世界都看到过临沂炒鸡四个字！歌手李荣浩「黑马」 世界巡回演唱会—临沂站今晚开唱！（临沂市融媒体中心）#临沂炒鸡 #李荣浩 #李荣浩巡回演唱会 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "国庆假期速度belike": {
    "stats": {},
    "authors": [
@@ -910,37 +548,222 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "当美食判官回顾假期": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "神探之痕迹里的意难平": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "魅影神捕四大名捕惩恶好爽": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "许涛叫阵切磋杜兰特": {
+  "跑步真的伤膝盖吗": {
    "stats": {},
    "authors": [
     {
-     "name": "Eric许涛（1%）",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "科学辟谣",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“迟早打杜兰特”大家起初只是当句玩笑！ 欢迎@杜兰特KevinDurant 入驻抖音！希望你能看到这个视频，咱们NBA中国赛见！#杜兰特 #NBA中国赛 #切磋",
+     "text": "一个视频揭秘跑步不伤膝盖的医学原理，转发给你身边有需要的人看~#跑步 #膝盖 #健康 #医学原理",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "手帐人的假期战利品": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "凯蒂欧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#手帐进货 #手帐 #鲨里鲨气#whatislove",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芋头Ooko",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "旅行✈️如何0成本空手套手帐素材！😎 最近在旅游！总结一下自己常薅手帐素材的地方 📍机场✈️ 📍地铁站🚉 📍酒店🏨 📍景点服务台or出入口导览标识",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吱吱哈哈（嘿嘿求关注版",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "阿勒泰捡秋🍂用DIY记录和好朋友的旅行 #打开世界这本书 #我的长长长假 #假期不停手大赏 #手帐人的假期战利品 #国庆宅家人MVP结算",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "听潮阁启冬眠国庆打卡手势舞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "𝑇.冬眠¹²²¹（白佳的弟）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你应该马上来～ #听潮阁启冬眠 #国庆 #手势舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "顺手牵猪🐷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一键跟随这一块。 音频:@𝑇.冬眠¹²²¹ #听潮阁启冬眠 #听潮阁冬眠 #手势舞 #非本人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝑫𝒎.洋洋¹²²¹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@𝑇.冬眠¹²²¹ 囧囧囧囧囧~#听潮阁启冬眠 #听潮阁冬眠 #小海眠的冬眠日记 #ai舞蹈",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "剧版喜剧之王开播": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杨超越",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "热热闹闹的我们✨。📸群像的魅力是多彩的 可是我怎么感觉 我们现在开始串色了哈哈哈 #电视剧喜剧之王 #剧版喜剧之王开播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王建华是小小华",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁能比我眼睛小！ #剧版喜剧之王开播 今天不拍什么，今天看#电视剧喜剧之王",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李晨",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#剧版喜剧之王开播 村头如战场，看我如何拿下这局😎#电视剧喜剧之王",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "挑战看生化危机不被吓到惊跳": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "心与心的朋友我不认识了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "假期打卡北京的秋天": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱拍照的Nydia📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间是来不及细算的 直到冷空气夹着回忆袭来才发觉又是一年 #北京 #秋天 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Mlo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这条街的策划是天才#北平的秋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "明天就暴富！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好像那是一个秋天 夕阳西下。#分享照片#你说得对人是应该多出去走走 #胡同 #北京秋天氛围感穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李荣浩临沂演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李荣浩",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "临沂 day1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Pivot",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "永远的紫荆花#全开麦演唱会现场 #李荣浩临沂演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "琅琊新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在全世界都看到过临沂炒鸡四个字！歌手李荣浩「黑马」 世界巡回演唱会—临沂站今晚开唱！（临沂市融媒体中心）#临沂炒鸡 #李荣浩 #李荣浩巡回演唱会 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "神探之痕迹里的意难平": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "用花少2的方式打开国庆自驾游": {
    "stats": {},
@@ -979,70 +802,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "驻马店有自己的天妇罗": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "首届麻包谷大赛": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "在东营看到此生难忘的鸟浪": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我是77呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北冥有鱼是真的！在东营看到此生难忘的鸟浪 #东营鸟浪 #北冥有鱼 #逍遥游 #东营旅游 #黄河口生态旅游区",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小刘同学yu🔆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不虚此行！#东营鸟浪#北冥有鱼其名为鲲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "WR🏠（软装中）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "群鸟为潮，天地作幕 可遇不可求的自然奇观！没有滤镜，就是大自然最顶级的大片。#东营鸟浪 #自然奇观 #黄河入海口 #好客山东 #候鸟迁徙",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟敖瑞鹏一起珍藏这场云烟花": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "敖瑞鹏工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这份跨越山海的厚爱，每一帧都是爱意的注脚。天空中星点如雨，汇聚成璀璨的漫天烟火。而当爱与真心交汇，竟会迸发出更大的奇迹，让每一个靠近的人都由衷地感受到幸福。即便",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "侯明昊Holy Moly展示网速": {
    "stats": {},
    "authors": [
@@ -1060,46 +819,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "用闪身步打开我的旅行兴趣班": {
+  "不烧心的一周": {
    "stats": {},
    "authors": [
     {
-     "name": "椰椰雪球",
+     "name": "LET蜜橙",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "闪身步上旅行兴趣班 #闪身步 #国庆开启Skillcation模式 #国庆给生活放个长假",
+     "text": "《依旧不烧心》立住一些规矩 #火影忍者手游 #火影主播AI二创 #水姐 #银色虞姬 #LibTV创作者成长计划 本视频由LibTV生成@水姐（老公晚安） @晚安",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "醋醋cucu",
+     "name": "摆渡人生",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "用闪身步打卡自己配音的展台就是这么丝滑 看看这么多角色有没有你喜欢的声音？#闪身步 #打开二次元长长长假生活方式 #闪身步就这样搞二次元#我的长长长假 蕾米co",
+     "text": "今天体验的副本是:不烧心的一周！#国庆假期 #不烧心 #短剧 #人生副本",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "玖月旅行记",
+     "name": "自然醒",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "女孩子也有自己的武侠梦 闪身步也算是被我玩明白了#闪身步 #用闪身步打开国庆假期 #女孩子也有自己的武侠梦 #假期来峨眉感受自然力量 #国风剑舞庆祝国庆",
+     "text": "国庆这样玩不烧心#不烧心 #红果短剧 #豆包 @洛珩（全游戏电竞🥣） #AI",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "许涛叫阵切磋杜兰特": {
+   "stats": {},
+   "authors": [
     {
-     "name": "刘敢敢",
-     "verify": "",
-     "identity": "",
+     "name": "Eric许涛（1%）",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "帮我看看我闪对了没 #你的闪身步闪去哪里 #闪身步出道挑战 #闪身蹦沙卡拉卡 #国庆给生活放个长假 #闪身步",
+     "text": "“迟早打杜兰特”大家起初只是当句玩笑！ 欢迎@杜兰特KevinDurant 入驻抖音！希望你能看到这个视频，咱们NBA中国赛见！#杜兰特 #NBA中国赛 #切磋",
      "likes": 0,
      "hot": 0
     }
@@ -1214,37 +980,116 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "刘耀文帮大家重返九月底": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "邓超邀请大妈舞团上美好奇妙夜": {
+  "跟敖瑞鹏一起珍藏这场云烟花": {
    "stats": {},
    "authors": [
     {
-     "name": "老邓（SuperDeng）",
-     "verify": "黄V",
+     "name": "敖瑞鹏工作室",
+     "verify": "蓝V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "作为亚洲舞王的我，却被姐姐们多次拒绝@村里大妈跳不齐#邓超#你是我的超级英雄#2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "邓超工作室",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“大爷”街头当众后空翻，乔装混入大妈舞团究竟为何？室子定睛一看：咦，这不是江西舞王#邓超 超Boss吗？@老邓（SuperDeng） 带着超级英雄们一起去#20",
+     "text": "这份跨越山海的厚爱，每一帧都是爱意的注脚。天空中星点如雨，汇聚成璀璨的漫天烟火。而当爱与真心交汇，竟会迸发出更大的奇迹，让每一个靠近的人都由衷地感受到幸福。即便",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "余红旧事郝洁拿老公换救命钱": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "用闪身步打开我的旅行兴趣班": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "椰椰雪球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闪身步上旅行兴趣班 #闪身步 #国庆开启Skillcation模式 #国庆给生活放个长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "醋醋cucu",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "用闪身步打卡自己配音的展台就是这么丝滑 看看这么多角色有没有你喜欢的声音？#闪身步 #打开二次元长长长假生活方式 #闪身步就这样搞二次元#我的长长长假 蕾米co",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "玖月旅行记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "女孩子也有自己的武侠梦 闪身步也算是被我玩明白了#闪身步 #用闪身步打开国庆假期 #女孩子也有自己的武侠梦 #假期来峨眉感受自然力量 #国风剑舞庆祝国庆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘敢敢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "帮我看看我闪对了没 #你的闪身步闪去哪里 #闪身步出道挑战 #闪身蹦沙卡拉卡 #国庆给生活放个长假 #闪身步",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "在东营看到此生难忘的鸟浪": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我是77呀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北冥有鱼是真的！在东营看到此生难忘的鸟浪 #东营鸟浪 #北冥有鱼 #逍遥游 #东营旅游 #黄河口生态旅游区",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小刘同学yu🔆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不虚此行！#东营鸟浪#北冥有鱼其名为鲲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "WR🏠（软装中）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "群鸟为潮，天地作幕 可遇不可求的自然奇观！没有滤镜，就是大自然最顶级的大片。#东营鸟浪 #自然奇观 #黄河入海口 #好客山东 #候鸟迁徙",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "驻马店有自己的天妇罗": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "敲一敲我的会玩假期": {
    "stats": {},
@@ -1283,21 +1128,31 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "余红旧事郝洁拿老公换救命钱": {
+  "魅影神捕四大名捕惩恶好爽": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "国庆节跟着高迪玩转黑风关": {
+  "邓超邀请大妈舞团上美好奇妙夜": {
    "stats": {},
    "authors": [
     {
-     "name": "流星雨",
-     "verify": "",
-     "identity": "",
+     "name": "老邓（SuperDeng）",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "期待精彩高迪来黑风关#国庆节跟着高迪玩转黑风关#黑风关古镇",
+     "text": "作为亚洲舞王的我，却被姐姐们多次拒绝@村里大妈跳不齐#邓超#你是我的超级英雄#2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "邓超工作室",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“大爷”街头当众后空翻，乔装混入大妈舞团究竟为何？室子定睛一看：咦，这不是江西舞王#邓超 超Boss吗？@老邓（SuperDeng） 带着超级英雄们一起去#20",
      "likes": 0,
      "hot": 0
     }
@@ -1305,32 +1160,15 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "常穿常新的秋日氛围感穿搭": {
+  "首届麻包谷大赛": {
    "stats": {},
-   "authors": [
-    {
-     "name": "卷子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诡诡 这20套秋冬穿搭你收好了呀！美丽需要日常练习！ #秋冬穿搭 #伦敦生活 #inmyfeeling #英国旅游 #canyoufeelmyworld",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "做白日梦的汉堡欧尼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "复活吧！我最爱的季节。#拍照姿势 #冬日穿搭分享 #今日穿搭分享 #首尔 #dazz",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "刘耀文帮大家重返九月底": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "是的我们又出发了": {
    "stats": {},
@@ -1389,11 +1227,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我的国庆漫展日记": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "李羲承EVANwalk": {
    "stats": {},
    "authors": [
@@ -1421,6 +1254,50 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "国庆节跟着高迪玩转黑风关": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "流星雨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "期待精彩高迪来黑风关#国庆节跟着高迪玩转黑风关#黑风关古镇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "常穿常新的秋日氛围感穿搭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "卷子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "诡诡 这20套秋冬穿搭你收好了呀！美丽需要日常练习！ #秋冬穿搭 #伦敦生活 #inmyfeeling #英国旅游 #canyoufeelmyworld",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "做白日梦的汉堡欧尼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "复活吧！我最爱的季节。#拍照姿势 #冬日穿搭分享 #今日穿搭分享 #首尔 #dazz",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "宋亚轩新学了闪身步连招": {
    "stats": {},
    "authors": [
@@ -1431,6 +1308,50 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "新学了几个动作👍 #闪身步 #浪子踢球 #猴子绕花线 #车水步 #烫脚五鼓",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "芊芊原来还有另一种身份": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "包包妍🐷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嫌疑人之一芊芊🤣原来还有另一种身份？ 跟着万姨混上了编制 让我算算东哥藏哪里了🤫 #余红旧事 #余红旧事大结局#芊芊#小演员",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "看重生2全程开了疼痛共享模式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电影重生2",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁把我的疼痛共享打开了，观看#电影重生2 请放弃表情管理～",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李威尔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我以为我胆子够大…… #电影重生2暗黑尺度超出想象 #电影重生2",
      "likes": 0,
      "hot": 0
     }
@@ -1475,26 +1396,110 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "看重生2全程开了疼痛共享模式": {
+  "广东高速返程车流排成长龙": {
    "stats": {},
    "authors": [
     {
-     "name": "电影重生2",
+     "name": "英州视觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月4日晚上8点，广连高速提前返程高峰，短暂的相聚落幕，再次奔赴谋生的路上，下一次见面就是过年了 #交通出行 #安全驾驶 #国庆堵车 #高速堵车#返程高峰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "放飞视觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这就是国庆返程的沈海高速！ 夜幕之下，一眼望不到头的红色尾灯，排成长龙。 有没有正在沈海高速上堵着的朋友？#交通#你们堵车的都堵到哪了 #长龙堵车 #沈海高速",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "发现岭南",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "广东这片热土生活创业的魅力究竟有多大？高速公路望不到头的车龙给出了答案。#直击国庆假期出行高峰 #交通出行 #实时路况 #广东高速迎来返程高峰 #国庆高速堵车原",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我跋山涉水 生命就随我流动": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "嘟嘟嘟嘟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“我跋山涉水 生命就随我流动”#稻城亚丁 #亚丁大转 #我的国庆慢充宝藏城市 #川西慢充旅行日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "冬月初八叙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我跋山涉水 生命就随我流动#黄山旅游 #天都峰 #户外徒步",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@卫平",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我跋涉 生命便随我流动。#自由旅拍在路上 #草原 #自驾游 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄明昊版过季短袖把我听碎了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小狗萌物ovo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "骗我好多眼泪… 不要这样说自己😔🥲 #黄明昊 #黄明昊justin #黄明昊重庆演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黄明昊信昊接收中（10.4重庆演唱会版",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁把我的疼痛共享打开了，观看#电影重生2 请放弃表情管理～",
+     "text": "“不用编织理由，我懂你喜新厌旧”《过季短袖》直拍@黄明昊Justin #黄明昊 #黄明昊演唱会 #黄明昊重庆演唱会 #黄明昊贾想世界glitch演唱会",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "李威尔",
+     "name": "养成系",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我以为我胆子够大…… #电影重生2暗黑尺度超出想象 #电影重生2",
+     "text": "你不会成为我的过季短袖#黄明昊",
      "likes": 0,
      "hot": 0
     }
@@ -1502,90 +1507,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "是谁在重庆免费听了soldout": {
+  "到香格里拉找到属于自己的自由": {
    "stats": {},
    "authors": [
     {
-     "name": "拾光重庆",
+     "name": "@你的小美姐姐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "重庆是越来越国际化了， 饭后遛弯，居然偶遇《Sold Out》原唱Jon Steingard。还有前段时间刷爆短视频的13岁世界街舞小冠军“秋秋”。#重庆美好推",
+     "text": "我从远方来，求得一轮信仰，转去千般烦恼，转得一世平安#香格里拉",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "🇨🇳Kevin🌈",
+     "name": "SCC鼠姐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "sold out #重庆#国庆假期 #两江消费季",
+     "text": "山野有秋风，不必追赶人间 #云南赏秋治愈之旅 #云南 #香格里拉 #旅行 #汽车",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "霹雳秋秋",
+     "name": "徐个愿",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "山河无恙，国泰民安。祝祖国繁荣昌盛！ 小时候就听过这首很燃的歌，今天居然碰到原唱Jon Steingard叔叔，所以我决定和觉醒战队的伙伴们完成这次街舞快闪，祝",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "芊芊原来还有另一种身份": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "包包妍🐷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嫌疑人之一芊芊🤣原来还有另一种身份？ 跟着万姨混上了编制 让我算算东哥藏哪里了🤫 #余红旧事 #余红旧事大结局#芊芊#小演员",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "Vibecoding预测解读诺奖": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Iwanau",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "vibe知识大赏｜2026诺贝尔物理学奖预测《魔角》——你用的每一度电，都有一部分变成了热｜两层碳错开约 1.1°，给了物理学家一个新旋钮 你用的每一度电，都有",
+     "text": "我来告诉你香格里拉三天时间怎么吃 怎么玩 进来直接抄作业#香格里拉 #香格里拉攻略 #我的长长长假 #旅游攻略 #香格里拉美食",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Nolansay",
+     "name": "comet",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "高效OLED或将是今年诺奖？ Vibe知识大赏 | 让我们来回顾一下人类造“光”的过程吧！#vibe知识大赛 #诺贝尔物理学奖 #抖音精选app陪你看诺奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宾大出逃AI_PhD",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026诺贝尔物理学奖我来押宝🫡 今天的视频是我用Claude opus 5.5做的，想测试一下model性能的同时也想和大家聊聊即将颁布的诺贝尔物理学奖。我",
+     "text": "一张图证明你去过香格里拉。#香格里拉离天堂最近的地方 #纳帕海的湖光 #纳帕海",
      "likes": 0,
      "hot": 0
     }
