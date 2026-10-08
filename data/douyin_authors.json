@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-08 02:44",
+ "updated_at": "2026-10-08 03:43",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 46,
- "ok_count": 36,
+ "ok_count": 39,
  "lexicon_count": 0,
  "topics": {
   "LOUD2:0战胜PRX": {
@@ -20,22 +20,22 @@
      "hot": 0
     },
     {
-     "name": "无畏契约电竞",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "something神出鬼没 飘逸换位斩获ACE #PRX上海冠军赛对阵LOUD #无畏契约上海全球冠军赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "紫皮老子、（无畏契约）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "LOUD零封PRX!又一支青春风暴！顶级套路真厉害！ #神枪小子丶 @神枪小子丶 #PRX #LOUD #无畏契约上海全球冠军赛#something",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无畏契约电竞",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "something神出鬼没 飘逸换位斩获ACE #PRX上海冠军赛对阵LOUD #无畏契约上海全球冠军赛",
      "likes": 0,
      "hot": 0
     },
@@ -53,10 +53,109 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "三个问题看懂国家水网": {
+  "中国游中国购风靡全球": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【#中国游中国购风靡全球 】#外国游客沉浸式体验中国之美 今年以来，入境游持续升温，沉浸式体验内容更丰富，外国游客更深入地感受中国的历史之美、山河之",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "生活帮",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 最近海外社交平台上，有个话题火了，叫 “China Haul”。不少外国游客，专门拖着空行李箱来中国旅游，临走的时候箱子塞得满满当当，回国之后拍视频",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#假期入境消费活力拉满 #老外在华强北狂买数码产品",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#世界周刊 特别报道《新“潮”中国》：当“中国风”与“全球客”双向奔赴，世界如何重新读懂今日的中国？ #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "A股节后首日行情": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#A股10月第一个交易日 三大指数集体火速翻红 超4200只个股上涨#A股三大指数集体火速翻红",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "A股三大指数开盘涨跌不一，超4200只个股上涨，房地产、贵金属等下跌 医疗、石化等上涨（编辑：振楠）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国基金报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "熟悉的剧本！假期最后一天，全球突然跳水！A股开盘悬了？#股市 #石油 #黄金 #泰勒来了2026",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财富天下频道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆节回来 投资怎么做？#股票 #A股 #投资 #上证指数",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "万手哥",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆海外炸了！ 台股 PCB 暴涨 30%，节后电子板块主线大概率在这 #A股 #电子板块 #AI算力 #节后行情 #万手哥",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "国庆假期就这样结束了": {
    "stats": {},
@@ -95,16 +194,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "纵有万般不舍仍需返程": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "当你返程的那一刻你在想什么呢": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "今日寒露": {
    "stats": {},
    "authors": [
@@ -142,120 +231,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "影视表演艺术家彭玉去世": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国视协演员工作委员会",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表演艺术家彭玉老师逝世🙏🙏🙏。影视表演艺术家、一级演员、中国视协演员工作委员会顾问彭玉老师，于2026年10月7日10:27分在珠海安详离世，享年93岁，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "越牛新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "据中视协演员工作委员会，影视表演艺术家、一级演员、中国视协演员工作委员会顾问彭玉老师，于2026年10月7日10:27分在珠海安详离世，享年93岁。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "铜陵日报社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表演艺术家彭玉去世，享年93岁，曾出演《东北一家人》《浪漫的事》等",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "直播日照",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "据中视协演员工作委员会，影视表演艺术家、一级演员、中国视协演员工作委员会顾问彭玉老师，于2026年10月7日10:27分在珠海安详离世，享年93岁。 彭玉，出生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "合肥晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "影视表演艺术家彭玉离世，享年93岁。（中国新闻网）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "U17国足0:3不敌阿根廷": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月7日，中国U17在Vertex Cup中对阵阿根廷U17。最终，中国U17以0比3不敌对手，对手在上半场开头与结尾阶段以及下半场中段各打入一球。 本场比赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "朗尼克（中国制躁）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "U17国少0比3阿根廷 三战皆败0进球 结束海外拉练#唯有足球不可辜负 #国足 #中国足球 #u17国少 #世少赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "米滋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我气愤至极 气愤至极！国足u17对阿根廷 下半场换了一个9号上 他连跑步都不稳。无球跑动都踉跄。他是怎么代表国家队的？谁家的少爷 国家队就这选人标准吗？ 下大雨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国足球封神榜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【中国足球封神榜】午间快报，在英国Vertex杯第三场比赛，u17国少对阵阿根廷的比赛开始，上场比赛表现出色的邝兆镭，在右路接身后球高速奔跑，虽然一开始呈现单刀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "董路侃球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "董路徐亮聊国少三连败！#董路 #徐亮 #国少u17 #浮嶋敏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "吴宜泽许凯CBL同台作战": {
    "stats": {},
    "authors": [
@@ -278,61 +253,21 @@
      "text": "许凯抵达CBL联赛淘汰赛比赛现场 跨界选手许凯已经来到今晚CBL联赛淘汰赛杭州萧山的比赛现场，期待他今晚的精彩表现！#吴宜泽CBL联赛首秀 #CBL联赛 #许凯",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "春和告白",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "许凯你放心你今天没进球的镜头我一个都没剪#许凯",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "南京大屠杀幸存者郭秀兰去世": {
+  "影视表演艺术家彭玉去世": {
    "stats": {},
    "authors": [
     {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请停留一分钟为她送别！10月7日，南京大屠杀幸存者郭秀兰去世，享年94岁。登记在册的在世幸存者仅剩20位。见证者正在凋零，但真相不会沉没！#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+     "name": "中国视协演员工作委员会",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我们悲痛地获悉，南京大屠杀幸存者郭秀兰于10月7日上午10时左右在家中离世，享年94岁。截至目前，登记在册在世的幸存者仅存20位。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "南京大屠杀幸存者郭秀兰去世 登记在册的在世幸存者仅剩20位",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "94岁南京大屠杀幸存者郭秀兰离世！送别老人，铭记历史！",
+     "text": "表演艺术家彭玉老师逝世🙏🙏🙏。影视表演艺术家、一级演员、中国视协演员工作委员会顾问彭玉老师，于2026年10月7日10:27分在珠海安详离世，享年93岁，",
      "likes": 0,
      "hot": 0
     },
@@ -342,7 +277,106 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "南京大屠杀幸存者郭秀兰去世，享年94岁；目前登记在册的南京大屠杀在世幸存者仅剩20位 #工人日报消息",
+     "text": "表演艺术家彭玉去世，享年93岁#工人日报消息",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 演员彭玉去世，享年93岁，曾出演《东北一家人》《浪漫的事》等",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "越牛新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "据中视协演员工作委员会，影视表演艺术家、一级演员、中国视协演员工作委员会顾问彭玉老师，于2026年10月7日10:27分在珠海安详离世，享年93岁。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "铜陵日报社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "表演艺术家彭玉去世，享年93岁，曾出演《东北一家人》《浪漫的事》等",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "徒步才是秋天的答案": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "HYUhyu",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你说到底是谁研究出来的这些小玩意儿的~ #户外 #jhh摇 #我的长长长假 #川西慢充旅行日记 #我的国庆慢充宝藏城市",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "carol",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "等你的世界只剩下我的时候再联系我 #户外 #南太行 #徒步才是秋天的答案 #小长假超自然路书 #交出你的爬山作业",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "代大墨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "藏在港岛尽头的石澳村，不仅有果冻般海滩，还是喜剧之王的取景地 #小长假超自然路书 #徒步才是秋天的答案 #香港攻略 #城野两栖 #抖音精选app征稿中",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "纵有万般不舍仍需返程": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "尊界V800测试中刹车踏板支架断裂": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "懂车帝实测",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "尊界V800刹车踏板支架断裂#尊界V800#刹车踏板#MPV#新能源#懂车帝实测",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "懂车大侦探",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "3台尊界V800 刹车踏板支架断裂#尊界V800#刹车踏板#MPV#新能源#懂车帝实测",
      "likes": 0,
      "hot": 0
     }
@@ -364,6 +398,16 @@
      "hot": 0
     },
     {
+     "name": "星星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好想被风刮走 刮遍整个地球#这是一种很新的爬山方式",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "绿豆红",
      "verify": "",
      "identity": "",
@@ -380,16 +424,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "好想被风刮走 刮遍整个地球⚈ ‧̫ ⚈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好想被风刮走 刮遍整个地球#这是一种很新的爬山方式",
      "likes": 0,
      "hot": 0
     },
@@ -457,142 +491,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "生化危机合体已出现人传人现象": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "青年长门",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听说拍了就永不分离！#电影生化危机爆发夜#被生化危机六大丧尸吓到连环惊跳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一万",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "他们都不害怕丧尸吗#看到最后 #恶作剧 #电影生化危机爆发夜 #被生化危机六大丧尸吓到连环惊跳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "葱油面",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生化危机会整治嘴硬的人#电影生化危机爆发夜#被生化危机六大丧尸吓到连环惊跳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "明炜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和朋友增进感情小妙招#电影生化危机爆发夜 #被生化危机六大丧尸吓到连环惊跳 #抽象",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我爱看的肖像拍摄belike": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "你有一份北京的秋天待查收": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "頔酾馜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人生总要有一个秋天是留给北京的. #北京 #北平的秋 #北京的意义不止于北京 #秋天 #我私藏的国庆赏秋路线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "丁一张Martin",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有一份北京的秋天待查收📷 在巷子和公园里瞎晃悠，就能感受到北京秋天的惬意。中山公园的银杏黄的耀眼，北海公园的鸳鸯悠闲的戏水，岸边的游客欣赏着秋风吹拂的柳树，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "春麗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京即将迎来最佳赏味期#北平#秋天",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "全网进入大水时代": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "川西后劲太大了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Florence－",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "川西，是一场很长的梦#川西后劲太大了 #川西 #贡嘎雪山 #长长长假慢慢游 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小贝儿儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爬完稻城亚丁该有的状态#徒步 #川西后劲太大了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贰拾柒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "山高水远，别再哽咽#川西#川西旅行已渐入佳境",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "兰香如故值得N刷": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "Holy Moly国庆作业MVP结算版": {
    "stats": {},
    "authors": [
@@ -617,12 +515,32 @@
      "hot": 0
     },
     {
+     "name": "Jimmy胡同学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆高三生有自己的Holymoly 都用HolyMoly晒奖牌，那么我也来晒一下… 丰富的国庆作业🫡 #高中学生 #珠海一中 #Holymoly #高三 #国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "湫兮、",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "国庆都玩爽了吧，该写国庆作业了🙃 你们的作业都写完了吗#holymoly #国庆 #国庆作业 #mvp结算界面 #写不完的试卷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柰思",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我确认我写完了所有国庆作业 Holy Moly 作业MVP结算画面#holymoly #MVP结算画面 #严成玹进行曲 原创作@轴心.",
      "likes": 0,
      "hot": 0
     },
@@ -673,26 +591,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "Holy moly写完作业结算画面#国庆作业#holymoly",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "12ui",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "写完作业MVP结算画面 holy moly#国庆作业 #物化政##holymoly",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "君君戏迷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "摄于凌晨一点半。Holy Moly暴力清空国庆作业MVP结算画面#Holy #国庆作业@轴心. （原创老师）",
      "likes": 0,
      "hot": 0
     }
@@ -767,227 +665,15 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "Zuian签证未过369顶替首发": {
+  "当你返程的那一刻你在想什么呢": {
    "stats": {},
-   "authors": [
-    {
-     "name": "佟锣烧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "369：这也有世界赛打 #TES #Zuian签证未通过 #369 #2026LPL",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞蕉太狼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大事难妙，TES发布公告Zuian选手两次面签都没通过，369将火线登场出征世界赛#TES #369 #Zuian #电竞 #S16全球总决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TES最大“对手”居然是美签，上单ZUIAN两次面签未通过，选手369代替加入首发名单。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "央视披露王星被骗妙瓦底案细节": {
+  "长长长假慢慢游": {
    "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员王星被骗妙瓦底，案件细节完整披露。#缅北电诈覆灭纪实 #媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视法治在线",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#演员王某4天被转卖3次 #中泰缅联合营救演员王某 】演员王某被骗至妙瓦底后失联，4天被转卖3次，中泰缅联合营救。警方在解救王某的同时，循线深挖出藏匿于缅甸妙",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员王星案详细案情披露：在妙瓦底4天被卖3次，曾用暗号“猫喂了吗”向女友求救 #妙瓦底 #电诈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "百姓关注",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 主播说新闻丨王星失联前向女友发“猫喂了没有” 一句话救了一条命",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "起点新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 演员王星被骗后4天转卖3次 曾试图与对方谈判却被告知\"在妙瓦底最缺的是人 不是钱\" 本人发文:由衷感恩祖国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "公安部联合央视摄制纪录片《缅北电诈覆灭纪实》第三集播出，完整披露演员王星被骗至妙瓦底案件细节。王星4天之内被三次转卖，靠提前约定暗号求救。10月7日，王星再发文",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员王星被骗妙瓦底，案件细节完整披露。#缅北电诈覆灭纪实",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "4天被卖3次！演员王星案详情曝光。#媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 【演员王星被骗妙瓦底，案件细节完整披露】2025年1月初，上海警方接到群众报案，有人在泰缅边境失联，失踪案的主角，是一名叫王某的年轻演员。2024年",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "高中年代买过的抽象球鞋": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小特昂📷(星期五)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有比我还抽象的鞋子吗 #校园回忆分享 #球鞋记忆 #老鞋回忆 #我的懂鞋史",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "邓紫棋婚纱舞台名场面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "G.E.M.银河以北",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "音乐是治愈情绪的良药#邓紫棋 #邓紫棋演唱会 #邓紫棋深圳演唱会 #邓紫棋iamgloria世界巡回演唱会 #邓紫棋婚纱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Redamancy（IAG×5⃣️）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快收官了，解解你也会舍不得吧😭😭。我们也舍不得@GEM鄧紫棋 😭😭#邓紫棋 #邓紫棋深圳演唱会 #邓紫棋深圳 #感受邓紫棋舞台魅力 #邓紫棋婚纱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "非常规（解锁版深圳）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我真的看见你哭心都碎了，我真的看不得啊😭😭😭#邓紫棋 #邓紫棋演唱会 #白色婚纱",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "从巴黎时装周看流行趋势": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "费斯FACE",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🔥三闺女秀场穿搭造型➕四大秀场解析 2027春夏 巴黎时装周 秀场直击： BLACKPINK lisa 2027 LV春夏秀场解析 金智秀 2027 Dior",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "把浪漫留在这个长长长假": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "发癫吧，后浪！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们把浪漫留在这个长长长假里！ 这个国庆，我们做了一件浪漫的事。我们让父母把“我爱你”说出口。对很多中式父母来说，这句话要跨过羞耻、不适和文化的嘲笑。可恰恰是这",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "我们不说假期结束了": {
    "stats": {},
@@ -1096,42 +782,163 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "是谁拿到了杜兰特的落地签": {
+  "诺奖评委揭秘今年化学奖亮点": {
    "stats": {},
    "authors": [
     {
-     "name": "杜兰特KevinDurant",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "杜兰特KevinDurant",
+     "text": "诺奖评委揭秘：今年化学奖牛在哪里？（记者：邓驰旻、朱昊晨、张馨文、郭爽；视频：史晨渲）#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "库里文案馆✨",
-     "verify": "",
-     "identity": "",
+     "name": "瞭望东方周刊",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亲爱的凯文杜兰特，2026年10月7日，我终于拿到了你的签名，我的青春完成了闭环，谢谢你#杜兰特",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "休斯顿火箭队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "酒店外的球迷高声呼喊“KD”！#NBA中国赛2026 #杜兰特 #休斯顿火箭",
+     "text": "诺奖评委揭秘：今年化学奖牛在哪里？#诺贝尔 #化学 （来源：新华国际头条）",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "假期结束后的真实状态": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "流川枫儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#国庆假期 #假期结束后的真实状态",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Perla💚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一眨眼国庆假期结束了，早知道不眨眼了#不想上班的猴子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小月Moon✿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "节后综合症，一点不清醒，急需大单狠狠的砸我一下！#我的长长长假期 #收假上班 #假期结束后的真实状态",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "全网进入大水时代": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "生化危机合体已出现人传人现象": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "青年长门",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "听说拍了就永不分离！#电影生化危机爆发夜#被生化危机六大丧尸吓到连环惊跳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一万",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "他们都不害怕丧尸吗#看到最后 #恶作剧 #电影生化危机爆发夜 #被生化危机六大丧尸吓到连环惊跳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "葱油面",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生化危机会整治嘴硬的人#电影生化危机爆发夜#被生化危机六大丧尸吓到连环惊跳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "明炜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和朋友增进感情小妙招#电影生化危机爆发夜 #被生化危机六大丧尸吓到连环惊跳 #抽象",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "用旅行碎片拼出完整假期": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "侯吃（摄影）📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人们常常在假期快结束时，回忆那些美好时光。#海边 #假期",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梓沐剪辑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "用一种很新的方式记录旅行#国庆 #旅行 #碎片记录 #回忆快闪 #剪映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "D.A.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“幸福并非拥有所有，而是享受当下拥有。” #在拍一种很新的假期生活vlog #长长长假慢慢游 #我的长长长假 #D.A.vibe #随拍",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我爱看的肖像拍摄belike": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "我们不说冬天来了": {
    "stats": {},
@@ -1240,341 +1047,22 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "用旅行碎片拼出完整假期": {
+  "把浪漫留在这个长长长假": {
    "stats": {},
    "authors": [
     {
-     "name": "侯吃（摄影）📷",
+     "name": "发癫吧，后浪！",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "人们常常在假期快结束时，回忆那些美好时光。#海边 #假期",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "梓沐剪辑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用一种很新的方式记录旅行#国庆 #旅行 #碎片记录 #回忆快闪 #剪映",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "D.A.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“幸福并非拥有所有，而是享受当下拥有。” #在拍一种很新的假期生活vlog #长长长假慢慢游 #我的长长长假 #D.A.vibe #随拍",
+     "text": "我们把浪漫留在这个长长长假里！ 这个国庆，我们做了一件浪漫的事。我们让父母把“我爱你”说出口。对很多中式父母来说，这句话要跨过羞耻、不适和文化的嘲笑。可恰恰是这",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "世界上有两个我": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "什么青争",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世界上有两个我一个想安稳生活一个想浪迹天涯 他们总在互相羡慕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李默",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世界上有两个我 一个想远行 一个想回家#回家#惊喜#东风奕派#奕派M8#奕派M8满配华为乾崑SUV",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小鱼儿《拒绝焦虑版》",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天写东西时哭了半小时，录视频又哭了一小时，才发现自己原来这么容易掉眼泪。 好像世界上有两个我：白天那个努力撑着、看起来好好的；一到晚上，藏在心底的情绪就全涌上",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "咖啡馆的那个座位": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "汽修二班 谎言",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位 我在这里盼着谁归 #咖啡馆的那个座位",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "追光者剪辑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位，你在这里盼望着谁归……#卡布奇诺 #咖啡馆的那个座位 #剪映模版#剪同款#等你等了那么久",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "八月荷剪辑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位 #鞠婧祎 ib:@fanfan",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "asleep",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位#探店#纸质风#inmyfeeling#咖啡#卡布奇诺yc:@她的脸颊痣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Xi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最适配这个音乐的来了 初遇咖啡馆，一眼意中人#陆沉 #光与夜之恋 #光与夜之恋陆沉 #咖啡馆的那个座位",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Molirainy.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位☕️。#探店",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "y1.27ii",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位…#严成玹 #咖啡馆的那个座位 #cortis严成玹 #营业图 #探店",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "page.hanrui",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咖啡馆的那个座位#崔秀彬#txt",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是一个蓝苹果。🩵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这么神的美食作品真的存在吗。☕咖啡馆专属座位上，卡布奇诺的香气裹着细碎氛围感漫开，一口尝到绵密的奶泡与深醇的咖啡香，连入口的微涩都像藏着独属于饮品的小情绪。 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这趟旅行本人已形成SOP": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "栗子摸娱🌰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "旅游嘛，主打一个松弛 #旅游 #国庆 #国庆假期被安排明白了 #打卡 #假期",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小武想环游世界",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "毕业生回不了家，跨越1400公里带着他的好朋友去武汉看他@完美闪避 #在假期做一个纯过日子人 #纯过日子休假教程 #交换100个旅途故事#长长长假期旅行慢游#交",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "葡萄好好吃🍇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我出门旅游就这样 #年轻人旅游现状 #什么叫摆烂式旅游 #旅游 #旅游日常",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "什么意思夫妇日子人喜欢的喜剧": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "小孩姐作文写我有三个母亲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "棉花糖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "女儿写的作文😂 声明：谢谢大家对我女儿作品的喜爱，但如果想剪辑和发布请找我要授权，不要在我不知情的情况下发布！这是女儿的原创作文，请勿盗用丶商用！ #作文 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今朝明朝岁岁安",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谢谢大家喜欢我写的作文ᯇᴗᯇ 我其实没有那么厉害呀Ծ ̮ Ծ 二编：请勿不经过我的允许发布相关视频，做商业用途等，如想二创剪辑请找我要授权，原创作文，请勿抄袭。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长长长假慢慢游": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "李羲承本人来EVANwalk": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "EVAN",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🕺🕺🕺🕺 #EVAN #李羲承 #DEATH_OF_ME #DeathofMe #EVANwalk",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "剧版喜剧之王不愧喜人班子": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "大鹏白客合唱舞台直拍": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "行星𝑳𝒊𝒗𝒆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爷青回！！大鹏＆白客合唱 《万万》梦回万万没想到！！ #大运河音乐节#大鹏#白客#万万",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "夏目",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大鹏白客音乐节合作舞台演唱了《万万》～ #大鹏 #白客 #万万没想到 #大运河音乐节",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆假期最后一天的我": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小狗洋气",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "假期还没结束，心却已经开始害怕开学。别用未来的焦虑，消耗掉眼前仅存的快乐时光。 #国庆最后一天 #开学焦虑 #开学#国庆 #小狗洋气",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "熊出没",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么？国庆假期真结束了 #熊出没之神奇宝物2 #熊出没 #假期结束",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桃✘之妖妖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天的空气好臭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟着余红旧事打卡太原": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "跟我一起体验黄明昊VR演唱会": {
    "stats": {},
@@ -1623,62 +1111,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "欢迎收看抖音精选版诺奖简史": {
+  "兰香如故值得N刷": {
    "stats": {},
-   "authors": [
-    {
-     "name": "大圆镜科普",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诺奖百人科普接力｜第45棒：一个发现，让人类平均寿命增加了整整20年！【抖音精选App独家放送】在青霉素出现之前，溃疡、发烧、分娩，都可能随机带走一条人命——而",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "激光小野牛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诺奖百人科普接力｜第64棒：光6—激光 最快的刀、最准的尺、最亮的光 #激光 #抖音精选App陪你看诺奖 #2026诺贝尔奖 #科普新锐扶持计划 #诺奖百人科普",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老阳的奇妙电波",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026诺奖新知课｜一条视频看懂老年痴呆后为什么先迷路 诺奖百人科普接力｜第114棒：获得诺奖的脑内认路系统, 抖音精选App独家放送#抖音精选App陪你看诺奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小鸡全家桶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诺奖百人科普接力｜第30棒：“邪门”的人血 抖音精选App独家放送！#抖音精选App陪你看诺奖 #2026诺贝尔奖 #科普新锐扶持计划 #诺奖百人科普接力 #欢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宇宙大爆炸",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026诺贝尔奖物理学奖，用冰立方抓幽灵粒子！幽灵粒子是什么 #抖音精选App陪你看诺奖 #2026诺贝尔奖 #科普新锐扶持计划 #诺奖百人科普接力 弗朗西斯·",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "我坐在这里看着时间溜过": {
    "stats": {},
@@ -1774,12 +1210,498 @@
      "hot": 0
     },
     {
-     "name": "聪明笨蛋",
+     "name": "峰峰吖",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现在就是纯过日子 什么忧郁 什么青春疼痛文学 什么奥德赛时期 都没有一份小蛋糕来的实在#我的穿搭到此一游 #草坪ootd",
+     "text": "我坐在这里看着时间路过 #我坐在这里看着时间溜过 #日常自拍 #精神状态belike #值得回味 #刚好卡点",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "从巴黎时装周看流行趋势": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "费斯FACE",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🔥三闺女秀场穿搭造型➕四大秀场解析 2027春夏 巴黎时装周 秀场直击： BLACKPINK lisa 2027 LV春夏秀场解析 金智秀 2027 Dior",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Zuian签证未过369顶替首发": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "佟锣烧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "369：这也有世界赛打 #TES #Zuian签证未通过 #369 #2026LPL",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞蕉太狼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大事难妙，TES发布公告Zuian选手两次面签都没通过，369将火线登场出征世界赛#TES #369 #Zuian #电竞 #S16全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "TES最大“对手”居然是美签，上单ZUIAN两次面签未通过，选手369代替加入首发名单。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "大鹏白客合唱舞台直拍": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "行星𝑳𝒊𝒗𝒆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爷青回！！大鹏＆白客合唱 《万万》梦回万万没想到！！ #大运河音乐节#大鹏#白客#万万",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "夏目",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大鹏白客音乐节合作舞台演唱了《万万》～ #大鹏 #白客 #万万没想到 #大运河音乐节",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "川西后劲太大了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Florence－",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "川西，是一场很长的梦#川西后劲太大了 #川西 #贡嘎雪山 #长长长假慢慢游 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小贝儿儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爬完稻城亚丁该有的状态#徒步 #川西后劲太大了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "贰拾柒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "山高水远，别再哽咽#川西#川西旅行已渐入佳境",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "咖啡馆的那个座位": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "汽修二班 谎言",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位 我在这里盼着谁归 #咖啡馆的那个座位",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "追光者剪辑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位，你在这里盼望着谁归……#卡布奇诺 #咖啡馆的那个座位 #剪映模版#剪同款#等你等了那么久",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈劲生他坏透了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "八月荷剪辑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位 #鞠婧祎 ib:@fanfan",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "asleep",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位#探店#纸质风#inmyfeeling#咖啡#卡布奇诺yc:@她的脸颊痣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Xi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最适配这个音乐的来了 初遇咖啡馆，一眼意中人#陆沉 #光与夜之恋 #光与夜之恋陆沉 #咖啡馆的那个座位",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Molirainy.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位☕️。#探店",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "y1.27ii",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位…#严成玹 #咖啡馆的那个座位 #cortis严成玹 #营业图 #探店",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "page.hanrui",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咖啡馆的那个座位#崔秀彬#txt",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是一个蓝苹果。🩵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这么神的美食作品真的存在吗。☕咖啡馆专属座位上，卡布奇诺的香气裹着细碎氛围感漫开，一口尝到绵密的奶泡与深醇的咖啡香，连入口的微涩都像藏着独属于饮品的小情绪。 #",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李羲承本人来EVANwalk": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "EVAN",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🕺🕺🕺🕺 #EVAN #李羲承 #DEATH_OF_ME #DeathofMe #EVANwalk",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "开始有国庆假期戒断反应了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "酒窝少女",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幸福戒断反应……十一假期结束回工作的城市了，有人和我一样躺床上呜呜哭吗😭在家有世界上最爱你的爸爸妈妈，虽然他们也是普通人，但是拿出全部 极尽所能的去爱你……在",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@小赵同学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幸福戒断后劲太大了…… 能不能退回到10.1当天 一觉睡到自然醒 醒来就有饭吃 上顿刚吃完就追问下顿想吃什么 吃完饭往爸妈腿上一躺坐在客厅与家人畅聊 在家人面前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小绵羊冬个眠💨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆假期结束啦。背上冬天的行囊，再来已跨一个季节 开学就是一场巨大的戒断反应 #国庆假期开启倒计时了 #大学生返校 #国庆 #北京",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "邓紫棋婚纱舞台名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "G.E.M.银河以北",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "音乐是治愈情绪的良药#邓紫棋 #邓紫棋演唱会 #邓紫棋深圳演唱会 #邓紫棋iamgloria世界巡回演唱会 #邓紫棋婚纱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Redamancy（IAG×5⃣️）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "快收官了，解解你也会舍不得吧😭😭。我们也舍不得@GEM鄧紫棋 😭😭#邓紫棋 #邓紫棋深圳演唱会 #邓紫棋深圳 #感受邓紫棋舞台魅力 #邓紫棋婚纱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "非常规（解锁版深圳）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我真的看见你哭心都碎了，我真的看不得啊😭😭😭#邓紫棋 #邓紫棋演唱会 #白色婚纱",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这趟旅行本人已形成SOP": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "栗子摸娱🌰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "旅游嘛，主打一个松弛 #旅游 #国庆 #国庆假期被安排明白了 #打卡 #假期",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小武想环游世界",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毕业生回不了家，跨越1400公里带着他的好朋友去武汉看他@完美闪避 #在假期做一个纯过日子人 #纯过日子休假教程 #交换100个旅途故事#长长长假期旅行慢游#交",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "葡萄好好吃🍇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我出门旅游就这样 #年轻人旅游现状 #什么叫摆烂式旅游 #旅游 #旅游日常",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "是谁拿到了杜兰特的落地签": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杜兰特KevinDurant",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杜兰特KevinDurant",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "库里文案馆✨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亲爱的凯文杜兰特，2026年10月7日，我终于拿到了你的签名，我的青春完成了闭环，谢谢你#杜兰特",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "休斯顿火箭队",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "酒店外的球迷高声呼喊“KD”！#NBA中国赛2026 #杜兰特 #休斯顿火箭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "高中年代买过的抽象球鞋": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小特昂📷(星期五)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有比我还抽象的鞋子吗 #校园回忆分享 #球鞋记忆 #老鞋回忆 #我的懂鞋史",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "剧版喜剧之王不愧喜人班子": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "国庆假期最后一天的我": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小狗洋气",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "假期还没结束，心却已经开始害怕开学。别用未来的焦虑，消耗掉眼前仅存的快乐时光。 #国庆最后一天 #开学焦虑 #开学#国庆 #小狗洋气",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "熊出没",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "什么？国庆假期真结束了 #熊出没之神奇宝物2 #熊出没 #假期结束",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桃✘之妖妖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天的空气好臭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "世界上有两个我": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "什么青争",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界上有两个我一个想安稳生活一个想浪迹天涯 他们总在互相羡慕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李默",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界上有两个我 一个想远行 一个想回家#回家#惊喜#东风奕派#奕派M8#奕派M8满配华为乾崑SUV",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小鱼儿《拒绝焦虑版》",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天写东西时哭了半小时，录视频又哭了一小时，才发现自己原来这么容易掉眼泪。 好像世界上有两个我：白天那个努力撑着、看起来好好的；一到晚上，藏在心底的情绪就全涌上",
      "likes": 0,
      "hot": 0
     }
@@ -1931,36 +1853,200 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "用一条视频安利魅影神捕": {
+  "当我把假期生活做成票根": {
    "stats": {},
    "authors": [
     {
-     "name": "透明的三三",
+     "name": "阿新📷",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "弃子亦可成为杀子！ #魅影神捕 #罗云熙 #黎斯 #混剪产粮团 #了不起的混剪团",
+     "text": "“当我把旅行做成票根， 于是每个瞬间都拥有了独一无二的名” #当我把旅行做成票根 #世界这本书要多读几页 #摄影 #世界这本书又多翻一页 #我在抖音聊拍照",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "枕山栖谷尽清欢",
+     "name": "想在地球流浪",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“神捕集结！以身入局，破暗寻真。” #魅影神捕 #罗云熙 #方逸伦 #沈羽洁 #混剪产粮团",
+     "text": "一天一个创作AI提示词分享。今天是旅游纪念票根！又是想打印出来的一天🥹 #画出一个世界 #ai #创作人计划 #用画笔认识世界 #旅游",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "橘子炸成汁",
+     "name": "大昀懂点技术",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“六大诡案！等你来探！” #魅影神捕 #了不起的混剪团 #混剪产粮团",
+     "text": "做了一个小小旅行票根海报.Skill.名字叫dy-travel-ticket-poster，已经开源。把单张照片或一批照片做成风格统一的旅行票根海报。Skill",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "U17国足0:3不敌阿根廷": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月7日，中国U17在Vertex Cup中对阵阿根廷U17。最终，中国U17以0比3不敌对手，对手在上半场开头与结尾阶段以及下半场中段各打入一球。 本场比赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "时光足球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#U17国足VS阿根廷 半场-U17国足暂0-2阿根廷U17 U17国足4分钟丢球李家润送点#dou来足球季 #邝兆镭 #万项 #u17国足",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国足球封神榜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【中国足球封神榜】午间快报，在英国Vertex杯第三场比赛，u17国少对阵阿根廷的比赛开始，上场比赛表现出色的邝兆镭，在右路接身后球高速奔跑，虽然一开始呈现单刀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "朗尼克（中国制躁）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "U17国少0比3阿根廷 三战皆败0进球 结束海外拉练#唯有足球不可辜负 #国足 #中国足球 #u17国少 #世少赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "米滋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我气愤至极 气愤至极！国足u17对阿根廷 下半场换了一个9号上 他连跑步都不稳。无球跑动都踉跄。他是怎么代表国家队的？谁家的少爷 国家队就这选人标准吗？ 下大雨",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当我用闺蜜的笑声配音富江时": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "雨点",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@Rely 谁能绷住？ #配音 #富江 #川上富江",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "김민정",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#富江笑声 #富江配音 #富江本江 #闺蜜这才是我想看的热血番",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "废怖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@用户暄暄 #富江#配音#绷不住",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鸟鸟爱吃栗子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@妤妤酱（全游戏女团🥣） #富江#富江配音#富江配音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "지_Andy★",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#夜神月 #富江 #富江笑声 #配音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "kiroy.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@𝕮𝖔𝖓𝖋𝖊𝖘 #富江 #富江笑声 #配音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "别读情书",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我把富江的笑声换成我的笑声belike #配音 #富江 #充能计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "平安很平安～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#富江笑声 #富江 #富江配音 #配音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红豆包🫘🥯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毫无违和感😊@炮灰菠萝包🍍🍞 #富江笑声 #富江配音 #整蛊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宇宙人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁绷得住 #富江 #富江笑声 #配音",
      "likes": 0,
      "hot": 0
     }
