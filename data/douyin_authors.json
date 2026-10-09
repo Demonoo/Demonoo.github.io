@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-10-09 12:46",
+ "updated_at": "2026-10-09 13:44",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 34,
- "ok_count": 22,
+ "topic_count": 50,
+ "ok_count": 43,
  "lexicon_count": 0,
  "topics": {
-  "足不出户吃遍东南亚美食": {
+  "青岛海牛vs北京国安": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -35,12 +35,22 @@
      "hot": 0
     },
     {
-     "name": "央视军事",
+     "name": "中国日报网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "外交部：菲方罔顾事实，中方坚决回应任何恶意挑衅！（总台记者：张雪松 朱若梦）#权威发布 #菲律宾",
+     "text": "中国海警发声：出于人道主义考虑，中方允许菲律宾转运伤员，正告菲方立即停止侵权挑衅和不实炒作 #菲律宾 （视频：刘世东 实习生 柯晓雪 审核：耿婉茹 富文佳）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海南广播电视总台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国海警：出于人道主义考虑 中方允许菲律宾转运伤员 正告菲方立即停止侵权挑衅和不实炒作 #仁爱礁 #菲律宾 #南沙群岛 #主权 #视听海南APP",
      "likes": 0,
      "hot": 0
     },
@@ -50,7 +60,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 10月3日，菲律宾一架C-208型机未经中国政府批准，非法侵入中国黄岩岛领空。南部战区组织海空兵力依法依规跟踪监视、警告驱离。全球化智库副主任、苏州",
+     "text": "#媒体原创 全球化智库副主任、苏州大学讲席教授高志凯表示，菲律宾的领土边界由1898年《美西条约》明确规定，其西部边界止于东经118度线——这也构成菲律宾国家领",
      "likes": 0,
      "hot": 0
     }
@@ -58,26 +68,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我国加快建立全链条循环经济体系": {
+  "国庆假期国内出游8.26亿人次": {
    "stats": {},
    "authors": [
     {
-     "name": "农视网",
+     "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我国加快建立全链条循环经济体系 #新闻联播",
+     "text": "#媒体原创 新华社消息｜国庆节假期国内出游8.26亿人次（记者：徐壮、周玮）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视一套",
+     "name": "经济日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 #我国将加快培育壮大循环经济服务业 【#我国加快建立全链条循环经济体系 】资源循环利用不仅能推动绿色转型，也蕴藏着广阔的市场机遇。当前，我国正加速打",
+     "text": "2026年国庆节假期国内出游8.26亿人次 #国庆节 #出游 #国庆旅游 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026年国庆节假期国内出游8.26亿人次",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "每日经济新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "总花费7383.75亿元！2026年国庆节假期国内出游8.26亿人次，同比增长6.3%",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今年国庆假期，全社会跨区域人员流动量预计达21.44亿人次。人潮涌动、景区火热、消费升温、体验升级，这背后，不仅是神州大地浓郁的烟火气，更是我国消费市场高质量发",
      "likes": 0,
      "hot": 0
     }
@@ -142,56 +182,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "湘超长沙vs株洲": {
+  "NBA中国赛首战打响": {
    "stats": {},
    "authors": [
     {
-     "name": "湖南经视",
+     "name": "侯向锋",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026 湘超联赛常规赛第十轮 长沙队 vs 株洲队",
+     "text": "杜兰特依然是最受欢迎的那一个 #杜兰特 #nba现场 #休斯顿火箭队",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "株洲发布",
+     "name": "休斯顿火箭队",
      "verify": "蓝V",
-     "identity": "官方机构",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "湘超第十轮长沙VS株洲，株洲500多名球迷出征长沙为球队加油！#湘超 #长沙 #株洲",
+     "text": "KD赛前热身！#杜兰特 #休斯顿火箭 #NBA中国赛2026",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "直播株洲",
+     "name": "体坛周报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "株洲球迷再出征！长沙，我们来了！#湘超株洲队 #长沙VS株洲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长沙新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "湘超长沙vs株洲 硬核之战即将打响！#湘超 #长沙队 #株洲队 #湘超长沙vs株洲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湘潭装修翔哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为啥湘超赛场株洲叫湘潭大哥？今天刷到评论，有人疑惑湘超赛场上，为什么株洲球迷总喊湘潭大哥。单看现在的人口、经济、面积，株洲确实更强，但很多人不了解这段渊源。早年",
+     "text": "NBA中国赛首战打响，火箭首发五虎谁的呼声最高？ （视频：本报前方记者孔德昕/编辑：刘显军）#NBA #NBA中国赛#火箭 #杜兰特 #篮球",
      "likes": 0,
      "hot": 0
     }
@@ -199,76 +219,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "净网：“成都小区楼顶埋男童”不实": {
+  "陈幸同逆转桥本帆乃香晋级4强": {
    "stats": {},
    "authors": [
     {
-     "name": "新重庆-重庆日报",
+     "name": "越牛新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "7岁男童病逝埋在小区楼顶多年？成都金堂县警方通报：传言不实73岁男子虚构捏造 被行政处罚（编辑：谭天）",
+     "text": "10月9日报道，0比2落后，连扳四局，陈幸同逆转战胜桥本帆乃香，赛后一路小跑，和马指导击掌#陈幸同 #桥本帆乃香 #WTT中国大满贯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "天下泉城",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "网传“金堂县某小区楼顶发现可疑骨头”引关注，成都警方发布通报，证实网传为谣言。不信谣、不传谣，理性辨别信息，才能共同维护清朗有序的网络环境。（编辑：志洋）#天下",
+     "text": "攻克削球手！陈幸同4-2逆转桥本帆乃香，晋级女单4强！ #陈幸同4比2桥本帆乃香 #陈幸同晋级女单4强 #WTT",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "WTT世界乒联",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月8日，四川成都，#警方辟谣7岁男童病逝埋在楼顶土坟 ： 骨骼残片均非人类骨骼及牙齿，73岁男子捏造“7岁男童”传言，被行政处罚。",
+     "text": "攻守来回，沉着应变🏓陈幸同4-2胜桥本帆乃香晋级#WTT中国大满贯2026 女单四强，一起回顾精彩瞬间🎉#乒乓球赛事动态 #陈幸同",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "闪电新闻",
+     "name": "杭州网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 买房8年才发现楼顶有座坟，还挖出部分尸骨？成都警方通报：非人类骨骼及牙齿，73岁老人捏造“7岁男童”传言，已被行政处罚。#造谣 #辟谣",
+     "text": "太燃了！0-2落后的情况下，#陈幸同 连扳4局逆转战胜桥本帆乃香，赛后开心得像个孩子。#WTT中国大满贯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网",
-     "verify": "红V",
+     "name": "大众新闻•半岛都市报",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "成都一小区楼顶发现7岁男童坟墓系谣言 警方通报",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光明网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "网传“成都一小区楼顶发现7岁男童坟墓”，警方通报：系谣言",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成都金堂警方通报某小区楼顶发现可疑骨头：确定均为非人类骨骼及牙齿，住户刘某某（男，73岁）虚构捏造为“7岁男童”，已被行政处罚",
+     "text": "2026WTT中国大满贯女单1/4决赛，陈幸同4-2逆转战胜桥本帆乃香，晋级女单4强（来源 咪咕体育 编辑 杨姗姗）",
      "likes": 0,
      "hot": 0
     }
@@ -300,6 +300,16 @@
      "hot": 0
     },
     {
+     "name": "慕慕有奶糖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "牺牲了一个摄影 参考:小D-biu #当我自创了生化摇 #生化危机爆发夜#丧尸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "泉台",
      "verify": "",
      "identity": "",
@@ -313,16 +323,123 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "青岛海牛vs北京国安": {
+  "华为nova 16系列涨价": {
    "stats": {},
    "authors": [
     {
-     "name": "蓝睛·生活在线",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026赛季中超联赛第二十七轮 青岛海牛VS北京国安 10月9日19:05 锁定QTV-3!战斗青岛队！",
+     "text": "今天（10月9日）起，华为nova 16、小米17 Ultra系列涨价：华为nova16与nova16 Pro建议零售价上调400元，小米17 Ultra全系涨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月9日，记者从华为线下门店独家获悉，自2026年10月9日零时起，华为对nova16系列进行价格调整：nova16与nova16 Pro建议零售价（RRP）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 国产手机新一轮涨价，部分机型涨幅达1000元！ 华为nova16系列最高涨400元，小米17 Ultra全系上调售价1000元。 这已不是今年第一次",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "河北经视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "部分涨幅达1000元，华为、小米掀新一轮手机涨价 （编辑：CJ）#华为nova16 #小米17Ultra",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "手机涨价潮杀进中端机型了！ 10月9日起华为小米涨价 涨幅高至千元，华为nova16、Pro涨400元 SE涨200元，小米17 Ultra全系上调千元 标准版",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "湘超长沙vs株洲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "湖南经视",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026 湘超联赛常规赛第十轮 长沙队 vs 株洲队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "湘超长沙队主场迎战株洲队，株洲队门将张奇威两度贡献飞身扑救，化解长沙队攻势，上半场比分0:0#2026湘超 #媒体原创 #媒体精选计划 #株洲 #长沙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直播株洲",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "株洲球迷再出征！长沙，我们来了！#湘超株洲队 #长沙VS株洲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "株洲发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "湘超第十轮长沙VS株洲，株洲500多名球迷出征长沙为球队加油！#湘超 #长沙 #株洲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长沙新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "湘超长沙vs株洲 硬核之战即将打响！#湘超 #长沙队 #株洲队 #湘超长沙vs株洲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长沙晚报辣视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月8日晚，长沙队、株洲队赛前踩场。长沙队杨柯赛前谈到株洲队时说：“株洲队还是挺厉害的，个人特点比较鲜明。我们反正就是正常备战，根据对手的一些情况，把我们自己",
      "likes": 0,
      "hot": 0
     }
@@ -394,22 +511,294 @@
      "hot": 0
     },
     {
-     "name": "深视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 北京时间10月9日，#2026中网 女单1/4决赛，#郑钦文 直落两盘，总比分2-0战胜6号种子、乌克兰名将#斯维托丽娜 ，晋级四强。这也是她时隔两",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "青蜂侠",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "时隔两年，#郑钦文中网女单重返4强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大皖新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#郑钦文 再次闯入中网女单四强 赛后坦言 大家都要保持平常心",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美人余开播": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "常华森",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#美人余开播 let's go！和#焦旭 一起吃瓜看好戏#美人余 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "演员王佳佳",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#美人余开播 老实保姆or大野心家？嘘…#卢蕙 的真面目，等你来揭晓。#美人余 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "美人余（查找寄生虫中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#美人余开播 棋局落子就位，婚姻狼人杀正式开演。#美人余 #李一桐 #王佳佳 #常华森",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "生化危机爆发夜已看不欠": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "灯影刘肉丝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上一秒吓尿，下一秒爆笑，不可错过的年度十佳！ ——《生化危机：爆发夜》观后感 #国庆档观影repo #生化危机 #喜剧 #恐怖 #电影生化危机爆发夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小胖墩头发厚（光影123）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《生化危机：爆发夜》：质量上乘，但传达的精神状态…令人担忧啊 #电影生化危机爆发夜 #影娱热点团 #长长长假电影时间 #我的假期观影报告 #国庆档观影repo",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老片复盘半只猫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《生化危机》32彩蛋盘点：最像“游戏”的一次！ #生化危机 #生化危机爆发夜 #电影生化危机爆发夜 #影娱热点图 #影娱漫谈编辑部",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "护航求职季": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音求真",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京网络辟谣 | 护航求职季",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2027年考研开始预报名": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2027年全国硕士研究生招生网上预报名今天（9日）启动。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #考研报名一定要知道的事 【#今天考研预报名 ，转扩提醒，考生加油！】今天9点，2027年全国硕士研究生招生考试网上预报名开始。 预报名时间为10月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 2027考研预报名开始！被指到的人：备考顺利、金榜题名！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 2027年研考生注意！明天起网上预报名启动#考研",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "都市报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "（二）2027年考研网上预报名今日启动！记者带你全流程体验考研预报名 若错过预报名，也可等待正式报名再填报",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "现在才懂纯过日子假期的含金量": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "猪宝子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凭本事赚养老金哈哈哈哈#纯过日子休假教程 #在假期做一个纯过日子人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吃一口娱饼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "要是每周都有国庆就好了#国庆#节假日#放假 #打工人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苦苦甜冰茶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "纯过日子时代：国庆 让我们好好休息 好好休息才是正经事，假期就不要太紧绷了。@DOU+小助手 #好好休息才是正经事啊 #国庆宅家好时光 #好物分享 #过日子人 ",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "生化危机这段BGM听着烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "你在骂我吗 我感觉你在和我调情啊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "很少有人能看懂#爆发夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "朱先生''",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "很少有人能看懂！#生化危机爆发夜，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "花教教主",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#生化危机爆发夜 ⚠️⚠️⚠️",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "#776",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生化危机这个结尾音乐听着有点烧心。#生化危机系列",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Chanandler Bong",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "配乐很带感，很好听 #生化危机 #生化危机爆发夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哎吆哥哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感觉手机中的每个视频都会找到它的专属BGM。#生化危机爆发夜 #生化危机 #BGM",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝑴𝒓. 𝑵𝑷𝑪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《Main Titles Extended》 #MainTitlesExtended#生化危机爆发夜 #影视配乐 #ResidentEvil Hays Holl",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "仙耀魔王酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最近听说有什么快递要送到浣熊市？ #生化危机 #里昂 #生化危机爆发夜 #里昂cos #生化危机cos",
      "likes": 0,
      "hot": 0
     }
@@ -517,191 +906,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "“不忍将满地残花踏” #花",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "美人余开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "常华森",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美人余开播 let's go！和#焦旭 一起吃瓜看好戏#美人余 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "演员王佳佳",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美人余开播 老实保姆or大野心家？嘘…#卢蕙 的真面目，等你来揭晓。#美人余 #我的追剧日志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美人余（查找寄生虫中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美人余开播 棋局落子就位，婚姻狼人杀正式开演。#美人余 #李一桐 #王佳佳 #常华森",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "生化危机爆发夜已看不欠": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "灯影刘肉丝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上一秒吓尿，下一秒爆笑，不可错过的年度十佳！ ——《生化危机：爆发夜》观后感 #国庆档观影repo #生化危机 #喜剧 #恐怖 #电影生化危机爆发夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小胖墩头发厚（光影123）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《生化危机：爆发夜》：质量上乘，但传达的精神状态…令人担忧啊 #电影生化危机爆发夜 #影娱热点团 #长长长假电影时间 #我的假期观影报告 #国庆档观影repo",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老片复盘半只猫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《生化危机》32彩蛋盘点：最像“游戏”的一次！ #生化危机 #生化危机爆发夜 #电影生化危机爆发夜 #影娱热点图 #影娱漫谈编辑部",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "护航求职季": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音求真",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京网络辟谣 | 护航求职季",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "詹姆斯76人首秀半场10分5助攻": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "南海岸的炬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“万众盼的相逢 费城五虎正式同场”#詹姆斯76人首秀 #nba季前赛 #76人五虎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "两次进攻行云流水，詹姆斯两次送出击地妙传，布朗VJ分别完成暴扣终结，这是76人球迷期待的组合吗？#詹姆斯不看人传球 #詹姆斯76人首秀 #76人五人组进攻行云流",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#76人队内训练赛 来袭，看看新援磨合得怎么样了？ #詹姆斯对内训练接连暴扣 #76人 #NBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆 包",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "76 人队内训练赛，老詹首秀。#nba #76人 #詹姆斯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老麦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "42岁詹姆斯上演快攻空接暴扣！状态依旧在线！#詹姆斯 #NBA",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "万物皆可低模人生": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "十一佳.🍀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "万物皆可低模人生。低模人生 卡帧是常态 掉线是归宿 #没建模没经济的日常 #在拍一种很新的假期生活vlog@抖音热点 @抖音小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "7 _",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的屌丝生活 belike #模拟人生 #屌丝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秋.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "低模人生 卡帧是常态 掉线是归宿 #source #ppap #enfp",
      "likes": 0,
      "hot": 0
     }
@@ -840,26 +1044,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "李一桐新剧美人余看了不烧心": {
+  "严肃品鉴生化危机爆发夜": {
    "stats": {},
    "authors": [
     {
-     "name": "李一桐Q",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "太和的房间",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "来看剧！看了不烧心 #美人余开播 #美人余 #我的追剧日志",
+     "text": "21个彩蛋&细节大盘点！《生化危机：爆发夜》 #生化危机 #生化危机爆发夜 #影娱热点团 #长长长假电影时间 #国庆档观影repo",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "李一桐工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
+     "name": "老片复盘半只猫",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "被定义？余梦@李一桐Q ：“不存在！”#李一桐 #余梦 #都市剧 #美人余 #我的追剧日志",
+     "text": "《生化危机》32彩蛋盘点：最像“游戏”的一次！ #生化危机 #生化危机爆发夜 #电影生化危机爆发夜 #影娱热点图 #影娱漫谈编辑部",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "千池汐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【人物解读】他完成了拯救浣熊市的最后一单 却没人愿意救他 《生化危机：爆发夜》没有选择超级英雄，而是把镜头对准了普通快递员布莱恩。本期视频将从他的遭遇、选择与异",
      "likes": 0,
      "hot": 0
     }
@@ -867,7 +1081,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "2027年考研开始预报名": {
+  "女儿回应是否注销游本昌账号": {
    "stats": {},
    "authors": [
     {
@@ -876,47 +1090,17 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2027年全国硕士研究生招生网上预报名今天（9日）启动。#媒体原创",
+     "text": "“只要你向前，一定会被看到！”#“济公”爷爷留给年轻人的话 重温，送别！#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新华社电视",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天考研预报名",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
+     "name": "四川日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 #考研报名一定要知道的事 【#今天考研预报名 ，转扩提醒，考生加油！】今天9点，2027年全国硕士研究生招生考试网上预报名开始。 预报名时间为10月",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全国硕士研究生招生网上预报名今天启动 #朝闻天下",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "考生注意！#2027考研预报名明天开始 预报名时间为10月9日至10月12日，报名时间为10月15日至10月24日，每日9:00—22:00。自2027年研考起",
+     "text": "游本昌女儿游思涵：父亲的社媒账号不会注销，将作为济公公益基金会的官方窗口，“想他的时候就回来看看，他一直都在”",
      "likes": 0,
      "hot": 0
     }
@@ -1031,36 +1215,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "现在才懂纯过日子假期的含金量": {
+  "晒晒我的国庆消费新场景": {
    "stats": {},
    "authors": [
     {
-     "name": "猪宝子",
-     "verify": "",
-     "identity": "",
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "凭本事赚养老金哈哈哈哈#纯过日子休假教程 #在假期做一个纯过日子人",
+     "text": "中秋国庆“味蕾游”带火地方菜，非遗相关团购订单同比涨近3成，TOP5热门非遗相关体验出炉。#晒晒我的国庆消费新场景 #抖音生活服务2026中秋国庆消费报告",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "吃一口娱饼",
-     "verify": "",
-     "identity": "",
+     "name": "快看",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "要是每周都有国庆就好了#国庆#节假日#放假 #打工人",
+     "text": "#AI入口首次成为假日消费新场景，“豆包订酒店”下单量环比增56%。#晒晒我的国庆消费新场景 #抖音生活服务2026中秋国庆消费报告",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "苦苦甜冰茶",
-     "verify": "",
-     "identity": "",
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "纯过日子时代：国庆 让我们好好休息 好好休息才是正经事，假期就不要太紧绷了。@DOU+小助手 #好好休息才是正经事啊 #国庆宅家好时光 #好物分享 #过日子人 ",
+     "text": "中秋国庆“家门口过节”流行，超长蛋挞、大闸蟹礼盒成新伴手礼，六大微度假方式出炉。#晒晒我的国庆消费新场景 #抖音生活服务中秋国庆消费报告",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "主持人阿喆",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体人精选计划 中国的国庆节，世界的黄金周！#全世界都知道中国人放假了 #晒晒我的国庆消费新场景 #抖音生活服务2026中秋国庆消费报告",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果妈妈",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国人聚是一栋楼，散是满世界！#晒晒我的国庆消费新场景 #抖音生活服务2026中秋国庆消费报告",
      "likes": 0,
      "hot": 0
     }
@@ -1068,31 +1272,348 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "李一桐新剧美人余看了不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李一桐Q",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来看剧！看了不烧心 #美人余开播 #美人余 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李一桐工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "被定义？余梦@李一桐Q ：“不存在！”#李一桐 #余梦 #都市剧 #美人余 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "二次元假期MVP结算": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "忆梦依梦（在无锡北京成都上海济南见天依版",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "洛天依济南场无料结算！迟来的济南场无料结算，济南场的锦依卫老师们太有实力了，第一次觉得我1.8×2的床好小😅 #洛天依演唱会 #漫展无料 #漫展结算 #洛天依",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "绿绿青提",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "剑锋指前方 星宿列张。#oc #bg #原神梦女 #二次元假期MVP结算 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桂花糕想摸鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "玉山君今天也觉得自己很帅。#燕云十六声 #陈子奚 #cos #陈子奚cos #二次元假期MVP结算",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "CAL是小赵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "权宾影院时装版！MVP结算✨。单人双人照片都安排上啦，这两个人帅到完全可以出道的程度。画个复古相机质感～还给钟离权搭了oversize老西装！#八仙 #权宾 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "忧郁纯情冷少",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "耶耶耶上海之旅结束了。收拾周边收了一个多小时一一痛并快乐着#重返未来 #谷子收纳 #重返未来1999 #众声漫游夜 #重返未来周边",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "木有牙的兔纸（妆娘版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国庆170个妆啥概念？ #妆娘 #接单 #cos",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一根头发-_-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "逃出庄园mvp结算画面 #闪身步就这样搞二次元 #我的长长长假 #第五人格#就这个第五人格爽",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "怀念国庆在老家悠闲的日子": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "杨洋来电话了": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "女儿回应是否注销游本昌账号": {
+  "被湘潭剁椒鱼头香迷糊了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "万物皆可低模人生": {
    "stats": {},
    "authors": [
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "十一佳.🍀",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“只要你向前，一定会被看到！”#“济公”爷爷留给年轻人的话 重温，送别！#媒体原创",
+     "text": "万物皆可低模人生。低模人生 卡帧是常态 掉线是归宿 #没建模没经济的日常 #在拍一种很新的假期生活vlog@抖音热点 @抖音小助手",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "四川日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "7 _",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "游本昌女儿游思涵：父亲的社媒账号不会注销，将作为济公公益基金会的官方窗口，“想他的时候就回来看看，他一直都在”",
+     "text": "我的屌丝生活 belike #模拟人生 #屌丝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秋.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "低模人生 卡帧是常态 掉线是归宿 #source #ppap #enfp",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "别对我太好 我讨厌落差感": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "木子子不会鱼跃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别对我太好 我讨厌落差感. #足球 #抽象 #搞笑 #深情足球 #热门",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "1219",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别对我太好 我讨厌落差#足球 #football",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蛋铠🏸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别对我太好，我讨厌落差感 #羽毛球 #忧郁 #抽象 #羽毛球教学",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "看大溪地绝美的玻璃巨浪": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "张洪鸣的爱真诚又热烈": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张洪鸣_",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "💌亲爱的小鸣星，见字如晤。#长长长假星日记 #我的长长长假 #张洪鸣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张洪鸣工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "❤️‍🔥伟大的开场，是因你的肆意而热烈。#舞台很帅 #舞台 #跳舞 #张洪鸣 #和张洪鸣鸣天见",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "谭松韵在线喊人一起玩": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "谭松韵工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无聊的要命，有没有人可以和两小姐@谭松韵seven 一起玩！！👊😾#谭松韵 #假期你不要走",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "神探之痕迹陈飞宇模仿秀": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "for爱味样",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感觉好心酸#国庆档电影repo #陈飞宇 #王俊凯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小Q不是小抠",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈飞宇你真的吓到我了！我要吓你一下#电影神探之痕迹 #陈飞宇 #演技派 #模仿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哼哈二将👯‍♀️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我承认这一段是真的有被阿瑟吓到#电影神探之痕迹 #陈飞宇 #演技#模仿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "互联网学姐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈飞宇你戏里戏外反差感这么大的吗！真的吓到我了#陈飞宇 #陈飞宇这次不一样 #陈飞宇不再只是偶像剧脸 #陈飞宇演技已经nextlevel了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电影神探之痕迹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "突突的。[宕机] #电影神探之痕迹",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西瓜太郎",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们真烦人#国庆观影repo #陈飞宇 #唱歌 #内向",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纸纸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "墩墩鸡翻拍《神探之痕迹》，晚上慎看‼️ 神探之痕迹这个片段太令人印象深刻了，派出我方墩墩鸡来翻拍一下！ dbq王俊凯老师，dbq陈飞宇老师🙏🏻你们演的特别精",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "谈娱社",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《神探之痕迹》陈飞宇这次是真吓到我了！#神探之痕迹 #陈飞宇 #张译 #娱乐评论大赏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一条固执的鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "论一个演员可塑性有多强。今天下午看了神探之痕迹 差点没给我吓尿。。我一个人去看的 在座位上瑟瑟发抖 真的 陈飞宇真的吓到我了。。 反差感太强了吧 明明前一秒还人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小影娱乐",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "歌手马朝阳上线，一首甜歌越听越害怕怎么回事！#陈飞宇自己吓自己",
      "likes": 0,
      "hot": 0
     }
@@ -1105,47 +1626,498 @@
    "authors": [],
    "lexicon": []
   },
-  "二次元假期MVP结算": {
+  "玉簟秋定档10月12日": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "徐若晗",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "强加于我的禁锢与占有，都无法困住我。#玉簟秋定档 #玉簟秋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "丞磊",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "棋声落定，我的加冕，由我铸就。#玉簟秋定档 #玉簟秋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "郭宇欣",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的字典里可从来没有“掌下留情”四个字。#玉簟秋定档 #玉簟秋",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "被甜瓜的生活vlog治愈": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "甜瓜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "她说别哭 她说好幸福",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我就这样姐一天妹一天": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "莓不莓了.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我就这样姐一天妹一天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苹果派",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "姐一天妹一天#可啦啦椰岛电波黑#可啦啦#姐姐#妆容分享#卡点",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "WuGui",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好吧#卡点 #反差 #御姐 #甜妹#剪映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "用户米米",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "👀素#可啦啦椰岛电波黑#可啦啦 @靠谱的👟👔👜⌚穿搭在这里💯 我就这样姐一天妹一天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "邱邱邱邱邱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我就这样姐一天妹一天 #帅#萌#姐#甜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LZH",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们不要再试探彼此了好吗 你告诉我你也很想我就好了#卡点#狮子座",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "就是要当甜妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就这样姐一天妹一天 #姐姐#妹妹 #姐感妹 #ootd",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "没错是我.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我就这样姐一天妹一天#绝不浪费一秒出片时间 #宿舍化妆 #我的穿搭不次抛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Dora",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就这样姐一天妹一天的 #真实生活计划分享 #inmyfeeling #uptou唇釉01#iwawa粉底液",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "paradise",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "姐一天妹一天",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "此处通往繁星开播": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "玉簟秋定档10月12日": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "皮皮哈影视",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小伙入职殡仪馆，第一次夜班直接被吓晕，看到最后笑不活了！#此处通往繁星 #此处通往繁星开播 #郭麒麟 #搞笑",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "止于心影视混剪",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁成想，殡仪馆上班的第一天这么耗血量！ #此处通往繁星 #此处通往繁星开播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "此处通往繁星（酷酷热播中）",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "汉服女孩的执着——最后一刻，穿喜欢的衣服漂漂亮亮离开 #此处通往繁星 #此处通往繁星开播 #张雪迎 郭奇林（#郭麒麟 ）（按姓氏笔画顺序）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "英雄联盟S16主题曲MV": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "英雄联盟",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026英雄联盟全球总决赛主题曲 最伟大的冠军，以坚韧和决心战胜了一切阻碍，让不可能成为可能。 真实伤害在2026全球总决赛官方主题曲《KNOW MY NAME",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "T1-Lumi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "<Know My Name>全球首发！ 英雄联盟S16主题曲以我之名上线！Faker！！！ #Faker #英雄联盟S16主题曲MV #S16主题曲MV #英雄",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛MV有哪些彩蛋？ #Faker #S16主题曲MV #英雄联盟S16 #2026全球总决赛 #真实伤害乐队回归",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "晒晒我的国庆消费新场景": {
+  "王楚然泡芙感女孩灵动穿搭": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "王楚然",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "26年的第一场雪❄️#一追就上头",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江南娱乐家",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泡芙感穿搭的楚然看的人心软软！#王楚然泡芙感女孩灵动穿搭 #王楚然",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "被湘潭剁椒鱼头香迷糊了": {
+  "韩国女歌手虐待女儿致死获刑25年": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "豫视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 浇热水、用木条殴打，韩国网红女歌手嫌女儿休学丢脸，虐待亲生女儿致死，获刑25年 #虐待 #精选主播说 #大河深一度 #韩国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西安晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "因女儿休学让自己丢脸，韩国网红女歌手虐待亲生女儿致死，被判刑25年。女儿被泼热水致全身27%面积烫伤，被遗弃车内不送医，两天后去世。（来源：大河报）#韩国 #母",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙江真好玩",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太残忍也太可恨，这样的人不配做母亲 #韩国 #韩国歌手 #虐童案 #手段极其残忍 #有期徒刑",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "神探之痕迹陈飞宇模仿秀": {
+  "第五人格红蝶全新精华时装爆料": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "网易第五人格",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【第四十五赛季·精华3】海报爆料！ 内含【稀世时装】红蝶-未干底稿，【奇珍时装】律师-隐秘卷宗，【奇珍时装】默剧艺人-以此封缄，将于10月22日维护后上线。 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第五人格灵儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "红蝶二限真来个野葡萄...但还是很美的！ #第五人格 #第五人格追光逐梦 #第五人格加页手记 #悬疑摸金还得第五人格 #第五人格亚运版本",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鱼笙笙（第五人格小鱼）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "红蝶二限竟然是淑女风‼️精华三海报爆料",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "国庆后上班的我belike": {
+  "易梦玲美人余绑定了魅魔系统吧": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "易梦玲",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谈业务你慢了半拍但我劝你别紧张 #美人余 #我的追剧日志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汪汪碎大觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李雪你根本没改 #美人余 #美人余妇仇者联盟暴打渣男",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "清和既望",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑死我了 这是衣服吗就穿上了 #美人余 #易梦玲 #李一桐",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "谭松韵在线喊人一起玩": {
+  "美人余剧情好夯": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "橘子海hai",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拿手机自拍的那一刻 真的笑崩溃了哈哈哈 #美人余 #李一桐 #常华森 #美人余高能抓马不烧心 #美人余开播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "下周日",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不懂就问这是喜剧吗 #美人余 #焦旭 #余梦 #美人余妇仇者联盟暴打渣男",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "美人余（查找寄生虫中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#美人余开播 没有什么比亲眼看到老公背叛更心寒的了...#美人余 #李一桐 #乔振宇 #易梦玲",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "皮皮朱王林紫霖完全胡闹兄弟": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "雪落❄️🌙ྀི",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在ai盛行的时代三位主播还在坚持手搓@皮皮皮皮朱 #皮皮皮皮朱 #银河系王林 #紫霖 #皮皮朱王林紫霖完全胡闹兄弟 #正太扭腰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奶味儿小狗～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "限定版正太（小霖宝得用皮带嘛👀）@紫霖-爱乐L #紫霖 #皮皮皮皮朱 #银河系王林 #正太扭腰 #皮皮朱王林紫霖完全胡闹兄弟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三七.（宣传版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "想过会很抽象，没想到这么抽象，哈哈🤣 @皮皮皮皮朱 @紫霖-爱乐L @王林🍃·银河系001 #搞笑 #抽象 #皮皮皮皮朱 #紫霖 #银河系王林",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "丞磊徐若晗新剧为爱发癫": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电视剧玉簟秋（1012老吃家请入簟",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“你看清楚了，我不是他。” #玉簟秋 杨辉翔（#丞磊）#张云龙 #周洁琼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "月禾浅.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【强取豪夺+恨海情天+假意里掺杂真情】好带感的设定，还有什么理由不看这个玉簟秋！#玉簟秋#丞磊徐若晗新剧修罗场史诗级加强#玉簟秋震撼美味",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "成龙现身NBA中国赛教功夫": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "先锋新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "成龙现身NBA中国赛澳门站活动 现场教NBA球员学功夫",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美人余保姆偷穿裙子好烧心": {
    "stats": {},
    "authors": [],
    "lexicon": []
