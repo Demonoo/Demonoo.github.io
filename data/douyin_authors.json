@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-11 05:50",
+ "updated_at": "2026-10-11 06:40",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
- "ok_count": 26,
+ "topic_count": 47,
+ "ok_count": 39,
  "lexicon_count": 0,
  "topics": {
   "郑钦文首进中网女单决赛": {
@@ -127,12 +127,12 @@
      "hot": 0
     },
     {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【沙特机场遭袭造成12人死亡309人受伤】 沙特11日凌晨发布声明说，死者包括4名沙特人、2名孟加拉国人，其余6人分别来自美国、埃及、约旦、叙利亚、巴勒斯坦和苏",
+     "text": "现场画面｜沙特首都机场再遭袭，至少12死逾300伤。特朗普称或参与对胡塞武装打击行动#沙特 #机场 #胡塞武装",
      "likes": 0,
      "hot": 0
     }
@@ -155,6 +155,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "顶级过肺式闻桂花",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这一口湘辣过瘾不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "颖儿",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新“颖”厨房系列又来啦！湘菜光盘计划+1～#湘菜 #做饭教程 #一追就上头 #颖像记录",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "啾一的废话收藏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在长沙这里吃到解开扣子。。才花了100➕！！有谁能拒绝大学城的便宜的饭饭呢😭😭#美食 #长沙 #长沙旅游 #湖南旅游 #长沙美食 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咸蛋黄",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "果然长沙这种好吃的都藏在居民楼下！ 虽然有点难找 但真的巨巨巨好吃..",
      "likes": 0,
      "hot": 0
     }
@@ -239,43 +276,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "犹记夏日暖，转眼已是秋。 已经开始期待北京的秋色了！ #期待北京的秋色 #转眼已是秋 #北平之秋便是天堂 #银杏黄了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国庆后错峰出游太爽了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "y.D",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "都玩美了吧 该我玩喽。#错峰旅游 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "毛子Jeff",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "川西的风吹发梢。GAP后，时间变自由了 专门错峰国庆，和朋友们8号从成都自驾到康定姑弄村 11点出发，一路走走停停拍拍19:30左右到民宿 第二天来了瓦乌咖啡 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕西都市快报",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 错峰旅游的第一波人出现了，记者在西安北站偶遇错峰出行的湖北一家人。",
      "likes": 0,
      "hot": 0
     }
@@ -427,12 +427,81 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这一口湘辣过瘾不烧心": {
+  "国庆后错峰出游太爽了": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "y.D",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "都玩美了吧 该我玩喽。#错峰旅游 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毛子Jeff",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "川西的风吹发梢。GAP后，时间变自由了 专门错峰国庆，和朋友们8号从成都自驾到康定姑弄村 11点出发，一路走走停停拍拍19:30左右到民宿 第二天来了瓦乌咖啡 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕西都市快报",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 错峰旅游的第一波人出现了，记者在西安北站偶遇错峰出行的湖北一家人。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "游客自购年卡当民办NPC": {
+  "太白山是秦岭秋景天花板吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "一夕🧚‍♀️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太白山，是秦岭秋景天花板🍂#秋日登山打卡 #秋天 #冷杉 #太白山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "噜啦啦噜啦啦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太白山秋景太美啦#太白山 #国庆 #鳌太线 #秋景",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浮尘📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个秋天总得来一趟太白山看秋景吧！秋天的太白山美得不像话！✍️游玩攻略：太白山红杉目前基本都已经转黄，最佳观赏区域围绕天圆地方一带。到达山顶后可选择走两侧的徒步",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "“喝醋能刮油”不实": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -442,32 +511,590 @@
    "authors": [],
    "lexicon": []
   },
-  "北京人社局辟谣社保卡金卡": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "别想太多别睡太晚别爱太满": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "梅艳芳骨灰被盗近三月仍未寻回": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#梅艳芳骨灰被盗近3个月 至今没有寻回！63岁冥诞这天！其歌迷会呼吁“紧急寻找！让梅姐早日回家” #梅艳芳歌迷拜祭时发现骨灰丢失",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "澎湃新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "梅艳芳骨灰被盗近3个月，家人已报警，至今仍未找回，歌迷会呼吁广大市民提供线索。香港已发生多起名人骨灰被盗或失踪事件。（来源：扬子晚报、看看新闻、九派新闻）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "离奇！梅艳芳骨灰被盗，报警至今近三个月仍未寻回，歌迷会呼吁广大市民提供线索",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "据港媒，今日（10月10日）是已故天后梅艳芳63岁冥寿，同日梅艳芳国际歌迷会公布一则沉痛消息：自今年7月起，发现安放于大屿山宝莲禅寺海会塔的梅艳芳骨灰被盗，报警",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "周末在海边漫步的快乐谁懂": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "杨紫",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哎～就这样来到海边溜达～😆#长长长假星日记 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奥利三百斤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "可以拥有无数个这样的早上吗。清晨六点，当地人在海边散步，梦想中的生活 #凌晨的海 #治愈系海景分享 #inmyfeeling",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蓝.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#大海会带走一切忧愁 人需要去辽阔的大地去感受渺小的自己 一切困苦迎刃而解",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "新疆旅游的后劲也太大了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "AmdoToTo’s iPhone",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "「阿勒泰树语」。从敦煌半夜经过星星峡时，已激动得不知如何是好，语言，音乐，都不管用。 绕塔克拉玛干转了一圈，喀什走叶城，根本不知道北疆好玩；等我在禾木找到哈萨克",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "首届AI潮玩人气大赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杜华",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI潮玩人气大赛 全网AI造娃，没有舞台就创造舞台！快来和我们一起手搓专属潮玩。#AI潮玩人气大赛官宣发起人 #杜华 #赵丽颖 #谢娜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "青甘大环线后劲太大了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张凤霞",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青甘大环线 我已去不欠！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "又到了看红叶的季节": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "旅行家Jason",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "此时此刻 你最想把这一瞬间分享给谁呢？ Artist Bluff，新罕布什尔州 现在正值秋季红叶的最佳观赏期。#旅行 #秋天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老君山胡子哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看红叶的季节到了 #一览众山的绝顶风光 #山顶云海打卡 #红叶🍁 #老君山金顶",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山西风光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "崛围山又到登山赏红叶的好时节",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "别想太多别睡太晚别爱太满": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "认清",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别想太多 别睡太晚 别爱太满 #睡前别想太多 #李雨霏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "铁铁没吃饱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我看到你的皮肤 你的骨骼 却看不到你心里的河 #猫咪 #猫咪睡觉 #起司猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "算了人各有路",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西决",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一个人也挺好的 起码不会再为别人流眼泪了不是吗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "零",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我看到你的皮肤 你的骨骼 却看不到你心里的河#蓝猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天冷冷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我看到你的皮肤 你的骨骼 却看不到你心里的河#睡前别想太多 #李雨霏 #情绪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "付冠希",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不关注就不会痛苦 不社交就不会伤心 不联系就不会有感情",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天冷冷 ‍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我看到你的皮肤 你的骨骼 却看不到你心里的河.#混音 #情绪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "徐艺平",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别想太多 别睡太晚 别爱太满",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋日第一锅香辣蟹": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
   "终于刷出了孙燕姿的开始懂了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "波波🐶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "开始懂了完整版 杭州10.9 突然就唱了，意料之外😭我还以为还是隐形人呢。太意外了。终于让我刷出来了😭😭😭#孙燕姿 #开始懂了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🐚🐚🐚🐚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "燕姿你不要太宠杭州了！！《开始懂了》杭州首唱！#孙燕姿杭州 #在日落以后 #开始懂了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风云传播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "孙燕姿大莲花开唱，杭州公安把《遇见》唱明白了，“向左向右向前看”“拿着爱的号码牌 ”，经典歌词秒变入场指南 #ZMG风云传播中心 （记者：李振 编辑：何佳妮）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我不要上班 我要去爬山": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "暗黑2帝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我不要上班 我要去爬山。#武功山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿枫(萨武神山组队中)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人会在大自然里，重新长出生命力(萨武神山1180 奥太娜1280)视频开头小姐姐@‘🦓’ #萨武神山 #哈巴雪山 #奥太娜雪山 #雪山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "饭饭（雪山领队）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人间，瞬间，天地之间 #萨武神山 #饭饭向导 #雪山拍照 #我的徒步生活",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "上海偶遇金旻奎": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "love you",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好帅#金旻奎#上海偶遇 #明星",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "七七.📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "武康路偶遇金旻奎！帅到尖叫啊！ 超幸运的一天 没白来！！！#上海武康路 #武康路街拍 #偶遇明星#金旻奎",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Agony",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@时尚👟👔看芊芊鞋工厂💯 ❗️外滩偶遇金旻奎#金旻奎 #韩国明星 #外滩",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "总有一天你会来到这里": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "六只尾巴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "总有一天你也会来到冰岛 看清当年那个看不清的红房子 #红房子 #冰岛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小鱼丸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "总有一天，你会以任何理由来到这里#纳木措 #冬天的纳木措 #西藏 #去任何想去的地方",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "metshoer",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冰岛 终有一天会来到世界的尽头，用85张照片总结冰岛之旅🇮🇸 #冰岛#自由#inmyfeeling #旅行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这就是宿命般的对视": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "该隐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蛋宰派对？#老吴 #你的名字 #王之蔑视",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北辰♜⃤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当你有一张你好哥们的照片时（第6期） #ai",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "道十一",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "道十一",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李一桐易梦玲联手治渣男": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "十二追剧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李一桐的新剧刚开播，就上演了一出闻香识小三#美人余 #李一桐 #易梦玲#美人余抓马关系越品越炸裂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蛋黄五花肉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁能让她当财务总监 她就听谁的#易梦玲 #李一桐 #美人余 #美人余高能抓马不烧心 #剪映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沐言非",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们两个根本没喝中药！ #美人余#李一桐#易梦玲#美人余妇仇者联盟暴打渣男 #因为一个片段看了整部剧 @DOU+小助手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "你在这碗汤里放了什么啊": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "崔星宇_형우✨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今你在这碗汤里放了什么？ #长今废话文学 #大长今 #大长今你记得吗#韩国大长今",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "烦躁躁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今，你这碗🥣汤里到底放了什么#大长今 #不烧心的一周",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大掌柜不吃香菜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今 你在这碗汤里放了什么啊#馄饨面",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "煮こみ北海道もっ焼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今，你在这碗汤里放了什么啊？#大长今 #日子越来越有盼头了 #假期先来这里吃一口 #我的长长长假 #无锡北海道",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "酸奶不酸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今，你在这碗汤里放了什么啊？#大长今 #精神状态 #大长今废话文学 #武大郎挨猪打",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "1007号贩卖机",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今，你在汤里放了什么～#大长今 #上海蟹黄面 #面料理",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凡酱喜欢吃吃吃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长今，你在汤里放了什么啊？#大长今废话文学 #大长今全集解说 #火锅 #兰州 #兰州美食",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吃不完",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "肠精～你在这碗汤里放了什么啊？ #大长今 #精神状态belike #废话文学 #宫中禁止对食",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "生化危机爆发夜细节越扒越有": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -569,105 +1196,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "又到了看红叶的季节": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "总有一天你会来到这里": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "秋日第一锅香辣蟹": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "蒸蒸日上怼人式唠嗑太好笑了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我不要上班 我要去爬山": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "上海偶遇金旻奎": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "爆剧角色长尾效应太能打": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "威海小黄鸭奶奶太会拍照了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "肥肥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我在威海的大相框下面，遇到了一个超级会拍照的“小黄鸭奶奶”，跟她相处的几分钟，让我觉得有一瞬间的温暖，或许能拯救某个人糟糕的一天#vlog日常#威海大相框#路人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "富江笑声配音挑战": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "这就是宿命般的对视": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "该隐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蛋宰派对？#老吴 #你的名字 #王之蔑视",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "道十一",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "道十一",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北辰♜⃤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当你有一张你好哥们的照片时（第6期） #ai",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李一桐易梦玲联手治渣男": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "美人余追剧repo": {
    "stats": {},
    "authors": [
@@ -705,86 +1233,160 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "你在这碗汤里放了什么啊": {
+  "富江笑声配音挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "崔星宇_형우✨",
+     "name": "念想.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今你在这碗汤里放了什么？ #长今废话文学 #大长今 #大长今你记得吗#韩国大长今",
+     "text": "笑死我了。#当我用闺蜜的笑声配音富江时 #富江 #配音",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "烦躁躁",
+     "name": "疾到发风",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今，你这碗🥣汤里到底放了什么#大长今 #不烧心的一周",
+     "text": "富江大笑原版",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大掌柜不吃香菜",
+     "name": "别读情书",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今 你在这碗汤里放了什么啊#馄饨面",
+     "text": "当我把富江的笑声换成我的笑声belike #配音 #富江 #充能计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "煮こみ北海道もっ焼",
+     "name": "平安很平安～",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今，你在这碗汤里放了什么啊？#大长今 #日子越来越有盼头了 #假期先来这里吃一口 #我的长长长假 #无锡北海道",
+     "text": "#富江笑声 #富江 #富江配音 #配音",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "酸奶不酸",
+     "name": "画家小猫杰拉多尼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今，你在这碗汤里放了什么啊？#大长今 #精神状态 #大长今废话文学 #武大郎挨猪打",
+     "text": "@用户米煮盐 人间#富江 来的 #富江 #配音 #富江配音",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "1007号贩卖机",
+     "name": "김민정",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今，你在汤里放了什么～#大长今 #上海蟹黄面 #面料理",
+     "text": "#富江笑声 #富江配音 #富江本江 #闺蜜这才是我想看的热血番",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凡酱喜欢吃吃吃",
+     "name": "废怖",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "长今，你在汤里放了什么啊？#大长今废话文学 #大长今全集解说 #火锅 #兰州 #兰州美食",
+     "text": "@用户暄暄 #富江#配音#绷不住",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "吃不完",
+     "name": "鸟鸟爱吃栗子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "肠精～你在这碗汤里放了什么啊？ #大长今 #精神状态belike #废话文学 #宫中禁止对食",
+     "text": "@妤妤酱（全游戏女团🥣） #富江#富江配音#富江配音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "지_Andy★",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#夜神月 #富江 #富江笑声 #配音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "kiroy.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@𝕮𝖔𝖓𝖋𝖊𝖘 #富江 #富江笑声 #配音",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "潘玮柏自曝瘦了26斤": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这次真瘦了！#潘玮柏 自曝瘦了13公斤，穿着老婆的女生外套炫耀#减肥成果 ，体重曾逼近100公斤，一直在减肥复胖循环，你觉得这次他能保持多久？#瘦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国蓝新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这次真的瘦了！潘玮柏演我减肥成功。潘玮柏自爆瘦了26斤，还穿上老婆的女式外套上台炫耀减肥成果。“碳水大王”潘玮柏体重曾逼近200斤，一直在减肥复胖循环，被调侃反",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金蝉视频",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "瘦了26斤！潘玮柏变潘玮“薄”！ 演唱会现场穿老婆外套！直言“皇天不负苦心男”#潘玮柏#减肥#演唱会现场 （素材来源：齐鲁晚报济宁融媒、大Omiの麻麻）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "威海小黄鸭奶奶太会拍照了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "肥肥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我在威海的大相框下面，遇到了一个超级会拍照的“小黄鸭奶奶”，跟她相处的几分钟，让我觉得有一瞬间的温暖，或许能拯救某个人糟糕的一天#vlog日常#威海大相框#路人",
      "likes": 0,
      "hot": 0
     }
@@ -864,93 +1466,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#魅影神捕 近在眼前的亲人，偏偏不能相认。罗弋（#罗云熙 ）#徐正溪",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "桂花季出门全员保持深呼吸": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "去有风的地方🇨🇳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好香～好香～好香啊！#桂花树下闻花香 #空气里都是桂花香 #桂花 本月的江西人会香晕了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "春日青",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杭州进入赏桂花时间。#桂花的季节 #空气里都是桂花香 #杭州桂花开了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "生椰不拿铁❤ (ɔˆз(ˆ⌣ˆc)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这几天的上海人。阿沪的桂花开了，不知道隔壁浙浙和阿苏开了没#今天的上海 #桂花 #秋天 #治愈 #2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Yuki_77",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最近江苏人出门都在猛吸桂花。#桂花季 #赏桂花闻花香 #江苏 #桂花飘香的季节",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "差点意思呗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "\"几度秋意浓 最是桂花香\"#满城都是桂花香 #空气里都是桂花香",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "JIAWEN",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "会不会有点太香了。猛嗅一下！！#这也太香了 #杭州满城都是桂花香 #杭州桂花 #杭州桂花季 #桂花",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "骑车去打球了🏸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "要香迷糊了，闻得多了有点晕#桂花#桂花香 #桂花开了是秋景 #上班路上 #桂花树",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "花生壳Wei.&星辰 ✨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泸州人又闻到了今年第二波桂花香了！你们还有桂花闻吗？！被这一冷一热气温骗得好呀🤓#四川降温 #泸州 #泸州桂花 #桂花 #泸州天气 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
@@ -1065,72 +1580,176 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "成都蓉城0:1天津津门虎": {
+  "桂花季出门全员保持深呼吸": {
    "stats": {},
    "authors": [
     {
-     "name": "懂球帝",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冠军还得等！成都0比1津门虎，基莱斯补时献绝杀#天津津门虎 #成都蓉城",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【中超独家】不在今天！基莱斯补时绝杀！成都蓉城惨遭绝杀无缘主场提前三轮夺冠#成都蓉城0比1天津津门虎 #成都蓉城无缘提前三轮夺冠 #基莱斯补时绝杀 #成都蓉城 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川文旅频道",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终场哨响，成都蓉城主场的夺冠之战，最终以0：1的结果惜败天津津门虎，现场球迷遗憾惋惜。#成都蓉城 #中超 #足球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小周侃球",
+     "name": "去有风的地方🇨🇳",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "绝杀击碎冠军梦！成都蓉城0-1天津津门虎，基莱斯绝杀！ #成都蓉城 #成都蓉城vs天津津门虎 #成都蓉城0比1天津津门虎",
+     "text": "好香～好香～好香啊！#桂花树下闻花香 #空气里都是桂花香 #桂花 本月的江西人会香晕了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "时光足球",
+     "name": "春日青",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中超成都蓉城0:1天津津门虎！惨遭绝杀！无缘提前夺冠！遭绝杀！蓉城0-1津门虎 基莱斯补时绝杀 蓉城再度未能提前夺冠#成都蓉城VS天津津门虎#中超#dou来足球",
+     "text": "杭州进入赏桂花时间。#桂花的季节 #空气里都是桂花香 #杭州桂花开了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "生椰不拿铁❤ (ɔˆз(ˆ⌣ˆc)",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "痛失良机！10月10日晚，中超第27轮焦点战，#成都蓉城补时遭绝杀无缘提前夺冠 0:1负于天津津门虎，球员赛后尽显失落，看台上蓉城铁杆球迷久久不愿离去。#媒体原",
+     "text": "这几天的上海人。阿沪的桂花开了，不知道隔壁浙浙和阿苏开了没#今天的上海 #桂花 #秋天 #治愈 #2026",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Yuki_77",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最近江苏人出门都在猛吸桂花。#桂花季 #赏桂花闻花香 #江苏 #桂花飘香的季节",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "差点意思呗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "\"几度秋意浓 最是桂花香\"#满城都是桂花香 #空气里都是桂花香",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "JIAWEN",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "会不会有点太香了。猛嗅一下！！#这也太香了 #杭州满城都是桂花香 #杭州桂花 #杭州桂花季 #桂花",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "骑车去打球了🏸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "要香迷糊了，闻得多了有点晕#桂花#桂花香 #桂花开了是秋景 #上班路上 #桂花树",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "花生壳Wei.&星辰 ✨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泸州人又闻到了今年第二波桂花香了！你们还有桂花闻吗？！被这一冷一热气温骗得好呀🤓#四川降温 #泸州 #泸州桂花 #桂花 #泸州天气 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "我的川西旅行结算画面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "阿锐📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "关于我川西旅行的结算画面。给川西旅行画个句号 从康定到新都桥，再到理塘，巴塘，乡城，稻城，一路向西 记录下了川西的美 分享拍下了以下图片机位 📸： 1：雅拉雪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "HAO.JPG",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "煙波里成灰，也去的完美⋯回复 @0.的评论 #抖音回复 #高原电影感 #双重曝光 #川西 #抖音创作者激励计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "摄影师晓北",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "川西的秋，看过就很难释怀🏔️#川西 #川西后劲太大了 #川西旅行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "蒸蒸日上怼人式唠嗑太好笑了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "亚子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "空乘患有心理疾病却不被认可？没有先例那就创造先例，心理疾病患者的权益不该被忽视！#蒸蒸日上开播 #电视剧蒸蒸日上#蒸蒸日上怼人式唠嗑太好笑了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林九",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "面对质疑，年轻律师用犀利的语言让首富折服，信任，赢得官司！#蒸蒸日上开播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "朱古力",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来儿子的毒舌都是父亲遗传，互怼还得看老一辈！#蒸蒸日上开播 #电视剧蒸蒸日上 #蒸蒸日上草台班子统治世界具象化了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这才是真正的男生漂亮饭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "苏州菜市场藏满糯叽叽美食": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "全世界都在补周三的课": {
    "stats": {},
@@ -1168,21 +1787,6 @@
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "这才是真正的男生漂亮饭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我的川西旅行结算画面": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "苏州菜市场藏满糯叽叽美食": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "挑战用AI进入生化危机爆发夜": {
    "stats": {},
@@ -1238,184 +1842,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "严肃品鉴生化危机爆发夜": {
+  "爆剧角色长尾效应太能打": {
    "stats": {},
    "authors": [
     {
-     "name": "太和的房间",
+     "name": "会火大明星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "21个彩蛋&细节大盘点！《生化危机：爆发夜》 #生化危机 #生化危机爆发夜 #影娱热点团 #长长长假电影时间 #国庆档观影repo",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Sir电影",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "异化的不只是身体！ 这个史诗级ip终于复活了#生化危机爆发夜 #生化危机 #浣熊市 #影视解说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海鸥的影像码头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一直打怪，却越来越弱：《生化危机爆发夜》 枪拿到了，子弹很快打空；车找到了，又遇上新的麻烦。主角闯过一关，换来的只是再多活一会儿。这期聊聊，它怎么靠镜头和声音，",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "薛之谦出洋相场场不一样": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "你的婷婷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "真是场场都有不同的洋相要出！ #薛之谦演唱会是一场大型双向奔赴 #薛之谦 #薛之谦成都",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "花生了什么树（见❄️8次版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听美了突然反应过来自己在开演唱会 哈哈哈哈哈哈哈哈哈哈哈哈哈#薛之谦 #薛之谦万兽之王 #万兽之王演唱会 #薛之谦成都演唱会 #薛之谦万兽之王演唱会 #我的长长",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Joker emo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "进错拍的小猪 吐一下舌头就没人发现了哈哈#场场都一样 #薛之谦 #薛之谦成都演唱会 #跃",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "pick你心中的蛋仔顶流": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "午葵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "到底谁才是蛋仔顶流？ 部分文案参考@我是汤圆 #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔地图推荐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鲨手小炮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "究竟谁才是真正的蛋圈顶流？ （f@我是汤圆 @午葵 ）#顶流 #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔地图推荐 #蛋仔灵感对对碰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "僵尸教授-👾（嘎达嘎达主理人）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蛋仔新顶流之争！你pick谁！ #蛋仔派对 #蛋仔奇思妙想计划 #蛋仔地图推荐 #蛋仔派对小猪佩奇联动 mf：@午葵",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "飞天奖名场面一秒梦回知否": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐报姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王仁君凭借浴血荣光获得飞天奖视帝！赵丽颖也专门恭喜王仁君，盛家的孩子果真都有出息！#王仁君 #飞天奖 #浴血荣光 #知否 #赵丽颖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#赵丽颖 发文恭喜#王仁君 获“#飞天奖 ”优秀男演员奖，网友幽默评论：果然盛家儿女总不会差的。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奇谭释义",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梦回知否！王仁君拿下飞天视帝，赵丽颖留言恭喜二哥哥",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "北京已迎来最佳散步期": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小歌歌",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京第一好逛的city walk路线！就在白塔寺！超多逛到停不下来的小店#北京citywalk #北京白塔寺 #文创集市 #我的长长长假 #北京一日游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我也不知道",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好有腔调的一条街#北京 #citywalk #西兴隆街",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "这儿北京",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听劝，别来！西兴隆街后劲儿太大… #北京 #citywalk #西兴隆街 #旅游 #周末好去处",
+     "text": "真正爆剧的路人盘 前有许亚军 后有王仁君 #王仁君 #许亚军 #飞天奖 #知否 #人民的名义",
      "likes": 0,
      "hot": 0
     }
