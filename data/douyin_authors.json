@@ -1,28 +1,11 @@
 {
- "updated_at": "2026-10-11 18:40",
+ "updated_at": "2026-10-11 19:40",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 46,
- "ok_count": 37,
+ "topic_count": 47,
+ "ok_count": 40,
  "lexicon_count": 0,
  "topics": {
-  "纯过日子就是好好生活": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创从今天开始生活会越来越好！#假期纯过日子人图鉴 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "郑钦文首夺中网女单冠军": {
    "stats": {},
    "authors": [
@@ -60,6 +43,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "当北方人第一次闻桂花香": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黑漆漆的漆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "顶级过肺式闻桂花",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "2026世界市长对话洛阳": {
    "stats": {},
    "authors": [
@@ -79,17 +79,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 振奋！乌干达代表市长：洛阳让书中的中华文明成为现实 #2026世界市长对话洛阳 #世界市长遇见洛阳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洛视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "意大利塞斯托圣乔瓦尼市长逛丽景门，手里快门根本停不下来#世界市长看洛阳 #世界市长相聚洛阳 #洛阳向世界讲述古都故事 #世界市长在洛阳共话古都文明",
+     "text": "#媒体原创 世界市长“组团”参观洛阳博物馆 “这里的文物让我感动”他们期待加强交流、相互学习#2026世界市长对话洛阳 #洛阳博物馆 #媒体精选计划",
      "likes": 0,
      "hot": 0
     },
@@ -100,6 +90,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "世界市长们齐聚洛邑古城，天女散花表演众人纷纷驻足观看拍照 #世界市长相聚洛阳 #古都城市市长共话发展 #古都洛阳被全世界看见 #世界市长打卡洛阳 #向全世界讲述",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洛视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "意大利塞斯托圣乔瓦尼市长逛丽景门，手里快门根本停不下来#世界市长看洛阳 #世界市长相聚洛阳 #洛阳向世界讲述古都故事 #世界市长在洛阳共话古都文明",
      "likes": 0,
      "hot": 0
     }
@@ -141,16 +141,6 @@
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "郑钦文捧起中网冠军奖杯，点赞祝贺！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视体育",
      "verify": "红V",
      "identity": "媒体人",
@@ -159,21 +149,31 @@
      "text": "赛前赛后丨捧杯时刻 郑钦文唯有感谢 #郑钦文首夺中网女单冠军",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一记再见ACE兑现冠军！郑钦文2-0战胜安德列娃，成为中网历史上第一位夺得单打冠军的中国球员。祝贺郑钦文！#媒体原创",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "当北方人第一次闻桂花香": {
+  "纯过日子就是好好生活": {
    "stats": {},
    "authors": [
     {
-     "name": "黑漆漆的漆",
-     "verify": "",
-     "identity": "",
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "顶级过肺式闻桂花",
+     "text": "#媒体原创从今天开始生活会越来越好！#假期纯过日子人图鉴 #媒体精选计划",
      "likes": 0,
      "hot": 0
     }
@@ -285,73 +285,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "时间来不及细算直到冷空气袭来": {
+  "秋天的桂花香太治愈了": {
    "stats": {},
    "authors": [
     {
-     "name": "e-小洋",
+     "name": "YᴗY 💕",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "时间是来不及细算的 直到冷空气夹着回忆袭来 我发觉又是一年.#比冬天先来的是回忆",
+     "text": "香迷糊了～#车里的桂花香 #秋天",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Milo大人",
+     "name": "梦梦🐟",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "时间是来不及细算的，直到冷空气夹着回忆袭来，才发觉又是一年#电影感vlog #摄影 #粤语 #生活碎片",
+     "text": "我嗅嗅嗅嗅嗅，呀 好幸福～#桂花香 #秋天 #幸福",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "爱拍照的Nydia📷",
+     "name": "家中常备……",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "时间是来不及细算的 直到冷空气夹着回忆袭来才发觉又是一年 #北京 #秋天 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "土土",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间是来不及细算的，直到冷空气裹挟着回忆袭来，我才发觉又是一年。#城市晚霞 #秋",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "郑钦文夺冠后唱梦的光点": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#郑钦文唱梦的光点#】视频来了！再次祝贺郑钦文！#郑钦文中网实现歌手梦#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中网ChinaOpen",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "捧起冠军奖杯后，郑钦文唱响《梦的光点》 捧起冠军奖杯的#郑钦文， 转头唱起了自己最爱的《梦的光点》！🎶 今天，她站在中网的最高领奖台上， 带着满满的快乐，大声",
+     "text": "妈耶，香迷糊了 #车里的桂花香",
      "likes": 0,
      "hot": 0
     }
@@ -396,36 +359,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秋天的桂花香太治愈了": {
+  "郑钦文夺冠后唱梦的光点": {
    "stats": {},
    "authors": [
     {
-     "name": "YᴗY 💕",
-     "verify": "",
-     "identity": "",
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "香迷糊了～#车里的桂花香 #秋天",
+     "text": "【#郑钦文唱梦的光点#】视频来了！再次祝贺郑钦文！#郑钦文中网实现歌手梦#",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "梦梦🐟",
+     "name": "中网ChinaOpen",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "捧起冠军奖杯后，郑钦文唱响《梦的光点》 捧起冠军奖杯的#郑钦文， 转头唱起了自己最爱的《梦的光点》！🎶 今天，她站在中网的最高领奖台上， 带着满满的快乐，大声",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "时间来不及细算直到冷空气袭来": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "e-小洋",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我嗅嗅嗅嗅嗅，呀 好幸福～#桂花香 #秋天 #幸福",
+     "text": "时间是来不及细算的 直到冷空气夹着回忆袭来 我发觉又是一年.#比冬天先来的是回忆",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "家中常备……",
+     "name": "Milo大人",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "妈耶，香迷糊了 #车里的桂花香",
+     "text": "时间是来不及细算的，直到冷空气夹着回忆袭来，才发觉又是一年#电影感vlog #摄影 #粤语 #生活碎片",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱拍照的Nydia📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间是来不及细算的 直到冷空气夹着回忆袭来才发觉又是一年 #北京 #秋天 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "土土",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间是来不及细算的，直到冷空气裹挟着回忆袭来，我才发觉又是一年。#城市晚霞 #秋",
      "likes": 0,
      "hot": 0
     }
@@ -475,36 +475,16 @@
    "authors": [],
    "lexicon": []
   },
-  "檀健次奇妙夜新歌舞台首秀": {
+  "青甘大环线后劲太大了": {
    "stats": {},
    "authors": [
     {
-     "name": "芒果妈妈",
+     "name": "张凤霞",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁不想急头白脸看一段劲舞#檀健次#2026美好奇妙夜#彩排",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湖南娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#檀健次唱跳舞台把人钓成翘嘴了 太会了 #檀健次 #2026美好奇妙夜 #檀健次美好奇妙夜舞台彩排曝光 #现场版live",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "JCTMAX玫老板",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以防你没听过天籁清唱版的 dead reflex #檀健次 #抖音奇妙夜 #檀健次三专 #deadreflex #檀健次抖音奇妙夜",
+     "text": "青甘大环线 我已去不欠！",
      "likes": 0,
      "hot": 0
     }
@@ -549,16 +529,41 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "青甘大环线后劲太大了": {
+  "2026美好奇妙夜": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "檀健次奇妙夜新歌舞台首秀": {
    "stats": {},
    "authors": [
     {
-     "name": "张凤霞",
+     "name": "芒果妈妈",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "青甘大环线 我已去不欠！",
+     "text": "谁不想急头白脸看一段劲舞#檀健次#2026美好奇妙夜#彩排",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "湖南娱乐",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#檀健次唱跳舞台把人钓成翘嘴了 太会了 #檀健次 #2026美好奇妙夜 #檀健次美好奇妙夜舞台彩排曝光 #现场版live",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "JCTMAX玫老板",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以防你没听过天籁清唱版的 dead reflex #檀健次 #抖音奇妙夜 #檀健次三专 #deadreflex #檀健次抖音奇妙夜",
      "likes": 0,
      "hot": 0
     }
@@ -593,47 +598,72 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "终于刷出了孙燕姿的开始懂了": {
+  "香港警方回应梅艳芳骨灰被盗": {
    "stats": {},
    "authors": [
     {
-     "name": "波波🐶",
-     "verify": "",
-     "identity": "",
+     "name": "刑事律师熊鑫",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "开始懂了完整版 杭州10.9 突然就唱了，意料之外😭我还以为还是隐形人呢。太意外了。终于让我刷出来了😭😭😭#孙燕姿 #开始懂了",
+     "text": "梅艳芳骨灰被盗三个月未破案，难点到底在哪里？#梅艳芳骨灰被盗近三月仍未寻回 #秀出我的诉讼策略 #抖来普法2026 #律师普法",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "🐚🐚🐚🐚",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "燕姿你不要太宠杭州了！！《开始懂了》杭州首唱！#孙燕姿杭州 #在日落以后 #开始懂了#短视频变现 #流量扶持",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风云传播",
+     "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "孙燕姿大莲花开唱，杭州公安把《遇见》唱明白了，“向左向右向前看”“拿着爱的号码牌 ”，经典歌词秒变入场指南 #ZMG风云传播中心 （记者：李振 编辑：何佳妮）",
+     "text": "梅艳芳骨灰被盗 香港警方回应：已交由重案组跟进 香港近年已有多位名人骨灰被盗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #梅艳芳骨灰被盗3个月仍未寻回 梅启明接到记者电话才知道 震惊痛哭！#梅启明考虑悬赏5万港元寻找 #梅启明坦言今年一整年没去祭拜过妹妹 ；香港警方：",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青蜂侠",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#香港警方回应梅艳芳骨灰被盗 ：已交由重案组跟进，暂无人被捕 #梅艳芳骨灰被盗3个月无进展 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "香港警方回应“梅艳芳骨灰被盗”：交由重案组跟进，暂未有人被捕。梅艳芳国际歌迷会10日晚公布一则消息称，7月18日发现安放于香港大屿山宝莲禅寺海会塔的梅艳芳骨灰被",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "重庆交通广播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "香港警方回应“梅艳芳骨灰被盗”交由重案组 #梅艳芳 #香港明星 #警方回应 #梅艳芳骨灰被盗 #梅妈骨灰失踪",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "2026美好奇妙夜": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "我的假日慢充宝藏城市": {
    "stats": {},
@@ -696,22 +726,22 @@
      "hot": 0
     },
     {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月11日，#身高超2米巨人网红小玥因病离世 ，年仅26岁，去年生下孩子，后被查出垂体瘤等疾病，因与男友因悬殊身高差走红。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "极目新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 #身高超2米的女网红小玥因病去世 ，年仅26岁。她与男友的账号共有超20万粉丝，视频中经常突出双方身高差。友人：她性格温和，没想到离世如此突然",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月11日，#身高超2米巨人网红小玥因病离世 ，年仅26岁，去年生下孩子，后被查出垂体瘤等疾病，因与男友因悬殊身高差走红。",
      "likes": 0,
      "hot": 0
     },
@@ -843,6 +873,169 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "短剧演员合唱如果我们不曾相遇": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "过儿短剧",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爱这个#昼以继夜 #卡戎谭盐盐 #梁思伟张晋宜 #刘宇航朱小雪 #2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "泡饭用户",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "侯呈玥，很高兴与你相遇！ #侯呈玥 #侯呈玥短剧 #2026美好奇妙夜 #果子全员奇妙夜团建 @演员-侯呈玥 @侯呈玥工作室",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "MOON_侯呈玥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那一天 那一刻 那个场景～#侯呈玥 #侯呈玥短剧 #2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "终于刷出了孙燕姿的开始懂了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "波波🐶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "开始懂了完整版 杭州10.9 突然就唱了，意料之外😭我还以为还是隐形人呢。太意外了。终于让我刷出来了😭😭😭#孙燕姿 #开始懂了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🐚🐚🐚🐚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "燕姿你不要太宠杭州了！！《开始懂了》杭州首唱！#孙燕姿杭州 #在日落以后 #开始懂了#短视频变现 #流量扶持",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风云传播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "孙燕姿大莲花开唱，杭州公安把《遇见》唱明白了，“向左向右向前看”“拿着爱的号码牌 ”，经典歌词秒变入场指南 #ZMG风云传播中心 （记者：李振 编辑：何佳妮）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "别想太多别睡太晚别爱太满": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "我拍到了毕棚沟限时雪山彩林": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "露营是最小成本的出逃": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "向野小姜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拉开帐篷，我找到了北京周边版的🍂大兴安 在北京以北2h，藏着这样一块视野开阔的露营地🏕️ 📍三道川盆地坑 不知道你会不会也有这样的时刻 想短暂的逃离城市，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姜姜将",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天！气！太！好！了！#露营 #野餐#户外 #亲子野餐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Luminous·Sierra",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我无心博弈，只想享受这越来越少的青春。#篝火才是露营的灵魂",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "用ai还原抖音寻人真实故事": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "她骑着摩托找了27年，终于等到女儿回家的这一天 #媒体原创 #2026美好奇妙夜 #创作阶梯计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鹤灵Healing",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“他们要我，做他老婆。” #2026美好奇妙夜#抖音寻人十周年 #一场10年25700个家庭的团圆 #抖音精选App #创作阶梯计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "银河旅人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "寻找了27年，奔波60万公里。 当脚步走不动，寻找换了方向。一次转发、一条线索，让离散的母女终于重逢。 人海茫茫，都来帮忙。 #2026美好奇妙夜 #抖音寻人十",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我家萌宠养着不烧心": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "心愿会实现吗": {
    "stats": {},
    "authors": [
@@ -940,179 +1133,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "香港警方回应梅艳芳骨灰被盗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "刑事律师熊鑫",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梅艳芳骨灰被盗三个月未破案，难点到底在哪里？#梅艳芳骨灰被盗近三月仍未寻回 #秀出我的诉讼策略 #抖来普法2026 #律师普法",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梅艳芳骨灰被盗 香港警方回应：已交由重案组跟进 香港近年已有多位名人骨灰被盗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #梅艳芳骨灰被盗3个月仍未寻回 梅启明接到记者电话才知道 震惊痛哭！#梅启明考虑悬赏5万港元寻找 #梅启明坦言今年一整年没去祭拜过妹妹 ；香港警方：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青蜂侠",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#香港警方回应梅艳芳骨灰被盗 ：已交由重案组跟进，暂无人被捕 #梅艳芳骨灰被盗3个月无进展 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "香港警方回应“梅艳芳骨灰被盗”：交由重案组跟进，暂未有人被捕。梅艳芳国际歌迷会10日晚公布一则消息称，7月18日发现安放于香港大屿山宝莲禅寺海会塔的梅艳芳骨灰被",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "重庆交通广播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "香港警方回应“梅艳芳骨灰被盗”交由重案组 #梅艳芳 #香港明星 #警方回应 #梅艳芳骨灰被盗 #梅妈骨灰失踪",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "别想太多别睡太晚别爱太满": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "露营是最小成本的出逃": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "向野小姜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拉开帐篷，我找到了北京周边版的🍂大兴安 在北京以北2h，藏着这样一块视野开阔的露营地🏕️ 📍三道川盆地坑 不知道你会不会也有这样的时刻 想短暂的逃离城市，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姜姜将",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天！气！太！好！了！#露营 #野餐#户外 #亲子野餐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Luminous·Sierra",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我无心博弈，只想享受这越来越少的青春。#篝火才是露营的灵魂",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "短剧演员合唱如果我们不曾相遇": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "过儿短剧",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爱这个#昼以继夜 #卡戎谭盐盐 #梁思伟张晋宜 #刘宇航朱小雪 #2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "泡饭用户",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "侯呈玥，很高兴与你相遇！ #侯呈玥 #侯呈玥短剧 #2026美好奇妙夜 #果子全员奇妙夜团建 @演员-侯呈玥 @侯呈玥工作室",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "MOON_侯呈玥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "那一天 那一刻 那个场景～#侯呈玥 #侯呈玥短剧 #2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "威海小黄鸭奶奶太会拍照了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "肥肥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我在威海的大相框下面，遇到了一个超级会拍照的“小黄鸭奶奶”，跟她相处的几分钟，让我觉得有一瞬间的温暖，或许能拯救某个人糟糕的一天#vlog日常#威海大相框#路人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中工网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 “包出片”的快乐谁懂啊！小黄鸭奶奶温柔引导游客拍照，找角度、教姿势、还负责把你夸上天！@肥肥 @小蛋",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "听完一曲萨克斯整个人都通透了": {
    "stats": {},
    "authors": [
@@ -1150,10 +1170,32 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我家萌宠养着不烧心": {
+  "威海小黄鸭奶奶太会拍照了": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "肥肥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我在威海的大相框下面，遇到了一个超级会拍照的“小黄鸭奶奶”，跟她相处的几分钟，让我觉得有一瞬间的温暖，或许能拯救某个人糟糕的一天#vlog日常#威海大相框#路人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中工网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 “包出片”的快乐谁懂啊！小黄鸭奶奶温柔引导游客拍照，找角度、教姿势、还负责把你夸上天！@肥肥 @小蛋",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "这就是宿命般的对视": {
    "stats": {},
@@ -1267,43 +1309,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "大水时代是什么梗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "奈小妹",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我已严肃进入大水时代#大水时代是什么梗 #大水时代 #大学生 #万万没想到",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "柚柚来也",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "所有人跟我一起全面进入大水时代#大水时代是什么梗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小豆丁在线",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的朋友请和我一起加入大水时代#大学生#万万没想到#搞笑#大水时代是什么梗",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "重庆一日citywalk逛吃攻略": {
    "stats": {},
    "authors": [
@@ -1375,15 +1380,32 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "深呼吸闭好你的眼睛": {
+  "首届AI潮玩人气大赛": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "富江笑声配音挑战": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "杜华",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI潮玩人气大赛 全网AI造娃，没有舞台就创造舞台！快来和我们一起手搓专属潮玩。#AI潮玩人气大赛官宣发起人 #杜华 #赵丽颖 #谢娜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "AI潮玩人气大赛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI潮玩人气大赛官宣发起人 @杜华 @赵丽颖 @谢娜🌞 我是真的谢娜 邀你解锁 AI 造娃！快来参赛，送你的娃C位出道🎉#AI潮玩人气大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "听完这首茶花开了好想家": {
    "stats": {},
@@ -1492,6 +1514,236 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "富江笑声配音挑战": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "大水时代是什么梗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "奈小妹",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我已严肃进入大水时代#大水时代是什么梗 #大水时代 #大学生 #万万没想到",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柚柚来也",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人跟我一起全面进入大水时代#大水时代是什么梗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小豆丁在线",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的朋友请和我一起加入大水时代#大学生#万万没想到#搞笑#大水时代是什么梗",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "飞天奖名场面一秒梦回知否": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐报姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王仁君凭借浴血荣光获得飞天奖视帝！赵丽颖也专门恭喜王仁君，盛家的孩子果真都有出息！#王仁君 #飞天奖 #浴血荣光 #知否 #赵丽颖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#赵丽颖 发文恭喜#王仁君 获“#飞天奖 ”优秀男演员奖，网友幽默评论：果然盛家儿女总不会差的。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奇谭释义",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "梦回知否！王仁君拿下飞天视帝，赵丽颖留言恭喜二哥哥",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "侯明昊纯手搓闪身步": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "侯明昊",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "学了几个新招#长长长假星日记#闪身步",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "汕头爽吃攻略请查收": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "十五月见",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家要的汕头旅游攻略来啦 完全就是一座美食与美丽并存的城市#旅游攻略 #汕头旅游 #干货分享 #我的长长长假",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南瓜小丸子呀🎃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "汕头真的太好吃了！三天爽吃30家美味😋 #汕头美食 #汕头美食攻略 #潮汕特色小吃 #十一美食推荐 #本地人私藏美食清单",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深呼吸闭好你的眼睛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Szeze",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还得是经济上行期的歌 听着就是有劲 #深呼吸#inmylifestyle#hiking#温哥华",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Just✨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全世界有最清醒氧气。#山顶自由感 #深呼吸 #风",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白玉汤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还得是经济时期的课 一听就有劲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "周里个周",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "努力爱 超越所有默契 所有动力",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是包子呀🥕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还得是经济上行时期的歌 听着就有劲儿 深呼吸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "自己想要的人生，要由自己亲手奉上。 #漂亮坏女人 #漂亮就行 #深呼吸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "m7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Baobei 跟我一起深呼吸就好啦 #报备报备 #7feeling",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "D.A.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“幸福并非拥有所有，而是享受当下拥有。” #在拍一种很新的假期生活vlog #长长长假慢慢游 #我的长长长假 #D.A.vibe #随拍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不允徐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "深呼吸 闭好你的眼睛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "双喜超人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生来赤裸 上天给我什么我就享受什么 上天让我失去什么我就放下什么",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "没想到长大后这么好看啊": {
    "stats": {},
    "authors": [
@@ -1592,97 +1844,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "那个时候跟害了你一样#小时候",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用ai还原抖音寻人真实故事": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "她骑着摩托找了27年，终于等到女儿回家的这一天 #媒体原创 #2026美好奇妙夜 #创作阶梯计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鹤灵Healing",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“他们要我，做他老婆。” #2026美好奇妙夜#抖音寻人十周年 #一场10年25700个家庭的团圆 #抖音精选App #创作阶梯计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "银河旅人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "寻找了27年，奔波60万公里。 当脚步走不动，寻找换了方向。一次转发、一条线索，让离散的母女终于重逢。 人海茫茫，都来帮忙。 #2026美好奇妙夜 #抖音寻人十",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "侯明昊纯手搓闪身步": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "侯明昊",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学了几个新招#长长长假星日记#闪身步",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这才是真正的男生漂亮饭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "全世界都在补周三的课": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "汕头爽吃攻略请查收": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "十五月见",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家要的汕头旅游攻略来啦 完全就是一座美食与美丽并存的城市#旅游攻略 #汕头旅游 #干货分享 #我的长长长假",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "南瓜小丸子呀🎃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "汕头真的太好吃了！三天爽吃30家美味😋 #汕头美食 #汕头美食攻略 #潮汕特色小吃 #十一美食推荐 #本地人私藏美食清单",
      "likes": 0,
      "hot": 0
     }
