@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-14 04:48",
+ "updated_at": "2026-10-14 05:41",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 33,
- "ok_count": 12,
+ "topic_count": 49,
+ "ok_count": 38,
  "lexicon_count": 0,
  "topics": {
   "中朝新鸭绿江大桥将开通": {
@@ -11,11 +11,31 @@
    "authors": [
     {
      "name": "新华社",
-     "verify": "",
-     "identity": "",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新华社",
+     "text": "经中朝双方商定，中朝新鸭绿江大桥将于10月15日正式开通，双方将于当日共同举行开通仪式。（记者：丁非白、刘斌 ，视频：韩赫）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中朝新鸭绿江大桥将于10月15日正式开通，双方将于当日共同举行开通仪式。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐鲁晚报·果然视频",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中朝新鸭绿江大桥明日正式开通",
      "likes": 0,
      "hot": 0
     },
@@ -30,32 +50,12 @@
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中朝新鸭绿江大桥10月15日正式开通 #中朝 #朝鲜 #大桥 #鸭绿江",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
+     "name": "湖北日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中朝新鸭绿江大桥明日正式开通",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中朝新鸭绿江大桥将开通",
+     "text": "经中朝双方商定，中朝新鸭绿江大桥将于10月15日正式开通，双方将于当日共同举行开通仪式。（剪辑：乐希）",
      "likes": 0,
      "hot": 0
     }
@@ -63,16 +63,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "欧冠曼联0:2不敌马竞": {
+  "英雄联盟S16入围赛赛程确定": {
    "stats": {},
    "authors": [
     {
-     "name": "体坛周报",
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛赛制说明 全世界最出色的队伍已经蓄势待发，准备在2026全球总决赛上书写他们的传奇。随我们一起，了解今年的赛制。今朝风起，不容错过。 10月1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中安在线",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "开场49秒遭闪击！十人曼联0比2不敌马竞 ，近五场比赛一胜难求！（编辑：Lym）#曼联 #欧冠 #马竞",
+     "text": "10月13日（发布）2026英雄联盟全球总决赛入围赛首轮赛程确定。（编辑：小yu）#英雄联盟 #2026全球总决赛 #2026英雄联盟全球总决赛入围赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英雄联盟",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛LPL出征海报。#s16出征海报 #英雄联盟s16 #2026全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小王纸【游戏剧情解说】",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“我见证了许多队伍的兴衰，但浪花淘尽，唯有我屹立不倒” 英雄联盟S16主题曲MV内容解析#faker #以我之名 #英雄联盟S16 #2026全球总决赛",
      "likes": 0,
      "hot": 0
     }
@@ -94,12 +124,12 @@
      "hot": 0
     },
     {
-     "name": "人民政协网",
+     "name": "央视一套",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "全国秋粮收获进入高峰期 进度过六成",
+     "text": "#媒体原创 #全国秋粮收获进度已过六成 【#今年全国秋粮有望再获丰收 】农业农村部13日发布的最新农情调度显示，目前全国秋粮收获进入高峰期，进度过六成。其中黄淮",
      "likes": 0,
      "hot": 0
     },
@@ -110,26 +140,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "农业农村部：全国秋粮收获过六成。#秋粮 #收获",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 【#全国秋粮收获进度过半 】农业农村部最新农情调度显示，我国秋粮收获过半，秋冬种陆续展开。近日，农业农村部派出6个工作组和科技小分队，赴12个秋收秋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国青年报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 美不胜收！马山农户晒秋粮，院落皆是丰收场。@马山县融媒体中心",
      "likes": 0,
      "hot": 0
     }
@@ -171,12 +181,12 @@
      "hot": 0
     },
     {
-     "name": "好动动·台球",
+     "name": "康溪盛世阿超（冲200万粉）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这场比赛，值得纪念！ #郑宇伯 #曹金 #斯诺克900 #好动动台球",
+     "text": "有一种圆梦叫做郑宇伯夺冠🏆 #康溪盛世 #郑宇伯 #金利来#斯诺克900",
      "likes": 0,
      "hot": 0
     }
@@ -241,56 +251,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "英雄联盟S16入围赛赛程确定": {
+  "欧冠曼联0:2不敌马竞": {
    "stats": {},
    "authors": [
     {
-     "name": "英雄联盟赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026全球总决赛赛制说明 全世界最出色的队伍已经蓄势待发，准备在2026全球总决赛上书写他们的传奇。随我们一起，了解今年的赛制。今朝风起，不容错过。 10月1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中安在线",
+     "name": "体坛周报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月13日（发布）2026英雄联盟全球总决赛入围赛首轮赛程确定。（编辑：小yu）#英雄联盟 #2026全球总决赛 #2026英雄联盟全球总决赛入围赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "英雄联盟",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026全球总决赛LPL出征海报。#s16出征海报 #英雄联盟s16 #2026全球总决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL电竞吉格斯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巴西赛区完结，S16世界赛入围赛抽签出炉 #faker#全球总决赛 #英雄联盟s16",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灵石路高振宇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "S16世界赛一定会发生的事情… #英雄联盟S16 #2026英雄联盟全球总决赛 #LPL #T1 #Faker",
+     "text": "开场49秒遭闪击！十人曼联0比2不敌马竞 ，近五场比赛一胜难求！（编辑：Lym）#曼联 #欧冠 #马竞",
      "likes": 0,
      "hot": 0
     }
@@ -300,8 +270,20 @@
   },
   "繁荣主义穿搭": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "迪娜dina_阿迪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "问我了吗 就把我改成繁荣主义大美女。韩老师@韩好甜 的权威穿搭再次出现! 还有一些美美拍照技巧😁💕 #美的很权威 #绝不浪费一秒出片时间 #穿搭技巧 #拍照",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "秋天这样穿不烧心": {
    "stats": {},
@@ -340,7 +322,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我的古早味秋冬穿搭": {
+  "松弛感秋日穿搭合集": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -354,37 +336,37 @@
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金球实力！凯恩独造3球难求胜利，十人拜仁客场3-3遭维京爆冷逼平 #凯恩 #拜仁 #维京 #欧冠 #上新爱体育看欧冠",
+     "text": "心态失衡！奥利塞战术犯规后用球砸向对手面部，两黄变一红被罚下，导致拜仁少打一人遭绝平 #奥利塞 #拜仁 #维京 #欧冠 #上新爱体育看欧冠",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "吴桐Fairy",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "UEFA欧冠联赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "维京3:3拜仁 欧冠作客挪威，一波三折。开场丢球，让二追三，奥利塞红牌，被绝平。拜仁还有什么没遇到的吗#欧冠 #桐话绿茵 #拜仁",
+     "text": "热知识：这支维京今年5:0赢过博德闪耀 #欧冠 #维京 #拜仁 #足球 #欧冠由你定义",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "时光足球",
+     "name": "山东体育休闲频道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "维京队球迷在拜仁球队下榻的酒店外放烟花",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梅戈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爆冷！拜仁客场3-3遭挪超队维京绝平 凯恩双响奥利塞用球砸人染红 #dou来足球季 #拜仁 #维京VS拜仁慕尼黑 #凯恩 #欧冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "8K最体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【10月13日足坛疯狂一夜！国米3比4布鲁日创最大爆冷，拜仁3比3维京遭绝平，巴萨4-1逆转，国安客场取胜！12场比赛，2场意外、2场平局、8场正常发挥！】 1",
+     "text": "欧冠这辈子第一次踢！维京凭什么让拜仁不敢轻敌！ 拜仁客场挑战维京。诺伊尔冲双纪录、凯恩连续 8 场破门、穆西亚拉伤缺！别拿上一轮当剧本看！#维京vs拜仁 #欧冠",
      "likes": 0,
      "hot": 0
     }
@@ -392,29 +374,83 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "松弛感秋日穿搭合集": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "阿隆索携博托莱托入驻抖音": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "Fernando Alonso",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "F1双冠王，费尔南多·阿隆索，头哥来了！ Hola！抖音的朋友们，大家好！ 我是你们的头哥——费尔南多·阿隆索！🏎️ 2004年，我第一次来到中国参加比赛。转",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Gabriel Bortoleto",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🇧🇷 我是奥迪F1车队车手博托莱托！ 你们想了解我什么？👀 中国的朋友们，大家好！👋 我是加布里埃尔·博托莱托，来自奥迪 F1 车队！🏎️ 很开心终于",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "F1世界锦标赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冲浪速度FASTER THAN YOU，欢迎@Fernando Alonso 和@Gabriel Bortoleto 师徒二人入驻抖音！#F1 #费尔南多阿隆索",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国安客场1:0武里南联": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新爱体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "手榴弹战术！林良铭头球摆渡助攻法比奥头球破门，国安客场1-0绝杀武里南联 #法比奥 #国安 #武里南联 #亚冠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第80分钟一锤定音！拉莫斯大力手抛球，林良铭关键一顶助攻法比奥破门，北京国安客场1比0武里南联！#武里南联0比1北京国安 #法比奥破门 #亚冠 #dou来足球季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "足球报",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "林良铭连线法比奥，国安力克武里南联喜迎亚冠两连胜 #亚冠精英赛 #亚冠 #北京国安 #武里南联",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "国米主场3:4不敌布鲁日": {
    "stats": {},
    "authors": [
-    {
-     "name": "时光足球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "两连败！国米3-4布鲁日 劳塔罗双响+失单刀恰20送点何马失误送礼#国际米兰VS布鲁日#dou来足球季#欧冠#国米3比4布鲁日#劳塔罗",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "梅戈",
      "verify": "",
@@ -432,6 +468,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "国米防守问题不能简单的全部归咎于门将问题 #国米3比4布鲁日 #国际米兰 #大圣聊球 #欧冠 #AC米兰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逍龙足球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "豪门集体翻车！今夜欧冠冷门迭起，拜仁国米曼联非平即负！#拜仁 #国米 #曼联 #欧冠 #上热门",
      "likes": 0,
      "hot": 0
     },
@@ -459,25 +505,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国安客场1:0武里南联": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "用1200个魔方祝贺郑钦文夺冠": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "郑宇伯斯诺克900长沙站冠军": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "缅北魏家犯罪集团案一审宣判": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "魔方达人夏传奇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "1200个魔方拼图祝贺郑钦文中网夺冠 创造历史#网球郑钦文 #郑钦文 #郑钦文夺冠#魔方#魔方拼图 @人民日报 @新华社",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三沙卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "祝贺!郑钦文中网夺冠，创造历史！第一个1000赛冠军（咪咕体育）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "祝贺！郑钦文首次闯入中网女单决赛，决赛将与安德烈耶娃争夺冠军#中网 #郑钦文vs安德烈耶娃 #郑钦文vs梅尔滕斯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "无畏契约10月15日停机更新公告": {
    "stats": {},
@@ -523,23 +586,18 @@
      "hot": 0
     },
     {
-     "name": "十三妖",
+     "name": "情报马（无畏契约）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "下一套原创套装炽羽天袭将于11月4号上线#无畏契约手游#无畏契约手游",
+     "text": "新英雄是粉发妹！技能也有曝光 @黑桐电竞（↓↓↓🌏号） #无畏契约 #情报马 #电子竞技 #游戏",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "无畏契约全新中国英雄爆料": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "NEON翻跳火速来袭": {
    "stats": {},
@@ -555,6 +613,16 @@
      "hot": 0
     },
     {
+     "name": "蛋丝儿🍳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "田这个歌和舞不知道拿什么输🫰李秀满你的花田赢了#a2olite #neon #Kpop#李秀满",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "橙子o🍊",
      "verify": "",
      "identity": "",
@@ -565,12 +633,12 @@
      "hot": 0
     },
     {
-     "name": "蛋丝儿🍳",
+     "name": "Yanniii远子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "田这个歌和舞不知道拿什么输🫰李秀满你的花田赢了#a2olite #neon #Kpop#李秀满",
+     "text": "这段两位舞担跳的太爽了 #A2OLITE #Kpop #抖音潮流舞蹈大赛 #NEON",
      "likes": 0,
      "hot": 0
     },
@@ -585,16 +653,6 @@
      "hot": 0
     },
     {
-     "name": "三金JInnnnn",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李秀满新女团a2o出道曲速翻！实力太强了🔥🔥🔥 🆘不敢相信这么快这么难的舞，她们要跳3分多钟...舞台 质感全程拉满了!跳的太好了妹宝们...说实话觉得",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "就是吴啊",
      "verify": "",
      "identity": "",
@@ -605,12 +663,12 @@
      "hot": 0
     },
     {
-     "name": "Yanniii远子",
+     "name": "三金JInnnnn",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这段两位舞担跳的太爽了 #A2OLITE #Kpop #抖音潮流舞蹈大赛 #NEON",
+     "text": "李秀满新女团a2o出道曲速翻！实力太强了🔥🔥🔥 🆘不敢相信这么快这么难的舞，她们要跳3分多钟...舞台 质感全程拉满了!跳的太好了妹宝们...说实话觉得",
      "likes": 0,
      "hot": 0
     },
@@ -650,13 +708,335 @@
   },
   "丞磊在我抖音摸一天麻将了": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "洛一瀾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "虞昶轩你牛大了 #丞磊 #虞昶轩 #玉簟秋 #丞磊虞昶轩 #民国爱情",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Moment",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "指尖烟火，是无需多言的态度。#丞磊虞昶轩民国最有腔调的男人 #丞磊 #虞昶轩 #玉簟秋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "feel",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“好有韵味”#丞磊 #虞昶轩 #玉簟秋 #玉簟秋情感浓度好高好上头",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "浙BA宁海拿下主场首胜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "浙BA官方账号",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "浙BA省级争霸赛宁海队78:75诸暨队，葛宁枫29分9篮板6抢断获MVP，宁海队主场首秀获胜! #浙BA宁海队vs诸暨队 #葛宁枫 #浙BA宁海队拿下主场首胜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "体坛报",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#浙BA宁海队vs诸暨队 砍下29分投进关键三分，葛宁枫帮助宁海赢下浙BA省级争霸赛首个主场！（拍摄/剪辑：毛佳琦）#浙BA #浙江dou知道",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直播宁海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#浙BA 宁海队赢了，球迷的呐喊值得！#浙BA宁海队7875诸暨队",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "无畏契约全新中国英雄爆料": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "江辞（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当你看新英雄技能形象曝光 #无畏契约 #我的十月被瓦包围了 #无畏契约新英雄",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雨辰（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无畏契约新英雄爆料#无畏契约 #我的十月被瓦包围了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "瓦铃薯（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "复制技能，操控重力？新英雄线索大拆解！ #无畏契约#无畏契约全新中国英雄#无畏契约新英雄#贤者#壹决",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "星师（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我已通晓新英雄技能 #无畏契约 #我的十月被瓦包围了 #无畏契约全新中国英雄",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "xrovei",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新英雄大招好可爱！！！有人懂吗！！ 有个技能是炸弹。 每个技能都和铜钱装饰。 是在地图天枢中的小粉毛！！ 线下主题是港式和粉紫色主题色#无畏契约新英雄技能曝光 ",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "郑宇伯斯诺克900长沙站冠军": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "斯诺克来了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "斯诺克900决赛，郑宇伯火力全开，10-2强势击败江俊夺冠#中国斯诺克 #郑宇伯 #江俊 #中国斯诺克 #斯诺克",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "康溪盛世官方",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜郑宇伯夺得冠军 #郑宇伯 #斯诺克900 #康溪盛世赛事 #剪映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "有言在先",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上半场戛然而止，江俊心态失守，选择提前握手认输！ 斯诺克900决赛 上半场郑宇伯7:2江俊 一杆破百#斯诺克900 #郑宇伯 #江俊 #斯诺克 #台球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "\"准神\"每杆出手仅9.8秒！郑宇伯夺得斯诺克“极速版”冠军，赛后坦言“性格很急躁”：就喜欢打刺激的比赛 #媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "康溪盛世.郑宇伯",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "圆了斯诺克冠军梦 #郑宇伯 #斯诺克900 #康溪盛世赛事 #剪映",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "怎么样才能回到以前": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "今日有雪223",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么样才可以回到以前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "比你想的坏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么样才可以回到以前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Blaze_7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么样才可以回到以前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "珍惜眼前人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间会惩罚每一个爱记录的人#比冬天先到的是回忆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱吃车厘子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么样才可以回到以前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "诉 苦.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么样才可以回到以前！ #洱海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "再睡十分钟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#怎么样才可以回到以前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "枕墨而眠",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么样才能回到以前.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "可.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们有这样的同桌吗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ghost丫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怎么才能回到从前 #雪 #滑雪 #feelingmyworld #怎么样才可以回到以前",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "阿里嘎多萌宠登场": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "月影",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "猫咪的心思你不用猜#萌力攻击 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "麻了个豆🐶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈 #AI拟人小狗动作还原 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是go",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小狗萌宠版 喵阿里嘎多手势舞 #喵阿里嘎多手势舞 #手势舞 #小狗狗能有什么坏心思 #小土狗真的很可爱 #AI拟人小狗动作还原",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "看着你的背影我才能说出心里话": {
    "stats": {},
@@ -695,55 +1075,877 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "毛晓彤真是从诗中来的": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "毛晓彤",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别眨眼 敲敲扇子就变装🪭#2026美好奇妙夜 #古风 #转场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毛晓彤工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#毛晓彤 #2026美好奇妙夜 请问是只要转动油纸伞，就可以转出这样的古风美人@毛晓彤 吗🤔",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "小霸王张律婚礼熟人含量超标": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "罗西（已婚版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你的狼来了！ @小霸王（终于结婚版） @醒醒吧张律 #小霸王张律婚礼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刀小刀sama",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "切记！！今天是幸福的日子！！！ #小霸王张律婚礼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "查查和张张",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人生第一次滚床忘词了，不过还是圆满完成了任务 #小霸王张律婚礼 #结婚 #接亲 #滚床 #01成长记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "放扬的心心",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁好人家婚前6h拉新娘拼豆啊！ @小霸王（终于结婚版） #闺蜜 #婚礼前一晚 #小霸王张律婚礼",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "阿里嘎多萌宠登场": {
+  "用ggez开启电竞模式": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "Aky",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "对不起@sugar #ggez #特效师日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Enki🌏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#ggez #suger #概念黁 #模仿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Vern0nVern0nVern0n",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#ggez #抽象",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "呦呦呦！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "GGEZ #大一新生歌手大赛 #GGEZ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "被雷劈(_ _).｡o○",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#ggez",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "吴克群助力外卖急救侠再快一分钟": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吴克群",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你做城市的急救侠，我们做你的急救包！ #吴克群的巡演看世界 #人间观察计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华日报交汇点",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【“你们放心急救，我们来当‘急救包’”！吴克群来南京：让更多人看见“急救侠”】10月13日，公益歌手吴克群专程来到南京，向热心急救的外卖小哥罗鑫明赠",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "每个宝宝都是天赐的礼物": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "洛妍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#抖音玩法合伙人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌈燕招日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#每个宝宝都是天赐的礼物 时间过得真快呀，半年产假就没了，还有4天就要复工了，宝宝只能跟奶奶在老家喽😌😌",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "……",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小小浠",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "阿秋~阿秋~#萌娃日常#萌娃打喷嚏 #骗你生女儿#人类幼崽成长计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人间小迷糊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@Bolor 呼呼转眼就长大了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "崔囡囡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带孩子有什么难的，打个喷嚏就长大了 #快三个月的宝宝 #养娃不易 #婴儿期的宝宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ππ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "ππ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "AINITY",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带孩子有什么难的，打个喷嚏的功夫就长大了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蛋蛋日记☁️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "孩子大了我也乱说：“带孩子有什么难的，打个喷嚏的功夫就长大了”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Happy一夏◆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Happy一夏◆",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "期待另一双看向我的眼睛": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "吴克群助力外卖急救侠再快一分钟": {
+  "未来对象名字测试太准了吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Cjr",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有点准啊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刻痕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大数据这么准吗#未来对象 #甜妹文艺风",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘徳助🏅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怡欣怡欣你在哪#你在哪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ilili",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大数据咋这么准@鹌鹑蛋 #未来对象名字",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "涛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来是命中注定#未来对象名字#大数据",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "轨迹_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哇好准#大数据",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "肖战官宣个人巡回演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "肖战工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "肖战 2026［出口·我们］巡回演唱会。@肖战 我们不见不散。#肖战 #肖战个人巡回演唱会 📅演出时间 南京站： 2026年10月23日、2026年10月25",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "得爆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "肖战 让内娱见识见识什么叫顶级的号召力#肖战 #权威 #演唱会 #顶流",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "扬子晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 肖战官宣个人巡回演唱会！首站定档南京青奥，开票时间尚未公开 演出定价为390元到1960元，目前已被十万人标记了想看#肖战",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的古早味秋冬穿搭": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "燕云官宣正式支持DLSS5": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "燕云十六声官方",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国内首款！《燕云十六声》携手英伟达将正式支持 DLSS 5 很高兴告诉各位游侠，《燕云十六声》预计将于11月正式支持NVIDIA DLSS 5 技术，并同步开放",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "棕色的卷毛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "江南烟雨不及我忧郁#燕云十六声 #dlss5",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "罗烟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最炫民族风 dlss5下的壮族服饰 #逆水寒手游 #逆水寒黄金周 #逆水寒最炫民族风",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "全看懂的前途一片短剧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "陈添祥",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“热烈的是青春，也是我们”#与红果一起奇妙夜团建 #2026美好奇妙夜 #群像",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "余茵",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "被我抓到就是一顿锤嘿嘿 #余茵#2026美好奇妙夜#与红果一起奇妙夜团建",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "演员-侯呈玥",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "伟大群像！！！！🫡都认识的！前途一片@红果免费短剧 #与红果一起奇妙夜团建 #2026美好奇妙夜#侯呈玥",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "用AI粒子消散告别曾经的自己": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "三叶草🌿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "山海相逢，遇见自己 站在山巅，伸手触碰另一个自己 山河落日为证，与内心的灵魂相逢。#抖音玩法合伙人计划 #拍同款 @抖加🔥上热门🔥dou+🔥热点宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Mr. Cost不午休",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人总要学会和过去告别 那天的风很轻，夕阳很美。 我伸出手，和曾经的自己做了最后的告别。 从此，山水一程，往事清零。 愿我们都能成为更好的自己。 #夕阳西下 #落",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#户外自由计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "十一·",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真正的失败 是放弃自己#户外徒步 #救赎 #豆包ai #豆包出大片有两把刷子 #真正的失败是放弃自己 人物粒子消散教程",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "淡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#抖音玩法合伙人计划 #甜酷气质女生 #甜酷女孩的精致感 #抖音推广 #抖音小助手dou上热门",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小十一·",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真正的失败 是放弃自己#登山 #真正的失败是放弃自己 #粒子消散 #豆包ai #豆包出大片有两把刷子 徒步粒子特效教程",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芬姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "粒子沙消散特效真的很美🥀 AI粒子消散特效 #Ai粒子消散特效#风雨里的玫瑰 #抖音玩法达人中心 #抖音推荐#抖音推荐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "只喝美式（全冰）🧊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真正的失败 是放弃自己#真正的失败是放弃自己#登山#豆包ai#豆包出大片有两把刷子 #徒步粒子特效教程",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "千纸鹤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "山河暮色，赴一场与自己的相约 #抖音玩法合伙人计划#抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老碳素",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "老碳素",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "大狗叫对口型挑战": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "24K纯美",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那个能秒懂你的同桌belike： #内容过于真实 #校园生活 #纯美的同桌们",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "轶wen",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "轶wen",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈落落",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大狗叫叫叫 #大狗叫叫叫#翻唱#陈落落#坏宝宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "钟奇钟奇",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和 @邱勇，梦想当豪哥老冯 一起 #合拍 感觉挺通透的 想明白挺多事",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黏苞米糊糊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大狗大狗叫叫#对口型#飙口型对口型 #娱乐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "销价喷油泉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#丑帅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Jiaber吴伯滔",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拍完感觉想明白了很多事情 和 @邱勇，梦想当豪哥老冯 一起 #合拍 #大狗大狗叫叫叫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "嬌玉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "'◡'",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不吃🍍π",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "到底谁家宿舍的三只可爱小狗跑出来了呀！#反差萌 #宿舍日常 #甜妹 #长发男生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱丽丝十七号",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界上根本没有这样的视频！ #大狗叫#cos#冷脸萌",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "美人余奶狗爆改老公儿子": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "当天气秋凉 当树叶泛黄": {
+  "薰衣草的花语是等你爱我": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "啊川",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“薰衣草的花语是 等你爱我” #高冷千金的贴身高手 #林初雪 #仿妆 #cos #变装",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "羊羊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“薰衣草的花语是 等你爱我” #仿妆 #林初雪 #高冷千金的贴身高手 #变装",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今晚吃香菜🇨🇳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“薰衣草的花语是，等你爱我” #可可妆 #我的可可妆好物翻包 #林初雪仿妆 #高冷千金的贴身高手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "发视频拆你第一个宝宝测试盲盒": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "未来对象名字测试太准了吧": {
+  "福建宁德清水鲈鱼名不虚传": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "你不要那样看着我的眼睛": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "一斩苍穹这番看了不烧心": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "顶级过肺式闻桂花": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "我这么有趣的人 你不喜欢吗": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "白鹿方发布泰国见面会退票方案": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月13日，白鹿官方工作室发布公告，就即将举行的WeTV全球代言人泰国见面会开放特别退票通道。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "白鹿泰国见面会设特别退票通道，由艺人及工作室承担机酒退改费用 10月13日，@白鹿官方工作室 发布“WESPARK·白鹿个人见面会”补充说明。工作室称，充分考虑",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "白鹿方自掏腰包为粉丝退票 全额退款且承担机酒退改费用 白鹿泰国见面会退票方案： 10月13日15：00至14日15：00 （编辑：冉冉） #白鹿 #退票 #泰国",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "KYA闪身步美到我了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "kiiikiii_official",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我闪！我闪！ #KiiiKiii #祉禹 #闪身步 #卡点 #手势舞",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "太帅了檀大人": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "檀健次工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#檀健次 如此权威！太帅了，檀大人@檀健次 🥵#TANGENT #2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "檀健次",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Drop Drop Drop到点上了 #TANGENT #Drop #2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果妈妈",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁不想急头白脸看一段劲舞#檀健次#2026美好奇妙夜#彩排",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "毛晓彤真是从诗中来的": {
+  "宋亚轩深情狗狗眼的日常": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "每个宝宝都是天赐的礼物": {
+  "八千里路明月照和王仁君适配拉满": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "CASSIC",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜二哥哥获得飞天视帝 #王仁君#飞天奖#盛长柏#知否#八千里路明月照 推介会也是提前见过👌",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "主持人阿喆",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体人精选计划 祝贺演员王仁君！祝贺柏哥儿！“文化工作者要有文化”的含金量还在上升！#王仁君 #飞天奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "追娱大明星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜王仁君获得飞天视帝，盛家的儿女就是优秀！#王仁君 #飞天奖 #赵丽颖 #知否 #王仁君获飞天奖优秀男演员",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   }
  }
 }
