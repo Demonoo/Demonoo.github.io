@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-15 04:43",
+ "updated_at": "2026-10-15 05:40",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
@@ -16,6 +16,36 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "新华社消息｜中朝新鸭绿江大桥正式开通（记者：杨青、刘斌）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凤凰记者现场报道｜中朝新鸭绿江大桥正式开通，这座桥为何如此重要？#中朝 #朝鲜 #丹东 #大桥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广州交通电台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "记者培你聊：等了十二年，新鸭绿江大桥迎来通车时刻！#媒体原创 #新鸭绿江大桥通车 #中国基建 #边境贸易",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "速瞰天下",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "等了12年之久的中朝新鸭绿江大桥正式通车，将带来什么影响？#新鸭绿江大桥 #全球创作者计划 #零基础看懂全球",
      "likes": 0,
      "hot": 0
     },
@@ -40,32 +70,12 @@
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中朝新鸭绿江大桥开通仪式举行 双向四车道 全长约3公里 日可通行5万人次 打通全新公路物流通道 激活丹东边境经贸#中朝 #朝鲜 #丹东 #大桥 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "大公文匯",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
      "text": "记者直击中朝新鸭绿江大桥，朝方挂巨幅中朝国旗。#新鸭绿江大桥 #鸭绿江大桥 #朝鲜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "唐驳虎主笔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朝鲜国门挂起巨幅中朝国旗，韩国人猜来猜去全猜错了 #全球创作者计划 #零基础看懂全球",
      "likes": 0,
      "hot": 0
     }
@@ -144,22 +154,22 @@
      "hot": 0
     },
     {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我国风电装机规模连续16年稳居世界第一 风电机组出口规模持续攀升 #新闻直播间",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "我国风电装机规模连续16年稳居世界第一",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国风电装机规模连续16年稳居世界第一 风电机组出口规模持续攀升 #新闻直播间",
      "likes": 0,
      "hot": 0
     },
@@ -201,16 +211,6 @@
      "hot": 0
     },
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2027年全国硕士研究生招生考试今起正式报名#考研",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "小央视频",
      "verify": "红V",
      "identity": "媒体人",
@@ -221,12 +221,173 @@
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "央广网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2027年全国硕士研究生招生网上预报名今天（9日）启动。#媒体原创",
+     "text": "2027年全国硕士研究生招生考试今起正式报名#考研",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "考研报名10月15日开始！摸摸头你会考上的💪💪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小鹏正式宣布对外卖技术": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小鹏正式宣布：开始对外卖技术。2026巴黎车展期间，小鹏集团董事长何小鹏宣布，公司将面向全球开放智能汽车技术合作，涵盖整车平台、模块化技术与全套工具链三大核心板",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小鹏正式宣布：开始对外卖技术。#小鹏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五爷_AuTo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "巴黎街头公开测辅助驾驶，敢接招的车企居然只有两家？#小鹏巴黎车展开放NGP体验 #何小鹏巴黎车展体验特斯拉FSD #小鹏计划2027年欧洲落地NGP",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "佳宁的车",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小鹏NGP巴黎开放试乘，计划2027年欧洲落地，目标全欧盟准入#小鹏巴黎车展开放NGP体验 #何小鹏巴黎车展体验特斯拉FSD#小鹏计划2027年欧洲落地NGP",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "若川同学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国产车在欧洲卖得贵，凭什么？ #小鹏巴黎车展开放NGP体验#何小鹏巴黎车展体验特斯拉FSD#小鹏计划2027年欧洲落地NGP",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "工厂工人回应撞脸陈小春走红": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "福建工厂50多岁大哥撞脸陈小春，拍摄者称他也姓陈、广东口音。网友涌入陈小春账号喊话“快认亲”，当事人：没有被抱养，也没有胎记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "福建一车间工人撞脸陈小春，眉眼、神态、耳垂上的窝痕都很像，网友猜测可能是失散多年的弟弟，当事人：没有被抱养 也没有胎记",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "皇马4:3逆转罗马": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新爱体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欧冠DNA动了！皇马8分钟内连入3球惊天逆转罗马，恩德里克替补破门吕迪格绝杀 #皇马 #罗马 #欧冠 #上新爱体育看欧冠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙视新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 10月15日（发布），欧冠再现史诗级逆转，81分钟皇马1-3落后，7分钟内连进三球 4-3客胜罗马，姆巴佩轰无解世界波 埃斯皮和恩德里克破门，吕迪格",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "体坛周报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欧冠基因觉醒？皇马7分钟连进3球逆转罗马（编辑：CZQ） #皇马 #欧冠 #罗马 #吕迪格",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梅戈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "4比3绝杀！7分钟翻盘！皇马在罗马主场杀疯了！ 1比3落后，7分43秒连扳3球绝杀！穆里尼奥重返罗马旧主主场，用两个角球教加斯佩里尼做人。欧冠历史最快客场逆转诞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "UEFA欧冠联赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不到最后一刻，不要轻言放弃 #欧冠 #皇马 #穆里尼奥 #欧冠由你定义 #足球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "狂人守望者",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "穆里尼奥大师级别临场调度，皇马惊天大逆转4:3战胜罗马 穆里尼奥大师级别临场调度，皇马惊天大逆转4:3战胜罗马 #皇马 #穆里尼奥 #罗马 #恩德里克 #姆巴佩",
      "likes": 0,
      "hot": 0
     }
@@ -268,16 +429,6 @@
      "hot": 0
     },
     {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#央行重磅公告 #10月15日将开展7000亿买断式逆回购操作 期限为6个月 #央行将开展7000亿元买断式逆回购",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
@@ -286,125 +437,14 @@
      "text": "央行：10月15日将开展7000亿元买断式逆回购操作 #什么是买断式逆回购 #央行明天开展买断式逆回购",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "工厂工人回应撞脸陈小春走红": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "极目新闻",
+     "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "福建工厂50多岁大哥撞脸陈小春，拍摄者称他也姓陈、广东口音。网友涌入陈小春账号喊话“快认亲”，当事人：没有被抱养，也没有胎记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "哈尔滨日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "福建一工厂工人因撞脸陈小春走红，陈小春应采儿被网友喊话去认亲，拍摄者称工人姓陈 且有广东口音，陈小春曾透露弟弟童年被送养。#陈小春 #陈小春弟弟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "福建一车间工人撞脸陈小春，眉眼、神态、耳垂上的窝痕都很像，网友猜测可能是失散多年的弟弟，当事人：没有被抱养 也没有胎记",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "皇马4:3逆转罗马": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新爱体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欧冠DNA动了！皇马8分钟内连入3球惊天逆转罗马，恩德里克替补破门吕迪格绝杀 #皇马 #罗马 #欧冠 #上新爱体育看欧冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "体坛周报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欧冠基因觉醒？皇马7分钟连进3球逆转罗马（编辑：CZQ） #皇马 #欧冠 #罗马 #吕迪格",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "UEFA欧冠联赛",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不到最后一刻，不要轻言放弃 #欧冠 #皇马 #穆里尼奥 #欧冠由你定义 #足球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "梅戈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "4比3绝杀！7分钟翻盘！皇马在罗马主场杀疯了！ 1比3落后，7分43秒连扳3球绝杀！穆里尼奥重返罗马旧主主场，用两个角球教加斯佩里尼做人。欧冠历史最快客场逆转诞",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小鹏正式宣布对外卖技术": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏正式宣布：开始对外卖技术。2026巴黎车展期间，小鹏集团董事长何小鹏宣布，公司将面向全球开放智能汽车技术合作，涵盖整车平台、模块化技术与全套工具链三大核心板",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏正式宣布：开始对外卖技术。#小鹏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "每日经济新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鹏集团正式宣布：开始对外卖技术！何小鹏：正与欧洲多家头部出行平台就Robotaxi业务展开洽谈",
+     "text": "#媒体原创 中国人民银行将开展7000亿元买断式逆回购操作（央视频号：总台电视资讯）",
      "likes": 0,
      "hot": 0
     }
@@ -432,6 +472,36 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月15日，有传言称，现年98岁的李嘉诚逝世。对此，长实集团(01113.HK)内部人士回应称：“绝无其事”。#抖音媒体辟谣团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南方日报·南方+",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "网传李嘉诚去世引发关注，记者核查：消息不实 #抖音媒体辟谣团 #辟谣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "羊城晚报•羊城派",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现年98岁的李嘉诚逝世？长实集团辟谣：绝无此事！香港大公报也否认发布过相关报道#李嘉诚 #媒体原创 （［原创］记者：谢杨柳、林润祺；编辑：何迪；审签：李婕舒）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "醒目视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "网传李嘉诚去世引发关注。记者核查：消息不实。（编辑/崔锦玥； 审核/谭泳欣；素材来源/南方日报）#李嘉诚 #香港 #热点新闻事件 #民生关注 #老百姓关心的话题",
      "likes": 0,
      "hot": 0
     }
@@ -468,12 +538,22 @@
      "hot": 0
     },
     {
-     "name": "滕尊",
+     "name": "TheShy God",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "9.9分神作！LPL出征片《风起今朝》深度复盘与主观吐槽 #S16LPL出征片 #英雄联盟S16 #IG的奇迹从不凭空发生 #抖音精选App",
+     "text": "\"IG从涅槃绝境突围杀到世界赛的故事\" #ig #theshy #meiko #rookie#s16出征片",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英雄联盟",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛LPL出征海报。#s16出征海报 #英雄联盟s16 #2026全球总决赛",
      "likes": 0,
      "hot": 0
     }
@@ -511,6 +591,63 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "新一股冷空气携降雨降温来袭！北方将迎同期少见强降雨！#冷空气",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "现货黄金跌破4100美元大关": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "宅男财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#国际金价深夜大跌 美国CPI超市场预期，加息概率大增，#分析：黄金中长期价格仍有底部支撑 #媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄金白银断崖式大跌，现货黄金盘中跌破4100美元，银价跌超4%，金价随后重回关口 银价翻红（编辑：赵一）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中安在线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月15日（发布）黄金白银断崖式大跌，现货黄金盘中跌破4100美元，金价随后重回关口银价翻红。（编辑：小yu） #黄金白银断崖式大跌 （来源：大象新闻）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "每日经济新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国9月CPI同比增长3.7%，高于市场预期！市场加大对10月美联储加息的押注；黄金跳水跌破4100美元 #精选主播说 #美联储 #加息",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "突发利空！美联储，加息大消息！黄金白银大跌，美债急涨",
      "likes": 0,
      "hot": 0
     }
@@ -642,63 +779,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "现货黄金跌破4100美元大关": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黄金白银断崖式大跌，现货黄金盘中跌破4100美元，银价跌超4%，金价随后重回关口 银价翻红（编辑：赵一）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "每日经济新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国9月CPI同比增长3.7%，高于市场预期！市场加大对10月美联储加息的押注；黄金跳水跌破4100美元 #精选主播说 #美联储 #加息",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "直线跳水！#现货黄金跌破4100美元大关 美国9月CPI同比增长3.7% 市场加大美联储加息押注",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "突发利空！美联储，加息大消息！黄金白银大跌，美债急涨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中安在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月15日（发布）黄金白银断崖式大跌，现货黄金盘中跌破4100美元，金价随后重回关口银价翻红。（编辑：小yu） #黄金白银断崖式大跌 （来源：大象新闻）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "美国9月CPI同比上涨3.7%": {
    "stats": {},
    "authors": [
@@ -756,6 +836,147 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "广东宏远官宣凯尔弗格加盟": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "广东宏远篮球俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【官方公告】欢迎凯尔·弗格加盟广东宏远 近日，我俱乐部与外援凯尔·弗格就加盟事项达成一致，待注册材料递交CBA公司并完成审核、公示后，他将代表广东东阳光队征战新",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广东体育频道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月14日晚，广东宏远篮球俱乐部宣布，俱乐部与外籍球员凯尔·弗格就加盟事项达成一致，待注册材料递交CBA公司并完成审核、公示后，他将在新赛季代表广东东阳光队征",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广东宏远大本营",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "广东宏远官宣！弗格+阿祖布克双外援敲定，内外线同步补强！佛祖组合+卢卡博日奇，组成“卢来佛祖组合”，你们觉得这套外援实力如何？#弗格 #阿祖布克 #卢卡博日奇 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "朱立宇",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "终于人齐 凯尔福格同阿祖布克加盟广东东阳光！ #dou来cba #广东宏远 #广东男篮外援 #粤语解说 #朱立宇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "阿隆索携博托莱托入驻抖音": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Fernando Alonso",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "F1双冠王，费尔南多·阿隆索，头哥来了！ Hola！抖音的朋友们，大家好！ 我是你们的头哥——费尔南多·阿隆索！🏎️ 2004年，我第一次来到中国参加比赛。转",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Gabriel Bortoleto",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🇧🇷 我是奥迪F1车队车手博托莱托！ 你们想了解我什么？👀 中国的朋友们，大家好！👋 我是加布里埃尔·博托莱托，来自奥迪 F1 车队！🏎️ 很开心终于",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "F1世界锦标赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冲浪速度FASTER THAN YOU，欢迎@Fernando Alonso 和@Gabriel Bortoleto 师徒二人入驻抖音！#F1 #费尔南多阿隆索",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "DeepSeek崩了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#DeepSeek崩了 ！10月15日8点后，DeepSeek网页和App显示“服务器暂时不可用”。对于此次异常的具体原因、影响范围及持续时间，DeepSeek",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "豫视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 DeepSeek今年第18次宕机，官方称已定位故障原因并正在实施修复 #DeepSeek崩了 #AI （豌豆）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "DeepSeek又崩了，冲上热搜 清晨突发故障，服务大面积中断。网页APP无法访问，官方紧急抢修。网友在线哀嚎：上班上课离不开它。AI工具，已经成打工人刚需（编",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#DeepSeek崩了!网页和APP显示\"服务器暂时不可用\" 故障已持续两小时",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财研网科技",
+     "verify": "蓝V",
+     "identity": "企业品牌",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "DeepSeek将完成近1000亿元融资！新进投资方：石溪资本、吉利等，老股东宁德时代加码投资#DeepSeek #融资 #吉利 #宁德时代 #腾讯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "这是我的心尖尖": {
    "stats": {},
    "authors": [
@@ -800,22 +1021,22 @@
      "hot": 0
     },
     {
-     "name": "七宝🥰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这是我的心尖尖 你的心尖尖长什么样 #心尖尖 #心尖尖上的宝贝 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "Miss *＊徐老师",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "他就是我的心尖尖#少年 #我的男孩",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "七宝🥰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是我的心尖尖 你的心尖尖长什么样 #心尖尖 #心尖尖上的宝贝 #",
      "likes": 0,
      "hot": 0
     },
@@ -863,207 +1084,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "萌宠比我先学会了跳NEON": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "就是这样喵～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秀满新女团～A2O LITE《NEON》 纯正SM味！#李秀满新女团 #kpop女团 #萌宠出道计划 #猫咪日常 #trouble咪ker",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林呜咪和我",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "NEON翻跳萌宠舞团火速来袭 #AI萌宠双人齐舞 #抖音ai创作 #用爆款ai打开双节假期 #抖音ai创作全新升级 #NEON翻跳火速来袭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "泰式鸡脚扇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "墩妮太帅了 #NEON #A2Olite #喵星舞王 #猫咪 #猫",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "DeepSeek崩了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#DeepSeek崩了 ！10月15日8点后，DeepSeek网页和App显示“服务器暂时不可用”。对于此次异常的具体原因、影响范围及持续时间，DeepSeek",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豫视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 DeepSeek今年第18次宕机，官方称已定位故障原因并正在实施修复 #DeepSeek崩了 #AI （豌豆）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海报新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DeepSeek又崩了，冲上热搜 清晨突发故障，服务大面积中断。网页APP无法访问，官方紧急抢修。网友在线哀嚎：上班上课离不开它。AI工具，已经成打工人刚需（编",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风芒新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "突发宕机！DeepSeek网页 APP 双双无法访问 大模型服务出现中断故障 目前已经持续两个多小时还没恢复",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DeepSeek突发服务器崩溃，截至发稿尚未恢复，官方回应",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "檀健次Drop狼爪舞挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "檀健次",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "轮到你们交作业了😎#TANGENT #Drop #2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "卓沅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DROP！DROP！DROP！洗脑了！ Drop Drop Drop #檀健次 #Drop #TANGENT #经伟编舞 #爆爆编舞 太爱了这个歌儿！🤣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芒果妈妈",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁不想急头白脸看一段劲舞#檀健次#2026美好奇妙夜#彩排",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "IcathianRain·檀健次",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Drop太炸了！！！ 𝟐𝟔.𝟏𝟎.𝟏𝟏 抖音奇妙夜·Drop直拍4k 太帅了！！！@檀健次 #檀健次 #抖音奇妙夜 #直拍 #舞台帅炸了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "早川（演唱会全勤版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "261011抖音奇妙夜新歌首唱Drop#檀健次",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "JCTMAX玫老板",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以防你没听过天籁清唱版的 dead reflex #檀健次 #抖音奇妙夜 #檀健次三专 #deadreflex #檀健次抖音奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Alive·檀健次",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "檀健次 抖音奇妙夜《drop》直拍 #檀健次 𝟐𝟎𝟐𝟔.𝟏𝟎.𝟏𝟏 2026抖音奇妙夜 《Drop》 新歌片段先享！ 这个低音炮！绝了！ 北京有",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ice_Diary（演唱会全勤版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "261011抖音美好奇妙夜 《Drop》官方高清直拍全程 #舞台帅炸了 #檀健次#2026抖音美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "酥酥尖叫姬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "檀健次装酷失败在舞台偷笑可爱死了！ #檀健次 #檀健次舞台 #deadreflex #檀健次直拍 #抖音奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秀我中国",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026美好奇妙夜檀健次《Drop》直拍，全开麦唱跳舞台张力拉满（编辑：郝一林）#秀我中国 #2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "临沂这个跳舞炒鸡我真想吃": {
    "stats": {},
    "authors": [
@@ -1094,113 +1114,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "这个炒鸡吃了不烧心#厨房从不缺高手 #厨房不养闲人 #炒鸡#临沂炒鸡",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "挑战NEON手指律动操": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "全糖小兔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "emm，会抖😊 #a2olite #neon",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一只小童🏍️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "到底谁能够控制这个中指不动！ 我会在扒舞前苦练这个手指的！#NEON #A2OLITE #李秀满新女团 #人类驯服手指 #怎么让手指变灵活",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "呆萌小西几☀️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我连手指律动都是这么的僵硬😔 妹妹们真的太厉害啦！！🥳🥳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好想出去玩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "求你了让我加完班在we're neon and beyond可以吗#neon #A2O #LITE #李秀满",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Mondø",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奶奶终于跟上热点了。 大事很妙#A2OLITE #neon #李秀满 #抖音潮流舞蹈地图 #dance",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不爱吃花生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "高铁是差点赶不上的 耳朵是被neon洗脑的 #neon #A2O#李秀满",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小熊喵子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "颤抖的中指就快被驯服了哈哈哈 洗脑循环中～一天就过完了 #a2o #neon #a2olite #手指wave #李秀满",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "金色稻田柯基",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "被李秀满新女团洗脑了，手指动作完全做不来 #胖壮男孩 #李秀满 #neon #kpop #熊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美式盘挞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "NEON~ 九个小宝宝太美了。。vora merci我爱你#NEON #A2OLITE #翻跳 #kpop",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "面包超人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咋这么好听！#neon #A2Olite",
      "likes": 0,
      "hot": 0
     }
@@ -1315,6 +1228,274 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "檀健次Drop狼爪舞挑战": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "檀健次",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "轮到你们交作业了😎#TANGENT #Drop #2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "IcathianRain·檀健次",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Drop太炸了！！！ 𝟐𝟔.𝟏𝟎.𝟏𝟏 抖音奇妙夜·Drop直拍4k 太帅了！！！@檀健次 #檀健次 #抖音奇妙夜 #直拍 #舞台帅炸了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果妈妈",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁不想急头白脸看一段劲舞#檀健次#2026美好奇妙夜#彩排",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "早川（演唱会全勤版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "261011抖音奇妙夜新歌首唱Drop#檀健次",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "JCTMAX玫老板",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以防你没听过天籁清唱版的 dead reflex #檀健次 #抖音奇妙夜 #檀健次三专 #deadreflex #檀健次抖音奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Alive·檀健次",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "檀健次 抖音奇妙夜《drop》直拍 #檀健次 𝟐𝟎𝟐𝟔.𝟏𝟎.𝟏𝟏 2026抖音奇妙夜 《Drop》 新歌片段先享！ 这个低音炮！绝了！ 北京有",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ice_Diary（演唱会全勤版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "261011抖音美好奇妙夜 《Drop》官方高清直拍全程 #舞台帅炸了 #檀健次#2026抖音美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "酥酥尖叫姬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "檀健次装酷失败在舞台偷笑可爱死了！ #檀健次 #檀健次舞台 #deadreflex #檀健次直拍 #抖音奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秀我中国",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026美好奇妙夜檀健次《Drop》直拍，全开麦唱跳舞台张力拉满（编辑：郝一林）#秀我中国 #2026美好奇妙夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "O-DOG编舞师-经伟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家一起#Drop 起来🔥#檀健次 #经伟编舞 #爆爆编舞 #抖音潮流舞蹈大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "无畏契约新赛季通行证夯爆了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "HanHan（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无畏契约新赛季通行证be like #无畏契约 #我的十月被瓦包围了 #hanhan无畏契约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "情报马（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新赛季即将更新，通行证内容来了 #无畏契约 #情报马 #电子竞技",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "闪光队长（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新赛季战斗通行证 // #无畏契约",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "挑战NEON手指律动操": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "全糖小兔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "emm，会抖😊 #a2olite #neon",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一只小童🏍️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "到底谁能够控制这个中指不动！ 我会在扒舞前苦练这个手指的！#NEON #A2OLITE #李秀满新女团 #人类驯服手指 #怎么让手指变灵活",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "呆萌小西几☀️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我连手指律动都是这么的僵硬😔 妹妹们真的太厉害啦！！🥳🥳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好想出去玩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "求你了让我加完班在we're neon and beyond可以吗#neon #A2O #LITE #李秀满",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Mondø",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奶奶终于跟上热点了。 大事很妙#A2OLITE #neon #李秀满 #抖音潮流舞蹈地图 #dance",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不爱吃花生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "高铁是差点赶不上的 耳朵是被neon洗脑的 #neon #A2O#李秀满",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小熊喵子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "颤抖的中指就快被驯服了哈哈哈 洗脑循环中～一天就过完了 #a2o #neon #a2olite #手指wave #李秀满",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金色稻田柯基",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "被李秀满新女团洗脑了，手指动作完全做不来 #胖壮男孩 #李秀满 #neon #kpop #熊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "锅大侠1号",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#neon #手指操 有点难",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LeoO",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "easy #挑战NEON手指律动操 #李秀满 #A2Olite",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "假如用AI生成贺峻霖": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "时代少年团-贺峻霖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "AI生成的",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "iPhone Duo已完成大模型备案": {
    "stats": {},
    "authors": [
@@ -1339,16 +1520,6 @@
      "hot": 0
     },
     {
-     "name": "花城男孩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这次稳了？国行iPhone苹果智能真的要来了！#苹果智能 #苹果AI #iPhone",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "数码系统小仄",
      "verify": "",
      "identity": "",
@@ -1359,12 +1530,22 @@
      "hot": 0
     },
     {
-     "name": "老三",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "机圈看点",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "怎么能抢到原价的iPhone Duo #硬核玩家计划#iPhoneDuo",
+     "text": "苹果官宣：2027年4月起，所有上架App Store应用必须适配苹果折叠屏 iPhone Duo",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "科技李岩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看似福利，实则扎心 #iPhone #iOS #摇一摇广告 #万万没想到 #苹果系统",
      "likes": 0,
      "hot": 0
     }
@@ -1372,90 +1553,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "捂上耳朵卡点回忆杀": {
+  "自己带大的朋友玩着不烧心": {
    "stats": {},
    "authors": [
     {
-     "name": "无恙",
+     "name": "迷路胡同",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#光遇涅槃重生",
+     "text": "自己带大的朋友，玩起来才不烧心。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "🍼",
+     "name": "泡泡悦",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🍼",
+     "text": "自己带大的的朋友，玩起来才不烧心#闺蜜 #朋友 #不烧心",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "屁屁",
+     "name": "是爆爆",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🧏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "蚩姹新皮肤农味大回归": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王者爆料菌",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蚩奼新皮肤超清完整海报，就是这个农味！近期农味最浓的一张皮肤海报了吧😂 #王者荣耀 #蚩奼 #王者荣耀2026周年庆 #王者新皮肤 #王者爆料",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王者荣耀",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#蚩奼新史诗皮肤 【蚩奼-猞我其谁皮肤语音爆料】已上线。猞猁一族最强猎手登场，守护族群，猞我其谁！#蚩奼新皮肤猞我其谁 #王者语音爆料 #王者荣耀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿仁的小破城",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁懂！蚩奼猫耳新皮冷脸翘嘴有多萌？ #王者荣耀2026周年庆 #EZ王者开黑吧 #蚩奼 #蚩奼新皮肤猞我其谁",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "花小龙带宋亚东自律的一天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "花小龙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带宋亚东自律的一天 #宋亚东 #花小龙 #自律 #日常vlog",
+     "text": "工作后工作已经耗尽了我绝大部分力气，我只能留下一小部分能量维持社交。 我已经不是能花一整个晚自习传纸条来解释自己为什么生气的年纪了#朋友 #文案 #情绪",
      "likes": 0,
      "hot": 0
     }
@@ -1500,6 +1627,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "花小龙带宋亚东自律的一天": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "花小龙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "带宋亚东自律的一天 #宋亚东 #花小龙 #自律 #日常vlog",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "刀小刀反向求婚孟令辉": {
    "stats": {},
    "authors": [
@@ -1527,167 +1671,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影手游迪鲁达全技能爆料": {
+  "捂上耳朵卡点回忆杀": {
    "stats": {},
    "authors": [
     {
-     "name": "火影忍者手游情报君",
+     "name": "无恙",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "是谁“电眼逼人”？#火影手游迪鲁达全技能爆料来袭！全身配备科学忍具的她都有什么招数？快随萌黄一起来看！#火影忍者手游 #火影忍者",
+     "text": "#光遇涅槃重生",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "隔壁村大聪明",
+     "name": "🍼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "喜欢一米八大长腿玩家有福了：新忍者迪鲁达全技能解析，质量很高，能免费体验一个月！#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
+     "text": "🍼",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "晚安姐姐精彩战况",
+     "name": "屁屁",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "晚安看迪鲁达全技能爆料，一米八大长腿来袭！ #迪鲁达全技能爆料 #晚安 #权威忍者攻略 #火影忍者手游 #木叶村抽象家",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "朱七七沈浪世纪合体": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "四火姐姐-15号8点绽家生活香铺开业",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "沈大哥终于要带我去闯荡江湖了#武林外史 #朱七七 #朱七七沈浪世纪合体",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黑猫警长喵喵喵": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王炸kiss.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑猫警长喵喵喵～#黑猫警长 #低脂小视频 #抓鼠高手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "锅包又",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小小老鼠哪里逃#抽象行为艺术 #黑猫警长 #抽象派cos",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小胡蝶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈哈，这是我女儿唱的黑猫警长呀 #经典儿歌黑猫警长 #儿歌#抖音玩法合伙人计划#幼儿舞蹈#黑猫警长",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "程佳妮Victoria",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "看得出来是谁想拍的了吗？🙈🙈 @舞蹈新风暴-龙泳坤Marco #黑猫警长儿歌手势舞 #黑猫警长 #龙泳坤程佳妮 #抖音潮流舞蹈大赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "只想睡懒觉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑猫警长出动🐱‍👤 涮肉店里临时上岗！ 谁能拒绝两个长胡子的警长呢🤣 #黑猫警长手势舞 #闺蜜日常 #搞笑日常 #干饭姐妹 #涮肉局",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "椰大力",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "剪头发前的最后一个库存了💜#黑猫警长 #黑猫警长手势舞 #低脂小视频 #抖音潮流舞蹈大赛 #林俊杰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LAMO吴新（术后康复中）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑猫警长喵喵喵#黑猫警长喵喵喵 #分解教学 #双人舞 #抖音创意玩法大赛 #潮流舞蹈",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "自己带大的朋友玩着不烧心": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "迷路胡同",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "自己带大的朋友，玩起来才不烧心。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "泡泡悦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "自己带大的的朋友，玩起来才不烧心#闺蜜 #朋友 #不烧心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是爆爆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "工作后工作已经耗尽了我绝大部分力气，我只能留下一小部分能量维持社交。 我已经不是能花一整个晚自习传纸条来解释自己为什么生气的年纪了#朋友 #文案 #情绪",
+     "text": "🧏",
      "likes": 0,
      "hot": 0
     }
@@ -1792,36 +1805,86 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "金晨自曝美国游学遇学校倒闭": {
+  "萌宠比我先学会了跳NEON": {
    "stats": {},
    "authors": [
     {
-     "name": "快看科技",
-     "verify": "蓝V",
-     "identity": "企业品牌",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赴美游学不到三个月，金晨孟佳自曝美国学校倒闭了。金晨:刚收完学费上了两天课就倒闭了，钱也没退！#金晨孟佳自曝美国学校倒闭了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "摸娱大队长",
+     "name": "就是这样喵～",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金晨实现了我小时候的终极愿望 #金晨 #学校 #上学 #明星 #羡慕",
+     "text": "秀满新女团～A2O LITE《NEON》 纯正SM味！#李秀满新女团 #kpop女团 #萌宠出道计划 #猫咪日常 #trouble咪ker",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "上游新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "林呜咪和我",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月14日（报道）#金晨自曝刚交完学费学校就倒闭了 ，学校有35年的历史，自己才上了两天，钱也没退。#金晨自曝留学的学校倒闭了 #金晨自曝才上了两天学校倒闭了",
+     "text": "NEON翻跳萌宠舞团火速来袭 #AI萌宠双人齐舞 #抖音ai创作 #用爆款ai打开双节假期 #抖音ai创作全新升级 #NEON翻跳火速来袭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一罐盐渍樱花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "纯正kpop味儿～#A2OLite #kpop #萌宠出道计划 #橘猫 #橘猫练习生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "泰式鸡脚扇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "墩妮太帅了 #NEON #A2Olite #喵星舞王 #猫咪 #猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猫猫百万",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "A2O LITE《NEON》猫猫也会跳NEON#萌宠比我先学会了跳NEON #kpop女团 #萌宠出道计划 #ai萌宠 #猫meme",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "这朵祥云是一只边牧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萌宠《NEON》舞团来啦，狗子比我先学会 #AINEON舞蹈 #抖音ai创作 #NEON#李秀满 #抖音创作者中心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "出道 #AI萌犬舞台热舞 #抖音ai创作 #李秀满 #sm女团 #a2olite",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五魁波吉小日常",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "出道吧，五魁波吉 《NEON》#萌宠比我先学会了跳NEON #Neon #kpop女团 #萌宠出道计划 #A2olite",
      "likes": 0,
      "hot": 0
     }
@@ -1948,41 +2011,16 @@
    "authors": [],
    "lexicon": []
   },
-  "繁荣主义穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "蒸蒸日上这爹演的太真实了": {
+  "朱七七沈浪世纪合体": {
    "stats": {},
    "authors": [
     {
-     "name": "朱古力",
+     "name": "四火姐姐-15号8点绽家生活香铺开业",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你有没有遇到过那种总是喜欢帮倒忙的人？#没想到蒸蒸日上这么好看 #电视剧蒸蒸日上 #蒸蒸日上笑点泪点反复拉扯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "久觅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这父女俩吵架太有意思了#没想到蒸蒸日上这么好看 #电视剧蒸蒸日上 #蒸蒸日上笑点泪点反复拉扯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鹅厂磕剧小甜妹",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不愧是老戏骨，好生活化的演技#蒸蒸日上",
+     "text": "沈大哥终于要带我去闯荡江湖了#武林外史 #朱七七 #朱七七沈浪世纪合体",
      "likes": 0,
      "hot": 0
     }
@@ -2097,36 +2135,160 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "无畏契约新赛季通行证夯爆了": {
+  "繁荣主义穿搭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "蚩姹新皮肤农味大回归": {
    "stats": {},
    "authors": [
     {
-     "name": "HanHan（无畏契约）",
+     "name": "王者爆料菌",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "无畏契约新赛季通行证be like #无畏契约 #我的十月被瓦包围了 #hanhan无畏契约",
+     "text": "蚩奼新皮肤超清完整海报，就是这个农味！近期农味最浓的一张皮肤海报了吧😂 #王者荣耀 #蚩奼 #王者荣耀2026周年庆 #王者新皮肤 #王者爆料",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "情报马（无畏契约）",
-     "verify": "",
-     "identity": "",
+     "name": "王者荣耀",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新赛季即将更新，通行证内容来了 #无畏契约 #情报马 #电子竞技",
+     "text": "#蚩奼新史诗皮肤 【蚩奼-猞我其谁皮肤语音爆料】已上线。猞猁一族最强猎手登场，守护族群，猞我其谁！#蚩奼新皮肤猞我其谁 #王者语音爆料 #王者荣耀",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "闪光队长（无畏契约）",
+     "name": "阿仁的小破城",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新赛季战斗通行证 // #无畏契约",
+     "text": "谁懂！蚩奼猫耳新皮冷脸翘嘴有多萌？ #王者荣耀2026周年庆 #EZ王者开黑吧 #蚩奼 #蚩奼新皮肤猞我其谁",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "未来对象名字测试太准了吧": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "蒸蒸日上这爹演的太真实了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "朱古力",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你有没有遇到过那种总是喜欢帮倒忙的人？#没想到蒸蒸日上这么好看 #电视剧蒸蒸日上 #蒸蒸日上笑点泪点反复拉扯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "久觅",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这父女俩吵架太有意思了#没想到蒸蒸日上这么好看 #电视剧蒸蒸日上 #蒸蒸日上笑点泪点反复拉扯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鹅厂磕剧小甜妹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不愧是老戏骨，好生活化的演技#蒸蒸日上",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黑猫警长喵喵喵": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王炸kiss.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黑猫警长喵喵喵～#黑猫警长 #低脂小视频 #抓鼠高手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "锅包又",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小小老鼠哪里逃#抽象行为艺术 #黑猫警长 #抽象派cos",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小胡蝶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈，这是我女儿唱的黑猫警长呀 #经典儿歌黑猫警长 #儿歌#抖音玩法合伙人计划#幼儿舞蹈#黑猫警长",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "程佳妮Victoria",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看得出来是谁想拍的了吗？🙈🙈 @舞蹈新风暴-龙泳坤Marco #黑猫警长儿歌手势舞 #黑猫警长 #龙泳坤程佳妮 #抖音潮流舞蹈大赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "只想睡懒觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黑猫警长出动🐱‍👤 涮肉店里临时上岗！ 谁能拒绝两个长胡子的警长呢🤣 #黑猫警长手势舞 #闺蜜日常 #搞笑日常 #干饭姐妹 #涮肉局",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "椰大力",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "剪头发前的最后一个库存了💜#黑猫警长 #黑猫警长手势舞 #低脂小视频 #抖音潮流舞蹈大赛 #林俊杰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LAMO吴新（术后康复中）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黑猫警长喵喵喵#黑猫警长喵喵喵 #分解教学 #双人舞 #抖音创意玩法大赛 #潮流舞蹈",
      "likes": 0,
      "hot": 0
     }
@@ -2231,11 +2393,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "未来对象名字测试太准了吧": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "普洱家常菜嘎嘎下饭": {
    "stats": {},
    "authors": [
@@ -2255,34 +2412,39 @@
   },
   "微胖也能穿出轻亚忧郁感": {
    "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "李治一见钟情名场面复刻": {
+   "stats": {},
    "authors": [
     {
-     "name": "單人余",
+     "name": "哈利利利哈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "微胖也能穿出忧郁感❗️轻亚忧郁单品x5 #秋天这样穿不烧心 #ootd穿搭#轻亚 #抖音风格实验室#秋冬忧郁感穿搭",
+     "text": "来一个不一样风格的一见钟情 #李治",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "bovh",
+     "name": "刘亿晨",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你被我催眠了 现在只能说喜欢姐姐 #ootd穿搭#轻亚穿搭#街头穿搭#无性别穿搭#fyp",
+     "text": "#李治 “嘿嘿嘿嘿嘿嘿嘿..老婆..嘿嘿..” #李治武则天",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小魛",
+     "name": "蛇尾巴猪",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "忧郁黑穿着不烧心。#ootd分享 #亚文化穿搭 #忧郁 #黑色控 #ELYSLUM",
+     "text": "我一见钟情就这样 #李治 #武则天",
      "likes": 0,
      "hot": 0
     }
@@ -2327,58 +2489,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "薰衣草的花语是等你爱我": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "丞磊在我抖音摸一天麻将了": {
+  "不忍将满地残花踏转场": {
    "stats": {},
    "authors": [
     {
-     "name": "洛一瀾",
+     "name": "刘敢敢",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "虞昶轩你牛大了 #丞磊 #虞昶轩 #玉簟秋 #丞磊虞昶轩 #民国爱情",
+     "text": "不忍将满地残花踏 #转场",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Moment",
+     "name": "Klzzz",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "指尖烟火，是无需多言的态度。#丞磊虞昶轩民国最有腔调的男人 #丞磊 #虞昶轩 #玉簟秋",
+     "text": "不忍将满地残花踏 #朱志鑫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "feel",
+     "name": "毛毛很龟毛",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“好有韵味”#丞磊 #虞昶轩 #玉簟秋 #玉簟秋情感浓度好高好上头",
+     "text": "不忍将满地残花踏 #红楼梦",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "假如用AI生成贺峻霖": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "时代少年团-贺峻霖",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "乌梅子酱",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "AI生成的",
+     "text": "“不忍将满地残花踏” #转场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "酱酱芽",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不忍将满地残花踏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "敢敢有心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“不忍将满地残花踏” #红楼梦 #不忍将满地残花踏转场 #贾宝玉 #林黛玉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是左眼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不！不忍将满地残花踏～#高中生 #无情画 #王唯旖 #无声卡清唱 清唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "有趣的npc",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不忍将满地残花踏。#婚纱照的生命力 #inmyfeeling #新中式#鱼尾 #园林",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "庄繁星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "应观众要求，剪了个转场 #不忍将满地残花踏 #古风 #转场 #无情画 #青年创作者成长计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "坏脾气",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不忍将满地残花踏#时代少年团#贵阳演唱会",
      "likes": 0,
      "hot": 0
     }
