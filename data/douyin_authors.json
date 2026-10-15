@@ -1,16 +1,11 @@
 {
- "updated_at": "2026-10-15 16:44",
+ "updated_at": "2026-10-15 18:41",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 48,
- "ok_count": 34,
+ "topic_count": 49,
+ "ok_count": 37,
  "lexicon_count": 0,
  "topics": {
-  "抖音商城双11超级补贴来啦": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "当我拥有自己的ai播放器": {
    "stats": {},
    "authors": [
@@ -48,6 +43,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "抖音商城双11超级补贴来啦": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "第140届广交会开展": {
    "stats": {},
    "authors": [
@@ -72,16 +72,6 @@
      "hot": 0
     },
     {
-     "name": "深视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创10月15日，在第140届中国进出口商品交易会（#广交会 ）现场，一家德国参展商向张雪机车求合作，#张雪 硬气回应称：“行，但我会派人监督、考核你们的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "广东新闻联播",
      "verify": "红V",
      "identity": "媒体人",
@@ -92,12 +82,22 @@
      "hot": 0
     },
     {
-     "name": "DV现场",
+     "name": "深视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 张雪现身广交会接待德国采购商，谈到自身产品和宝马的区别。#广东dou知道",
+     "text": "#媒体原创10月15日，在第140届中国进出口商品交易会（#广交会 ）现场，一家德国参展商向张雪机车求合作，#张雪 硬气回应称：“行，但我会派人监督、考核你们的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "羊城晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张雪放话：五到六年做成世界顶级品牌！ 2026年10月15日，第140届广交会，张雪在机车展台透露了海内外销售数据，同时表示：用五到六年时间做成世界顶级品牌。#",
      "likes": 0,
      "hot": 0
     }
@@ -171,6 +171,16 @@
      "hot": 0
     },
     {
+     "name": "新疆网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋天还没退场 乌鲁木齐就下雪啦 你的城市今天多少度？#下雪 #乌鲁木齐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "新疆兵团广播电视台",
      "verify": "红V",
      "identity": "媒体人",
@@ -194,76 +204,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中朝新鸭绿江大桥今日开通": {
+  "这一步闪进景区宣传片了": {
    "stats": {},
    "authors": [
     {
-     "name": "新华社",
+     "name": "中卫发布",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新华社消息｜中朝新鸭绿江大桥正式开通（记者：杨青、刘斌）#媒体原创",
+     "text": "上分！大美中卫欢迎你 #闪身步 #闪身步还能这样玩 #中卫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
+     "name": "会点编导的白嘻嘻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闪身步闪到了文山！ #闪身步 #闪身步还能这样玩 #转场 #文山 #苗族 @非常文山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我哩个豆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来吧遇见梅州遇见美好地标上分，视频剪辑效果，请勿模仿马路上跳舞喔#梅州 #闪身步 #梅州文旅 #欢迎来梅州",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "发现内蒙古",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闪身步闪到了内蒙古啦！ #闪身步 #转场 #内蒙古旅游 #发现内蒙古",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "发现广西",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闪身步闪到广西了#闪身步#发现广西#广西#壮锦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西大街张市民",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秦人能不能给西安上个分 #西安#闪身步#闪身步还能这样玩 #闪身蹦沙卡拉卡#inmyfeelings",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Miss至",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这舞有力气~ #breaking #信阳#国风汉服#街舞#转动裙摆打卡各地地标",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "甄姬大王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不知道能不能帮成都上一波分。 #抖音ai创作 #成都#国风汉服 #AI汉服武侯祠合拍 #闪身步",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "AIGC 原点",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闪身步挑战—昭通新机场 闪身步闪到了昭通机场，高铁站做了，机场就一起做了，这次看点不一样的我们看夜景！#aigc #闪身步 #闪身步还能这样玩 #昭通机场 #昭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "贵州文旅",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "官方机构",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "凤凰记者现场报道｜中朝新鸭绿江大桥正式开通，这座桥为何如此重要？#中朝 #朝鲜 #丹东 #大桥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "广州交通电台",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "记者培你聊：等了十二年，新鸭绿江大桥迎来通车时刻！#媒体原创 #新鸭绿江大桥通车 #中国基建 #边境贸易",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "速瞰天下",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "等了12年之久的中朝新鸭绿江大桥正式通车，将带来什么影响？#新鸭绿江大桥 #全球创作者计划 #零基础看懂全球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场视频！中朝新鸭绿江大桥正式开通 双方车辆插国旗 鸣笛驶过#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月15日 #中朝新鸭绿江大桥正式开通 #中朝新鸭绿江大桥 #朝鲜 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大公文匯",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "记者直击中朝新鸭绿江大桥，朝方挂巨幅中朝国旗。#新鸭绿江大桥 #鸭绿江大桥 #朝鲜",
+     "text": "我的贵州，我宣传！#贵州文旅 #村字号 #AI了贵贵 #跟着AI游贵州#闪身步还能这样玩",
      "likes": 0,
      "hot": 0
     }
@@ -362,22 +402,22 @@
      "hot": 0
     },
     {
-     "name": "模型先生",
+     "name": "猫姐养基大户",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "模型先生",
+     "text": "10.9机构资金动向 #猫姐养基大户 #机构资金 #主力 #半导体 #科技股",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "旗帜鲜明",
+     "name": "吴薇",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "A股底部区间出现，周四操作策略",
+     "text": "科技产业投资有泡沫吗？#媒体人精选计划 #薇观察 #经济微观察 #AI #机器人",
      "likes": 0,
      "hot": 0
     }
@@ -390,66 +430,76 @@
    "authors": [],
    "lexicon": []
   },
-  "老外感叹长征翻山越岭的勇气": {
+  "中朝新鸭绿江大桥今日开通": {
    "stats": {},
    "authors": [
     {
-     "name": "中国网直播",
+     "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "土豆变“红军粉”，长征路上的军民情延续至今 #老外感叹长征翻山越岭的勇气 当年长征路上，留在宁夏老乡家养伤的红军战士，手把手教大家把土豆做成粉条，被当地人亲切唤",
+     "text": "新华社消息｜中朝新鸭绿江大桥正式开通（记者：杨青、刘斌）#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#第一视角体验长征 夜渡于都河。后来，他们中的大多数人再没能回来。但这条河，永远记住了他们！#媒体原创",
+     "text": "凤凰记者现场报道｜中朝新鸭绿江大桥正式开通，这座桥为何如此重要？#中朝 #朝鲜 #丹东 #大桥",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "今视频长天新闻",
+     "name": "广州交通电台",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“总有人选择俯下身去，让自己成为一座桥”，纪录片《大道——永远的长征》开播，90多年前群山之中的险关与急流，见证红军以勇气智慧为桥突破困境的壮举，如今越过群山的",
+     "text": "记者培你聊：等了十二年，新鸭绿江大桥迎来通车时刻！#媒体原创 #新鸭绿江大桥通车 #中国基建 #边境贸易",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "速瞰天下",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新时代的长征路｜英国学者：我为什么重走长征路？ 伊恩·英格利斯，一位在中国生活多年的英国语言学家。他重走长征路，只为弄明白一件事：中国为什么是今天这个样子。 他",
+     "text": "等了12年之久的中朝新鸭绿江大桥正式通车，将带来什么影响？#新鸭绿江大桥 #全球创作者计划 #零基础看懂全球",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "环球时报",
+     "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "展品中的长征故事：泸定桥铁索，和一块借了又还的门板 （编辑：李红旗） #红星照耀中国 #长征胜利90周年 #媒体原创",
+     "text": "#媒体原创 现场视频！中朝新鸭绿江大桥正式开通 双方车辆插国旗 鸣笛驶过#媒体精选计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "人民日报",
-     "verify": "红V",
+     "name": "中国新闻社",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "正式发布！#致敬伟大长征精神主题MV火种 敢问苍穹，敢问山巅；敢问命运，敢问世界。征服一切困难，不被任何困难所征服！#红军长征胜利90周年 ，一起接过先辈留下的",
+     "text": "10月15日 #中朝新鸭绿江大桥正式开通 #中朝新鸭绿江大桥 #朝鲜 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大公文匯",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "记者直击中朝新鸭绿江大桥，朝方挂巨幅中朝国旗。#新鸭绿江大桥 #鸭绿江大桥 #朝鲜",
      "likes": 0,
      "hot": 0
     }
@@ -499,111 +549,14 @@
      "text": "【剪刀差 出现了】上游的通胀，无法向下游传导... #真财实学计划 #热点解读看财经 #商业思维 #燃起来了大国重器 #财经",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这一步闪进景区宣传片了": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "中卫发布",
+     "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "上分！大美中卫欢迎你 #闪身步 #闪身步还能这样玩 #中卫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "会点编导的白嘻嘻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闪身步闪到了文山！ #闪身步 #闪身步还能这样玩 #转场 #文山 #苗族 @非常文山",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我哩个豆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来吧遇见梅州遇见美好地标上分，视频剪辑效果，请勿模仿马路上跳舞喔#梅州 #闪身步 #梅州文旅 #欢迎来梅州",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "发现内蒙古",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闪身步闪到了内蒙古啦！ #闪身步 #转场 #内蒙古旅游 #发现内蒙古",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "发现广西",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闪身步闪到广西了#闪身步#发现广西#广西#壮锦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西大街张市民",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秦人能不能给西安上个分 #西安#闪身步#闪身步还能这样玩 #闪身蹦沙卡拉卡#inmyfeelings",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "甄姬大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不知道能不能帮成都上一波分。 #抖音ai创作 #成都#国风汉服 #AI汉服武侯祠合拍 #闪身步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Miss至",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这舞有力气~ #breaking #信阳#国风汉服#街舞#转动裙摆打卡各地地标",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AIGC 原点",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闪身步挑战—昭通新机场 闪身步闪到了昭通机场，高铁站做了，机场就一起做了，这次看点不一样的我们看夜景！#aigc #闪身步 #闪身步还能这样玩 #昭通机场 #昭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贵州文旅",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的贵州，我宣传！#贵州文旅 #村字号 #AI了贵贵 #跟着AI游贵州#闪身步还能这样玩",
+     "text": "#我国大宗商品市场景气水平进一步提升 9月中国大宗商品价格指数环比上涨4.1%",
      "likes": 0,
      "hot": 0
     }
@@ -747,80 +700,86 @@
    "authors": [],
    "lexicon": []
   },
-  "玉簟秋首播观后感": {
+  "被古都北京的文化底蕴硬控了": {
    "stats": {},
    "authors": [
     {
-     "name": "aaa煎蛋",
+     "name": "风雪夜灯",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "玉簟秋首播看完了！纯路人观后感 #玉簟秋 #丞磊 #徐若晗 #丞磊徐若晗新剧玉簟秋开播 #看了玉簟秋绝对不烧心",
+     "text": "古代人打工租房的猛料！一期看懂明朝在北京的生活物价和打工收 #文脉里的中国 #文脉里的北京 #何以中国理想都城 #识典古籍看文脉 #微观视角看历史 一提历史，很",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "˚𑁍ࠬܓ˚半颗🌸糖꧀ᩚ࿐",
+     "name": "猫der和饭饭的日常",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "红藕香残，玉簟生秋；雁字南归，月满西楼。#玉簟秋 #玉簟秋虞昶轩",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "NEON打歌初舞台": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "橙子o🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#aijing #a2olite 《NEON》 初舞台 竖版直拍，MCD舞台261015 #盛艾敬 #neon #直拍",
+     "text": "先农坛里藏着北京城的有趣历史 蛐蛐一下内城九座老城门的分工冷知识 #博物馆 #看完涨知识 #文脉里的中国 #文脉里的北京 #何以中国理想都城",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "KPOP集市",
+     "name": "魏中咸",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "李秀满新女团A2O Lite《Neon》MCD初打歌舞台全体直拍#a2olite #郑时英（YOUNG） #梁淅沥（XILI） #马西桐（MERCI） #OA#",
+     "text": "少年强则国强之北京小学生 #文脉里的中国 #文脉里的北京 #何以中国理想都城",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "桃乌君",
+     "name": "河森堡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "锐评A2O LITE《NEON》舞台，舞蹈水平很顶级！ #A2OLITE #KPOP #桃乌君 #抖音音乐客厅",
+     "text": "欧洲开眼看中国的第一人 利玛窦，欧洲开眼看中国的第一人，他在中国传教一生，给中国带来了很多弥足珍贵的东西 #文脉里的中国 #文脉里的北京 #何以中国理想都城 #",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "TWS志薰炅潣跳了NEON": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "TWS_PLEDIS",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "文化遗产搬运委员会",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "NEON #志薰 JIHOON #炅潣 KYUNGMIN #TWS",
+     "text": "看大象洗澡？！古代人逛北京，都去哪里玩？ #文脉里的中国 #文脉里的北京 #何以中国理想都城 #识典古籍看文脉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "古猫丨陪你去看博物馆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "古猫丨天坛是怎么祭天的？ 来北京天坛公园感受一下天坛祭天的流程#文脉里的中国 #文脉里的北京 #何以中国理想都城 #识典古籍看文脉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪花姜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从北京猿人到骆驼祥子 我做了一场超时空采访 #文脉里的中国 #文脉里的北京 #何以中国理想都城 #用ai打开人文新视界 #人文创作焕新计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "整点儿新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "逛书店，观巧克力博物馆，模拟飞行驾驶！北京坊成为首都文旅新地标 金秋时节，打卡首都文旅新地标！北京坊作为大栅栏历史文化保护区核心地带，通过城市更新，实现了古都文",
      "likes": 0,
      "hot": 0
     }
@@ -935,16 +894,110 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "金善禹翻唱最后一页好好听": {
+  "NEON打歌初舞台": {
    "stats": {},
    "authors": [
     {
-     "name": "ENHYPEN",
+     "name": "橙子o🍊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#aijing #a2olite 《NEON》 初舞台 竖版直拍，MCD舞台261015 #盛艾敬 #neon #直拍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "KPOP集市",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李秀满新女团A2O Lite《Neon》MCD初打歌舞台全体直拍#a2olite #郑时英（YOUNG） #梁淅沥（XILI） #马西桐（MERCI） #OA#",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桃乌君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "锐评A2O LITE《NEON》舞台，舞蹈水平很顶级！ #A2OLITE #KPOP #桃乌君 #抖音音乐客厅",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "TWS志薰炅潣跳了NEON": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "TWS_PLEDIS",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "最后一页 (The last page) #SUNOO ver 🎤 #ENHYPEN #金善禹 #ENHYPEN澳门演唱会",
+     "text": "NEON #志薰 JIHOON #炅潣 KYUNGMIN #TWS",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "拆我们的未来关系测试盲盒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "m..",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "m..",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "텐트를",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "텐트를",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "DbttJ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "DbttJ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一颗小西柚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@烟酒浪子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "酷酷的奇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#抖音二创激励计划 哈哈哈 不错不错",
      "likes": 0,
      "hot": 0
     }
@@ -1059,43 +1112,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "丞磊徐若晗神之公主抱": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐圈小蜜",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丞磊徐若晗神之公主抱来了 啊啊啊俩人好甜好好磕#玉簟秋 #玉簟秋抖音追剧团 #丞磊徐若晗神之公主抱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芒果捞追剧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丞磊徐若晗公主抱深蹲啊啊啊啊 #丞磊 #徐若晗 #玉簟秋抖音追剧团 #丞磊徐若晗神之公主抱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "搜狐娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不知道大家喜欢什么，所以准备了三种风味的公主抱 #丞磊 #徐若晗 #郭宇欣 #玉簟秋 #玉簟秋抖音追剧团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "这架飞机怎么有点掉帧": {
    "stats": {},
    "authors": [
@@ -1203,6 +1219,60 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "何与闪身步闪了个大的": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "何与happy",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看视频🎾 #闪身步 #一追就上头",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "丞磊徐若晗神之公主抱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐圈小蜜",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丞磊徐若晗神之公主抱来了 啊啊啊俩人好甜好好磕#玉簟秋 #玉簟秋抖音追剧团 #丞磊徐若晗神之公主抱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果捞追剧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丞磊徐若晗公主抱深蹲啊啊啊啊 #丞磊 #徐若晗 #玉簟秋抖音追剧团 #丞磊徐若晗神之公主抱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "搜狐娱乐",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不知道大家喜欢什么，所以准备了三种风味的公主抱 #丞磊 #徐若晗 #郭宇欣 #玉簟秋 #玉簟秋抖音追剧团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "李嘉诚去世为假消息": {
    "stats": {},
    "authors": [
@@ -1255,31 +1325,31 @@
      "text": "长实集团就“李嘉诚去世”的消息发出最新声明：对有关自媒体哗众取宠、别有用心捏造假新闻予以强烈谴责",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "南方日报·南方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "网传李嘉诚去世引发关注，记者核查：消息不实 #抖音媒体辟谣团 #辟谣",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "何与闪身步闪了个大的": {
+  "桃田贤斗要来武汉打林丹杯了": {
    "stats": {},
    "authors": [
     {
-     "name": "何与happy",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "林丹杯羽毛球公开赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "看视频🎾 #闪身步 #一追就上头",
+     "text": "“大家好，我是桃田贤斗”#武汉林丹杯 #羽毛球 #林丹杯羽毛球公开赛 #桃田贤斗官宣林丹杯 #桃田贤斗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Boss小陈（3-6号济南林丹杯直播）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界冠军桃田贤斗竟然参加武汉林丹杯？！我已经能感受到现场炸裂的氛围了！！让我们共同期待桃田提款成功！！！#林丹杯羽毛球公开赛 #武汉林丹杯 #桃田贤斗官宣林丹杯",
      "likes": 0,
      "hot": 0
     }
@@ -1334,193 +1404,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "桃田贤斗要来武汉打林丹杯了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "林丹杯羽毛球公开赛",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“大家好，我是桃田贤斗”#武汉林丹杯 #羽毛球 #林丹杯羽毛球公开赛 #桃田贤斗官宣林丹杯 #桃田贤斗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Boss小陈（3-6号济南林丹杯直播）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "世界冠军桃田贤斗竟然参加武汉林丹杯？！我已经能感受到现场炸裂的氛围了！！让我们共同期待桃田提款成功！！！#林丹杯羽毛球公开赛 #武汉林丹杯 #桃田贤斗官宣林丹杯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的古早味秋冬穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "吴奇隆戴老花镜玩拼豆心酸又可爱": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴奇隆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁说拼豆是解压的…拼到凌晨三点才搞定！😭 #吴奇隆 #隆行天下 #拼豆 #手工diy #一追就上头",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "拆我们的未来关系测试盲盒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "m..",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "m..",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "텐트를",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "텐트를",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DbttJ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DbttJ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一颗小西柚",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@烟酒浪子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "酷酷的奇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#抖音二创激励计划 哈哈哈 不错不错",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "花小龙带宋亚东自律的一天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "花小龙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带宋亚东自律的一天 #宋亚东 #花小龙 #自律 #日常vlog",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "自己带大的朋友玩着不烧心": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "迷路胡同",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "自己带大的朋友，玩起来才不烧心。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "泡泡悦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "自己带大的的朋友，玩起来才不烧心#闺蜜 #朋友 #不烧心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是爆爆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "工作后工作已经耗尽了我绝大部分力气，我只能留下一小部分能量维持社交。 我已经不是能花一整个晚自习传纸条来解释自己为什么生气的年纪了#朋友 #文案 #情绪",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "刀小刀反向求婚孟令辉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "刀小刀sama",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我要让你成为世界上最幸福的小男孩 @孟令辉 #刀孟空间",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "孟令辉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "戒指戴好 我们的故事正式上映🎬@刀小刀sama #刀孟空间",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "临沂这个跳舞炒鸡我真想吃": {
    "stats": {},
    "authors": [
@@ -1558,22 +1441,76 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这是我的心尖尖": {
+  "蚩姹新皮肤农味大回归": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王者爆料菌",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蚩奼新皮肤超清完整海报，就是这个农味！近期农味最浓的一张皮肤海报了吧😂 #王者荣耀 #蚩奼 #王者荣耀2026周年庆 #王者新皮肤 #王者爆料",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王者荣耀",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#蚩奼新史诗皮肤 【蚩奼-猞我其谁皮肤语音爆料】已上线。猞猁一族最强猎手登场，守护族群，猞我其谁！#蚩奼新皮肤猞我其谁 #王者语音爆料 #王者荣耀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿仁的小破城",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁懂！蚩奼猫耳新皮冷脸翘嘴有多萌？ #王者荣耀2026周年庆 #EZ王者开黑吧 #蚩奼 #蚩奼新皮肤猞我其谁",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "玉簟秋首播观后感": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "aaa煎蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "玉簟秋首播看完了！纯路人观后感 #玉簟秋 #丞磊 #徐若晗 #丞磊徐若晗新剧玉簟秋开播 #看了玉簟秋绝对不烧心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "˚𑁍ࠬܓ˚半颗🌸糖꧀ᩚ࿐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "红藕香残，玉簟生秋；雁字南归，月满西楼。#玉簟秋 #玉簟秋虞昶轩",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "挑战切超长蛋挞也得防不胜防": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "小猫踏步舞": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "一声沈大哥梦回武林外史": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "十月这波预测我真得接了": {
+  "我的古早味秋冬穿搭": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1615,66 +1552,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "纸袋探头第一视角原来这么萌": {
+  "花小龙带宋亚东自律的一天": {
    "stats": {},
    "authors": [
     {
-     "name": "旺仔酱",
+     "name": "花小龙",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "旺仔酱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "花猫妮妮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#可爱到心化 #猫咪纸盒子 #猫咪日常记录 #软萌治愈瞬间 #猫咪特效",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "飞云的生活日常",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#布偶猫 do you love me？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "来米",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "A1你爱我吗 淘气宝贝来米",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "卷卷莎莉和元宝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈喽👋你好呀，你爱我吗？ #萌宠日常分享 #被小狗治愈的一天 #软萌泰迪 #萌宠成精了 #萌宠出道计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黑白zo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "of course！#ai萌宠 #ai你爱我吗 #马尔泰 #zozo大王的生活日记 #萌狗出道",
+     "text": "带宋亚东自律的一天 #宋亚东 #花小龙 #自律 #日常vlog",
      "likes": 0,
      "hot": 0
     }
@@ -1682,7 +1569,261 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "挑战切超长蛋挞也得防不胜防": {
+  "无畏契约新赛季通行证夯爆了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "HanHan（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无畏契约新赛季通行证be like #无畏契约 #我的十月被瓦包围了 #hanhan无畏契约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "情报马（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新赛季即将更新，通行证内容来了 #无畏契约 #情报马 #电子竞技",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "闪光队长（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新赛季战斗通行证 // #无畏契约",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "高性价比人生指南": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "刀小刀反向求婚孟令辉": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "刀小刀sama",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我要让你成为世界上最幸福的小男孩 @孟令辉 #刀孟空间",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "孟令辉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "戒指戴好 我们的故事正式上映🎬@刀小刀sama #刀孟空间",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一声沈大哥梦回武林外史": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "自己带大的朋友玩着不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "迷路胡同",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "自己带大的朋友，玩起来才不烧心。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "泡泡悦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "自己带大的的朋友，玩起来才不烧心#闺蜜 #朋友 #不烧心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是爆爆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "工作后工作已经耗尽了我绝大部分力气，我只能留下一小部分能量维持社交。 我已经不是能花一整个晚自习传纸条来解释自己为什么生气的年纪了#朋友 #文案 #情绪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "金善禹翻唱最后一页好好听": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ENHYPEN",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最后一页 (The last page) #SUNOO ver 🎤 #ENHYPEN #金善禹 #ENHYPEN澳门演唱会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "工厂工人回应撞脸陈小春走红": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "祥祥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "1/1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "福建工厂50多岁大哥撞脸陈小春，拍摄者称他也姓陈、广东口音。网友涌入陈小春账号喊话“快认亲”，当事人：没有被抱养，也没有胎记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "福建一车间工人撞脸陈小春，眉眼、神态、耳垂上的窝痕都很像，网友猜测可能是失散多年的弟弟，当事人：没有被抱养 也没有胎记",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这是我的心尖尖": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "关晓彤迎来新一轮美貌宣发期": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "PiGrT关",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不忍将满地残花踏。#关晓彤",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "关晓彤工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "碎钻落肩，锻影生光。@关晓彤 #关晓彤",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "在频率之外",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "至此关晓彤迎来了真正的美貌宣发期#关晓彤迎来新一轮美貌宣发期",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "漂移出场拍出硬核生日氛围感": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "汐月沐光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一年一度的出厂日期又到了，恭喜自己又成功升级到最新版本。#感恩父母 特别的日子，普通的自己十1岁 成年人的生日，不说生日快乐啦 那就㊗️我们，无疾无忧。 万事胜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "㴓趝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#皇冠庆生 #开车吹蛋糕 #生日氛围感拍照 又老一岁，祝自己生日快乐。 接受平凡，继续好好生活，平安喜乐就够了。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阳光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#车内生日惊喜布置",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "深邃流年",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#皇冠仪式感 #生日送自己最好的礼物 #开车吹蛋糕朝阳初升，你的新岁也如这光芒般崭新耀眼，每一寸温暖都为你而生，破晓时分的风偷走了你的岁数，却还给你一整片镀金的",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "微胖也能穿出轻亚忧郁感": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1724,17 +1865,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秋天最有腔调的流金可可妆": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "来看秀的我be like": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "微胖也能穿出轻亚忧郁感": {
    "stats": {},
    "authors": [],
    "lexicon": []
