@@ -1,11 +1,68 @@
 {
- "updated_at": "2026-10-16 16:45",
+ "updated_at": "2026-10-16 17:54",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 50,
- "ok_count": 41,
+ "topic_count": 49,
+ "ok_count": 40,
  "lexicon_count": 0,
  "topics": {
+  "国防部回应菲方多次挑衅行径": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "国防部发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国防部：中方将以有力行动遏制任何祸乱南海的行径",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月16日下午，国防部新闻发言人陈曦大校就近期涉军问题发布消息。 记者：据报道，菲方近期多次在黄岩岛、仁爱礁挑衅滋事，并称不会听任中方在菲“领土”发号施令。菲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "菲律宾指责中方百余艘军舰、海警船在中国南沙群岛海域活动，我国防部强硬表态：南沙群岛及其附近海域属于中国！菲律宾哪有资格谈论所谓“守护自身权益”?",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国防部：中方将以有力行动遏制任何祸乱南海的行径",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国防部：中方将以有力行动遏制任何祸乱南海的行径（编辑：于简狄）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "喀纳斯秋日实况": {
    "stats": {},
    "authors": [
@@ -63,6 +120,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "胜利山上望征途": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "古早感美式复古秋冬穿搭": {
    "stats": {},
    "authors": [
@@ -80,61 +142,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "胜利山上望征途": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "国防部回应菲方多次挑衅行径": {
+  "马杜罗夫妇纽约出庭否认新增指控": {
    "stats": {},
    "authors": [
     {
-     "name": "国防部发布",
+     "name": "凤凰卫视",
      "verify": "蓝V",
-     "identity": "官方机构",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国防部：中方将以有力行动遏制任何祸乱南海的行径",
+     "text": "马杜罗夫妇纽约出庭 身穿囚服 脚戴镣铐 否认新增指控:纯属捏造 #凤凰记者现场报道 #马杜罗 #委内瑞拉 #媒体精选计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "潮新闻",
+     "name": "参考消息",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月16日下午，国防部新闻发言人陈曦大校就近期涉军问题发布消息。 记者：据报道，菲方近期多次在黄岩岛、仁爱礁挑衅滋事，并称不会听任中方在菲“领土”发号施令。菲",
+     "text": "马杜罗夫妇在美出庭：态度强硬 坚称无罪#媒体原创 #马杜罗 #委内瑞拉 #夫妻 #美国",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "看看新闻Knews",
+     "name": "长江云新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "菲律宾指责中方百余艘军舰、海警船在中国南沙群岛海域活动，我国防部强硬表态：南沙群岛及其附近海域属于中国！菲律宾哪有资格谈论所谓“守护自身权益”?",
+     "text": "马杜罗夫妇表示：不认罪",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "政事儿",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国防部：中方将以有力行动遏制任何祸乱南海的行径",
+     "text": "马杜罗夫妇：不认罪",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视军事",
+     "name": "动静新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国防部：中方将以有力行动遏制任何祸乱南海的行径（记者淳于怀涛）#权威发布 #菲律宾",
+     "text": "#媒体原创 强权之下，何来正义！委内瑞拉称马杜罗夫妇是 “战俘”，“将继续争取马杜罗夫妇获释”#精选主播说",
      "likes": 0,
      "hot": 0
     }
@@ -189,63 +246,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "马杜罗夫妇纽约出庭否认新增指控": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马杜罗夫妇纽约出庭 身穿囚服 脚戴镣铐 否认新增指控:纯属捏造 #凤凰记者现场报道 #马杜罗 #委内瑞拉 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马杜罗夫妇表示：不认罪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马杜罗夫妇在美出庭：态度强硬 坚称无罪#媒体原创 #马杜罗 #委内瑞拉 #夫妻 #美国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "政事儿",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马杜罗夫妇：不认罪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "动静新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 强权之下，何来正义！委内瑞拉称马杜罗夫妇是 “战俘”，“将继续争取马杜罗夫妇获释”#精选主播说",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "一块会飞上天的滑板简直太酷了": {
    "stats": {},
    "authors": [
@@ -270,16 +270,6 @@
      "hot": 0
     },
     {
-     "name": "全观新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#00后小伙用AI打造会飞上天的滑板 两台 STEPX Neo 组成飞行监测和决策系统 ，让“会飞上天的滑板”从构思变成现实#STEPXNeo #阶跃终端 #S",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "高度新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -296,6 +286,73 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月13日，上海。#00后用AI打造能飞上天的滑板 阶跃终端 STEPX Neo 发布会现场，博主神奇阿宇成功试飞载人飞行滑板。两台 STEPX Neo 组成",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赛博司马特",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是我见过最酷的科技发布会，踩着飞行滑板直接飞上来了！ 今天晚上在阶跃StepX Neo智能体手机的发布会现场，拍到了这个画面。当时我就羡慕嫉妒恨了。。。 #科",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美军六代机F47首飞锁定2028年": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国重申六代机将于2028年首飞，这消息靠谱吗？（新闻直播间）#精选主播说 #硬核 #无人机",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国空军重申，六代机F-47首飞目标仍锁定2028年。#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 美国空军高层近日披露，第六代隐身战机F-47的完整生产线正加速成形，首飞目标锁定2028年。（央视频号：总台电视资讯）#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国空军重申六代机F-47于2028年首飞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 美空军六代机F-47规划作战半径超1000海里 专家解读：配套发动机延期 2028年首飞无法完全达标",
      "likes": 0,
      "hot": 0
     }
@@ -360,36 +417,103 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国铁集团启动列车车次编排改革": {
+  "CBA常规赛赛程发布": {
    "stats": {},
    "authors": [
     {
-     "name": "中国铁路",
+     "name": "CBA",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国铁集团启动全国铁路列车车次编排改革 #列车车次编排改革",
+     "text": "官宣！2026-2027赛季CBA联赛常规赛完整赛程及场馆信息正式发布！#cba常规赛赛程出炉 #以城之名 #CBA #CBA开赛",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #铁路车次新增X字头【#X字头列车最高时速350公里以上 】记者16日从中国国家铁路集团有限公司获悉，全国铁路列车车次将于11月下旬、12月下旬分两",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国交通广播",
+     "name": "新疆广播电视台体育健康频道",
      "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "与现行2014版《列车车次编排规定》相比，新版编排有何变化？（记者：高雅 编辑：吕振宇）",
+     "text": "2026/2027赛季CBA联赛亮点一览#cba #新疆男篮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿才说球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "CBA2026-2027赛季新闻发布会精华内容：2027CBA全明星落户十三朝古都西安，CBA与咪咕重新达成合作，升降级制度继续进行#cba新赛季 #CBA #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "眞 實 98年兵🔥（传递正能量）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "明晚19:35，26-27赛季CBA常规赛揭幕战在上海开赛。对阵双方是卫冕冠军上海队和深圳男篮，大家觉得谁能赢下这场开门红？ #CBA #中国篮球 #眞實",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@🍬M L 🍓 X",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "距离CBA常规赛即将来临，辽篮18号客场对山东高速比赛，好想杨导带领辽篮出发比赛了。#辽宁男篮 #cba热门 #CBA新赛季#杨鸣 @杨鸣",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "胡塞袭击利雅得机场致17死333伤": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沙特公布伤亡情况 #胡塞武装对利雅得机场袭击17死333伤 #胡塞再警告沙特领空机场不安全",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社电视",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沙特称胡塞武装袭击利雅得机场共致17死333伤 #胡塞武装 #沙特阿拉伯 #利雅得机场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沙特称胡塞武装袭击利雅得机场共致17死333伤 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沙特公布三座机场遭袭视频 利雅得机场11天遭袭20次17死333伤",
      "likes": 0,
      "hot": 0
     },
@@ -399,17 +523,17 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新华社消息｜铁路车次编排将调整 更高时速动车组新增X字头（记者：樊曦）#媒体原创",
+     "text": "新华社消息｜联合国秘书长谴责也门胡塞武装袭击沙特机场（记者：尚绪谦）#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网快看",
+     "name": "小央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "铁路车次编排改革启动：新增X字头动车，X读“新”，主要用于未来最高运行时速350公里以上的复兴号动车组列车",
+     "text": "【特朗普对打击胡塞武装态度突变】 当地时间10月10日，谈及沙特利雅得机场遭袭事件时，特朗普表示，在近期袭击事件发生后，美国“可能”加入沙特针对胡塞武装的打击行",
      "likes": 0,
      "hot": 0
     }
@@ -441,136 +565,12 @@
      "hot": 0
     },
     {
-     "name": "小乃侃球",
+     "name": "硬核足球",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "真不争气！河南队主场0比1津门虎！送对手上岸把自己拉下水！ 河南全场屡失良机！谢蒂内打入唯一进球！#独家看中超就在咪咕 #足球咕起来 #河南队0比1天津津门虎 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凡宸体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三镇能撑几轮 中超最后的保级大战 #中超 #武汉三镇 #辽宁铁人 #天津津门虎 #dou来足球季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "津云",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 津门虎1:0客场击败成都蓉城队 凭借基莱斯的进球 客场抢3分！津门虎爆冷绝杀津云新闻记者刘欣 特约摄影董书博）#媒体精选计划 #天津 #津门虎 #成",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "美军六代机F47首飞锁定2028年": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国重申六代机将于2028年首飞，这消息靠谱吗？（新闻直播间）#精选主播说 #硬核 #无人机",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国空军重申，六代机F-47首飞目标仍锁定2028年。#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 美国空军高层近日披露，第六代隐身战机F-47的完整生产线正加速成形，首飞目标锁定2028年。（央视频号：总台电视资讯）#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 美空军六代机F-47规划作战半径超1000海里 专家解读：配套发动机延期 2028年首飞无法完全达标",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2028年首飞 2030年服役？美军称六代机F-47“激进推进”#媒体原创 #媒体精选计划 #新闻直播间",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "火箭116:89主场大胜雷霆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "休斯顿火箭队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "季前赛收官战大胜雷霆！#NBA季前赛 #休斯顿火箭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有控卫就是爽！#阿门汤普森 首节连续吃饼，8投5中砍下10分！#雷霆vs火箭 #NBA季前赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "NBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【杜兰特开启进攻模式】巨星时刻！杜兰特第二节末段开启进攻模式，中距离和反击暴扣先后得分，并助攻申京上演滑翔劈扣！#NBA季前赛 #雷霆vs火箭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "easymoneysniper",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "那个老鹰时期的波格丹，回来了。波格丹诺维奇， 16分钟，三分8中5拿下15分6篮板。 第三节上来三分三连击，直接打停雷霆。 这就是火箭想要的，那个巅峰版本的他。",
+     "text": "河南VS天津津门虎，谢蒂内右脚凌空爆射破门。 #河南VS天津津门虎 #中超 #河南",
      "likes": 0,
      "hot": 0
     }
@@ -642,16 +642,6 @@
      "hot": 0
     },
     {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "洛阳挖出“传国玉玺”？官方辟谣来了！这条谣言到底怎么发酵？传国玉玺的真实历史是什么，为什么 AI 图片能骗到这么多人？ #精选主播说 #传国玉玺 #官方辟谣 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "长城新媒体",
      "verify": "红V",
      "identity": "媒体人",
@@ -665,67 +655,67 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "CBA常规赛赛程发布": {
+  "嫁金钗开播": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "国铁集团启动列车车次编排改革": {
    "stats": {},
    "authors": [
     {
-     "name": "CBA",
+     "name": "中国铁路",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "官宣！2026-2027赛季CBA联赛常规赛完整赛程及场馆信息正式发布！#cba常规赛赛程出炉 #以城之名 #CBA #CBA开赛",
+     "text": "国铁集团启动全国铁路列车车次编排改革 #列车车次编排改革",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新疆广播电视台体育健康频道",
-     "verify": "蓝V",
+     "name": "央视一套",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026/2027赛季CBA联赛亮点一览#cba #新疆男篮",
+     "text": "#媒体原创 #铁路车次新增X字头【#X字头列车最高时速350公里以上 】记者16日从中国国家铁路集团有限公司获悉，全国铁路列车车次将于11月下旬、12月下旬分两",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "阿才说球",
-     "verify": "",
-     "identity": "",
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "CBA2026-2027赛季新闻发布会精华内容：2027CBA全明星落户十三朝古都西安，CBA与咪咕重新达成合作，升降级制度继续进行#cba新赛季 #CBA #",
+     "text": "铁路车次编排将调整,更高时速动车组新增X字头",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "眞 實 98年兵🔥（传递正能量）",
-     "verify": "",
-     "identity": "",
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "明晚19:35，26-27赛季CBA常规赛揭幕战在上海开赛。对阵双方是卫冕冠军上海队和深圳男篮，大家觉得谁能赢下这场开门红？ #CBA #中国篮球 #眞實",
+     "text": "铁路车次编排改革启动：新增X字头动车，X读“新”，主要用于未来最高运行时速350公里以上的复兴号动车组列车",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "球边社",
-     "verify": "",
-     "identity": "",
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "特殊待遇！新赛季仅胡明轩一人享受特许鞋名额 #胡明轩 #广东男篮 #CBA常规赛赛程发布",
+     "text": "X字头动车要来了！ X读“新”，表示最高运行时速350公里以上的复兴号动车组列车。铁路车次编排改革启动，你知道各字头字母代表哪种列车？",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "嫁金钗开播": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "今年第30号台风蔷琵已生成": {
    "stats": {},
@@ -751,22 +741,22 @@
      "hot": 0
     },
     {
-     "name": "深圳天气",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "30号台风“蔷琵”已生成！或至超强台风？ #台风 #台风蔷琵 #超强台风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "封面新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "今年第30号台风“蔷琵”生成，最强可达超强台风级别，未来6天对我国海区无影响，后期路径仍有较大不确定性",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "深圳天气",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "30号台风“蔷琵”已生成！或至超强台风？ #台风 #台风蔷琵 #超强台风",
      "likes": 0,
      "hot": 0
     },
@@ -784,113 +774,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "胡塞袭击利雅得机场致17死333伤": {
+  "井泉大使回应菲防长涉华谬论": {
    "stats": {},
    "authors": [
     {
-     "name": "看看新闻Knews",
+     "name": "看台海",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沙特公布伤亡情况 #胡塞武装对利雅得机场袭击17死333伤 #胡塞再警告沙特领空机场不安全",
+     "text": "我大使回应菲防长涉华谬论：菲律宾应当感到庆幸，拥有中国这样一个邻居。#看台海",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新华社电视",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "沙特称胡塞武装袭击利雅得机场共致17死333伤 #胡塞武装 #沙特阿拉伯 #利雅得机场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
+     "name": "环球时报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沙特称胡塞武装袭击利雅得机场共致17死333伤 #媒体原创",
+     "text": "我大使回应菲防长涉华谬论：菲律宾应当感到庆幸拥有中国这样一个邻居，如果我们要动用武力，完全有可能轻易取胜（编辑：阿联）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网",
+     "name": "环视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沙特公布三座机场遭袭视频 利雅得机场11天遭袭20次17死333伤",
+     "text": "井泉大使回应菲防长涉华谬论：究竟谁才是麻烦制造者？",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "利雅得 不再安全 萨苏：迫使沙特改变对外战略政策#沙特 #胡塞武装 #凤凰聚焦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
+     "name": "逐浪新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沙特首都国际机场传出爆炸声 已无航班起降 （记者：王海洲、罗晨）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曼联后卫利马发文致歉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "直播吧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "利马发文致歉👬。#利马 #曼联 #欧冠 #足球",
+     "text": "10月15日，井泉大使出席第二届迪利曼对话会期间接受菲律宾媒体联合采访。 当被问及如何看待菲律宾国防部长特奥多罗将中国称为本地区“麻烦制造者”的言论时，井大使作",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "嘟嘟马萨DuduMassa",
-     "verify": "",
-     "identity": "",
+     "name": "湖北日报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "曼联球迷怎么看利马的爆炸性发言 #曼联 #利马 #卡里克",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极乐足球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "利马炮轰曼联管理层，实话就是这么难听！ #抖音精选app征稿中 #曼联 #利桑德罗马丁内斯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杰夫的战术笔记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "曼联爆雷！利马赛后炮轰管理层！怒指一人害惨球队！ 感谢利马！俱乐部不能再装瞎！#利马 #曼联 #卡里克 #欧冠 #曼联0比2马竞",
+     "text": "菲防长称中国为\"麻烦制造者\"，井泉大使: 纯属无稽之谈。菲方应庆幸拥有中国这样一个邻居，如果我们动用武力，完全有可能轻易取胜。（剪辑：乐希）",
      "likes": 0,
      "hot": 0
     }
@@ -925,112 +858,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "星月也开始打复活赛了": {
+  "如果人生总是后知后觉": {
    "stats": {},
-   "authors": [
-    {
-     "name": "天冷冷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "星星挂在天边 再也没有了月#混音 #情绪#星月 #邵雨薇 #星星挂在天边",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "程忆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间怎么会等人呢 等你的人是我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "嘉熙jiaxxxx_i",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人生若只如初见 #黄饱饱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姜川",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人活这一生 不都是寻找一个昧着良心也能站在自己旁边的人吗#星月#邵雨薇#星星挂在天边（博主@木子李-",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贵贵香猪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间怎么会等人呢 等你的人是我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "乌托邦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人生若只如初见 #转场#星月 #邵雨薇 #星星挂在天边",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "巴黎美朵儿🇨🇳🇫🇷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这是我的人生 显化开始 极致想要 就会得到#宇宙显化法则 #能量显化财富 #显化事业 #好运显化法则 #显化法则",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "困成憨包",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间怎么会等人呢 等你的是我啊#双鱼#甜妹#秋天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "M 鹿 Mㅤ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间怎么会等人呢#甜蜜暴击 #鹿晗 #星月",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小笼包•̀֊•́",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "同行的路上 我们应该是彼此的依靠#我们俩#星月 #邵雨薇 #星星挂在天边",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "张雪机车收官冲冠之战": {
    "stats": {},
@@ -1056,6 +887,16 @@
      "hot": 0
     },
     {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 重磅消息！WSBK前三强全面入驻中国车队，张雪深夜发视频 奖励德比斯2万欧元，定下明年小目标 拿冠军，国产机车已经站上世界舞台 明年值得期待（编辑：",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
@@ -1066,96 +907,12 @@
      "hot": 0
     },
     {
-     "name": "观察者网",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "提前锁定“年度亚军”，张雪回顾当时赴国外找车队经历，车队经理与另一家日本品牌毁约，签约了张雪机车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鲸视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“张雪机车”德比斯锁定年度车手亚军，张雪：给老德发2万欧奖金。 据新华社消息，2026世界超级摩托车锦标赛（WSBK）葡萄牙站WorldSSP组别次回合正赛11",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "特斯拉Roadster意向金33.2万": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "财研网AI",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特斯拉Roadster意向金33.2万 马斯克明确要到2028年才会投入量产，该车零百加速不到一秒且可以飞行 #特斯拉 #马斯克 #科技 #新能源汽车 #汽车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
+     "name": "贝壳财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月16日，跳票近9年的特斯拉第二代Roadster正式在德州SpaceX测试场亮相，基础版2.1秒破百，可选装SpaceX联合开发A71冷气推进套件。这套航",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 特斯拉Roadster“飞”起来了！时隔近9年，特斯拉第二代Roadster跑车再次亮相，这一次，“飞行”能力成为现场展示重点。画面显示，Roads",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "越牛新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特斯拉能飞：第二代Roadster预订意向金33.2万元起，马斯克宣布2028年量产",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特斯拉Roadster“飞”起来了 中国官网开放预订，意向金33.2万元 客服：目前预订的版本是性能版 无法极速行驶，也不能起飞#媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "徐艺洋直播回应争议": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "徐艺洋回应宣布孩子后的热议：“我们就一个孩子，也是我自己生的。希望大家不要恶意造谣”",
+     "text": "#张雪机车亮相广交会 张雪：张雪机车下一步的出海计划是，让全球各地都有张雪的门店，应该在两年之内能实现 #张雪称两年之内要让全球各地都有张雪机车门店",
      "likes": 0,
      "hot": 0
     }
@@ -1200,41 +957,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "疯看爽看玉簟秋": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "金主训发色你崛起吧": {
+  "徐艺洋直播回应争议": {
    "stats": {},
    "authors": [
     {
-     "name": "睡个懒觉",
-     "verify": "",
-     "identity": "",
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金主训发色你崛起吧！-首次自己在家染栗木亚麻染发心得 Q1：关于我的头发情况： A：染之前是自然黑没有染过头发也没有漂过！ Q2：关于用量： A：我这个头发长度",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "切克酪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "染完金主训同款发色我通透了。 我自己在家染的栗木亚麻完全一模一样！ Q1：关于我的头发情况： A：没有漂过，染之前是布丁头 Q2：关于用量： A：我这差不多用了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好吃鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金主训发色你崛起吧！！#金主训cortis #男团发色 #韩系发型",
+     "text": "徐艺洋回应宣布孩子后的热议：“我们就一个孩子，也是我自己生的。希望大家不要恶意造谣”",
      "likes": 0,
      "hot": 0
     }
@@ -1242,16 +974,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "李荣浩天津演唱会": {
+  "田曦薇魏娆君黛并蒂双生花": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "疯看爽看玉簟秋": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "媒体专访声乐教师朱璐": {
    "stats": {},
    "authors": [
     {
-     "name": "李荣浩",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天津day1",
+     "text": "#媒体原创 风芒新闻专访声乐教师朱璐 朱璐讲述与段俊的第一次合作 “我一个艺术家 我能跟你拍这个” 他劝了我一年多 才开始尝试@朱璐#当事人会客厅",
      "likes": 0,
      "hot": 0
     }
@@ -1296,26 +1038,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "宋茜唱跳真神回归": {
+  "李荣浩天津演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "宋茜",
+     "name": "李荣浩",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "「原色 TRUE COLOR」EP Teaser- 10.16, 14:02（CST）#宋茜全新EP原色 #宋茜原色TRUECOLOR",
+     "text": "天津day1",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "金主训发色你崛起吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "睡个懒觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金主训发色你崛起吧！-首次自己在家染栗木亚麻染发心得 Q1：关于我的头发情况： A：染之前是自然黑没有染过头发也没有漂过！ Q2：关于用量： A：我这个头发长度",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "闲娱日记本",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "切克酪",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不然你以为宋茜怎么闯出Victoria时代的 #宋茜 #kpop #爱豆 #Victoria #fx#函数",
+     "text": "染完金主训同款发色我通透了。 我自己在家染的栗木亚麻完全一模一样！ Q1：关于我的头发情况： A：没有漂过，染之前是布丁头 Q2：关于用量： A：我这差不多用了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好吃鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金主训发色你崛起吧！！#金主训cortis #男团发色 #韩系发型",
      "likes": 0,
      "hot": 0
     }
@@ -1353,6 +1122,107 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#嫁金钗开播 少不了周芙的，这股劲儿随我#嫁金钗",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "玉簟秋丞磊邀请大家一起搓麻将": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "丞磊",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和我坐一桌搓麻将吧！ #玉簟秋 #虞昶轩",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "肖战刘铮亮搁家跟前儿上班": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "肖战",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#小城良方定档1021 这班先搁家跟前儿上吧！#小城良方",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "让你爱上我要多久": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "魔法蜻蜓",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "让你爱上我 要多久",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赛博子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "让你爱上我要多久",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今日有雪223",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "让你爱上我要多久 我已经爱上你已走不动 #抖音玩法合伙人计划 #创意文案玩法集",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "，",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "让你爱上我要多久 原作者：@辛夷欧拉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "icedoll",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再问一次 让你爱上我要多久#处女座",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小吃子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "让你爱上我 要多久 #氛围感",
      "likes": 0,
      "hot": 0
     }
@@ -1484,6 +1354,113 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "星月也开始打复活赛了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天冷冷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "星星挂在天边 再也没有了月#混音 #情绪#星月 #邵雨薇 #星星挂在天边",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "程忆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间怎么会等人呢 等你的人是我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "嘉熙jiaxxxx_i",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人生若只如初见 #黄饱饱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姜川",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人活这一生 不都是寻找一个昧着良心也能站在自己旁边的人吗#星月#邵雨薇#星星挂在天边（博主@木子李-",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "贵贵香猪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间怎么会等人呢 等你的人是我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乌托邦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人生若只如初见 #转场#星月 #邵雨薇 #星星挂在天边",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "巴黎美朵儿🇨🇳🇫🇷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是我的人生 显化开始 极致想要 就会得到#宇宙显化法则 #能量显化财富 #显化事业 #好运显化法则 #显化法则",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "困成憨包",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间怎么会等人呢 等你的是我啊#双鱼#甜妹#秋天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小笼包•̀֊•́",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "同行的路上 我们应该是彼此的依靠#我们俩#星月 #邵雨薇 #星星挂在天边",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "M 鹿 Mㅤ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间怎么会等人呢#甜蜜暴击 #鹿晗 #星月",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "全三角洲都在老太巡猎": {
    "stats": {},
    "authors": [
@@ -1566,158 +1543,27 @@
    "authors": [],
    "lexicon": []
   },
-  "如果人生总是后知后觉": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "玉簟秋丞磊邀请大家一起搓麻将": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "丞磊",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和我坐一桌搓麻将吧！ #玉簟秋 #虞昶轩",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "田曦薇魏娆君黛并蒂双生花": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "英雄联盟S16世界赛开赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "LPL赛事高能君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "入围赛首日！MVK3比0横扫FUR，KC3比2击败C9！ #FUR对战MVK#英雄联盟S16#MVK战胜FUR#C9对战KC #KC战胜C9",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "英雄联盟赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Busio芮尔精妙开团 KC战胜C9晋级下一轮 #S16入围赛 #KC战胜C9 #英雄联盟S16 #2026全球总决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "兔玩电竞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "MVK 3:0战胜FUR！ MVK打野Gury玩盲僧颇有SofM之姿！MVK掏出中单风骑黄昏大嘴！SofM：遇到LPL队伍的话会很开心！#S16入围赛 #英雄联",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "肖战刘铮亮搁家跟前儿上班": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "肖战",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#小城良方定档1021 这班先搁家跟前儿上吧！#小城良方",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "让你爱上我要多久": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "魔法蜻蜓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让你爱上我 要多久",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赛博子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让你爱上我要多久",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今日有雪223",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让你爱上我要多久 我已经爱上你已走不动 #抖音玩法合伙人计划 #创意文案玩法集",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "，",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让你爱上我要多久 原作者：@辛夷欧拉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "icedoll",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "再问一次 让你爱上我要多久#处女座",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小吃子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让你爱上我 要多久 #氛围感",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "本萌官驾到通通闪开": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "邓紫棋自由的你钢琴版来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "GEM鄧紫棋",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "其实这首歌最开始是在钢琴上写的🙈❤️ 是不是跟现在科幻感的版本非常不一样🤓 欢迎弹唱🔥🔥🔥 《自由的你》 词曲：G.E.M.邓紫棋 #邓紫棋自由的你 ",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "测试盲盒拆完揭晓你是好友的谁": {
    "stats": {},
@@ -1766,32 +1612,111 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "郭宇欣好雨直播造型看了不烧心": {
+  "英雄联盟S16世界赛开赛": {
    "stats": {},
    "authors": [
     {
-     "name": "有象娱乐",
+     "name": "LPL赛事高能君",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#郭宇欣#王皓祯 同框出席#好雨知时节 见面会，宇欣今天好漂亮！#明星现场",
+     "text": "入围赛首日！MVK3比0横扫FUR，KC3比2击败C9！ #FUR对战MVK#英雄联盟S16#MVK战胜FUR#C9对战KC #KC战胜C9",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "OG娱乐",
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Busio芮尔精妙开团 KC战胜C9晋级下一轮 #S16入围赛 #KC战胜C9 #英雄联盟S16 #2026全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "兔玩电竞",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王皓祯郭宇欣同框 男帅女美好养眼#郭宇欣 #王皓祯 #好雨知时节 #郭宇欣好雨直播造型看了不烧心",
+     "text": "MVK 3:0战胜FUR！ MVK打野Gury玩盲僧颇有SofM之姿！MVK掏出中单风骑黄昏大嘴！SofM：遇到LPL队伍的话会很开心！#S16入围赛 #英雄联",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "宋茜唱跳真神回归": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "宋茜",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "「原色 TRUE COLOR」EP Teaser- 10.16, 14:02（CST）#宋茜全新EP原色 #宋茜原色TRUECOLOR",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "闲娱日记本",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不然你以为宋茜怎么闯出Victoria时代的 #宋茜 #kpop #爱豆 #Victoria #fx#函数",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "嫁金钗闯入南湘赛道": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "嫁金钗（酷酷争命",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#嫁金钗开播 理智被不甘焚烧殆尽，满腔偏执疯长#嫁金钗 #田曦薇#魏娆 #君黛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大娱乐家",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "君黛：我装好人的时候你最好别扫兴#嫁金钗 #田曦薇 #君黛 #魏娆 #爽剧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "挖了个趣",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黛儿必须仗着大家的宠爱狠狠作妖呀（cr.悲伤烤土豆 1025号可乐）#嫁金钗 #田曦薇 #电视剧 #君黛 #这世界就该围着君黛转啊",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "淡人早秋穿搭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "谁偷偷调节了我的头部灵敏度": {
    "stats": {},
@@ -1843,6 +1768,55 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "旁边都是印度人 #认真上课的好学生 #大学的精神状态",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当我拥有自己的ai播放器": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "郭宇欣好雨直播造型看了不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "有象娱乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#郭宇欣#王皓祯 同框出席#好雨知时节 见面会，宇欣今天好漂亮！#明星现场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "OG娱乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王皓祯郭宇欣同框 男帅女美好养眼#郭宇欣 #王皓祯 #好雨知时节 #郭宇欣好雨直播造型看了不烧心",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "ENHYPEN来澳门热梗学杂了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ENHYPEN",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "学杂了🫢 #SUNGHOON #朴成训 #SUNOO #金善禹 #ENHYPEN澳门演唱会",
      "likes": 0,
      "hot": 0
     }
@@ -1920,87 +1894,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "萌兔驾到 😂",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "邓紫棋自由的你钢琴版来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "GEM鄧紫棋",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "其实这首歌最开始是在钢琴上写的🙈❤️ 是不是跟现在科幻感的版本非常不一样🤓 欢迎弹唱🔥🔥🔥 《自由的你》 词曲：G.E.M.邓紫棋 #邓紫棋自由的你 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当我拥有自己的ai播放器": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "ENHYPEN来澳门热梗学杂了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "ENHYPEN",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学杂了🫢 #SUNGHOON #朴成训 #SUNOO #金善禹 #ENHYPEN澳门演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "淡人早秋穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "丞磊追剧团还原麻将名场面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "搜狐娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Going 人的事，虞昶轩顺手就全干了#丞磊 #徐若晗 #玉簟秋 #玉簟秋抖音追剧团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "旺仔小拳头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "此男就这样持续going #丞磊 #玉簟秋抖音追剧团 #丞磊追剧团还原麻将名场面 #玉簟秋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "钱江视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《玉簟秋》追剧团，丞磊徐若晗还原名场面，现场尖叫声连连。#丞磊 #徐若晗 #玉簟秋 #玉簟秋抖音追剧团 #钱江文娱",
      "likes": 0,
      "hot": 0
     }
