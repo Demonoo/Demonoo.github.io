@@ -1,71 +1,14 @@
 {
- "updated_at": "2026-10-18 22:40",
+ "updated_at": "2026-10-18 23:41",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 41,
+ "ok_count": 42,
  "lexicon_count": 0,
  "topics": {
-  "美日将投入6万兵力军演": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 日美将举行大规模联合军演 投入兵力总计接近6万人 引发日本国内广泛担忧与反对",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #美日将投入6万兵力军演 澳大利亚、加拿大、法国、德国、荷兰、新西兰、菲律宾7国参与！“25式地对舰导弹”也将参演！射程约1000公里 远超日本领土",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "据日本共同社17日报道，日本和美国将于19日至29日在日本多地开展“利剑27”大规模联合军演，投入兵力总计接近6万人，引发日本国内广泛担忧与反对。 报道称，此次",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美日在距台110公里外模拟武力介入台海？解放军可精准反制 #新闻今日谈",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "俄圣彼得堡石油码头遭乌袭击": {
    "stats": {},
    "authors": [
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "凌晨突袭！#俄罗斯圣彼得堡石油码头遭乌克兰袭击 现场爆炸燃起大火！ 同日列宁格勒州一数据中心也遭袭",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "参考消息",
      "verify": "红V",
@@ -73,6 +16,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "俄军击落1015架乌军无人机 俄圣彼得堡石油码头遭无人机袭击起火#俄乌冲突 #乌军无人机 #乌军无人机袭击 #圣彼得堡 #起火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凌晨突袭！#俄罗斯圣彼得堡石油码头遭乌克兰袭击 现场爆炸燃起大火！ 同日列宁格勒州一数据中心也遭袭",
      "likes": 0,
      "hot": 0
     },
@@ -93,53 +46,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "俄罗斯国防部10月18日通报称，自17日20时至18日8时，俄多个地区遭无人机袭击，俄防空部队在别尔哥罗德州、布良斯克州、列宁格勒州、莫斯科州等地及黑海上空拦截",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "广交会万品联通海内外": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "客商云集广交会，万品联通海内外#瞬间中国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 新华社消息｜第140届广交会开展 吸引境外采购商约34万名（记者：赵紫羽、黄国保）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #广交会见证中国制造从能造到智造【#广交会以前沿创新展品对接全球供需 】第140届广交会首期展览聚焦先进制造主题，以众多前沿创新展品对接全球供需，充",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 本届广交会的两轮车展区，张雪机车展位持续火爆，每天有数百人来和冠军车型合影，还有海外客商想成为当地代理。（央视频号：总台电视资讯）",
      "likes": 0,
      "hot": 0
     }
@@ -177,6 +83,53 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "📍虎跳峡 替大家试过了，从丽江去香格里拉买17:52-19:42的D239车次F座成功拍到虎跳峡#丽江#虎跳峡#香格里拉#高铁虎跳峡 @菠萝吹雪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "广交会万品联通海内外": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "客商云集广交会，万品联通海内外#瞬间中国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 新华社消息｜第140届广交会开展 吸引境外采购商约34万名（记者：赵紫羽、黄国保）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【#本届广交会实现多项首次突破 】#第140届广交会今天开展 ，从10月15日至11月4日，分三期举办。 本届广交会实现了多项“首次”突破：首次设立",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 本届广交会的两轮车展区，张雪机车展位持续火爆，每天有数百人来和冠军车型合影，还有海外客商想成为当地代理。（央视频号：总台电视资讯）",
      "likes": 0,
      "hot": 0
     }
@@ -246,6 +199,43 @@
    "authors": [],
    "lexicon": []
   },
+  "用拼豆打开中式美学": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "阿梓Art",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "用拼豆和非遗掐丝制作莲花冠 靠拼豆实现饰品自由～ 造型参考了吴谨言的《凤不栖》，太美惹～❤️ #拼豆 #靠拼豆实现饰品自由 #超会玩人生大派对 #手工 #非遗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第四Vibe观察室",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拼豆已经进化到这种程度了吗 #用拼豆打开中式美学",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "韩逗儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "用拼豆爆改了一顶 九龙九凤冠造型的电动车头盔 #拼豆 #九龙九凤冠 #实用主义拼豆 #亮出你的拼豆神作 #我的拼豆神作",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "利兹联1:1曼联": {
    "stats": {},
    "authors": [
@@ -288,6 +278,16 @@
      "text": "#英超 #利兹联vs曼联 #跑外卖的切尔西球迷 #切尔西云斗罗 今天晚上九点——“玫瑰德比”。让我们看看到底是白玫瑰在黑夜中绽放，还是红玫瑰在淤泥中腐烂？",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "爪尖的小宇宙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "井底三缺一？热刺6轮不胜、曼联6分😂。豪门陨落图鉴：曼联热刺井底刚坐稳，曼城又把利物浦一脚踹下来。 阿森纳在井沿上扒着偷看，2-1利兹联拿到15分排第2，紧张",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -328,43 +328,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "杂技演员来找闫东互动来了互动的太好了 #闫东#大唐高僧#史云鹏#长春动植物公园#上热门",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用拼豆打开中式美学": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "阿梓Art",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用拼豆和非遗掐丝制作莲花冠 靠拼豆实现饰品自由～ 造型参考了吴谨言的《凤不栖》，太美惹～❤️ #拼豆 #靠拼豆实现饰品自由 #超会玩人生大派对 #手工 #非遗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第四Vibe观察室",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拼豆已经进化到这种程度了吗 #用拼豆打开中式美学",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "韩逗儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用拼豆爆改了一顶 九龙九凤冠造型的电动车头盔 #拼豆 #九龙九凤冠 #实用主义拼豆 #亮出你的拼豆神作 #我的拼豆神作",
      "likes": 0,
      "hot": 0
     }
@@ -433,22 +396,79 @@
      "hot": 0
     },
     {
-     "name": "猎户7说球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "辽宁95:84山东，取得赛季开门红 #辽宁男篮#cba#辽宁vs山东#谢里夫库珀 #cba评球大会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "三生飞豹篮球俱乐部官方店",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
      "text": "旗开得胜！新赛季首场比赛，辽篮95:84山东拿下比赛，继续加油！ #辽篮 #辽宁男篮 #CBA #赵继伟 #库珀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "辽望体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "乌戈：团结一心 面对对手#辽宁男篮",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中超山东泰山队5:0大胜浙江队": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "足坛速报",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "徐俊驰 程进染红！山东泰山5:0胜9人浙江绿城！ 克雷桑 谢文能破门！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梅西家的麻袋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好客山东欢迎我👏把我们当国安欢迎😅 #山东泰山vs浙江队 #山东泰山5比0浙江队 #浙江队 #中超",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山东体育休闲频道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雨中谢场！泰山队5-0击败浙江，14226名球迷现场见证",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿里又迷路了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "0:5 0:5，本赛季第二场0:5 我们的底线到底在哪儿？#浙江队 #山东泰山足球俱乐部 #浙江俱乐部 #山东泰山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老六说球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "山东泰山5-0浙江！久违的大胜！ #山东泰山 #中超 #浙江队 #唐田 #山东泰山队",
      "likes": 0,
      "hot": 0
     }
@@ -507,22 +527,22 @@
      "hot": 0
     },
     {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "近期，京能集团所属北京热力将启动大范围灌水打压，为今冬明春安全稳定供热打好基础。一些平台有“内部人员”声称可代缴采暖费有折扣，北京热力提醒北京市民，系典型骗局。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "人民网河南频道",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "采暖费可以“打折代交”？郑州热力：是骗局 #采暖费",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "近期，京能集团所属北京热力将启动大范围灌水打压，为今冬明春安全稳定供热打好基础。一些平台有“内部人员”声称可代缴采暖费有折扣，北京热力提醒北京市民，系典型骗局。",
      "likes": 0,
      "hot": 0
     },
@@ -544,6 +564,16 @@
    "stats": {},
    "authors": [
     {
+     "name": "點新聞",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "梅艷芳骨灰被盜案新進展！盜竊者疑為內部員工，已辭職潛逃東南亞 #梅艳芳 #梅艳芳骨灰 #最新消息 #文隽",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "新京报",
      "verify": "红V",
      "identity": "媒体人",
@@ -560,16 +590,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "梅艳芳骨灰被盗案有新线索？嫌犯疑为寺庙清洁工，曾离开海会塔走进后山树林，事发第二天就辞职飞往东南亚 #梅艳芳骨灰被盗嫌疑人疑曝光",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "點新聞",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "梅艷芳骨灰被盜案新進展！盜竊者疑為內部員工，已辭職潛逃東南亞 #梅艳芳 #梅艳芳骨灰 #最新消息 #文隽",
      "likes": 0,
      "hot": 0
     },
@@ -695,22 +715,22 @@
      "hot": 0
     },
     {
-     "name": "甜橙子🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可以帮我们P个敦煌背景吗 #敦煌舞挑战 #二郎显圣真君 #抖音潮流舞蹈大赛 #敦煌舞 编舞@自由孙",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "CMT是小童",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "我不是他，但是我想跳哈哈哈#二郎显圣真君 #敦煌舞 #舞蹈翻跳 #抖音潮流舞蹈大赛 编舞@自由孙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "甜橙子🍊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "可以帮我们P个敦煌背景吗 #敦煌舞挑战 #二郎显圣真君 #抖音潮流舞蹈大赛 #敦煌舞 编舞@自由孙",
      "likes": 0,
      "hot": 0
     },
@@ -778,6 +798,40 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "肖战离职被前同事背后蛐蛐": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小城良方(1021开播",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我把同事放心上，同事把我……#小城良方 #肖战 #刘铮亮",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "法比奥重伤离场": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "北青体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#法比奥受重伤离场 # #前往积水潭医院做检查 # 国安和西海岸比赛的第15分钟，国安队长法比奥受伤下场，国安不得不做出换人调整，张稀哲顶替了他的位置。随即法比",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "新疆阿达西回应烤馕走红": {
    "stats": {},
    "authors": [
@@ -825,157 +879,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "谁懂共鸣之战朵莉亚开大的救赎感": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "乐评人眼中的在梅边": {
+  "王力宏郑州演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "柯南弟弟~",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "解析小沈阳、颜安、唐九洲《在梅边》 为大家逐位详解披荆斩棘2026截至目前最好的现场#小沈阳 #唐九洲 #颜安 #披荆斩棘2026 #唱功",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凡凡老师教唱歌",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以歌续文脉，雄唱在梅边 #披荆斩棘2026五公舞台 #披荆斩棘2026 #在梅边 #reaction",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老周叭叭叭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "昨天垫底，今天整季最高分，对不起！昨天是我太大声！#披荆斩棘2026 #披荆斩棘2026五公舞台 #在梅边 #小沈阳颜安唐九洲 #抖音音乐客厅",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "辽宁男篮主帅：已重整旗鼓": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "辽宁男篮主帅乌戈：我们已经重整旗鼓，拼尽全力赢下在山东这场比赛 #辽宁男篮vs山东男篮 #辽宁男篮已经重整旗鼓 #CBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辽望体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季 辽宁男篮准备就绪#辽宁男篮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辽宁沈阳三生飞豹篮球俱乐部",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季首战告捷，拿下开门红！开局即燃，继续冲！！！💪#辽宁男篮 #CBA新赛季 #谢里夫库珀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辽沈晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "满队00后 辽篮大换血 全队仅赵继伟一位30+本土 面孔会变，辽篮精神永远不变",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "WNBA总决赛G1女武神险胜梦想队": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "NBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#WNBA2026 【加比-威廉姆斯总决赛G1集锦】全场最佳！WNBA总决赛G1结束，金州女武神68-64险胜亚特兰大梦想队。女武神当家球星加比-威廉姆斯发挥优",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "兰陵守护",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金州女武神在主场大通中心赢下总决赛G1，说实话大通中心的氛围真的太疯狂啦！#金州女武神 #wnba #库里 #田中心 #金州勇士",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你的小库",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "WNBA总决赛G1，勇士全队都去现场看了比赛，最后金州女武神以68-64战胜了亚特兰大梦想，目前大比分是1-0， #金州女武神 #库里 @抖音热点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "金州勇士队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金州女武神总决赛第一场拿下！#金州勇士 #WNBA",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "燕云全新主题区域未央城正式开启": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "王嘉尔世巡再官宣六城": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王嘉尔",
+     "name": "王力宏",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "MAGICMAN 2 WORLD TOUR 2025-2027 · 成都 合肥 广州 苏州 厦门 深圳 · #王嘉尔MAGICMAN2世界巡演 #JACKSON",
+     "text": "合肥站正好遇上国庆假期，很开心和大家一起度过。特别的日子，当然要为大家准备特别的礼物，而这个礼物是由你、音乐和伙伴共同组成的。今晚郑州站就要开始了，我们继续解锁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浅夏live",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王力宏郑州演唱会《你这么美》现场伴舞小姐姐也吃的太好了吧！#王力宏 #美#主力宏郑州演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象文娱",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁的青春DNA又动了！时隔七年，王力宏再度唱响郑州！一首首青春曲目接连开唱，你到现场了吗？#王力宏郑州演唱会 #王力宏 #红色应援 #18岁喜欢38岁到场",
      "likes": 0,
      "hot": 0
     }
@@ -1030,70 +963,83 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "美人余何润东精神控制妻子": {
+  "谁懂共鸣之战朵莉亚开大的救赎感": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "燕云全新主题区域未央城正式开启": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "乐评人眼中的在梅边": {
    "stats": {},
    "authors": [
     {
-     "name": "美人余（战斗版",
+     "name": "柯南弟弟~",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "解析小沈阳、颜安、唐九洲《在梅边》 为大家逐位详解披荆斩棘2026截至目前最好的现场#小沈阳 #唐九洲 #颜安 #披荆斩棘2026 #唱功",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凡凡老师教唱歌",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以歌续文脉，雄唱在梅边 #披荆斩棘2026五公舞台 #披荆斩棘2026 #在梅边 #reaction",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老周叭叭叭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "昨天垫底，今天整季最高分，对不起！昨天是我太大声！#披荆斩棘2026 #披荆斩棘2026五公舞台 #在梅边 #小沈阳颜安唐九洲 #抖音音乐客厅",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "WNBA总决赛G1女武神险胜梦想队": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "NBA",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "温良面具之下，是藏不住的獠牙。 #美人余 #何润东 #韩广",
+     "text": "#WNBA2026 【加比-威廉姆斯总决赛G1集锦】全场最佳！WNBA总决赛G1结束，金州女武神68-64险胜亚特兰大梦想队。女武神当家球星加比-威廉姆斯发挥优",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "巨星火火",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "金州勇士队",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这个《美人余》韩广看的我后背发凉！#美人余 #美人余何润东演渣男把老婆锁衣柜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "嫁金钗君黛智商堪比夏冬春": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咕了个咚",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "君黛...不笨...不笨...#嫁金钗 #田曦薇 #魏娆 #君黛 #恶女",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "32分钟杯总决赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "32分钟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "加油！特种兵！#32分钟#32分钟杯#32分钟杯总决赛",
+     "text": "金州女武神总决赛第一场拿下！#金州勇士 #WNBA",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大力",
+     "name": "你的小库",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "人多力量大！ #32分钟 #32分钟杯 #32分钟杯总决赛",
+     "text": "WNBA总决赛G1，勇士全队都去现场看了比赛，最后金州女武神以68-64战胜了亚特兰大梦想，目前大比分是1-0， #金州女武神 #库里 @抖音热点",
      "likes": 0,
      "hot": 0
     }
@@ -1138,6 +1084,77 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "32分钟杯总决赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "32分钟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "加油！特种兵！#32分钟#32分钟杯#32分钟杯总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大力",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人多力量大！ #32分钟 #32分钟杯 #32分钟杯总决赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美人余何润东精神控制妻子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "美人余（战斗版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "温良面具之下，是藏不住的獠牙。 #美人余 #何润东 #韩广",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "巨星火火",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个《美人余》韩广看的我后背发凉！#美人余 #美人余何润东演渣男把老婆锁衣柜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "嫁金钗君黛智商堪比夏冬春": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咕了个咚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "君黛...不笨...不笨...#嫁金钗 #田曦薇 #魏娆 #君黛 #恶女",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "看玉簟秋无法保持苹果肌扁平": {
    "stats": {},
    "authors": [
@@ -1155,53 +1172,66 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王力宏郑州演唱会": {
+  "我们都被困在这寂寞的夜晚手势舞": {
    "stats": {},
    "authors": [
     {
-     "name": "王力宏",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "合肥站正好遇上国庆假期，很开心和大家一起度过。特别的日子，当然要为大家准备特别的礼物，而这个礼物是由你、音乐和伙伴共同组成的。今晚郑州站就要开始了，我们继续解锁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浅夏live",
+     "name": "玉米玉米狗",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王力宏郑州演唱会《你这么美》现场伴舞小姐姐也吃的太好了吧！#王力宏 #美#主力宏郑州演唱会",
+     "text": "我们都被困在这寂寞的夜晚#原创 #原创手势舞 #浴室 #玉米玉米狗 #冷脸萌",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大象文娱",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "大次一口",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁的青春DNA又动了！时隔七年，王力宏再度唱响郑州！一首首青春曲目接连开唱，你到现场了吗？#王力宏郑州演唱会 #王力宏 #红色应援 #18岁喜欢38岁到场",
+     "text": "我们都被困在这寂寞的夜晚#翻唱 #浴室dj #变装 #手势舞 （yc@玉米玉米狗）",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "宋亚轩大战AI": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "时代少年团-宋亚轩",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "我是大哈",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "SYX大战AI #自制 #非ai生成 #宋式短剧 #不烧心",
+     "text": "放假了没？今天是 文艺复兴～^哈哈😂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "糊咖不糊888",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们都被困在这寂寞的夜晚 yc@玉米玉米狗 #手势舞 #浴室 #tk",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "*傻孩子别关注我",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们都被困在这寂寞的夜晚 yc@玉米玉米狗 #手势舞 #浴室 #变装 #甜甜的手势舞 #一学就会系列",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不吃吃不吃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们都被困在这寂寞的夜晚～",
      "likes": 0,
      "hot": 0
     }
@@ -1256,7 +1286,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "第五人格又有新联动了": {
+  "跑男录制全员大合影名场面": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1338,36 +1368,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "看见贺兰游客还是太全面了": {
+  "宋亚轩大战AI": {
    "stats": {},
    "authors": [
     {
-     "name": "逛贺兰日记",
-     "verify": "",
-     "identity": "",
+     "name": "时代少年团-宋亚轩",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "阿依娜：三年级英语水平都比你们高！@依古比古小可爱（阿依娜） #看见贺兰 #看见贺兰全是活 #看见贺兰阿依娜 #笑不活了 #小学英语",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "草莓是草没味",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "描述你的职业，让它听起来违法！@依古比古小可爱（阿依娜） #看见贺兰 #看见贺兰全是活 #看见贺兰阿依娜 #职务犯罪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小丸纸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家的职业能怎么形容？ @依古比古小可爱（阿依娜）@神奇宁夏（宁夏文旅官方号） #看见贺兰 #看见贺兰全是活 #看见贺兰阿依娜 #我的宁夏追秋之旅#秋游宁夏好拾",
+     "text": "SYX大战AI #自制 #非ai生成 #宋式短剧 #不烧心",
      "likes": 0,
      "hot": 0
     }
@@ -1375,10 +1385,76 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "跑男录制全员大合影名场面": {
+  "蛋烘糕主理人就是如此权威": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "摸娱美少女",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蛋烘糕主理人就是如此权威 #蛋烘糕 #美食 #娱乐评论大赏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "下雨睡觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "实现蛋烘糕自由！！！从上学吃到结婚🥳🥳🥳 #蛋烘糕 #婚礼现场 #彭记蛋烘糕",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王嘉尔世巡再官宣六城": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王嘉尔",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "MAGICMAN 2 WORLD TOUR 2025-2027 · 成都 合肥 广州 苏州 厦门 深圳 · #王嘉尔MAGICMAN2世界巡演 #JACKSON",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这一口香河肉饼地道不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "特别乌啦啦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在香河吃地道「香河肉饼」～肉饼蘸汁子配大葱太香了 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火 #全员记录不烧心烟火好店",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "仔仔日志",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周末从北京骑车去香河吃肉饼 做期大测评！ #香河肉饼 #北京周末去哪儿 #这么近那么美周末到河北 #香河 #北京美食",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "张雪机车年度第三": {
    "stats": {},
@@ -1437,135 +1513,41 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "沧元图妖族七大圣君分别是谁": {
+  "吕树与小鱼共战人贩子": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "薛之谦身着苗族银饰亮相演唱会": {
+  "九月九的酒唱出游子心": {
    "stats": {},
    "authors": [
     {
-     "name": "贵阳奥体中心",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“老薛和洋芋粑们玩嗨了” 贵阳“限定皮肤”，薛之谦“万兽之王”贵阳演唱会，“老薛和洋芋粑们玩嗨了”#薛之谦#洋芋国#限定皮肤 #贵阳体育场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贵阳网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "贵阳限定！薛之谦戴上苗族银饰登场~本土文化融舞台，藏着满满惊喜 #薛之谦贵阳演唱会 #薛之谦 #爽爽贵阳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月18日（发布），“苗族阿哥来了!”薛之谦贵阳演唱会头戴苗族头饰，将本土民族文化融入舞台造型，网友感慨：“是苗族服饰 真的好美”。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我们都被困在这寂寞的夜晚手势舞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "玉米玉米狗",
+     "name": "四十出头",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我们都被困在这寂寞的夜晚#原创 #原创手势舞 #浴室 #玉米玉米狗 #冷脸萌",
+     "text": "以前觉得歌土，现在看来是年纪没到#每逢佳节倍思亲",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大次一口",
+     "name": "blues.lee李正中",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我们都被困在这寂寞的夜晚#翻唱 #浴室dj #变装 #手势舞 （yc@玉米玉米狗）",
+     "text": "《九月九的酒》 又逢重阳，唱起这首《九月九的酒》。岁月匆匆，一曲老酒，敬远方故土，也敬每一份藏在心底的乡愁🍂#九月九的酒 #九九重阳节 #乡愁 #老歌翻唱",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "我是大哈",
+     "name": "🍀小鱼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "放假了没？今天是 文艺复兴～^哈哈😂",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "糊咖不糊888",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都被困在这寂寞的夜晚 yc@玉米玉米狗 #手势舞 #浴室 #tk",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "*傻孩子别关注我",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都被困在这寂寞的夜晚 yc@玉米玉米狗 #手势舞 #浴室 #变装 #甜甜的手势舞 #一学就会系列",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不吃吃不吃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都被困在这寂寞的夜晚～",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "蛋烘糕主理人就是如此权威": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "摸娱美少女",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蛋烘糕主理人就是如此权威 #蛋烘糕 #美食 #娱乐评论大赏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "下雨睡觉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "实现蛋烘糕自由！！！从上学吃到结婚🥳🥳🥳 #蛋烘糕 #婚礼现场 #彭记蛋烘糕",
+     "text": "今天是九九重阳节，每逢佳节倍思亲，重阳节快乐！年年逢重阳，岁岁皆平安，祝长辈福寿安康！#九月九的酒 #年年逢重阳岁岁皆平安 #今日重阳节 #重阳节祝长辈福寿安康",
      "likes": 0,
      "hot": 0
     }
@@ -1610,36 +1592,100 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "加菲菡助攻丞磊徐若晗转角遇到爱": {
+  "第五人格又有新联动了": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "吕树与小鱼共战人贩子": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "这一口香河肉饼地道不烧心": {
+  "看见贺兰游客还是太全面了": {
    "stats": {},
    "authors": [
     {
-     "name": "特别乌啦啦",
+     "name": "逛贺兰日记",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "在香河吃地道「香河肉饼」～肉饼蘸汁子配大葱太香了 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火 #全员记录不烧心烟火好店",
+     "text": "阿依娜：三年级英语水平都比你们高！@依古比古小可爱（阿依娜） #看见贺兰 #看见贺兰全是活 #看见贺兰阿依娜 #笑不活了 #小学英语",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "仔仔日志",
+     "name": "草莓是草没味",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "周末从北京骑车去香河吃肉饼 做期大测评！ #香河肉饼 #北京周末去哪儿 #这么近那么美周末到河北 #香河 #北京美食",
+     "text": "描述你的职业，让它听起来违法！@依古比古小可爱（阿依娜） #看见贺兰 #看见贺兰全是活 #看见贺兰阿依娜 #职务犯罪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小丸纸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家的职业能怎么形容？ @依古比古小可爱（阿依娜）@神奇宁夏（宁夏文旅官方号） #看见贺兰 #看见贺兰全是活 #看见贺兰阿依娜 #我的宁夏追秋之旅#秋游宁夏好拾",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "ILLIT五人版你被逮捕了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ILLIT",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "MOKA #You_re_Under_Arrest #BREAK_EVEN #ILLIT",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "沧元图妖族七大圣君分别是谁": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "井迪天津雨中演出依旧有劲儿": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "大锅饭谁都吃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这段任谁来了都是命苦#井迪 #天津方特 #演出 #演唱会雨中进行 #音乐节大暴雨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "L-SepVir",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "姐妹就是有劲！#音乐节大暴雨 #天津方特欢乐世界 #井迪儿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Cherry酈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "暴雨天依旧有劲儿～～～ #井迪 #天津方特 #live现场的感染力#抖音心动大牌日",
      "likes": 0,
      "hot": 0
     }
@@ -1677,60 +1723,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "上海汉堡节第一天，我先替你们吃了这三家#上海汉堡节#HOCH汉堡节 #汉堡节全国巡游 #上海万象城 #小李有点饿",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "演奏兰香如故BGM宿命感拉满": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Strictlyviolin荀博",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "bgm一响 宿命感拉满",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Noah屿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都要好好活#noah屿 #大梦归 #翻唱 #兰香如故 #周深",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曾敢敢",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有被《兰香如故》的中式美学惊艳到 歌曲太上头直接宿命感拉满#钢琴#兰香如故 #大梦归 #周深 #中式美学",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "ILLIT五人版你被逮捕了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "ILLIT",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "MOKA #You_re_Under_Arrest #BREAK_EVEN #ILLIT",
      "likes": 0,
      "hot": 0
     }
