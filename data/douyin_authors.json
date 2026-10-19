@@ -1,11 +1,28 @@
 {
- "updated_at": "2026-10-19 17:39",
+ "updated_at": "2026-10-19 19:40",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
+ "topic_count": 50,
  "ok_count": 47,
  "lexicon_count": 0,
  "topics": {
+  "中国队夺拜仁青年杯冠军": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "拜仁慕尼黑足球俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国队是冠军！恭喜中国队小将勇夺拜仁青年杯桂冠🏆这一刻世界看见了你们的闪耀🌟#拜仁#足球#青训#拜仁青年杯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "南北吃蟹大不同": {
    "stats": {},
    "authors": [
@@ -36,6 +53,63 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "余雪举办的扎蟹大赛开始啦，一群大姐同台竞赛，工作娱乐两不误，看看大奖最后花落谁家～#大闸蟹",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "何以中国当惊世界殊": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国日报网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#何以中国当惊世界殊 ｜三峡一日，读懂“何以中国”】10月18日，“何以中国·当惊世界殊”网络主题宣传活动在湖北宜昌开启。记者团实地探访、深度访谈，聚焦三峡工",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #储能企业谈为何重仓宜昌：矿藏丰富、交通便利、工业基础好 #开局之年看中国·潮涌荆楚 #何以中国当惊世界殊 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#何以中国当惊世界殊 #潮涌荆楚 87岁陈铎、48岁宝晓峰，两代央视主持人同台亮相，陈铎一开口，现场响起热烈掌声",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国网信杂志",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "踏峡江热土，寻千年文脉。倒计时1天！“何以中国·当惊世界殊”网络主题宣传活动将在湖北宜昌举行，敬请期待！#何以中国当惊世界殊 #何以中国看见我的家乡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全球每10罐鱼子酱就有3罐来自湖北宜都，建有全球最大的鱼子酱加工中心，年产量超100吨#开局之年看中国潮涌荆楚 #何以中国当惊世界殊 #媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -80,53 +154,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "何以中国当惊世界殊": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#何以中国当惊世界殊 ｜三峡一日，读懂“何以中国”】10月18日，“何以中国·当惊世界殊”网络主题宣传活动在湖北宜昌开启。记者团实地探访、深度访谈，聚焦三峡工",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #储能企业谈为何重仓宜昌：矿藏丰富、交通便利、工业基础好 #开局之年看中国·潮涌荆楚 #何以中国当惊世界殊 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#何以中国当惊世界殊 #潮涌荆楚 87岁陈铎、48岁宝晓峰，两代央视主持人同台亮相，陈铎一开口，现场响起热烈掌声",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全球每10罐鱼子酱就有3罐来自湖北宜都，建有全球最大的鱼子酱加工中心，年产量超100吨#开局之年看中国潮涌荆楚 #何以中国当惊世界殊 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "我关注的中国设计师都在抖音大秀": {
    "stats": {},
    "authors": [
@@ -164,43 +191,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "天黑了该我在乐园上场了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "张雅倩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我只是个可爱的小恶魔呀 抱歉！(´-ω-`) #天黑了该我在乐园上场了#还是低估了青岛精怪夜的权威 #方特精怪派对#方特惊喜派对",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "原天夕子_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妲己果然是个夹子 #天黑了该我在乐园上场了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陳雨舟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "就你和我了#还是低估了青岛精怪夜的权威 #方特精怪派对 #天黑了该我在乐园上场了 #方特惊喜派对",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "张雪机车冲击水上漂吉尼斯纪录": {
    "stats": {},
    "authors": [
@@ -220,17 +210,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 定了！10月25日，张雪将在家乡麻阳挑战机车水上漂吉尼斯世界纪录。曾在17年前挑战“水上漂”四次落水，当时22岁的张雪放话：总有一次，我一定会成功！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湖南经视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张雪将回家乡麻阳 冲击摩托车冲浪吉尼斯世界纪录 想完成17年前的未竟挑战#张雪机车 #张雪",
+     "text": "#媒体原创 10月16日，重庆，张雪表示即将回到家乡湖南麻阳，再次挑战摩托冲浪项目的吉尼斯世界纪录！坦言“So easy！很有信心，我们都测试过了”#直击第一线",
      "likes": 0,
      "hot": 0
     },
@@ -245,12 +225,49 @@
      "hot": 0
     },
     {
-     "name": "九派新闻",
+     "name": "小央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月17日报道，#张雪冲击摩托车冲浪吉尼斯纪录 ，网友拍到实测画面：张雪机车在水面上“一骑绝尘”。",
+     "text": "10月25日，张雪将在麻阳挑战机车水上漂吉尼斯世界纪录。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "非遗陶瓷有点东西": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "国翠儿",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "玲珑瓷浑身孔洞，居然滴水不漏！ 谁能想到，一件瓷器里，还藏了一整片星光！ 景德镇四大名瓷——玲珑瓷，真正的东方国粹。 #非遗陶瓷有点东西 #非遗有好物 #抖音非",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秦观南",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天青色等烟雨 #非遗陶瓷有点东西 #非遗有好物 #抖音非遗计划#老辈子非遗审美夯爆了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "序言",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "瓷色清浅，眉眼温柔🍶#非遗陶瓷有点东西 #非遗有好物 #抖音非遗计划#老辈子非遗审美夯爆了",
      "likes": 0,
      "hot": 0
     }
@@ -292,59 +309,22 @@
      "hot": 0
     },
     {
-     "name": "小仕同学【联盟】",
+     "name": "滕尊",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“IG直面GEN，TES直面HLE” 瑞士轮抽签看傻眼，369刚召回就要打宙斯了！#theshy #ig #瑞士轮抽签 #blg #jackeylove",
+     "text": "简评瑞士轮首轮抽签结果：IG TES上演中韩大战，压力山大！ #S16瑞士轮首轮抽签结果 #英雄联盟S16 #S16瑞士轮抽签仪式 #抖音精选APP #IG对战",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "联盟阿洪",
+     "name": "鲨鱼王电竞",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "S16首轮最恐怖也是最好看的两集，凌晨也得看了！ #IG对战GEN #TES对战HLE #英雄联盟S16",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "非遗陶瓷有点东西": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "国翠儿",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "玲珑瓷浑身孔洞，居然滴水不漏！ 谁能想到，一件瓷器里，还藏了一整片星光！ 景德镇四大名瓷——玲珑瓷，真正的东方国粹。 #非遗陶瓷有点东西 #非遗有好物 #抖音非",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秦观南",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天青色等烟雨 #非遗陶瓷有点东西 #非遗有好物 #抖音非遗计划#老辈子非遗审美夯爆了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "序言",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "瓷色清浅，眉眼温柔🍶#非遗陶瓷有点东西 #非遗有好物 #抖音非遗计划#老辈子非遗审美夯爆了",
+     "text": "觉得压力大的可以去看看九哥了！369vs宙斯你们知道吗？ #S16瑞士轮首轮抽签结果 #英雄联盟S16 #TES对战HLE #IG对战GEN #抖音精选App话",
      "likes": 0,
      "hot": 0
     }
@@ -476,56 +456,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "马斯克将送美国儿童SpaceX股票": {
+  "一口气梳理维秘大秀造型看点": {
    "stats": {},
    "authors": [
     {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "费斯FACE",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月19日，马斯克表示，明年将向美国每一名儿童赠送一股SpaceX股票。 6月12日，SpaceX在纳斯达克交易所举行上市仪式，股票代码SPCX，其最新股价报",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#马斯克要给全美儿童送股票 #马斯克宣布给每个美国孩子发股票",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马斯克：明年向全美儿童赠送SpaceX股票",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马斯克10月19日在社媒平台X发文称，明年将向美国每名儿童赠送一股其持有的SpaceX股票。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马斯克：明年将向美国每一名儿童赠送一股SpaceX股票（编辑：李李）",
+     "text": "👙这届维密的性感美学你们买账吗？！！ 2026Victoria's Secret秀场直击！ 2026维密大秀盘点！： 视频顺序：Bella Hadid开场，a",
      "likes": 0,
      "hot": 0
     }
@@ -533,16 +473,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "嫁金钗热度破万": {
+  "天黑了该我在乐园上场了": {
    "stats": {},
    "authors": [
     {
-     "name": "嫁金钗（酷爽热播ing",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "张雅倩",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#嫁金钗热度破万 2026年👖最快破万剧集！赶忙携细君和郎君一起，感谢金主大人们的支持和喜爱呀！#嫁金钗 #田曦薇 #闫桉",
+     "text": "我只是个可爱的小恶魔呀 抱歉！(´-ω-`) #天黑了该我在乐园上场了#还是低估了青岛精怪夜的权威 #方特精怪派对#方特惊喜派对",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "原天夕子_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "妲己果然是个夹子 #天黑了该我在乐园上场了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陳雨舟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就你和我了#还是低估了青岛精怪夜的权威 #方特精怪派对 #天黑了该我在乐园上场了 #方特惊喜派对",
      "likes": 0,
      "hot": 0
     }
@@ -684,93 +644,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "社保基金会原副理事长王文灵被双开": {
+  "嫁金钗热度破万": {
    "stats": {},
    "authors": [
     {
-     "name": "央视法治在线",
+     "name": "嫁金钗（酷爽热播ing",
      "verify": "蓝V",
-     "identity": "媒体人",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【#社保基金会原副理事长王文灵被双开 】#中纪委周一连打三虎 社保基金会原党组成员、副理事长王文灵严重违纪违法被开除党籍和公职。（总台央视记者 宋琎）#反腐实录",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中纪委连打三“虎”！张建龙被开除党籍，王文灵被“双开”，俞小平被开除党籍。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中纪委连打三“虎”：张建龙、俞小平被开除党籍，王文灵被“双开”",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "非法收受巨额财物，社保基金会原副理事长王文灵被“双开”",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "社保基金会原党组成员、副理事长王文灵被“双开”（编辑：小易）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "社保基金会原党组成员、副理事长王文灵被“双开”",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曼城或被巨额扣分确保降级": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "直播吧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邮报独家：曼城很可能被巨额扣分，确保本赛季降级 据英国《每日邮报》记者奥利弗·霍尔特独家消息，内部人士透露，曼城很有可能受到巨额扣分处罚，确保曼城本赛季降级，同",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第九十分钟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“最贵律师天团”和“烧钱大战”。#曼城#英超#曼城115条违例 #曼城115 #顶级律师",
+     "text": "#嫁金钗热度破万 2026年👖最快破万剧集！赶忙携细君和郎君一起，感谢金主大人们的支持和喜爱呀！#嫁金钗 #田曦薇 #闫桉",
      "likes": 0,
      "hot": 0
     }
@@ -852,84 +735,124 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "社保基金会原副理事长王文灵被双开": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视法治在线",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#社保基金会原副理事长王文灵被双开 】#中纪委周一连打三虎 社保基金会原党组成员、副理事长王文灵严重违纪违法被开除党籍和公职。（总台央视记者 宋琎）#反腐实录",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中纪委连打三“虎”！张建龙被开除党籍，王文灵被“双开”，俞小平被开除党籍。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中纪委连打三“虎”：张建龙、俞小平被开除党籍，王文灵被“双开”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "社保基金会原党组成员、副理事长王文灵被“双开”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "非法收受巨额财物，社保基金会原副理事长王文灵被“双开”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "经中共中央批准，中央纪委国家监委对全国社会保障基金理事会原党组成员、副理事长王文灵严重违纪违法问题进行了立案审查调查。 经查，王文灵丧失理想信念，背弃初心使命，",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "曼城或被巨额扣分确保降级": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "直播吧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "邮报独家：曼城很可能被巨额扣分，确保本赛季降级 据英国《每日邮报》记者奥利弗·霍尔特独家消息，内部人士透露，曼城很有可能受到巨额扣分处罚，确保曼城本赛季降级，同",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第九十分钟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“最贵律师天团”和“烧钱大战”。#曼城#英超#曼城115条违例 #曼城115 #顶级律师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雨燕直播",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "英超大结局？！马嗨变马圣！曼城成为英超历史第3支7连胜开局的球队！前2支全夺冠！ #英超 #曼城 #曼城3比2伊普斯维奇 #曼城英超7连胜 #dou来足球季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "q歪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网无一人看懂为何长达12分钟伤停补时??#曼城 #曼城3比2伊普斯维奇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "就像第一次问你爱不爱": {
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "远处传来多么熟悉的声音": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "是个蛋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "远处传来多么熟悉的声音#高中 #下晚自习 #回忆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "随春归",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "远处传来你多么熟悉的声音#高中晚自习 #最后一个晚自习",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝙎𝙚𝙫/.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "远处传来你多么熟悉的声音#高中回忆 #高中晚自习 #青春泰山",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐刘海不齐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "远处传来了多么熟悉的声音#记录校园青春活力",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "别总噜噜脸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "远处传来了你多么熟悉的声音#高中晚自习#宿舍熄灯篇",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一口气梳理维秘大秀造型看点": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "费斯FACE",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "👙这届维密的性感美学你们买账吗？！！ 2026Victoria's Secret秀场直击！ 2026维密大秀盘点！： 视频顺序：Bella Hadid开场，a",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   },
   "iPhone Duo成电子茅台": {
    "stats": {},
@@ -988,6 +911,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "杨颖也来跳喵阿里嘎多": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杨颖angelababy",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "喵喵爱心🫶🏼",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "奚梦瑶维密鎏金翅膀惊艳全场": {
    "stats": {},
    "authors": [
@@ -1025,32 +965,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "嫁金钗韩辽是气疯了还是心动了": {
+  "虞昶轩叶平君爱到癫疯": {
    "stats": {},
-   "authors": [
-    {
-     "name": "小样玛丽苏。",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "笑死我了！魏娆一句看上他好兄弟了，给陆濯炸裂得原地起飞，快给他醋疯了哈哈哈，这局魏娆狠狠拿捏～ @嫁金钗（酷爽热播ing #嫁金钗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "巨星火火",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "韩辽你看她的眼神根本就不清白！#代高政其实是气疯了还以为是心动了 #代高政 #嫁金钗",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "三角洲S12新赛季超前爆料": {
    "stats": {},
@@ -1089,60 +1007,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "魏娆城楼撒地契名场面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "嫁金钗（酷爽热播ing",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没有谁可以不为魏娆狠狠心动！#嫁金钗 #田曦薇 #代高政 #刘小北 #魏娆",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "轻亚穿搭审美展示": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "BIE",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "展示审美 #轻亚穿搭 #ootd帅气穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DT",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "annyeonghaseyo～#这个秋冬我要当最忧郁之人 #忧郁 #轻亚穿搭 #穿搭分享 #ootd",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叫我181",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "进入舒适区💙 #轻亚穿搭 #白又瘦不是唯一的标准 #181 #love #fyp",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "单依纯一跤摔到维密秀": {
    "stats": {},
    "authors": [
@@ -1170,6 +1034,127 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "远处传来多么熟悉的声音": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "是个蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "远处传来多么熟悉的声音#高中 #下晚自习 #回忆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "随春归",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "远处传来你多么熟悉的声音#高中晚自习 #最后一个晚自习",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝙎𝙚𝙫/.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "远处传来你多么熟悉的声音#高中回忆 #高中晚自习 #青春泰山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐刘海不齐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "远处传来了多么熟悉的声音#记录校园青春活力",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "别总噜噜脸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "远处传来了你多么熟悉的声音#高中晚自习#宿舍熄灯篇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "在秋天给自己画一幅肖像": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "佰灵1，",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#古墙画画自己绘影 #让画活起来 #银杏叶壁画",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌸劉姐🌸《无忧》",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#墙绘自画像 #画里遇见另一个自己",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雨梦特效师 🌸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#画里遇另一个自已 #手绘",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "嫁金钗韩辽是气疯了还是心动了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小样玛丽苏。",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑死我了！魏娆一句看上他好兄弟了，给陆濯炸裂得原地起飞，快给他醋疯了哈哈哈，这局魏娆狠狠拿捏～ @嫁金钗（酷爽热播ing #嫁金钗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "巨星火火",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "韩辽你看她的眼神根本就不清白！#代高政其实是气疯了还以为是心动了 #代高政 #嫁金钗",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "第39届金鸡奖提名名单公布": {
    "stats": {},
    "authors": [
@@ -1190,6 +1175,124 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月19日，第39届中国电影金鸡奖最佳女主角提名公布： 李思潼 （《给阿嬷的情书》饰谢南枝） 宋佳 （《志愿军：浴血和平》饰林月明） 张子枫 （《捕风追影》饰",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "张百乔张智超小奥奥谁赢了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张百乔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《好好好你这么整是吧》第一集 超市生存战 下",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张智超子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈哈#好好好你这么整是吧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "严敏",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今日开整 #好好好综艺人脉这一块拼了 #好好好你这么整是吧#抖音未来导演扶持计划#抖音作品激励计划 #抖音二创激励计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "被维密大秀上的设计美到失语": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "雯疯而动",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "「小疯子实况转播」表姐 #刘雯 #2026维密大秀 ✨两套look精彩片段✨ #VSFashionShow",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "贺聪和葱花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国超模#贺聪 为2026@维多利亚的秘密 第二个环节开场！这也是亚洲模特首次拿下“小开”，恭喜聪聪！#秀场 #超模 #维密",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "看但丁爷爷抱玩偶心都化了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "卡哇吉伊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "但丁爷爷上班啦！ #快来十里洋场偶遇但丁爷爷 #万岁山武侠城 #万岁山让我感到陌生#橹穆#看但丁爷爷抱玩偶心都化了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 10月18日，河南开封，#意大利但丁爷爷现身万岁山 ，大姨：以为是个假人，谁知道是真的，太搞笑了，哈哈哈。#河南大姨见到但丁爷爷以为是假人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金猪猪💰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "但丁爷爷真的很喜欢中国文化～ #快来十里洋场偶遇但丁爷爷 #万岁山武侠城 #万岁山让我感到陌生 #但丁爷爷#看但丁爷爷抱玩偶心都化了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "魏娆城楼撒地契名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "嫁金钗（酷爽热播ing",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没有谁可以不为魏娆狠狠心动！#嫁金钗 #田曦薇 #代高政 #刘小北 #魏娆",
      "likes": 0,
      "hot": 0
     }
@@ -1304,77 +1407,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "杨颖也来跳喵阿里嘎多": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "杨颖angelababy",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "喵喵爱心🫶🏼",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张百乔张智超小奥奥谁赢了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "张百乔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《好好好你这么整是吧》第一集 超市生存战 下",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张智超子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈哈哈哈#好好好你这么整是吧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "严敏",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日开整 #好好好综艺人脉这一块拼了 #好好好你这么整是吧#抖音未来导演扶持计划#抖音作品激励计划 #抖音二创激励计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "虞昶轩叶平君爱到癫疯": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧玉簟秋（进簟容易出簟难",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "短暂的绚烂都是幻象，他差一点，就握住了幸福。#玉簟秋 杨辉翔（#丞磊）#徐若晗 （按姓氏笔画排序）#虞昶轩 #叶平君",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "挑战百分百回头率看秀穿搭": {
    "stats": {},
    "authors": [
@@ -1405,114 +1437,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "不一样的fitting方式准备看秀穿搭 也是赶上个风扇转场末班车 #hello时尚季 #挑战百分百回头率看秀穿搭 #可可系 #很新的转场 #抖音时尚碎碎念",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "看但丁爷爷抱玩偶心都化了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "卡哇吉伊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "但丁爷爷上班啦！ #快来十里洋场偶遇但丁爷爷 #万岁山武侠城 #万岁山让我感到陌生#橹穆#看但丁爷爷抱玩偶心都化了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 10月18日，河南开封，#意大利但丁爷爷现身万岁山 ，大姨：以为是个假人，谁知道是真的，太搞笑了，哈哈哈。#河南大姨见到但丁爷爷以为是假人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "金猪猪💰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "但丁爷爷真的很喜欢中国文化～ #快来十里洋场偶遇但丁爷爷 #万岁山武侠城 #万岁山让我感到陌生 #但丁爷爷#看但丁爷爷抱玩偶心都化了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "TXT新专概念预告": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "TOMORROW X TOGETHER",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "STORM IS COMING - #崔秀彬 💿 Pre-save 'PERFECT STORM' NOW https://tomorrowxtogether",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "嫁金钗韩辽同时得罪魏娆君黛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "C位小师妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "韩辽：唯一一个魏娆君黛都得罪之人 #嫁金钗 #魏娆 #君黛 #韩辽",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "繁荣主义穿搭回归": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Frida",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我爱上繁荣主义穿搭。穿搭越繁荣越迷人！Less is safe，more is alive #当我爱上繁荣主义穿搭 #ootd穿搭 #度假穿搭 #繁荣主义穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李平川",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "千禧极繁的新衣试穿*7️⃣这位小姐就这么爱花衣服 #复古穿搭 #今日份穿搭公式 #新衣试穿#付智恩皮草",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "迪娜dina_阿迪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "问我了吗 就把我改成繁荣主义大美女。韩老师@韩好甜 的权威穿搭再次出现! 还有一些美美拍照技巧😁💕 #美的很权威 #绝不浪费一秒出片时间 #穿搭技巧 #拍照",
      "likes": 0,
      "hot": 0
     }
@@ -1617,73 +1541,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "在秋天给自己画一幅肖像": {
+  "曾辉发文告别披荆斩棘": {
    "stats": {},
    "authors": [
     {
-     "name": "佰灵1，",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#古墙画画自己绘影 #让画活起来 #银杏叶壁画",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🌸劉姐🌸《无忧》",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#墙绘自画像 #画里遇见另一个自己",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雨梦特效师 🌸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#画里遇另一个自已 #手绘",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "沈腾的腾味音乐又增加了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吕碧琪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一旦代入就再也回不去了 #白敬亭 #沈腾 #现在就出发#沈腾唱歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "腾讯视频现在就出发",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#范丞丞给沈腾放我的前半生bgm这首bgm原唱真的不是腾哥吗？#沈腾#范丞丞#现在就出发#现在就出发4",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "巨星火火",
+     "name": "曾辉啊～～",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沈腾宇宙不断壮大中...#沈腾 #唱歌#现在就出发 #抽象 #搞笑",
+     "text": "我的披荆斩棘之旅在此就告一段落啦 谢谢大家的支持与喜爱～未来我们继续一起加油💪#曾辉荆棘日记#披荆斩棘 #曾辉",
      "likes": 0,
      "hot": 0
     }
@@ -1691,26 +1558,63 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "被维密大秀上的设计美到失语": {
+  "繁荣主义穿搭回归": {
    "stats": {},
    "authors": [
     {
-     "name": "雯疯而动",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "「小疯子实况转播」表姐 #刘雯 #2026维密大秀 ✨两套look精彩片段✨ #VSFashionShow",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贺聪和葱花",
+     "name": "Frida",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国超模#贺聪 为2026@维多利亚的秘密 第二个环节开场！这也是亚洲模特首次拿下“小开”，恭喜聪聪！#秀场 #超模 #维密",
+     "text": "当我爱上繁荣主义穿搭。穿搭越繁荣越迷人！Less is safe，more is alive #当我爱上繁荣主义穿搭 #ootd穿搭 #度假穿搭 #繁荣主义穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李平川",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "千禧极繁的新衣试穿*7️⃣这位小姐就这么爱花衣服 #复古穿搭 #今日份穿搭公式 #新衣试穿#付智恩皮草",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "迪娜dina_阿迪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "问我了吗 就把我改成繁荣主义大美女。韩老师@韩好甜 的权威穿搭再次出现! 还有一些美美拍照技巧😁💕 #美的很权威 #绝不浪费一秒出片时间 #穿搭技巧 #拍照",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "刘雯金色翅膀亮相维密大秀": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "长城新媒体",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#刘雯第10次登维密 ，亚洲纪录再刷新！两套造型亮相洛杉矶，奚梦瑶时隔8年回归。17年，从“首位”走到“第十次”。#媒体原创 #精选主播说 #媒体精选计划 （原",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "湖南永州妹子刘雯金色翅膀惊艳亮相，回应第十次上维密：每次都像第一次，后台坦言年龄增长 自己更加自如，平常心对待 每时每刻都是高光时刻#媒体精选计划 #刘雯 #永",
      "likes": 0,
      "hot": 0
     }
@@ -1755,21 +1659,80 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "今年双11买啥不烧心": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "四川绵阳市北川县发生4.1级地震": {
+  "嫁金钗韩辽同时得罪魏娆君黛": {
    "stats": {},
    "authors": [
     {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "C位小师妹",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "四川绵阳市北川县发生4.1级地震，多地有震感",
+     "text": "韩辽：唯一一个魏娆君黛都得罪之人 #嫁金钗 #魏娆 #君黛 #韩辽",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的秋冬穿搭不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "萝卜缨子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋冬穿搭合集第二弹。#秋冬穿搭合集 #姐感 #秋天这样穿不烧心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "未未子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋季不烧心穿搭来啦 🍑👖#TGXQ #秋季万能搭配 #日常穿搭分享 #ootd穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "可可可可可",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "5️⃣套不烧心的秋冬穿搭合集第二弹。#ootd穿搭 #秋季穿搭交作业了 #日常穿搭分享 #秋冬穿搭 #inmyfeeling",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "坐红飘带游遍贵州美景": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "叶玄语",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第一视角感受我大贵州的权威#贵州#贵阳红飘带",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一码游贵州",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在百里杜鹃闻花香！在黄果树迎水雾！来红飘带，带你第一视角游遍贵州美景~ #贵阳周边游 #红飘带 #贵阳亲子游攻略 #贵阳旅游 #坐红飘带游遍贵州美景",
      "likes": 0,
      "hot": 0
     }
@@ -1814,6 +1777,102 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "恋与深空银翼杀手联动": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "偏爱之恋2嘉宾阵容官宣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "萤火虫娱乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#偏爱之恋2嘉宾阵容官宣 帅哥美女都来找对象，所有人进入大嗑糖时代！ #偏爱之恋2 #偏爱之恋",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "TXT新专概念预告": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "TOMORROW X TOGETHER",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "STORM IS COMING - #崔秀彬 💿 Pre-save 'PERFECT STORM' NOW https://tomorrowxtogether",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "马克龙称骚乱根源是波斯湾冲突": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马克龙痛批骚乱 直指美伊战争：法国并未参战 却承受了油价暴涨的苦果 #法国 #马克龙 #美伊战争 #油价",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 18日深夜，爱丽舍宫的电视镜头对准马克龙，这场时长10分钟的全国讲话，是法国骚乱升级后他首次直面全国民众 | 一财主播说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球人物",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "法国严重骚乱，马克龙：根源是波斯湾冲突 #法国 #马克龙 #新闻连连看 #人物故事",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "湖北日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马克龙：法国的骚乱源于特朗普对伊朗发动的战争，将访问多个海湾国家谈能源供应。（剪辑：萌萌）#湖报主播说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙视新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月19日（发布），马克龙：法国骚乱源于特朗普对伊朗发动的战争，法国没有参与战争，但是我们正在承受它的后果，意大利也出现抗议活动，意总理梅洛尼连续发帖谴责（来",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "KDA女团新歌MV首发": {
    "stats": {},
    "authors": [
@@ -1828,116 +1887,42 @@
      "hot": 0
     },
     {
-     "name": "英雄联盟手游",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "英雄联盟手游首发皮肤系列K/DA HEATBRINGER即将上线！ 随着人气女团的节拍，动起来吧！K/DA最新单曲《FIRESTARTER（燃）》完整音乐视频现",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电子竞技杂志编辑部",
+     "name": "某奇橙",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "白月光女团的回归曲听着就是不烧心 #KDA女团新歌MV首发#KDA女团入驻抖音",
+     "text": "Ahri横扫一切。你狸首次穿上裤子！10.20回归大爆横扫格莱美！！！#kda #阿狸 #卡莎 #阿卡丽 #伊芙琳",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "张小张YiFan",
+     "name": "联盟埃里克",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "阿卡丽好酷！【KDA2026卡片造型】曝光！#lol手游聚光时刻#lol手游峡谷竞技月#上lol手游助威s赛#游戏花样乱斗#游戏玩家有自己的综艺",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿张RayZhang（发新专辑版）",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "音乐制作人乐评解析K/DA《FIRESTARTER》： 这才叫顶级女团，第二段vogue beat直接爽翻了，视觉体验也燃爆了！#KDA女团新歌MV首发 #英雄",
+     "text": "英雄联盟近年最好的音乐和视觉！夯爆了！KDA新歌 #KPOP #reaction #KDA #LOL #抖音音乐客厅",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "憨子哥解说电竞",
+     "name": "河马烂人ᵎᵎᵎᵎ🦀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "KDA最新MV每一帧都在烧钱？ 这细品下来真要封神！#英雄联盟KDA女团30 #KDA女团新歌首发 #英雄联盟音乐赛季 #KDA时隔六年回归 #田小娟",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曾辉发文告别披荆斩棘": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "曾辉啊～～",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的披荆斩棘之旅在此就告一段落啦 谢谢大家的支持与喜爱～未来我们继续一起加油💪#曾辉荆棘日记#披荆斩棘 #曾辉",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "和平精英32分钟杯9986总冠军": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "理想1v4（9986）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们是冠军！#32分钟杯总决赛 #32分钟杯 #32分钟杯9986总冠军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "32分钟小尾巴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜9986战队拿下32分钟杯冠军！ @32分钟 @31分钟 #32分钟杯 #32分钟 #32分钟杯总决赛 #和平主播切片创作季 #32分钟杯9986总冠军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "32分钟切片・恋上火星人³²",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜9986获得《32分钟杯》总冠军 @32分钟 #32分钟杯 #32分钟杯总决赛 #32分钟杯9986总冠军 #32分钟 #和平主播切片创作季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "32分钟日记📔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜9986战队拿下32分钟杯的总冠军！32分钟杯也圆满结束啦～@32分钟 #32分钟 #32分钟杯 #32分钟杯9986总冠军 #和平主播切片创作季 #32分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🔥32秒剪辑³²",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "32分钟杯冠军揭晓 @32分钟 #32分钟 #32分钟的圈子 #32分钟杯总决赛 #和你打和平不烧心 #32分钟杯9986总冠军",
+     "text": "KDA 终于回归了！ 卡莎这段真的爱了！！好听！#KDA #英雄联盟",
      "likes": 0,
      "hot": 0
     }
