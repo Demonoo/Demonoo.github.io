@@ -1,11 +1,68 @@
 {
- "updated_at": "2026-10-20 16:40",
+ "updated_at": "2026-10-20 17:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
  "ok_count": 49,
  "lexicon_count": 0,
  "topics": {
+  "南部战区回应美舰冲闯中国海域": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "国防部发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "南部战区海军新闻发言人尹刚海军大校发表谈话",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美舰冲闯中国南沙群岛仙宾礁附近海域，我军兵力依法依规跟踪监视！#权威发布",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美舰首次在仙宾礁挑衅，专家解读美军背后算计：基于该区域的地缘战略价值，为菲律宾撑腰，以此牵制中国（编辑：豆啵）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "美舰冲闯南沙群岛仙宾礁附近海域": {
    "stats": {},
    "authors": [
@@ -50,12 +107,49 @@
      "hot": 0
     },
     {
-     "name": "小央视频",
+     "name": "央视军事",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美军战斗舰冲闯中国南沙群岛仙宾礁附近海域，南部战区组织兵力跟踪监视",
+     "text": "美舰冲闯中国南沙群岛仙宾礁附近海域，我军兵力依法依规跟踪监视！#权威发布",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "同心同行长征路": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国军号",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一代人有一代人的长征，他们将青春和汗水融入强军征程。 #同心同行长征路",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 走好新时代长征路，一个新兵的答卷#同心同行长征路#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "铁翼飞旋",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "走进长征路上沿线部队，在火箭军某部认识一位在大山里驻扎30年的班长。他说“传承红土地的精神，把每一项工作干到极致！这就是我们的战斗力”#同心同行长征路 #大有学",
      "likes": 0,
      "hot": 0
     }
@@ -130,43 +224,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "同心同行长征路": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国军号",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一代人有一代人的长征，他们将青春和汗水融入强军征程。 #同心同行长征路",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 走好新时代长征路，一个新兵的答卷#同心同行长征路#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "铁翼飞旋",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "走进长征路上沿线部队，在火箭军某部认识一位在大山里驻扎30年的班长。他说“传承红土地的精神，把每一项工作干到极致！这就是我们的战斗力”#同心同行长征路 #大有学",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "王者根本没有这样的共鸣之战": {
    "stats": {},
    "authors": [
@@ -204,170 +261,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "南部战区回应美舰冲闯中国海域": {
+  "babybay空降hanghang直播间": {
    "stats": {},
    "authors": [
     {
-     "name": "人民日报",
+     "name": "HangHang",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哪里来的小猫#HangHang #无畏契约",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "日美大规模军演引发多地抗议": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "湖北日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。",
+     "text": "参考消息援引日本《赤旗报》报道，19日启动的日美大规模联合综合演习“利剑27”，日本各地纷纷出现要求停止演习的抗议行动。参加此次抗议的日共冲绳县委员长赤岭政贤严",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "央广网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。#媒体原创",
+     "text": "日美将举行大规模联合军演 投入兵力总计接近6万人 #24时区",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "国防部发布",
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美日所谓“利剑”联合演习今日开始，双方投入兵力近6万人，演习规模为历届最大。日本3月底部署的“25式地对舰导弹”，首次在部署地点以外区域展开，射程约1000公里",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "温州瓯海发布",
      "verify": "蓝V",
      "identity": "官方机构",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "南部战区海军新闻发言人尹刚海军大校发表谈话",
+     "text": "日美大规模军演引发日本多地抗议",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视军事",
+     "name": "三沙卫视",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美舰冲闯中国南沙群岛仙宾礁附近海域，我军兵力依法依规跟踪监视！#权威发布",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美舰首次在仙宾礁挑衅，专家解读美军背后算计：基于该区域的地缘战略价值，为菲律宾撑腰，以此牵制中国（编辑：豆啵）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当初雪落在大同古城": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小赵同学📸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年10月20日大同迎来了第一场大雪！真的太美了！#山西大同 #下雪了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "BEST大同",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大同下雪了，雪落平城，梦回北魏，真的太美了！#山西古建筑 #下雪与古建 #飞雪中的古城",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "硕硕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没想到今年的第一场雪是在大同看到的 #第一场雪 #城市下雪了吗 #今年的第一场雪 #初雪大赏 #山西下雪了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "吴艳妮说只要跑得动就不会退役": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音小助手",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第十期【吴艳妮 一个栏一个栏拼到最后】 2023年亚运会抢跑后，吴艳妮的比赛表现和个性表达引发了不少讨论。三年后，她在身体和心理状态不佳的情况下，拼下一枚亚运会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "主持人阿喆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体人精选计划 跨过争议与心魔，吴艳妮跑出属于自己的人生奖牌 #吴艳妮 #感人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月20日报道，四川富顺。#吴艳妮回应高调说话满 ：20多次破13秒，我就是厉害，我就是要认可自己，给自己一股劲儿，我在场上为什么要谦逊低调。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杭州亚运抢跑，争议缠身。名古屋亚运会，身体状态欠佳的吴艳妮奋力拼出铜牌。 她不再纠结辩解过往，坦言曾经的 “不在乎”，是保护自己的铠甲。不完美的表达，让我们看见",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "评论员刘雪松",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "吴艳妮，跨过时间那道栏 #吴艳妮亚运铜牌 #时间的答案 #媒体人精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小记杨威",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体人精选计划 #吴艳妮说只要跑得动就不会退役 时间，给了吴艳妮完美的答案 #威观点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "国+社区",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 你快退役！她这么回：我嘴里说才算数 计划跑到下届奥运后#精选主播说 #吴艳妮 （编辑：小鱼）",
+     "text": "日本共产党称“利剑”军演像“战争前夜”，可能导致冲绳沦为战争导火索（参考消息）",
      "likes": 0,
      "hot": 0
     }
@@ -499,16 +459,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "babybay空降hanghang直播间": {
+  "海事局发布多海域航行警告": {
    "stats": {},
    "authors": [
     {
-     "name": "HangHang",
-     "verify": "",
-     "identity": "",
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国服支配者",
+     "text": "海事局发布航行警告：禁止驶入！南海进行军事训练、黄海进行军事活动、黄海南部进行实弹射击。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【航行警告！#黄海南部实弹射击 】据中国海事局网站消息，盐城海事局发布航行警告，10月21日至30日每日6时至22时，黄海南部部分海域进行实弹射击，禁止驶入。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看台海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "航行警告！今日起连续三天禁止驶入，南海部分海域进行军事训练#看台海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 航行警告！禁止驶入！黄海南部部分海域进行实弹射击",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今吴江",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "海事局发布航行警告，南海、黄海海域进行实弹射击，禁止驶入！",
      "likes": 0,
      "hot": 0
     }
@@ -516,36 +516,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "绝美旗袍可可妆": {
+  "当初雪落在大同古城": {
    "stats": {},
    "authors": [
     {
-     "name": "是小柑橘子",
+     "name": "小赵同学📸",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "田老师好权威 #AI绿旗袍可可妆 #抖音ai创作 #绝美旗袍可可妆 #可可妆",
+     "text": "2026年10月20日大同迎来了第一场大雪！真的太美了！#山西大同 #下雪了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "奇迹悦悦🫶🏻",
+     "name": "BEST大同",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "适合方圆脸的中式旗袍妆🪭东方韵味拉满！ 10min超详细妆教～快来学！（转场参考@章鱼烧 妆容参考：@Taoyii桃一 ）#可可妆 #绝美旗袍可可妆 #方圆脸",
+     "text": "大同下雪了，雪落平城，梦回北魏，真的太美了！#山西古建筑 #下雪与古建 #飞雪中的古城",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Friday周五",
+     "name": "硕硕",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "那可是田曦薇！！闺蜜这次我们必须得学了#田曦薇 #田曦薇仿妆 #田曦薇绿旗袍 #林青",
+     "text": "没想到今年的第一场雪是在大同看到的 #第一场雪 #城市下雪了吗 #今年的第一场雪 #初雪大赏 #山西下雪了",
      "likes": 0,
      "hot": 0
     }
@@ -668,12 +668,12 @@
      "hot": 0
     },
     {
-     "name": "财消息",
+     "name": "风口财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "深夜，全线暴拉，美股存储芯片股，集体沸腾 当地时间10月19日，美股科技股尤其是半导体板块迎来大反弹，纳指盘中一度涨近2%。截至收盘，道指跌0.07%报5196",
+     "text": "清晨，利好突袭！科技巨头，大涨9000亿元，#存储与半导体板块集体反弹，费城半导体指数涨1.61%#科技 #半导体 #芯片 （编辑：李）",
      "likes": 0,
      "hot": 0
     },
@@ -688,12 +688,126 @@
      "hot": 0
     },
     {
-     "name": "风口财经",
+     "name": "财消息",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "清晨，利好突袭！科技巨头，大涨9000亿元，#存储与半导体板块集体反弹，费城半导体指数涨1.61%#科技 #半导体 #芯片 （编辑：李）",
+     "text": "深夜，全线暴拉，美股存储芯片股，集体沸腾 当地时间10月19日，美股科技股尤其是半导体板块迎来大反弹，纳指盘中一度涨近2%。截至收盘，道指跌0.07%报5196",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "吴艳妮说只要跑得动就不会退役": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音小助手",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第十期【吴艳妮 一个栏一个栏拼到最后】 2023年亚运会抢跑后，吴艳妮的比赛表现和个性表达引发了不少讨论。三年后，她在身体和心理状态不佳的情况下，拼下一枚亚运会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "主持人阿喆",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体人精选计划 跨过争议与心魔，吴艳妮跑出属于自己的人生奖牌 #吴艳妮 #感人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月20日报道，四川富顺。#吴艳妮回应高调说话满 ：20多次破13秒，我就是厉害，我就是要认可自己，给自己一股劲儿，我在场上为什么要谦逊低调。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杭州亚运抢跑，争议缠身。名古屋亚运会，身体状态欠佳的吴艳妮奋力拼出铜牌。 她不再纠结辩解过往，坦言曾经的 “不在乎”，是保护自己的铠甲。不完美的表达，让我们看见",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "评论员刘雪松",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "吴艳妮，跨过时间那道栏 #吴艳妮亚运铜牌 #时间的答案 #媒体人精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小记杨威",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体人精选计划 #吴艳妮说只要跑得动就不会退役 时间，给了吴艳妮完美的答案 #威观点",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 你快退役！她这么回：我嘴里说才算数 计划跑到下届奥运后#精选主播说 #吴艳妮 （编辑：小鱼）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "绝美旗袍可可妆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "是小柑橘子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "田老师好权威 #AI绿旗袍可可妆 #抖音ai创作 #绝美旗袍可可妆 #可可妆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奇迹悦悦🫶🏻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "适合方圆脸的中式旗袍妆🪭东方韵味拉满！ 10min超详细妆教～快来学！（转场参考@章鱼烧 妆容参考：@Taoyii桃一 ）#可可妆 #绝美旗袍可可妆 #方圆脸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Friday周五",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那可是田曦薇！！闺蜜这次我们必须得学了#田曦薇 #田曦薇仿妆 #田曦薇绿旗袍 #林青",
      "likes": 0,
      "hot": 0
     }
@@ -730,111 +844,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 10月19日，山东临沂，《生活帮》独家对话“炒鸡舞王”：流量过去很正常，做好自己就行。#媒体精选计划 #当事人会客厅",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "C罗被禁赛30天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "即将回归？C罗处罚结果公布：停赛30天、罚款255欧元，由于禁赛已过19天，有望赶上葡萄牙国家队下一期集训！#C罗处罚结果公布 #C罗有望赶上葡萄牙国家队下期集",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一个香蕉说球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "葡萄牙队公布对C罗处罚：停赛30天，罚款255欧元…… #葡萄牙国家队 #C罗 #热苏斯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月20日（发布）。C罗处罚结果公布，停赛30天 罚款255欧元，由于禁赛已过19天，可以入选下一期大名单，此前道歉表示随时准备接受征召。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海量财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗处罚结果公布：擅自退出国家队集训，停赛30天、罚款255欧元；因已禁赛19天，有望赶上国家队下一期集训；此前道歉表示随时准备接受征召（来源：红星新闻，编辑：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗处罚结果公布：擅自退出国家队集训，停赛30天、罚款255欧元；由于禁赛已过19天，可以入选下一期国家队名单。#媒体主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "葡萄牙足协公布对C罗处罚结果：擅自退出国家队集训，停赛30天、罚款255欧元；因C罗承认全部指控申请减轻处罚，实际仅剩11天禁赛期。 北京时间10月20日，葡萄",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间10月20日，多家葡萄牙媒体消息，C罗因在最近一个国际比赛日间歇期离开葡萄牙国家队在丹麦的集训营，将被处以停赛30天以及罚款255欧元。不过，这位葡萄牙",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 C罗与主帅发生矛盾后擅离集训营，葡萄牙足协对其做出禁赛30天、罚款255欧元的处罚。（来源：体坛快讯） #文娱体万象观",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "嫁金钗外祖母真的无条件爱魏娆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我是王炸姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哪怕没有外力，外祖母依旧能第一时间认出阿娆~#嫁金钗 #魏娆 #亲情 #田曦薇 #毛林林",
+     "text": "#媒体原创 山东临沂“炒鸡舞王”妖娆舞姿走红，10月19日，《生活帮》记者对话“张愿长炒鸡”老板张昊：“主打一边工作一边娱乐，喜欢唱歌，纯属瘾大。以前一天十几二",
      "likes": 0,
      "hot": 0
     }
@@ -886,89 +896,12 @@
      "hot": 0
     },
     {
-     "name": "电竞偷梗堂",
+     "name": "网ing少年Joe",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场曝光！当369得知自己即将面对zeus！满脑子都是被抽陀螺的样子。。。#TES #369 #S16瑞士轮首轮抽签结果",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "功夫小咪重出江湖": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "_1111111",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原声版来了 🧊美式真的很生气 （拍完吃了条条，又开心了） #我小猫咪绝非善类 #恶霸小猫 #功夫小猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橘务院二把手",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拳打脚踢 功夫咪咪 #橘务院 #橘猫 #fyp",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Olu饼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "失传已久的河东狮吼、大力金刚腿和铁头功！ 没错，我们是功夫世家！#真功夫上场 #无法拒绝的猫咪 #彩狸 #金渐层 #布偶猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小小只麻酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "功夫小麻 #kungfu #小猫的配合度有多高 #铲屎官的乐趣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "拉屎大王贝壳儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "功夫小咪 #kungfu #金渐层宝宝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "佐伊太乖了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁还不会点功夫了#功夫小猫 #记录猫咪日常 #橘猫 #萌宠出道计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "麻团爱睡觉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "功夫小猫 这能算黑带一段吗？🤔🤔#功夫猫 #金渐层与主人 #金渐层不傻",
+     "text": "当HLE抽到TES后： #S16瑞士轮首轮抽签结果 #英雄联盟S16",
      "likes": 0,
      "hot": 0
     }
@@ -1083,106 +1016,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "饭撒摇手势舞": {
+  "嫁金钗外祖母真的无条件爱魏娆": {
    "stats": {},
    "authors": [
     {
-     "name": "喜欢吃牛又饼🏸",
+     "name": "我是王炸姐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#饭撒摇 特别好玩吧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是大哈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天的简单、饭撒摇～^",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "candies",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哒哒哒哒哒 #饭撒摇 #卡点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小Pooo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "饭撒中哈哈哈哈 #饭撒摇#卷毛#小狗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "嘉rap",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么妲己妲己#饭撒摇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "马铃薯🥔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "饭撒摇来喽～～ #饭撒摇 #手势舞教程 #简单易学 #一学就会系列 #浅跳一下",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "莓猫饼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好好玩哈哈哈ฅ^⦁⩊⦁^ฅ ੭ #饭撒摇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "糯米小团子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#饭撒摇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小屁屁",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学会了去一日店长用 #饭撒摇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "GaZn",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哒哒哒哒哒#手势舞#饭撒摇#hime黑心玫瑰#uptou唇泥",
+     "text": "哪怕没有外力，外祖母依旧能第一时间认出阿娆~#嫁金钗 #魏娆 #亲情 #田曦薇 #毛林林",
      "likes": 0,
      "hot": 0
     }
@@ -1227,36 +1070,76 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "跟随魏娆体会成长型爽文人生": {
+  "功夫小咪重出江湖": {
    "stats": {},
    "authors": [
     {
-     "name": "胡咕噜",
+     "name": "_1111111",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "别笑，除了魏娆，谁也过不了第二关！ 属于是各个狠角色齐聚一堂了！#田曦薇 #嫁金钗 #了不起的混剪团 #混剪产粮团",
+     "text": "原声版来了 🧊美式真的很生气 （拍完吃了条条，又开心了） #我小猫咪绝非善类 #恶霸小猫 #功夫小猫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "空谷幽兰妮猫",
+     "name": "橘务院二把手",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“我不会一辈子做人脚下的泥。” #嫁金钗 #了不起的混剪团 #田曦薇 #嫁金钗反转张力酷酷拿捏 #魏娆 @嫁金钗（1016酷酷嫁到",
+     "text": "拳打脚踢 功夫咪咪 #橘务院 #橘猫 #fyp",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "懒懒大王.",
+     "name": "Olu饼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "系统提示：您的防沉迷“魏娆”系统安装失败#嫁金钗 #田曦薇 #闫桉 #混剪产粮团 #了不起的混剪团",
+     "text": "失传已久的河东狮吼、大力金刚腿和铁头功！ 没错，我们是功夫世家！#真功夫上场 #无法拒绝的猫咪 #彩狸 #金渐层 #布偶猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小小只麻酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "功夫小麻 #kungfu #小猫的配合度有多高 #铲屎官的乐趣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拉屎大王贝壳儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "功夫小咪 #kungfu #金渐层宝宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "佐伊太乖了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁还不会点功夫了#功夫小猫 #记录猫咪日常 #橘猫 #萌宠出道计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "麻团爱睡觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "功夫小猫 这能算黑带一段吗？🤔🤔#功夫猫 #金渐层与主人 #金渐层不傻",
      "likes": 0,
      "hot": 0
     }
@@ -1308,6 +1191,16 @@
      "hot": 0
     },
     {
+     "name": "葡萄桃(24号生日版)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁一天天的叫我配这个 #配音 #哪吒传奇 #妲己",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "续写",
      "verify": "",
      "identity": "",
@@ -1338,16 +1231,6 @@
      "hot": 0
     },
     {
-     "name": "葡萄桃(24号生日版)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁一天天的叫我配这个 #配音 #哪吒传奇 #妲己",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "樂栗",
      "verify": "",
      "identity": "",
@@ -1364,6 +1247,174 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "东北淡银妲己 大王能独宠我不 #妲己配音 #妲己配音教程",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "进入面要多吃面要多见时代": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "眼镜超（汽修二班）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "因为方便面便宜所以有了见面的钱 #emo #忧郁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "星星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "面要多吃 面要多见 @靠谱👟👔找阿乐家的鞋工厂💯 多吃方便面 方便多见面 面里加肠 常常见面！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宇有理想",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人和人之间怎么可能有一瞬间就够了呢#神也会emo #如果忧郁是种天赋 #面要多吃面要多见",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "跟随魏娆体会成长型爽文人生": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "胡咕噜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别笑，除了魏娆，谁也过不了第二关！ 属于是各个狠角色齐聚一堂了！#田曦薇 #嫁金钗 #了不起的混剪团 #混剪产粮团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "空谷幽兰妮猫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“我不会一辈子做人脚下的泥。” #嫁金钗 #了不起的混剪团 #田曦薇 #嫁金钗反转张力酷酷拿捏 #魏娆 @嫁金钗（1016酷酷嫁到",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "懒懒大王.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "系统提示：您的防沉迷“魏娆”系统安装失败#嫁金钗 #田曦薇 #闫桉 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋冬显腿细靴子测评": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "遥遥小宝",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋季显腿细靴子开箱！三种腿形权威测评 谁是今年神靴？#测评 #秋季靴子 #显瘦靴子 #鞋子合集 #微胖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不够爆炸wxy",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋冬鞋靴合集来啦#秋冬靴子 #鞋靴分享 #隐形增高 #百搭鞋子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小蓝.（165）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俺来交作业啦～#我的秋冬穿搭不烧心 #藏肉显瘦长靴 #鞋子穿搭公式 #穿搭刚需单品 #秋冬靴子",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "赖岳谦解读黄海南部47天实弹射击": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "直新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 台湾时事评论员赖岳谦分析指出，黄海南部47天实弹射击，完整覆盖美日“利剑 27”军演周期。解放军保持随时备战状态，以演训应对外部军事动向。#美国 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三沙卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10天对弈47天！美日开启“利剑27”军演，赖岳谦称：中方全程覆盖，美日成解放军练兵靶标（直新闻）@抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄海南部进行实弹射击，连续47天禁止驶入。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄海南部进行实弹射击 连续47天 禁止驶入！ #正午国防军事",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看台海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "解放军六大海域同步演练 帅化民：解放军武力不怕你看 这次全面展示给你#看台海",
      "likes": 0,
      "hot": 0
     }
@@ -1478,93 +1529,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秋冬显腿细靴子测评": {
+  "火影手游古堡萌黄全技能爆料": {
    "stats": {},
    "authors": [
     {
-     "name": "遥遥小宝",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋季显腿细靴子开箱！三种腿形权威测评 谁是今年神靴？#测评 #秋季靴子 #显瘦靴子 #鞋子合集 #微胖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不够爆炸wxy",
+     "name": "火影忍者手游情报君",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "秋冬鞋靴合集来啦#秋冬靴子 #鞋靴分享 #隐形增高 #百搭鞋子",
+     "text": "#火影手游古堡萌黄 闪亮登场！哼哼，萌到你的话真是抱歉啦~#火影手游古堡萌黄全技能爆料 #火影忍者手游",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小蓝.（165）",
+     "name": "无氪玩家",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "俺来交作业啦～#我的秋冬穿搭不烧心 #藏肉显瘦长靴 #鞋子穿搭公式 #穿搭刚需单品 #秋冬靴子",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "日美大规模军演引发多地抗议": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "湖北日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "参考消息援引日本《赤旗报》报道，19日启动的日美大规模联合综合演习“利剑27”，日本各地纷纷出现要求停止演习的抗议行动。参加此次抗议的日共冲绳县委员长赤岭政贤严",
+     "text": "古堡萌黄全技能爆料来了！萌黄可爱捏！ #权威忍者攻略 #火影忍者手游 #木叶村抽象家",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "隔壁村大聪明",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "日美将举行大规模联合军演 投入兵力总计接近6万人 #24时区",
+     "text": "古堡萌黄全技能来啦，制作简单不如中秋白，但超可爱#火影忍者手游 #权威忍者攻略 #木叶村抽象家 #火影手游古堡萌黄全技能爆料",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "一只山鸡鱼",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美日所谓“利剑”联合演习今日开始，双方投入兵力近6万人，演习规模为历届最大。日本3月底部署的“25式地对舰导弹”，首次在部署地点以外区域展开，射程约1000公里",
+     "text": "古堡萌黄技能爆料，小长门来袭 #火影忍者手游",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "书杰 (回调白面具)",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "又“拜鬼” 又军演，军事专家：日本“新型军国主义”已成势为患！#国际局势 #专家解读 #精选主播说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "国际在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "东观军情 | “利剑”军演谋扩张 炫耀武力乱搅局",
+     "text": "年度最简陋角色！像个半成品！奥义直接复用一技能！ #游戏花样乱斗 #游戏玩家有自己的综艺 #权威忍者攻略 #火影忍者手游 #木叶村抽象家",
      "likes": 0,
      "hot": 0
     }
@@ -1669,46 +1683,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "三角洲S12新赛季超前爆料": {
+  "饭撒摇手势舞": {
    "stats": {},
    "authors": [
     {
-     "name": "成成大王（三角洲行动）",
+     "name": "喜欢吃牛又饼🏸",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "S12新赛季 超前大爆料 #三角洲S12新赛季超前爆料 #三角洲行动 #成成大王二创活动 #成成大王",
+     "text": "#饭撒摇 特别好玩吧",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "昊天（三角洲行动）",
+     "name": "我是大哈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新赛季全网首发前瞻爆料来袭！ #三角洲S12新赛季超前爆料 #昊天三角洲行动 #三角洲行动",
+     "text": "今天的简单、饭撒摇～^",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "白泽（三角洲行动）",
+     "name": "candies",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新赛季最新爆料 #三角洲S12新赛季超前爆料 #三角洲行动",
+     "text": "哒哒哒哒哒 #饭撒摇 #卡点",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "林树（三角洲行动）",
+     "name": "小Pooo",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新赛季更新内容 抢先预览 #三角洲行动#三角洲S12新赛季超前爆料 #洲同学报到 #三角洲行动打洲社",
+     "text": "饭撒中哈哈哈哈 #饭撒摇#卷毛#小狗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "嘉rap",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "什么妲己妲己#饭撒摇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "马铃薯🥔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "饭撒摇来喽～～ #饭撒摇 #手势舞教程 #简单易学 #一学就会系列 #浅跳一下",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "莓猫饼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好好玩哈哈哈ฅ^⦁⩊⦁^ฅ ੭ #饭撒摇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "糯米小团子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#饭撒摇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小屁屁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "学会了去一日店长用 #饭撒摇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "GaZn",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哒哒哒哒哒#手势舞#饭撒摇#hime黑心玫瑰#uptou唇泥",
      "likes": 0,
      "hot": 0
     }
@@ -1716,93 +1790,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "进入面要多吃面要多见时代": {
+  "田曦薇闫桉互动甜度超标了": {
    "stats": {},
    "authors": [
     {
-     "name": "眼镜超（汽修二班）",
+     "name": "uu",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "因为方便面便宜所以有了见面的钱 #emo #忧郁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "面要多吃 面要多见 @靠谱👟👔找阿乐家的鞋工厂💯 多吃方便面 方便多见面 面里加肠 常常见面！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宇有理想",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人和人之间怎么可能有一瞬间就够了呢#神也会emo #如果忧郁是种天赋 #面要多吃面要多见",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "海事局发布多海域航行警告": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "海事局发布航行警告：禁止驶入！南海进行军事训练、黄海进行军事活动、黄海南部进行实弹射击。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【航行警告！#黄海南部实弹射击 】据中国海事局网站消息，盐城海事局发布航行警告，10月21日至30日每日6时至22时，黄海南部部分海域进行实弹射击，禁止驶入。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看台海",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "航行警告！今日起连续三天禁止驶入，南海部分海域进行军事训练#看台海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 航行警告！禁止驶入！黄海南部部分海域进行实弹射击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "海事局发布多条航行警告：南海海域军事训练，禁止驶入！",
+     "text": "陆濯开出了细君 我开出了老婆#嫁金钗 #田曦薇 #闫桉",
      "likes": 0,
      "hot": 0
     }
@@ -1820,63 +1817,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "📝记录一下这次 VS 💕 #维密 #工作花絮 #星动营业中",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "火影手游古堡萌黄全技能爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "火影忍者手游情报君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#火影手游古堡萌黄 闪亮登场！哼哼，萌到你的话真是抱歉啦~#火影手游古堡萌黄全技能爆料 #火影忍者手游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无氪玩家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "古堡萌黄全技能爆料来了！萌黄可爱捏！ #权威忍者攻略 #火影忍者手游 #木叶村抽象家",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁村大聪明",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "古堡萌黄全技能来啦，制作简单不如中秋白，但超可爱#火影忍者手游 #权威忍者攻略 #木叶村抽象家 #火影手游古堡萌黄全技能爆料",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一只山鸡鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "古堡萌黄技能爆料，小长门来袭 #火影忍者手游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "书杰 (回调白面具)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "年度最简陋角色！像个半成品！奥义直接复用一技能！ #游戏花样乱斗 #游戏玩家有自己的综艺 #权威忍者攻略 #火影忍者手游 #木叶村抽象家",
      "likes": 0,
      "hot": 0
     }
@@ -1965,43 +1905,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王者荣耀2026周年庆CG": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王者荣耀",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王者荣耀2026周年庆CG 2026周年庆主题CG《谢谢你来王者荣耀》的高光合集来啦！英雄们都有哪些有趣的瞬间呢？一起来看看吧！#王者英雄就在你身边 #王者荣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猫萌",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "居然还有100个彩蛋？！王者周年庆CG全彩蛋解析！ #王者荣耀 #王者周年庆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "修鸽儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网最细解读王者2026周年庆CG，逐帧解析100多个彩蛋！ #王者荣耀 #王者荣耀2026周年庆CG #王者荣耀2026周年庆CG解读",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "七宗罪之首是傲慢": {
    "stats": {},
    "authors": [
@@ -2012,16 +1915,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "Vibe知识大赏｜七宗罪之首：傲慢 七宗罪之首是傲慢。卢梭区分了两种爱自己：自爱心只关心自己过得好不好，自尊心却只在与他人比较时存在，因此永远无法满足。 #vi",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "什么彤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@DOU+小助手",
      "likes": 0,
      "hot": 0
     },
@@ -2079,6 +1972,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "王者荣耀2026周年庆CG": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王者荣耀",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#王者荣耀2026周年庆CG 2026周年庆主题CG《谢谢你来王者荣耀》的高光合集来啦！英雄们都有哪些有趣的瞬间呢？一起来看看吧！#王者英雄就在你身边 #王者荣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猫萌",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "居然还有100个彩蛋？！王者周年庆CG全彩蛋解析！ #王者荣耀 #王者周年庆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "修鸽儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网最细解读王者2026周年庆CG，逐帧解析100多个彩蛋！ #王者荣耀 #王者荣耀2026周年庆CG #王者荣耀2026周年庆CG解读",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "男士秋冬外套穿搭示范": {
    "stats": {},
    "authors": [
@@ -2089,6 +2019,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "当我提前想好秋冬外套穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "娃圈秋日穿搭大赏": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "椰子鸡梦女",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "走呀，咱们去拍今年秋天的全家福吧～ #超会玩人生大派对 #娃圈的含金量还在上升 #抖音娃改时装周 #bjd",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "农家一碗香",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "把娃娃带出门～一碗香的外拍vlog #超会玩人生大派对 #娃圈的含金量还在上升 #抖音娃改时装周 #bjd #bjd外拍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秋叨鱼鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "把秋天🍂穿在身上是什么体验！ #给娃装扮100种风格 #娃的秋季OOTD #娃圈的含金量还在上升 #超会玩人生大派对 #抖音娃改时装周",
      "likes": 0,
      "hot": 0
     }
@@ -2123,87 +2090,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "田曦薇闫桉互动甜度超标了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "uu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陆濯开出了细君 我开出了老婆#嫁金钗 #田曦薇 #闫桉",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "轻亚穿搭审美展示": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "DT",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "annyeonghaseyo～#这个秋冬我要当最忧郁之人 #忧郁 #轻亚穿搭 #穿搭分享 #ootd",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不知道az",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑色系。#亚文化穿搭 #暗黑系 #轻亚穿搭 #ootd穿搭 #无性别穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叫我181",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "进入舒适区💙 #轻亚穿搭 #白又瘦不是唯一的标准 #181 #love #fyp",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "单依纯一跤摔到维密秀": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "单依纯工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一跤又给🥚摔美了吧 （当然了日常就够美的了🫰🏻） @单依纯 #哪里摔倒哪里爬起来 #变装 #走路小心点 #2026维密大秀 #2026VSFS",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "维多利亚的秘密",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🥚：什么安排？当然看秀咯 和维密中国区品牌代言人@单依纯 一起锁定#2026维密大秀 持续关注我们💗时尚盛宴马上开始 #维密中国区品牌代言人单依纯 #202",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "一口气梳理维秘大秀造型看点": {
    "stats": {},
    "authors": [
@@ -2214,43 +2100,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "👙这届维密的性感美学你们买账吗？！！ 2026Victoria's Secret秀场直击！ 2026维密大秀盘点！： 视频顺序：Bella Hadid开场，a",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "奚梦瑶维密鎏金翅膀惊艳全场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "盐渍士多啤梨🍓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "live 赶上了这套绝绝子😍 The Victoria's Secret Fashion Show 2026 #VictoriasSecret #维多利亚的秘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "流浪鱼饼（重生版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#奚梦瑶 奚妃回宫 这个造型完全天使之翼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱乐柿柿屋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "只能说超模不愧是超模啊#奚梦瑶 #维密 #模特 #时尚 #走秀",
      "likes": 0,
      "hot": 0
     }
@@ -2295,36 +2144,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "看但丁爷爷抱玩偶心都化了": {
+  "奚梦瑶维密鎏金翅膀惊艳全场": {
    "stats": {},
    "authors": [
     {
-     "name": "卡哇吉伊",
+     "name": "盐渍士多啤梨🍓",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "但丁爷爷上班啦！ #快来十里洋场偶遇但丁爷爷 #万岁山武侠城 #万岁山让我感到陌生#橹穆#看但丁爷爷抱玩偶心都化了",
+     "text": "live 赶上了这套绝绝子😍 The Victoria's Secret Fashion Show 2026 #VictoriasSecret #维多利亚的秘",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "流浪鱼饼（重生版）",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 10月18日，河南开封，#意大利但丁爷爷现身万岁山 ，大姨：以为是个假人，谁知道是真的，太搞笑了，哈哈哈。#河南大姨见到但丁爷爷以为是假人",
+     "text": "#奚梦瑶 奚妃回宫 这个造型完全天使之翼",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "河南广播电视台民生频道",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "娱乐柿柿屋",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月19日（发布）河南开封，“但丁爷爷”在开封开启中国首秀，年轻人拿着娃娃排队打卡互动，“一种文化的碰撞和交流！”（编辑：刘大顺，梦寒，博毅）#媒体原创",
+     "text": "只能说超模不愧是超模啊#奚梦瑶 #维密 #模特 #时尚 #走秀",
      "likes": 0,
      "hot": 0
     }
@@ -2352,6 +2201,97 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "中国超模#贺聪 为2026@维多利亚的秘密 第二个环节开场！这也是亚洲模特首次拿下“小开”，恭喜聪聪！#秀场 #超模 #维密",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "单依纯一跤摔到维密秀": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "单依纯工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一跤又给🥚摔美了吧 （当然了日常就够美的了🫰🏻） @单依纯 #哪里摔倒哪里爬起来 #变装 #走路小心点 #2026维密大秀 #2026VSFS",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "维多利亚的秘密",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🥚：什么安排？当然看秀咯 和维密中国区品牌代言人@单依纯 一起锁定#2026维密大秀 持续关注我们💗时尚盛宴马上开始 #维密中国区品牌代言人单依纯 #202",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "宝青坊主cos": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "序言",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "少年人啊 #宝青坊主",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桃泽早睡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哟 来客人了 #宝青坊主 #白蛇缘起 #cos",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "轻亚穿搭审美展示": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "DT",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "annyeonghaseyo～#这个秋冬我要当最忧郁之人 #忧郁 #轻亚穿搭 #穿搭分享 #ootd",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不知道az",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黑色系。#亚文化穿搭 #暗黑系 #轻亚穿搭 #ootd穿搭 #无性别穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叫我181",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "进入舒适区💙 #轻亚穿搭 #白又瘦不是唯一的标准 #181 #love #fyp",
      "likes": 0,
      "hot": 0
     }
