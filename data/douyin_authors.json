@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-20 09:43",
+ "updated_at": "2026-10-20 10:48",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 48,
- "ok_count": 40,
+ "topic_count": 28,
+ "ok_count": 10,
  "lexicon_count": 0,
  "topics": {
   "美舰冲闯南沙群岛仙宾礁附近海域": {
@@ -20,22 +20,22 @@
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。#媒体原创",
      "likes": 0,
      "hot": 0
     },
@@ -50,12 +50,12 @@
      "hot": 0
     },
     {
-     "name": "四川观察",
+     "name": "小央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月20日凌晨，美“查尔斯顿”号濒海战斗舰未经中国政府允许，冲闯中国南沙群岛仙宾礁附近海域，中国人民解放军南部战区海军组织兵力依法依规跟踪监视。中国对南沙群岛",
+     "text": "美军战斗舰冲闯中国南沙群岛仙宾礁附近海域，南部战区组织兵力跟踪监视",
      "likes": 0,
      "hot": 0
     }
@@ -77,32 +77,32 @@
      "hot": 0
     },
     {
-     "name": "都市现场",
+     "name": "蚌埠日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "LPL四队承包S16瑞士轮前四场，GEN对战IG、HLE对战TES、BLG对战MKOI、AL对战KC。10月24日凌晨1点持续到早上约5点。有网友认为赛事时间对",
+     "text": "2026 英雄联盟 S16 全球总决赛，瑞士轮首日赛程公布 #英雄联盟S16 #2026全球总决赛 #英雄联盟全球总决赛 #LPL （蚌埠市新闻传媒中心 制作：",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "滕尊",
+     "name": "好兄弟6",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "简评瑞士轮首轮抽签结果：IG TES上演中韩大战，压力山大！ #S16瑞士轮首轮抽签结果 #英雄联盟S16 #S16瑞士轮抽签仪式 #抖音精选APP #IG对战",
+     "text": "宙斯是有点怕69的 #S16瑞士轮首轮抽签结果 #英雄联盟S16",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "卡蜜尔的灰色",
+     "name": "小仕同学【联盟】",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "IG首战将直接面对LCK的冠军GEN！ IG加油！#IG #S16全球总决赛 #theshy #rookie #瑞士轮抽签",
+     "text": "“IG直面GEN，TES直面HLE” 瑞士轮抽签看傻眼，369刚召回就要打宙斯了！#theshy #ig #瑞士轮抽签 #blg #jackeylove",
      "likes": 0,
      "hot": 0
     },
@@ -134,12 +134,12 @@
      "hot": 0
     },
     {
-     "name": "中国新闻社",
-     "verify": "蓝V",
+     "name": "中国新闻网",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026年#三季度192亿人次出入境 ， #入境外国人超七成免签",
+     "text": "#媒体原创 三季度1.92亿人次出入境 入境外国人超七成免签",
      "likes": 0,
      "hot": 0
     },
@@ -157,56 +157,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "专家谈美日大规模联合军演": {
+  "台风蔷琵将进入48小时警戒线": {
    "stats": {},
    "authors": [
     {
-     "name": "京锐评",
+     "name": "封面新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "与美国联合军演，日本首次亮出进攻型武器 #媒体精选计划 #精选主播说 #媒体原创 #京锐评",
+     "text": "17级以上！超强台风 “蔷琵” 拐弯了，即将进入我国48小时警戒线。今明两天冲击其“生命史”巅峰强度，后期大概率北上转向，东南沿海将有强风雨。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "直新闻",
+     "name": "杭州综合频道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#超强台风“#蔷琵”拐弯了，将进入我国48小时警戒线！强度将达生命史巅峰……会成为今年第四个登陆浙江的#台风吗#杭州州降温来袭：最低气温将跌至15℃以下（来源：",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今日关注",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 台湾时事评论员赖岳谦认为，美日进行联合军演前夕，解放军“四海联动” 盯住美日集结路线，就是针对美日的联合军演，开展针对性的实弹射击演练。#美国 #日",
+     "text": "超强台风“蔷琵”，将进入我国48小时警戒线。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "看台海",
+     "name": "第一现场",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美日举行历届规模最大军演 介文汲：日本从未反省 正在军国主义道路上狂奔#看台海",
+     "text": "超强台风“蔷琵”已维持超强台风级别超60小时，10月20日夜至21日晨将进入我国48小时警戒线。中央气象台判断北上转向可能性较大，但登陆台湾后趋向福建的可能性仍",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "张斌观察",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "中气爱怎么说",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "近6万兵力逼近台海，火力前置百余公里，美日这步棋风险远超想象 #零基础看懂全球 #全球创作者计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "包明说",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "导弹架上离台湾110公里的小岛，日本这是要干什么？ #零基础看懂全球 #全球创作者计划",
+     "text": "浙江福建台湾，\"蔷琵\"给你们刮大风了 时间就在10月23-25日这周末。它已经长成巨型台风，叠加冷空气的影响，台湾福建浙江甚至广东都可能迎来大风和降雨，那它会登",
      "likes": 0,
      "hot": 0
     }
@@ -271,36 +271,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我关注的中国设计师都在抖音大秀": {
+  "王者根本没有这样的共鸣之战": {
    "stats": {},
    "authors": [
     {
-     "name": "ChiliCharlotte",
+     "name": "及格格",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "所有人感受中国时装的震撼力！ 纯粹的时装让人着迷 中国设计有更多可能正在发生… #所有人感受抖音大秀 #抖音时尚设计师大赛 #抖音时尚趋势大秀 #中国设计师",
+     "text": "史上最抽象模式！开麦声音越大伤害越高？ #王者荣耀 #王者共鸣之战上线正式服 #抖音游戏趣讲作者团 #抖音精选APP #我在抖音农啥嘞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "HEYUN PAN",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我参加抖音时尚设计师大赛…. 谢谢大家支持🫶🏻 #抖音时尚设计师大赛 #抖音大秀的权威我都知后觉 #挑战百分百回头率看秀穿搭 #所有人感受抖音大秀 #pe",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黄冰融Ulrica",
+     "name": "王者荣耀君不爱笑（觉醒教学）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "看到@yanyann_ 在抖音时尚趋势大秀上演绎我的作品啦 #ULRICAHUANG #所有人感受抖音大秀 #抖音时尚设计师大赛 #上海时装周 #礼服",
+     "text": "一分钟领先十万经济！共鸣之战最强没有之一。元辅教学。#游戏玩家有自己的综艺#王者荣耀#生活中的王者#世界是一个巨大的王者荣耀 #共鸣之战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "alikrie",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我已经没有多余的肺泡可以笑炸了🧜‍♀️ @SFG顶尖电竞 #王者荣耀 #共鸣之战 #法师思路教学和意识 #朵莉亚共鸣之战#朵莉亚",
      "likes": 0,
      "hot": 0
     }
@@ -320,205 +320,66 @@
      "text": "领导让我假装南方游客出一期旅游分享 #随拍#东北秋景 #来东北旅游 #东北男孩",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "指尖新闻沈阳晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 东北人假装南方人 一张嘴东北DNA就露馅了 评论区炸锅了：你是南方人，我是哪的人 （编辑 王梓懿 责编 王牡丹）",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "天黑了该我在乐园上场了": {
+  "我关注的中国设计师都在抖音大秀": {
    "stats": {},
-   "authors": [
-    {
-     "name": "张雅倩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我只是个可爱的小恶魔呀 抱歉！(´-ω-`) #天黑了该我在乐园上场了#还是低估了青岛精怪夜的权威 #方特精怪派对#方特惊喜派对",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "原天夕子_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妲己果然是个夹子 #天黑了该我在乐园上场了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陳雨舟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "就你和我了#还是低估了青岛精怪夜的权威 #方特精怪派对 #天黑了该我在乐园上场了 #方特惊喜派对",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "披旭日旗中国留学生已被遣返": {
    "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#披旭日旗中国留学生已被遣返 ，校方：将尽快公布开除决定",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长城新媒体",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#莫斯科大学回应学生身披旭日旗 ：认定严重违背育人理念，将公布处理结果，留学生已就披旭日旗一事道歉。#精选主播说 #媒体精选计划 #媒体原创 （原创 编辑：TU",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "京锐评",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "身披旭日旗做历史研究？学术展示要有明确边界 #京锐评 #媒体精选计划 #精选主播说 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新湖南",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 三点更新 | 对旭日旗说“不”，从来不是小题大做。 近日，俄罗斯莫斯科大学一名中国留学生在课堂中身披旭日旗的相关画面在网络传播，引发关注。这一行为是",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "卡律法评",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "出生在南京的历史系学生，竟敢在课堂上披上了旭日旗！？#秀出我的诉讼策略 #抖来普法2026 #律师普法 #法律科普",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "半月谈",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最新进展！披旭日旗中国留学生被遣返、开除 #半月谈 #半月谈关注 #对“精日”言行零容忍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "遣返 开除！中国留学生披旭日旗事件最新进展 #披旭日旗中国留学生被遣返开除",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "身披旭日旗的中国留学生已被遣返，将被学校开除！涉事学生出生于南京，且在读历史专业，“其行为与动机令历史系师生感到震惊”",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月19日报道，莫斯科大学#身披旭日旗中国留学生被遣返 ，将被开除。#身披旭日旗中国留学生出生南京 。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生在南京、学习历史却背叛历史！莫斯科大学历史系课堂上，身披日本军国主义旭日旗的中国留学生已被遣返，将被开除！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "南部战区回应美舰冲闯中国海域": {
+  "天黑了该我在乐园上场了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "绝美旗袍可可妆": {
    "stats": {},
    "authors": [
     {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "是小柑橘子",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月20日凌晨，美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：依法依规跟踪监视。",
+     "text": "田老师好权威 #AI绿旗袍可可妆 #抖音ai创作 #绝美旗袍可可妆 #可可妆",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "奇迹悦悦🫶🏻",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美舰冲闯中国南沙群岛仙宾礁附近海域，南部战区：美方应立即停止！",
+     "text": "适合方圆脸的中式旗袍妆🪭东方韵味拉满！ 10min超详细妆教～快来学！（转场参考@章鱼烧 妆容参考：@Taoyii桃一 ）#可可妆 #绝美旗袍可可妆 #方圆脸",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "Friday周五",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美舰冲闯中国南沙群岛仙宾礁附近海域 南部战区回应",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国军号",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "南部战区海军新闻发言人尹刚海军大校发表谈话",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月20日凌晨，美“查尔斯顿”号濒海战斗舰未经中国政府允许，冲闯中国南沙群岛仙宾礁附近海域，中国人民解放军南部战区海军组织兵力依法依规跟踪监视。中国对南沙群岛",
+     "text": "那可是田曦薇！！闺蜜这次我们必须得学了#田曦薇 #田曦薇仿妆 #田曦薇绿旗袍 #林青",
      "likes": 0,
      "hot": 0
     }
@@ -528,167 +389,8 @@
   },
   "妲己配音大赛": {
    "stats": {},
-   "authors": [
-    {
-     "name": "條條",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "誰在說話？#哪吒传奇妲己 #大王名场面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "别凶我",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大王～ #哪吒传奇妲己",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿喵娱乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "搞笑苏妲己配音，果然当狐狸精也是需要天赋的#苏妲己 #搞笑 #配音",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是舒舒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大王他们说我……哈哈哈哈哈哈 #配音 #妲己 #搞笑 #四川配音",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汤姆布利柏.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大王～ #大王名场面#配音挑战#国产动画名场面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "熟人看不见",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "湖南口音版妲己配音🥸 #妲己配音 #湖南塑普 #方言搞笑 #腼腆害羞内向社恐文静小女生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "柒木兆🍑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "东北淡银妲己 大王能独宠我不 #妲己配音 #妲己配音教程",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "垚垚Yoyo",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妲己俺村的有口音很正常 #配音 #方言 #河南话 #妲己 #配音挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "樂栗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "莆田口音版妲己来了 #莆田话 #莆田配音",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蔡丁壳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "青丘在东北，所以妲己是东北口音没毛病 #抖音玩法合伙人计划 #演绎玩法达人成长营",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "台风蔷琵将进入48小时警戒线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "浙江在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "台风蔷琵将进入48小时警戒线 今年第30号台风“蔷琵”（超强台风级）逐渐向台湾以东洋面靠近，有可能于10月24日前后在台湾东部沿海登陆（42～50米/秒，强台风",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州综合频道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#超强台风“#蔷琵”拐弯了，将进入我国48小时警戒线！强度将达生命史巅峰……会成为今年第四个登陆浙江的#台风吗#杭州州降温来袭：最低气温将跌至15℃以下（来源：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "17级以上！超强台风 “蔷琵” 拐弯了，即将进入我国48小时警戒线。今明两天冲击其“生命史”巅峰强度，后期大概率北上转向，东南沿海将有强风雨。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今日关注",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超强台风“蔷琵”，将进入我国48小时警戒线。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超强台风“蔷琵”已维持超强台风级别超60小时，10月20日夜至21日晨将进入我国48小时警戒线。中央气象台判断北上转向可能性较大，但登陆台湾后趋向福建的可能性仍",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "KDA新歌神之八秒": {
    "stats": {},
@@ -729,189 +431,15 @@
   },
   "长今你在工作里加了什么啊": {
    "stats": {},
-   "authors": [
-    {
-     "name": "中五百万退休",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#牛马#长今#废话文学 呜啦啦~呜啦啦~呜呜啦啦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "瓜瓜瓜妹",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "长今你到底在饭里放了什么#大长今 #万万没想到 #厨神 #肠梗阻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "土豆教主（求饶型）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "长今你在这碗汤里加入了什么#大长今 #韩剧 #台配 #超能演剧场2026 #台湾腔",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "伟伟吖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大长今这个是什么梗啊#发朋友圈没人知道#发抖音一定会有人给解释",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大掌柜不吃香菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "长今 你在这碗汤里放了什么啊#馄饨面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "十七爱吃鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我疯了#职场发疯文学 #大长今",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "湖湖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "已做好跑路返乡准备#聊天记录 #大长今",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AAA批发王建国",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "长今，你这丫头竟敢如此放肆！！！#大长今",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是小小雪呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "怎么会如此的烧心呢。是低薪啊娘娘#牛马 #长今 #缓解烧心的方法",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "火柴梗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "配音就交给评论区了🤣",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "功夫小咪重出江湖": {
    "stats": {},
-   "authors": [
-    {
-     "name": "_1111111",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原声版来了 🧊美式真的很生气 （拍完吃了条条，又开心了） #我小猫咪绝非善类 #恶霸小猫 #功夫小猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橘务院二把手",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拳打脚踢 功夫咪咪 #橘务院 #橘猫 #fyp",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小小只麻酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "功夫小麻 #kungfu #小猫的配合度有多高 #铲屎官的乐趣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Olu饼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "失传已久的河东狮吼、大力金刚腿和铁头功！ 没错，我们是功夫世家！#真功夫上场 #无法拒绝的猫咪 #彩狸 #金渐层 #布偶猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "拉屎大王贝壳儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "功夫小咪 #kungfu #金渐层宝宝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "佐伊太乖了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁还不会点功夫了#功夫小猫 #记录猫咪日常 #橘猫 #萌宠出道计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "麻团爱睡觉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "功夫小猫 这能算黑带一段吗？🤔🤔#功夫猫 #金渐层与主人 #金渐层不傻",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "小城良方弟弟怀疑自己不是亲生": {
+  "跟随魏娆体会成长型爽文人生": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -958,1083 +486,55 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "也有凑企鹅唱歌给我听啦": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "羽丘的鹅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁懂跑完校园跑后广场出现一只巨大凑企鹅 凑企鹅原视频@惊的一声蕾 #凑企鹅 #校园跑 #大学生哪有不疯的 #大学生 #咕咕嘎嘎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "马铃薯头小鬼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我买的不是静音车厢吗？怎么还有凑企鹅弹唱 #高铁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "絶蔻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#跟着凑企鹅哼两句就通透了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "k式",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让你通透 #凑企鹅 #通透 #咕咕嘎嘎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "惊的一声蕾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天再给大家通透一次 #咕咕嘎嘎 #凑企鹅 #高松灯 #又三郎 原唱：ヨルシカ 改编：小鱼儿嘤嘤 翻唱：凑企鹅 制作：惊的一声蕾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灯morning",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🐧我和我兄弟早读belike： 🐧凑企鹅早读时竟然高声飙歌🐧#凑企鹅 #咕咕嘎嘎 #mygo #高松灯 #justinbieber",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "企鹅不是鹅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🐧凑企鹅学说山东话🐧 yc@忘记呼吸咩 #凑企鹅 #咕咕嘎嘎 #高松灯 #mygo #山东话",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AAA红魔馆保洁咲姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宿舍进凑企鹅了 #凑企鹅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "水灵滴寒风",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "起床了起床了，这个点还没有起床的都是懒狗，是铁打的凑企鹅 #咕咕嘎嘎 #凑企鹅 #高松灯 #早点起床",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凑凑凑企鹅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🐧《不想上班》🐧 #凑企鹅 yc：@☁️AD钙",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "遗落人间的神明少女": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "all in",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我开始迷信 希望你的掌纹里有我的命运#爱人的手要握紧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曾曾.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Love me.#AI复古冷白棚拍肖像 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栾汐沅 绾妍信息咨",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感受到心跳的剧烈跳动 那是他在为你鼓掌。#AI复古冷白棚拍肖像 #抖音ai创作 #淡颜韩式美 #淡颜清透感 #幼态方圆脸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Stella_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#氛围感 我开始迷信 希望你的指纹里面有我的命运.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "葵葵小饱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋水为神玉为骨｜同款AI写真制作入口@小葵花课堂（教学号） #AI复古冷白棚拍肖像 #抖音ai写真#抖音玩法合伙人计划 #情绪音乐玩法新风向",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一只悠悠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我开始迷信 希望你的指纹里面有我的命运. #氛围感纯欲妆 #氛围感 #AI复古冷白棚拍肖像 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晴空一隅⊹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我拍了不下10次就是拍不出披着头巾的，好吧我放弃了😂 #AI复古冷白棚拍肖像 #抖音ai创作 #抖音玩法合伙人计划 #照片里加了ai好幸福",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "艾琳琳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "花生酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "看看你拍的是啥？有没有被爱？#AI复古冷白棚拍肖像 #抖音ai创作 #抖音玩法合伙人计划 #高冷脸#遗落人间的神明少女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "睡不饱𝙯ᙆ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Love me？ #抖音AI创作 #AI复古冷白棚 #ai",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "五官还原挑战玩了不烧心": {
+  "三角洲野火测评来了": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "三角洲野火测评来了": {
+  "南部战区回应美舰冲闯中国海域": {
    "stats": {},
-   "authors": [
-    {
-     "name": "白泽（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季最新爆料 #三角洲S12新赛季超前爆料 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昊天（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季全网首发前瞻爆料来袭！ #三角洲S12新赛季超前爆料 #昊天三角洲行动 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奕辰（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太超标了！s12新干员野火技能详细解析！ #三角洲行动 #三角洲攻略 #野火 #三角洲s12新赛季超前爆料 #真实生活分享计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "刘晓艳郑马名场面渲染大赛": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "也有凑企鹅唱歌给我听啦": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "饭撒摇手势舞": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "小城良方弟弟怀疑自己不是亲生": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "三角洲S12新赛季超前爆料": {
    "stats": {},
-   "authors": [
-    {
-     "name": "成成大王（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "S12新赛季 超前大爆料 #三角洲S12新赛季超前爆料 #三角洲行动 #成成大王二创活动 #成成大王",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昊天（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季全网首发前瞻爆料来袭！ #三角洲S12新赛季超前爆料 #昊天三角洲行动 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白泽（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季最新爆料 #三角洲S12新赛季超前爆料 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林树（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新赛季更新内容 抢先预览 #三角洲行动#三角洲S12新赛季超前爆料 #洲同学报到 #三角洲行动打洲社",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "嫁金钗晋江式演技模仿": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小Q不是小抠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个疯批感看得我好爽！到底怎么做出来的啊#嫁金钗 #田曦薇 #晋江式演技 #模仿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "160女团",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "急头白脸模仿一顿 #嫁金钗 #手艺人酷酷手搓嫁金钗 #田曦薇 #模仿 #台词功底",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是绿豆🥝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这台词怎么这么烫嘴啊哈哈哈 #田曦薇 #嫁金钗 #没有不酷酷追嫁金钗的义务 #模仿 #嫁金钗开播",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潘珺雅ˇ",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#嫁金钗开播 少不了碧桃的，我甘愿帮着挡下的#嫁金钗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晴大人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妾想做名副其实的世子夫人～ #嫁金钗#酷追嫁金钗这波贪麻了#田曦薇 #闫桉 #魏娆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆角包",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《嫁金钗》田曦薇的晋江式演技也太带感了吧！#嫁金钗 #酷追嫁金钗这波贪麻了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "佛系泉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我要她死无葬身之地~ #田曦薇 #嫁金钗 #沙雕佛系泉 @嫁金钗（1016酷酷嫁到",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "唐森",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "模仿《嫁金钗》晋江式演技 #嫁金钗 #酷追嫁金钗这波贪麻了 #田曦薇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是小梨🍐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不懂就问还有成为君黛的风险吗？#嫁金钗钗学酷酷学 #嫁金钗 #魏娆 #田曦薇",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "iPhone Duo成电子茅台": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "财研网科技",
-     "verify": "蓝V",
-     "identity": "企业品牌",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "溢价超7000！iPhone Duo成电子茅台，首批iPhone Duo买家已赚翻#苹果 #苹果新品 #黄牛 #转卖 #茅台",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风云传播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iPhone Duo现货需加价一万元，经销商：货才几万台 预约人数200万，“这种东西一小时一个价” #ZMG风云传播中心 （记者：钟一苇 摄像：何伦 编辑：何",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国蓝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 IPhone Duo为何溢价过万？数码店老板说不存在黄牛和渠道商溢价！称自己去拿货也要加价上万元，物以稀为贵，货少需求多，自然要溢价。#iPhone",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "实探华强北iPhone Duo行情 首批货源紧张单店仅几台 捆绑配件销售溢价最高破万 线上订单已排队至明年提货｜一探",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "X科技实验室",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "抢到iPhone Duo了吗？晒个单 #iPhoneduo #苹果折叠屏 #iPhone #抢购iPhone #硬核玩家计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟随魏娆体会成长型爽文人生": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "空谷幽兰妮猫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“我不会一辈子做人脚下的泥。” #嫁金钗 #了不起的混剪团 #田曦薇 #嫁金钗反转张力酷酷拿捏 #魏娆 @嫁金钗（1016酷酷嫁到",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "胡咕噜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别笑，除了魏娆，谁也过不了第二关！ 属于是各个狠角色齐聚一堂了！#田曦薇 #嫁金钗 #了不起的混剪团 #混剪产粮团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "懒懒大王.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "系统提示：您的防沉迷“魏娆”系统安装失败#嫁金钗 #田曦薇 #闫桉 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "肖战姜妍新剧抢弟弟修罗场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小城良方(1021开播",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在吗战哥@肖战 #肖战 #刘铮亮#小城良方",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "复刻嫁金钗名场面": {
-   "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "一口气梳理维秘大秀造型看点": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "费斯FACE",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "👙这届维密的性感美学你们买账吗？！！ 2026Victoria's Secret秀场直击！ 2026维密大秀盘点！： 视频顺序：Bella Hadid开场，a",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "在秋天给自己画一幅肖像": {
+  "遗落人间的神明少女": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
   "一看就是杠上开花的气质": {
    "stats": {},
-   "authors": [
-    {
-     "name": "勐捧爱目眼镜",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重返过去！#复古出圈 #不同年代的娱乐方式 #复古牌局氛围 #港风港姐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李李lili",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@同款制作教程👉柒嘻嘻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱妃🍃护肤品～轻松瘦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太假了直接给我换了一张脸#小三的长相",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "勿忘初心😈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "带劲哈哈哈哈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小猫.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#人间清醒剧本杀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "兜兜有糖🍬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "发财和发视频，我总要发一个吧！祝刷到这条视频的各位，麻将桌上AI护体，张张是宝，杠上开花！#麻将发财",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "温柔雕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#民国风麻将",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栖桃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听我说谢谢你 还给我个特写#复古出圈 #民国剧氛围感 #ai #麻将",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "妍儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#听说最近这个视频很火，我也来一个",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿沈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最近挺火的玉簟秋打麻将片段，跟风来个🙈🙈🙈",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "田曦薇闫桉互动甜度超标了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "uu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陆濯开出了细君 我开出了老婆#嫁金钗 #田曦薇 #闫桉",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "虞昶轩认输含泪放走叶平君": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧玉簟秋（进簟容易出簟难",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一句“我在”，抵过世间万言。#玉簟秋 杨辉翔（#丞磊）#徐若晗 （按姓氏笔画排序）#虞昶轩 #叶平君",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "看但丁爷爷抱玩偶心都化了": {
-   "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "万物皆可变捏捏": {
+  "等夏天等秋天": {
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "白鹿工作室公布见面会补偿方案": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月13日，#白鹿方发布泰国见面会退票方案 ：可全额免费退票，承担住宿及机票退改费用 。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "白鹿曼谷见面会宣布取消，工作室致歉：鉴于近期相关风险提示，与平台审慎沟通后取消，后续补偿方案公布",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "实测Deepseek v4.1动画效果": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "·•••••",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国模DeepSeek这次真的有被震惊到了 刚上线的Deepseek v4.1 flash-1017，前端审美可以跟opus5.5能比个有来有回了。本次DS 的a",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "时一Shiyi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "同一个提示词，让刚上线的 DeepSeek V4.1 Flash 1017 和 Opus 5.5 各做一版歌词 MV，上面 DeepSeek，下面 Opus。 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "清晨方白晓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DeepSeek 1017 刚更新，同一段提示词测出新旧差距 DeepSeek 今天更新了 V4.1 Flash 1017。 我直接拿同一段提示词，让新旧两个版",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "奚梦瑶维密鎏金翅膀惊艳全场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "盐渍士多啤梨🍓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "live 赶上了这套绝绝子😍 The Victoria's Secret Fashion Show 2026 #VictoriasSecret #维多利亚的秘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "流浪鱼饼（重生版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#奚梦瑶 奚妃回宫 这个造型完全天使之翼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱乐柿柿屋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "只能说超模不愧是超模啊#奚梦瑶 #维密 #模特 #时尚 #走秀",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "鞠婧祎墨镜转场太酷了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "鞠婧祎",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🕶️❤️‍🔥",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "被维密大秀上的设计美到失语": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "邓超带大妈舞团圆梦美好奇妙夜": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "老邓（SuperDeng）",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不管齐不齐@村里大妈跳不齐 ，带着爱，我们一直跳下去！#邓超 #你是我的超级英雄 #2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "邓超工作室",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一场跨时空的对话让大家红了眼眶，离开聚光灯，他们依然闪闪发光。#邓超 #2026美好奇妙夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱乐芝士酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "AI让思念有了回响#2026美好奇妙夜 #邓超带大妈舞团圆梦美好奇妙夜 #邓超 #weare伐木累 #ai",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "南北吃蟹大不同": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "老王在中国",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我没有后悔来到这里！ 朋友们太热情了根本停不下嘴嘴~家人们你们最近吃大闸蟹了吗？#呀哈比比 #美食侦探 #泗洪美食 #大闸蟹 #抖音精选app美食录",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "任天野",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泗洪 | 尅螃蟹🦀 #遇见城市 #心动打卡指南 #任天野的人间烟火 #泗洪 #秋季治愈系美食",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小夕生活日记 20号8点大闸蟹专场",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "余雪举办的扎蟹大赛开始啦，一群大姐同台竞赛，工作娱乐两不误，看看大奖最后花落谁家～#大闸蟹",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "枫叶一红就知道该出片了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "心语🌹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "心语🌹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "COCO",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#秋日氛围感拍照",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雨晨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "红枫树下的温柔时光",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "单依纯一跤摔到维密秀": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "单依纯工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一跤又给🥚摔美了吧 （当然了日常就够美的了🫰🏻） @单依纯 #哪里摔倒哪里爬起来 #变装 #走路小心点 #2026维密大秀 #2026VSFS",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "维多利亚的秘密",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🥚：什么安排？当然看秀咯 和维密中国区品牌代言人@单依纯 一起锁定#2026维密大秀 持续关注我们💗时尚盛宴马上开始 #维密中国区品牌代言人单依纯 #202",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "任贤齐送侯浪吉他和外套": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "侯浪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感谢齐哥厚爱 让我们一起唱响山河吧 #侯浪现身任贤齐演唱会 #侯浪 #侯浪卡拉OK演唱会 #任贤齐演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "繁荣主义穿搭回归": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Frida",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我爱上繁荣主义穿搭。穿搭越繁荣越迷人！Less is safe，more is alive #当我爱上繁荣主义穿搭 #ootd穿搭 #度假穿搭 #繁荣主义穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李平川",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "千禧极繁的新衣试穿*7️⃣这位小姐就这么爱花衣服 #复古穿搭 #今日份穿搭公式 #新衣试穿#付智恩皮草",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "迪娜dina_阿迪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "问我了吗 就把我改成繁荣主义大美女。韩老师@韩好甜 的权威穿搭再次出现! 还有一些美美拍照技巧😁💕 #美的很权威 #绝不浪费一秒出片时间 #穿搭技巧 #拍照",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一顶假发拿捏秋冬氛围感": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一片和气【自然系毛娘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么假发值得我一根根钩 #cos造型假发 #齐司礼",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "条儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哇塞 这次平价版的假发有点让我惊到了 对我个人觉得这个版型挺好的了#假发测评 #平价假发 #假发 #平价假发测评",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小侯吼吼Ya",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "6顶百元内平价假发开箱！第一次戴就连出两条爆款呜呜感动坏了 #开箱 #假发 #假发分享 #好物分享 #假发推荐",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "轻亚穿搭审美展示": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "DT",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "annyeonghaseyo～#这个秋冬我要当最忧郁之人 #忧郁 #轻亚穿搭 #穿搭分享 #ootd",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不知道az",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑色系。#亚文化穿搭 #暗黑系 #轻亚穿搭 #ootd穿搭 #无性别穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叫我181",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "进入舒适区💙 #轻亚穿搭 #白又瘦不是唯一的标准 #181 #love #fyp",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   }
  }
 }
