@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-10-23 04:41",
+ "updated_at": "2026-10-23 05:41",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 48,
+ "ok_count": 47,
  "lexicon_count": 0,
  "topics": {
-  "西藏7.0级地震已致16死54伤": {
+  "西藏7.0级地震已致16死65伤": {
    "stats": {},
    "authors": [
     {
@@ -40,16 +40,6 @@
      "hot": 0
     },
     {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年10月22日22时33分，西藏那曲市巴青县发生7.0级地震。截至10月23日5时20分，经进一步排查统计，地震已造成16人遇难，46人受伤。目前，人民",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "中国新闻社",
      "verify": "蓝V",
      "identity": "媒体人",
@@ -76,6 +66,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "西藏那曲市巴青县发生7.0级地震，实拍武警西藏总队调派251名兵力赶赴灾区",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "工人日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 火线驰援！武警西藏总队官兵连夜出动奔赴抗震救灾一线！22日22时33分，西藏那曲市巴青县发生7.0级地震。地震发生后，武警西藏总队迅即启动抢险救灾应",
      "likes": 0,
      "hot": 0
     }
@@ -184,32 +184,32 @@
      "hot": 0
     },
     {
-     "name": "人民日报",
+     "name": "CCTV4",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "人民子弟兵来了！西藏那曲市巴青县发生7.0级地震，西藏武警那曲支队官兵连夜赶赴灾区。愿平安！",
+     "text": "现场画面！西藏那曲市巴青县发生7.0级地震，那曲消防支队巴青县大队救出一名被困人员。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "西藏日报",
+     "name": "中国青年报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一路都是逆行者的光！ #西藏巴青 发生7.0级地震，西藏日报记者记录下驰援灾区的消防车辆。",
+     "text": "#媒体原创 紧急出动！西藏那曲市巴青县发生7.0级地震，武警官兵连夜机动挺进灾区开展救援工作。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新华社电视",
+     "name": "中国新闻社",
      "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "西藏那曲7.0级地震 西部战区官兵连夜救援",
+     "text": "现场画面！西藏巴青“7.0”级地震成功救出被困人员 #西藏那曲 #媒体原创 #直击第一线 #媒体精选计划",
      "likes": 0,
      "hot": 0
     }
@@ -227,73 +227,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 最近，一本叫《#高性价比人生指南 》的PDF文档火了。它只做一件事：告诉我们，怎么用最少的钱、时间和精力，换回寿命、金钱和自由。但是，读着读着，你就",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今日霜降": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日#霜降 ，好事成“霜”，喜从天“降”！愿你添衣保暖，岁岁安康，健康平安双降，财运好运双降～",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华每日电讯",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#每日早安 |今日霜降 ，愿您和家人大“柿”小”柿“ 、“柿柿”如意，气温骤降，莫忘添⾐裳。 #新华每日电讯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "菏泽日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今日霜降：霜落秋终，静待冬来 记者：李跃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "掌上广饶",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "霜降人间秋向晚，万物归藏时，愿你心头常暖如春。#霜降 #二十四节气 （出镜：赵士博；摄制：曹宇杰；编审：黄甜甜；监审：张文颜）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "甘肃卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时节流转，岁岁年年，我们迎来了二十四节气里的第十八个节气——霜降。 霜降到了，天气由凉转寒，露水凝结成霜。霜降从不是萧瑟的代名词，而是冬天独有的浪漫与治愈。#二",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陈仓融媒",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "霜落深秋 静候冬来 记者：杨利军 杜静",
      "likes": 0,
      "hot": 0
     }
@@ -368,9 +301,86 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "今日霜降": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今日#霜降 ，好事成“霜”，喜从天“降”！愿你添衣保暖，岁岁安康，健康平安双降，财运好运双降～",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华每日电讯",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#每日早安 |今日霜降 ，愿您和家人大“柿”小”柿“ 、“柿柿”如意，气温骤降，莫忘添⾐裳。 #新华每日电讯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "菏泽日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今日霜降：霜落秋终，静待冬来 记者：李跃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "掌上广饶",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "霜降人间秋向晚，万物归藏时，愿你心头常暖如春。#霜降 #二十四节气 （出镜：赵士博；摄制：曹宇杰；编审：黄甜甜；监审：张文颜）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "甘肃卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时节流转，岁岁年年，我们迎来了二十四节气里的第十八个节气——霜降。 霜降到了，天气由凉转寒，露水凝结成霜。霜降从不是萧瑟的代名词，而是冬天独有的浪漫与治愈。#二",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈仓融媒",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "霜落深秋 静候冬来 记者：杨利军 杜静",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "国乒男团亚锦赛四连冠": {
    "stats": {},
    "authors": [
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜！乒乓球亚锦赛国乒男团3-0横扫韩国队，摘得男团金牌，中国队实现亚锦赛男团4连冠",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "咪咕体育",
      "verify": "蓝V",
@@ -378,244 +388,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "恭喜国乒男团亚锦赛四连冠，这是属于他们的荣耀时刻，一起见证小伙子们戴上金牌捧起奖杯的瞬间！#亚锦赛国乒男团3比0韩国 #国乒男团横扫韩国夺冠 #国乒男团亚锦赛四",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "亚锦赛国乒女团决赛不敌日本": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "决胜盘王艺迪1比3桥本帆乃香，中国女团2比3日本女团，国乒女团获得亚锦赛亚军。 #国乒女团2比3日本女团 #王艺迪1比3桥本帆乃香 #国乒女团获亚锦赛亚军 #日",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国乒女团2:3不敌日本队（来源：央视新闻）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大众新闻•半岛都市报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年乒乓球亚锦赛女团决赛，经过五盘鏖战，中国队2-3日本队，获得亚锦赛亚军（来源 咪咕体育 编辑 王爱华）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间10月22日，乒乓球亚锦赛女团决赛，中国队迎战日本队。本场比赛，中国队派出陈熠、王艺迪、蒯曼出战，日本队则由桥本帆乃香、张本美和、早田希娜应战。首盘陈熠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月22日（发布）。乒乓球亚锦赛国乒女团2-3不敌日本，无缘女团金牌；陈熠0-3连输两盘，蒯曼3-0早田希娜，王艺迪力克张本美和，决胜盘不敌桥本帆乃香。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黄海南部进行实弹射击意味着什么": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 罕见！黄海南部连续47天“禁入”藏了什么深意？#精选主播说 #东方快评 #子午观潮 #军事",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "直新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 台湾时事评论员赖岳谦分析指出，黄海南部47天实弹射击，完整覆盖美日“利剑 27”军演周期。解放军保持随时备战状态，以演训应对外部军事动向。#美国 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "解放军罕见六大海域同步演训，传递哪些战略信号?#新闻今日谈 #解放军六处海域同时集训",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 直击演训场：海军舰艇编队开展多课目实弹射击演练",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "近日，南部战区海军某支队昆仑山舰、祁连山舰、五指山舰、长白山舰组成舰艇编队赴某海域开展多课目实战化训练。此次训练紧贴实战要求，构设逼真战场环境，有效淬炼编队在复",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "经历一次7小时高强度空战对抗是啥感觉？空军飞行员：回来后膝盖以下全是紫的……（记者：何晓峪 刘南松 田野等）#歼16 #战机 #致敬人民子弟兵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看台海",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "解放军位南海部分海域进行实弹射击，张延廷：既能演习又能震慑菲律宾，一举两得#看台海",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "人民日报评老师被家长无理举报": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "田萌不卖萌",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "家长频繁举报老师：别让过度投诉，凉了教育的温度#人民日报评老师被家长无理举报 #一有分歧就举报老师还怎么教孩子 #精选主播说 #媒体人精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人民锐评：一有分歧就举报，老师还怎么教孩子（编辑：阿联）@人民锐评",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "9月开学季，有的学校短短两周就收到近40封举报信 人民日报评论：一有分歧就举报，老师还怎么教孩子；若让无理举报取代正常沟通，家校间的信任将被严重消耗。 为什么举",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人民日报发声：一有分歧，家长就举报，老师还怎么教孩子！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一有分歧就举报，老师还怎么教孩子，人民日报评论老师频繁遭举报。有学校两周收到近40封，多数不属实。家长怕“穿小鞋”，学校息事宁人。老师无奈感慨：举报成本太低了。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "NBA76人114:106击败骑士": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "孔祥宇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "76人114:106骑士！29分大逆转！ #76人29分逆转战胜骑士 #76人战胜骑士 #詹姆斯 #哈登",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雷速体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "逆转29分！76人创造97-98赛季以来单场最大逆转纪录#篮球 #NBA #詹姆斯 #76人 #骑士",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "底薪老将稳定发挥！#詹姆斯17分10篮板5助攻3抢断 #76人超级大逆转骑士 #NBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "佟议个球🏀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《76人半炮逆转骑士》 #76人 #詹姆斯 #哈登 #恩比德 #佟议个球",
      "likes": 0,
      "hot": 0
     }
@@ -660,6 +432,214 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "亚锦赛国乒女团决赛不敌日本": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "澎湃新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国乒女团2:3不敌日本队（来源：央视新闻）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "决胜盘王艺迪1比3桥本帆乃香，中国女团2比3日本女团，国乒女团获得亚锦赛亚军。 #国乒女团2比3日本女团 #王艺迪1比3桥本帆乃香 #国乒女团获亚锦赛亚军 #日",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大众新闻•半岛都市报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026年乒乓球亚锦赛女团决赛，经过五盘鏖战，中国队2-3日本队，获得亚锦赛亚军（来源 咪咕体育 编辑 王爱华）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐鲁晚报·果然视频",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间10月22日，乒乓球亚锦赛女团决赛，中国队迎战日本队。本场比赛，中国队派出陈熠、王艺迪、蒯曼出战，日本队则由桥本帆乃香、张本美和、早田希娜应战。首盘陈熠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月22日（发布）。乒乓球亚锦赛国乒女团2-3不敌日本，无缘女团金牌；陈熠0-3连输两盘，蒯曼3-0早田希娜，王艺迪力克张本美和，决胜盘不敌桥本帆乃香。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "乒乓球亚锦赛国乒今日赛程": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黑龙江新闻广播",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国乒亚锦赛10月23日赛程 #上热门 #热门 #正能量 #国乒 #加油 @黑龙江台生活广播官方账号 @静听时光",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "東亮爱体育",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第9集丨国乒主力缺席亚锦赛，为什么王励勤这个做法会得到支持？ #亚锦赛 #王励勤 #国乒 #乒乓球亚锦赛开赛 #中日乒乓球对决",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东方体育日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026乒乓球亚锦赛男团决赛，中国队3-0韩国队。林诗栋赛后谈到首战朴奎炫遇挑战，及时调整心态携手夺男团冠军#乒乓球亚锦赛 #林诗栋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜国乒男团亚锦赛四连冠，这是属于他们的荣耀时刻，一起见证小伙子们戴上金牌捧起奖杯的瞬间！#亚锦赛国乒男团3比0韩国 #国乒男团横扫韩国夺冠 #国乒男团亚锦赛四",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乒羽哲学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "松岛辉空0-3朴奎炫 看出来了，他就想单打#松岛辉空 #乒乓球亚锦赛 #张本智和 #乒乓球比赛 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "NBA76人114:106击败骑士": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "孔祥宇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "76人114:106骑士！29分大逆转！ #76人29分逆转战胜骑士 #76人战胜骑士 #詹姆斯 #哈登",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如坐过山车！#76人超级大逆转 #76人29分逆转骑士 #76人首发爆砍105分 #NBA",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【NBA请细品：#76人29分大逆转骑士 】半场落后24分又如何？常规赛第二战，尽显五星76人成色。终场前，哈登在布朗、恩比德合围中突分莫布利，詹姆斯斜刺杀出精",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "林诗栋将出战混合团体世界杯": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "海南广播电视总台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "林诗栋将出战2026年国际乒联混合团体世界杯 #国乒 #男乒 #小石头 #海南",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海南日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "林诗栋将出战2026年国际乒联混合团体世界杯 #林诗栋 #国际乒联混合团体世界杯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月19日，中国乒协公布2026年国际乒联混合团体世界杯选拔办法。 其中第一条规定，以2026年10月12日国际乒联公布的世界排名为标准，单打排名最高的男女各",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "河北体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国乒协公布2026年国际乒联混合团体世界杯选拔办法，孙颖莎凭借世界排名直接入选，期待赛场精彩发挥。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Captain.骰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真上一单了有人又要不开心了#林诗栋 #亚锦赛男团冠军 #亚锦赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "采暖费能找人打折代缴系骗局": {
    "stats": {},
    "authors": [
@@ -670,6 +650,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "“内部人员”代缴采暖费享折扣？北京热力辟谣：系典型骗局！转发提醒，提高警惕！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "i人是e人的玩具在清园具象化了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "哇哈哈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我闺蜜是i人 不敢看帅哥 #清明上河园#清明上河园给河南上大分了#帅哥 #看帅哥可以延长寿命",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大口吃饭🍚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别抗拒了 #清明上河园给河南上大分了#清明上河园",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "正在清园抛土豆🥔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "I人是e人的玩具具象化了 #清明上河园 #npc #景区npc互动 #清明上河园给河南上大分了",
      "likes": 0,
      "hot": 0
     }
@@ -697,167 +714,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#孟子义 风雨满身，往后前路，都由她自己书写。@孟子义 #暮晚摇 #孟子义尚公主 #尚公主",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "乒乓球亚锦赛国乒今日赛程": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黑龙江新闻广播",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国乒亚锦赛10月23日赛程 #上热门 #热门 #正能量 #国乒 #加油 @黑龙江台生活广播官方账号 @静听时光",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "东方体育日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026乒乓球亚锦赛男团决赛，中国队3-0韩国队。林诗栋赛后谈到首战朴奎炫遇挑战，及时调整心态携手夺男团冠军#乒乓球亚锦赛 #林诗栋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜国乒男团亚锦赛四连冠，这是属于他们的荣耀时刻，一起见证小伙子们戴上金牌捧起奖杯的瞬间！#亚锦赛国乒男团3比0韩国 #国乒男团横扫韩国夺冠 #国乒男团亚锦赛四",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "安然",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "决赛林诗栋、向鹏、周启豪出场，轻松夺冠。#乒乓球亚锦赛 #林诗栋 #中国男乒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "東亮爱体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第9集丨国乒主力缺席亚锦赛，为什么王励勤这个做法会得到支持？ #亚锦赛 #王励勤 #国乒 #乒乓球亚锦赛开赛 #中日乒乓球对决",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2026KPL淘汰赛抽签结果出炉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中安在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月22日（发布）2026KPL年度总决赛淘汰赛抽签仪式结果出炉：TTG对阵JDG，狼队对阵滔搏，KSG对阵WB。（编辑：小yu）#026KPL年度总决赛淘汰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "KPL王者荣耀职业联赛",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欢迎来到“雾行荣耀”#kpl十周年#2026kpl年度总决赛#雾行千山#kpl#重庆狼队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "kpl电竞（厂长）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "KPL十大年度记忆人物雕塑展--长沙七彩盒子#KPL十大年度记忆人物 #kpl十周年 #2026KPL年度总决赛 #kpl十周年生日会 #雕塑",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无语破防倪少",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让不追竞的朋友锐评kpl年总定妆照。仅代表个人观，骂我就行别骂我朋友#kpl职业选手 #电竞选手 #kpl选手定妆照 #kpl年度总决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王者荣耀-晓夏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "电子竞技的魅力就是，不到最后一刻，你是真的不知道是谁赢！ #kpl十周年 #2026kpl年度总决赛 #kpl大文豪 #kpl十周年生日会 #kpl观赛团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "西藏地震救援工作重点和难点是什么": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏巴青7.0级地震救援工作重点和难点是什么？群众生活的保障情况怎么样？总台连线现场救援人员",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月22日22时33分在西藏那曲市巴青县发生7.0级地震，震源深度10千米。灾情发生后，拉萨消防救援机动支队那曲大队立即派出前突小组前往震中摸查灾情，目前正在",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场视频！西藏那曲市巴青县发生7.0级地震 武警官兵连夜出动赶赴灾区",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场视频！西藏那曲市巴青县发生7.0级地震，救援官兵连夜赶赴灾区。",
      "likes": 0,
      "hot": 0
     }
@@ -996,26 +852,6 @@
      "hot": 0
     },
     {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场直击！西藏那曲市巴青县发生7.0级地震，总台记者抵达受灾最严重的玛如乡。（来源：新闻频道）#直击第一线 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荔枝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏巴青县发生7.0级地震 亲历者讲述惊魂时刻：墙体震裂 有男士仅穿裤衩跑出 回酒店又遇余震#西藏地震 #地震",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "国家应急广播",
      "verify": "红V",
      "identity": "媒体人",
@@ -1026,22 +862,12 @@
      "hot": 0
     },
     {
-     "name": "潇湘晨报·晨视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西藏那曲市巴青县发生7.0级地震，那曲市消防警力赶赴巴青、索县方向，青海玉树调度消防队伍深夜驰援西藏那曲。#媒体原创 #地震 #西藏那曲 #消防救援 #驰援 （",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "西藏日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "西藏巴青“7.0”级地震 | 胡昌升连夜赶到索县人民医院看望受伤群众，“总书记和党中央非常关心我们！不用担心，党和政府会照顾好大家！”",
+     "text": "西藏#巴青 县“7.0”级地震，多方#救援 力量已到达受灾现场。#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -1049,106 +875,220 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "别让医学成为一场秀": {
+  "人民日报评老师被家长无理举报": {
    "stats": {},
    "authors": [
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "手握10篇SCI的医学生诊断靠盲猜？人民锐评：医学容不得盲猜，临床不是秀场，谁也不能当儿戏！#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "零度时评",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 手握10篇SCI 读片却盲猜病情 医学生李子祺引争议 医学不是爽文 流量不能用敬畏换！ #精选主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长城新媒体",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#一句“不上临床”引爆热搜 ，校方回应之后，我们更该给年轻人留点成长空间。#精选主播说 #媒体精选计划#媒体原创 （原创 编辑：TU）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "马俊哲律师",
+     "name": "田萌不卖萌",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "18个月临床轮转记录摆在面前，综艺一句口误为何引爆学术造假疑云？#校方回应《令人心动的offer》嘉宾李子祺被人质疑学术造假 #令人心动的offer #李子祺",
+     "text": "家长频繁举报老师：别让过度投诉，凉了教育的温度#人民日报评老师被家长无理举报 #一有分歧就举报老师还怎么教孩子 #精选主播说 #媒体人精选计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "推石头的林律师",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "医学生李子祺上综艺引发争议，多篇SCI论文经得起考验吗？ 医疗真人秀天然自带流量诱惑，但我一直觉得，不管律师也好，医疗，有些场景不适合娱乐化。为了看点剪辑、放大",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
+     "name": "环球时报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "人民日报评“医学生盲猜病情”，临床不是秀场，医学容不得“盲猜”，谁也不能把临床当儿戏！",
+     "text": "人民锐评：一有分歧就举报，老师还怎么教孩子（编辑：阿联）@人民锐评",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "海报新闻",
+     "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "诊断靠“盲猜” 患者没钱看病就自己垫付？《令人心动的offer8》医学季播出引锐评，多名医学生吐槽节目和真实临床脱节，戏称“令人心梗的offer”，医学容不得戏",
+     "text": "人民锐评：面对家长举报 有的学校第一反应是让老师退一步 这种处理逻辑传递一种错误信号 老师从中学会了“少做少错” 家长则学会了“有事就举报”",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "陕西都市快报",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#医学生 一句 “盲猜诊断” 引爆争议，节目多处专业内容被质疑，人民日报点评：临床不是秀场，医学容不得盲猜。 #令人心动的offer8 #医学综艺争议",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今视频长天新闻",
+     "name": "爱济南新闻客户端",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "诊断靠一句“我盲猜”，一综艺节目让无数医学生直呼“烧心”，人民日报锐评：临床不是秀场，谁也不能把临床当儿戏！#令人心动的offer",
+     "text": "9月开学季，有的学校短短两周就收到近40封举报信 人民日报评论：一有分歧就举报，老师还怎么教孩子；若让无理举报取代正常沟通，家校间的信任将被严重消耗。 为什么举",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "律师张莉",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "四川日报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "校方回应《令人心动的offer》嘉宾李子祺被人质疑学术造假，网络质疑的边界在哪里？#抖来普法2026 #令人心动的offer #综艺嘉宾李子祺被质疑学术造假 #",
+     "text": "人民日报发声：一有分歧，家长就举报，老师还怎么教孩子！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "西藏地震救援工作重点和难点是什么": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏巴青7.0级地震救援工作重点和难点是什么？群众生活的保障情况怎么样？总台连线现场救援人员",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人民子弟兵来了！西藏那曲市巴青县发生7.0级地震，西藏武警那曲支队官兵连夜赶赴灾区。愿平安！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！西藏那曲市巴青县发生7.0级地震，救援官兵连夜赶赴灾区。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国地震台网正式测定：10月22日22时33分在西藏那曲市巴青县（北纬32.40度，东经93.79度）发生7.0级地震，震源深度10千米。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！西藏那曲市巴青县发生7.0级地震 武警官兵连夜出动赶赴灾区",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "这首过渡期实在是太痛了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "可口可口可乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小宇《过渡期》好听🤩@宋念宇#吉他弹唱 #音乐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咕噜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个转音#过渡期 #宋念宇 #清唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Tiffany",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小宇的超绝转音 《过渡期》#转音 #宋念宇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝐿𝐿𝑍71",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宋念宇 小宇 过渡期 车内吉他弹唱版 降低“叮”音效 回复 @辣手摧花把妹王⥳的评论 其实这是一个图文博主（） #音乐分享 #宋念宇 #过渡期 #吉他弹唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "别管我了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#过渡期 #宋念宇 #清唱 #录音 #转音",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿欣🎸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天刷到今天学会今天唱！太好听了这首歌，从第一句就这么好听。#过渡期 #宋念宇 #过渡期宋念宇 #小宇宋念宇 #吉他弹唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Zeal_Wish",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我是你的过～～渡期 #过渡期 #过渡期宋念宇 #吉他翻唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大敏敏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "过渡期 太好听了 @小宇 宋念宇 #过渡期 #吉他 #音乐成长之路 #宋念宇#过渡期翻唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "bbj",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我将讨厌这个爱感冒的天气😡#过渡期 #宋念宇 @小宇 宋念宇 #0帧起唱 #清唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝟮𝗦𝗮𝗱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我是你的过~渡~期 #过渡期 #宋念宇 #rnb #翻唱",
      "likes": 0,
      "hot": 0
     }
@@ -1170,16 +1110,6 @@
      "hot": 0
     },
     {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 军机舰船“三面围台”，从北向南六海区开启演训。面对赖清德所谓“双十”讲话渲染威胁、美日联合七国祸乱台海，解放军接连“亮剑”！#媒体精选计划 #台海观",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
@@ -1188,41 +1118,14 @@
      "text": "统一大势不可阻挡！台媒紧盯：解放军44架艘次军机舰船“三面包围台湾”#解放军 #台湾",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的秋冬通勤穿搭分享": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "是威崽呀！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上班族秋冬过渡通勤穿搭！裙子裤子我都要～ #通勤穿搭 #今天穿什么 #初冬穿搭 #可可系 #今日人设是office可可",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "没事看小夫",
-     "verify": "",
-     "identity": "",
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "4套160女生出游通勤不夸张的实用穿搭！ #秋冬女装 #日常温柔气质通勤穿搭指南 #160cm #方圆脸如何变身氛围感美女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "mini妮妮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个秋冬一定要穿的像个人#我的秋冬穿搭不烧心 #秋冬穿搭教科书来了 #交上我的秋冬穿搭作业 #一周通勤穿搭示范合集 #秋季6种色彩穿搭公式 @抖音热点",
+     "text": "#媒体原创 军机舰船“三面围台”，从北向南六海区开启演训。面对赖清德所谓“双十”讲话渲染威胁、美日联合七国祸乱台海，解放军接连“亮剑”！#媒体精选计划 #台海观",
      "likes": 0,
      "hot": 0
     }
@@ -1337,118 +1240,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这首过渡期实在是太痛了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "可口可口可乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小宇《过渡期》好听🤩@宋念宇#吉他弹唱 #音乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咕噜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个转音#过渡期 #宋念宇 #清唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Tiffany",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小宇的超绝转音 《过渡期》#转音 #宋念宇",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "别管我了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#过渡期 #宋念宇 #清唱 #录音 #转音",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿欣🎸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天刷到今天学会今天唱！太好听了这首歌，从第一句就这么好听。#过渡期 #宋念宇 #过渡期宋念宇 #小宇宋念宇 #吉他弹唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大敏敏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "过渡期 太好听了 @小宇 宋念宇 #过渡期 #吉他 #音乐成长之路 #宋念宇#过渡期翻唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "bbj",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我将讨厌这个爱感冒的天气😡#过渡期 #宋念宇 @小宇 宋念宇 #0帧起唱 #清唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝐿𝐿𝑍71",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小宇 宋念宇 过渡期 依旧算是一个图文预告，在车上那段被添加了音效导致导出来老有“叮” 的那一声，太刺耳了。 所以自己尝试消除了一下，顺便把音频搞得更有空间感一",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叶秉桓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家敲碗的過渡期來了 23年那時後心血來潮錄了一個過渡期，沒想到26年這首歌這麼火了，再給大家唱一次吧！ #过渡期 #小宇 #宋念宇 #无声卡清唱 #清唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Zoe可达鸭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "过渡期合拍的伴奏（！） #宋念宇 #过渡期 #翻唱 #rnb #转音",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小城良方病人没钱不愿意治病": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "嫁金钗单更对我很不好": {
    "stats": {},
    "authors": [
@@ -1486,6 +1277,107 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "我的秋冬通勤穿搭分享": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "是威崽呀！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上班族秋冬过渡通勤穿搭！裙子裤子我都要～ #通勤穿搭 #今天穿什么 #初冬穿搭 #可可系 #今日人设是office可可",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "没事看小夫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "4套160女生出游通勤不夸张的实用穿搭！ #秋冬女装 #日常温柔气质通勤穿搭指南 #160cm #方圆脸如何变身氛围感美女",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "mini妮妮",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个秋冬一定要穿的像个人#我的秋冬穿搭不烧心 #秋冬穿搭教科书来了 #交上我的秋冬穿搭作业 #一周通勤穿搭示范合集 #秋季6种色彩穿搭公式 @抖音热点",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黑猫喊你进入喝大水时代": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "绝望的白色老吴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#猫咪的迷惑行为 #猫 #喵 #咪 #cat",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "8.7万人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "8.7万人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "橘部有鱼form",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#猫咪#meme#搞笑#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "offer8医学生季开播": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "令人心动的offer",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#offer8美女学霸和杨超越是老乡 面试环节@周周周周周沁瑶_ 自我介绍说来自江苏盐城，恰好与@杨超越 是同乡，真是奇妙的缘分~每周三周四12点，#令人心动的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "诊断靠“盲猜” 患者没钱看病就自己垫付？《令人心动的offer8》医学季播出引锐评，多名医学生吐槽节目和真实临床脱节，戏称“令人心梗的offer”，医学容不得戏",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "全网首拆iPhone Duo": {
    "stats": {},
    "authors": [
@@ -1510,16 +1402,6 @@
      "hot": 0
     },
     {
-     "name": "Apple",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iPhone Duo 采用可折叠设计，坐拥 iPhone 迄今最大显示屏，iOS 重塑新体验，灵动表现独一份，比如多任务处理时可将 app 并排用，FaceTi",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "也读书",
      "verify": "",
      "identity": "",
@@ -1530,12 +1412,22 @@
      "hot": 0
     },
     {
-     "name": "两颗皮蛋",
-     "verify": "",
-     "identity": "",
+     "name": "朵哥互联科技",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "iPhone Duo，新十年的起点 万众期待的 iPhone Duo。经过这一个星期的使用，我又发现了一些当时在美国上手时，没有注意到的一些细节，今天这期视频我",
+     "text": "iPhone Duo首发开箱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "记者直击iPhone Duo首发日，长沙国金旗舰店现场无人排队，有黄牛带行李箱收货，有黄牛称价格崩了：早上加价2800收1TB，几小时跌几百，还在跌#媒体原创 ",
      "likes": 0,
      "hot": 0
     }
@@ -1587,12 +1479,12 @@
      "hot": 0
     },
     {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "老师好我叫何同学",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "行情跳水！iPhone Duo溢价暴跌 溢价5.8万跌到几千 从赚10万到亏2.5万 经销商百万元囤货遭压价 （编辑：冉冉） #媒体原创 #手机 #iPhone",
+     "text": "能折！但代价呢？iPhone Duo首发体验 #iPhoneDuo#何同学#Apple#折叠屏#iPhone",
      "likes": 0,
      "hot": 0
     }
@@ -1602,75 +1494,35 @@
   },
   "当我得知AG无缘年总淘汰赛": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "随时随地吃个火锅暖暖": {
-   "stats": {},
    "authors": [
     {
-     "name": "oojj",
+     "name": "纸巾解说",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁的一辈子",
+     "text": "AG无缘年总淘汰赛，长生钟意感性拥抱 #TES战胜AG #kpl十周年 #2026KPL年度总决赛 #kpl乐子大赏 #AG赛后采访",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "PinkPinkk",
+     "name": "Nono节奏复盘（感谢投稿）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁不想在上班的时候吃点火锅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娜娜子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#日子越来越有盼头了 诚邀，想吃的就来",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "jTxH",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "周末 见面 晚上 我们 幸福此刻具像化了#在家吃火锅的仪式感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": ".17～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "篮球场太冷了，吃个火锅暖暖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小福",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小福",
+     "text": "ag超玩会败给长沙滔博止步突围赛 @云木木电竞 #千年解说kpl #千年解说kpl年总 #2026kpl年度总决赛 #kpl十周年 @千年（万牢之主）",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "尚公主扶摇直尚好浓的居家生活感": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "长征颂歌致敬90年前的伟大胜利": {
    "stats": {},
@@ -1736,36 +1588,289 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "黑猫喊你进入喝大水时代": {
+  "这才是羽球界真正的神之八秒": {
    "stats": {},
    "authors": [
     {
-     "name": "绝望的白色老吴",
+     "name": "小亮啊小亮🏸",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#猫咪的迷惑行为 #猫 #喵 #咪 #cat",
+     "text": "这是我的神之八秒，不过董事长那边我真没法交代！#这才是真正的神之八秒 #一路挥拍 #dou来挥拍#一路挥拍到广东",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "8.7万人",
+     "name": "纯纯酱",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "8.7万人",
+     "text": "神之八秒？我也来一个 #dou来挥拍 #这才是真正的神之八秒 #打球的女生 #金刚芭比 #肌肉腿女孩",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "橘部有鱼form",
+     "name": "陈颖颖",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#猫咪#meme#搞笑#抖音玩法合伙人计划",
+     "text": "#决战到天亮 #这才是真正的神之八秒 #川崎决战到天亮 #dou来挥拍 #在决战听取哇声一片",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小城良方刘铮亮摸鱼反而更融入了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "CCTV电视剧",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#小城良方 怎么跟预想的剧情不一样？#来央八看好剧",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "青川仁义桃桃又合体了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "仁义桃桃（三角洲行动）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上海到西安距离有多远#青川仁义桃桃又合体了 #三角洲行动",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "10岁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新歌发布《杨桃之约》 上海之行就要结束了，虽然有遗憾但是我们也见证了很多美好的瞬间，杨桃不会结束，至于杨桃的故事就让他们自己书写吧～@青川（三角洲行动） @仁义",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青川的恋爱日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杨桃爆笑对线 这是吃醋了！？ 桃桃是真了解川神的直播内容啊#青川三角洲行动 #猩球电竞 #猩球电竞俱乐部 #猩球电竞切片 @青川（三角洲行动） @仁义桃桃（三角",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋叶飘落枝头": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "果儿🍒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "果儿🍒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娟子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "娟子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌻美好人生🌻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#秋叶飘落枝头，随着风儿游走",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "萍姐🍀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萍姐🍀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "幸福一家人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#二十四节气之霜降 #枫叶入秋画境美 #霜降节气来了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "开心老太太😀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "开心老太太😀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "彤彤奶奶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "彤彤奶奶",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "珍珍黄三妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家晚上好",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "美滋滋mzz",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美滋滋mzz",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "春天2812897493470",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#二十四节气之霜降 #枫叶入秋画境美 ！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "布衣对话小城良方主演肖战": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "拆最爱我的星座测试盲盒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不是变态",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原来神就是孤独的#抖音玩法达人挑战赛#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Apple.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "应该挺准的，苍莹屎是水瓶座",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Aurora",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁是双鱼座来着#玄学 #星座 #最爱我的人是你",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "jan 19th",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#脑袋是用来想我的笨蛋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我又怎样",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我又怎样",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "十八遇冬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无是啥啊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "火鸡面大王.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "那很有意思了🤔#原来神是孤独的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "亚里士多德不多得",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#个人情绪树洞 #火象狮子座 无语🙄我都没谈过狮子座的人",
      "likes": 0,
      "hot": 0
     }
@@ -1884,6 +1989,115 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "小城良方病人没钱不愿意治病": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "魏娆周芙追女火葬场名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "葡萄",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好好哭 #严肃酷酷品鉴嫁金钗 #嫁金钗 #田曦薇 #魏娆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "指针重合",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周芙你对魏娆刀剑相向时 可想起昭阳殿那声声娆儿 #嫁金钗追更酷酷追 #嫁金钗 #田曦薇 #魏娆 #毛林林",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "嫁金钗（酷爽热播ing",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "漫长岁月里的委屈隐忍，都不及此刻刀剑相对带来的万念俱灰#嫁金钗 #田曦薇 #毛林林 #魏娆 #君黛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "随时随地吃个火锅暖暖": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "oojj",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁的一辈子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "PinkPinkk",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁不想在上班的时候吃点火锅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娜娜子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#日子越来越有盼头了 诚邀，想吃的就来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "jTxH",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周末 见面 晚上 我们 幸福此刻具像化了#在家吃火锅的仪式感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": ".17～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "篮球场太冷了，吃个火锅暖暖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小福",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小福",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "古早千金感穿搭太适合早秋了": {
    "stats": {},
    "authors": [
@@ -1914,392 +2128,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "秋冬太适合古早氛围了#少女感穿搭 #甜妹穿搭分享 #日常穿搭记录",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "外套里面穿什么": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "福瑞达达达",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "外套里面穿什么？｜3。#今日份穿搭公式 #秋冬优雅通勤穿搭 #穿搭思路分享 #女生万能穿搭法 #秋冬穿搭叠叠乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "摘颗星星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不同类型外套的搭配公式 #ootd穿搭新思路 #外套推荐 #中性风 #ootd #穿搭技巧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "超绝大米饭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闺蜜！其实你只需要4件内搭～搞定秋冬外套 #穿搭分享 #内搭外穿都好看 #打底衫 #内搭分享 #秋冬实用穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "offer8医学生季开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "令人心动的offer",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#offer8美女学霸和杨超越是老乡 面试环节@周周周周周沁瑶_ 自我介绍说来自江苏盐城，恰好与@杨超越 是同乡，真是奇妙的缘分~每周三周四12点，#令人心动的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海报新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诊断靠“盲猜” 患者没钱看病就自己垫付？《令人心动的offer8》医学季播出引锐评，多名医学生吐槽节目和真实临床脱节，戏称“令人心梗的offer”，医学容不得戏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小城良方刘铮亮摸鱼反而更融入了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "CCTV电视剧",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#小城良方 怎么跟预想的剧情不一样？#来央八看好剧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "青川仁义桃桃又合体了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "仁义桃桃（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上海到西安距离有多远#青川仁义桃桃又合体了 #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "10岁",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新歌发布《杨桃之约》 上海之行就要结束了，虽然有遗憾但是我们也见证了很多美好的瞬间，杨桃不会结束，至于杨桃的故事就让他们自己书写吧～@青川（三角洲行动） @仁义",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青川的恋爱日记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杨桃爆笑对线 这是吃醋了！？ 桃桃是真了解川神的直播内容啊#青川三角洲行动 #猩球电竞 #猩球电竞俱乐部 #猩球电竞切片 @青川（三角洲行动） @仁义桃桃（三角",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "拆最爱我的星座测试盲盒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我不是变态",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#原来神就是孤独的#抖音玩法达人挑战赛#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Apple.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "应该挺准的，苍莹屎是水瓶座",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Aurora",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁是双鱼座来着#玄学 #星座 #最爱我的人是你",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "jan 19th",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#脑袋是用来想我的笨蛋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我又怎样",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我又怎样",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "十八遇冬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无是啥啊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "火鸡面大王.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "那很有意思了🤔#原来神是孤独的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亚里士多德不多得",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#个人情绪树洞 #火象狮子座 无语🙄我都没谈过狮子座的人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用醉梦打开哈尔滨的冬天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "哈尔滨文旅",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一衣一食，一屋一物❄️衣食住行皆是东北气质，在#醉梦 感受这片土地独有的烟火气息#来龙江抬眼便是秋 #秋访冰城邂逅山河",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电视剧醉梦（醉好看版",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雪落漠河，醉梦寻踪❄️那些被岁月尘封的故事，正在慢慢苏醒#醉梦 #漠河",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杨阳导演工作室",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为什么一定要在最冷的时候拍《醉梦》？ 《醉梦》#杨阳导演 手记 零下二三十度，我们在东北坚守了三个月，只为讲普通人的困境——风雪冰冷，心有温度。 #醉梦 一场风",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "秋叶飘落枝头": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "果儿🍒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "果儿🍒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娟子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "娟子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🌻美好人生🌻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#秋叶飘落枝头，随着风儿游走",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "萍姐🍀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萍姐🍀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "幸福一家人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#二十四节气之霜降 #枫叶入秋画境美 #霜降节气来了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "开心老太太😀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "开心老太太😀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "彤彤奶奶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "彤彤奶奶",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "珍珍黄三妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家晚上好",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美滋滋mzz",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美滋滋mzz",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "春天2812897493470",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#二十四节气之霜降 #枫叶入秋画境美 ！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "iPhone Duo深度评测": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Konsn玩数码",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iPhone Duo 使用一周的 10 个体验？ #iPhoneDuo #iPhoneDuo开箱 #Konsn #硬核玩家计划 #抖音前沿科技首发计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "哈利本利",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iPhone Duo全网首发开箱！ #抖音前沿科技首发计划 #iPhoneDuo",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Eva的科技生活",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "苹果第一台折叠屏到底行不行？iPhone Duo全面体验#抖音前沿科技首发计划#硬核玩家计划#iPhoneDuo",
      "likes": 0,
      "hot": 0
     }
@@ -2344,36 +2172,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "魏娆周芙追女火葬场名场面": {
+  "外套里面穿什么": {
    "stats": {},
    "authors": [
     {
-     "name": "葡萄",
+     "name": "福瑞达达达",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "好好哭 #严肃酷酷品鉴嫁金钗 #嫁金钗 #田曦薇 #魏娆",
+     "text": "外套里面穿什么？｜3。#今日份穿搭公式 #秋冬优雅通勤穿搭 #穿搭思路分享 #女生万能穿搭法 #秋冬穿搭叠叠乐",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "指针重合",
+     "name": "摘颗星星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "周芙你对魏娆刀剑相向时 可想起昭阳殿那声声娆儿 #嫁金钗追更酷酷追 #嫁金钗 #田曦薇 #魏娆 #毛林林",
+     "text": "不同类型外套的搭配公式 #ootd穿搭新思路 #外套推荐 #中性风 #ootd #穿搭技巧",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "嫁金钗（酷爽热播ing",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "超绝大米饭",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "漫长岁月里的委屈隐忍，都不及此刻刀剑相对带来的万念俱灰#嫁金钗 #田曦薇 #毛林林 #魏娆 #君黛",
+     "text": "闺蜜！其实你只需要4件内搭～搞定秋冬外套 #穿搭分享 #内搭外穿都好看 #打底衫 #内搭分享 #秋冬实用穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -2418,16 +2246,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "庾澄庆恩利共创打歌": {
+  "用醉梦打开哈尔滨的冬天": {
    "stats": {},
    "authors": [
     {
-     "name": "En-Li恩利",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "哈尔滨文旅",
+     "verify": "蓝V",
+     "identity": "官方机构",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "快看！老爸来求我共创了🤭 请听《Angel Eyes》、《枝仔冰》，还有去看我爸演唱会《整晚哈音樂》！！！ #庾澄庆 #恩利新歌",
+     "text": "一衣一食，一屋一物❄️衣食住行皆是东北气质，在#醉梦 感受这片土地独有的烟火气息#来龙江抬眼便是秋 #秋访冰城邂逅山河",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电视剧醉梦（醉好看版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雪落漠河，醉梦寻踪❄️那些被岁月尘封的故事，正在慢慢苏醒#醉梦 #漠河",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杨阳导演工作室",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "为什么一定要在最冷的时候拍《醉梦》？ 《醉梦》#杨阳导演 手记 零下二三十度，我们在东北坚守了三个月，只为讲普通人的困境——风雪冰冷，心有温度。 #醉梦 一场风",
      "likes": 0,
      "hot": 0
     }
