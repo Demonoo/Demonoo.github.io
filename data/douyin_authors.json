@@ -1,68 +1,11 @@
 {
- "updated_at": "2026-10-22 23:39",
+ "updated_at": "2026-10-23 00:41",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 45,
+ "ok_count": 47,
  "lexicon_count": 0,
  "topics": {
-  "台风“蔷琵”或转向北上": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "国家应急广播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "台风“蔷琵”今天稍晚将进入24小时警戒圈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创提醒！超强台风“蔷琵”今天（22日）稍晚将进入24小时警戒圈，台湾北部、浙江东部、上海及江苏的东南部地区在23日、24日可能会有大到暴雨。（央视频号：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "台风“蔷琵”强度已达巅峰，正逐渐向台湾以东洋面靠近。虽然其未来路径还有不确定性，但台湾、浙江、上海、江苏等地都将有明显风雨。与此同时，冷空气将影响新疆，新疆北部",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今日海沧",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "台风“蔷琵”大概率转向北上，但华东沿海依旧要警惕风雨影响！ #台风 #台风蔷琵 #天气",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "珠海天气",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#超强台风级！未来三天#华东沿海将有明显风雨，23日夜间移入东海南部，逐渐趋向#日本，强度缓慢减弱 #广东#台风蔷琵",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "西藏7.0级地震已致16死46伤": {
    "stats": {},
    "authors": [
@@ -107,6 +50,16 @@
      "hot": 0
     },
     {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏巴青7.0级地震共记录到余震413次 最大余震4.3级",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "新京报",
      "verify": "红V",
      "identity": "媒体人",
@@ -117,32 +70,79 @@
      "hot": 0
     },
     {
-     "name": "海客新闻",
+     "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "西藏巴青7.0级地震致16死46伤：监控剧烈摇晃 民众跑到户外避险 消防赶赴震中",
+     "text": "西藏那曲市巴青县发生7.0级地震，目前已致16人遇难，46人受伤。各方救援力量已赶到现场，抗震救灾工作正在紧张进行中。愿平安！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "九派新闻",
+     "name": "央视网快看",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月23日，#西藏地震已致16死46伤。",
+     "text": "西藏那曲巴青7.0级地震已造成16人遇难 46人受伤",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "台风“蔷琵”或转向北上": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "国家应急广播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "台风“蔷琵”今天稍晚将进入24小时警戒圈",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "北京青年报",
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创提醒！超强台风“蔷琵”今天（22日）稍晚将进入24小时警戒圈，台湾北部、浙江东部、上海及江苏的东南部地区在23日、24日可能会有大到暴雨。（央视频号：",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "珠海天气",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#西藏地震已致16人遇难46人受伤 （央视）",
+     "text": "#超强台风级！未来三天#华东沿海将有明显风雨，23日夜间移入东海南部，逐渐趋向#日本，强度缓慢减弱 #广东#台风蔷琵",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今日海沧",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "台风“蔷琵”大概率转向北上，但华东沿海依旧要警惕风雨影响！ #台风 #台风蔷琵 #天气",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海峡都市报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超强台风“蔷琵”突然大拐弯，最新路径公布！福州提升防台风应急响应#蔷琵 #台风 #福州",
      "likes": 0,
      "hot": 0
     }
@@ -160,26 +160,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 #各地特色产业助农增收 【#全国秋粮大面积收获进行时 】眼下，全国秋粮大面积收获正在进行。各地抢抓窗口期，因地制宜发展特色产业，助农增收。 在新疆，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社电视",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国秋粮收获过七成#秋收 #粮食产量 #中国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国三农发布",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国家统计局：全年粮食有望再获丰收",
      "likes": 0,
      "hot": 0
     }
@@ -237,6 +217,33 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月22日，乒乓球亚锦赛，#国乒女团2比3日本女团，#国乒女团获亚锦赛亚军。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国乒男团亚锦赛四连冠": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜国乒男团亚锦赛四连冠，这是属于他们的荣耀时刻，一起见证小伙子们戴上金牌捧起奖杯的瞬间！#亚锦赛国乒男团3比0韩国 #国乒男团横扫韩国夺冠 #国乒男团亚锦赛四",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "花一朵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无主力兜底！国乒男团3比0横扫韩国，斩获亚锦赛男团冠军#国乒 #乒乓球 #乒乓球亚锦赛",
      "likes": 0,
      "hot": 0
     }
@@ -311,83 +318,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "亚锦赛决赛国乒男团vs韩国": {
+  "如何看待高性价比人生指南火了": {
    "stats": {},
    "authors": [
     {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "林诗栋顶级空间感，多次转攻锁定今日最佳球。#亚锦赛国乒男团2比0韩国 #林诗栋3比0朴奎炫 #林诗栋vs朴奎炫 #乒乓球亚锦赛2026",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "花一朵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无主力兜底！国乒男团3比0横扫韩国，斩获亚锦赛男团冠军#国乒 #乒乓球 #乒乓球亚锦赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风遇体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "林诗栋上一单抗住了 亚锦赛男团获得冠军 #亚锦赛夺冠 #亚锦赛 #林诗栋 #男团夺冠 #我的防线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "壹剪媒体育",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国乒男团夺得亚锦赛团体冠军，站上领奖台的他们终于笑了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "乡村里的拼豆店也有存在的意义": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "大板凳娱乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "代入小朋友的视角，家附近就有一家设备齐全又不贵的拼豆小店，会是一件多么开心的事情啊#拼豆 #农村 #拼豆店 #意义",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "野路子邮局",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嘲讽声中 我只看到了一位深爱孩子的家长 (叔叔本人：@拼豆豆豆DIY手工 ）#拼豆 #暖心 #父爱 #用心 #乡下",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大参考",
+     "name": "新湖南",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月22日（发布），河南中牟。爸爸在村里为女儿开两家店。拼豆店，宠物店，还陪女儿打游戏。想跟孩子多沟通，就要把孩子当朋友。#媒体原创 #媒体精选计划",
+     "text": "#媒体原创 最近，一本叫《#高性价比人生指南 》的PDF文档火了。它只做一件事：告诉我们，怎么用最少的钱、时间和精力，换回寿命、金钱和自由。但是，读着读着，你就",
      "likes": 0,
      "hot": 0
     }
@@ -502,19 +442,113 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "黄海南部进行实弹射击意味着什么": {
+  "乡村里的拼豆店也有存在的意义": {
    "stats": {},
    "authors": [
     {
-     "name": "看看新闻Knews",
+     "name": "大板凳娱乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "代入小朋友的视角，家附近就有一家设备齐全又不贵的拼豆小店，会是一件多么开心的事情啊#拼豆 #农村 #拼豆店 #意义",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "野路子邮局",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嘲讽声中 我只看到了一位深爱孩子的家长 (叔叔本人：@拼豆豆豆DIY手工 ）#拼豆 #暖心 #父爱 #用心 #乡下",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大参考",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 罕见！黄海南部连续47天“禁入”藏了什么深意？#精选主播说 #东方快评 #子午观潮 #军事",
+     "text": "10月22日（发布），河南中牟。爸爸在村里为女儿开两家店。拼豆店，宠物店，还陪女儿打游戏。想跟孩子多沟通，就要把孩子当朋友。#媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "抖音博主教你vibe知识大赏": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咕咕（AI飞升版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "vibe知识大赏｜视频制作揭秘，助你做自己的知识短片。 #vibe知识大赏 #ai新星计划 #抖音精选app征稿中",
      "likes": 0,
      "hot": 0
     },
+    {
+     "name": "小冯不意why",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Vibe知识大赏保姆级教程｜4步做出来，提示词直接抄 最近刷屏的 Vibe知识大赏，不是拍出来的，是 AI 写代码、按分镜一幕一幕画出来的。 我照着做了一条，把",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Winhao学AI",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Vibe知识大赏｜6步做出爆火的知识科普视频 最近刷屏的 Vibe知识大赏视频，保姆级教程来了 📚 这类视频大多是 AI 写代码、按分镜一幕一幕做出来的。 我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汤姆CC的AI工具箱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爆火的Vibe知识视频是怎么做的？ #Vibe知识大赏 #Vibe知识 #抖音前沿科技首发计划 #ai新星计划 #Claude @抖音科技",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哈士奇（AI）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "用豆包也能做vibe知识大赏，这种谁做谁火，关键得用这个skill，直接拆解爆款视频输入主题就能进行制作，关键是免费！！#豆包 #vibe知识大赏 #ai #c",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "许先森Ai",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "8 天，全网播放接近 1000 万，涨粉近 3 万。没有配音，没有真人出镜，就是我一个人加上 AI。这条视频把整个过程讲清楚：为什么有的爆、有的不爆，选题、开头",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄海南部进行实弹射击意味着什么": {
+   "stats": {},
+   "authors": [
     {
      "name": "直新闻",
      "verify": "红V",
@@ -522,6 +556,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 台湾时事评论员赖岳谦分析指出，黄海南部47天实弹射击，完整覆盖美日“利剑 27”军演周期。解放军保持随时备战状态，以演训应对外部军事动向。#美国 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 罕见！黄海南部连续47天“禁入”藏了什么深意？#精选主播说 #东方快评 #子午观潮 #军事",
      "likes": 0,
      "hot": 0
     },
@@ -542,6 +586,36 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "解放军位南海部分海域进行实弹射击，张延廷：既能演习又能震慑菲律宾，一举两得#看台海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "经历一次7小时高强度空战对抗是啥感觉？空军飞行员：回来后膝盖以下全是紫的……（记者：何晓峪 刘南松 田野等）#歼16 #战机 #致敬人民子弟兵",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 直击演训场：海军舰艇编队开展多课目实弹射击演练",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "近日，南部战区海军某支队昆仑山舰、祁连山舰、五指山舰、长白山舰组成舰艇编队赴某海域开展多课目实战化训练。此次训练紧贴实战要求，构设逼真战场环境，有效淬炼编队在复",
      "likes": 0,
      "hot": 0
     }
@@ -646,63 +720,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "人民日报发声：一有分歧，家长就举报，老师还怎么教孩子！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "媒体评樊振东发文怒斥偷拍": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#樊振东发文抵制偷拍 别让 “热爱” 沦为偷拍的遮羞布。#新闻有观点 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“真的有人愿意被偷拍吗？”樊振东发文怒斥偷拍。新京报快评：欣赏要有边界，别让偷拍消耗热爱 #精选主播说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "零度时评",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "樊振东发文怒斥偷拍！以爱为名，也不能为镜头越界发通行证 #读懂樊振东怒斥偷拍的苦口婆心 #樊振东说偷拍是侵犯他人隐私 #媒体原创 #精选主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "樊振东发文怒斥偷拍：不尊重他人、 侵犯隐私！评论：守住边界才是最好的支持",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风云传播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "樊振东怒斥偷拍，不尊重、侵犯他人隐私。曾因陌生人闯入房间而崩溃。#ZMG风云传播中心 （编辑：杨扬）",
      "likes": 0,
      "hot": 0
     }
@@ -817,16 +834,103 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "魏娆认亲差一步美满": {
+  "媒体评樊振东发文怒斥偷拍": {
    "stats": {},
    "authors": [
     {
-     "name": "嫁金钗（酷爽热播ing",
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#樊振东发文抵制偷拍 别让 “热爱” 沦为偷拍的遮羞布。#新闻有观点 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“真的有人愿意被偷拍吗？”樊振东发文怒斥偷拍。新京报快评：欣赏要有边界，别让偷拍消耗热爱 #精选主播说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "樊振东发文怒斥偷拍：不尊重他人、 侵犯隐私！评论：守住边界才是最好的支持",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "零度时评",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "樊振东发文怒斥偷拍！以爱为名，也不能为镜头越界发通行证 #读懂樊振东怒斥偷拍的苦口婆心 #樊振东说偷拍是侵犯他人隐私 #媒体原创 #精选主播说 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风云传播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "樊振东怒斥偷拍，不尊重、侵犯他人隐私。曾因陌生人闯入房间而崩溃。#ZMG风云传播中心 （编辑：杨扬）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "上海浙江福建等地有大到暴雨": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国家防总、应急管理部针对沪浙闽启动防汛防台风四级应急响应",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创提醒！超强台风“蔷琵”今天（22日）稍晚将进入24小时警戒圈，台湾北部、浙江东部、上海及江苏的东南部地区在23日、24日可能会有大到暴雨。（央视频号：",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门广电",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "那样的亲近，她看在眼里，也清楚和自己无关。#嫁金钗 #田曦薇 #魏娆 #君黛",
+     "text": "防御台风“蔷琵”，厦门渔船陆续返港避风（记者 | 乔丹 高志强，编辑 | 林建宁，责编 | 龚嘉，编审 | 郑红）#台风 #厦门 #渔船 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#台风蔷琵逼近中国24小时警戒线#蔷琵维持超强台风级已超100小时#自然灾害#上海 #台湾",
      "likes": 0,
      "hot": 0
     }
@@ -834,36 +938,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "山野可可系穿搭上新人了": {
+  "张雪机车第一届煮饭比武大会": {
    "stats": {},
    "authors": [
     {
-     "name": "王凯沐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#可可系",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鱼仔",
+     "name": "张雪的机车",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "有事别往心里去 往山野里去 #山野大赏 #在山里野一天太舒服了 #可可系 #山野可可系穿搭上新人了",
+     "text": "谁能帮我把食堂饭煮的好吃，有奖证据帮助。 @肖丹丹",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Gegg卡布蛋",
+     "name": "张雪机车-尹中意（干饭人）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "穿可可系 一键传送到山野 #山野大赏 #在山里野一天太舒服了 #可可系 #山野可可系穿搭上新人了 #户外穿搭",
+     "text": "各种设备尝试～ #食堂#张雪机车#祝你好好吃饭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "烹匠君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张雪老板，你们的饭舅舅家包了…… @老娘舅中式快餐 @湖州发布 @张雪机车 @张雪机车ZXMOTO @张雪机车-邓连松-小哥控车 #米饭谁家好吃 #张雪老板会选",
      "likes": 0,
      "hot": 0
     }
@@ -871,106 +975,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "KDA神之八秒挑战": {
+  "黑猫喊你进入喝大水时代": {
    "stats": {},
    "authors": [
     {
-     "name": "香蕉菠萝球球",
+     "name": "橘部有鱼form",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "KDA新歌神之八秒！🐊（鳄鱼版） 🐊beat drop💃beat beat drop💃#英雄联盟KDA女团30 #KDA女团新歌首发 #英雄联盟音乐赛季",
+     "text": "#猫咪#meme#搞笑#抖音玩法合伙人计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "路人江",
+     "name": "8.7万人",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这才是真正的神之八秒 #奶蛙 #神之八秒 #你的叔 #kda",
+     "text": "8.7万人",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "旧漫弦",
+     "name": "三重刘德华",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "看我鳄鱼神之八秒！即梦网页大改版#一站式AI创作工作台 #即梦AI #卡莎神之8秒 #kda女团 #kda卡莎vogue",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "邪剑仙喵瑞莉娅（求求小赞赞）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家觉得kda这次皮肤怎么样 舞蹈是真行吧 #kda卡莎vogue #卡莎神之8秒#beatdrop舞#眼镜娘 #英雄联盟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "WaackerAC雷曦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神之八秒 舞蹈版英雄联盟 #KDA #firestarter #英雄联盟 即梦网页大改版#一站式AI创作工作台 #即梦AI",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "仲月十一",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "即梦网页大改版#一站式AI创作工作台#即梦AI 别管了！我直接✨beat drop💃 beat beat drop💃✨beat drop💃 beat be",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "野百合小姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "卡莎神之8秒来袭#kda #卡莎神之8秒 #野百合小姐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "努力的十八",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一看就是本人跳的 #kda神之八秒挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "惨惨琳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《像风如你 的 神之八秒》#kda #firestarter #像风如你 即梦网页大改版#一站式AI创作工作台#即梦AI",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ZRX…",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI小黑猫卡点练舞 #抖音ai创作 #小猫出道 #kda #英雄联盟 别管了！我直接beat beat drops beat drop beat beat d",
+     "text": "三重刘德华",
      "likes": 0,
      "hot": 0
     }
@@ -1090,103 +1124,36 @@
    "authors": [],
    "lexicon": []
   },
-  "广东东阳光96:78浙江广厦": {
+  "我的秋冬通勤穿搭分享": {
    "stats": {},
    "authors": [
     {
-     "name": "CBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "是威崽呀！",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "广东东阳光 96:78 浙江浙商证券 广东东阳光：崔永熙16分2篮板，弗格16分7篮板9助攻，卢卡14分8篮板5助攻 浙江浙商证券：塔克34分5篮板6助攻，威尔",
+     "text": "上班族秋冬过渡通勤穿搭！裙子裤子我都要～ #通勤穿搭 #今天穿什么 #初冬穿搭 #可可系 #今日人设是office可可",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "广东体育频道",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "没事看小夫",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "CBA常规赛第三轮，广东东阳光96比78浙江浙商证券，赛后崔永熙表示：“这场比赛很鼓舞我们，为兄弟们感到骄傲。”#广东男篮大胜广厦男篮",
+     "text": "4套160女生出游通勤不夸张的实用穿搭！ #秋冬女装 #日常温柔气质通勤穿搭指南 #160cm #方圆脸如何变身氛围感美女",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "羊城晚报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "mini妮妮",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "弗格成广东队关键先生 助队拿下新赛季首胜 10月22日，在新赛季CBA联赛常规赛，广东队以96比78击败广厦队收获赛季首胜，外援弗格得到全队最高的16分，是球队",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "上海浙江福建等地有大到暴雨": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国家防总、应急管理部针对沪浙闽启动防汛防台风四级应急响应",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创提醒！超强台风“蔷琵”今天（22日）稍晚将进入24小时警戒圈，台湾北部、浙江东部、上海及江苏的东南部地区在23日、24日可能会有大到暴雨。（央视频号：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "防御台风“蔷琵”，厦门渔船陆续返港避风（记者 | 乔丹 高志强，编辑 | 林建宁，责编 | 龚嘉，编审 | 郑红）#台风 #厦门 #渔船 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#台风蔷琵逼近中国24小时警戒线#蔷琵维持超强台风级已超100小时#自然灾害#上海 #台湾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "动静新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 超强台风“蔷琵”逼近，国家防总、应急管理部针对沪浙闽，启动防汛防台风四级应急响应#精选主播说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#台风蔷琵 维持超强台风级已超100小时！10月22日8时，国家防总、应急管理部针对上海、浙江、福建启动防汛防台风四级应急响应。",
+     "text": "这个秋冬一定要穿的像个人#我的秋冬穿搭不烧心 #秋冬穿搭教科书来了 #交上我的秋冬穿搭作业 #一周通勤穿搭示范合集 #秋季6种色彩穿搭公式 @抖音热点",
      "likes": 0,
      "hot": 0
     }
@@ -1221,130 +1188,103 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "2026KPL淘汰赛抽签结果出炉": {
+  "广东东阳光96:78浙江广厦": {
    "stats": {},
    "authors": [
+    {
+     "name": "CBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "广东东阳光 96:78 浙江浙商证券 广东东阳光：崔永熙16分2篮板，弗格16分7篮板9助攻，卢卡14分8篮板5助攻 浙江浙商证券：塔克34分5篮板6助攻，威尔",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "羊城晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拒绝三连败+主场开门红 广东队迎新赛季首胜 10月22日，广东队坐镇主场以96比78击败上赛季联赛亚军广厦队，取得新赛季首胜。这也是广东队本赛季首个主场比赛，广",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广东体育频道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "CBA常规赛第三轮，广东东阳光96比78浙江浙商证券，赛后崔永熙表示：“这场比赛很鼓舞我们，为兄弟们感到骄傲。”#广东男篮大胜广厦男篮",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "那曲地震周边多地震感明显": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场画面！ 西藏那曲市发生7.0级地震 邻近城市震感明显",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿桐木",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西藏地震 西藏地震了 震感非常明显 林芝十八楼走路都走不稳 太吓人了#西藏地震 #那曲地震#巴青地震#突发地震",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月22日22时33分在西藏那曲市巴青县发生7.0级地震，震源深度10千米。灾情发生后，拉萨消防救援机动支队那曲大队立即派出前突小组前往震中摸查灾情，目前正在",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "中安在线",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月22日（发布）2026KPL年度总决赛淘汰赛抽签仪式结果出炉：TTG对阵JDG，狼队对阵滔搏，KSG对阵WB。（编辑：小yu）#026KPL年度总决赛淘汰",
+     "text": "10月22日，西藏。西藏那曲市巴青县发生7.0级地震，震源深度10千米，拉萨、林芝、昌都等地有震感！系今年以来我国最大地震，上一次七级地震是2024年 #西藏 ",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "KPL王者荣耀职业联赛",
+     "name": "武汉广播电视台",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "欢迎来到“雾行荣耀”#kpl十周年#2026kpl年度总决赛#雾行千山#kpl#重庆狼队",
+     "text": "据中国地震台网正式测定，2026年10月22日22时33分，在西藏那曲市巴青县（北纬32.40度，东经93.79度）发生7.0级地震，震源深度10公里，是今年以",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Trien",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "导播 你也为之着迷吧。#kpl #kpl十周年 #杭州lgdnbw九尾 #九尾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞小溜溜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "KPL播放量最高的六场比赛 你知道是哪六场吗？ #KPL #红狼大战 #kpl十周年 #2026kpl年度总决赛#kpl十周年生日会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "kpl电竞（厂长）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "KPL十大年度记忆人物雕塑展--长沙七彩盒子#KPL十大年度记忆人物 #kpl十周年 #2026KPL年度总决赛 #kpl十周年生日会 #雕塑",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "庾澄庆恩利共创打歌": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "En-Li恩利",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快看！老爸来求我共创了🤭 请听《Angel Eyes》、《枝仔冰》，还有去看我爸演唱会《整晚哈音樂》！！！ #庾澄庆 #恩利新歌",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曝勇士启动波尔津吉斯交易": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "NBA",
+     "name": "中国新闻社",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【#勇士探索交易波尔津吉斯 】据知名记者Shams报道，金州勇士队已经开始探索波尔津吉斯的交易方案，而由于受体位性心动过速综合征（POTS）反复发作症状困扰，波",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "孔祥宇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "波尔津吉斯患POTS，无法痊愈或退役？ 勇士启动波尔津吉斯交易，但感兴趣者寥寥…#勇士交易波尔津吉斯 #波尔津吉斯退役 #波尔津吉斯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "高小艾的篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "勇士计划交易波尔津吉斯！ 特纳是勇士的交易目标之一！#库里 #追梦格林 #波尔津吉斯 #勇士 #高小艾的篮球频道",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "金州勇士中文网",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可能退役！勇士已经开始探索交易铂金？！因为后者可能因为伤病选择退役…#波尔津吉斯 #金州勇士 #dou来nba",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "篮球唠郭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "永久退役？ #波尔津吉斯 可能永久退役？ #邓利维 “神机妙算” #金州勇士 再度开启交易？ #库里 #篮球唠郭",
+     "text": "西藏那曲市巴青县发生7.0级地震 震源深度10千米 #西藏地震",
      "likes": 0,
      "hot": 0
     }
@@ -1352,36 +1292,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "光遇珍珠季上线": {
+  "不好意思我先官宣了": {
    "stats": {},
    "authors": [
     {
-     "name": "光遇大老头",
+     "name": "全村最邋遢的人",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "做珍珠季任务一定要开录屏啊！ #光遇珍珠季 #当星光遇见海 #光遇 #光遇追光计划 #光遇云野追光",
+     "text": "全村最邋遢的人",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "温若",
+     "name": "狂买老奶鸡爪只为间接接吻",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“潮汐是大海的呼吸” #光遇珍珠季 #当星光遇见海#光遇 #光遇追光计划#纸飞机",
+     "text": "感谢军训找到真命天子了#狂买老奶鸡爪只为间接接吻",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "kuki",
+     "name": "XuQiY",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "做任务前画质拉满😎（视频里的鲸鱼声是配音） （yc@Sky.佩奇 ）#光遇 #光遇追光计划 #光遇珍珠季 #当星光遇见海 #游戏花样乱斗",
+     "text": "官宣#情侣日常 #正式官宣 #恋爱日常 #奶龙 #喜结良缘",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蛋小航（反奶蛙）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天，地",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "长征颂歌致敬90年前的伟大胜利": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "90位仪仗兵、90步铿锵正步、90面庄严旗帜，致敬90年前伟大胜利！#电视文艺晚会《长征颂歌》",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“革命烈火，岂是你们能扑灭的？” #电视文艺晚会《长征颂歌》 再现湘江战役壮烈一幕。致敬！",
      "likes": 0,
      "hot": 0
     }
@@ -1391,8 +1368,30 @@
   },
   "当我得知AG无缘年总淘汰赛": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "电竞小余🐟.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "AG止步年总后 钟意一个人退场了#kpl十周年 #2026kpl年度总决赛 #kpl大文豪 #抖音KPL制作人扶持计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阡阡.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真的是最后一舞了吗？年总止步突围赛也正式代表王朝彻底结束了！六局有五局顺风，被翻三把，也许他们自己也很无奈吧，就犹如准了一把的后羿，失误了一把的安琪拉（七），就",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "拆最爱我的星座测试盲盒": {
    "stats": {},
@@ -1481,46 +1480,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "不好意思我先官宣了": {
+  "小城良方一股脑看进去了": {
    "stats": {},
    "authors": [
     {
-     "name": "全村最邋遢的人",
-     "verify": "",
-     "identity": "",
+     "name": "小城良方(专治 emo 版",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "全村最邋遢的人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "狂买老奶鸡爪只为间接接吻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感谢军训找到真命天子了#狂买老奶鸡爪只为间接接吻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "XuQiY",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "官宣#情侣日常 #正式官宣 #恋爱日常 #奶龙 #喜结良缘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋小航（反奶蛙）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天，地",
+     "text": "拽姐追人，主打直球出击！#小城良方 #肖战 #刘铮亮 #姜妍 #史彭元",
      "likes": 0,
      "hot": 0
     }
@@ -1528,36 +1497,137 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "黑猫喊你进入喝大水时代": {
+  "庾澄庆恩利共创打歌": {
    "stats": {},
    "authors": [
     {
-     "name": "橘部有鱼form",
+     "name": "En-Li恩利",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "快看！老爸来求我共创了🤭 请听《Angel Eyes》、《枝仔冰》，还有去看我爸演唱会《整晚哈音樂》！！！ #庾澄庆 #恩利新歌",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "随时随地吃个火锅暖暖": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "oojj",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#猫咪#meme#搞笑#抖音玩法合伙人计划",
+     "text": "谁的一辈子",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "8.7万人",
+     "name": "娜娜子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "8.7万人",
+     "text": "#日子越来越有盼头了 诚邀，想吃的就来",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "三重刘德华",
+     "name": "PinkPinkk",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "三重刘德华",
+     "text": "谁不想在上班的时候吃点火锅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "jTxH",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "周末 见面 晚上 我们 幸福此刻具像化了#在家吃火锅的仪式感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": ".17～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "篮球场太冷了，吃个火锅暖暖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小福",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小福",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "宁波帅哥鸡饭对胃不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "是银子总会花光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "帅哥鸡饭吃了不烧心 #宁波美食 #帅哥主厨 #夜市帅哥 #不烧心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "美丽浙江",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "靠颜值出圈！宁波帅哥摊主带火一条街。“他来了以后，我们的日营业额增长了3万到4万元。” #美丽主播说新闻 #媒体原创 @江北融媒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这家鸡饭吃着不烧心！宁波帅哥摊主带火整条夜市，负责人：单日营业额增收3-4万元",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小城良方刘铮亮摸鱼反而更融入了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "CCTV电视剧",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#小城良方 怎么跟预想的剧情不一样？#来央八看好剧",
      "likes": 0,
      "hot": 0
     }
@@ -1602,207 +1672,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "尚公主角色曲首发": {
+  "秋叶飘落枝头": {
    "stats": {},
    "authors": [
     {
-     "name": "尚公主（1023公主请尚车",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "果儿🍒",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“如果我再遇见从前的我，别怕我会为你做修罗”#尚公主 #孟子义 #暮晚摇",
+     "text": "果儿🍒",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "孟子义工作室（摇你好看版）",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#孟子义 风雨满身，往后前路，都由她自己书写。@孟子义 #暮晚摇 #孟子义尚公主 #尚公主",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "随时随地吃个火锅暖暖": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "oojj",
+     "name": "娟子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁的一辈子",
+     "text": "娟子",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "娜娜子",
+     "name": "🌻美好人生🌻",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#日子越来越有盼头了 诚邀，想吃的就来",
+     "text": "#秋叶飘落枝头，随着风儿游走",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "jTxH",
+     "name": "萍姐🍀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "周末 见面 晚上 我们 幸福此刻具像化了#在家吃火锅的仪式感",
+     "text": "萍姐🍀",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "PinkPinkk",
+     "name": "幸福一家人",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谁不想在上班的时候吃点火锅",
+     "text": "#二十四节气之霜降 #枫叶入秋画境美 #霜降节气来了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": ".17～",
+     "name": "开心老太太😀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "篮球场太冷了，吃个火锅暖暖",
+     "text": "开心老太太😀",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小福",
+     "name": "彤彤奶奶",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小福",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小城良方一股脑看进去了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小城良方(专治 emo 版",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拽姐追人，主打直球出击！#小城良方 #肖战 #刘铮亮 #姜妍 #史彭元",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "是不是我不够成熟": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Rccc",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为的拥有",
+     "text": "彤彤奶奶",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "伤心网友小王",
+     "name": "珍珍黄三妹",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为拥有",
+     "text": "大家晚上好",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "伤心茄子",
+     "name": "美滋滋mzz",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为的拥有",
+     "text": "美滋滋mzz",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "11.17",
+     "name": "春天2812897493470",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为拥有",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "木子圆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为的拥有",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Alaric",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是不是我不够成熟，总是自以为的拥有#我也不懂自己",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "茶叶罐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为的拥有",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Chend.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为是的拥有",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "焦y^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是不是我不够成熟 总是自以为的拥有#歌曲时过境迁",
+     "text": "#二十四节气之霜降 #枫叶入秋画境美 ！",
      "likes": 0,
      "hot": 0
     }
@@ -1847,36 +1816,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "宁波帅哥鸡饭对胃不烧心": {
+  "万圣节我就这样萌萌cos雪宝": {
    "stats": {},
    "authors": [
     {
-     "name": "是银子总会花光",
+     "name": "O³",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "帅哥鸡饭吃了不烧心 #宁波美食 #帅哥主厨 #夜市帅哥 #不烧心",
+     "text": "#glamup冰美式 万圣节我准备好了～☃️#雪宝",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "美丽浙江",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "猫猫小面包🥯",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "靠颜值出圈！宁波帅哥摊主带火一条街。“他来了以后，我们的日营业额增长了3万到4万元。” #美丽主播说新闻 #媒体原创 @江北融媒",
+     "text": "万圣节我就这样穿 #雪宝 #万圣节 雪宝来也",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "鼠鼠",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这家鸡饭吃着不烧心！宁波帅哥摊主带火整条夜市，负责人：单日营业额增收3-4万元",
+     "text": "从雪宝的全宇宙路过⛄️✨ #万圣节cos #环球",
      "likes": 0,
      "hot": 0
     }
@@ -2055,36 +2024,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "世界从这一秒开始有颜色": {
+  "KDA神之八秒挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "～❀路繁花༒",
+     "name": "香蕉菠萝球球",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "\"一站有一站的风景，一程有一程的磨砺， 望可望之事，待可待之人”#松弛感穿搭 #自由感拍照 #抖音玩法合伙人计划 #上热门🔥",
+     "text": "KDA新歌神之八秒！🐊（鳄鱼版） 🐊beat drop💃beat beat drop💃#英雄联盟KDA女团30 #KDA女团新歌首发 #英雄联盟音乐赛季",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "亲爱的 💋",
+     "name": "路人江",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亲爱的 💋",
+     "text": "这才是真正的神之八秒 #奶蛙 #神之八秒 #你的叔 #kda",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "傻丫头ༀ༺",
+     "name": "旧漫弦",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "😎😎#藏区公路风情 #高原风情穿搭",
+     "text": "看我鳄鱼神之八秒！即梦网页大改版#一站式AI创作工作台 #即梦AI #卡莎神之8秒 #kda女团 #kda卡莎vogue",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "邪剑仙喵瑞莉娅（求求小赞赞）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家觉得kda这次皮肤怎么样 舞蹈是真行吧 #kda卡莎vogue #卡莎神之8秒#beatdrop舞#眼镜娘 #英雄联盟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "WaackerAC雷曦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神之八秒 舞蹈版英雄联盟 #KDA #firestarter #英雄联盟 即梦网页大改版#一站式AI创作工作台 #即梦AI",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "仲月十一",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "即梦网页大改版#一站式AI创作工作台#即梦AI 别管了！我直接✨beat drop💃 beat beat drop💃✨beat drop💃 beat be",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "野百合小姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "卡莎神之8秒来袭#kda #卡莎神之8秒 #野百合小姐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "努力的十八",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一看就是本人跳的 #kda神之八秒挑战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "惨惨琳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《像风如你 的 神之八秒》#kda #firestarter #像风如你 即梦网页大改版#一站式AI创作工作台#即梦AI",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ZRX…",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI小黑猫卡点练舞 #抖音ai创作 #小猫出道 #kda #英雄联盟 别管了！我直接beat beat drops beat drop beat beat d",
      "likes": 0,
      "hot": 0
     }
@@ -2092,36 +2131,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "万圣节我就这样萌萌cos雪宝": {
+  "山野可可系穿搭上新人了": {
    "stats": {},
    "authors": [
     {
-     "name": "O³",
-     "verify": "",
-     "identity": "",
+     "name": "王凯沐",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#glamup冰美式 万圣节我准备好了～☃️#雪宝",
+     "text": "#可可系",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "猫猫小面包🥯",
+     "name": "鱼仔",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "万圣节我就这样穿 #雪宝 #万圣节 雪宝来也",
+     "text": "有事别往心里去 往山野里去 #山野大赏 #在山里野一天太舒服了 #可可系 #山野可可系穿搭上新人了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "鼠鼠",
+     "name": "Gegg卡布蛋",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "从雪宝的全宇宙路过⛄️✨ #万圣节cos #环球",
+     "text": "穿可可系 一键传送到山野 #山野大赏 #在山里野一天太舒服了 #可可系 #山野可可系穿搭上新人了 #户外穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -2129,123 +2168,41 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "以为每天都会说晚安": {
+  "嫁金钗全员团建来了": {
    "stats": {},
-   "authors": [
-    {
-     "name": "27",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Uu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "毛毛^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鱼壳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林只饭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安#林子凡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Jlll_.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "iy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "少以为 多体会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张鱼哥.🌪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝒟𝒶𝓃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "春日予尧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为每天都会说晚安",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "小城良方和我想的不一样": {
+  "外套里面穿什么": {
    "stats": {},
    "authors": [
     {
-     "name": "小城良方(专治 emo 版",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "福瑞达达达",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#小城良方 有点不一样，到底哪里不一样，大家一起唠一唠～ #小城良方和我想的不一样",
+     "text": "外套里面穿什么？｜3。#今日份穿搭公式 #秋冬优雅通勤穿搭 #穿搭思路分享 #女生万能穿搭法 #秋冬穿搭叠叠乐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "摘颗星星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不同类型外套的搭配公式 #ootd穿搭新思路 #外套推荐 #中性风 #ootd #穿搭技巧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "超绝大米饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "闺蜜！其实你只需要4件内搭～搞定秋冬外套 #穿搭分享 #内搭外穿都好看 #打底衫 #内搭分享 #秋冬实用穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -2290,10 +2247,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "嫁金钗全员团建来了": {
+  "光遇珍珠季上线": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "光遇大老头",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "做珍珠季任务一定要开录屏啊！ #光遇珍珠季 #当星光遇见海 #光遇 #光遇追光计划 #光遇云野追光",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "温若",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“潮汐是大海的呼吸” #光遇珍珠季 #当星光遇见海#光遇 #光遇追光计划#纸飞机",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "kuki",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "做任务前画质拉满😎（视频里的鲸鱼声是配音） （yc@Sky.佩奇 ）#光遇 #光遇追光计划 #光遇珍珠季 #当星光遇见海 #游戏花样乱斗",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "赛博朋克边缘行者2剧情评析": {
    "stats": {},
@@ -2379,61 +2368,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "嫁金钗长剧短剧化优缺点并存": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "群星都在用黄明昊这首过季短袖": {
+  "小城良方和我想的不一样": {
    "stats": {},
    "authors": [
     {
-     "name": "沈月",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "小城良方(专治 emo 版",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🍂 #用黄明昊过季短袖打开秋天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张子墨Piano",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "风有了秋天的味道。#好事多墨 #用黄明昊过季短袖打开秋天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赖伟明",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一下就入冬了 #用黄明昊过季短袖打开秋天 #不呆不欲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黄明昊Justin",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“我是被唾弃的过季短袖”#用黄明昊过季短袖打开秋天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赖美云=3333",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不清楚..穿外套了🧥🍂 #用黄明昊过季短袖打开秋天 #星动营业中",
+     "text": "#小城良方 有点不一样，到底哪里不一样，大家一起唠一唠～ #小城良方和我想的不一样",
      "likes": 0,
      "hot": 0
     }
