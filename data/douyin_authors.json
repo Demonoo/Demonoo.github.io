@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-24 15:42",
+ "updated_at": "2026-10-24 16:40",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 46,
+ "ok_count": 48,
  "lexicon_count": 0,
  "topics": {
   "中超成都蓉城0:1大连英博": {
@@ -137,12 +137,12 @@
      "hot": 0
     },
     {
-     "name": "碳基生物退役指南",
+     "name": "Max AI笔记",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Kimi K3.1 Pro VS Opus 5.5 首发实测 一半的价格，一半的时间，80%的效果，你会选哪个模型呢？ #kimi #opus #大模型 #vi",
+     "text": "KimiK3.1Pro超越ChatGPT。Kimi K3.1 Pro 在 Artificial Analysis 智能指数中以 55 分排名第 4 位推出，在代",
      "likes": 0,
      "hot": 0
     }
@@ -174,16 +174,6 @@
      "hot": 0
     },
     {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月22日22时33分在西藏那曲市巴青县发生7.0级地震，震源深度10千米。灾情发生后，拉萨消防救援机动支队那曲大队立即派出前突小组前往震中摸查灾情，目前正在",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -194,12 +184,22 @@
      "hot": 0
     },
     {
-     "name": "新闻联播",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "西藏那曲巴青县7.0级地震发生后，余震未歇，救援先至。各方力量连夜开进，从凌晨开始，受灾最严重的玛如乡，一座座帐篷拔地而起！无数身影争分夺秒，为生命托举希望。#",
+     "text": "10月22日22时33分在西藏那曲市巴青县发生7.0级地震，震源深度10千米。灾情发生后，拉萨消防救援机动支队那曲大队立即派出前突小组前往震中摸查灾情，目前正在",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！西藏那曲市巴青县发生7.0级地震 武警官兵连夜出动赶赴灾区",
      "likes": 0,
      "hot": 0
     }
@@ -268,6 +268,16 @@
    "stats": {},
    "authors": [
     {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青海玉树杂多县发生5.3级地震",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
@@ -290,16 +300,6 @@
     {
      "name": "中国新闻社",
      "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "青海玉树州杂多县发生5.3级地震",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网",
-     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
@@ -335,22 +335,22 @@
      "hot": 0
     },
     {
-     "name": "江西新闻联播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第31号台风“烟花”于今天凌晨在西北太平洋洋面生成。预计“烟花”将以每小时5-10公里的速度向西偏北方向缓慢移动，强度逐渐加强，未来“烟花”对我国海区无影响。（",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "潮新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "今年第31号台风“烟花”（热带风暴级，中文名：烟花；英文名：In-Fa；名字来源：中国澳门；意义：烟花）于今天（24日）凌晨在西北太平洋洋面生成，早晨5点钟其中",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江西新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第31号台风“烟花”于今天凌晨在西北太平洋洋面生成。预计“烟花”将以每小时5-10公里的速度向西偏北方向缓慢移动，强度逐渐加强，未来“烟花”对我国海区无影响。（",
      "likes": 0,
      "hot": 0
     },
@@ -409,22 +409,22 @@
      "hot": 0
     },
     {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#俄乌10月27日起在奥列什基停火 #白宫称特朗普夫人促成俄乌局地停火",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "参考消息",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "白宫称俄乌同意在奥列什基暂时停火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#俄乌10月27日起在奥列什基停火 #白宫称特朗普夫人促成俄乌局地停火",
      "likes": 0,
      "hot": 0
     },
@@ -445,63 +445,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "俄乌10月27日起在奥列什基停火，白宫：梅拉尼娅促成此次局部停火",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "全校几千位师生最团结的一集": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "良田",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《全校几千位老师同学最团结的一集》当你懂得有什么东西是比高考更重要的时候，才是真正的成人礼@要好好的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "要好好的",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朋友们的珍爱之物，我的朋友是我最大的底气 #早日康复早日回家 #家人 #高中生 #爱心捐赠 #加油",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "毒舌嘴替林黛玉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "学校里的最后一课 将成为她人生中最特殊的“成人礼” #校园 #高三 #感动 #成人礼 （cr：@良田 ）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱小七",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全校几千位师生，共同打造了一个专属于她的“成人礼” #曹凤 #成人礼 #同学 #帮助 #暖心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鲜娱视界",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一声声（曹凤加油！！）是独属于同学们的赤诚与温柔！！#少年 #同学 #善意 #良田",
      "likes": 0,
      "hot": 0
     }
@@ -553,12 +496,12 @@
      "hot": 0
     },
     {
-     "name": "普陀潮",
+     "name": "第1眼新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "台风“蔷琵”上午移入东海南部海域 预计25日早晨-中午 将是距离浙江最近的时段 普陀发布地质灾害黄色预警#舟山 #舟山普陀 #防御台风“蔷琵”#台风动向",
+     "text": "渔船回港、列车停运、人员转移……台风“蔷琵”正在我国近海活跃，华东沿海即将迎来强风雨。长三角铁路部分列车临时停运；国家防总、应急管理部针对江苏启动防汛防台风四级",
      "likes": 0,
      "hot": 0
     }
@@ -606,6 +549,33 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月24日，无锡队1：1泰州队，两回合总比分2：1，成功晋级决赛，球员球迷共享荣耀一刻！（荔枝新闻中心记者：胡於棋 陈哲天 夏天 史哲铭）#2026苏超",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "树说中国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "视听中国",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "先有树还是先有佛？#树说中国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果TV",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#山西为什么能吸引这么多古树专家 古树人文系列纪录片《树说中国》研讨会在山西太原举行。研讨会把主创团队、专家学者和青年观众请到晋祠的千年树荫下，围绕创作理念、叙",
      "likes": 0,
      "hot": 0
     }
@@ -674,6 +644,16 @@
      "hot": 0
     },
     {
+     "name": "儿科中医王蔚华",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026流感又爆发了，家里备好这2个药 #发烧 #健康科普 #育儿经验分享",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "今日关注",
      "verify": "红V",
      "identity": "媒体人",
@@ -682,41 +662,51 @@
      "text": "#媒体原创 广东农村“一老一小”免费流感疫苗开打。广东流感高峰多在12月至次年1月，接种后产生抗体需2至4周，建议符合条件人群尽量在11月底前完成接种。#媒体精",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "宁夏广电新闻中心",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "流感疫苗接种黄金期已到，三价四价怎么选、谁能打鼻喷？#流感疫苗 #三价",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "树说中国": {
+  "武汉三镇提前降级": {
    "stats": {},
    "authors": [
     {
-     "name": "视听中国",
-     "verify": "蓝V",
+     "name": "湖北日报",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "先有树还是先有佛？#树说中国",
+     "text": "武汉三镇3：5山东泰山，提前一轮降级，告别本赛季中超赛场。主帅邓卓翔泪洒赛场。（记者：柯皓 剪辑：文捷）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "芒果TV",
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月24日讯 中超第29轮，武汉三镇负于山东泰山，提前一轮确定降级，将参加下赛季中甲联赛。2022年曾以升班马身份夺得中超冠军的三镇，四年后告别顶级联赛。 本",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "经视体育",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#山西为什么能吸引这么多古树专家 古树人文系列纪录片《树说中国》研讨会在山西太原举行。研讨会把主创团队、专家学者和青年观众请到晋祠的千年树荫下，围绕创作理念、叙",
+     "text": "武汉三镇主场3:5不敌山东泰山。有遗憾也有高光收拾行囊再出发 一场一波三折的进球大战，在武汉体育中心上演。武汉三镇 3-5 遗憾落败。北京时间10月24日下午，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "武汉三镇提前降级！。中超第29轮，山东泰山5比3击败武汉三镇，后者提前一轮降级。#中超 #武汉三镇",
      "likes": 0,
      "hot": 0
     }
@@ -724,56 +714,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "陈永奇任江西省政府党组书记": {
+  "湖人6人上双胜快船": {
    "stats": {},
    "authors": [
     {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "陈永奇任江西省政府党组书记",
+     "text": "一攻一防有点疯狂~里夫斯凯斯勒轮流发力收割比赛！#凯斯勒22分6封盖3抢断#里夫斯28分#湖人战胜快船",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "陈永奇任江西省政府党组书记",
+     "text": "【现场直击：里夫斯主导进攻】效率太高！跟随现场视角看洛城德比第三节，湖人后卫小里率队掀起一波进攻高潮！#洛城德比湖人12比0攻击波",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "孔祥宇",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "陈永奇任江西省政府党组书记",
+     "text": "湖人125:117快船！凯斯勒化身机灵神 #湖人战胜快船 凯斯勒22分3抢断6封盖！东契奇状态低迷11次失误#东契奇 #凯斯勒",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "起点新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "广东阿深",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "陈永奇任江西省政府党组书记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中安在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "江西日报10月24日消息，江西省委决定：陈永奇同志任江西省政府党组书记。（编辑：晨晨）",
+     "text": "连续失误直接回更衣室！东契奇赛后怒喷裁判 #湖人 #东契奇 #湖人6人上双胜快船 #里夫斯 #快船vs湖人",
      "likes": 0,
      "hot": 0
     }
@@ -781,56 +761,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王志军任湖南省委书记": {
+  "MKOI战胜BLG": {
    "stats": {},
    "authors": [
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "大木GameDay",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "湖南省委主要负责同志职务调整 #媒体原创",
+     "text": "[S16瑞士轮首轮]【MKOI vs BLG】全场速看 #英雄联盟S16 #英雄联盟S16瑞士轮开赛 #MKOI对战BLG #抖音精选App #MKOI战胜BL",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "LPL赛事高能君",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "湖南、云南省委主要负责同志职务调整。#媒体原创",
+     "text": "LPL赛区三连败！BLG不敌MKOI未能拿下开门红！ #英雄联盟S16#MKOI对战BLG#英雄联盟S16瑞士轮开赛 #MKOI战胜BLG",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "LOL电竞小鱼",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王志军任湖南省委书记 #湖南",
+     "text": "恭喜MKOI 1-0战胜BLG拿下开门红！主要前期劣势太大！#MKOI战胜BLG #英雄联盟S16 #英雄联盟S16瑞士轮开赛 #MKOI对战BLG",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "嗷呜嗷呜",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王志军任湖南省委书记",
+     "text": "supa火力全开线杀ViperHLE轻松战胜TES#英雄联盟S16 #英雄联盟S16瑞士轮开赛 #MKOI对战BLG #骚男百万狙击赛",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "白衣问道",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "谢卫江同志任湖南省政府党组书记",
+     "text": "LPL最黑暗的一天！S16首轮大满败！ #英雄联盟世界赛 #英雄联盟S16 #LPL #BLG #LCK",
      "likes": 0,
      "hot": 0
     }
@@ -945,26 +925,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王一楠嫁金钗又横扫祠堂了": {
+  "黄霄雲重庆演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "嫁金钗（酷爽热播ing",
+     "name": "黄霄雲工作室（佛山10.31巡演版）",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "情绪骤然迸发，同台对垒，每一秒都是演技大赏#嫁金钗 #王一楠 #毛林林 #陈紫函",
+     "text": "前线速报！送来老板@黄霄雲（重庆10.24巡演版） 绝美瞬间！#黄霄雲重庆演唱会 #黄霄雲 #绝美瞬间",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "XDannyS2",
+     "name": "我可是懒洋洋🦭",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不愧是国家一级演员的演技和台词功底 将郭虞凤的愤恨与不甘演绎得淋漓尽致#嫁金钗 #王一楠 #郭虞凤 #逐帧酷看嫁金钗 #田曦薇",
+     "text": "黄霄云重庆站宇宙无敌号2.0 #黄霄雲宇宙无敌号演唱会 #黄霄雲演唱会 #黄霄雲巡回演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Y·ping",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#黄霄雲重庆演唱会 #全开麦演唱会现场 #氛围感拉满的现场",
      "likes": 0,
      "hot": 0
     }
@@ -1036,56 +1026,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "莫高义任云南省委书记": {
+  "王一楠嫁金钗又横扫祠堂了": {
    "stats": {},
    "authors": [
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "嫁金钗（酷爽热播ing",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "云南省委主要负责同志职务调整#媒体原创",
+     "text": "情绪骤然迸发，同台对垒，每一秒都是演技大赏#嫁金钗 #王一楠 #毛林林 #陈紫函",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "XDannyS2",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "湖南、云南省委主要负责同志职务调整。#媒体原创",
+     "text": "不愧是国家一级演员的演技和台词功底 将郭虞凤的愤恨与不甘演绎得淋漓尽致#嫁金钗 #王一楠 #郭虞凤 #逐帧酷看嫁金钗 #田曦薇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "潘玮柏南京演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "潘玮柏工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蓄势待发❤️‍🔥@潘玮柏（1024南京） 南京今晚见！ #潘玮柏 #潘玮柏狂爱终极巡回演唱会 #潘玮柏南京演唱会",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网",
+     "name": "现代快报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "湖南、云南省委主要负责同志职务调整 #快看联播",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "云南省委主要负责同志职务调整",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "莫高义任云南省委书记 #云南",
+     "text": "#媒体原创 潘玮柏南京演唱会分享瘦身成果，从XXL码成功瘦到S码，全场齐喊瘦#潘玮柏",
      "likes": 0,
      "hot": 0
     }
@@ -1123,6 +1110,23 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "我脸皮厚吧#家有萌娃欢乐多 #萌娃又上线了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王嘉尔上海演唱会两天连唱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王嘉尔",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 上海站 · 下雨天路上注意安全，晚上见❤️ · #王嘉尔MAGICMAN2世界巡演 #JACKS",
      "likes": 0,
      "hot": 0
     }
@@ -1187,177 +1191,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "黄霄雲重庆演唱会": {
+  "原来生抽是咕嘟的": {
    "stats": {},
    "authors": [
     {
-     "name": "黄霄雲工作室（佛山10.31巡演版）",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前线速报！送来老板@黄霄雲（重庆10.24巡演版） 绝美瞬间！#黄霄雲重庆演唱会 #黄霄雲 #绝美瞬间",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我可是懒洋洋🦭",
+     "name": "小陳叔",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "黄霄云重庆站宇宙无敌号2.0 #黄霄雲宇宙无敌号演唱会 #黄霄雲演唱会 #黄霄雲巡回演唱会",
+     "text": "原来生抽是咕嘟的 那酱油呢 #小陳叔",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Y·ping",
+     "name": "三姨.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#黄霄雲重庆演唱会 #全开麦演唱会现场 #氛围感拉满的现场",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "诸葛宇杰任青海省政府党组书记": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诸葛宇杰任青海省委副书记、省政府党组书记",
+     "text": "原来生抽是咕嘟的 那酱油呢 …#情绪音乐玩法新风向 #抖音玩法合伙人计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诸葛宇杰，任青海省政府党组书记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诸葛宇杰任青海省委副书记、省政府党组书记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诸葛宇杰任青海省委副书记、省政府党组书记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "政知道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诸葛宇杰任青海省政府党组书记 据青海日报10月24日消息，日前，中共中央批准：诸葛宇杰同志任青海省委委员、常委、副书记。青海省委决定：诸葛宇杰同志任青海省政府党",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诸葛宇杰任青海省委副书记、省政府党组书记",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王嘉尔上海演唱会两天连唱": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王嘉尔",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 上海站 · 下雨天路上注意安全，晚上见❤️ · #王嘉尔MAGICMAN2世界巡演 #JACKS",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "GEN战胜IG": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "联盟导员",
+     "name": "路西法",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "GEN开局首胜！IG毫无还手之力！ #英雄联盟S16 #英雄联盟S16瑞士轮开赛 #GEN战胜IG #GEN对战IG #抖音精选APP",
+     "text": "路西法",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "联盟爆爆",
+     "name": "肉团子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "IG在S赛的首场失利，可以说80%的责任都在Rookie…导致痛失好局！#IG #GEN #比赛 #抖音精选APP",
+     "text": "原来生抽是咕嘟的 那酱油呢",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "打野宝典",
+     "name": "尽欢",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "GEN战胜IG，真是弱队的悲哀了 #英雄联盟S16 #英雄联盟S16瑞士轮开赛 #GEN战胜IG #GEN对战IG",
+     "text": "原来深秋是孤独的",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大木GameDay",
+     "name": "用户0228",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "[S16瑞士轮首轮]【GEN vs IG】全场速看 #英雄联盟S16 #GEN对战IG #GEN战胜IG #英雄联盟S16瑞士轮开赛 #抖音精选App",
+     "text": "原来神就是孤独的 #长靴搭配 #甜酷感ootd #黑丝 #甜酷感ootd",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "fuker解说",
+     "name": "嗷嗷",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "锐评 Geng 战胜 ig， ig 优势被翻！中路差距太大！theshy 无功无过！小 wei 尽力了！#英雄联盟s16#theshy#chovy #lpl#l",
+     "text": "少女终将成王👑。#火象自由感 #saber #lily #fate#COS",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "努力变好的yy",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "夏天，再持续久一些吧 #海边 #黑皮女孩 #原来深秋是孤独的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一碗猪脚饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来生抽是咕嘟的 那酱油呢 #随拍 #古早 #氛围感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小阳菜i",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来深秋是孤独的",
      "likes": 0,
      "hot": 0
     }
@@ -1382,6 +1315,33 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "庾澄庆北京演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "沂海Echo追线下",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京演唱会见～还是那个哈林哥！还是那首难以忘记！#难以忘记 #哈林哥 #庾澄庆 #庾澄庆北京演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "春田花花幼儿园园花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在庾澄庆演唱会近距离看到了英砸！ 没想到就在我们头上嘻嘻，英子没化妆🤣但状态也超级好#那英 #庾澄庆 #庾澄庆演唱会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "娜扎怼脸美得好惊艳": {
    "stats": {},
    "authors": [
@@ -1398,6 +1358,11 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "谁懂双11现货现发的快乐": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "VOGUE红毯女明星战袍解析": {
    "stats": {},
@@ -1436,38 +1401,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "谁懂双11现货现发的快乐": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "潘玮柏南京演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "潘玮柏工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蓄势待发❤️‍🔥@潘玮柏（1024南京） 南京今晚见！ #潘玮柏 #潘玮柏狂爱终极巡回演唱会 #潘玮柏南京演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "现代快报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 潘玮柏南京演唱会分享瘦身成果，从XXL码成功瘦到S码，全场齐喊瘦#潘玮柏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "现场观赛S16瑞士轮": {
    "stats": {},
    "authors": [
@@ -1488,6 +1421,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "369上台封烟了 #英雄联盟S16 #369 #tes #lpl #zeus",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "张智霖佛山演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "張智霖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "當你看到這封信的時候… #张智霖#张智霖在巡回演唱会#一追就上头#张智霖佛山演唱会#巡演日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宇宙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "他对自己被夸可爱有疑义，可是你确实可爱呀 #张智霖##张智霖在巡回演唱会 #张智霖佛山演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张智霖CHILAMCN",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爱意慢慢成型｜张智霖佛山猪窝应援搭建延时 一点一滴，把偏爱组装成型。 上海同款花墙、油画阳台、等身立牌，全部就位✅ 等所有爱Chilam的霖迷来打卡#张智霖 #",
      "likes": 0,
      "hot": 0
     }
@@ -1554,61 +1524,14 @@
      "text": "【文班2+1&范乔丹压哨三分】神仙打架太精彩！文班极限逆天空接暴扣2+1打进，反超比分！随后范弗里特外线三分高难度出手，压哨入网命中回击！#NBA新赛季2026",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "LPL瑞士轮首轮全败": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "长城新媒体",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#LPL瑞士轮首轮四队全败 创S赛历史首次，四场输法不同 IG、TES输实力 BLG、AL爆冷，0比4是事实 但S赛剧本不只看第一页#媒体原创 #精选主播说 #",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "中安在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月24日（发布）历创造新的历史！LPL四队瑞士轮首轮全败，S16世界赛瑞士轮第四场LPL，一号种子AL不敌LEC三号种子KC，LPL四支队伍首轮全部落败，本",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "滕尊",
+     "name": "7号球员",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "彻底沦为笑话！LPL四队首日集体0-1，瑞士轮何去何从？ #英雄联盟S16 #LPL瑞士轮首轮全败 #英雄联盟S16瑞士轮开赛 #LPL状态 #抖音精选APP",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "S16瑞士轮首日LPL四战全败",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一觉醒来，LPL四支队伍全部输了。IG输了，滔搏输了，BLG输了，AL输了。369奎桑提1-6再次败给Zeus。LPL历史首次在小组赛或瑞士轮，所有队伍首战全败",
+     "text": "阿门封盖文班！火箭险胜马刺！ 今天这场比赛火箭牢牢的掌握了全场比赛的主动权，始终让马刺处在追分的过程中。最终在申京末节14分带领下，强势拿下胜利！#休斯顿火箭 ",
      "likes": 0,
      "hot": 0
     }
@@ -1616,10 +1539,22 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "亲手捏个角色放主页": {
+  "冷都女2.0穿搭参考": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "锤里一拳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "伦敦冷都女｜忧郁破碎张力fitcheck 超重工的一期冷都女2.0版本 所有人进入伦敦冷都时代…#冷都女 #穿搭分享 #轻亚穿搭 #忧郁感穿搭 #冷感穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "第五人格女团出道MV首曝": {
    "stats": {},
@@ -1812,49 +1747,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "各位闺蜜们面要吃起": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小灶煮面记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "面要多吃 面要多见 多吃方便面方便多见面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蔡镇鸿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "闺蜜freestyle 6 #谢帝 #蔡镇鸿 #闺蜜 #家庭 #分享有趣的视频",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陳e鵬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "面要多吃 面要多见 多吃方便面方便多见面",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "秋日收藏小赛": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "尚公主皆是修罗场": {
+  "亲手捏个角色放主页": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1896,36 +1789,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "汉洋折衷把混搭玩明白了": {
+  "各位闺蜜们面要吃起": {
    "stats": {},
    "authors": [
     {
-     "name": "没礼帽",
+     "name": "小灶煮面记",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "薄巧 #汉洋折衷 #薄巧 #穿搭",
+     "text": "面要多吃 面要多见 多吃方便面方便多见面",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "南南之",
+     "name": "蔡镇鸿",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "还记得 前生盟誓 #汉洋折衷",
+     "text": "闺蜜freestyle 6 #谢帝 #蔡镇鸿 #闺蜜 #家庭 #分享有趣的视频",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "秋也",
+     "name": "陳e鵬",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "想不出文案的day.#汉洋折衷 #穿搭",
+     "text": "面要多吃 面要多见 多吃方便面方便多见面",
      "likes": 0,
      "hot": 0
     }
@@ -1970,43 +1863,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "白泽重燃手游狙击赛": {
+  "汉洋折衷把混搭玩明白了": {
    "stats": {},
    "authors": [
     {
-     "name": "白泽（三角洲行动）",
+     "name": "没礼帽",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "狙击蓄势待发@猩球茶白（三角洲行动） @M7（三角洲行动）@若曦（三角洲行动） #白泽重燃手游狙击赛 #白泽三角洲行动 #三角洲行动 #三角洲行动欢乐剧场",
+     "text": "薄巧 #汉洋折衷 #薄巧 #穿搭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "猩球茶白（三角洲行动）",
+     "name": "南南之",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "晚上七点不见不散 @白泽（三角洲行动）#白泽三角洲行动 #白泽重燃手游狙击赛 #三角洲行动",
+     "text": "还记得 前生盟誓 #汉洋折衷",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "冷都女2.0穿搭参考": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "锤里一拳",
+     "name": "秋也",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "伦敦冷都女｜忧郁破碎张力fitcheck 超重工的一期冷都女2.0版本 所有人进入伦敦冷都时代…#冷都女 #穿搭分享 #轻亚穿搭 #忧郁感穿搭 #冷感穿搭",
+     "text": "想不出文案的day.#汉洋折衷 #穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -2081,6 +1967,154 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "娃衣好眼熟啊，这不是以闪的白虎套吗？ #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集 #以闪亮之名 以闪6星实体和美娃吗？我的眼睛好幸福！",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "华晨宇火星演唱会南京站": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "华晨宇yu",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一会儿见！#华晨宇巡演日记 #巡演日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "扬子晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 里程碑官宣！#华晨宇 第 100 场演唱会落地南京，火星乐园 2.0 开启收官场次，11 月 15 日共赴纪念之约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "现代快报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#华晨宇南京演唱会 338位寿星到场 ，华晨宇现场即兴对和弦，和歌迷合唱《烟火里的尘埃》，成为惊喜彩蛋",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "可可系红毯造型好权威": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "何与语音正在接听",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "已被捕获芳心🖤 @何与happy #VOGUE #VOGUE时尚之力盛会 #撕漫男",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "毕雯珺BiBi机（11.28苏州演唱会",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天是小红帽@毕雯珺 #VOGUE时尚之力盛会 #VOGUE #毕雯珺",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LGG🦎",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "战损版陈异来啦。#宋威龙 #vogue盛典 #硬帅天花板 #vogue时尚之力开幕夜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "龙亭菊海一眼梦回大宋": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱拍摄的阿亮",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来开封赏菊那必须是菊花文化节龙亭主会场 #龙亭菊海一眼梦回大宋 #开封菊展的排面还得看龙亭 #第44届菊花文化节龙亭主会场 #莫奈的菊花在开封成真了 #全国秋游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三脚猫👀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋天当然要来开封赏菊了 #河南已进入秋天最佳赏味期 #赏菊还得看开封 #龙亭菊海一眼梦回大宋 #莫奈的菊花在开封成真了 #全国秋游赏菊目的地请上桌",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "橙摄📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“一城宋韵半城菊 来开封赏菊 才是秋天河南旅行的正确打开方式.”#龙亭菊海一眼梦回大宋 #莫奈的菊花在开封成真了 #全国秋游赏菊目的地请上桌 #好好出门过个秋天",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "KnowKnow巡演带女儿同台": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "夏不夏雨.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们怎么知道姐姐亲手拿了我做的大王扇，好幸福，我哭了😭@帕里斯_Paris @KNOWKNOW",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "帕里斯_Paris",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "下雨天带茉莉看爸爸的演出",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "神猪开智惊天地",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "茉莉你萌！#王嘉尔 #瘦了 #花花公子 #knowknow #livehouse",
      "likes": 0,
      "hot": 0
     }
