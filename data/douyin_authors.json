@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-25 03:40",
+ "updated_at": "2026-10-25 04:42",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 47,
+ "ok_count": 46,
  "lexicon_count": 0,
  "topics": {
   "台湾光复81周年": {
@@ -20,6 +20,16 @@
      "hot": 0
     },
     {
+     "name": "中国日报网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【台湾光复81周年：铭记光复历史 成果不容破坏】 10月25日是#台湾光复纪念日 。81年前的今天，被日本殖民统治50年的台湾终于重归祖国怀抱。全国台联副会长杨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "央视军事报道",
      "verify": "蓝V",
      "identity": "媒体人",
@@ -30,12 +40,22 @@
      "hot": 0
     },
     {
-     "name": "台海时刻",
+     "name": "人民网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "81年前的今天，台湾光复，受降现场日本总督颤抖签名，台湾街头民众蜂拥庆祝。#台海时刻 #台湾光复那些事",
+     "text": "东部战区发布台湾光复纪念日主题海报，铭记光复历史，捍卫山河一统！#台湾光复纪念日",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "铭记光复历史 捍卫山河一统！东部战区发布台湾光复纪念日主题海报",
      "likes": 0,
      "hot": 0
     },
@@ -48,24 +68,88 @@
      "text": "#这是中国台湾省 【#太空视角看我国宝岛台湾 】今天，是台湾光复81周年纪念日。跟随“吉林一号”卫星，从太空视角俯瞰我国宝岛台湾，在卫星视角下，台湾的每条街道都",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火箭险胜老鹰豪取三连胜": {
+   "stats": {},
+   "authors": [
     {
-     "name": "湖北日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "王遥篮球",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月25日是台湾光复81周年，也是国家设立台湾光复纪念日1周年。（剪辑：萌萌）",
+     "text": "火箭客场险胜老鹰开季三连胜，谢泼德19分6板7助，杜兰特22 #火箭开季三连胜",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "红星新闻",
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【申京连续暴扣得分】泰山压顶！申京一条龙持球推进至前场，加速突破直冲内线，无视戴森防守高高跃起完成双手滑翔暴扣！随后谢泼德送出助攻，申京挡拆下顺接球，旱地拔葱单",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "致敬最可爱的人": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "81年前的今天，台湾光复！请停留10秒，向65万抗日牺牲的台湾同胞献花，祖国必将统一 ，台湾必将回归！",
+     "text": "抗美援朝老兵回忆：虽然吃穿不行，装备差老了，但我们英勇顽强，不怕死不怕苦，任何强大的敌人，都不能战胜我们。#抗美援朝出国作战76周年 致敬最可爱的人！#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "动静贵州",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "致敬“最可爱的人” 致敬中国人民志愿军 #抗美援朝纪念日 #九旬女兵跨世纪再相见 #一张老照片找回失联72年的战友 #94岁女兵跨千里见72年前的老闺蜜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 76年前，他们跨过鸭绿江，很多人把青春永远留在了战场。76年后，山河无恙，我们从未忘记！向最可爱的人致敬！（海报制作：赵丹阳）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阜阳新闻网",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月25日，是中国人民志愿军抗美援朝出国作战纪念日。纪念日前夕，阜阳市革命烈士纪念馆迎来两位特殊的参观者——抗美援朝老战士，96岁的王寿春和91岁的王传俊。两",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "安徽视讯",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "抗美援朝出国作战 76 周年纪念日之际，10月23日 合肥老兵志愿服务队联合原解放军仪仗司礼大队退役士兵，为六位中国人民志愿军老兵“圆梦”（编辑：学香）#抗美援",
      "likes": 0,
      "hot": 0
     }
@@ -140,29 +224,9 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "致敬最可爱的人": {
+  "纪念抗美援朝出国作战76周年": {
    "stats": {},
    "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "抗美援朝老兵回忆：虽然吃穿不行，装备差老了，但我们英勇顽强，不怕死不怕苦，任何强大的敌人，都不能战胜我们。#抗美援朝出国作战76周年 致敬最可爱的人！#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "动静贵州",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "致敬“最可爱的人” 致敬中国人民志愿军 #抗美援朝纪念日 #九旬女兵跨世纪再相见 #一张老照片找回失联72年的战友 #94岁女兵跨千里见72年前的老闺蜜",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "新华社",
      "verify": "红V",
@@ -174,22 +238,42 @@
      "hot": 0
     },
     {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "珍贵影像！76年前的今天，志愿军跨过鸭绿江！铭记伟大胜利，向英雄致敬！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 今天，是中国人民#志愿军抗美援朝出国作战76周年纪念日 。76年了，我们永远不会忘记！致敬！最可爱的人！#抗美援朝#媒体精选计划",
+     "text": "请停留3秒，向志愿军英烈献一朵花！今天是抗美援朝出国作战76周年纪念日，197653名烈士为了祖国、为了人民、为了和平，献出了宝贵的生命！祖国不会忘记，人民永远",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "阜阳新闻网",
-     "verify": "蓝V",
+     "name": "央视军事",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "10月25日，是中国人民志愿军抗美援朝出国作战纪念日。纪念日前夕，阜阳市革命烈士纪念馆迎来两位特殊的参观者——抗美援朝老战士，96岁的王寿春和91岁的王传俊。两",
+     "text": "中国人民志愿军#抗美援朝 出国作战76周年纪念日，我们永远铭记！#致敬",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "抗美援朝老兵回忆：虽然吃穿不行，装备差老了，但我们英勇顽强，不怕死不怕苦，任何强大的敌人，都不能战胜我们。#抗美援朝出国作战76周年 致敬最可爱的人！#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -197,56 +281,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "第31号台风烟花已生成": {
+  "A股指数调整10月26日落地": {
    "stats": {},
    "authors": [
     {
-     "name": "央广网",
+     "name": "海量财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新台风“烟花”生成！今年编号台风数量已并列本世纪以来最多 #台风烟花",
+     "text": "A股指数迎来重要调整，上证指数、科创综指等拟修订，10月26日起实施（证券时报）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "修行在股海",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新台风“烟花”生成，对我国海区无影响",
+     "text": "#股民 #股指期货 #公募基金 #下跌原因 #财经 @抖音热点",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "千鹤参缠",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今年第31号台风“烟花”（热带风暴级，中文名：烟花；英文名：In-Fa；名字来源：中国澳门；意义：烟花）于今天（24日）凌晨在西北太平洋洋面生成，早晨5点钟其中",
+     "text": "3674危机未除？别急！反弹酝酿中 #指数 #股民 #大盘分析 #行情走势 #股票",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "江西新闻联播",
+     "name": "财闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "第31号台风“烟花”于今天凌晨在西北太平洋洋面生成。预计“烟花”将以每小时5-10公里的速度向西偏北方向缓慢移动，强度逐渐加强，未来“烟花”对我国海区无影响。（",
+     "text": "10月23日，A股开盘，三大指数集体低开，超4900只个股下跌。#A股走势 #10月23日A股走势",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "朱帅解盘",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“蔷琵”最新动向公布！减弱为台风级，即将移入东海南部。第31号台风“烟花”今天凌晨生成",
+     "text": "明天大盘怎么走？ #财经 #大盘 #股民 #干货分享 #黄金",
      "likes": 0,
      "hot": 0
     }
@@ -293,17 +377,27 @@
      "identity": "官方机构",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "无锡VS泰州 泰州获得点球机会，无锡19岁门将陈立群勇猛扑救！#无锡 #无锡队加油 #苏超半决赛 #无锡VS泰州 #苏超",
+     "text": "无锡队挺进决赛！战报！苏超半决赛无锡VS泰州总比分2:1，计划不变，准备夺冠！#无锡 #无锡队加油 #苏超半决赛 #无锡VS泰州 #苏超",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "最泰州",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "云白足球（赛事速报）",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "惜败无锡，止步四强。泰州队球员泪洒赛场，雨中挥手向球迷致意。已经很不容易，我们明年再战！#泰州 #苏超 #泰州VS无锡 #苏超半决赛 #苏超决赛",
+     "text": "三个角球，高飞双响，李霄鹏头槌！苏超常州3比0盐城，晋级决赛 三个角球三个头球！常州主场3比0盐城晋级决赛！#苏超 #常州vs盐城 #高飞 #常州队 #抖in主",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江苏体育休闲频道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赛后盐城队黄勇接受采访谈半决赛次回合的失球。#苏超 #盐城 #常州",
      "likes": 0,
      "hot": 0
     }
@@ -321,16 +415,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "武汉三镇3：5山东泰山，提前一轮降级，告别本赛季中超赛场。主帅邓卓翔泪洒赛场。（记者：柯皓 剪辑：文捷）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月24日讯 中超第29轮，武汉三镇负于山东泰山，提前一轮确定降级，将参加下赛季中甲联赛。2022年曾以升班马身份夺得中超冠军的三镇，四年后告别顶级联赛。 本",
      "likes": 0,
      "hot": 0
     },
@@ -353,31 +437,91 @@
      "text": "武汉三镇提前降级！。中超第29轮，山东泰山5比3击败武汉三镇，后者提前一轮降级。#中超 #武汉三镇",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "新今体育",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又一中超冠军降级！ 武汉三镇没能创造奇迹提前一轮降级！#足球 #体育 #新今体育",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "BLG战胜TLAW": {
+  "张雪机车刷新水上漂吉尼斯纪录": {
    "stats": {},
    "authors": [
     {
-     "name": "BLG电子竞技俱乐部",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "BLG 1:0 TLAW.【#2026全球总决赛# 】 瑞士轮 MVP:中单 Knight 9分钟，我方拿下三只巢虫； 11分钟，我方打野抢到小龙； 15分钟，",
+     "text": "张雪在家乡刷新吉尼斯纪录",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "英雄联盟赛事",
+     "name": "张雪机车",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "挑战改装摩托车在开阔水域行驶最远距离",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第1眼新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 吉尼斯认证官已经到位！10月25日，#张雪团队挑战水上漂吉尼斯纪录 ！张雪机车网络营销部部长：如果下雨往后延1~2小时，目前来看时间不变11点整开始",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张雪在家乡刷新吉尼斯纪录，祝贺！#媒体原创（记者：程济安、丁春雨、王天泽、陈思汗、戴斌）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "摩托车能在水上“漂”？10月25日，张雪将带着17年前的遗憾回到家乡湖南麻阳，驾驶张雪机车MX450向“改装摩托车在开阔水域行驶最远距离”吉尼斯世界纪录发起冲击",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 张雪明日冲击水上漂“吉尼斯纪录” 张雪妈妈回老家 村民热情欢迎 她感动落泪称自己付出的不多 最大功劳是星伊和爷爷奶奶辛苦付出#张雪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "美丽浙江",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Bin青钢影冷血追命，BLG战胜TLAW晋级1-1组 #Bin #BLG战胜TLAW #S16瑞士轮 #英雄联盟S16 #2026全球总决赛",
+     "text": "张雪机车冲击吉尼斯世界纪录，挑战“水上漂”41公里。 #美丽主播说新闻",
      "likes": 0,
      "hot": 0
     }
@@ -429,12 +573,12 @@
      "hot": 0
     },
     {
-     "name": "兔玩电竞",
+     "name": "LOL大锤赛事速看",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "TES战胜AL！ LPL一号种子AL掉入0-2组，后面把把生死战！369狼母拿下MVP，连续两波团战大招举到Hope！sask：都以为能领滔补，最后发现自己才是",
+     "text": "S16速看ALvsTES：LPL首胜破蛋就在今天！369安蓓萨怒秀神切C位！#S16瑞士轮 #英雄联盟S16 #AL对战TES #TES战胜AL",
      "likes": 0,
      "hot": 0
     }
@@ -454,81 +598,31 @@
      "text": "地球磁极即将倒转 将引发世界末日、物种大灭绝？过分夸大了！#媒体精选计划 #闪电主播说",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "热点都市评",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#地球磁极倒转引发末日是伪科学 天体物理学专家：磁极倒转在地质历史上确曾多次发生，但过程极其缓慢。磁极倒转绝非一夜之间南北颠倒，并不会对气候和物种产生显著影响。",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "直击张雪冲击水上漂吉尼斯纪录": {
+  "BLG战胜TLAW": {
    "stats": {},
    "authors": [
     {
-     "name": "张雪机车",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "挑战改装摩托车在开阔水域行驶最远距离",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 吉尼斯认证官已经到位！10月25日，#张雪团队挑战水上漂吉尼斯纪录 ！张雪机车网络营销部部长：如果下雨往后延1~2小时，目前来看时间不变11点整开始",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "摩托车能在水上“漂”？10月25日，张雪将带着17年前的遗憾回到家乡湖南麻阳，驾驶张雪机车MX450向“改装摩托车在开阔水域行驶最远距离”吉尼斯世界纪录发起冲击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜班",
+     "name": "BLG电子竞技俱乐部",
      "verify": "蓝V",
-     "identity": "媒体人",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "目标40公里！张雪将挑战改装摩托水上漂吉尼斯纪录。#张雪 #张雪机车 #水上漂 #吉尼斯世界纪录",
+     "text": "BLG 1:0 TLAW.【#2026全球总决赛# 】 瑞士轮 MVP:中单 Knight 9分钟，我方拿下三只巢虫； 11分钟，我方打野抢到小龙； 15分钟，",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "张雪机车冲击摩托车冲浪吉尼斯记录！10月19日，张雪的机车账号发布张雪机车水上漂训练视频被问：有气垫船，有摩托艇，这个主要的功能是干啥用？张雪的机车霸气回应：它",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洛阳网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“我要去浪” 张雪两次下水测试，25号冲击摩托车冲浪“吉尼斯纪录”",
+     "text": "Bin青钢影冷血追命，BLG战胜TLAW晋级1-1组 #Bin #BLG战胜TLAW #S16瑞士轮 #英雄联盟S16 #2026全球总决赛",
      "likes": 0,
      "hot": 0
     }
@@ -546,6 +640,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "排名反超曼联！热刺2比0切尔西赢下伦敦德比 ，球队迎来两连胜重回正轨！（编辑：Lym）#热刺 #切尔西 #英超",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汉青书半霍去病",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "主播这波犯了傲慢之罪解说被狠狠回旋镖 切尔西0:2热刺这场比赛翻车翻得太彻底了，已老实。 #切尔西 #英超 #热刺 #帕尔默 #青书",
      "likes": 0,
      "hot": 0
     },
@@ -570,22 +674,86 @@
      "hot": 0
     },
     {
-     "name": "尼古拉斯·曲奇",
+     "name": "切尔西云斗罗",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "托纳利说：follow me！ #英超 #切尔西vs热刺 #足球的魅力",
+     "text": "#英超 #切尔西vs热刺 #跑外卖的切尔西球迷 #切尔西云斗罗 想妈妈了。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "冷都女2.0穿搭参考": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "锤里一拳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "伦敦冷都女｜忧郁破碎张力fitcheck 超重工的一期冷都女2.0版本 所有人进入伦敦冷都时代…#冷都女 #穿搭分享 #轻亚穿搭 #忧郁感穿搭 #冷感穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "S16瑞士轮第二轮赛果": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中安在线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月25日（发布）2026英雄联盟全球总决赛瑞士轮第二轮赛果：LPL四支队伍:TES赢下和AL的内战IG、BLG两场外战全部取胜，TES 1-0 AL、IG ",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "冠太晶百货（原分析师尼尔森）",
+     "name": "英雄联盟赛事",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Damn！今天的切尔西不可信！ #切尔西vs热刺 （内容仅为赛事观点交流，不构成购彩投注建议。赛事结果存在不确定性，请勿盲目跟风。理性购彩，拒绝赌博，量力而行。",
+     "text": "2026全球总决赛瑞士轮第三轮抽签结果 #S16瑞士轮 #英雄联盟S16 #2026全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "fuker解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "锐评 TES 战胜 AL， 369 连续秒杀 hope，力挽狂澜带队翻盘！老九他没毛病！#英雄联盟s16#tes#al#lpl#抖音精选app",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长城新媒体",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#LPL瑞士轮首轮四队全败 创S赛历史首次，四场输法不同 IG、TES输实力 BLG、AL爆冷，0比4是事实 但S赛剧本不只看第一页#媒体原创 #精选主播说 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "联盟名场面lol（主播版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "LPL瑞士轮首轮全军覆没 观众熬夜见证LPL创造历史！ #英雄联盟S16 #2026全球总决赛 #HLE战胜TES #MKOI战胜BLG #KC战胜AL",
      "likes": 0,
      "hot": 0
     }
@@ -700,103 +868,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "S16瑞士轮第二轮赛果": {
+  "李荣浩衡阳演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "英雄联盟赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "李荣浩",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026全球总决赛瑞士轮第二轮抽签结果 #S16瑞士轮 #英雄联盟S16 #2026全球总决赛",
+     "text": "衡阳的朋友",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "长城新媒体",
+     "name": "衡阳日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#LPL瑞士轮首轮四队全败 创S赛历史首次，四场输法不同 IG、TES输实力 BLG、AL爆冷，0比4是事实 但S赛剧本不只看第一页#媒体原创 #精选主播说 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞老山羊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "369关键封烟，世界赛在上路与宙斯对狙！ #S16瑞士轮首轮抽签结果 #英雄联盟S16 #TES对战HLE #IG对战GEN #抖音精选App话题",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "网ing少年Joe",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当HLE抽到TES后： #S16瑞士轮首轮抽签结果 #英雄联盟S16",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "金正恩访问丹东": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王沪宁陪同朝鲜最高领导人金正恩访问丹东",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豫视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金正恩时隔一年多再次访华，向抗美援朝纪念塔敬献花篮，并赠送亲笔题词照片 #金正恩访华 （豌豆）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "直新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“抗美援朝”纪念日前夕，朝鲜领导人金正恩经由新鸭绿江大桥抵达丹东，王沪宁陪同向抗美援朝纪念塔献花。#中朝 #朝鲜 #新鸭绿江大桥 #中国人民志愿军抗美援朝出国作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "河山新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王沪宁陪同朝鲜最高领导人金正恩访问丹东 #快讯 #时政 #王沪宁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阜阳新闻网",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月24日，朝鲜最高领导人金正恩访问丹东。",
+     "text": "太好吃了，回去还要再点一碗！李荣浩被衡阳鱼粉圈粉！#衡阳#李荣浩衡阳演唱会#黑马演唱会#周末不忙来趟衡阳",
      "likes": 0,
      "hot": 0
     }
@@ -841,33 +932,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "李荣浩衡阳演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "李荣浩",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "衡阳的朋友",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "衡阳日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太好吃了，回去还要再点一碗！李荣浩被衡阳鱼粉圈粉！#衡阳#李荣浩衡阳演唱会#黑马演唱会#周末不忙来趟衡阳",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "IG战胜TSW": {
    "stats": {},
    "authors": [
@@ -882,12 +946,22 @@
      "hot": 0
     },
     {
-     "name": "大木GameDay",
+     "name": "LOL电竞小鱼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "[S16瑞士轮第二轮]【TSW vs IG】全场速看 #英雄联盟S16 #S16瑞士轮 #IG对战TSW #IG战胜TSW #抖音精选App",
+     "text": "越南中单Dire的洛克把Rookie的发条单切了！#IG对战TSW #英雄联盟S16 #我在抖音聊LOL",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LPL赛事高能君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有惊无险，IG中期发力击败TSW拿下世界赛首胜！ #IG战胜TSW#英雄联盟S16 #IG对战TSW",
      "likes": 0,
      "hot": 0
     },
@@ -898,16 +972,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "IG战胜TSW TheShy奎桑提团战游龙，LPL居然要指望一个四号种子。#IG战胜TSW#Theshy#英雄联盟S16#IG对战TSW #IG",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL电竞小鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "越南中单Dire的洛克把Rookie的发条单切了！#IG对战TSW #英雄联盟S16 #我在抖音聊LOL",
      "likes": 0,
      "hot": 0
     },
@@ -925,195 +989,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我在现场看苏超半决赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "姐弟俩_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "决赛，圣奥体见！#无锡#常州#南京#苏超#冠军🏆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "东哈街边老板娘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天常州3:0盐城，进苏超决赛了。 说实话，我到现在还有点没缓过来。 去年这个时候，常州队还在末尾挣扎呢。今年我虽然没场场去现场，票也没那么多，但店里电视一直开",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "笑嘻嘻的XiXi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太刺激了！！！ 小甜锡把阿泰点球扑出来啦 #无锡 #江阴 #无锡VS泰州 #点球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "媒体人张蓓蓓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "常州队进球！沸腾了🔥 #苏超#常州VS盐城#媒体人张蓓蓓#现场直击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无锡发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无锡队挺进决赛！战报！苏超半决赛无锡VS泰州总比分2:1，计划不变，准备夺冠！#无锡 #无锡队加油 #苏超半决赛 #无锡VS泰州 #苏超",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "孙恩盛cos嬴律极具腔调的男人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "孙恩盛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现在颁布至高决策",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋挞小屁孩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "双强就是最爽的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李歪歪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "所以爱上我要多久#白歌",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "苏超无锡总比分2:1泰州": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "无锡发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无锡队挺进决赛！战报！苏超半决赛无锡VS泰州总比分2:1，计划不变，准备夺冠！#无锡 #无锡队加油 #苏超半决赛 #无锡VS泰州 #苏超",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#苏超无锡vs泰州 下半场进行到第70分钟，泰州队20号吴硕涛接队友禁区回传抽射破门，将比分改写为无锡队1:1泰州队。 #江苏超会玩 #苏超 #无锡vs泰州",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 10月24日（发布）。无锡2:1泰州 常州3:0盐城，“太湖兄弟”会师苏超决赛，曾被球迷调侃的“太湖三傻”，今年有两兄弟杀出一条“血路”，在南京奥体",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月24日，无锡队总比分2：1战胜泰州，成功晋级决赛，主教练唐京感谢球员和球迷，他说全力以赴，争夺冠军。（荔枝新闻中心记者：胡於棋 陈哲天 夏天 史哲铭）#2",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "扬子晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第二回合1:1战平泰州，无锡队以总比分2:1晋级决赛 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的王者嘉年华日记": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "24个小矮人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今年是梦泪偷塔十周年 王者还是没放过这个老梦泪#王者 #王者荣耀 #王者荣耀嘉年华 #梦泪 #kpl",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小升",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哇塞！ #王者荣耀2026周年庆嘉年华#王者全英雄COS天团 #干将莫邪 #干将莫邪抱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱健身的夕生啊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来吧~众宾欢也! 对接成功#赵云 #司空震 #王者荣耀2026周年庆嘉年华 #王者全英雄cos天团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "尚公主皆是修罗场": {
+  "在九寨沟拍到野生水獭的含金量": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1215,6 +1091,211 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "用一条视频安利小城良方": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "一口吃个兔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又治愈又搞笑，前一个笑点还没笑完，后一个就跟鬼一样追上来了 #小城良方 #肖战 #刘铮亮 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "谭先生家的小猫咪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上班赚钱还是上班渡劫我自有评判 #混剪产粮团 #小城良方 #肖战 #刘铮亮 #新剧来袭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "y_黑鲨麦旋风",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“我怕痛苦” #小城良方 #肖战 #刘铮亮 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "VOGUE红毯女明星战袍解析": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爆爆大王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从此大雨向下 她们向上，世间再无能困住彼此的东西#迪丽热巴 #vogue #红毯 #审美积累 #颜值",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "星娱圈圈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "迪丽热巴这下真美成神了！#迪丽热巴 #vogue #时尚 #红毯 #女明星",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Bloddy布布",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Vogue盛典红毯🔥艺人造型盘点 迪丽热巴、杨紫、谷爱凌、白鹿、奚梦瑶、关晓彤、陈昊宇、欧阳娜娜、刘亦菲 #vogue盛典 #vogue红毯 #vogue时尚",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小王玩家吃得也太好了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "絕色",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小王你的cos都好权威！只能说太壮观了 #王者荣耀cos",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "zvz",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "护眼环节到 #cos #王者荣耀嘉年华 #王维 #李白",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梅莉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奉我为主 叫我女王陛下 #王者荣耀 #武则天 #梅莉 #cos",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的王者嘉年华日记": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "24个小矮人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今年是梦泪偷塔十周年 王者还是没放过这个老梦泪#王者 #王者荣耀 #王者荣耀嘉年华 #梦泪 #kpl",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小升",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哇塞！ #王者荣耀2026周年庆嘉年华#王者全英雄COS天团 #干将莫邪 #干将莫邪抱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱健身的夕生啊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来吧~众宾欢也! 对接成功#赵云 #司空震 #王者荣耀2026周年庆嘉年华 #王者全英雄cos天团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我在现场看苏超半决赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "姐弟俩_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "决赛，圣奥体见！#无锡#常州#南京#苏超#冠军🏆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东哈街边老板娘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天常州3:0盐城，进苏超决赛了。 说实话，我到现在还有点没缓过来。 去年这个时候，常州队还在末尾挣扎呢。今年我虽然没场场去现场，票也没那么多，但店里电视一直开",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "笑嘻嘻的XiXi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太刺激了！！！ 小甜锡把阿泰点球扑出来啦 #无锡 #江阴 #无锡VS泰州 #点球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "媒体人张蓓蓓",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "常州队进球！沸腾了🔥 #苏超#常州VS盐城#媒体人张蓓蓓#现场直击",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无锡发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无锡队挺进决赛！战报！苏超半决赛无锡VS泰州总比分2:1，计划不变，准备夺冠！#无锡 #无锡队加油 #苏超半决赛 #无锡VS泰州 #苏超",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "原来生抽是咕嘟的": {
    "stats": {},
    "authors": [
@@ -1269,22 +1350,22 @@
      "hot": 0
     },
     {
-     "name": "尽欢",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来深秋是孤独的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "007",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "原来生抽是咕嘟的...那酱油呢...#手写文案 #bgm",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "尽欢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来深秋是孤独的",
      "likes": 0,
      "hot": 0
     },
@@ -1322,16 +1403,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "徐生切换红皮澜神回归": {
+  "金正恩访问丹东": {
    "stats": {},
    "authors": [
     {
-     "name": "7^uuuuu🐛",
-     "verify": "",
-     "identity": "",
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "神颜@徐生 #徐生 #澜 #ooc致歉 #王者荣耀cos#徐生切换红皮澜神回归",
+     "text": "王沪宁陪同朝鲜最高领导人金正恩访问丹东",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "豫视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金正恩时隔一年多再次访华，向抗美援朝纪念塔敬献花篮，并赠送亲笔题词照片 #金正恩访华 （豌豆）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“抗美援朝”纪念日前夕，朝鲜领导人金正恩经由新鸭绿江大桥抵达丹东，王沪宁陪同向抗美援朝纪念塔献花。#中朝 #朝鲜 #新鸭绿江大桥 #中国人民志愿军抗美援朝出国作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "河山新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王沪宁陪同朝鲜最高领导人金正恩访问丹东 #快讯 #时政 #王沪宁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阜阳新闻网",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月24日，朝鲜最高领导人金正恩访问丹东。",
      "likes": 0,
      "hot": 0
     }
@@ -1349,6 +1470,109 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "来自姐@Dear-迪丽热巴 的神之6秒#迪丽热巴",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "徐生切换红皮澜神回归": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "7^uuuuu🐛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神颜@徐生 #徐生 #澜 #ooc致歉 #王者荣耀cos#徐生切换红皮澜神回归",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "单更的嫁金钗最适合深扒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "磕学专家米老大",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从“魏娆被诬陷杀人”到“证明魏娆清白”， 暴露了在场人的哪些心理活动？#田曦薇 #毛林林 #王一楠 #嫁金钗 #了不起的精讲团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果妈妈",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嫁金钗：终于拍出换子替身最残忍的真相#嫁金钗#田曦薇#魏娆#君黛#单更的嫁金钗最适合深扒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "悦 月",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "单更空档，强烈推荐二刷《嫁金钗》！首刷只追主线，二刷才惊觉暗线伏笔埋得太深#追嫁金钗酷酷整活 #嫁金钗",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "尚公主皆是修罗场": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "跟着与辉同行打开贵州": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "与辉同行",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "开心了就放声，欢喜了就跳舞。天菩萨！这个贵州好热闹～#董宇辉 #与辉同行 #董宇辉拥有暖评最多的评论区 #与辉同行阅山河 #与辉同行贵州行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小城良方车明明好苦": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小雪爱剪辑y",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来医生现实这么艰难呀#小城良方",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小城良方(专治 emo 版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生活再难也要咬牙向上。#小城良方 #肖战 #刘铮亮 #菅韧姿 #车明明",
      "likes": 0,
      "hot": 0
     }
@@ -1443,36 +1667,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "单更的嫁金钗最适合深扒": {
+  "谁懂双11现货现发的快乐": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "亲手捏个角色放主页": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "孙恩盛cos嬴律极具腔调的男人": {
    "stats": {},
    "authors": [
     {
-     "name": "磕学专家米老大",
+     "name": "孙恩盛",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "从“魏娆被诬陷杀人”到“证明魏娆清白”， 暴露了在场人的哪些心理活动？#田曦薇 #毛林林 #王一楠 #嫁金钗 #了不起的精讲团",
+     "text": "现在颁布至高决策",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "芒果妈妈",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嫁金钗：终于拍出换子替身最残忍的真相#嫁金钗#田曦薇#魏娆#君黛#单更的嫁金钗最适合深扒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "悦 月",
+     "name": "蛋挞小屁孩",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "单更空档，强烈推荐二刷《嫁金钗》！首刷只追主线，二刷才惊觉暗线伏笔埋得太深#追嫁金钗酷酷整活 #嫁金钗",
+     "text": "双强就是最爽的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李歪歪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所以爱上我要多久#白歌",
      "likes": 0,
      "hot": 0
     }
@@ -1480,10 +1714,79 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "谁懂双11现货现发的快乐": {
+  "南通支云提前两轮冲超成功": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "南通发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月24日晚，中甲第28轮，南通支云坐镇如皋奥体主场1:0击败深圳青年人，提前两轮冲超成功。赛后全队谢场，与现场球迷一同欢呼庆祝支云重返中超联赛！#中超#支云",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江苏新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "南通支云提前两轮冲超成功 江苏足球重返中超 （荔枝新闻中心编辑：小柱 焱茹 综合：南通发布、南通电视台、南通支云足球俱乐部）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "扬子晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再登顶级舞台！南通支云成功冲超，江苏足球重回中超版图 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南通支云足球俱乐部",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中超我们回来了！邓宇彪进球！南通支云主场战胜深圳青年人，提前两轮成功冲超！#南通支云1比0深圳青年人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南通广播电视台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中超，我们回来了! 今天，中国足球甲级联赛第28轮比赛全面开踢。南通支云坐镇主场如皋奥体中心，迎战深圳青年人。最终，南通支云1比0战胜对手。由于，在先前下午举行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "第五人格女团出道MV首曝": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "网易第五人格",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“I won't go blind，'cause I know who I am.” 【奇珍时装】祭司-PerVade.Fiona 【奇珍时装】调香师-PerV",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "和你做个一分钟恋人": {
    "stats": {},
@@ -1592,232 +1895,11 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "VOGUE红毯女明星战袍解析": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爆爆大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "从此大雨向下 她们向上，世间再无能困住彼此的东西#迪丽热巴 #vogue #红毯 #审美积累 #颜值",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星娱圈圈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "迪丽热巴这下真美成神了！#迪丽热巴 #vogue #时尚 #红毯 #女明星",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Bloddy布布",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Vogue盛典红毯🔥艺人造型盘点 迪丽热巴、杨紫、谷爱凌、白鹿、奚梦瑶、关晓彤、陈昊宇、欧阳娜娜、刘亦菲 #vogue盛典 #vogue红毯 #vogue时尚",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "现场观赛S16瑞士轮": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "13点14准时起",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "ig冲！！！ #英雄联盟赛事现场 #lpl全球总决赛 #电竞现场 #lpl电竞 #现场氛围太燃了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我也是有感情的啊各位",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "369上台封烟了 #英雄联盟S16 #369 #tes #lpl #zeus",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "亲手捏个角色放主页": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "小城良方车明明好苦": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小雪爱剪辑y",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来医生现实这么艰难呀#小城良方",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小城良方(专治 emo 版",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生活再难也要咬牙向上。#小城良方 #肖战 #刘铮亮 #菅韧姿 #车明明",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟着与辉同行打开贵州": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "与辉同行",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "开心了就放声，欢喜了就跳舞。天菩萨！这个贵州好热闹～#董宇辉 #与辉同行 #董宇辉拥有暖评最多的评论区 #与辉同行阅山河 #与辉同行贵州行",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "冷都女2.0穿搭参考": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "锤里一拳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "伦敦冷都女｜忧郁破碎张力fitcheck 超重工的一期冷都女2.0版本 所有人进入伦敦冷都时代…#冷都女 #穿搭分享 #轻亚穿搭 #忧郁感穿搭 #冷感穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用一条视频安利小城良方": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一口吃个兔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又治愈又搞笑，前一个笑点还没笑完，后一个就跟鬼一样追上来了 #小城良方 #肖战 #刘铮亮 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "谭先生家的小猫咪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上班赚钱还是上班渡劫我自有评判 #混剪产粮团 #小城良方 #肖战 #刘铮亮 #新剧来袭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "y_黑鲨麦旋风",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“我怕痛苦” #小城良方 #肖战 #刘铮亮 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "繁荣主义穿搭回归": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "巴掌姗姗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋冬披肩斗篷不烧心～小个子穿出贵气活人感 小个子也能驾驭的披肩斗篷穿搭～淡人电子试衣间来咯#活人感穿搭你就学吧 #繁荣主义穿搭回归 #我的秋冬穿搭不烧心 #毛绒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "落水三千",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "斯莱特林的舞会 #万圣节穿搭 #哥特 #暗黑系 #亚文化 #繁荣主义穿搭回归",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "oopisyuu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人一旦走错路 就要开始打车了。#ootd穿搭 #中性风穿搭 #繁荣主义穿搭回归 #一身黑穿搭技巧 #上海拍照",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "第五人格女团出道MV首曝": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "网易第五人格",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“I won't go blind，'cause I know who I am.” 【奇珍时装】祭司-PerVade.Fiona 【奇珍时装】调香师-PerV",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "好想被风刮走 刮遍整个地球": {
    "stats": {},
    "authors": [
     {
-     "name": "K4U",
+     "name": "向阳",
      "verify": "",
      "identity": "",
      "identity_raw": "",
@@ -1827,7 +1909,7 @@
      "hot": 0
     },
     {
-     "name": "向阳",
+     "name": "K4U",
      "verify": "",
      "identity": "",
      "identity_raw": "",
@@ -1890,100 +1972,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "团播的风最终还是吹到了控": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "404-K",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "双“跨”赴约！控首次闯入团播“跨”次元合作！404xIPO首次“跨”厂牌男女团联动！打破次元、厂牌相逢！ 10月25日14:00锁定@404-K 直播间，一起静",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西尔一🧁⁸³⁰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前方传来新的联动，25号控vsIPO女团vs404男团追逐战🏃🏻‍♀️@控 @𝑲 #控 #控直播日记 #IPO #404厂牌 #团播",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "00要开心🧁⁸³⁰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么，25号控要和IPO女团and404男团打周赛，感觉会很有意思诶@控 #IPO女团 #404厂牌 #控直播日记",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "南通支云提前两轮冲超成功": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "南通发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月24日晚，中甲第28轮，南通支云坐镇如皋奥体主场1:0击败深圳青年人，提前两轮冲超成功。赛后全队谢场，与现场球迷一同欢呼庆祝支云重返中超联赛！#中超#支云",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "南通支云足球俱乐部",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中超我们回来了！邓宇彪进球！南通支云主场战胜深圳青年人，提前两轮成功冲超！#南通支云1比0深圳青年人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "南通广播电视台",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中超，我们回来了! 今天，中国足球甲级联赛第28轮比赛全面开踢。南通支云坐镇主场如皋奥体中心，迎战深圳青年人。最终，南通支云1比0战胜对手。由于，在先前下午举行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘sir爱踢球-职业赛事解说+主持",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜无锡和常州进入决赛，胜利属于我们太湖！恭喜南通支云冲超！明天我们东吴保级！！！#太湖三霸 #支云冲超 #无锡常州进决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老六说球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "727天的等待南通支云终于重返中超！ #南通支云 #南通支云足球俱乐部 #南通球迷 #江东狼 #狼啸江东唯有支云",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "王者万象棋棋盘变秀场": {
    "stats": {},
    "authors": [
@@ -2021,36 +2009,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "以闪娃圈展台看了不烧心": {
+  "团播的风最终还是吹到了控": {
    "stats": {},
    "authors": [
     {
-     "name": "泡芙（以闪版）",
+     "name": "404-K",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "在以闪亮之名参加时装周？！✨ #在以闪染上化蝶症#以闪亮之名创作者激励 #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集",
+     "text": "双“跨”赴约！控首次闯入团播“跨”次元合作！404xIPO首次“跨”厂牌男女团联动！打破次元、厂牌相逢！ 10月25日14:00锁定@404-K 直播间，一起静",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "邪恶土豆咪🐾",
+     "name": "西尔一🧁⁸³⁰",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "实在美丽🥰。#娃圈闪亮大改造 #抖音娃改时装周 #以闪亮之名 #以闪和娃圈最适配的一集",
+     "text": "前方传来新的联动，25号控vsIPO女团vs404男团追逐战🏃🏻‍♀️@控 @𝑲 #控 #控直播日记 #IPO #404厂牌 #团播",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "蝶羽Cerys",
+     "name": "00要开心🧁⁸³⁰",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "极致还原｜以闪抖音娃改时装周 现场直击揭秘！ #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集 #以闪娃圈展台看了不烧心 #上抖音精选看acg",
+     "text": "什么，25号控要和IPO女团and404男团打周赛，感觉会很有意思诶@控 #IPO女团 #404厂牌 #控直播日记",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "繁荣主义穿搭回归": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "巴掌姗姗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "秋冬披肩斗篷不烧心～小个子穿出贵气活人感 小个子也能驾驭的披肩斗篷穿搭～淡人电子试衣间来咯#活人感穿搭你就学吧 #繁荣主义穿搭回归 #我的秋冬穿搭不烧心 #毛绒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "落水三千",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "斯莱特林的舞会 #万圣节穿搭 #哥特 #暗黑系 #亚文化 #繁荣主义穿搭回归",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "oopisyuu",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人一旦走错路 就要开始打车了。#ootd穿搭 #中性风穿搭 #繁荣主义穿搭回归 #一身黑穿搭技巧 #上海拍照",
      "likes": 0,
      "hot": 0
     }
@@ -2085,63 +2110,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "龙亭菊海一眼梦回大宋": {
+  "以闪娃圈展台看了不烧心": {
    "stats": {},
    "authors": [
     {
-     "name": "汤圆GoGo",
+     "name": "泡芙（以闪版）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "在六朝皇宫遗址上，看一场流传了千年的菊。 #龙亭菊海一眼梦回大宋 #莫奈的菊花在开封成真了 #全国秋游赏菊目的地请上桌 #情侣旅行",
+     "text": "在以闪亮之名参加时装周？！✨ #在以闪染上化蝶症#以闪亮之名创作者激励 #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "爱拍摄的阿亮",
+     "name": "邪恶土豆咪🐾",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "来开封赏菊那必须是菊花文化节龙亭主会场 #龙亭菊海一眼梦回大宋 #开封菊展的排面还得看龙亭 #第44届菊花文化节龙亭主会场 #莫奈的菊花在开封成真了 #全国秋游",
+     "text": "实在美丽🥰。#娃圈闪亮大改造 #抖音娃改时装周 #以闪亮之名 #以闪和娃圈最适配的一集",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "三脚猫👀",
+     "name": "蝶羽Cerys",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "秋天当然要来开封赏菊了 #河南已进入秋天最佳赏味期 #赏菊还得看开封 #龙亭菊海一眼梦回大宋 #莫奈的菊花在开封成真了 #全国秋游赏菊目的地请上桌",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王一楠嫁金钗又横扫祠堂了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "嫁金钗（酷爽热播ing",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "情绪骤然迸发，同台对垒，每一秒都是演技大赏#嫁金钗 #王一楠 #毛林林 #陈紫函",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "XDannyS2",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不愧是国家一级演员的演技和台词功底 将郭虞凤的愤恨与不甘演绎得淋漓尽致#嫁金钗 #王一楠 #郭虞凤 #逐帧酷看嫁金钗 #田曦薇",
+     "text": "极致还原｜以闪抖音娃改时装周 现场直击揭秘！ #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集 #以闪娃圈展台看了不烧心 #上抖音精选看acg",
      "likes": 0,
      "hot": 0
     }
@@ -2223,16 +2221,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "打开马嘉祺的冰箱里面有什么": {
+  "王一楠嫁金钗又横扫祠堂了": {
    "stats": {},
    "authors": [
     {
-     "name": "时代少年团-马嘉祺",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "嫁金钗（酷爽热播ing",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今天晚餐是______!(◎_◎;)",
+     "text": "情绪骤然迸发，同台对垒，每一秒都是演技大赏#嫁金钗 #王一楠 #毛林林 #陈紫函",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "XDannyS2",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不愧是国家一级演员的演技和台词功底 将郭虞凤的愤恨与不甘演绎得淋漓尽致#嫁金钗 #王一楠 #郭虞凤 #逐帧酷看嫁金钗 #田曦薇",
      "likes": 0,
      "hot": 0
     }
