@@ -1,11 +1,16 @@
 {
- "updated_at": "2026-10-26 04:41",
+ "updated_at": "2026-10-26 05:44",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 45,
+ "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
+  "二十届五中全会今起在京召开": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "想和你去看赛里木湖的冬日浪漫": {
    "stats": {},
    "authors": [
@@ -36,6 +41,53 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "谁懂啊！在赛里木湖偶遇初雪，蓝湖飘雪太治愈 #赛里木湖 #初雪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "看祖国各地丰收景象": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #看祖国各地丰收景象 【#全国秋粮收获过八成 】农业农村部最新农情调度显示，全国秋粮收获过八成，进度同比快于上年。 这几天，东北地区天气晴好，利于秋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“吉林一号”卫星俯瞰大地丰收，沃野田畴打翻调色盘，快来看你能认出几种农作物？#联播一瞬",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国三农发布",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亩产1211.14公斤！玉米创下全球同尺度大面积单产最高水平",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网品味新疆",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新疆：一豆多用，7万余亩油莎豆正在采收。#油莎豆#塔克拉玛干沙漠#油料作物#虎坚果#油莎豆的营养价值及功效",
      "likes": 0,
      "hot": 0
     }
@@ -100,66 +152,9 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "看祖国各地丰收景象": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #看祖国各地丰收景象 【#全国秋粮收获过八成 】农业农村部最新农情调度显示，全国秋粮收获过八成，进度同比快于上年。 这几天，东北地区天气晴好，利于秋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "农业农村部：全国秋粮收获过八成 #秋粮 #粮食 #农业",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国三农发布",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "农业农村部：全国秋粮收获过八成",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网品味新疆",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新疆：一豆多用，7万余亩油莎豆正在采收。#油莎豆#塔克拉玛干沙漠#油料作物#虎坚果#油莎豆的营养价值及功效",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "U17女足世界杯中国3:2美国": {
    "stats": {},
    "authors": [
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年国际足联U17女足世界杯25日进行了E组最后一轮争夺，中国队凭借刘雨希的两粒进球和赵嘉怡的破门，以3:2战胜美国队，三战全胜积9分，以小组第一身份晋级",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "足球中国",
      "verify": "蓝V",
@@ -171,12 +166,22 @@
      "hot": 0
     },
     {
-     "name": "豫视频",
+     "name": "央视网快看",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“你可以永远相信中国女足”！U17女足世界杯中国队3:2战胜美国队，三战全胜，小组第一出线。29日将与法国队争夺八强席位#中国女足 #女足 #世界杯 （编辑：小",
+     "text": "中国U17女足3比2击败美国队 小组头名晋级16强 马晓旭：我们今天做到了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "U17女足世界杯中国队3:2战胜美国队，以小组第一身份晋级16强（编辑：豆啵）",
      "likes": 0,
      "hot": 0
     },
@@ -236,14 +241,21 @@
      "text": "特大暴雨！暴雪！新一股冷空气即将来袭 25日至27日冷空气主体东移南下，长江中下游及其以北地区普遍有4至6级偏北风，西北和中东部地区有4至6℃降温，华北和东北部",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "日本前首相福田康夫去世": {
+   "stats": {},
+   "authors": [
     {
-     "name": "Len9",
-     "verify": "",
-     "identity": "",
+     "name": "环视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "冷空气袭来 可能最近要变天了#手写 #文案 #见字如面",
+     "text": "日媒：日本前首相福田康夫去世，终年90岁",
      "likes": 0,
      "hot": 0
     }
@@ -295,12 +307,12 @@
      "hot": 0
     },
     {
-     "name": "足球观众席",
-     "verify": "",
-     "identity": "",
+     "name": "林梦鸽",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "赢给你看!姆巴佩梅开二度，皇马2比1绝杀巴萨#足球的魅力#dou来足球季#皇马#巴萨#姆巴佩",
+     "text": "巴萨1:2皇马，高质量国家德比战 快来一起看演播室视角的赛后集锦#巴塞罗那 #皇马 #西甲 #姆巴佩 #巴萨1比2皇马",
      "likes": 0,
      "hot": 0
     }
@@ -357,20 +369,62 @@
      "text": "药品不良反应都是药品质量问题导致的？#药品 #健康 #药品质量",
      "likes": 0,
      "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "活塞106:93送76人赛季首败": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恩比德休战，篮板球问题很大！活塞送76人赛季首败#活塞送76人赛季首败 #76人篮板球被爆 #活塞106比93送76人赛季首败 #NBA",
+     "likes": 0,
+     "hot": 0
     },
     {
-     "name": "从欣说健康",
+     "name": "于嘉",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "再强调一次，这几种药千万不要混着吃，否则分分钟会出事#医学科普 #疾病预防 #干货分享 #涨知识",
+     "text": "76人赛季首败是输活塞……意料之外么？ 除了恩比德缺阵内线无以为继之外，背靠背第二场可能叠加了buff导致外线手感冰凉；他们退防呼应也不太默契，可能和磨合不到位",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "高小艾的篮球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "76人背靠背不活塞，迎来赛季首败！ 恩比德对球队的影响太大了！没什么意见吧！#詹姆斯 #恩比德 #坎宁安 #76人 #活塞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看球视角🏀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "面对劲敌活塞，恩比德轮休，老詹大概率上场！#詹姆斯 #恩比德 #坎宁安 #76人 #活塞",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "真实锐评IG战胜HLE": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "卢拉再次当选巴西总统": {
    "stats": {},
@@ -382,16 +436,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "卢拉赢得连任，第四次当选巴西总统。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 卢拉连任巴西总统",
      "likes": 0,
      "hot": 0
     },
@@ -416,215 +460,22 @@
      "hot": 0
     },
     {
-     "name": "环球网",
+     "name": "参考消息",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "卢拉成功连任，当选巴西新一任总统，团队欢呼庆祝“卢拉，巴西人民的战士”#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "真实锐评IG战胜HLE": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "梦泪韩信偷塔十周年": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王者荣耀",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#KPL十周年之约 十年之约，如期而至。王者荣耀全球电竞邀你线上线下同赴，共鉴KPL十年此刻！#2026王者荣耀共创之夜 #王者荣耀",
+     "text": "80岁卢拉逆风翻盘成功连任 团队欢呼庆祝 本人发声：感谢人民支持 巴西“不是任何人的后院”#卢拉 #巴西总统 #大选 #胜利 #庆祝",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "封面新闻",
+     "name": "央视网新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王者荣耀周年庆依旧整活梦泪，前有COS韩信被围着跳舞，后有梦泪登场自己玩“偷塔梗”。#2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026王者荣耀共创之夜 爷青回，梦泪韩信偷塔十周年，神秘仪式已经进化到千人阵容，再现经典社死名场面#梦泪偷塔十周年 #梦泪神秘仪式史诗级加强",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "记录我镜头下的王者共创之夜": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "随便发点儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王者荣耀什么时候原谅梦泪 我要被这段笑晕了#梦泪偷塔十周年 #王者荣耀我真求你了 #梦泪 #王者荣耀共创之夜 #梦之泪伤",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "追星少女小安",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小王咱们这个歌词会不会太淳朴了 #2026王者荣耀共创之夜 #黄子弘凡参加王者100周年庆 #一百年之后的王者竟是这样 #一百年后王者打到太空去了 #2115年",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "醋醋cucu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Timi声源在王者之夜现场喊Timi？ 谢谢王者之夜给了我这样一个特别的机会，在一万人面前表演这句十年前录的声音~~虽然上台前紧张的搓手但好歹还算是没翻车嘿嘿，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白里本命",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神的出场#邓超 #王者荣耀周年庆共创之夜 #王者",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小婉本碗（小婉tube）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快看我在王者荣耀共创之夜见到了谁！#2026王者荣耀共创之夜 #林俊杰 #杨幂 #小婉追星记 #王者荣耀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龟仙人龟娘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王者荣耀共创之夜 今天在小王周年庆演出，参加的节目是灿若繁星，作为嫦娥的角色歌手进行演唱。本次妆造的主题是夜幕与白兔。首次尝试蓝色眼影，表示喜欢。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "TES战胜G2": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "联盟导员",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TES战胜G2，369瓦场悟道疯狂拉扯！ #TES战胜G2 #TES对战G2 #抖音精选APP #英雄联盟S16 #热点赛事观察",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "fuker解说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "锐评 tes 战胜 g2！ 369 真的在拉扯了！关键团一拖五帮助 tes 拿下比赛！#英雄联盟s16#tes战胜g2#369",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洋洋在努力",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TES战胜G2，369太猛了！lpl今晚两战全胜！#TES #G2 #369 #英雄联盟s16",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LPL赛事高能君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "碾压通关！TES战胜G2拿下世界赛第二胜！ #TES对战G2#英雄联盟S16 #TES战胜G2",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大木GameDay",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "[S16瑞士轮第三轮]【G2 vs TES】全场速看 #英雄联盟S16 #S16瑞士轮 #TES对战G2 #TES战胜G2 #抖音精选App",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "娃改时装周秀场直击": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "泡芙（以闪版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在以闪亮之名参加时装周？！✨ #在以闪染上化蝶症#以闪亮之名创作者激励 #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我可是徐鬏鬏呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好玩，下次还玩～ #娃圈闪亮大改造 #抖音娃改时装周 #大人也要玩玩具 #芭比 #手工",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Noise Doll",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第一视角上海抖音娃改时装周 #bjd#noisedoll #bjd6分#娃圈总动员 #抖音娃改时装周",
+     "text": "卢拉当选巴西新一任总统",
      "likes": 0,
      "hot": 0
     }
@@ -739,10 +590,354 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "IG战胜HLE": {
+  "TES战胜G2": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "fuker解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "锐评 tes 战胜 g2！ 369 真的在拉扯了！关键团一拖五帮助 tes 拿下比赛！#英雄联盟s16#tes战胜g2#369",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洋洋在努力",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "TES战胜G2，369太猛了！lpl今晚两战全胜！#TES #G2 #369 #英雄联盟s16",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LPL赛事高能君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "碾压通关！TES战胜G2拿下世界赛第二胜！ #TES对战G2#英雄联盟S16 #TES战胜G2",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小汤大魔王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "TES战胜G2 九哥这次真的在拉扯了 #s16全球总决赛 #英雄联盟全球总决赛#TES对战G2 #TES战胜G2 #lpl",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "滕尊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "瓦场悟道！TES 1-0 G2，369狼母无敌拉扯力挽狂澜 #369瓦场悟道 #英雄联盟S16 #TES战胜G2 #抖音精选APP #JackeyLove",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "娃改时装周秀场直击": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "泡芙（以闪版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在以闪亮之名参加时装周？！✨ #在以闪染上化蝶症#以闪亮之名创作者激励 #娃圈闪亮大改造 #抖音娃改时装周 #以闪和娃圈最适配的一集",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我可是徐鬏鬏呀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好玩，下次还玩～ #娃圈闪亮大改造 #抖音娃改时装周 #大人也要玩玩具 #芭比 #手工",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Noise Doll",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第一视角上海抖音娃改时装周 #bjd#noisedoll #bjd6分#娃圈总动员 #抖音娃改时装周",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "唐朝诡事录之蜀道开机": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "郭靖宇",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#唐朝诡事录之蜀道@岳丽娜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "玲 兒 。",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#唐朝诡事录 唐朝诡事录之蜀道，敬请期待……#杨旭文 #杨志刚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟着苏无名、卢凌风游广元剑门关！10月25日，《唐朝诡事录之蜀道》开机仪式在四川广元剑门关翠云廊启动。原班主创团队悉数亮相，在千年古柏之下开启新一季的巴蜀探案之",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王者共创之夜群星登场大片": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黄子弘凡",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "记得来看王者100周年超前点播👀#王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汪东城",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欢迎来到对抗路！#王者共创之夜群星登场大片# #2026王者荣耀共创之夜 #汪东城",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姚晓棠",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "集合，晚上见😎！ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "林诗栋发抖音庆祝亚锦赛双冠": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "林诗栋",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🇨🇳🇨🇳🇨🇳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "林诗栋/黄友政夺得乒乓球亚锦赛男双冠军#国乒包揽本届赛事男双冠亚军",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "林诗栋黄友政回应男双夺冠，黄友政夸赞林诗栋牛x。#林诗栋黄友政回应男双夺冠 #黄友政夸赞林诗栋牛 #乒乓球亚锦赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直播日照",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月22日，2026乒乓球亚锦赛男团半决赛中，中国队在黄友政先丢一分的情况下，凭借林诗栋的两分和周启豪的一分3-1逆转中国台北，将在晚间和淘汰了日本队的韩国队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海南日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "林诗栋 / 黄友政组合夺2026乒乓球亚锦赛男双冠军！ #林诗栋 #黄友政 #国乒 #2026乒乓球亚锦赛 #国乒男双",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "记录我镜头下的王者共创之夜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "随便发点儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王者荣耀什么时候原谅梦泪 我要被这段笑晕了#梦泪偷塔十周年 #王者荣耀我真求你了 #梦泪 #王者荣耀共创之夜 #梦之泪伤",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "追星少女小安",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小王咱们这个歌词会不会太淳朴了 #2026王者荣耀共创之夜 #黄子弘凡参加王者100周年庆 #一百年之后的王者竟是这样 #一百年后王者打到太空去了 #2115年",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "醋醋cucu",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Timi声源在王者之夜现场喊Timi？ 谢谢王者之夜给了我这样一个特别的机会，在一万人面前表演这句十年前录的声音~~虽然上台前紧张的搓手但好歹还算是没翻车嘿嘿，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白里本命",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神的出场#邓超 #王者荣耀周年庆共创之夜 #王者",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小婉本碗（小婉tube）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "快看我在王者荣耀共创之夜见到了谁！#2026王者荣耀共创之夜 #林俊杰 #杨幂 #小婉追星记 #王者荣耀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龟仙人龟娘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#王者荣耀共创之夜 今天在小王周年庆演出，参加的节目是灿若繁星，作为嫦娥的角色歌手进行演唱。本次妆造的主题是夜幕与白兔。首次尝试蓝色眼影，表示喜欢。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "杰伦威廉姆斯伤病": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "体坛周报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雷霆球员杰伦·威廉姆斯脚踝重伤被抬出场！ 亚历山大毛巾捂脸不忍直视！（编辑：刘显军）#NBA #雷霆 #杰伦威廉姆斯 #杰伦威廉姆斯重伤 #亚历山大",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "高小艾的篮球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亚历山大34分！雷霆击败快船迎3连胜！ 杰伦威廉姆斯遭遇严重脚踝伤病！恐怕又要赛季报销了！#亚历山大 #杰伦威廉姆斯 #雷霆 #快船 #高小艾的篮球频道",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "于嘉",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "76人赛季首败是输活塞……意料之外么？ 除了恩比德缺阵内线无以为继之外，背靠背第二场可能叠加了buff导致外线手感冰凉；他们退防呼应也不太默契，可能和磨合不到位",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "瞎猫遇见🏀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#杰伦威廉姆斯伤病 #杰伦威廉姆斯 #亚历山大#雷霆 杰威重伤！为他祈祷🙏🏻！雷霆遭遇致命打击！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大史爱篮球🏀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杰伦威廉姆斯遭遇重伤 雷霆实力重创#亚历山大 #詹姆斯 #杜兰特 #哈登 #东契奇",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "沉浸式感受姆巴佩梅开二度": {
    "stats": {},
@@ -798,90 +993,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "杰伦威廉姆斯伤病": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "体坛周报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雷霆球员杰伦·威廉姆斯脚踝重伤被抬出场！ 亚历山大毛巾捂脸不忍直视！（编辑：刘显军）#NBA #雷霆 #杰伦威廉姆斯 #杰伦威廉姆斯重伤 #亚历山大",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "高小艾的篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亚历山大34分！雷霆击败快船迎3连胜！ 杰伦威廉姆斯遭遇严重脚踝伤病！恐怕又要赛季报销了！#亚历山大 #杰伦威廉姆斯 #雷霆 #快船 #高小艾的篮球频道",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "于嘉",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "76人赛季首败是输活塞……意料之外么？ 除了恩比德缺阵内线无以为继之外，背靠背第二场可能叠加了buff导致外线手感冰凉；他们退防呼应也不太默契，可能和磨合不到位",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "瞎猫遇见🏀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#杰伦威廉姆斯伤病 #杰伦威廉姆斯 #亚历山大#雷霆 杰威重伤！为他祈祷🙏🏻！雷霆遭遇致命打击！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "俄克拉荷马雷霆队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们等你回来🙏 #杰伦威廉姆斯重伤 #杰伦威廉姆斯 #俄克拉荷马城雷霆队 #雷霆队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小牛福",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雷霆杰伦威疑似遭遇保罗乔治式大伤，雷霆又遇奢侈税危机，也许已经打完了在雷霆的最后一场比赛，不认为雷霆还会继续留下他。 祝愿杰伦威也能像保罗乔治一样重生，回来依旧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "临床医生解读offer8": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "段键医生说“肝”货",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "聊聊offer8 现实情况下是怎么样的#医者精神以爱为光 #中国医师节 #抖出健康知识宝藏 #健康诊聊局",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "横店微短剧之夜": {
    "stats": {},
    "authors": [
@@ -919,10 +1030,248 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王楚淇终于结婚了": {
+  "IG战胜HLE": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "来一起翻跳KDA卡莎神之八秒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "英雄联盟",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来一起翻跳KDA卡莎神之八秒吧~ 不管了！我直接beat drop beat beat drop！（来源@崽崽迪 @ME 张子墨keira @爱喝果汁 @七七_",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西子狗🍃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "参见卡莎女王！我保证我的心意到了T_T# 卡莎神之8秒#KDA新歌神之八秒# voguing #KDA神之八秒挑战#联盟音乐季 最后一个动作属实不会了🥹#可可",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘潇雄_WINO",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "妈妈说火了就给我买皮肤 #KDA新歌神之八秒 #KDA神之八秒挑战 #ooc致歉 #抖音玩法合伙人计划 #抖舞玩法模范生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一凡.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "简直一比一还原 #KDA新歌神之八秒 #kda #KDA女团 #KDA神之八秒挑战 #lol",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姐姐妹妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不管了 直接燃起来 #KDA新歌神之八秒 #英雄联盟 #抖音玩法合伙人计划 #抖音潮流玩法赛#全民加入KDA舞蹈时代",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿雪是个天才呀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "老艺术家还在坚持手搓神之八秒 #KDA新歌神之八秒 #联盟音乐季",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "锐评VOGUE红毯明星穿搭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "S16进入大AI时代": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "贝斯加鼓点随便配张照片都好拽": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "好一朵美丽的茉莉花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "1/1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【世界名画：#阿门封盖文班亚马 】比赛读秒阶段仅剩5秒，马刺落后2分掌握最后一攻球权。文班亚马起身上篮试图扳平比分，火箭的阿门-汤普森靠惊人的原地爆发弹速，在篮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "协和龙哥",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "越听越上头。无他，就为了这段贝斯和鼓点。 #冲开一切 #Beyond #贝斯 #鼓",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "JIng",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "贝斯加这鼓点随便配张照片都好拽#beyond永远的beyond #黄家驹beyond #致敬beyond乐队#冲开一切",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "PEGGY",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "贝斯加这鼓点随便配张照片都好拽#beyond永远的beyond #黄家驹beyond #致敬beyond乐队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "翟子路",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "翟子路",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝑴𝒓.𝑴𝒖𝒈𝒈𝒍𝒆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "审美与爱都是很难降级的东西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "薯条在流浪🍟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@靠谱的👟👔👜⌚穿搭在这里💯 @为了听beyond的贝斯和鼓选了张照片真的是越听越上头 #beyond永远的beyond #beyond #冲开一切",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "音速企鹅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【日常篇】请和我交往吧！#小马宝莉 #苹果丽丽 #麦托什 #小马极道物语 #恋爱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱因",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无他，就是为了这段贝斯和鼓！#硬曲 #大兴安岭 #beyond永远的beyond",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "快硬夸我一句": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小狐仙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🙏🙏🙏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沐予小宝日常",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "姨姨们，我可爱吗#我的萌娃像小手办 #给自己生了个可爱小手办",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "希希在等一个奇迹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我脸皮厚吧#家有萌娃欢乐多 #萌娃又上线了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄子韬直播怒怼黑粉": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月25日，黄子韬直播时“怼黑粉”，引起网友关注。据了解，在其直播时，有网友说要看徐艺洋的妊娠纹，黄子韬看到后，立刻回怼了对方，称凭什么给他看，黄子韬表示，可",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "夏天煎饼cos少司缘大司命": {
    "stats": {},
@@ -1005,6 +1354,16 @@
      "hot": 0
     },
     {
+     "name": "寻梦〔拒私聊﹞拒绝连赞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "寻梦〔拒私聊﹞拒绝连赞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "德佑房产思奕",
      "verify": "蓝V",
      "identity": "机构认证",
@@ -1021,16 +1380,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#wlw",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "寻梦〔拒私聊﹞拒绝连赞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "寻梦〔拒私聊﹞拒绝连赞",
      "likes": 0,
      "hot": 0
     },
@@ -1061,409 +1410,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "晒晒妈咪 @江晓（减肥版-已瘦30斤）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "唐朝诡事录之蜀道开机": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "郭靖宇",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#唐朝诡事录之蜀道@岳丽娜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "玲 兒 。",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#唐朝诡事录 唐朝诡事录之蜀道，敬请期待……#杨旭文 #杨志刚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟着苏无名、卢凌风游广元剑门关！10月25日，《唐朝诡事录之蜀道》开机仪式在四川广元剑门关翠云廊启动。原班主创团队悉数亮相，在千年古柏之下开启新一季的巴蜀探案之",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "超级武将杯S2开赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "森树（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王浩宇杀8个？！武将杯第一轮whys8杀强势暂居前二！ #苏州超级武将杯S2正式开赛#三角洲行动#三角洲主播赛联盟#苏州超级武将杯S2二创#上抖音精选app看武",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王浩宇Whys",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "加油王浩宇！#三角洲主播赛联盟 #苏州超级武将杯S2 #王浩宇报名参赛武将杯 #王浩宇 #Whys",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林树（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "苏州超级武将杯S2 选手名单及分组 #苏州超级武将杯S2#超级武将杯S2正赛名单公布 #三角洲主播赛联盟#上抖音精选app看武将杯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昊天（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "收到邀约，准备就位！ #三角洲行动 #昊天三角洲行动 #苏州超级武将杯S2",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "S16进入大AI时代": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "贝斯加鼓点随便配张照片都好拽": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "好一朵美丽的茉莉花",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "NBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【世界名画：#阿门封盖文班亚马 】比赛读秒阶段仅剩5秒，马刺落后2分掌握最后一攻球权。文班亚马起身上篮试图扳平比分，火箭的阿门-汤普森靠惊人的原地爆发弹速，在篮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "协和龙哥",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "越听越上头。无他，就为了这段贝斯和鼓点。 #冲开一切 #Beyond #贝斯 #鼓",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "JIng",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "贝斯加这鼓点随便配张照片都好拽#beyond永远的beyond #黄家驹beyond #致敬beyond乐队#冲开一切",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "PEGGY",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "贝斯加这鼓点随便配张照片都好拽#beyond永远的beyond #黄家驹beyond #致敬beyond乐队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "翟子路",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "翟子路",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "薯条在流浪🍟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@靠谱的👟👔👜⌚穿搭在这里💯 @为了听beyond的贝斯和鼓选了张照片真的是越听越上头 #beyond永远的beyond #beyond #冲开一切",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑴𝒓.𝑴𝒖𝒈𝒈𝒍𝒆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "审美与爱都是很难降级的东西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "音速企鹅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【日常篇】请和我交往吧！#小马宝莉 #苹果丽丽 #麦托什 #小马极道物语 #恋爱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱因",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无他，就是为了这段贝斯和鼓！#硬曲 #大兴安岭 #beyond永远的beyond",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "来一起翻跳KDA卡莎神之八秒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "英雄联盟",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一起翻跳KDA卡莎神之八秒吧~ 不管了！我直接beat drop beat beat drop！（来源@崽崽迪 @ME 张子墨keira @爱喝果汁 @七七_",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西子狗🍃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "参见卡莎女王！我保证我的心意到了T_T# 卡莎神之8秒#KDA新歌神之八秒# voguing #KDA神之八秒挑战#联盟音乐季 最后一个动作属实不会了🥹#可可",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘潇雄_WINO",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妈妈说火了就给我买皮肤 #KDA新歌神之八秒 #KDA神之八秒挑战 #ooc致歉 #抖音玩法合伙人计划 #抖舞玩法模范生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一凡.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "简直一比一还原 #KDA新歌神之八秒 #kda #KDA女团 #KDA神之八秒挑战 #lol",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿雪是个天才呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老艺术家还在坚持手搓神之八秒 #KDA新歌神之八秒 #联盟音乐季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姐姐妹妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不管了 直接燃起来 #KDA新歌神之八秒 #英雄联盟 #抖音玩法合伙人计划 #抖音潮流玩法赛#全民加入KDA舞蹈时代",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "锐评VOGUE红毯明星穿搭": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "黄子韬直播怒怼黑粉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月25日，黄子韬直播时“怼黑粉”，引起网友关注。据了解，在其直播时，有网友说要看徐艺洋的妊娠纹，黄子韬看到后，立刻回怼了对方，称凭什么给他看，黄子韬表示，可",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一年一度王者全英雄集结": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "月黑黑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "徐生的澜依旧有劲！ #徐生 #澜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "傅立青",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王者你排面啊 啊啊啊 #王者荣耀cos",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灯阿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这是来自野王组的压迫感",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "薛之谦贵阳变身洋芋王子整活": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小柴爆米花",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个洋芋大王薛之谦一直在逗我笑#薛之谦来贵阳一键变身洋芋大王 #薛之谦 #演唱会 #贵阳",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "林俊杰杨幂茉莉雨舞台": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "星娱乐Online",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026王者荣耀共创之夜 完美落幕，群星大合影你都看到谁了？#杨幂 #周深 #林俊杰 #黄子弘凡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "搜狐娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🦊真的被美哭了 🥹#杨幂 #林俊杰 #杨幂林俊杰茉莉雨同台 #2026王者荣耀共创之夜 #共创之夜懂你意思",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猗猗漪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "幂姐第二套来了 #杨幂 #王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2026王者荣耀共创之夜": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王者荣耀",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#2026共创之夜节目单 现在揭晓！大家想看的、想听的，小王「1，懂你意思」。期待与每一个不可或缺的你相遇～#2026王者荣耀共创之夜 #王者荣耀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AG超玩会梦泪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今年小王又要搞什么东西？ #2026王者荣耀共创之夜",
      "likes": 0,
      "hot": 0
     }
@@ -1528,36 +1474,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "于蕾任2027羊年春晚总导演": {
+  "薛之谦贵阳变身洋芋王子整活": {
    "stats": {},
    "authors": [
     {
-     "name": "观澜新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "小柴爆米花",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2027羊年央视春晚总导演为于蕾，已连续五年执导春晚#2027羊年 #春晚 #于蕾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2027羊年央视春晚总导演为于蕾。10月25日消息，于蕾出任2027丁未羊年中央广播电视总台春节联欢晚会总导演。这也是她继2023兔年至2026马年春晚之后，连",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "于蕾将担任2027羊年春晚总导演，连续五年执导央视春晚，此前曾带来《满庭芳·国色》《年锦》等出圈国风作品",
+     "text": "这个洋芋大王薛之谦一直在逗我笑#薛之谦来贵阳一键变身洋芋大王 #薛之谦 #演唱会 #贵阳",
      "likes": 0,
      "hot": 0
     }
@@ -1565,16 +1491,122 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "369赛后采访谈英雄池与队友签证": {
+  "王楚淇终于结婚了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "临床医生解读offer8": {
    "stats": {},
    "authors": [
     {
-     "name": "英雄联盟赛事",
+     "name": "段键医生说“肝”货",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "聊聊offer8 现实情况下是怎么样的#医者精神以爱为光 #中国医师节 #抖出健康知识宝藏 #健康诊聊局",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "林俊杰杨幂茉莉雨舞台": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "星娱乐Online",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#2026王者荣耀共创之夜 完美落幕，群星大合影你都看到谁了？#杨幂 #周深 #林俊杰 #黄子弘凡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "搜狐娱乐",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "369：看到比赛前我的英雄池感觉很搞笑 #369 #S16瑞士轮 #英雄联盟S16 #2026全球总决赛",
+     "text": "🦊真的被美哭了 🥹#杨幂 #林俊杰 #杨幂林俊杰茉莉雨同台 #2026王者荣耀共创之夜 #共创之夜懂你意思",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猗猗漪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幂姐第二套来了 #杨幂 #王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一年一度王者全英雄集结": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "月黑黑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "徐生的澜依旧有劲！ #徐生 #澜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "傅立青",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王者你排面啊 啊啊啊 #王者荣耀cos",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "灯阿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是来自野王组的压迫感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2026王者荣耀共创之夜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王者荣耀",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#2026共创之夜节目单 现在揭晓！大家想看的、想听的，小王「1，懂你意思」。期待与每一个不可或缺的你相遇～#2026王者荣耀共创之夜 #王者荣耀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "AG超玩会梦泪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今年小王又要搞什么东西？ #2026王者荣耀共创之夜",
      "likes": 0,
      "hot": 0
     }
@@ -1619,36 +1651,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "快硬夸我一句": {
+  "王者对抗路男团线下全员保镖": {
    "stats": {},
    "authors": [
     {
-     "name": "小狐仙",
-     "verify": "",
-     "identity": "",
+     "name": "王者荣耀",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🙏🙏🙏",
+     "text": "#王者对抗路男团线下全员保镖 对抗路男团保镖特辑，全程守护！你只管闪耀，对抗交给对抗路男团#王者荣耀",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "沐予小宝日常",
-     "verify": "",
-     "identity": "",
+     "name": "张與息",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "姨姨们，我可爱吗#我的萌娃像小手办 #给自己生了个可爱小手办",
+     "text": "“保镖哆嗦毛” #王者对抗路男团线下全员保镖 #闪身步 #浪子踢球 #闪身步还能这样玩",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "希希在等一个奇迹",
+     "name": "狼队.Fly",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这保镖得劲儿👍#王者对抗路男团线下全员保镖 #2026KPL奇妙日 #狼队Fly #KPL十周年",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一天睡26小时",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我脸皮厚吧#家有萌娃欢乐多 #萌娃又上线了",
+     "text": "别说，吕布顶着两大红须耍帅别有一番风味 #对抗路男团线下全员保镖 #EZ王者开黑吧 #吕布",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "又困了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "偶遇对抗路男团！线下这么酷的嘛 #对抗路男团线下全员保镖",
      "likes": 0,
      "hot": 0
     }
@@ -1757,6 +1809,113 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "青春若有张不老的脸": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不熬夜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Xxxx7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸，但愿她永远不被改变。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Vvb",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一周困八天～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸，但愿它不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是木木",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小雪明天吃什么🤔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梦茹和自强",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿它永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Nova Chan",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春所有张不老的脸，但愿她永远不被改变 #青春若有张不老的脸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "招财猫不做梦💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿她永远不会改变 #青春若有张不老的脸 #我的青春 #爱自己 #人无法同时拥有青春和对青春的感受",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿 帅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸，但愿他永远不会改变#青春若有张不老的脸",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "什么图片配上这首歌都很忧郁": {
    "stats": {},
    "authors": [
@@ -1774,43 +1933,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王者共创之夜群星登场大片": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黄子弘凡",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "记得来看王者100周年超前点播👀#王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汪东城",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欢迎来到对抗路！#王者共创之夜群星登场大片# #2026王者荣耀共创之夜 #汪东城",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姚晓棠",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "集合，晚上见😎！ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "冷都女2.0穿搭参考": {
    "stats": {},
    "authors": [
@@ -1821,43 +1943,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "伦敦冷都女｜忧郁破碎张力fitcheck 超重工的一期冷都女2.0版本 所有人进入伦敦冷都时代…#冷都女 #穿搭分享 #轻亚穿搭 #忧郁感穿搭 #冷感穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟着郑恺毛晓彤祝绪丹玩转东北": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "郑恺",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "收个小玉米🌽",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "糖果🍬、",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唉我去 四平也是好起来了 这咖位的明星都来了！郑恺 毛晓彤 祝绪丹 明星是不一样 真帅真美吖#明星活动现场 #近距离看明星 #女明星路透 #郑恺#毛晓彤",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我不困！！！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#全城星动 哦莫四平看到郑恺和毛晓彤辣！！！！#郑恺 #毛晓彤 #四平 #吉林",
      "likes": 0,
      "hot": 0
     }
@@ -1902,33 +1987,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "梦泪演绎梦之泪伤": {
+  "跟着郑恺毛晓彤祝绪丹玩转东北": {
    "stats": {},
    "authors": [
     {
-     "name": "北京时间",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "郑恺",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 10月25日，2026王者荣耀共创之夜。梦泪演绎《梦之泪伤》，大帅给他戴小乔发套首次失败，笑点十足，当“帅气的脸庞” 歌词响起，他一脸无奈和欢快起舞",
+     "text": "收个小玉米🌽",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "热巴红毯月冕蝶神可可妆": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "金鹤龙",
+     "name": "糖果🍬、",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我给热巴化的月冕蝶神妆🦋 #迪丽热巴 #vogue #迪丽热巴美神降临 #可可妆 #我的枫叶可可妆motd",
+     "text": "唉我去 四平也是好起来了 这咖位的明星都来了！郑恺 毛晓彤 祝绪丹 明星是不一样 真帅真美吖#明星活动现场 #近距离看明星 #女明星路透 #郑恺#毛晓彤",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我不困！！！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#全城星动 哦莫四平看到郑恺和毛晓彤辣！！！！#郑恺 #毛晓彤 #四平 #吉林",
      "likes": 0,
      "hot": 0
     }
