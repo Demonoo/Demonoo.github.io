@@ -1,15 +1,37 @@
 {
- "updated_at": "2026-10-26 07:43",
+ "updated_at": "2026-10-26 08:43",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 43,
+ "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
   "二十届五中全会今起在京召开": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "党的二十届五中全会今起至29日召开",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息丨中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "想和你去看赛里木湖的冬日浪漫": {
    "stats": {},
@@ -48,46 +70,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "看祖国各地丰收景象": {
+  "高原上动人的军民鱼水情": {
    "stats": {},
    "authors": [
     {
-     "name": "央视一套",
+     "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 #看祖国各地丰收景象 【#全国秋粮收获过八成 】农业农村部最新农情调度显示，全国秋粮收获过八成，进度同比快于上年。 这几天，东北地区天气晴好，利于秋",
+     "text": "高原上动人的军民鱼水情！军医结束复诊正要离开，藏族小姑娘追出来送糖果",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "快看",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“吉林一号”卫星俯瞰大地丰收，沃野田畴打翻调色盘，快来看你能认出几种农作物？#联播一瞬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国三农发布",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "亩产1211.14公斤！玉米创下全球同尺度大面积单产最高水平",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网品味新疆",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新疆：一豆多用，7万余亩油莎豆正在采收。#油莎豆#塔克拉玛干沙漠#油料作物#虎坚果#油莎豆的营养价值及功效",
+     "text": "军民鱼水情！西藏那曲7.0级地震救援现场，子弟兵吃饭间隙帮群众打水。这一幕幕让人动容……",
      "likes": 0,
      "hot": 0
     }
@@ -152,6 +154,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "影之刃零媒体评分": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "U17女足世界杯中国3:2美国": {
    "stats": {},
    "authors": [
@@ -162,6 +169,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "中国U17女足3比2击败美国队 小组头名晋级16强 马晓旭：我们今天做到了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 北京时间10月26日凌晨，U17女足世界杯E组小组赛第3轮，中国队3-2力克美国队，小组第一进入淘汰赛。北京时间10月29日23：00，中国队将与法",
      "likes": 0,
      "hot": 0
     },
@@ -184,63 +201,6 @@
      "text": "刘雨希梅开二度，赵嘉怡劲射破门。 中国U-17女足3比2战胜美国U-17女足，小组赛三连胜晋级#U17女足世界杯 16强。 #中国U17女足 #中国女足",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 北京时间10月26日凌晨，U17女足世界杯E组小组赛第3轮，中国队3-2力克美国队，小组第一进入淘汰赛。北京时间10月29日23：00，中国队将与法",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "新一股冷空气将影响长江以北大部": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新一股冷空气来了，局地温度降幅达10℃！请持续关注天气预报信息，适时增添衣物，谨防感冒。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "河北省气象台2026年10月25日16时03分发布寒潮蓝色预警信号： 受从蒙古东移南下的冷空气影响，预计27日至28日早晨，全省大部分地区最低气温下降4～8℃，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特大暴雨！暴雪！新一股冷空气即将来袭 25日至27日冷空气主体东移南下，长江中下游及其以北地区普遍有4至6级偏北风，西北和中东部地区有4至6℃降温，华北和东北部",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "唐哥哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "注意！受强冷空气影响，新一轮大范围雨雪即将上线！预计10月31～11月1日有一轮雨雪过程。 雨雪影响范围： 内蒙古中部、河北北部、东北部分地区，有小雪、雨夹雪；",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -249,6 +209,26 @@
   "日本前首相福田康夫去世": {
    "stats": {},
    "authors": [
+    {
+     "name": "长城新媒体",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月22日 #日本前首相福田康夫去世 终年90岁。他长期致力于中日友好事业，是日本政坛少有的明确坚持对华友好、主张中日和平共处的政治人物。#媒体原创 #精选主",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 日本前首相福田康夫逝世 外交部：沉痛哀悼#直通外交部 （记者：李京泽）",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "中国之声",
      "verify": "红V",
@@ -270,16 +250,6 @@
      "hot": 0
     },
     {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本前首相福田康夫去世，终年90岁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "光明网",
      "verify": "红V",
      "identity": "媒体人",
@@ -295,7 +265,71 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "日本前首相福田康夫去世",
+     "text": "日本前首相石破茂今天（10月26日）就日本前首相福田康夫去世一事向媒体记者表示，“福田康夫是一位非常了不起的人，必须以诚心诚意的态度珍视与中国的关系，这是福田康",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本前首相福田康夫去世，终年90岁",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "天津文旅介入核查杨议演出冲突": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 杨光相声社演出时发生争吵，演员杨议被观众喊“杨老五”后怒怼并骂人，相声馆员工称“杨老五”的称呼跟骂人差不多，文旅局：正在核查（原创采访）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "重庆律师敏姐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "观众台下呼喊外号 “杨老五”， 演员当场回怼出言训斥，对方先失礼就能当众辱骂吗？#秀出我的诉讼策略 #抖来普法2026 #法律 #普法",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "卡律法评",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "观众喊声“杨老五”，杨议当场骂回去！谁越界？#秀出我的诉讼策略 #抖来普法2026 #律师普法 #法律科普",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "只此青绿绘长江": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#星火成炬 ｜只此青绿绘长江 #何以中国当惊世界殊 #宜昌一座来电的城市",
      "likes": 0,
      "hot": 0
     }
@@ -347,12 +381,12 @@
      "hot": 0
     },
     {
-     "name": "⚽️Mitake维亚(足球解说)",
+     "name": "直播吧",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "姆巴佩双响！皇马2-1巴萨送对手联赛首败 姆巴佩双响绝杀+斩获皇马生涯百球，拉菲尼亚进球难救主，穆里尼奥再现经典滑跪。#西班牙国家德比 #巴萨VS皇马 #巴萨1",
+     "text": "亚马尔与库库的宿命对视🤯 西甲第10轮国家德比，皇马客场2-1击败巴萨，库库贡献5次解围3次抢断，成功锁死亚马尔。 #亚马尔 #皇马2比1巴萨 #抽象",
      "likes": 0,
      "hot": 0
     }
@@ -360,36 +394,103 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我国造船业持续领跑全球": {
+  "iPhone Duo回收价售价均破发": {
    "stats": {},
    "authors": [
     {
-     "name": "新闻联播",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "宅男财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今年1月至9月，我国造船完工量、新接订单量、手持订单量，全球占比分别达到63.6%、81.8%、72.4%。高端船型市场份额持续扩大。其中，汽车运输船新接订单7",
+     "text": "iPhone Duo回收价、售价双双破发 大量APP不适配、屏幕易碎裂…… 专家：二手市场没人愿为存缺陷机型接盘高价，价格还有进一步下探空间 #苹果 #iPho",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视一套",
+     "name": "豫视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 【#我国造船业三大指标持续领跑全球 】今天（23日），工业和信息化部发布今年1至9月全国船舶工业统计数据，造船业三大指标持续全球领跑，中国造船继续占",
+     "text": "发售仅三天，苹果首款折叠屏手机iPhone Duo回收价、 售价双双“破发”，某平台补贴后售价比原价低200元，大量用户曝出App不适配、内屏碎裂等问题。虽争议",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "经济日报",
+     "name": "长江云新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国造船继续占据全球市场主导地位！超八成新船订单涌向中国#全球超八成新船订单涌向中国 #中国造船占据全球市场主导地位",
+     "text": "iPhone Duo价格破发，品控争议冲击市场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "发售3天后，iPhone Duo回收价、售价双双“破发”。#精选主播说 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财联社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "iPhone Duo，回收价、售价双双“破发”",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "新一股冷空气将影响长江以北大部": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新一股冷空气来了，局地温度降幅达10℃！请持续关注天气预报信息，适时增添衣物，谨防感冒。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "唐哥哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "注意！受强冷空气影响，新一轮大范围雨雪即将上线！预计10月31～11月1日有一轮雨雪过程。 雨雪影响范围： 内蒙古中部、河北北部、东北部分地区，有小雪、雨夹雪；",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特大暴雨！暴雪！新一股冷空气即将来袭 25日至27日冷空气主体东移南下，长江中下游及其以北地区普遍有4至6级偏北风，西北和中东部地区有4至6℃降温，华北和东北部",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "河北省气象台2026年10月25日16时03分发布寒潮蓝色预警信号： 受从蒙古东移南下的冷空气影响，预计27日至28日早晨，全省大部分地区最低气温下降4～8℃，",
      "likes": 0,
      "hot": 0
     }
@@ -441,39 +542,12 @@
      "hot": 0
     },
     {
-     "name": "安远发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邹敬园，五冠王！ #邹敬园 #第54届世界体操锦标赛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "天津文旅介入核查杨议演出冲突": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极目新闻",
+     "name": "冀时新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 杨光相声社演出时发生争吵，演员杨议被观众喊“杨老五”后怒怼并骂人，相声馆员工称“杨老五”的称呼跟骂人差不多，文旅局：正在核查（原创采访）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "卡律法评",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "观众喊声“杨老五”，杨议当场骂回去！谁越界？#秀出我的诉讼策略 #抖来普法2026 #律师普法 #法律科普",
+     "text": "邹敬园成就体操世锦赛双杠五冠王",
      "likes": 0,
      "hot": 0
     }
@@ -491,6 +565,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "药品不良反应都是药品质量问题导致的？#药品 #健康 #药品质量",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "从欣说健康",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再强调一次，这几种药千万不要混着吃，否则分分钟会出事#医学科普 #疾病预防 #干货分享 #涨知识",
      "likes": 0,
      "hot": 0
     }
@@ -607,313 +691,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "武契奇承认在议会选举中失利": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "武契奇承认议会选举失利 塞尔维亚“学生名单-学生获胜”宣布议会选举获胜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "武契奇承认前进党在塞议会选举中败选",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "塞尔维亚“学生名单-学生获胜”宣布议会选举获胜，塞尔维亚前总统武契奇承认败选。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "生活帮",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "塞尔维亚前总统武契奇25日承认，由塞尔维亚前进党主导的“亚历山大·武契奇-团结的塞尔维亚”选举联盟在议会选举中败选。他表示，接受此次选举结果，并将以反对党身份开",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏新闻广播",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "虽然承认败选，但武契奇同时表示，让其败选的幕后黑手， 是一些欧洲国家以及反特朗普的美国势力。（编辑 许一之 数字主播 苇泱）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黄金价格再次下跌": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黄金价格再次下跌，商户称品牌金饰出柜就亏300 10月26日，国际贵金属价格大幅下挫。伦敦金跌破4025.33美元/盎司，盘中一度逼近本年度低点，创近3个多月以",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "连日大跌！黄金终于扛不住了。深圳水贝黄金市场人气火爆，网友调侃“买黄金的人比菜市场的都多”（yn） #金价 #黄金价格再次下跌 #黄金 #黄金商户称品牌金饰出柜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "主持人阿喆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体人精选计划 国际金价创下近期新低！今年最多一克亏掉500块！后续还会继续跌吗？#黄金#金价",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DV现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国际金价迎来大幅跳水 多家金店迎来抢购热潮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国内黄金克价跌破860元，有门店交易量增长约三成，再现排队购金，专家：当前金价下跌可视为阶段性调整，现在的价格你会不会购买？",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "娃改时装周秀场直击": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音潮玩观察员",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "100张是抖音的上限，不是娃圈太太的上限。1楼7楼均已开放！！ 速来上海hai550看秀场小娃娃的美貌！ （另：延期预告，活动已延期至10.27下周二） 速来现",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我可是徐鬏鬏呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好玩，下次还玩～ #娃圈闪亮大改造 #抖音娃改时装周 #大人也要玩玩具 #芭比 #手工",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "棉序Prelude",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谢谢曾经的我没放弃把作品带到了秀场。#抖音娃改时装周 #bjd娃衣 #棉序Prelude #秀场直击",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "TES战胜G2": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "联盟导员",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TES战胜G2，369瓦场悟道疯狂拉扯！ #TES战胜G2 #TES对战G2 #抖音精选APP #英雄联盟S16 #热点赛事观察",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "fuker解说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "锐评 tes 战胜 g2！ 369 真的在拉扯了！关键团一拖五帮助 tes 拿下比赛！#英雄联盟s16#tes战胜g2#369",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洋洋在努力",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TES战胜G2，369太猛了！lpl今晚两战全胜！#TES #G2 #369 #英雄联盟s16",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LPL赛事高能君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "碾压通关！TES战胜G2拿下世界赛第二胜！ #TES对战G2#英雄联盟S16 #TES战胜G2",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "滕尊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "瓦场悟道！TES 1-0 G2，369狼母无敌拉扯力挽狂澜 #369瓦场悟道 #英雄联盟S16 #TES战胜G2 #抖音精选APP #JackeyLove",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL电竞小鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "369我真的学会拉扯了，不信你看视频！369狼母把G2几个人拉扯麻了！#TES战胜G2 #英雄联盟S16 #TES对战G2 #369拉扯G2",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王者共创之夜群星登场大片": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黄子弘凡",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "记得来看王者100周年超前点播👀#王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林俊杰",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又一年共創之夜！ 你們最喜歡哪一段呢？ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "汪东城",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欢迎来到对抗路！#王者共创之夜群星登场大片# #2026王者荣耀共创之夜 #汪东城",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姚晓棠",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "集合，晚上见😎！ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "万妮达Vinida",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大雨向下，我们的舞会继续☔️ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "IG还是太能创造奇迹了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "打野宝典",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "IG战胜HLE进入2-1小组 IG还是太能创造奇迹了#英雄联盟S16 #IG对战HLE #IG战胜HLE #抖音精选App",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "网ing少年Joe",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "春风来了 #英雄联盟S16 #IG战胜HLE",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王者还在回忆被梦泪踢直播间那天": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "记录我镜头下的王者共创之夜": {
    "stats": {},
    "authors": [
@@ -971,26 +748,366 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "杰伦威廉姆斯伤病": {
+  "黄金价格再次下跌": {
    "stats": {},
    "authors": [
     {
-     "name": "体坛周报",
+     "name": "荆楚网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "雷霆球员杰伦·威廉姆斯脚踝重伤被抬出场！ 亚历山大毛巾捂脸不忍直视！（编辑：刘显军）#NBA #雷霆 #杰伦威廉姆斯 #杰伦威廉姆斯重伤 #亚历山大",
+     "text": "黄金价格再次下跌，商户称品牌金饰出柜就亏300 10月26日，国际贵金属价格大幅下挫。伦敦金跌破4025.33美元/盎司，盘中一度逼近本年度低点，创近3个多月以",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "高小艾的篮球",
+     "name": "全球速探",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚历山大34分！雷霆击败快船迎3连胜！ 杰伦威廉姆斯遭遇严重脚踝伤病！恐怕又要赛季报销了！#亚历山大 #杰伦威廉姆斯 #雷霆 #快船 #高小艾的篮球频道",
+     "text": "10月26日早上最新消息#黄金#白银#国际局势#今日金价",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 金价暴跌 工费也降，水贝市场跌至871元/克！（记者：光源）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金价“降温”，金店却火了！10月24日，记者在成都多家金店打探：有人下手，有人观望。#媒体原创 #新闻现场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国蓝新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 今日金价999足金926元/克，比昨天又跌了！杭州白马珠宝市场黄金商户说周末从早到晚没有停过，吃饭上厕所的时间都没有！日销量都是“公斤”以上！打破国",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "娃改时装周秀场直击": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音潮玩观察员",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "100张是抖音的上限，不是娃圈太太的上限。1楼7楼均已开放！！ 速来上海hai550看秀场小娃娃的美貌！ （另：延期预告，活动已延期至10.27下周二） 速来现",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我可是徐鬏鬏呀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好玩，下次还玩～ #娃圈闪亮大改造 #抖音娃改时装周 #大人也要玩玩具 #芭比 #手工",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "棉序Prelude",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谢谢曾经的我没放弃把作品带到了秀场。#抖音娃改时装周 #bjd娃衣 #棉序Prelude #秀场直击",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "TES战胜G2": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "369这波真的拉扯了！TES战胜G2晋级2-1组 #369 #TES战胜G2 #S16瑞士轮 #2026全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LOL电竞小鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "朱开在IG战胜HLE，TES战胜G2后谈2-1池子里的队伍，分析LPL最好的抽签结果-#IG对战HLE #TES对战G2 #英雄联盟S16 #IG对战HLE #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LOL大锤赛事速看",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "S16速看TESvsG2：369安蓓萨觉醒拉扯五个！Zhuo哥泰坦各种关键钩人！#S16瑞士轮 #英雄联盟S16 #TES对战G2 #TES战胜G2 #2026",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "联盟导员",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "TES战胜G2，369瓦场悟道疯狂拉扯！ #TES战胜G2 #TES对战G2 #抖音精选APP #英雄联盟S16 #热点赛事观察",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "fuker解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "锐评 tes 战胜 g2！ 369 真的在拉扯了！关键团一拖五帮助 tes 拿下比赛！#英雄联盟s16#tes战胜g2#369",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洋洋在努力",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "TES战胜G2，369太猛了！lpl今晚两战全胜！#TES #G2 #369 #英雄联盟s16",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LPL赛事高能君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "碾压通关！TES战胜G2拿下世界赛第二胜！ #TES对战G2#英雄联盟S16 #TES战胜G2",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "武契奇承认在议会选举中失利": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "武契奇承认议会选举失利 塞尔维亚“学生名单-学生获胜”宣布议会选举获胜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "武契奇承认前进党在塞议会选举中败选",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#武契奇承认输了无缘当总理 将以反对党身份活动",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "江苏新闻广播",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "虽然承认败选，但武契奇同时表示，让其败选的幕后黑手， 是一些欧洲国家以及反特朗普的美国势力。（编辑 许一之 数字主播 苇泱）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "扬子晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "塞尔维亚前总统武契奇当地时间10月25日晚承认，由塞尔维亚前进党主导的选举联盟在当天的议会选举中落败。武契奇在败选讲话中指出，这一结果印证了一场所谓“革命”的真",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王者共创之夜群星登场大片": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黄子弘凡",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "记得来看王者100周年超前点播👀#王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姚晓棠",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "集合，晚上见😎！ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林俊杰",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又一年共創之夜！ 你們最喜歡哪一段呢？ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "万妮达Vinida",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大雨向下，我们的舞会继续☔️ #王者共创之夜群星登场大片 #2026王者荣耀共创之夜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汪东城",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欢迎来到对抗路！#王者共创之夜群星登场大片# #2026王者荣耀共创之夜 #汪东城",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张弛🐒🎼",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "走，发育路集合！#王者共创之夜群星登场大片# #2026王者荣耀共创之夜#",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐思钧",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来给小王庆生啦！🎂#王者共创之夜群星登场大片#2026王者荣耀共创之夜 #齐思钧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杨幂工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#杨幂 圣光不借外物，她本身即是神迹🌌@杨幂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "董思成",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "红豆生南国🫘 #王者共创之夜群星登场大片 #2026王者荣耀共创之夜#",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "IG战胜HLE": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "杰伦威廉姆斯伤病": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#杰伦威廉姆斯伤病 】在今天的比赛中，杰伦-威廉姆斯突破后倒地，左腿严重受伤，被担架抬离球场。离场时，他仍向球迷竖起双拇指。2025年，他也曾带着右手腕韧带撕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "俄克拉荷马雷霆队",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#亚历山大为杰威流泪 】J-Dub受伤之后，SGA赛后在接受采访时情难自已留下泪水💔愿杰威早日重回赛场🙏🙏#杰伦威廉姆斯重伤",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苏群",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杰威重伤，西部格局生变数",
      "likes": 0,
      "hot": 0
     },
@@ -1005,22 +1122,12 @@
      "hot": 0
     },
     {
-     "name": "小牛福",
+     "name": "高小艾的篮球",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "雷霆杰伦威疑似遭遇保罗乔治式大伤，雷霆又遇奢侈税危机，也许已经打完了在雷霆的最后一场比赛，不认为雷霆还会继续留下他。 祝愿杰伦威也能像保罗乔治一样重生，回来依旧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大史爱篮球🏀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杰伦威廉姆斯遭遇重伤 雷霆实力重创#亚历山大 #詹姆斯 #杜兰特 #哈登 #东契奇",
+     "text": "亚历山大34分！雷霆击败快船迎3连胜！ 杰伦威廉姆斯遭遇严重脚踝伤病！恐怕又要赛季报销了！#亚历山大 #杰伦威廉姆斯 #雷霆 #快船 #高小艾的篮球频道",
      "likes": 0,
      "hot": 0
     }
@@ -1055,16 +1162,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "热巴红毯月冕蝶神可可妆": {
+  "IG还是太能创造奇迹了": {
    "stats": {},
    "authors": [
     {
-     "name": "金鹤龙",
+     "name": "打野宝典",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我给热巴化的月冕蝶神妆🦋 #迪丽热巴 #vogue #迪丽热巴美神降临 #可可妆 #我的枫叶可可妆motd",
+     "text": "IG战胜HLE进入2-1小组 IG还是太能创造奇迹了#英雄联盟S16 #IG对战HLE #IG战胜HLE #抖音精选App",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "网ing少年Joe",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "春风来了 #英雄联盟S16 #IG战胜HLE",
      "likes": 0,
      "hot": 0
     }
@@ -1072,36 +1189,143 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "邓超共创之夜聊完你的聊你的": {
+  "王者还在回忆被梦泪踢直播间那天": {
    "stats": {},
    "authors": [
     {
-     "name": "云隐逸仙踪",
+     "name": "星度娱乐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这个邓超要笑死我#王者 #王者共创之夜 #邓超",
+     "text": "梦泪出场真的是年年看年年新#2026王者荣耀共创之夜 #梦之泪伤 #梦泪 #梦之泪伤帅气的脸庞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "我是豹子姐",
+     "name": "kpl电竞（厂长）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王者荣耀:梦泪今天是你把我踢出直播间的第968天！！！😂😂😂#梦泪羞辱仪式 #2026王者荣耀共创之夜 #梦泪把王者官方踢出直播间 #梦之泪伤 #王者荣耀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人间理想段嘉许",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还是忘不了我们梦泪把你踢出直播间了吗？ #王者十周年晚会 #王者荣耀 #梦泪羞辱仪式",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "来一起翻跳KDA卡莎神之八秒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "英雄联盟",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "超哥 聊完你的聊你的！不要慌一个个来 #邓超 #林俊杰 #杨幂 #周深 #2026王者荣耀共创之夜",
+     "text": "来一起翻跳KDA卡莎神之八秒吧~ 不管了！我直接beat drop beat beat drop！（来源@崽崽迪 @ME 张子墨keira @爱喝果汁 @七七_",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Come.Z",
+     "name": "童童Mia",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "邓超王者之夜《超级英雄》现场太帅了！ #邓超 #超级英雄 #2026王者荣耀共创之夜",
+     "text": "#KDA神之八秒挑战 别管了！我直接beat drop beat beat drop～ #英雄联盟s16 #kda新歌mv发布 #英雄联盟 #kda女团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "解说鼓鼓🥁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "点击领取KDA至臻小鼓皮肤🙂‍↔️ #KDA神之八秒挑战 #KDA女团 #解说鼓鼓",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "解说MacT麦克踢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "KDA神之八秒！我直接let's go🕺🏻beat drop 🕺🏻beat beat drop🕺🏻！明天一路解说一起为LPL加油！#kda神之八秒 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风间彻🕊️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小猫出道#有镜头感的小猫 #ai小猫咪 #Kda#英雄联盟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西子狗🍃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "参见卡莎女王！我保证我的心意到了T_T# 卡莎神之8秒#KDA新歌神之八秒# voguing #KDA神之八秒挑战#联盟音乐季 最后一个动作属实不会了🥹#可可",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "姐姐妹妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不管了 直接燃起来 #KDA新歌神之八秒 #英雄联盟 #抖音玩法合伙人计划 #抖音潮流玩法赛#全民加入KDA舞蹈时代",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一凡.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "简直一比一还原 #KDA新歌神之八秒 #kda #KDA女团 #KDA神之八秒挑战 #lol",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘潇雄_WINO",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "妈妈说火了就给我买皮肤 #KDA新歌神之八秒 #KDA神之八秒挑战 #ooc致歉 #抖音玩法合伙人计划 #抖舞玩法模范生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿雪是个天才呀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "老艺术家还在坚持手搓神之八秒 #KDA新歌神之八秒 #联盟音乐季",
      "likes": 0,
      "hot": 0
     }
@@ -1145,6 +1369,175 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "全网都在晒女儿": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "炸毛的猫～🈵🀄️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网都在晒女儿，我也晒一下我女儿@主角公 #晒一下女儿#一张图证明你有女儿 #我的世界 #mcyt #cos",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "L姐姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我也许不是个合格的麻麻，但是我对你的爱永远不会减少❤️@用户0629#母女日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宁缺毋滥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "差点忘记了还有一个很萌的女儿#黑长直齐刘海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "寻梦〔拒私聊﹞拒绝连赞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "寻梦〔拒私聊﹞拒绝连赞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Unique",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#全网都在晒女儿#光遇#cos 巴掌大的心全用在小棉袄身上了😎 女儿@nanyi",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "德佑房产思奕",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网都在晒女儿，我也来炫耀一下我家小美女@咖啡秒睡（连赞拉黑） #一张图证明你有女儿#COS#晒一下女儿#我的宝贝女儿#我女儿最酷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "該用戶比天使坏比惡魔好.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#wlw",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "霞霞62145",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全网都在晒女儿 我也晒下我的女儿#女儿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "wissh",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我也晒一下我的女儿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "依娜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "二宝说现在很火发这个，让我也发一个 #晒女儿",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "论闺蜜给我出片的速度": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "iiy21-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "论朋友的出片速度 #论朋友的拍照技术 #剪映 #出片 #fyp @DOU+上热门是本人呀。不要求图嗯嗯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "枯枯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "论朋友的出片速度 #出片#理光gr4hdf @DOU+上热门",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "发什么呆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "论姐姐给我出片的速度@YY呀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "卉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "论剪出好看刘海的出片速度 #齐刘海 #抽象 #vlog",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沧柏a",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一会删 #出片率 #论我妈给我出片的速度#留子#上热门@DOU+上热门 @DOU+小助手 #抽象",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王者新英雄姜姜正式公布": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "在这里遇见盛大晴天": {
    "stats": {},
@@ -1253,106 +1646,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "全网都在晒女儿": {
+  "临床医生解读offer8": {
    "stats": {},
    "authors": [
     {
-     "name": "炸毛的猫～🈵🀄️",
-     "verify": "",
-     "identity": "",
+     "name": "段键医生说“肝”货",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "全网都在晒女儿，我也晒一下我女儿@主角公 #晒一下女儿#一张图证明你有女儿 #我的世界 #mcyt #cos",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "L姐姐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我也许不是个合格的麻麻，但是我对你的爱永远不会减少❤️@用户0629#母女日常",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宁缺毋滥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "差点忘记了还有一个很萌的女儿#黑长直齐刘海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "寻梦〔拒私聊﹞拒绝连赞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "寻梦〔拒私聊﹞拒绝连赞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Unique",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#全网都在晒女儿#光遇#cos 巴掌大的心全用在小棉袄身上了😎 女儿@nanyi",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "德佑房产思奕",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网都在晒女儿，我也来炫耀一下我家小美女@咖啡秒睡（连赞拉黑） #一张图证明你有女儿#COS#晒一下女儿#我的宝贝女儿#我女儿最酷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "該用戶比天使坏比惡魔好.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#wlw",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "霞霞62145",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网都在晒女儿 我也晒下我的女儿#女儿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "依娜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "二宝说现在很火发这个，让我也发一个 #晒女儿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "清柯ke",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网都在晒女儿我也晒一下 #晒女儿 #COS",
+     "text": "聊聊offer8 现实情况下是怎么样的#医者精神以爱为光 #中国医师节 #抖出健康知识宝藏 #健康诊聊局",
      "likes": 0,
      "hot": 0
     }
@@ -1360,122 +1663,22 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "IG战胜HLE": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "来一起翻跳KDA卡莎神之八秒": {
+  "薛之谦贵阳变身洋芋王子整活": {
    "stats": {},
    "authors": [
     {
-     "name": "英雄联盟",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一起翻跳KDA卡莎神之八秒吧~ 不管了！我直接beat drop beat beat drop！（来源@崽崽迪 @ME 张子墨keira @爱喝果汁 @七七_",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风间彻🕊️",
+     "name": "小柴爆米花",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小猫出道#有镜头感的小猫 #ai小猫咪 #Kda#英雄联盟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西子狗🍃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "参见卡莎女王！我保证我的心意到了T_T# 卡莎神之8秒#KDA新歌神之八秒# voguing #KDA神之八秒挑战#联盟音乐季 最后一个动作属实不会了🥹#可可",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘潇雄_WINO",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妈妈说火了就给我买皮肤 #KDA新歌神之八秒 #KDA神之八秒挑战 #ooc致歉 #抖音玩法合伙人计划 #抖舞玩法模范生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姐姐妹妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不管了 直接燃起来 #KDA新歌神之八秒 #英雄联盟 #抖音玩法合伙人计划 #抖音潮流玩法赛#全民加入KDA舞蹈时代",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一凡.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "简直一比一还原 #KDA新歌神之八秒 #kda #KDA女团 #KDA神之八秒挑战 #lol",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "1on0",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大胃袋神之八秒#kda卡莎 #良子 #大胃袋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿雪是个天才呀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老艺术家还在坚持手搓神之八秒 #KDA新歌神之八秒 #联盟音乐季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Baileys.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别有一番风味#ai创作 #kda #卡莎 #南宫锦 #永劫无间",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五十岚之星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新钱mean人神之八秒 #kda #firestarter #英雄联盟",
+     "text": "这个洋芋大王薛之谦一直在逗我笑#薛之谦来贵阳一键变身洋芋大王 #薛之谦 #演唱会 #贵阳",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "S16进入大AI时代": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "快硬夸我一句": {
    "stats": {},
@@ -1514,97 +1717,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "薛之谦贵阳变身洋芋王子整活": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小柴爆米花",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个洋芋大王薛之谦一直在逗我笑#薛之谦来贵阳一键变身洋芋大王 #薛之谦 #演唱会 #贵阳",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "临床医生解读offer8": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "段键医生说“肝”货",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "聊聊offer8 现实情况下是怎么样的#医者精神以爱为光 #中国医师节 #抖出健康知识宝藏 #健康诊聊局",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "论闺蜜给我出片的速度": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "iiy21-",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "论朋友的出片速度 #论朋友的拍照技术 #剪映 #出片 #fyp @DOU+上热门是本人呀。不要求图嗯嗯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "枯枯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "论朋友的出片速度 #出片#理光gr4hdf @DOU+上热门",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "发什么呆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "论姐姐给我出片的速度@YY呀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "卉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "论剪出好看刘海的出片速度 #齐刘海 #抽象 #vlog",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "沧柏a",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一会删 #出片率 #论我妈给我出片的速度#留子#上热门@DOU+上热门 @DOU+小助手 #抽象",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "这首歌唱出了我的心情": {
    "stats": {},
    "authors": [
@@ -1625,16 +1737,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "嗯还是要多读书的，有知识就是不一样。#歌曲改编 #打工人打工魂",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🍂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁懂的家人们！ 古人典故句句扎心 纯属玩梗自嘲，读书还是有用的 打工人偶尔发疯也显得有文学✨ #皮一下很开心 #上班哪有不疯的 #优雅吐槽 #职场共鸣",
      "likes": 0,
      "hot": 0
     },
@@ -1707,41 +1809,51 @@
      "text": "#歌曲分享",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "小翟🌈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "少看点书 没事多出去走走 #抖音二创激励计划 #福特烈马 #改变歌曲 #牛马",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "S16瑞士轮赛事热点观察": {
+  "邓超共创之夜聊完你的聊你的": {
    "stats": {},
    "authors": [
     {
-     "name": "香猪宝宝",
+     "name": "云隐逸仙踪",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "深度复盘IGvsHLE！IG完美答卷碾压HLE！ #IG #TheShy #抖音精选APP #2026全球总决赛 #热点赛事观察",
+     "text": "这个邓超要笑死我#王者 #王者共创之夜 #邓超",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "电竞资讯君",
-     "verify": "",
-     "identity": "",
+     "name": "我是豹子姐",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "1500字全面复盘IG对阵HLE，三分钟告诉你，IG到底是如何击败HLE的，原来HLE的问题，是delight瞎放大招#英雄联盟S16 #抖音精选APP #IG",
+     "text": "超哥 聊完你的聊你的！不要慌一个个来 #邓超 #林俊杰 #杨幂 #周深 #2026王者荣耀共创之夜",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "滕尊",
+     "name": "Come.Z",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "IG 1-0 HLE：不坠青云不斩无名！来自LPL#4的奇迹 #英雄联盟S16 #抖音精选APP #IG战胜HLE #Gumayusi状态 #TheShy战胜Z",
+     "text": "邓超王者之夜《超级英雄》现场太帅了！ #邓超 #超级英雄 #2026王者荣耀共创之夜",
      "likes": 0,
      "hot": 0
     }
@@ -1749,47 +1861,27 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "青春若有张不老的脸": {
+  "热巴红毯月冕蝶神可可妆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "金鹤龙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我给热巴化的月冕蝶神妆🦋 #迪丽热巴 #vogue #迪丽热巴美神降临 #可可妆 #我的枫叶可可妆motd",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "S16进入大AI时代": {
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "一年一度王者全英雄集结": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "月黑黑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "徐生的澜依旧有劲！ #徐生 #澜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "傅立青",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王者你排面啊 啊啊啊 #王者荣耀cos",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灯阿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这是来自野王组的压迫感",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   },
   "嫁金钗MVP结算画面": {
    "stats": {},
@@ -1848,6 +1940,113 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "护眼环节到 #cos #王者荣耀嘉年华 #王维 #李白 李白-@小翰Hanyu 王维-@鹿荼白",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "青春若有张不老的脸": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不熬夜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Xxxx7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸，但愿她永远不被改变。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Vvb",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一周困八天～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸，但愿它不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是木木",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小雪明天吃什么🤔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿他永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梦茹和自强",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿它永远不被改变",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Nova Chan",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春所有张不老的脸，但愿她永远不被改变 #青春若有张不老的脸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "招财猫不做梦💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸 但愿她永远不会改变 #青春若有张不老的脸 #我的青春 #爱自己 #人无法同时拥有青春和对青春的感受",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿 帅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青春若有张不老的脸，但愿他永远不会改变#青春若有张不老的脸",
      "likes": 0,
      "hot": 0
     }
@@ -1951,60 +2150,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "RIIZE新歌Insomnia": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "RIIZE",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们就再来一局吧.. https://riizeofficial.com/ #RIIZE #SUNGCHAN #ANTON #RISEandREALIZE #I",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "蔡徐坤新加坡演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "妍YAN",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "真的不是在做梦吗 我好像看到了18年的你 😭😭#天使降临 #蔡徐坤 #蔡徐坤新加坡演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老板不让发（THE DEADMAN限定版",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "光绕过你天使般的脸，谁能扛得住老板@蔡徐坤 的《情人》 #蔡徐坤 #蔡徐坤thedeadman演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Chixiaoye（和蔡徐坤牵过手版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我今晚是全世界最幸福的人！😭 #蔡徐坤#ikun蔡徐坤新加坡演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "挑战复刻热巴红毯造型": {
    "stats": {},
    "authors": [
@@ -2095,6 +2240,23 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "热巴你美#挑战复刻热巴红毯造型#变妆#反差#换头了换头了 #潮妆研究所@DOU+小助手 @DOU+上热门",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "RIIZE新歌Insomnia": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "RIIZE",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "tried playing Insomnia #Insomnia越听越清醒 #RIIZE #RISEandREALIZE #Insomnia #RIIZE_In",
      "likes": 0,
      "hot": 0
     }
