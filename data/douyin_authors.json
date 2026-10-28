@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-28 14:43",
+ "updated_at": "2026-10-28 15:42",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
- "ok_count": 46,
+ "topic_count": 48,
+ "ok_count": 45,
  "lexicon_count": 0,
  "topics": {
   "国务院原副总理刘延东逝世": {
@@ -48,6 +48,43 @@
    "authors": [],
    "lexicon": []
   },
+  "西班牙高铁相撞事故已致64死": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 西班牙列车相撞已致64死 新华社记者直击现场（记者：孟鼎博，报道员：张宇恒）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "西班牙列车相撞事故已致64人死亡 初步调查指向调度失误",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新重庆-重庆日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#西班牙列车相撞事故 ，已致64人死亡、179人受伤，有中国公民受轻伤，初步调查指向调度失误 （编辑：蒲玉）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "普京会晤伊朗总统讨论中东局势": {
    "stats": {},
    "authors": [
@@ -80,6 +117,16 @@
      "text": "普京晤伊朗总统：俄正落实与伊朗所有合作项目。#普京 #伊朗 #俄罗斯",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#伊朗总统佩泽希齐扬抵达莫斯科 俄仪仗队列队迎接！将与普京会谈",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -109,16 +156,6 @@
      "hot": 0
     },
     {
-     "name": "经济日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "立即停止！中国强烈要求美国终止对古巴的封锁和施压 #美国 #古巴",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "陕视新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -129,59 +166,22 @@
      "hot": 0
     },
     {
+     "name": "经济日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "立即停止！中国强烈要求美国终止对古巴的封锁和施压 #美国 #古巴",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "看台海",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "10月21日，外交部发言人毛宁主持例行记者会。有记者问：当地时间19日，美国佛罗里达州总检察长正式发布对古巴革命领导人劳尔·卡斯特罗逮捕令。请问中方对此有何评论",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "西班牙高铁相撞事故已致64死": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当地时间28日，西班牙发生一起高速铁路列车相撞事故，事故目前已致64人死亡。初步调查显示，事故系人为调度失误所致。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 新华社消息｜西班牙列车相撞事故已造成50人死亡 有中国公民受轻伤（记者：陈雨峥、孟鼎博）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "西班牙列车相撞事故已致64人死亡 初步调查指向调度失误",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新重庆-重庆日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#西班牙列车相撞事故 ，已致64人死亡、179人受伤，有中国公民受轻伤，初步调查指向调度失误 （编辑：蒲玉）",
      "likes": 0,
      "hot": 0
     }
@@ -209,6 +209,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "以色列大选，内塔尼亚胡悬了？#媒体精选计划 #精选主播说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以色列选举投票结束 民调:无阵营过半，内塔尼亚胡阵营与埃森科特阵营席位数持平 #以色列 #内塔尼亚胡 #中东 #媒体精选计划 #以色列大选",
      "likes": 0,
      "hot": 0
     },
@@ -354,12 +364,12 @@
      "hot": 0
     },
     {
-     "name": "K康波波",
+     "name": "简闻速探",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🔥风暴将至，今晚2点FOMC，哪类资产波动最大？你押鹰还是押鸽？聊聊你的看法。 （内容仅财经资讯整理，用于信息分享，不构成任何投资建议。） #美联储议息会议 ",
+     "text": "凌晨最新消息 #黄金 #国际#热点",
      "likes": 0,
      "hot": 0
     }
@@ -367,26 +377,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中使馆紧急提醒勿前往乌干达": {
+  "开拓者136:129战胜湖人": {
    "stats": {},
    "authors": [
     {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国公民切勿前往 我驻乌干达使馆发布重要提醒",
+     "text": "夯爆了！扎威抛传，凯斯勒空接背扣打停开拓者！#开拓者vs湖人 #凯斯勒空接背扣 #NBA",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "于嘉",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "中国公民切勿前往！中使馆紧急提醒",
+     "text": "东契奇现在比莫兰特以前还“坏” 啊 这比赛可真是带劲，接下来得看看东契奇二碰伦德伯格了#东契奇#湖人 #莫兰特 #杨瀚森 #NBA",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杨健：利指导杀人不看表，利拉德关键三分终结湖人三连胜。#利拉德关键三分终结湖人三连胜 #开拓者送湖人赛季首败 #利拉德 #NBA",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "漫球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "东里：哪个进攻核心还揽防守这活啊？！ #湖人 #东契奇 #里夫斯 #开拓者 #利拉德",
      "likes": 0,
      "hot": 0
     }
@@ -481,23 +511,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中小学秋假安排需注意这些误区": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音求真",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#今日辟谣 （2026年10月28日）今日辟谣 | 中小学秋假怎么放？注意这些误区#谣零零计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "表演艺术家戈治均逝世": {
    "stats": {},
    "authors": [
@@ -532,6 +545,16 @@
      "hot": 0
     },
     {
+     "name": "凤凰WEEKLY",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "90岁艺术家戈治均去世，你一定看过他的戏，却未必知道他真名，当演艺圈只剩俊男靓女，我们为何怀念“普通人”戈治均。#媒体精选计划 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "新闻夜航",
      "verify": "蓝V",
      "identity": "媒体人",
@@ -542,116 +565,12 @@
      "hot": 0
     },
     {
-     "name": "起点新闻",
+     "name": "羊城晚报•羊城派",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "演员戈治均去世 #热点 #戈治均 #白鹿原 #精选主播说 #陕西dou知道",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国足出征U17世界杯名单公布": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极光新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月28日发布，中国足协公布U17世界杯25人集训名单，亚洲杯亚军班底基本保留，邝兆镭、赵松源、万项、帅惟浩等在列，首战11月20日对阵西班牙（大众新闻）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大众新闻•半岛都市报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "U17国足出征U17世界杯名单公布，青岛三将邝兆镭、刘致成、江宇涵在列！刘致成曾因U17亚洲杯惜败日本落泪（来源 北京日报 编辑 林靓）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华日报社徐州分社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "沛县少年、徐州队40号孔玺诺入选U17男足国家队出征U17世界杯名单。此次入选的25位球员，将遴选出最终参赛的21人名单。U17国足将在11月20日小组赛首战面",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "经视体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "备战国际足联U17世界杯，湖北青训四人登上U17集训大名单 北京时间10月28日，中国足协发布2026国际足联u17世界杯集训通知。湖北青年星江承恩，武汉三镇青",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "朗尼克（中国制躁）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "U17国足公布世少赛前最后一期集训名单 张伯霖因伤落选 梁仕宇回归阵容#唯有足球不可辜负 #国足 #中国足球 #u17世界杯 #u17国足",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "开拓者136:129战胜湖人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "夯爆了！扎威抛传，凯斯勒空接背扣打停开拓者！#开拓者vs湖人 #凯斯勒空接背扣 #NBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "于嘉",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "东契奇现在比莫兰特以前还“坏” 啊 这比赛可真是带劲，接下来得看看东契奇二碰伦德伯格了#东契奇#湖人 #莫兰特 #杨瀚森 #NBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "杨健：利指导杀人不看表，利拉德关键三分终结湖人三连胜。#利拉德关键三分终结湖人三连胜 #开拓者送湖人赛季首败 #利拉德 #NBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "漫球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "东里：哪个进攻核心还揽防守这活啊？！ #湖人 #东契奇 #里夫斯 #开拓者 #利拉德",
+     "text": "人民表演艺术家、一级演员、编剧、导演、第二十一届中国电影金鸡奖最佳男主角，陕西人民艺术剧院老一辈表演艺术家戈治均先生，因病医治无效，于2026年10月26日在北",
      "likes": 0,
      "hot": 0
     }
@@ -703,12 +622,69 @@
      "hot": 0
     },
     {
-     "name": "快科技",
-     "verify": "蓝V",
-     "identity": "企业品牌",
+     "name": "科技布鲁斯",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "时隔6年不再低调！极客湾谈华为韬芯片 轻舟已过万重山 争气芯终于能大方亮相#华为 #韬芯片",
+     "text": "外媒集体破防那天，我刷到了 τ 芯片重回大屏#外媒解读华为手机芯片自研突破",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "IG对战LYON": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛瑞士轮第五日LPL赛区对阵预告 10月29日 约7:00 LYON对战IG （BO3） 解说席：米勒、瞳夕、957 主持人：松琪 #S16瑞士",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "iG电子竞技俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Go! 期待bo3!加油！#s16 #iG #2026英雄联盟全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "兔玩电竞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Dhokla说要复仇TheShy！ LYON对战IG即将打响，这下真是老霸的老霸道了！#英雄联盟S16 #2026全球总决赛 #LYON对战IG",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "知行电竞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "理性分析IG和Lyon，说实话我真的 看好IG，但是也不能小看了对手#ig #IGVSLYON #抖音精选APP #热点赛事观察 #英雄联盟S16全球总决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "TheShy魅力",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "IG对阵LYON，胜率及个位置分析，胜方晋级八强！ #IG #TheShy",
      "likes": 0,
      "hot": 0
     }
@@ -743,106 +719,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "萌宠滑镜定格挑战": {
+  "国足出征U17世界杯名单公布": {
    "stats": {},
    "authors": [
     {
-     "name": "Q🍊",
-     "verify": "",
-     "identity": "",
+     "name": "大众新闻•半岛都市报",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#AI橘猫酷耍动态特效 #抖音ai创作",
+     "text": "U17国足出征U17世界杯名单公布，青岛三将邝兆镭、刘致成、江宇涵在列！刘致成曾因U17亚洲杯惜败日本落泪（来源 北京日报 编辑 林靓）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "鼻嘎🐤",
-     "verify": "",
-     "identity": "",
+     "name": "极光新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "诶呀妈呀，烧烧小叽 #AI橘猫酷耍动态特效 #抖音ai创作 #玄凤鹦鹉 #宠物鸟 #鹦鹉",
+     "text": "10月28日发布，中国足协公布U17世界杯25人集训名单，亚洲杯亚军班底基本保留，邝兆镭、赵松源、万项、帅惟浩等在列，首战11月20日对阵西班牙（大众新闻）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小樱子",
-     "verify": "",
-     "identity": "",
+     "name": "新华日报社徐州分社",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#AI橘猫酷耍动态特效 #抖音ai创作 #这样的狗怎能不喜欢 #德牧温顺听话 #德牧眼神",
+     "text": "沛县少年、徐州队40号孔玺诺入选U17男足国家队出征U17世界杯名单。此次入选的25位球员，将遴选出最终参赛的21人名单。U17国足将在11月20日小组赛首战面",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "板栗bunny",
+     "name": "朗尼克（中国制躁）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "黄毛栗子#AI橘猫酷耍动态特效 #抖音ai创作 #兔兔有点呆萌 #讨人喜欢的兔子 #对兔子没有抵抗力",
+     "text": "U17国足公布世少赛前最后一期集训名单 张伯霖因伤落选 梁仕宇回归阵容#唯有足球不可辜负 #国足 #中国足球 #u17世界杯 #u17国足",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "请叫我火狐狸陛下",
-     "verify": "",
-     "identity": "",
+     "name": "先锋新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "太帅了！！！ #AI橘猫酷耍动态特效 #抖音ai创作 #魔法奶牛猫 #奶牛猫版黑猫警长",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🐰🐰可乐～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邪恶小兔～#AI橘猫酷耍动态特效 #抖音ai创作 #兔子 #兔叽兔叽 #兔叽吖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咖啡白着呢～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萌之萌之😍 #AI橘猫酷耍动态特效 #抖音ai创作 #暹罗猫的日常 #女仆猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "@泥知豆不",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "补药小看了兔子啊喂！！（小慎兔） #陈慎 #AI橘猫酷耍动态特效 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小小棕编手艺人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "元宝宝#AI橘猫酷耍动态特效 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "皮蛋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下一秒靠近你 #AI橘猫酷耍动态特效 #萌宠出道计划 #酷帅 #抖音玩法达人大赛",
+     "text": "U17世界杯中国队集训名单公布！入选的25名球员中有青岛四大新星",
      "likes": 0,
      "hot": 0
     }
@@ -850,10 +776,52 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "桨板跨障的打开方式到底是什么": {
+  "中国体操队世锦赛载誉归来": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "黑龙江交通广播",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "征战世锦赛载誉 中国体操队回到北京#体操 #体操世锦赛 #中国队 #冠军",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极光新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月28日发布，中国体操队世锦赛载誉归来，女团以165.764分险胜美国，重夺世锦赛金牌，终结美国队七连冠，男女团双双锁定奥运资格，3金2银2铜，68年来首次",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "终结美国队连冠！#中国体操女团时隔20年再夺世锦赛冠军 #中国体操女团 #体操世锦赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙文融媒",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“冠军，欢迎回家！” 亚运会、世锦赛冠军邱祺缘载誉归来，现场锣鼓喧天，父老乡亲夹道欢迎！#世锦赛 #亚运会 #冠军#邱祺缘#龙文姑娘",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "天空之外再次迎来了宣发期": {
    "stats": {},
@@ -962,27 +930,122 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "凯恩获金球奖给中国足球的启示": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "IU也被ILLIT逮捕了": {
+  "萌宠滑镜定格挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "ILLIT",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "Q🍊",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#You_re_Under_Arrest 🚨 with #IU #ILLIT #ILLIT我要逮捕你",
+     "text": "#AI橘猫酷耍动态特效 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鼻嘎🐤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "诶呀妈呀，烧烧小叽 #AI橘猫酷耍动态特效 #抖音ai创作 #玄凤鹦鹉 #宠物鸟 #鹦鹉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小樱子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI橘猫酷耍动态特效 #抖音ai创作 #这样的狗怎能不喜欢 #德牧温顺听话 #德牧眼神",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "板栗bunny",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄毛栗子#AI橘猫酷耍动态特效 #抖音ai创作 #兔兔有点呆萌 #讨人喜欢的兔子 #对兔子没有抵抗力",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "请叫我火狐狸陛下",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太帅了！！！ #AI橘猫酷耍动态特效 #抖音ai创作 #魔法奶牛猫 #奶牛猫版黑猫警长",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🐰🐰可乐～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "邪恶小兔～#AI橘猫酷耍动态特效 #抖音ai创作 #兔子 #兔叽兔叽 #兔叽吖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小小棕编手艺人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "元宝宝#AI橘猫酷耍动态特效 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咖啡白着呢～",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萌之萌之😍 #AI橘猫酷耍动态特效 #抖音ai创作 #暹罗猫的日常 #女仆猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@泥知豆不",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "补药小看了兔子啊喂！！（小慎兔） #陈慎 #AI橘猫酷耍动态特效 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "皮蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "下一秒靠近你 #AI橘猫酷耍动态特效 #萌宠出道计划 #酷帅 #抖音玩法达人大赛",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "桨板跨障的打开方式到底是什么": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "凯恩获金球奖给中国足球的启示": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "肖战评论张百乔抖音合拍视频": {
    "stats": {},
@@ -1015,22 +1078,22 @@
      "hot": 0
     },
     {
-     "name": "ㅤ ㅤ ㅤ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "能不能闯进你的心窝 #seedance演技细节拉满了 #抖音ai创作 #瞬移滑镜慢动作挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "Zyyyyyt.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#就这样闯进我心窝 #秋天citywalk #路过秋天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ㅤ ㅤ ㅤ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "能不能闯进你的心窝 #seedance演技细节拉满了 #抖音ai创作 #瞬移滑镜慢动作挑战",
      "likes": 0,
      "hot": 0
     }
@@ -1068,6 +1131,87 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "短短几十分钟，听一个人娓娓道来他的经历与思考，总能让我重新审视那些本以为早已想通透的事。 今天听完Michael大麦哥关于爱情的分享，心里感触万千。 我们总执着",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王彦霖车流中救下受伤流浪狗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王彦霖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "愿你的每一天都比昨天更好💗💗💗 #养宠需负责 #请尊重生命",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "盘桃大会",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王彦霖的铁门槛又杀回来啦~#王彦霖 #小城良方 #小城良方顶级治愈感 #抽象",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中安在线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月28日（发布）演员王彦霖在车流里救下流浪狗，小狗一生沦为繁殖工具，受尽苦难，被王彦霖救下后，取名 Lucky，愿Lucky的每一天都比昨天更好。（编辑：小",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "独家揭秘白鹤滩水电站": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "直男财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "直男财经深入探访白鹤滩水电站！ 当年红军长征强渡的天堑，如何筑起震撼世界的国之重器？ #抖音精选App #创作阶梯计划 #燃起来了大国重器 #何以中国当惊世界殊",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "鞠婧祎万花世界首发预告": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "万花世界",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#鞠婧祎万花世界首发预告 入百局重塑规则，勘人心逆天改命 #万花世界 #鞠婧祎",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱看新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "鞠婧祎万花世界开机愿望，希望大家能够快点见面，希望一切顺利#鞠婧祎",
      "likes": 0,
      "hot": 0
     }
@@ -1182,107 +1326,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "独家揭秘白鹤滩水电站": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "直男财经",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "直男财经深入探访白鹤滩水电站！ 当年红军长征强渡的天堑，如何筑起震撼世界的国之重器？ #抖音精选App #创作阶梯计划 #燃起来了大国重器 #何以中国当惊世界殊",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "萌狗表情包模仿挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "许桂香💫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🐶 脸部体操 这滤镜也太重了，在哪调呢😂#表情管理已失控 #抖音特效堪比整容 #与辉同行 #兰知春序",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小雪碧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小雪碧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "W🌻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "W🌻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小樱桃🍒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好玩爱玩 #好玩爱玩 #柴犬表情包 #萌娃表情包特效",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱撸铁的小趴菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萌萌哒#萌到爆 #就是如此萌",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "鞠婧祎万花世界首发预告": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "万花世界",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#鞠婧祎万花世界首发预告 入百局重塑规则，勘人心逆天改命 #万花世界 #鞠婧祎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱看新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "鞠婧祎万花世界开机愿望，希望大家能够快点见面，希望一切顺利#鞠婧祎",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "江南又梦烟雨": {
    "stats": {},
    "authors": [
@@ -1390,46 +1433,19 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王彦霖车流中救下受伤流浪狗": {
+  "异环1.5版本前瞻": {
    "stats": {},
    "authors": [
     {
-     "name": "王彦霖",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "愿你的每一天都比昨天更好💗💗💗 #养宠需负责 #请尊重生命",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "盘桃大会",
+     "name": "亦洛洛（异环）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王彦霖的铁门槛又杀回来啦~#王彦霖 #小城良方 #小城良方顶级治愈感 #抽象",
+     "text": "异环前瞻的300环石和10连抽可别忘记了 ！#异环#祷歌为谁而诵#异环明音凛#异环前瞻",
      "likes": 0,
      "hot": 0
     },
-    {
-     "name": "中安在线",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月28日（发布）演员王彦霖在车流里救下流浪狗，小狗一生沦为繁殖工具，受尽苦难，被王彦霖救下后，取名 Lucky，愿Lucky的每一天都比昨天更好。（编辑：小",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "异环1.5版本前瞻": {
-   "stats": {},
-   "authors": [
     {
      "name": "枫小浪",
      "verify": "",
@@ -1451,22 +1467,12 @@
      "hot": 0
     },
     {
-     "name": "亦洛洛（异环）",
+     "name": "游戏大猪猪",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "异环前瞻的300环石和10连抽可别忘记了 ！#异环#祷歌为谁而诵#异环明音凛#异环前瞻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小浪很贪玩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天上线的异环玩家注意，千万不要忘记940环石和10连抽！ #异环 #祷歌为谁而诵 #异环明音凛",
+     "text": "【异环】1.5前瞻直播！1.5~1.6卡池角色详解！曳尔沐EXE绘莉可琳辛克莱进池！1.5~2.0新S级角色，新地图，新飞行器坐骑！300环石兑换码 #异环 #",
      "likes": 0,
      "hot": 0
     },
@@ -1477,6 +1483,23 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "坏了异环的这个复刻进度，环石根本不够了 #异环 #祷歌为谁而诵 #异环明音凛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "IU也被ILLIT逮捕了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ILLIT",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#You_re_Under_Arrest 🚨 with #IU #ILLIT #ILLIT我要逮捕你",
      "likes": 0,
      "hot": 0
     }
@@ -1521,36 +1544,110 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "多吃碳水不烧心": {
+  "萌狗表情包模仿挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "咸鱼不是keii",
+     "name": "许桂香💫",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这个冬天总要和好朋友一起去趟东北早市吧！ 感受下东北早市的烟火气！买起来不烧心！吃起来更不烧心！ #东北早市 #东北美食 #今年双11买啥不烧心 #准备好了我的",
+     "text": "🐶 脸部体操 这滤镜也太重了，在哪调呢😂#表情管理已失控 #抖音特效堪比整容 #与辉同行 #兰知春序",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "清澈里",
+     "name": "小雪碧",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今天只吃一盘面！！！ #多吃碳水不烧心",
+     "text": "小雪碧",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "一朵露露",
+     "name": "W🌻",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "降温了，晚上来碗黝黑的水泥麻辣烫吃着不烧心！！！#水泥麻辣烫 #麻酱麻辣烫 #早红晚黑养生公式 #多吃碳水不烧心",
+     "text": "W🌻",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小樱桃🍒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好玩爱玩 #好玩爱玩 #柴犬表情包 #萌娃表情包特效",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱撸铁的小趴菜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萌萌哒#萌到爆 #就是如此萌",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火影第七班玩偶睡衣时装爆料": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "火影忍者手游情报君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "睡觉时间到！#火影第七班玩偶睡衣时装爆料来袭~#火影忍者手游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无氪玩家",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "木叶快报来袭！大七班玩偶服时装！绝密宝匣 返厂！新通灵犀牛！#游戏破壁计划 #权威忍者攻略 #火影忍者手游 #游戏花样乱斗 #游戏玩家有自己的综艺",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "隔壁村大聪明",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "绝密宝匣返场，九喇嘛鸣人永恒佐助小樱新玩偶时装上线，本周活动来啦#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "嫁金钗四叔母最强助攻": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "C位小师妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "四叔母这波激将法，明显直接拿捏了陆濯呀 #嫁金钗 #陆濯 #魏娆 #四叔母 #戚仲恺",
      "likes": 0,
      "hot": 0
     }
@@ -1658,265 +1755,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "这次季候风 吹的那样凶。#王菲 #theweeknd",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "闫东西装舞台嗨翻全场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小兔牙瑶瑶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "横店全民造梦盛典！御弟哥哥一身西装，一首唐僧摇嗨翻全场，帅到我现场忍不住尖叫#闫东#2026全民造梦盛典 #横店影视城 #明星现场#闫东西装舞台嗨翻全场",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "叫皮皮的娃果然都很皮": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱是乎",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "能叫皮皮的都不是一般炮！（cr:贝贝日记（爸爸带娃）&一只小铁皮）#抽象 #搞笑 #萌娃 #笑不活了 #皮皮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抓马星仙酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "他都叫皮皮了 能是什么一般的孩子 （cr：一只小铁皮🌻 贝贝日记☀️（爸爸带娃））#万万没想到 #离谱 #搞笑 #带娃 #亲子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抓马嘟嘟奇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "他都叫皮皮了 能是安静的小孩吗 #带娃 #萌娃 #溜娃 #户外 #日常",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小猫踏步舞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "泥克",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好嫩啊#姐弟感 #情侣 #甜弟拯救世界 #小猫踏步 #已成年",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "呆呆家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小猫踏步 #猫咪的迷惑行为 #橘猫 #可爱到爆炸💥 #宠物",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "皮皮皮皮朱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和忘年交的友情新进展#小猫踏步手势舞 @小伊芙eve",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小羊栅栅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "受不了啦！要被这个bgm里的娃娃萌晕了！ 我也要来小猫踏步一下！#棉花娃娃#小猫踏步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陌言",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "怎么感觉后面这个在抓我#小猫摇手势舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "早點睡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🐱#小猫踏步 #内向",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "乔阿乔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小猫踏步😻 #隔空猫猫拳",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "火影第七班玩偶睡衣时装爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "火影忍者手游情报君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "睡觉时间到！#火影第七班玩偶睡衣时装爆料来袭~#火影忍者手游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无氪玩家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "木叶快报来袭！大七班玩偶服时装！绝密宝匣 返厂！新通灵犀牛！#游戏破壁计划 #权威忍者攻略 #火影忍者手游 #游戏花样乱斗 #游戏玩家有自己的综艺",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁村大聪明",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "绝密宝匣返场，九喇嘛鸣人永恒佐助小樱新玩偶时装上线，本周活动来啦#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "秋天就要来上一口阿月浑子": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "🐽阿喵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妻主买的阿月浑子就是不一样#秋天就要来上一口阿月浑子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小九妹妹_（日更）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "阿月浑子（开心果）局🎃美食测评分享，多人多餐食用，提倡适度健康饮食！#秋天就要来上一口阿月浑子#妈呀太香了#甜品#沉浸式#好好吃饭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁大哥与小李",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奢侈就是这么朴实无华 #秋天就要来上一口阿月浑子",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李沁张晚意景区客串NPC": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "大板凳娱乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李沁张晚意一搭有了 不过是在景区当NPC（素材来源右上角cr） #李沁 #张晚意 #麻溜儿整吧 #搞笑 #综艺",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#李沁 、#张晚意 扮上皇帝皇后了，一本正经迎客的样子，让人忍俊不禁，#岳云鹏 #马思纯 等一同录综艺客串NPC#综艺",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱看新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李沁张晚意景区客串NPC，岳云鹏马思纯等惊喜现身#李沁 #张晚意 #岳云鹏 #马思纯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王者伽罗竹林cos太绝了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "最爱吃兽奶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "刀箭写历史 翰墨亦成林#伽罗 #伽罗沧流箭 #cos #王者ip创作团",
      "likes": 0,
      "hot": 0
     }
@@ -2115,6 +1953,184 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "多吃碳水不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咸鱼不是keii",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个冬天总要和好朋友一起去趟东北早市吧！ 感受下东北早市的烟火气！买起来不烧心！吃起来更不烧心！ #东北早市 #东北美食 #今年双11买啥不烧心 #准备好了我的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "清澈里",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天只吃一盘面！！！ #多吃碳水不烧心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一朵露露",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "降温了，晚上来碗黝黑的水泥麻辣烫吃着不烧心！！！#水泥麻辣烫 #麻酱麻辣烫 #早红晚黑养生公式 #多吃碳水不烧心",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当萌宠拥有复古幼年照": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "☁囡囡小团团🍡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "怀旧童年照 #Ai萌宠 #萌宠成精了 #可爱到爆炸💥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奶糖是只小卷毛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#那些可以待一下午的地方 #AI视频生成实测 #我用ai表达爱 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大妖🐾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从小就彪 @小B熊的麻麻 #小b熊的麻麻 #比熊 #可爱到犯规的狗狗 #抖in萌宠计划 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "琳霖Angie",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哎哟太搞笑太可爱啦哈哈🤣🤣🤣 #超级无敌可爱博美犬 #可爱到爆炸💥 #萌宠出道计划 #怀旧 #抖音AI创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金豆豆~Zara🐾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@155天~ 这是我的心尖尖#可爱到犯规的狗狗 #萌宠出道计划 #想念我的小狗 #回到过去 #泰迪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是小胖但我不胖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈哈哈哈哈",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "叫皮皮的娃果然都很皮": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱是乎",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "能叫皮皮的都不是一般炮！（cr:贝贝日记（爸爸带娃）&一只小铁皮）#抽象 #搞笑 #萌娃 #笑不活了 #皮皮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "抓马星仙酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "他都叫皮皮了 能是什么一般的孩子 （cr：一只小铁皮🌻 贝贝日记☀️（爸爸带娃））#万万没想到 #离谱 #搞笑 #带娃 #亲子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "抓马嘟嘟奇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "他都叫皮皮了 能是安静的小孩吗 #带娃 #萌娃 #溜娃 #户外 #日常",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋天就要来上一口阿月浑子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "🐽阿喵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "妻主买的阿月浑子就是不一样#秋天就要来上一口阿月浑子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小九妹妹_（日更）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "阿月浑子（开心果）局🎃美食测评分享，多人多餐食用，提倡适度健康饮食！#秋天就要来上一口阿月浑子#妈呀太香了#甜品#沉浸式#好好吃饭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "隔壁大哥与小李",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奢侈就是这么朴实无华 #秋天就要来上一口阿月浑子",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "比螺蛳粉还上头的贵州虾酸": {
    "stats": {},
    "authors": [
@@ -2152,36 +2168,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "河头老街NPC唱歌太牛了": {
+  "王者伽罗竹林cos太绝了": {
    "stats": {},
    "authors": [
     {
-     "name": "芒果妈妈",
+     "name": "最爱吃兽奶",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "清唱都这么有实力吗！河头老街你真是牛大了！#河头老街npc唱歌太牛了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西西不嘻嘻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全开麦，真live，有实力终会被看见！#河头老街 #河头老街闭园 #河头老街npc",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "重生之我是喜洋洋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这俩人在我抖音唱两天了 #河头老街 #河头老街npc",
+     "text": "刀箭写历史 翰墨亦成林#伽罗 #伽罗沧流箭 #cos #王者ip创作团",
      "likes": 0,
      "hot": 0
     }
@@ -2276,6 +2272,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "🎵托有线耳机的福，今天也美美地出门了呢 怎样玩转有线耳机搭配？ 别再让你的耳机线在抽屉里吃灰啦！ #y2k穿搭 #我来见耳机里的人了 #秋季穿搭交作业了 #有",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "河头老街NPC唱歌太牛了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "芒果妈妈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "清唱都这么有实力吗！河头老街你真是牛大了！#河头老街npc唱歌太牛了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西西不嘻嘻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全开麦，真live，有实力终会被看见！#河头老街 #河头老街闭园 #河头老街npc",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "重生之我是喜洋洋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这俩人在我抖音唱两天了 #河头老街 #河头老街npc",
      "likes": 0,
      "hot": 0
     }
