@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-10-29 17:41",
+ "updated_at": "2026-10-29 19:42",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 47,
+ "ok_count": 46,
  "lexicon_count": 0,
  "topics": {
   "中共中央30日上午举行新闻发布会": {
@@ -67,16 +67,6 @@
      "hot": 0
     },
     {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月29日下午，国防部举行例行记者会，国防部新闻发言人张晓刚大校答记者问。 记者：据报道，日本防卫省近日发布数据称，今年4月至9月日本航空自卫队应对中俄军机紧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视军事",
      "verify": "红V",
      "identity": "媒体人",
@@ -87,22 +77,32 @@
      "hot": 0
     },
     {
-     "name": "小央视频",
+     "name": "潮新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#今日关注 | 25式导弹首秀“利剑”军演 日本不择手段谋求“核共享”？#媒体精选计划",
+     "text": "10月29日下午，国防部举行例行记者会，国防部新闻发言人张晓刚大校答记者问。 记者：据报道，美国和日本近期举行规模为历届最大的“利剑27”联演，重点演练岛屿争夺",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "深圳卫视军情直播间",
+     "name": "看台海",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 美日举行“利剑”演习参演国家越来越多 曹卫东：美不愿与中俄硬碰硬要别人当马前卒 #美军 #美日 #媒体原创",
+     "text": "美日举行联演重点演练夺岛 国防部：挑动阵营对抗 不得人心#看台海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国军号",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国防部：日方执意挑动阵营对抗不得人心",
      "likes": 0,
      "hot": 0
     }
@@ -194,6 +194,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "独家揭秘白鹤滩水电站": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "直男财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "直男财经深入探访白鹤滩水电站！ 当年红军长征强渡的天堑，如何筑起震撼世界的国之重器？ #抖音精选App #创作阶梯计划 #燃起来了大国重器 #何以中国当惊世界殊",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "秋日山野漫游": {
    "stats": {},
    "authors": [
@@ -224,23 +241,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "想给你寄一张关于深秋的明信片🍂 #彩林红叶 #好好出门过个秋天 #全国已开始进入赏秋模式 #又到了看红叶的季节",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "独家揭秘白鹤滩水电站": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "直男财经",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "直男财经深入探访白鹤滩水电站！ 当年红军长征强渡的天堑，如何筑起震撼世界的国之重器？ #抖音精选App #创作阶梯计划 #燃起来了大国重器 #何以中国当惊世界殊",
      "likes": 0,
      "hot": 0
     }
@@ -470,8 +470,8 @@
      "hot": 0
     },
     {
-     "name": "中国新闻社",
-     "verify": "蓝V",
+     "name": "参考消息",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
@@ -488,37 +488,15 @@
      "text": "张升民同志简历。#媒体原创",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张升民同志简历",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "斯拉夫美学穿搭公式": {
+  "毛茸茸可可系治愈秋冬": {
    "stats": {},
-   "authors": [
-    {
-     "name": "Leopar",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "斯拉夫美学，暴雪里的雪原贵气 #斯拉夫美学 #斯拉夫 #皮草穿搭 #SlavicGirl #俄式穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "影之刃零正式上线": {
    "stats": {},
@@ -534,12 +512,12 @@
      "hot": 0
     },
     {
-     "name": "凤凰WEEKLY",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "又一国产3A游戏正式上线，《影之刃零》登顶Steam全球热销榜第一。#媒体精选计划",
+     "text": "继《黑神话：悟空》后，又一国产力作！3A游戏《影之刃零》今日上线。网友：他来了，这下江湖更热闹了！",
      "likes": 0,
      "hot": 0
     },
@@ -554,12 +532,12 @@
      "hot": 0
     },
     {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "凤凰WEEKLY",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "继《黑神话：悟空》后，又一国产力作！3A游戏《影之刃零》今日上线。网友：他来了，这下江湖更热闹了！",
+     "text": "又一国产3A游戏正式上线，《影之刃零》登顶Steam全球热销榜第一。#媒体精选计划",
      "likes": 0,
      "hot": 0
     },
@@ -570,6 +548,63 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "媒体评分比《黑神话悟空》还高！首批玩家体验3A游戏《影之刃零》 有人弹“SteamAPI”错误进不去游戏 网红小团团怕黑调成“白茫茫视角”#媒体原创 #媒体精选",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "乌干达军方宣布“食人魔”落网": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "乌干达逮捕一名连环食人杀手，过去15年间杀害并吃掉38人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "涉嫌15年杀害并吃掉38人！乌干达“食人魔”落网（编辑：青遥）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乐享平湖",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "15年杀害并吃掉38人!乌干达军方宣布，“连环杀手兼食人魔”已被逮捕，将公开审判 执行死刑",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南国早报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月29日，据扬子晚报报道：乌干达国防军总司令穆胡齐·凯内鲁加巴10月26日宣布，安全部队已逮捕涉嫌杀害并食用38人的嫌疑人穆朱里齐·摩西，称其为乌干达历史上",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "杀害并吃掉了38人！乌干达史上“最恶劣的连环杀手兼食人魔” 落网",
      "likes": 0,
      "hot": 0
     }
@@ -661,12 +696,29 @@
      "hot": 0
     },
     {
-     "name": "环球网",
+     "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "《人民日报》锐评批《VIVANT》：这部日剧正在公然“投毒” ，挑战人类良知！#媒体精选计划 #精选主播说",
+     "text": "#媒体原创 一线明星参演 高市早苗点名要看 颠倒黑白 将日军罪行嫁接给中国 热播日剧歪曲历史 警惕藏在娱乐外壳下的认知战#精选主播说 #东方快评 #子午观潮",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "影之刃零首章隐藏关": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "呼叫网管",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【无关键剧透】隐藏关：影之刃零！首章解锁和甄子丹正面交手！ #影之刃零 #半个游戏圈都在影刃团建 #抖音精选App影之刃零 #创作阶梯计划",
      "likes": 0,
      "hot": 0
     }
@@ -694,23 +746,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "刘晓艳老师世界观重塑中…… #清明上河园 #刘晓艳 #刘晓艳考研英语 #刘晓艳来清园赏菊了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "NBA高人切特来祝贺IG晋级了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "切特霍姆格伦ChetHolmgren",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "高人”前来祝贺ig的好兄弟们进入八强#LPL #英雄联盟",
      "likes": 0,
      "hot": 0
     }
@@ -752,16 +787,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "影之刃零首章隐藏关": {
+  "NBA高人切特来祝贺IG晋级了": {
    "stats": {},
    "authors": [
     {
-     "name": "呼叫网管",
-     "verify": "",
-     "identity": "",
+     "name": "切特霍姆格伦ChetHolmgren",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【无关键剧透】隐藏关：影之刃零！首章解锁和甄子丹正面交手！ #影之刃零 #半个游戏圈都在影刃团建 #抖音精选App影之刃零 #创作阶梯计划",
+     "text": "高人”前来祝贺ig的好兄弟们进入八强#LPL #英雄联盟",
      "likes": 0,
      "hot": 0
     }
@@ -843,6 +878,33 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "小城良方一念之差让医生懊悔痛哭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小城良方(专治 emo 版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果当时坚持进行检查，结果是不是就会不同？#小城良方 #肖战 #刘铮亮 #王彦霖 #陈俊南",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱奇艺",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果当时坚持进行检查，结果是不是就会不同？#小城良方 #肖战 #王彦霖",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "现场见证IG挺进八强": {
    "stats": {},
    "authors": [
@@ -911,7 +973,7 @@
      "hot": 0
     },
     {
-     "name": "靠力气吃饭的人 从来都值得被好好对待 #秦师傅 ",
+     "name": "娱乐艾花花",
      "verify": "",
      "identity": "",
      "identity_raw": "",
@@ -934,33 +996,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "太牛了吧 阿姨们有劲儿#农村女团#农村#天黑了该我在邯郸方特上场了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王浩宇武将杯复活票断档领先": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咸蛋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@王浩宇Whys #苏州超级武将杯S2#咸蛋#王浩宇#Whys",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王浩宇Whys",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王浩宇夺冠奖金已经来到了750w…#苏州超级武将杯S2 #王浩宇 #Whys",
      "likes": 0,
      "hot": 0
     }
@@ -1052,16 +1087,6 @@
      "hot": 0
     },
     {
-     "name": "📽大连街溜子---小核桃🎞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我已崩溃 我已绝望 我已无能为力🫠🫠🫠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "是丫丫呀",
      "verify": "",
      "identity": "",
@@ -1070,15 +1095,117 @@
      "text": "道理：别生气。本人：道理你先闭嘴",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "📽大连街溜子---小核桃🎞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我已崩溃 我已绝望 我已无能为力🫠🫠🫠",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "毛茸茸可可系治愈秋冬": {
+  "一不小心就被挖走了": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "晚上睡不着",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "室友直接丢弃@RUII_j #我的世界 #当代大学生宿舍现状是这样的 #当代大学生寝室日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "田田",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#华东师范大学校运会 #华东师范大学",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "hugoouo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "hugoouo",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "棱镜冰鲮鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "棱镜冰鲮鱼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鹰飞燕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "鹰飞燕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "恋霜海",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恋霜海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "fjck",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#大学生午休 #大学没有空调",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "太极八卦肚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈哈哈哈哈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柚子酒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AR #汪汪 #我的世界 除了哈基汪和哈基米 还可以挖掘好友哦",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "厉娜许飞同款鸭舌吃上了": {
    "stats": {},
@@ -1117,36 +1244,176 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "瓦龙三人组首次合体接受采访": {
+  "现场见证T1挺入八强": {
    "stats": {},
    "authors": [
     {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "暴龙电竞",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 顶级\"凡尔赛\"？#瓦龙三人组自曝有流量焦虑 \"当天点赞不到100万就是凉了\" 播放量5000万才算可以！#直击第一线 #媒体精选计划#当事人会客厅",
+     "text": "Faker率领T1晋级八强？ 网友：又到了最难战胜T1的BO5! #lpl #英雄联盟s16 #mkoi对战t1 #faker #t1战胜mkoi",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王彦霖车流中救下受伤流浪狗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王彦霖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "愿你的每一天都比昨天更好💗💗💗 #养宠需负责 #请尊重生命",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "风芒新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "盘桃大会",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "《对话“瓦龙”三人组｜一堂2.6亿人的音乐课》 #媒体原创 风芒新闻专访川音声乐教师朱璐 朱璐谈乌克兰留学经历： 乌克兰歌剧院说我们不要中国人 我的老师就说他就",
+     "text": "王彦霖的铁门槛又杀回来啦~#王彦霖 #小城良方 #小城良方顶级治愈感 #抽象",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "娱乐草莓酱",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 “瓦龙三人组”创作时会有争执吗？张與息：有！特别是我和俊哥！但是俊哥非常尊重我们，会让我们都去尝试。 #重庆崽儿张與息的瓦龙历险记 #直击第一线 （",
+     "text": "王彦霖此刻应该希望自己就是陈俊南吧 #王彦霖 #救助小狗 #陈俊南",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "嫁金钗早说了单更会出事": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "剧坐家花花",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我就说单更会出事吧#嫁金钗 #田曦薇 #闫桉 #魏娆 #陆濯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "易梦玲发文告别文晓晓": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "斯拉夫美学穿搭公式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Leopar",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "斯拉夫美学，暴雪里的雪原贵气 #斯拉夫美学 #斯拉夫 #皮草穿搭 #SlavicGirl #俄式穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火影第七班玩偶睡衣时装爆料": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "火影忍者手游情报君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "睡觉时间到！#火影第七班玩偶睡衣时装爆料来袭~#火影忍者手游",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无氪玩家",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "木叶快报来袭！大七班玩偶服时装！绝密宝匣 返厂！新通灵犀牛！#游戏破壁计划 #权威忍者攻略 #火影忍者手游 #游戏花样乱斗 #游戏玩家有自己的综艺",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "隔壁村大聪明",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "绝密宝匣返场，九喇嘛鸣人永恒佐助小樱新玩偶时装上线，本周活动来啦#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "就这样闯进我的心窝": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "AIone·",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就这样闯进我的心窝……#真实生活分享计划 #狮子座 #狮子 #死犟死犟的狮子座 #关于狮子座",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Zyyyyyt.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#就这样闯进我心窝 #秋天citywalk #路过秋天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ㅤ ㅤ ㅤ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "能不能闯进你的心窝 #seedance演技细节拉满了 #抖音ai创作 #瞬移滑镜慢动作挑战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一帧动漫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "迪迦这超绝的侧脸⚡手搓定格动画⚡非AI #就这样闯进我的心窝 #迪迦奥特曼 #定格动画 #奥特曼 #充能计划",
      "likes": 0,
      "hot": 0
     }
@@ -1218,429 +1485,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影第七班玩偶睡衣时装爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "火影忍者手游情报君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "睡觉时间到！#火影第七班玩偶睡衣时装爆料来袭~#火影忍者手游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无氪玩家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "木叶快报来袭！大七班玩偶服时装！绝密宝匣 返厂！新通灵犀牛！#游戏破壁计划 #权威忍者攻略 #火影忍者手游 #游戏花样乱斗 #游戏玩家有自己的综艺",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "隔壁村大聪明",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "绝密宝匣返场，九喇嘛鸣人永恒佐助小樱新玩偶时装上线，本周活动来啦#火影忍者手游 #权威忍者攻略 #木叶村抽象家",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "皇马官方致歉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "皇马：与姆巴佩一起向中国人民道歉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "向中国人民道歉！总台确认收到皇马道歉函。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "上观新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 有些玩笑，中国人是笑不出来的！姆巴佩发表涉华不当言论，吃饭砸锅！多家中国品牌全面叫停、火速切割。两年多4起涉华争议，皇马为什么一错再错？（解放日报 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "姆巴佩道歉：言论欠妥，绝非自己本意",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光明网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "皇家马德里：俱乐部与姆巴佩一同公开道歉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "皇马发布道歉声明：就姆巴佩近期言论向中国人民致歉（编辑：大河）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青蜂侠",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#皇马官方致歉 ：就姆巴佩近期言论对中国人民造成的不适表达歉意#热点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "政事儿",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "皇马道歉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#时隔2天皇马道歉姗姗来迟 10月28日，皇马官网和社交媒体同步声明 就姆巴佩言论给中国人民带来的不适表示歉意 重申尊重、共存和文化理解 #姆巴佩 #皇马",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "皇马官方10月28日在社交媒体发布声明： 皇家马德里足球俱乐部谨就我方球员基利安·姆巴佩（Kylian Mbappé）近期言论可能给中国人民带来的不快，表达诚挚",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "就这样闯进我的心窝": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "AIone·",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "就这样闯进我的心窝……#真实生活分享计划 #狮子座 #狮子 #死犟死犟的狮子座 #关于狮子座",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Zyyyyyt.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#就这样闯进我心窝 #秋天citywalk #路过秋天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ㅤ ㅤ ㅤ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "能不能闯进你的心窝 #seedance演技细节拉满了 #抖音ai创作 #瞬移滑镜慢动作挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一帧动漫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "迪迦这超绝的侧脸⚡手搓定格动画⚡非AI #就这样闯进我的心窝 #迪迦奥特曼 #定格动画 #奥特曼 #充能计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王彦霖车流中救下受伤流浪狗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王彦霖",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "愿你的每一天都比昨天更好💗💗💗 #养宠需负责 #请尊重生命",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "盘桃大会",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王彦霖的铁门槛又杀回来啦~#王彦霖 #小城良方 #小城良方顶级治愈感 #抽象",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱乐草莓酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王彦霖此刻应该希望自己就是陈俊南吧 #王彦霖 #救助小狗 #陈俊南",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "薛之谦称要与AI音乐对峙到底": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "双黄Damn🥚",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老薛说：音乐缘计划第三季他要“与AI对峙到底”，天知道这个薛之谦的使命感有多强烈，他一直在台前幕后尽一切所能推动行业健康发展。#音乐缘计划 #音乐缘计划第三季 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱乐课代表孙小寒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#薛之谦说要与AI对峙到底 薛之谦真的很有使命感啊 #薛之谦 #音乐缘计划第三季 #AI",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#薛之谦 称要与AI音乐对峙到底，此前自曝与#黄子弘凡 合作，练AI唱的歌练到崩溃，熬到眼袋都大了。#AI #AI音乐",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "萌宠滑镜定格挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Q🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI橘猫酷耍动态特效 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鼻嘎🐤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "诶呀妈呀，烧烧小叽 #AI橘猫酷耍动态特效 #抖音ai创作 #玄凤鹦鹉 #宠物鸟 #鹦鹉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你有星辰大海",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI橘猫酷耍动态特效 #抖音ai创作 #金毛犬 #被狗狗治愈的一天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "真的好想想想",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "滑进你的心里面 #AI橘猫酷耍动态特效 #抖音ai创作 #被迫营业的猫猫 #猫咪的不服全写在脸上",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "板栗bunny",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黄毛栗子#AI橘猫酷耍动态特效 #抖音ai创作 #兔兔有点呆萌 #讨人喜欢的兔子 #对兔子没有抵抗力",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "请叫我火狐狸陛下",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太帅了！！！ #AI橘猫酷耍动态特效 #抖音ai创作 #魔法奶牛猫 #奶牛猫版黑猫警长",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小樱子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI橘猫酷耍动态特效 #抖音ai创作 #这样的狗怎能不喜欢 #德牧温顺听话 #德牧眼神",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "OK",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "豆芽#田园犬生命力 #土狗保护 #AI橘猫酷耍动态特效 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🐰🐰可乐～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "邪恶小兔～#AI橘猫酷耍动态特效 #抖音ai创作 #兔子 #兔叽兔叽 #兔叽吖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小时候只要妈妈熬油",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI橘猫酷耍动态特效 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "现场见证T1挺入八强": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "暴龙电竞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Faker率领T1晋级八强？ 网友：又到了最难战胜T1的BO5! #lpl #英雄联盟s16 #mkoi对战t1 #faker #t1战胜mkoi",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "嫁金钗早说了单更会出事": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "剧坐家花花",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我就说单更会出事吧#嫁金钗 #田曦薇 #闫桉 #魏娆 #陆濯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "老顾客反向劝退卤蛋店": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "大参考",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月28日（发布），河南洛阳。洛阳一卤蛋店每天要卖3000多个，老板：别来了，每天3点都要起床。累到笑不出来，拒绝采访“怕人来的太多”。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "秋冬贵气感穿搭": {
    "stats": {},
    "authors": [
@@ -1678,10 +1522,49 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这一口炒饸饹太对胃了": {
+  "老顾客反向劝退卤蛋店": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "大参考",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月28日（发布），河南洛阳。洛阳一卤蛋店每天要卖3000多个，老板：别来了，每天3点都要起床。累到笑不出来，拒绝采访“怕人来的太多”。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王巍导演的评论区是真boss直聘": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "$howmaker",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真“boss直聘”#王巍导演 #童年动画#蓝弧动画",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王巍导演",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "20年后，我们终于见面了｜王老大去哪了？ 一波三折的见面，#一波三折的一天 大家好，我是王巍。 做动画二十多年，大部分时间都躲在故事和角色后面。今天，终于被他们",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "也会有人代替你": {
    "stats": {},
@@ -1790,26 +1673,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王巍导演的评论区是真boss直聘": {
+  "吃糖葫芦之前要念咒语哦": {
    "stats": {},
    "authors": [
     {
-     "name": "$howmaker",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "真“boss直聘”#王巍导演 #童年动画#蓝弧动画",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王巍导演",
+     "name": "主持人yoyo酱",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "20年后，我们终于见面了｜王老大去哪了？ 一波三折的见面，#一波三折的一天 大家好，我是王巍。 做动画二十多年，大部分时间都躲在故事和角色后面。今天，终于被他们",
+     "text": "买个糖葫芦给我累够呛🙂 #主持人日常 #主持人yoyo酱 #咒语糖葫芦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小权今天还想吃点啥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "吃糖葫芦之前得先念咒语… #长春 #糖葫芦 #糖葫芦界的天花板 #糖葫芦大王 #东北糖葫芦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "经纬 Skye",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现在吃糖葫芦必须念咒语吗？#糖葫芦进入大满贯时代 #糖葫芦 #巧克力麻糍糖葫芦 #吃糖葫之前要念咒语哦",
      "likes": 0,
      "hot": 0
     }
@@ -1854,36 +1747,41 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "吃糖葫芦之前要念咒语哦": {
+  "这一口炒饸饹太对胃了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "轻松打造戏剧doll感妆": {
    "stats": {},
    "authors": [
     {
-     "name": "主持人yoyo酱",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "买个糖葫芦给我累够呛🙂 #主持人日常 #主持人yoyo酱 #咒语糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小权今天还想吃点啥",
+     "name": "快跑霸王龙",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "吃糖葫芦之前得先念咒语… #长春 #糖葫芦 #糖葫芦界的天花板 #糖葫芦大王 #东北糖葫芦",
+     "text": "戏剧doll感妆 用蕾丝网袜压出细密蛇状瘢痕#潮妆研究所 #轻松打造戏剧doll感妆 #创意妆 #顶级变美进化论 #我的motd",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "经纬 Skye",
+     "name": "伤心猪头",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现在吃糖葫芦必须念咒语吗？#糖葫芦进入大满贯时代 #糖葫芦 #巧克力麻糍糖葫芦 #吃糖葫之前要念咒语哦",
+     "text": "戏剧doll感妆 #韩系doll感妆 #网感妆容推荐 #新手化妆教程 #这个十月戏剧doll感妆好火 #潮妆研究所",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "溜溜鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "吓到你没？戏剧doll感妆=加强轮廓+浓郁色彩+妆点元素 #万圣节 #这个十月戏剧doll感妆好火 #潮妆研究所 #变装 #镜头吃妆了",
      "likes": 0,
      "hot": 0
     }
