@@ -1,58 +1,11 @@
 {
- "updated_at": "2026-10-31 08:40",
+ "updated_at": "2026-10-31 09:40",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 48,
+ "topic_count": 49,
  "ok_count": 47,
  "lexicon_count": 0,
  "topics": {
-  "以色列选举最终结果公布": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以色列选举最终结果公布，内塔尼亚胡阵营选票未过半#以色列 #选举 #内塔尼亚胡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三沙卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "计票结束！“内塔尼亚胡遭遇重大挫折”@抖音小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "出口民调：以色列议会两大阵营均未过半 组阁有悬念",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以色列第26届议会选举投票结束，出口民调显示内塔尼亚胡阵营未获议会多数席位。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "我国公布首次载人登月乘组计划": {
    "stats": {},
    "authors": [
@@ -77,6 +30,16 @@
      "hot": 0
     },
     {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国首次载人登月任务细节披露： 两枚长征十号运载火箭将着陆器送往月球轨道，发射载人飞船交会对接，三人组成乘组，两人着陆月球。 10月31日，第七届载人航天学术大",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
@@ -85,14 +48,41 @@
      "text": "我国计划在2030年前实现中国人登陆月球，两人着陆月球表面",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中国稀土筹划重大资产重组": {
+   "stats": {},
+   "authors": [
     {
-     "name": "爱济南新闻客户端",
+     "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我国首次载人登月任务细节披露： 两枚长征十号运载火箭将着陆器送往月球轨道，发射载人飞船交会对接，三人组成乘组，两人着陆月球。 10月31日，第七届载人航天学术大",
+     "text": "10月30日，中国稀土集团资源科技股份有限公司发布公告称，公司拟通过发行股份方式购买中稀（凉山）稀土有限公司股权并募集配套资金，预计构成重大资产重组及关联交易，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风口财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "重大资产重组！中国稀土 、TCL中环同时公告，11月2日开市起停牌#中国稀土筹划重大资产重组 #稀土 #A股 （编辑：李）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "复利的游戏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#股市 #中国稀土",
      "likes": 0,
      "hot": 0
     }
@@ -147,43 +137,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "中国稀土筹划重大资产重组": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月30日，中国稀土集团资源科技股份有限公司发布公告称，公司拟通过发行股份方式购买中稀（凉山）稀土有限公司股权并募集配套资金，预计构成重大资产重组及关联交易，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风口财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重大资产重组！中国稀土 、TCL中环同时公告，11月2日开市起停牌#中国稀土筹划重大资产重组 #稀土 #A股 （编辑：李）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "复利的游戏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#股市 #中国稀土",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "勇士25分逆转湖人": {
    "stats": {},
    "authors": [
@@ -226,73 +179,6 @@
      "text": "#勇士25分逆转湖人 #东契奇#库里#里弗斯#金州勇士 勇士逆转湖人！库里晃到东契奇，波杰姆斯基统治攻防！",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "刀歌篮球（业余球探)🏀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "违反常识！为什么库里越老得分爆炸力越强？ #库里#金州勇士 #库里44分 #刀哥篮球",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "独行侠送火箭赛季首败": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "休斯顿火箭队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "连胜被终结！#休斯顿火箭 #NBA杯 #独行侠送火箭赛季首败",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "7号球员",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "弗拉格&欧文大爆发！终结火箭五连胜！ 今天弗拉格拿下33分，欧文拿下35分，成功帮助独行侠在主场逆转了火箭！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不知名的助教阿宇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "弗拉格、欧文合砍68分！ 独行侠主场战胜火箭！豪取三连胜！#独行侠送火箭赛季首败 #独行侠战胜火箭 #欧文35分 #弗拉格33分 #独行侠总冠军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "欧文日常-老张",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "独行侠终结火箭连胜，计划有变独行侠总冠军！#独行侠战胜火箭 #欧文35分 #弗拉格33分 #抖音篮球季 #dou来nba",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓝球小子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "火箭杀到达拉斯！杜兰特带队，独行侠准备接招！ #杜兰特 #欧文 #弗拉格 #范弗利特 #火箭对战独行侠",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -328,6 +214,110 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "江西退休外交官张和强530天徒步重走长征路，从于都到吴起，再到延安，翻越5座雪山，向革命先辈致敬。#长征 #张和强",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国际金价暴跌创近一年新低": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#国际金价跌至一年来新低 截至10月30日收盘，纽商所12月交割的黄金期货价格报每盎司3898.9美元，跌幅为3.29%；12月交割的白银期价收于每盎司49.2",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "21世纪经济报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金价银价大跌，国际金价跌至一年来新低；白银期货价格自2025年11月以来，首次跌破每盎司50美元关口（剪辑：张通）#黄金 #白银 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秒懂金融",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄金、白银和美股重挫！发生了什么？ #黄金 #白银 #美股 #纳指 #英特尔",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国际金价暴跌，失守3900美元/盎司关口，创近一年新低，金饰克价年内暴跌近550元#一财情报局",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐鲁晚报·果然视频",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金价跌至一年来新低",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "现代快报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国际金价暴跌创近一年新低，白银跌破50美元关口",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "冬天奶茶要挖着吃才满足": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "零壹壹陆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们男朋友也是这样喝奶茶的嘛.#情侣日常#茶百道#茶百道新品#茶百道推荐必喝#茶百道好大颗半熟芝士球 #冬天奶茶要挖着吃才满足",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天天呐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后面天天赔了我4杯奶茶！奶茶真的很香！ #冬天奶茶要挖着吃才满足 #暖冬食力局",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芊可Chiko",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奶茶正式进入“挖着吃”新喝法时代！#冬天奶茶要挖着吃才满足 #暖冬食力局",
      "likes": 0,
      "hot": 0
     }
@@ -387,81 +377,54 @@
      "text": "我来试试 #玉簟秋 #每日分享#配音#台词#播音主持",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国际金价暴跌创近一年新低": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "温故言卿",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#国际金价跌至一年来新低 截至10月30日收盘，纽商所12月交割的黄金期货价格报每盎司3898.9美元，跌幅为3.29%；12月交割的白银期价收于每盎司49.2",
+     "text": "怨天尤人是没有用的！ #配音 #玉簟秋 #叶平君 #徐若晗 #CV温故言卿 依旧翻配~这次录的感觉不是特别贴脸……但是这个台词真的特别好！你们越说我越要发，我就",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "21世纪经济报道",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "青黛 ✌︎' ֊'",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金价银价大跌，国际金价跌至一年来新低；白银期货价格自2025年11月以来，首次跌破每盎司50美元关口（剪辑：张通）#黄金 #白银 #媒体原创",
+     "text": "翻配挑战 #把玉簟秋掰开揉碎了嗑 #叶平君 #原声分享 #配音挑战 @电视剧玉簟秋（进簟度蜜月 浅试一下哈哈，配的不好，不是专业的，轻点批评～",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "秒懂金融",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "鱼鱼酱",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "黄金、白银和美股重挫！发生了什么？ #黄金 #白银 #美股 #纳指 #英特尔",
+     "text": "不是影视寒冬了吗 #玉簟秋 #配音",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "小小钰",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国际金价暴跌，失守3900美元/盎司关口，创近一年新低，金饰克价年内暴跌近550元#一财情报局",
+     "text": "“多少国民痛心疾首，但怨天尤人是没有用的”#玉簟秋 #台词配音 #配音 #玉簟秋台词 #会火",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "现代快报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "小困绻绻",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国际金价暴跌创近一年新低，白银跌破50美元关口",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金价跌至一年来新低",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国内品牌金饰克价，年内暴跌近550元！#国际金价创一年新低 白银已“腰斩”#金饰克价年内暴跌近550元 #黄金大跌",
+     "text": "试试就试试 我也来试试！#玉簟秋配音 #台词 #配音 #玉簟秋 #热播剧",
      "likes": 0,
      "hot": 0
     }
@@ -519,6 +482,73 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "VJ三分 詹姆斯补篮杀死比赛，76人本赛季双杀尼克斯。#76人本赛季双杀尼克斯 #詹姆斯补篮杀死比赛 #詹姆斯 #NBA杯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【詹姆斯最后的冲锋】76人绝境时刻，队友们又一次把球交给了老詹，正如此前他在克利夫兰时一样。当詹姆斯迎着阿努诺比命中关键球，时间仿佛回到了八年前詹姆斯单打OG绝",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "独行侠送火箭赛季首败": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "弗拉格关键两攻奠定胜局，独行侠送火箭赛季首败。#独行侠送火箭赛季首败 #弗拉格关键两攻奠定胜局 #NBA杯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "休斯顿火箭队",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "连胜被终结！#休斯顿火箭 #NBA杯 #独行侠送火箭赛季首败",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大史爱篮球🏀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "独行侠双子星爆发战胜火箭 一定要保持健康#杜兰特 #欧文 #詹姆斯 #NBA新赛季梦之队集结 #美职篮奇迹梦之队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不知名的助教阿宇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "弗拉格、欧文合砍68分！ 独行侠主场战胜火箭！豪取三连胜！#独行侠送火箭赛季首败 #独行侠战胜火箭 #欧文35分 #弗拉格33分 #独行侠总冠军",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "欧文日常-老张",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "独行侠终结火箭连胜，计划有变独行侠总冠军！#独行侠战胜火箭 #欧文35分 #弗拉格33分 #抖音篮球季 #dou来nba",
      "likes": 0,
      "hot": 0
     }
@@ -627,7 +657,7 @@
      "hot": 0
     },
     {
-     "name": "明神亚贵",
+     "name": "我死后你为我殉情",
      "verify": "",
      "identity": "",
      "identity_raw": "",
@@ -660,36 +690,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "冬天奶茶要挖着吃才满足": {
+  "闺蜜谢帝这身女装是唠顺眼了": {
    "stats": {},
    "authors": [
     {
-     "name": "零壹壹陆",
+     "name": "蔡镇鸿",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你们男朋友也是这样喝奶茶的嘛.#情侣日常#茶百道#茶百道新品#茶百道推荐必喝#茶百道好大颗半熟芝士球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天天呐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "后面天天赔了我4杯奶茶！奶茶真的很香！ #冬天奶茶要挖着吃才满足 #暖冬食力局",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芊可Chiko",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奶茶正式进入“挖着吃”新喝法时代！#冬天奶茶要挖着吃才满足 #暖冬食力局",
+     "text": "和闺蜜从零到一百 freestyle 4 #谢帝 #蔡镇鸿 #闺蜜 #不烧心 #从零到一百",
      "likes": 0,
      "hot": 0
     }
@@ -842,12 +852,12 @@
      "hot": 0
     },
     {
-     "name": "Boss小陈（29-1号武汉林丹杯直播）",
+     "name": "周泽奇",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小叶和发哥竟来阻止桃田提款？！双方都是“毫无被动之人”！明天究竟会发生怎样的重大事件？让我们共同期待！！#林丹杯羽毛球公开赛 #武汉林丹杯 #抖音羽球人都在备战",
+     "text": "兄弟们下午两点 上大师课#武汉林丹杯 #林丹杯羽毛球公开赛 #桃田贤斗 #周泽奇 #桃田贤斗vs周泽奇",
      "likes": 0,
      "hot": 0
     },
@@ -865,63 +875,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "披荆斩棘2026滚烫家族名单": {
+  "青稚说希望和白小纯和好": {
    "stats": {},
    "authors": [
     {
-     "name": "披荆斩棘",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以梦为桨，勇赴远方，跨过风浪，终得滚烫勋章。恭喜#小沈阳 成为#披荆斩棘2026 年度滚烫X-FIRE！#披荆斩棘",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《披荆斩棘2026》成团夜，孙楠获X-leader，孙楠部落获领衔部落，X-fire：王传君、姚琛、阿云嘎、小沈阳#披荆斩棘2026滚烫家族诞生夜 #孙楠年度滚",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "斜刘海遮不住本萌官的心事": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "ABB",
+     "name": "会火大明星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "心中有江山的人岂能快意潇洒#红尘客栈#周杰伦dj #le#抖音玩法合伙人计划 #了不起的对口型玩法",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "按你胃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我mid学疯了就这样 在图书馆越呆越通透了 #本萌官驾到通通闪开 #学习哪有不疯的 #大学生 #07 #港中深",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Volim te.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Volim te.",
+     "text": "#青稚说想和白小纯和好 十分满意的点开了这期后会友期 #后会友期 #青稚 #白小纯 #纯稚",
      "likes": 0,
      "hot": 0
     }
@@ -959,338 +922,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "落叶漫天纷飞，孩子们在操场尽情玩耍。网友：好像看到了小时候的自己！",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "青稚说希望和白小纯和好": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "会火大明星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#青稚说想和白小纯和好 十分满意的点开了这期后会友期 #后会友期 #青稚 #白小纯 #纯稚",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵家驹巨人之路不止330公里": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "打过零工、卖过炸鸡排、跑过外卖，也曾遭遇刁难与失意……是什么让赵家驹一路跑到世界冠军领奖台？#媒体原创 #MeetNow对话",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰网体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赵家驹：15岁时和31岁时越野的感觉有什么不同？如何度过人生最困难时期？#赵家驹 #萨维 #巨人之旅",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "闺蜜谢帝这身女装是唠顺眼了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "蔡镇鸿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和闺蜜从零到一百 freestyle 4 #谢帝 #蔡镇鸿 #闺蜜 #不烧心 #从零到一百",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "BLG将对战HLE": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "越牛新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月31日报道，S16瑞士轮最后一轮抽签确认，其中：HLE vs BLG，胜者将晋级八强，败者止步十六强#S16瑞士轮 #英雄联盟全球总决赛 #LPL",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞蕉太狼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG瑞士轮生死战抽到HLE，败者将结束全球总决赛的比赛#BLG #HLE #英雄联盟S16",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL赛事君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【瑞士轮抽签】BLG浪费绝世好签，生死局对战HLE。#英雄联盟S16 #BLG对战HLE #英雄联盟音乐赛季 #联盟音乐季 #海斗音乐季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "LOL大锤赛事速看",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Bin vs Zeus！S16瑞士轮第五轮抽签仪式，BLG对战HLE！#英雄联盟S16 #HLE对战BLG #BLG #HLE",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026英雄联盟S16全球总决赛瑞士轮，HLE 2-0 战胜G2！下一轮BLG vs HLE。#英雄联盟 #HLE #BLG",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "太奶5短国最有腔调的黄毛家族": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "三角洲影之刃零黑伤实录爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "三角洲行动",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《三角洲行动》×《影之刃零》联动即将开启！ 赤刃出世，红线藏锋。武侠与战术将在阿萨拉的土地上擦出怎样的火花？ 全新联动即将开启！ #三角洲行动",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白泽（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全新联动刀皮”黑伤“震撼来袭 #三角洲行动 #白泽三角洲行动 #三角洲黑伤超前爆料 #三角洲行动新刀皮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昊天（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新刀皮买就对了！ #三角洲黑伤超前爆料 #昊天三角洲行动 #三角洲行动 #三角洲S12微光新赛季前瞻直播",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一霖成武将杯天霸夺冠最终希望": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "元帅路西法（利剑001）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我什么都不缺了：王从天降 暴露狰狞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王浩宇Whys",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "苏州超级武将杯S2 复活赛精彩回放 #苏州超级武将杯S2 #武将杯S2复活赛正式开战 #超级武将杯S2开赛 #三角洲主播赛联盟 #上抖音精选app看武将杯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林树（三角洲行动剪辑号）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小组赛遇挂、同组选手爆种 20 杀！ZYY 顶着地狱难度七局杀回决赛，解说席看麻了#苏州超级武将杯总决赛名单出炉 #苏州超级武将杯S2#超级武将杯S2开赛 #苏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "听完大麦哥关于“什么是爱情”": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "谢",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听完大麦哥关于“什么是爱情”的深度解读，内心久久无法平静。在即将三十的年纪，再回头审视自己过往的恋爱认知，才恍然发觉，从前的我，一直都误解了爱情真正的模样。这一",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天冷冷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听完大麦哥关于“什么是爱情”#混音 #慢慢离开你 #情绪 #大麦哥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Michael大麦哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "关于爱情，我终于想明白了几件事 爱情可以被解释，但永远无法被解释完。 经历过一些感情以后，我依然说不清爱情到底是什么。但关于独立、空间、付出、沟通、吸引力，以及",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵丽颖任金鸡创投主单元主评审": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10月30日（发布时间），#赵丽颖任金鸡电影创投大会主单元主评审 。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员#赵丽颖 正式解锁全新身份！与黄建新、#闫妮 共同担任#第八届金鸡电影创投大会 主单元主评审。（北青娱见）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第八届金鸡创投大会主单元主评审官宣！黄建新、闫妮、赵丽颖共同担任（编辑/晨琳 责编/黄岚 编审/贤云 琳煜）#厦门广电看金鸡 #金鸡创投大会 #黄建新 #闫妮 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "许飞为后会友期创作主题曲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐速报台",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#许飞在火车上创作出了后会友期主题曲 旅行才5天就创作出来了 #许飞 #马天宇 #娱乐评论大赏 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "匿名玩家导演王巍在抖音有问必答": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王巍导演",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陆小果让我回答问题，结果把我怼哭了！ 陆小果让我回答评论区的问题，结果他才是怼我最狠的那个……😭 这孩子真是我亲自配音的吗？ 和@抖音热点 一起有问必答。 下",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小张张",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王巍导演的反面角色反而更有魅力 #王巍导演 #蓝弧动画 #超兽武装 #洛洛历险记 #抖音精选app次元季",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "刘铮亮约会全程白忙活": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小城良方(专治 emo 版",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "永远误判下一个动作是什么。#小城良方 #肖战 #刘铮亮 #姜妍 #艾辰",
      "likes": 0,
      "hot": 0
     }
@@ -1342,22 +973,22 @@
      "hot": 0
     },
     {
-     "name": "提莫ok吗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "老婆们 都去试试这个珍珠圣女！！！！原创@Pafa Ai 指令:保留原图人物真实五官特征(提供自拍照)，生成珍珠圣女妆。清冷破碎感白天鹅少女，低饱和粉调氛围。佩",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "箔",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "？？🫠权威了又",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "提莫ok吗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "老婆们 都去试试这个珍珠圣女！！！！原创@Pafa Ai 指令:保留原图人物真实五官特征(提供自拍照)，生成珍珠圣女妆。清冷破碎感白天鹅少女，低饱和粉调氛围。佩",
      "likes": 0,
      "hot": 0
     },
@@ -1398,6 +1029,330 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "珠光圣女——万圣节直接出片了..不用会摆姿势 不用复杂打光，新手也能三秒掌握万圣节妆造 #万圣节#珠光圣女#AI写真#氛围感#圣女妆",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "BLG将对战HLE": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "越牛新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月31日报道，S16瑞士轮最后一轮抽签确认，其中：HLE vs BLG，胜者将晋级八强，败者止步十六强#S16瑞士轮 #英雄联盟全球总决赛 #LPL",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞demo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "S赛史上最爆抽签！众解说看BLG抽到HLE后彻底破防 #blg #hle #bin #zeus #英雄联盟s16",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "都市现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026英雄联盟S16全球总决赛瑞士轮，HLE 2-0 战胜G2！下一轮BLG vs HLE。#英雄联盟 #HLE #BLG",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LOL大锤赛事速看",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Bin vs Zeus！S16瑞士轮第五轮抽签仪式，BLG对战HLE！#英雄联盟S16 #HLE对战BLG #BLG #HLE",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "十月再见十一月你好": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "安婧ღএ᭄ꦿ꯭ꫛ❤️㣻罖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十一月，一路生花",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Lucky·",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十月再见 十一月你好#愿我们都能一路生花 #十一月加油 #剪映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@三月🍃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "下一站十一月 时光飞逝，十月已成为美好的回忆，十一月是全新的开始，也是满满的希望，浅浅喜，静静爱，深深懂得，淡淡释怀，惟愿此生岁月静好，生活如诗如画，幸福与你同",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我看邢",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天是十月的最后一天🍂 秋尽冬将来，愿所有不如意随风散去，十一月平安相伴，好运如常！#十月再见 #十一月你好",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "太奶5短国最有腔调的黄毛家族": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "赵丽颖任金鸡创投主单元主评审": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月30日（发布时间），#赵丽颖任金鸡电影创投大会主单元主评审 。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "演员#赵丽颖 正式解锁全新身份！与黄建新、#闫妮 共同担任#第八届金鸡电影创投大会 主单元主评审。（北青娱见）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门广电",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第八届金鸡创投大会主单元主评审官宣！黄建新、闫妮、赵丽颖共同担任（编辑/晨琳 责编/黄岚 编审/贤云 琳煜）#厦门广电看金鸡 #金鸡创投大会 #黄建新 #闫妮 ",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一霖成武将杯天霸夺冠最终希望": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "元帅路西法（利剑001）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我什么都不缺了：王从天降 暴露狰狞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王浩宇Whys",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "苏州超级武将杯S2 复活赛精彩回放 #苏州超级武将杯S2 #武将杯S2复活赛正式开战 #超级武将杯S2开赛 #三角洲主播赛联盟 #上抖音精选app看武将杯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林树（三角洲行动剪辑号）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小组赛遇挂、同组选手爆种 20 杀！ZYY 顶着地狱难度七局杀回决赛，解说席看麻了#苏州超级武将杯总决赛名单出炉 #苏州超级武将杯S2#超级武将杯S2开赛 #苏",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "十月就到此为止吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "扔掉LAN朋友",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太随便会错过 太认真会难过#你说我呆呆的 👀是#可啦啦椰岛电波黑#可啦啦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "呆呆酱的日常",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#校园青春回忆 #10月打卡计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厄",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "10月到此为止吧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鋀鋀.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十月 就到此为止吧.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿点🌈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十月 所有的不好就到此为止吧#十月底 #日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "半熟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十月到此为止吧#十月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "树荫下🐾💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十月 就到此为止吧 #10月底 #十月库存",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "披荆斩棘大合唱人间共鸣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "披荆斩棘",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "舞台终有落幕，热爱自有共鸣。故事的开始是一群人结伴闯关，在一次次舞台里彼此照亮。故事的结尾以歌声相拥，所有滚烫相逢，都化作这一曲《人间共鸣》。#披荆斩棘2026",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "初见Live",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "披荆斩棘毕业大合唱《人间共鸣》彩排版！ 群像无敌！听完没有眼眶干燥的可能~#王赫野#人间共鸣#披荆斩棘2026#王赫野windy巡回演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芒果TV",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "征途自有终点，心声永不落幕。故事的开篇是一群人踏过荆棘，在一次次磨合里彼此成全。故事的尾声同声合唱，所有并肩奔赴，都藏进这一曲《人间共鸣》。#披荆斩棘2026 ",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "听完大麦哥关于“什么是爱情”": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "谢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "听完大麦哥关于“什么是爱情”的深度解读，内心久久无法平静。在即将三十的年纪，再回头审视自己过往的恋爱认知，才恍然发觉，从前的我，一直都误解了爱情真正的模样。这一",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天冷冷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "听完大麦哥关于“什么是爱情”#混音 #慢慢离开你 #情绪 #大麦哥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Michael大麦哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "关于爱情，我终于想明白了几件事 爱情可以被解释，但永远无法被解释完。 经历过一些感情以后，我依然说不清爱情到底是什么。但关于独立、空间、付出、沟通、吸引力，以及",
      "likes": 0,
      "hot": 0
     }
@@ -1449,6 +1404,16 @@
      "hot": 0
     },
     {
+     "name": "不透",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我喜欢你 如果你也能够感应",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "你的心不该属于我吗",
      "verify": "",
      "identity": "",
@@ -1487,111 +1452,14 @@
      "text": "我喜欢你 如果你也能够感应",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我们都在爱情里少一点天分": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "学长的吻是薄荷味的",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里面少一点天分",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "Caspian.",
+     "name": "神秘用户",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "真的什么都没关系吗？",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "扶100个老奶奶过马路",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "心如止水、",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "她比我可爱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "haob",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "訣別",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里面少一点天份",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "任梓鑫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#我们都在爱情里少一点天份",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Good luck",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们都在爱情里少一点天分",
+     "text": "我喜欢你 如果你也能够感应",
      "likes": 0,
      "hot": 0
     }
@@ -1599,26 +1467,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我的季候风被TheWeeknd点赞了": {
+  "披荆斩棘2026滚烫家族名单": {
    "stats": {},
    "authors": [
     {
-     "name": "编号223（被theweeknd点赞版）",
-     "verify": "",
-     "identity": "",
+     "name": "披荆斩棘",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "当王菲的声音再次响起，我又想起了香港 香港是一场永远不会结束的旧梦#theweeknd #王菲 #季候风#Hongkong",
+     "text": "以梦为桨，勇赴远方，跨过风浪，终得滚烫勋章。恭喜#小沈阳 成为#披荆斩棘2026 年度滚烫X-FIRE！#披荆斩棘",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Ace.",
-     "verify": "",
-     "identity": "",
+     "name": "都市现场",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "季候风过境 香港要么一次 要么无数次 #theweeknd #季候风 #王菲 #HongKong #青年创作者成长计划",
+     "text": "《披荆斩棘2026》成团夜，孙楠获X-leader，孙楠部落获领衔部落，X-fire：王传君、姚琛、阿云嘎、小沈阳#披荆斩棘2026滚烫家族诞生夜 #孙楠年度滚",
      "likes": 0,
      "hot": 0
     }
@@ -1653,36 +1521,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "明道寻找上海拾金不昧好心人": {
+  "赵家驹巨人之路不止330公里": {
    "stats": {},
    "authors": [
     {
-     "name": "明 道",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这份感谢，得用一面锦旗好好说🙏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橙柿互动",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "明道发视频寻人，丢失的包包被人捡到交给警察 “全世界几乎不可能，只有在我们中国”#明道 #正能量 #寻人",
+     "text": "打过零工、卖过炸鸡排、跑过外卖，也曾遭遇刁难与失意……是什么让赵家驹一路跑到世界冠军领奖台？#媒体原创 #MeetNow对话",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "凤凰网体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "演员明道送锦旗感谢上海交警：装有全副身家的贵重包包丢了，15分钟就被找回，全世界只有我们中国能做到，希望当面感谢拾金不昧的好心人",
+     "text": "赵家驹：15岁时和31岁时越野的感觉有什么不同？如何度过人生最困难时期？#赵家驹 #萨维 #巨人之旅",
      "likes": 0,
      "hot": 0
     }
@@ -1690,36 +1548,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "热巴红毯蝴蝶可可妆跟练": {
+  "三角洲影之刃零黑伤实录爆料": {
    "stats": {},
    "authors": [
     {
-     "name": "气泡咕噜",
-     "verify": "",
-     "identity": "",
+     "name": "三角洲行动",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "迪丽热巴你的兵来了#热巴红毯蝴蝶可可妆跟练 #潮妆研究所 #仿妆 #迪丽热巴 #挑战复刻热巴红毯造型",
+     "text": "《三角洲行动》×《影之刃零》联动即将开启！ 赤刃出世，红线藏锋。武侠与战术将在阿萨拉的土地上擦出怎样的火花？ 全新联动即将开启！ #三角洲行动",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "溜溜鱼",
+     "name": "白泽（三角洲行动）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "淡颜变浓颜🫧热巴蝴蝶神女妆教震撼来袭！ #热巴红毯蝴蝶可可妆跟练 #潮妆研究所 #妆教 #权威建模妆 #超详细妆教",
+     "text": "全新联动刀皮”黑伤“震撼来袭 #三角洲行动 #白泽三角洲行动 #三角洲黑伤超前爆料 #三角洲行动新刀皮",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "化妆师Abao",
+     "name": "昊天（三角洲行动）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "普通人跟着迪丽热巴化红毯蝴蝶可可妆 化完气场全开！#热巴红毯蝴蝶可可妆跟练 #潮妆研究所#普通人化妆 #菱形脸妆容",
+     "text": "新刀皮买就对了！ #三角洲黑伤超前爆料 #昊天三角洲行动 #三角洲行动 #三角洲S12微光新赛季前瞻直播",
      "likes": 0,
      "hot": 0
     }
@@ -1727,86 +1585,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "自己就是千军万马名场面": {
+  "许飞为后会友期创作主题曲": {
    "stats": {},
    "authors": [
     {
-     "name": "ZoeZenHale（赵英雄）",
+     "name": "娱乐速报台",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "她@小洁月光 发了同款模版 这是我打仗时存留的纪录片😝#战斗 #战斗力爆表的女主 #女战士 #ai #战场真实记录",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叫我JY",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "名场面 #AI自己就是千军万马#AI#权力的游戏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小姨妈🎀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来吧都得死",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "八十岁激情老奶拿豆橛子狂抽十八岁纯情男大",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#镜头本没有温度",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "柠檬🍋心",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#抖音玩法达人挑战赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "谣谣57",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生活又何尝不是一人敌千军万马……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "标哥 标嫂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "孤身一人又如何 身后空无一人 虽千万人，吾往矣，一人是兵也是将，何惧栽？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贝贝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我一个人就是长城😎 #钢铁女战士 #自己就是千军万马 #短发女主角",
+     "text": "#许飞在火车上创作出了后会友期主题曲 旅行才5天就创作出来了 #许飞 #马天宇 #娱乐评论大赏 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
@@ -1814,150 +1602,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "也有春花秋月 也望相守不渝": {
+  "匿名玩家导演王巍在抖音有问必答": {
    "stats": {},
    "authors": [
     {
-     "name": "小则又沐风",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不渝 #变装",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天冷泠",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不渝 #隔岸 #混音 #情绪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天冷冷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不渝#隔岸 #古风 #情绪 #音乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "镜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不渝 @乌程 拍的我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大莹子哟🫧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“也有春花秋月，也望相守不渝。”#古典舞 #舞蹈 #原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "少吃会瘦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不逾 有点小改动哟💗 翻跳过最难的一个小舞蹈 跳了一百遍🫠 #隔岸 #享受独处时光 原创：@不会跳舞的文文",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "香草布丁！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不渝💖#手势舞教程 #隔岸 #一学就会系列 #手势舞 #dou上热门 （yc:@小十三 ）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "谭美萱｜有容舞蹈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也有春花秋月 也望相守不渝 . 有人捏着你的敏感隔岸观火 就注定有人愿意拥抱你的怯懦 有人愿意在看见你的狼狈和脆弱后 依旧喜欢你 此外 敏感的你、怯懦的你、勇敢",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "海绵宝宝把比奇堡搬来厦门了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "予发📷",
+     "name": "王巍导演",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "海绵宝宝带着他的比奇堡居民来啦 厦门你真的很懂浪漫 #厦门 #比奇堡 #海绵宝宝 #黄厝沙滩 #inmyfeeling",
+     "text": "陆小果让我回答问题，结果把我怼哭了！ 陆小果让我回答评论区的问题，结果他才是怼我最狠的那个……😭 这孩子真是我亲自配音的吗？ 和@抖音热点 一起有问必答。 下",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "-𝒀𝒖 𝑭𝒂",
+     "name": "小张张",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "厦门黄厝惊现比奇堡居民 大型团建现场！！ #厦门 #厦门旅游 #比奇堡居民 #inmyfeeling #黄厝沙滩",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "比冬天先来的是一顿热火锅": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "锅盖wer",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时常窥探别人的幸福 我总是在想 幸福什么时候才会轮到我#模仿 #东北男人 #比冬天先来的是一顿热火锅 #抖音生活火锅季 #这火锅大有学问 #了不起的中国火锅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小智不是小子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重庆居民楼老火锅，鱿鱼卷腰片好吃到直跺脚 #重庆火锅 #好好吃饭 #人间烟火 #心动打卡指南",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小九妹妹_（日更）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "粥底火锅~暖胃一下#比冬天先来的是一顿热火锅#抖音生活火锅季#了不起的中国火锅#深夜放毒#妈呀太香了",
+     "text": "王巍导演的反面角色反而更有魅力 #王巍导演 #蓝弧动画 #超兽武装 #洛洛历险记 #抖音精选app次元季",
      "likes": 0,
      "hot": 0
     }
@@ -1982,36 +1646,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秋天化个浪漫香颂可可妆": {
+  "斜刘海遮不住本萌官的心事": {
    "stats": {},
    "authors": [
     {
-     "name": "huhu壮壮",
+     "name": "ABB",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "终于化出了我理想中的香颂可可妆！好暖秋 #可可妆 #秋天化个浪漫香颂可可妆",
+     "text": "心中有江山的人岂能快意潇洒#红尘客栈#周杰伦dj #le#抖音玩法合伙人计划 #了不起的对口型玩法",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "翻新酱",
+     "name": "按你胃",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "好上镜！完全谁化谁美的程度～ #可可妆 #秋天化个浪漫香颂可可妆 #韩系上镜妆 #长中庭妆容 #潮妆研究所",
+     "text": "我mid学疯了就这样 在图书馆越呆越通透了 #本萌官驾到通通闪开 #学习哪有不疯的 #大学生 #07 #港中深",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "狗屁小鲜肉包",
+     "name": "Volim te.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "生巧可可吐司妆！回炉了一下（我恨曝光 #可可妆 #秋天化个浪漫香颂可可妆",
+     "text": "Volim te.",
      "likes": 0,
      "hot": 0
     }
@@ -2019,16 +1683,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "披荆斩棘这版当爱已成往事太戳心": {
+  "刘铮亮约会全程白忙活": {
    "stats": {},
    "authors": [
     {
-     "name": "芒果TV",
+     "name": "小城良方(专治 emo 版",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王传君、余文乐、张睿、王以太、米卡演绎《当爱已成往事》往事随风散，歌声却把故事留在了心里～#披荆斩棘 #披荆斩棘2026",
+     "text": "永远误判下一个动作是什么。#小城良方 #肖战 #刘铮亮 #姜妍 #艾辰",
      "likes": 0,
      "hot": 0
     }
@@ -2143,36 +1807,337 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "披荆斩棘大合唱人间共鸣": {
+  "海绵宝宝把比奇堡搬来厦门了": {
    "stats": {},
    "authors": [
     {
-     "name": "披荆斩棘",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "予发📷",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "舞台终有落幕，热爱自有共鸣。故事的开始是一群人结伴闯关，在一次次舞台里彼此照亮。故事的结尾以歌声相拥，所有滚烫相逢，都化作这一曲《人间共鸣》。#披荆斩棘2026",
+     "text": "海绵宝宝带着他的比奇堡居民来啦 厦门你真的很懂浪漫 #厦门 #比奇堡 #海绵宝宝 #黄厝沙滩 #inmyfeeling",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "初见Live",
+     "name": "-𝒀𝒖 𝑭𝒂",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "披荆斩棘毕业大合唱《人间共鸣》彩排版！ 群像无敌！听完没有眼眶干燥的可能~#王赫野#人间共鸣#披荆斩棘2026#王赫野windy巡回演唱会",
+     "text": "厦门黄厝惊现比奇堡居民 大型团建现场！！ #厦门 #厦门旅游 #比奇堡居民 #inmyfeeling #黄厝沙滩",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "热巴红毯蝴蝶可可妆跟练": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "气泡咕噜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "迪丽热巴你的兵来了#热巴红毯蝴蝶可可妆跟练 #潮妆研究所 #仿妆 #迪丽热巴 #挑战复刻热巴红毯造型",
      "likes": 0,
      "hot": 0
     },
+    {
+     "name": "溜溜鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "淡颜变浓颜🫧热巴蝴蝶神女妆教震撼来袭！ #热巴红毯蝴蝶可可妆跟练 #潮妆研究所 #妆教 #权威建模妆 #超详细妆教",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "化妆师Abao",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "普通人跟着迪丽热巴化红毯蝴蝶可可妆 化完气场全开！#热巴红毯蝴蝶可可妆跟练 #潮妆研究所#普通人化妆 #菱形脸妆容",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "比冬天先来的是一顿热火锅": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "锅盖wer",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时常窥探别人的幸福 我总是在想 幸福什么时候才会轮到我#模仿 #东北男人 #比冬天先来的是一顿热火锅 #抖音生活火锅季 #这火锅大有学问 #了不起的中国火锅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小智不是小子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "重庆居民楼老火锅，鱿鱼卷腰片好吃到直跺脚 #重庆火锅 #好好吃饭 #人间烟火 #心动打卡指南",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小九妹妹_（日更）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "粥底火锅~暖胃一下#比冬天先来的是一顿热火锅#抖音生活火锅季#了不起的中国火锅#深夜放毒#妈呀太香了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "明道寻找上海拾金不昧好心人": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "明 道",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这份感谢，得用一面锦旗好好说🙏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "橙柿互动",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "明道发视频寻人，丢失的包包被人捡到交给警察 “全世界几乎不可能，只有在我们中国”#明道 #正能量 #寻人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "演员明道送锦旗感谢上海交警：装有全副身家的贵重包包丢了，15分钟就被找回，全世界只有我们中国能做到，希望当面感谢拾金不昧的好心人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋天化个浪漫香颂可可妆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "huhu壮壮",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "终于化出了我理想中的香颂可可妆！好暖秋 #可可妆 #秋天化个浪漫香颂可可妆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "翻新酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好上镜！完全谁化谁美的程度～ #可可妆 #秋天化个浪漫香颂可可妆 #韩系上镜妆 #长中庭妆容 #潮妆研究所",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "狗屁小鲜肉包",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生巧可可吐司妆！回炉了一下（我恨曝光 #可可妆 #秋天化个浪漫香颂可可妆",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "披荆斩棘这版当爱已成往事太戳心": {
+   "stats": {},
+   "authors": [
     {
      "name": "芒果TV",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "征途自有终点，心声永不落幕。故事的开篇是一群人踏过荆棘，在一次次磨合里彼此成全。故事的尾声同声合唱，所有并肩奔赴，都藏进这一曲《人间共鸣》。#披荆斩棘2026 ",
+     "text": "王传君、余文乐、张睿、王以太、米卡演绎《当爱已成往事》往事随风散，歌声却把故事留在了心里～#披荆斩棘 #披荆斩棘2026",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "自己就是千军万马名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ZoeZenHale（赵英雄）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "她@小洁月光 发了同款模版 这是我打仗时存留的纪录片😝#战斗 #战斗力爆表的女主 #女战士 #ai #战场真实记录",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叫我JY",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "名场面 #AI自己就是千军万马#AI#权力的游戏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小姨妈🎀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来吧都得死",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "八十岁激情老奶拿豆橛子狂抽十八岁纯情男大",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#镜头本没有温度",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柠檬🍋心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#抖音玩法达人挑战赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "谣谣57",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生活又何尝不是一人敌千军万马……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "标哥 标嫂",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "孤身一人又如何 身后空无一人 虽千万人，吾往矣，一人是兵也是将，何惧栽？",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "贝贝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我一个人就是长城😎 #钢铁女战士 #自己就是千军万马 #短发女主角",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的季候风被TheWeeknd点赞了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "编号223（被theweeknd点赞版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当王菲的声音再次响起，我又想起了香港 香港是一场永远不会结束的旧梦#theweeknd #王菲 #季候风#Hongkong",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Ace.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "季候风过境 香港要么一次 要么无数次 #theweeknd #季候风 #王菲 #HongKong #青年创作者成长计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "染完不烧心的冰染": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "撩发瞬间解锁红毯变装": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "✨蟠桃园",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这转场绝了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "💞锦茵💞~不要连赞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这转场真的绝了#红毯女神 #一出场就惊艳所有人 #背头转场 #抖音ai创作 #上热门@抖加🔥上热门🔥dou+🔥热点宝 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
