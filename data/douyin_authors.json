@@ -1,11 +1,68 @@
 {
- "updated_at": "2026-11-03 01:43",
+ "updated_at": "2026-11-03 02:40",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 48,
  "ok_count": 43,
  "lexicon_count": 0,
  "topics": {
+  "雷霆将退役威少0号球衣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#雷霆官宣将退役威少球衣 】俄城永远的0号！根据知名记者Shams报道，雷霆将在北京时间2月8日对阵尼克斯的比赛中，退役拉塞尔-威斯布鲁克的0号球衣。11载俄",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "高小艾的篮球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雷霆确认退役威少球衣！ #威少 #亚历山大 #雷霆 #高小艾的篮球频道",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "越牛新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雷霆官宣将退役威少球衣，威少得知后难掩激动流下泪水#威少 #雷霆 #普雷斯蒂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山东体育休闲频道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雷霆官宣将退役威少球衣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "威斯布鲁克RussWestbrook",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "HOV with my guy.#whynot #威斯布鲁克",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "多海域连发航行警告": {
    "stats": {},
    "authors": [
@@ -50,12 +107,12 @@
      "hot": 0
     },
     {
-     "name": "四川观察",
+     "name": "央视网快看",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "航行警告！据中国海事局网站消息，宁波海事局发布航行警告，11月3日8时至18时，#东海海域军事演习 ，禁止驶入。",
+     "text": "渤海到黄海部分海域执行军事任务，禁止驶入",
      "likes": 0,
      "hot": 0
     }
@@ -63,73 +120,83 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "雷霆将退役威少0号球衣": {
+  "开源开放 共建共享": {
    "stats": {},
    "authors": [
     {
-     "name": "NBA",
+     "name": "中国日报网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "开源开放，共建共享。2026年世界互联网大会乌镇峰会将于11月2日至5日在浙江乌镇举行。在人工智能乌镇对话现场共探开源创新，到互联网之光博览会、乌镇世界互联网科",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 提到#开源 ，你是不是也很好奇？你首先想到了什么？在乌镇，开源被放了一座三层楼的体验馆——能看、能玩、还能和大模型聊两句。2026年#世界互联网大会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "国际在线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一个空箱子 一块屏幕 ——寻找网络空间命运共同体的最小单元 宏大的网络空间命运共同体，正在微小的联结中变得具体。从哈萨克斯坦的跨境直播间到老挝的空中课堂，从一只",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "丁俊晖6:5战胜张安达": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视台球",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026斯诺克国锦赛三轮，丁俊晖6:5战胜张安达，晋级16强，赛后称对手运气差！#丁俊晖 #张安达 #斯诺克 #斯诺克国锦赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "决胜局一分绝杀晋级16强 丁俊晖：不想防守了没有时间想冠军荒 斯诺克南京国锦赛，丁俊晖在决胜局落后的情况下一分绝杀张安达。赛后采访中，面对“冠军荒”、“决胜局赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【#雷霆官宣将退役威少球衣 】俄城永远的0号！根据知名记者Shams报道，雷霆将在北京时间2月8日对阵尼克斯的比赛中，退役拉塞尔-威斯布鲁克的0号球衣。11载俄",
+     "text": "决胜局清彩杆杆精准，丁俊晖拒绝逆转，6比5力克张安达晋级国锦赛16强 #丁俊晖决胜局1分逆转张安达 #丁俊晖国锦赛晋级16强 #丁俊晖6比5张安达",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "高小艾的篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雷霆确认退役威少球衣！ #威少 #亚历山大 #雷霆 #高小艾的篮球频道",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "越牛新闻",
-     "verify": "红V",
+     "name": "新闻夜航",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "雷霆官宣将退役威少球衣，威少得知后难掩激动流下泪水#威少 #雷霆 #普雷斯蒂",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吃炸鸡🐤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "拉塞尔·威斯布鲁克，1988年生于加州长滩，身高191cm司职控卫，外号威少、神龟。靠极致自律和韧劲从普通球员突围，2008年首轮第4顺位被雷霆选中，和杜兰特、",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "威斯布鲁克RussWestbrook",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "HOV with my guy.#whynot #威斯布鲁克",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "长征路上学党史": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 【#六盘山上诵长征经典 】1935年10月，中央红军翻越长征最后一座高山——六盘山，毛泽东在此写下《清平乐·六盘山》，“不到长城非好汉”的豪情穿越时",
+     "text": "11月2日（发布）。1分极限翻盘，丁俊晖6-5战胜张安达，晋级国锦赛16强，赛后回应“冠军荒”：没时间想这些，就是想尽力去打好每一场球。",
      "likes": 0,
      "hot": 0
     }
@@ -147,16 +214,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "多站WTT赛事无缘男单四强 新华社评国乒男队之困 #新华社评国乒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "多站WTT赛事无缘男单四强，新华社评国乒男队之困：一场失利不足以定义一支队伍，需要警惕的是将惜败归结为偶然因素。蒙彼利埃赛场敲响的警钟，已暴露出队伍亟待补齐的短",
      "likes": 0,
      "hot": 0
     },
@@ -181,12 +238,22 @@
      "hot": 0
     },
     {
-     "name": "都市现场",
+     "name": "逐浪新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新华社追问：国乒男队怎么了，目前为止今年WTT高级别赛事仅王楚钦夺一冠，多站赛事国乒男队连八强 四强都没突破，“王楚钦不能输”成全队获胜前提，主力缺阵 梯队能力",
+     "text": "多站WTT赛事无缘男单四强，新华社评国乒男队之困：一场失利不足以定义一支队伍，需要警惕的是将惜败归结为偶然因素。蒙彼利埃赛场敲响的警钟，已暴露出队伍亟待补齐的短",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社追问：国乒男队怎么了？ 北京时间11月2日凌晨，2026年世界乒乓球职业大联盟（WTT）蒙彼利埃冠军赛收官，韩国选手张禹珍首度斩获WTT冠军赛男单冠军，这",
      "likes": 0,
      "hot": 0
     }
@@ -208,6 +275,16 @@
      "hot": 0
     },
     {
+     "name": "重庆交通广播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赵心童晋级16强#南京斯诺克国际锦标赛#争黑绝杀#戏剧性获胜#斯诺克",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "央视台球",
      "verify": "蓝V",
      "identity": "媒体人",
@@ -218,22 +295,22 @@
      "hot": 0
     },
     {
+     "name": "世界斯诺克巡回赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "\"等待一个奇迹\"🙏🏻 来听听赵心童谈最后争黑大战的抓马时刻 #斯诺克 #台球 #赵心童",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "台球不二心",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "决胜局打得惊心动魄！赵心童和克雷吉连续惊险操作，争黑球竟摔袋 #斯诺克 #赵心童 #山姆克雷吉 #争黑球 #绝杀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏体育休闲频道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“一杆制胜”风格，引领全新斯诺克时代#世界斯诺克巡回赛国际锦标赛#赵心童#南京",
      "likes": 0,
      "hot": 0
     }
@@ -278,46 +355,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "丁俊晖6:5战胜张安达": {
+  "公牛vs76人": {
    "stats": {},
    "authors": [
     {
-     "name": "央视台球",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026斯诺克国锦赛三轮，丁俊晖6:5战胜张安达，晋级16强，赛后称对手运气差！#丁俊晖 #张安达 #斯诺克 #斯诺克国锦赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月2日（发布）。1分极限翻盘，丁俊晖6-5战胜张安达，晋级国锦赛16强，赛后回应“冠军荒”：没时间想这些，就是想尽力去打好每一场球。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
+     "name": "NBA",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "决胜局清彩杆杆精准，丁俊晖拒绝逆转，6比5力克张安达晋级国锦赛16强 #丁俊晖决胜局1分逆转张安达 #丁俊晖国锦赛晋级16强 #丁俊晖6比5张安达",
+     "text": "【VJ连续暴扣】你小子净吃饼了！迪安-韦德精彩防守送VJ滞空暴扣，随后76人再现快攻大队时刻，老詹精准长传再找到VJ，VJ又一次上演炸裂暴扣！#公牛vs76人 ",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "斯诺克小星",
+     "name": "Believer",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "能把丁俊晖熬睡的也只有张安达，丁俊晖双赛点绝杀，顶级清彩！ #丁俊晖 #张安达",
+     "text": "Goat🐐伟大无需多言 #我在抖音聊篮球 #76人杯赛主胜尼克斯 #詹姆斯关键补篮 #NBA",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "冠不串🏀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "goat！老骥伏枥 志在千里 老詹13分10助攻0失误 76人逆转步行者#詹姆斯#詹姆斯13分10助攻#76人逆转步行者#我在抖音聊篮球#76人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "给我一个支点",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "明天76人回到主场，面对东部弱鸡公牛，大帝和勒布朗，杰伦布朗全部轮休，后天背靠背五星客场干活塞，要复仇，为尊严而战，告诉活塞，谁才是东部第一，#明日nba赛事",
      "likes": 0,
      "hot": 0
     }
@@ -325,16 +402,21 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "8个问题看懂美国中期选举": {
+  "冬天一秒出门的百搭外套": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "特朗普撒钱豪赌中期选举": {
    "stats": {},
    "authors": [
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "林姐财经",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "八个问题带你看懂美国中期选举（记者：柳丝；视频：董亚雷、杨依然）#媒体原创 #媒体精选计划",
+     "text": "中期选举终极解读，川普撒钱豪赌？ #真财实学计划 #燃起来了大国重器",
      "likes": 0,
      "hot": 0
     },
@@ -344,17 +426,7 @@
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#凤凰观察 美中期选举倒计时 共和党能否保住国会控制权 成最核心看点#美国 #中期选举",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "褶皱里的民意｜中期选举倒计时1天：快加不起油的美国人最关心什么？ 美国当地时间11月3日，将举行中期选举，各州选战进入最后冲刺阶段。特朗普重返白宫两年，如今美国",
+     "text": "#一虎一席谈 美国中期选举前，特朗普许诺如果共和党赢下国会两院，将给每位美国成年选民发放5000美元。赵修业算账：仅够美一线城市一月房租，作用有限。方恩格泼冷水",
      "likes": 0,
      "hot": 0
     },
@@ -369,74 +441,22 @@
      "hot": 0
     },
     {
-     "name": "水均益",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最近，特朗普很烦。#益往直前 #大有学问 #抖音创作者计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "冬天一秒出门的百搭外套": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "武汉武昌一小区发生爆燃2死1伤": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "看看新闻Knews",
+     "name": "澎湃新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月2日23时50分许 #武汉武昌一小区发生爆燃2死1伤 调查、处置正在进行",
+     "text": "褶皱里的民意｜中期选举倒计时1天：快加不起油的美国人最关心什么？ 美国当地时间11月3日，将举行中期选举，各州选战进入最后冲刺阶段。特朗普重返白宫两年，如今美国",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "纵览新闻",
+     "name": "参考消息",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月3日，武汉市公安局武昌区分局发布警情通报： 11月2日23时50分许，武昌区一小区发生爆燃，造成2人死亡，1人受伤(无生命危险)。公安、消防救援、120急",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "山西日报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "武汉市武昌区一小区爆燃致2死1伤 #湖北武汉 #突发 #爆炸事故",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "武汉一小区发生爆燃，造成2人死亡1人受伤。#突发 #火灾 #湖北武汉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AHTV第一时间",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "武汉市公安局武昌区分局11月3日通报：11月2日23时50分许，武昌区一小区发生爆燃，造成2人死亡，1人受伤（无生命危险）。#爆燃 #突发新闻",
+     "text": "离中期选举不到48小时民主党突然出“叛徒” 特朗普大赞：这才是真勇 我要打给她致谢 希望她能加入共和党#美国 #特朗普 #勇敢 #中期选举 #叛徒",
      "likes": 0,
      "hot": 0
     }
@@ -461,6 +481,16 @@
      "text": "有人骗我说北小河比奥森好看，结果发现… 确实好看😭 #北京拍照打卡地 #创作者中心 #创作灵感 #我的北京秋天封神时刻 #好好出门过个秋天 @京东MALL(成",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "圈宁CeoxNim",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好像那是一个秋天 夕阳西下～#校园生活 #银杏黄了 #好好出门过个秋天 #我的北京秋天封神时刻 #全国赏秋进度条",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -480,22 +510,42 @@
      "hot": 0
     },
     {
-     "name": "纵览新闻",
+     "name": "央广网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "武汉一高校发布通报：一名在校女生将其初中同学（男、校外人员）以男扮女装的方式带入自己宿舍，学校已对涉事学生作出相应处理(极目新闻)",
+     "text": "#媒体原创 武汉工商学院通报女生宿舍现男扮女装者：已对涉事学生作出相应处理",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "环视频",
+     "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“女生将其初中同学（男、校外人员）男扮女装带入宿舍 ”武汉工商学院通报：已对涉事学生作出处理",
+     "text": "武汉一高校通报在校女生将校外人员男扮女装带进宿舍：已对涉事学生作出相应处理",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "武汉一高校发布通报：一名在校女生将其初中同学（男、校外人员）以男扮女装的方式带入自己宿舍，学校已对涉事学生作出相应处理",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月3日，武汉一高校通报：一名在校女生将其初中同学（男、校外人员）以男扮女装的方式带入自己宿舍，学校已对涉事学生作出相应处理（编辑：李李）",
      "likes": 0,
      "hot": 0
     }
@@ -557,12 +607,12 @@
      "hot": 0
     },
     {
-     "name": "七王爷",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "第一时间",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "黄金重回3900美元上方，还会跌吗？#黄金重回3900美元 ##黄金会不会继续下跌 #七王爷",
+     "text": "金价降了！买金子的时机到了吗？ #金价 #现在是买黄金的时机吗 #金价行情 #便民信息 #金价还会再跌吗",
      "likes": 0,
      "hot": 0
     },
@@ -575,71 +625,41 @@
      "text": "黄金跌破关键点位，短期不容乐观，关注两个观察点：利率决议，避险方向#零距离看财经 #财经 #2026经济风向标 #爽姐讲财 @爽姐讲宏观",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金价跌回一年前，“30g以下全部断货” 10月30日，国际金价接连失守4000美元/盎司、3900美元/盎司两大关口。伦敦现货黄金收报3875美元/盎司，单日下",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "知名导演江小鱼因病离世": {
+  "后会友期为什么会火": {
    "stats": {},
    "authors": [
     {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "橘子娱乐.",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "知名导演、乐评人江小鱼（本名江熙）于11月1日猝然离世，享年56岁，圈内好友纷纷发文悼念。#精选主播说 #媒体精选计划",
+     "text": "啊啊啊啊这就是🥭想要的大结果吗厉娜！#杨幂 #沈月 #厉娜 #后会友期 #后会友期为什么会火 @DOU+上热门",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "这鲤有点意思",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月2日，据浪涨新闻，导演、乐评人江小鱼（本名江熙）于2026年11月1日离世，享年56岁。 消息由策划人王菲菲、歌手周艳泓、作家张桨、北大教授孔庆东等多位圈",
+     "text": "震撼首发后会友期的大爆，是因为友情比爱情纯粹#后会友期 #再见爱人 #友情 #爱情 #纯粹",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "会火大明星",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "知名导演、乐评人江小鱼猝然离世 年仅56岁。 长期受高血压困扰 其上个月刚送别母亲。 江小鱼身兼多重身份 是崔健20多年的挚友，孔庆东、曾子航等圈内好友纷纷悼念",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "安徽商报",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#导演江小鱼突然离世 年仅56岁，生前最后动态是10月9日《祭慈母文》，母子仅隔20余天相继离世",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大众新闻•半岛都市报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "导演江小鱼去世，年仅56岁（来源 逐浪新闻 编辑 林靓）",
+     "text": "想出打包送他们上综艺的可以去单干赚钱了…#纯稚#后会友期#pel",
      "likes": 0,
      "hot": 0
     }
@@ -689,204 +709,19 @@
    "authors": [],
    "lexicon": []
   },
-  "后会友期为什么会火": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "橘子娱乐.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啊啊啊啊这就是🥭想要的大结果吗厉娜！#杨幂 #沈月 #厉娜 #后会友期 #后会友期为什么会火 @DOU+上热门",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "这鲤有点意思",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "震撼首发后会友期的大爆，是因为友情比爱情纯粹#后会友期 #再见爱人 #友情 #爱情 #纯粹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "会火大明星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "想出打包送他们上综艺的可以去单干赚钱了…#纯稚#后会友期#pel",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "公牛vs76人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "NBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【VJ连续暴扣】你小子净吃饼了！迪安-韦德精彩防守送VJ滞空暴扣，随后76人再现快攻大队时刻，老詹精准长传再找到VJ，VJ又一次上演炸裂暴扣！#公牛vs76人 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张百乔小城良方烧伤妆太真了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "张百乔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "每个人都有追求幸福的权利 也都该有敢于 审视幸福的勇气 目标不是结婚 而是真切的感受到幸福 所以祝宫雪和贾鑫 新婚快乐 每天都快乐",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "美国中期选举今天举行": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国中期选举11月3日正式开选",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国中期选举将于今日举行！5000万人提前投票创纪录 #24时区 #中期选举",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "八个问题带你看懂美国中期选举（记者：柳丝；视频：董亚雷、杨依然）#媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#凤凰观察 美中期选举倒计时 共和党能否保住国会控制权 成最核心看点#美国 #中期选举",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "离中期选举不到48小时民主党突然出“叛徒” 特朗普大赞：这才是真勇 我要打给她致谢 希望她能加入共和党#美国 #特朗普 #勇敢 #中期选举 #叛徒",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "请不要一时兴起闯入我的世界里": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "𝔃𝓮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请不要一时兴起 闯入我的世界里#歌曲请不要一时兴起 #冰岛 #冰岛黑沙滩 #inmyfeeling #青年创作者计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "何宇浩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“请不要一时兴起闯入我的世界里”#歌曲请不要一时兴起",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Hana.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请不要一时兴起 闯入我的世界里#歌曲请不要一时兴起",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "墨墨唧唧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请不要一时兴起闯入我的世界里 然后再忽冷忽热忽远忽近再决绝离去 怕你对我没了新鲜感 而我却对你有了依赖感 #情绪零碎 #微醺吧台 #情绪反扑允许自己枯萎几天 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Dll",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请不要一时兴起闯入我的世界里 然后再忽冷忽热忽远忽近再决绝离去 #歌曲请不要一时兴起",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三姨.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请不要一时兴起闯入我的世界 怕你对我没了新鲜感 而我却对你有了依赖感#歌曲请不要一时兴起 …",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "小猫踏步舞": {
    "stats": {},
    "authors": [
+    {
+     "name": "你有我就够了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嗷！#宿舍搞笑日常 #小猫摇手势舞#鑫鹏达技工学校",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "泥克",
      "verify": "",
@@ -976,14 +811,78 @@
      "text": "喵喵喵🐱可爱到爆炸#小猫踏步 #情侣 #咪这个萌",
      "likes": 0,
      "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "8个问题看懂美国中期选举": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "八个问题带你看懂美国中期选举（记者：柳丝；视频：董亚雷、杨依然）#媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
     },
     {
-     "name": "韦湘橡【家乡印象】",
+     "name": "凤凰卫视",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#喵喵喵#手势舞 #节奏天国 #小猫踏步舞 #韦湘橡",
+     "text": "#凤凰观察 美中期选举倒计时 共和党能否保住国会控制权 成最核心看点#美国 #中期选举",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "澎湃新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "褶皱里的民意｜中期选举倒计时1天：快加不起油的美国人最关心什么？ 美国当地时间11月3日，将举行中期选举，各州选战进入最后冲刺阶段。特朗普重返白宫两年，如今美国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "水均益",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最近，特朗普很烦。#益往直前 #大有学问 #抖音创作者计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国中期选举下周登场，佛罗里达大学机构公布的数据显示，目前已有创纪录的4790万名美国人提前投票；关键摇摆州的投票参与度大幅激增，且民主党选民提前投票人数多过共",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "张百乔小城良方烧伤妆太真了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张百乔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "每个人都有追求幸福的权利 也都该有敢于 审视幸福的勇气 目标不是结婚 而是真切的感受到幸福 所以祝宫雪和贾鑫 新婚快乐 每天都快乐",
      "likes": 0,
      "hot": 0
     }
@@ -1098,6 +997,147 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "美国中期选举今天举行": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国中期选举11月3日正式开选",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美国中期选举今天将正式开选 （编辑：小雪）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "八个问题带你看懂美国中期选举（记者：柳丝；视频：董亚雷、杨依然）#媒体原创 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#凤凰观察 美中期选举倒计时 共和党能否保住国会控制权 成最核心看点#美国 #中期选举",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王冰汝",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "选前最后一搏！特朗普能力阻“蓝色海啸”吗 #中期选举 #美国 #国会 #白宫",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "马天宇再唱该死的温柔梦回青春": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "星语live",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马天宇二十周年见面会《该死的温柔》现场直拍“你这该死的温柔 让我心在痛泪在流” #该死的温柔 #马天宇 #马天宇二十周年见面会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "请不要一时兴起闯入我的世界里": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "𝔃𝓮",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请不要一时兴起 闯入我的世界里#歌曲请不要一时兴起 #冰岛 #冰岛黑沙滩 #inmyfeeling #青年创作者计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "何宇浩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“请不要一时兴起闯入我的世界里”#歌曲请不要一时兴起",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Hana.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请不要一时兴起 闯入我的世界里#歌曲请不要一时兴起",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "墨墨唧唧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请不要一时兴起闯入我的世界里 然后再忽冷忽热忽远忽近再决绝离去 怕你对我没了新鲜感 而我却对你有了依赖感 #情绪零碎 #微醺吧台 #情绪反扑允许自己枯萎几天 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Dll",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请不要一时兴起闯入我的世界里 然后再忽冷忽热忽远忽近再决绝离去 #歌曲请不要一时兴起",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三姨.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请不要一时兴起闯入我的世界 怕你对我没了新鲜感 而我却对你有了依赖感#歌曲请不要一时兴起 …",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "考古许飞全是笑料": {
    "stats": {},
    "authors": [
@@ -1125,23 +1165,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "我给赵露思化的柔光可可妆～太美啦！ #可可妆#柔光可可妆#赵露思柔光可可妆#华天崎#华天崎工作室",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "马天宇再唱该死的温柔梦回青春": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "星语live",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马天宇二十周年见面会《该死的温柔》现场直拍“你这该死的温柔 让我心在痛泪在流” #该死的温柔 #马天宇 #马天宇二十周年见面会",
      "likes": 0,
      "hot": 0
     }
@@ -1203,207 +1226,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "影之刃零里的中式美学": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "十月禾木",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "发现了游戏里的中式美学 #影之刃零 #东方美学",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老夏YAR",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一幕，只有国人能懂？ #影之刃零 #影之刃零创作激励 #影之刃零混剪 #抖音精选app影之刃零 #ps5",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不坠于尘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终于有游戏把这种中式审美做出来了 #影之刃零 #steam游戏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "特朗普撒钱豪赌中期选举": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "林姐财经",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中期选举终极解读，川普撒钱豪赌？ #真财实学计划 #燃起来了大国重器",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#一虎一席谈 美国中期选举前，特朗普许诺如果共和党赢下国会两院，将给每位美国成年选民发放5000美元。赵修业算账：仅够美一线城市一月房租，作用有限。方恩格泼冷水",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普回应“离中期选举不到48小时民主党突然出叛徒”：这事很重大，这才是真正的勇敢，我要给她打电话感谢，非常希望她能加入共和党",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王冰汝",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美国中期选举杀疯了：特朗普怒怼记者，两个“沙利文”把选战打进 #中期选举 #美国#白宫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 美国中期选举临近，总统特朗普卖力拉票，为何可能反而帮了民主党？#特朗普卖力拉票可能帮了民主党 #环球交叉点 #精选主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "天空之外的权威我后知后觉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "饭饭麻麻菜菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一举就是10年！ #父女 #天空之外 #季风吹向大海到天空之外",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吴艳妮Jennie",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "向往大海🌊 #吴艳妮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "安静.公主（11月18号晚上8点生日）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁离开了地面 想飞的更遥远",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "胧井",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁离开了地面 想飞的更遥远 说向往大海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叶子💯🌾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没看综艺不评价，只是单纯觉得： 成年人最好的减负方式就是清理无效社交 不用勉强自己和三观不合的人交往 不必讨好持续消耗你的关系 把时间留给相处舒服的人 剩下的关",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "；",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王子璇 以后都走花路吧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "卫子怡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁离开了地面 想飞得更遥远 说向往大海",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晏新胜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁离开了地面 想飞的更遥远 说向往大海 #大海 #转场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我是小单",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "看完《后会友期》，原来把朋友看的重也会痛苦，可能友情比爱情更让人难过#关于友情 #girlstalk #超越爱情的友情 #后会友期 #女性力量",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝑵𝑰𝑨𝑵.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "漫长岁月囚禁，隔着魂族的黑暗牢笼，我无数次怕等来的只有噩耗，直到此刻，父亲站在我面前，一路走来，异火焚身，万战加身，旁人只看见那个炎帝萧炎的锋芒，却不知道我所有",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "全成都都在偶遇吴彦祖": {
    "stats": {},
    "authors": [
@@ -1441,6 +1263,212 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "影之刃零里的中式美学": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "十月禾木",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "发现了游戏里的中式美学 #影之刃零 #东方美学",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老夏YAR",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一幕，只有国人能懂？ #影之刃零 #影之刃零创作激励 #影之刃零混剪 #抖音精选app影之刃零 #ps5",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不坠于尘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "终于有游戏把这种中式审美做出来了 #影之刃零 #steam游戏",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄景瑜进行曲我先用了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ppppp",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟一个黄sir的专属bgm#黄景瑜进行曲 #九寨沟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "古德猫倪💛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄景瑜进行曲。#黄景瑜 #黄景瑜专属bgm #川西的秋天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "钟远不远",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来一首黄sir进行曲🎵 翻出照片 必须follow #黄景瑜进行曲 #川西九寨沟 #户外穿搭 #九寨沟#雪山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "饼叭🍪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟一个黄sir专属bgm #黄景瑜 #秋天的川西很美 #黄景瑜进行曲 #毕棚沟 #川西美景",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好想睡觉💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟一个黄sir的专属bgm.又想去九寨沟了#现在就出发 #黄景瑜 #跟着黄景瑜打卡九寨沟秋景 #九寨沟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "☆海绵宝宝★",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "翻遍相册我也要陪一个#黄景瑜进行曲 #黄景瑜#九寨沟#分享我的旅行体验",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "网约车",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟一个黄sir的专属bgm#黄景瑜 @王以澈 #稻城亚丁 #穿搭 #时尚碎碎念 #inmyfeelings",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人字拖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄sir的专属bgm 翻遍相册也要跟#黄景瑜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Zik-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄sir的专属bgm 翻遍相册也要跟 #黄景瑜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五月·",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄sir专属bgm！#翻照片也要用这个bgm #黄景瑜 #黄sir #九寨沟的蓝与绿",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "央行将上调外汇存款准备金率": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国人民银行决定上调金融机构外汇存款准备金率",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#中国人民银行决定上调金融机构外汇存款准备金率",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "为加强金融机构外汇流动性管理，中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4%提高到6%。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "为加强金融机构外汇流动性管理，中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4%提高到6%。（",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "三角洲S12微光新赛季前瞻": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "嫁金钗皇帝演我对我心肝的溺爱": {
    "stats": {},
    "authors": [
@@ -1458,26 +1486,93 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "三角洲S12微光新赛季前瞻": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "大麦哥向抖音网友征集选题": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "玉簟秋全家福太好哭了": {
+  "拆眼底的情感测试盲盒别眨眼了": {
    "stats": {},
    "authors": [
     {
-     "name": "吕小雨",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "滕先生",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "平行时空的他们一定过得很幸福。#玉簟秋",
+     "text": "正视自己，正视未来，我爱着不就行了吗！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "执逾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "？？？啥阴",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "念旧^",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "。。。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "落子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "落子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🪵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🪵",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "坏星人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "坏星人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "单侧人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "单侧人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "青稚完全是分房天才来的吧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抓马娱乐圈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "青稚：管你们这啊那的 我得让白小纯住上单间 #青稚 #白小纯 #后会友期 #花少2 #分房",
      "likes": 0,
      "hot": 0
     }
@@ -1957,16 +2052,21 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "青稚完全是分房天才来的吧": {
+  "徐若晗演的叶平君太好哭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "白小纯傲娇人设不倒": {
    "stats": {},
    "authors": [
     {
-     "name": "抓马娱乐圈",
+     "name": "抓马娱乐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "青稚：管你们这啊那的 我得让白小纯住上单间 #青稚 #白小纯 #后会友期 #花少2 #分房",
+     "text": "嘴硬的人心软是大忌啊 #纯稚 #白小纯 #青稚 #后会友期 #pel",
      "likes": 0,
      "hot": 0
     }
@@ -1974,76 +2074,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "拆眼底的情感测试盲盒别眨眼了": {
+  "玉簟秋全家福太好哭了": {
    "stats": {},
    "authors": [
     {
-     "name": "滕先生",
-     "verify": "",
-     "identity": "",
+     "name": "吕小雨",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "正视自己，正视未来，我爱着不就行了吗！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "执逾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "？？？啥阴",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "念旧^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "。。。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "落子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "落子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🪵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🪵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "坏星人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "坏星人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "单侧人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "单侧人",
+     "text": "平行时空的他们一定过得很幸福。#玉簟秋",
      "likes": 0,
      "hot": 0
     }
@@ -2051,63 +2091,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我在泰国偶遇现发团": {
+  "天空之外的权威我后知后觉": {
    "stats": {},
    "authors": [
     {
-     "name": "数学国公主Adam",
+     "name": "饭饭麻麻菜菜",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "真情#范丞丞 #现在就出发 #清迈",
+     "text": "这一举就是10年！ #父女 #天空之外 #季风吹向大海到天空之外",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "娱乐全明星",
-     "verify": "",
-     "identity": "",
+     "name": "吴艳妮Jennie",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#现在就出发 泰国清迈路透，完全是完颜团来的#范丞丞 #王安宇 #王楚然 #胡先煦 黄景瑜白敬亭沈腾",
+     "text": "向往大海🌊 #吴艳妮",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "CHIPIT_",
+     "name": "安静.公主（11月18号晚上8点生日）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "清迈到达 录制开心呀#机场路透 #沈腾 #现在就出发 #泰国",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "后会友期大结局爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "芋言家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间很残忍，但幸好纯稚还来得及 #后会友期 #飞雪 #纯稚 #许飞厉娜 #白小纯青稚",
+     "text": "谁离开了地面 想飞的更遥远",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "观海新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "胧井",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#曝厉娜许飞都选择不和好 《#后会友期 》大结局爆料称，厉娜与许飞双双选择不下车不和好，现场导演组集体落泪。两人说出“感谢我的人生你曾出现过”后分道扬镳。",
+     "text": "谁离开了地面 想飞的更遥远 说向往大海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叶子💯🌾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没看综艺不评价，只是单纯觉得： 成年人最好的减负方式就是清理无效社交 不用勉强自己和三观不合的人交往 不必讨好持续消耗你的关系 把时间留给相处舒服的人 剩下的关",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "；",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#王子璇 以后都走花路吧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "卫子怡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁离开了地面 想飞得更遥远 说向往大海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晏新胜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁离开了地面 想飞的更遥远 说向往大海 #大海 #转场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我是小单",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看完《后会友期》，原来把朋友看的重也会痛苦，可能友情比爱情更让人难过#关于友情 #girlstalk #超越爱情的友情 #后会友期 #女性力量",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝑵𝑰𝑨𝑵.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "漫长岁月囚禁，隔着魂族的黑暗牢笼，我无数次怕等来的只有噩耗，直到此刻，父亲站在我面前，一路走来，异火焚身，万战加身，旁人只看见那个炎帝萧炎的锋芒，却不知道我所有",
      "likes": 0,
      "hot": 0
     }
@@ -2125,6 +2208,33 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#骑有此理 环海南岛篇 11月5日，@吴磊LEO 开骑！#吴磊 #交换100个旅途故事 #吴磊放映室",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "折月亮林一卢昱晓氛围感的神": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "卢昱晓",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有迹可循的#折月亮 moment ⌛️#折月亮定档1105 #云厘",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林一",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "翻到了名为#折月亮 的一页📖#折月亮定档1105 #傅识则",
      "likes": 0,
      "hot": 0
     }
