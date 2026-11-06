@@ -1,16 +1,11 @@
 {
- "updated_at": "2026-11-06 09:43",
+ "updated_at": "2026-11-06 11:01",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
  "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
-  "降温了羽绒服先穿为敬": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "立冬和饺子最配了": {
    "stats": {},
    "authors": [
@@ -28,6 +23,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "降温了羽绒服先穿为敬": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "我国秋粮丰收成定局": {
    "stats": {},
    "authors": [
@@ -42,16 +42,6 @@
      "hot": 0
     },
     {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #我国秋粮丰收成定局【#全国秋粮收获已超过九成】秋粮产量约占全年粮食产量的四分之三，农业农村部最新农情调度显示，全国秋粮收获已过九成，丰收已成定局。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
@@ -62,12 +52,32 @@
      "hot": 0
     },
     {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #我国秋粮丰收成定局【#全国秋粮收获已超过九成】秋粮产量约占全年粮食产量的四分之三，农业农村部最新农情调度显示，全国秋粮收获已过九成，丰收已成定局。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "农民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "秋粮丰收已成定局 #秋粮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国三农发布",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "农业农村部：秋粮丰收已成定局",
      "likes": 0,
      "hot": 0
     }
@@ -188,16 +198,6 @@
      "hot": 0
     },
     {
-     "name": "福建日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国际金价，直线拉升！ #金价 #金价走势",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "中新经纬",
      "verify": "红V",
      "identity": "媒体人",
@@ -208,12 +208,22 @@
      "hot": 0
     },
     {
-     "name": "大威哥",
+     "name": "李春华 银行/财经",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金价上涨，背后是什么推动的 #黄金 #燃起来了大国重器 #掘金计划2026 #真财实学计划 #零距离看懂财经",
+     "text": "黄金大跌#现在是买黄金的时机吗 #黄金价格 #普通人投资该不该买黄金",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财经小师妹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄金为什么崩了？#媒体精选计划 #燃起来了大国重器 #真财实学计划 #黄金大跌",
      "likes": 0,
      "hot": 0
     },
@@ -224,33 +234,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "美国中选与金价#黄金的走向 #黄金影响因素",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "从烽火岁月到盛世中华信仰从未改变": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【新长征路上的对话丨第十二集 今天的长征】 1935年吴起镇大捷，中央红军长征胜利结束，开启中国革命崭新篇章。今天，昔日黄土高原蝶变绿水青山，红色老区通高铁、兴",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吴记者正能量",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在江西兴国官田村，有一支专门为红军洗衣的队伍？ 这个小小的村落，藏着中国共产党独立创办的第一座大型综合性兵工厂——官田中央兵工厂。 妇女洗衣是烽火年代最常见的支",
      "likes": 0,
      "hot": 0
     }
@@ -282,16 +265,6 @@
      "hot": 0
     },
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 陕西商南警方通报：孙某军（男，41岁）因情感纠纷持刀行凶，致3人死亡，2名出警人员受伤，逃至深山一废弃房屋中自杀身亡#商南命案嫌犯孙某已死亡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
@@ -318,6 +291,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 陕西商南刑案嫌疑人已身亡，官方通报尸体在深山废弃房屋被发现，新黄河记者走访：村口警力已撤离（记者/摄像：孙敏 剪辑：刘美琪 运营：冯业鹏）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陕西商南重大刑案最新进展：嫌犯孙某军（男，41岁）已自杀身亡，尸体在县城外深山一废弃房屋中被发现（编辑：赵一）",
      "likes": 0,
      "hot": 0
     }
@@ -359,12 +342,69 @@
      "hot": 0
     },
     {
-     "name": "斯诺克来了",
+     "name": "英雄台球",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026国锦赛，囧哥超离谱黑球，范争一极限黑球绝杀#斯诺克比赛 #范争一 #赵心童 #南京国锦赛",
+     "text": "2026南京国锦赛，范争一半决赛对决凯伦威尔逊，上半场破百5:3领先！#斯诺克 #范争一 #斯诺克国际锦标赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "普京签署法令接管日企在俄资产": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "普京下令临时接管日本烟草公司在俄资产 该公司是俄最大外国公司之一#俄罗斯 #日本",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【普京下令临时接管日企在俄资产 日方提出抗议】 围绕俄方临时接管日企在俄资产一事，日本外务省欧洲局局长中村仁威向俄罗斯驻日本大使提出抗议，要求俄方撤销该决定。 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "普京签署总统令 日本烟草公司在俄资产由俄方临时接管",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "普京签令：接管日本烟草在俄资产",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "普京签令：俄方临时接管日本烟草产业公司在俄4座工厂",
      "likes": 0,
      "hot": 0
     }
@@ -419,46 +459,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "在乌镇被机器人“拿捏”了": {
+  "反跨境腐败法表决通过": {
    "stats": {},
    "authors": [
     {
-     "name": "1818黄金眼",
+     "name": "央广网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "和机器人PK羽毛球 ，记者放狠话“21比0”后出现失误，参展商：目前初级水平，未来需要成长 #浙江dou知道 #羽毛球机器人 #乌镇网事",
+     "text": "反跨境腐败法表决通过！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "潇湘晨报·晨视频",
+     "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "会擦鞋、会跳舞、会解鞋带，螃蟹机器人\"跳跳”亮相乌镇峰会身装22颗触觉舵机，用AI可以一句话为它编动作换外观#媒体原创 #媒体精选计划 （编辑：田园）#机器人",
+     "text": "#媒体原创 新华社消息｜反跨境腐败法表决通过（记者：孙少龙、胡了然）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大象新闻",
+     "name": "光明网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 11月4日，浙江乌镇，具身智能厨房也太顶了，3-4分钟炒出一道菜 能炒800多道，全流程自动化，一荤一素套餐定价15-18元，工作人员：未来还将升级",
+     "text": "反跨境腐败法表决通过",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "美丽浙江",
+     "name": "政事儿",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“脑控机器人”真的要来了吗？世界互联网大会乌镇峰会上，强脑科技展示脑电波操控机器人，完成了拿起苹果等多种动作。（记者：赵晨琰）#AI乌镇科创桐乡 #乌镇七子 #",
+     "text": "反跨境腐败法表决通过",
      "likes": 0,
      "hot": 0
     }
@@ -476,50 +516,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "互联护苗展播 │为什么你越安慰，孩子越有压力？ 数字时代，构建有益未成年人成长的网络环境是社会治理的重要课题。为进一步推进未成年人网络保护工作，北京市网信办精心",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "甲亢哥含泪弹琴致敬C罗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "IShowSpeed",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谢谢你C罗 ❤️‍🩹❤️‍🩹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雷速体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太痛了！C罗退出国家队，甲亢哥痛哭弹琴送别 #足球 #甲亢哥 #C罗 #葡萄牙 #抽象",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "BLG晋级四强后发文": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "BLG电子竞技俱乐部",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#2026全球总决赛 】 破风而行，信念愈坚。 我们成功晋级2026全球总决赛四强！ 一路并肩，步履不停。征途未竟，下一程，继续向着更高处进发！ #BLG晋级",
      "likes": 0,
      "hot": 0
     }
@@ -604,71 +600,43 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "后会友期第四期看点": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "C罗告别信：交还7号的时候到了": {
+  "BLG晋级四强后发文": {
    "stats": {},
    "authors": [
     {
-     "name": "葡萄牙国家足球队",
+     "name": "BLG电子竞技俱乐部",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "葡萄牙，永驻我心 #葡萄牙队 #C罗",
+     "text": "【#2026全球总决赛 】 破风而行，信念愈坚。 我们成功晋级2026全球总决赛四强！ 一路并肩，步履不停。征途未竟，下一程，继续向着更高处进发！ #BLG晋级",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "甲亢哥含泪弹琴致敬C罗": {
+   "stats": {},
+   "authors": [
     {
-     "name": "咪咕体育",
-     "verify": "",
-     "identity": "",
+     "name": "IShowSpeed",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "咪咕体育",
+     "text": "谢谢你C罗 ❤️‍🩹❤️‍🩹",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“葡萄牙将永远在我心中” C罗宣布从葡萄牙国家足球队退役 #C罗 #国家队退役 #媒体原创计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月5日，#C罗宣布从葡萄牙国家队退役 ，#C罗发布告别信 ：葡萄牙永在我心，为7号球衣付出一切。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白鹿视频",
+     "name": "雷速体育",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "C罗退出国家队后7号球衣归属引关注，受FIFA和欧足联规则限制无法退役，拉斐尔·莱奥已穿上7号球衣#C罗 #7号球衣 #退役 #拉斐尔莱奥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 后会无“7”！C罗国家队生涯落幕，关于他，您是否还记得这些名场面？（央视频号：体育新闻）#文娱体万象观 #媒体精选计划",
+     "text": "太痛了！C罗退出国家队，甲亢哥痛哭弹琴送别 #足球 #甲亢哥 #C罗 #葡萄牙 #抽象",
      "likes": 0,
      "hot": 0
     }
@@ -710,22 +678,22 @@
      "hot": 0
     },
     {
-     "name": "许愿^",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“冬将至 我与你” 视频这里取➡️@图纸共享 #怀冬 #情感共鸣文学 #冬日至思念恰逢其时 #以你为名的冬天 #情感共鸣文学",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "予爱",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "冬将至 我与你 冬至降临 平安喜乐 祝你祝我祝我们#怀冬 #冬天 #以凛冬之名",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "许愿^",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“冬将至 我与你” 视频这里取➡️@图纸共享 #怀冬 #情感共鸣文学 #冬日至思念恰逢其时 #以你为名的冬天 #情感共鸣文学",
      "likes": 0,
      "hot": 0
     },
@@ -776,206 +744,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "冬将至 我与你 冬至降临 平安喜乐 祝你祝我祝我们 #怀冬 #以你为名的冬天 #随后便是你我的第一个冬 #以凛冬之名",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "美股大跌特朗普甩锅民主党": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普回应美股崩盘：真是令人痛心！这是“愚蠢民主党人”造成的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月6日（发布），特朗普：美股因中期选举结果遭遇史上最惨烈交易日之一，是那帮“笨蛋民主党人”造成的，不必担心，我们很快就会变得比以往更强大更辉煌（来源：CCT",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#特朗普称美股暴跌赖民主党 股市遭遇史上最糟交易日之一，你们401（k）退休账户缩水了。#马斯克身家缩水超千亿美元",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "政事儿",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美股暴跌，特朗普：是那帮“笨蛋民主党人”造成的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "百姓关注",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普回应美股暴跌:史上最惨烈的交易日之一，是那帮“笨蛋民主党人”造成的。不必担心，我们很快就会变得比以往更强大更辉煌。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今天是太阳雨开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "董思成",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "👋 #今天是太阳雨开播 #今天是太阳雨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杨超越",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又见面啦～ hi hi #今天是太阳雨开播 #今天是太阳雨 ☺️💗☺️",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今天是太阳雨（🥭12点等雨来",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "想和你一起走进天晴的未来。#今天是太阳雨开播 #今天是太阳雨 #杨超越 #董思成",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "贺炜发文致敬C罗国家队生涯": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "第五人格终于想起自己是恐怖游戏": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "鹿律UI（宁芙奖请投祭司）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新大金个性动作好忧郁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我好像在哪裡見過你",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "码的心脏喷雪#加页手记 #第五人格#加页手记磷光症 #加页手记新赛季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咕咚莫宁",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "S1单人噩梦，磷光镇保姆级攻略 #加页手记 #加页手记噩梦模式 #S1噩梦模式攻略",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "隔岸手势舞挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "糖心蛋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天坛好多人啊啊啊啊 #手势舞 #北京 #格格装",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "饺子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#可楼版隔岸 #可楼 也有春花秋月 也望相守不渝～ #饺你跳舞 #抖音玩法合伙人计划 #抖舞玩法模范生",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王彦霖救助小狗后续": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王彦霖",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有人爱它 就会疯狂的长出血肉💗 #养宠需负责 #请尊重生命 #领养大于买卖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青岛新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员王彦霖在车流中救下流浪狗 送医检查发现是盆骨骨折繁育犬 小狗沦为繁殖工具 受苦受难 王彦霖决定收养后取名为Lucky 配文：愿你的每一天都比昨天更好 （编辑",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王彦霖救助小狗后续 被救下的流浪繁殖犬Lucky活过来了！吃了一辈子苦的小狗这次终于遇上了心软的“神”。",
      "likes": 0,
      "hot": 0
     }
@@ -1060,32 +828,198 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "深度复盘BLG战胜DK": {
+  "C罗告别信：交还7号的时候到了": {
    "stats": {},
    "authors": [
     {
-     "name": "Misaya若风",
-     "verify": "",
-     "identity": "",
+     "name": "葡萄牙国家足球队",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "上一次八强横扫LCK已是十二年前了！ 而今天的BLG，连斩LCK两支强敌，走到半决赛！BLG打得好啊，半决赛冲！斩下T1吧（如果T1进了）#2026英雄联盟全球",
+     "text": "葡萄牙，永驻我心 #葡萄牙队 #C罗",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "fuker解说",
+     "name": "咪咕体育",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "锐评 blg 3-0 战胜 dk 第一局， 丹尼神之摇摆！左手单杀 showmaker！blg 碾压 dk 拿下首局！恭喜 blg 晋级四强！#英雄联盟s16 ",
+     "text": "咪咕体育",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“葡萄牙将永远在我心中” C罗宣布从葡萄牙国家足球队退役 #C罗 #国家队退役 #媒体原创计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白鹿视频",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗退出国家队后7号球衣归属引关注，受FIFA和欧足联规则限制无法退役，拉斐尔·莱奥已穿上7号球衣#C罗 #7号球衣 #退役 #拉斐尔莱奥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月5日，#C罗宣布从葡萄牙国家队退役 ，#C罗发布告别信 ：葡萄牙永在我心，为7号球衣付出一切。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 后会无“7”！C罗国家队生涯落幕，关于他，您是否还记得这些名场面？（央视频号：体育新闻）#文娱体万象观 #媒体精选计划",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "美股大跌特朗普甩锅民主党": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普回应美股崩盘：真是令人痛心！这是“愚蠢民主党人”造成的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "政事儿",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美股暴跌，特朗普：是那帮“笨蛋民主党人”造成的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙视新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月6日（发布），特朗普：美股因中期选举结果遭遇史上最惨烈交易日之一，是那帮“笨蛋民主党人”造成的，不必担心，我们很快就会变得比以往更强大更辉煌（来源：CCT",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#特朗普称美股暴跌赖民主党 股市遭遇史上最糟交易日之一，你们401（k）退休账户缩水了。#马斯克身家缩水超千亿美元",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "起点新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【美股史诗级暴跌！特朗普：赖民主党】美东时间11月5日周四，美国三大股指大跌，道指跌3.44%跌超1800点，纳指跌5.52%跌超1400点，标普500指数跌4",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "今天是太阳雨开播": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "董思成",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "👋 #今天是太阳雨开播 #今天是太阳雨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杨超越",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又见面啦～ hi hi #今天是太阳雨开播 #今天是太阳雨 ☺️💗☺️",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今天是太阳雨（🥭12点等雨来",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "想和你一起走进天晴的未来。#今天是太阳雨开播 #今天是太阳雨 #杨超越 #董思成",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "隔岸手势舞挑战": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "糖心蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天坛好多人啊啊啊啊 #手势舞 #北京 #格格装",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "饺子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#可楼版隔岸 #可楼 也有春花秋月 也望相守不渝～ #饺你跳舞 #抖音玩法合伙人计划 #抖舞玩法模范生",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "后会友期第四期看点": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "C罗宣布从葡萄牙国家队退役": {
    "stats": {},
@@ -1144,6 +1078,92 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "贺炜发文致敬C罗国家队生涯": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "深度复盘BLG战胜DK": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Misaya若风",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上一次八强横扫LCK已是十二年前了！ 而今天的BLG，连斩LCK两支强敌，走到半决赛！BLG打得好啊，半决赛冲！斩下T1吧（如果T1进了）#2026英雄联盟全球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "fuker解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "锐评 blg 3-0 战胜 dk 第一局， 丹尼神之摇摆！左手单杀 showmaker！blg 碾压 dk 拿下首局！恭喜 blg 晋级四强！#英雄联盟s16 ",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "厉娜说许飞变温柔了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐速报台",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#厉娜夸许飞和自己谈心的时候很温柔 厉娜：我们俩谈心啦~~~~#厉娜 #许飞 #后会友期 #综艺",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "第五人格终于想起自己是恐怖游戏": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "鹿律UI（宁芙奖请投祭司）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新大金个性动作好忧郁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我好像在哪裡見過你",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "码的心脏喷雪#加页手记 #第五人格#加页手记磷光症 #加页手记新赛季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咕咚莫宁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "S1单人噩梦，磷光镇保姆级攻略 #加页手记 #加页手记噩梦模式 #S1噩梦模式攻略",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "姐感穿搭法则": {
    "stats": {},
    "authors": [
@@ -1174,6 +1194,243 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "轻熟女。#outfits #ootd #fyp #姐感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "好闺闺都要吃的入冬九件套": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "叫我小沝(zǐ)子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "是母女，也是闺蜜！ #好闺闺都要吃的入冬九件套 #立冬开幕进行时 #亲子日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Jikou",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好朋友入冬通知：入冬九件套任务下发，请自觉认领😎 #准备好了我的冬日降温清单 #保暖上新季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小江啊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "立冬 围炉煮奶茶 外卖 炸鸡 八菜一汤 好朋友 幸福晕了！奖励好朋友请我吃冬天的第一顿炸串…#立冬围炉煮茶太chill了#保暖上新季#好闺闺都要吃的入冬九件套#",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王彦霖救助小狗后续": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王彦霖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有人爱它 就会疯狂的长出血肉💗 #养宠需负责 #请尊重生命 #领养大于买卖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#王彦霖救助小狗后续 被救下的流浪繁殖犬Lucky活过来了！吃了一辈子苦的小狗这次终于遇上了心软的“神”。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青岛新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "演员王彦霖在车流中救下流浪狗 送医检查发现是盆骨骨折繁育犬 小狗沦为繁殖工具 受苦受难 王彦霖决定收养后取名为Lucky 配文：愿你的每一天都比昨天更好 （编辑",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "首款华为鸿蒙台式机抢先体验": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李大锤同学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "首款鸿蒙台式机来了！华为擎云 HM650 真机开箱！#华为首款台式机擎云HM650发布",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林捂捂",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "鸿蒙首款台式机抢先上手 第一时间给大家带来华为擎云 HM650的上手，以后单位的电脑也能拥有现代体验了 #抢先体验鸿蒙首款台式机 #华为首款台式机擎云HM650",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "安远发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "华为发布首款鸿蒙商用台式机 #华为 #鸿蒙 #电脑 #华为首款台式机擎云HM650发布",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "现场见证BLG战胜DK": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "胸肌很大的良小伞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜BLG！！！半决赛加油！！！就在今年有感觉吗！！#热点观赛团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老A",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG怕我胳膊举酸 3:0速通了直接 #热点观赛团 #BLG战胜DK #英雄联盟s16 #BLG #DK",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "暴龙小哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "DK遗憾止步八强，许哥鞠躬告别舞台， 网友：LPL最有希望的一年！#英雄联盟s16 #dk对战blg #blg战胜dk #showmaker #热点观赛团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞小学妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Showmaker赛后无奈摇头 网友：三局只拿一条龙，心态都炸了！#英雄联盟S16 #DK对战BLG #blg #dk #knight",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "三角洲新刀皮黑伤测评": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "电视剧谷雨上演获奖即被抓": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杯弓舌影",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "张颂文新剧来袭，就被一伙人骗上了岛！ #谷雨酷酷进入敢拍时代 #电视剧谷雨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桑椹酒_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "孙艺洲这段演的也太帅了吧…… #孙艺洲 #严平安 #电视剧谷雨 #谷雨酷酷进入敢拍时代",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "秋至",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "论好兄弟吃好的是有多嫉妒，好信的心达到顶峰，也是让好兄弟装上了！#谷雨酷酷进入敢拍时代 #电视剧谷雨",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我和豆包关系最好时belike": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李蠕蠕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不是在拍热点就是在拍热点的路上！终于一次性拍完所有热点了，厉娜！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "累子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "绝密档案 #我和豆包最好的时候belike#豆包",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小熊的奇思妙想",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当别人拥有全能管家时…#我和豆包最好的时候belike#豆包#内容过于真实 #真实还原#管家 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
@@ -1288,33 +1545,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "邓超约了一场特殊球局": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "老邓（SuperDeng）",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好家伙，我们三个篮球天才@吴忠华💚 @stephcastle卡斯尔 总算碰面了！#邓超 #你是我的超级英雄",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "邓超工作室",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "超级英雄带给我们勇气和力量❤️ #邓超 #你是我的超级英雄",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "吴磊一天骑行100公里": {
    "stats": {},
    "authors": [
@@ -1371,7 +1601,7 @@
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我跪下来求你们和好吧 （二编）原本只是性情一下 厉娜 借此📢11.20「声生不息」 厉娜 毛不易倾情演唱《最熟悉的陌生人》 厉娜 这首歌我单方面送给飞雪 厉娜",
+     "text": "我跪下来求你们和好吧 （二编）原本只是性情一下 厉娜 借此📢11.20「声生不息」 厉娜 @毛不易 倾情演唱《最熟悉的陌生人》 厉娜 这首歌我单方面送给飞雪 ",
      "likes": 0,
      "hot": 0
     },
@@ -1436,16 +1666,6 @@
      "hot": 0
     },
     {
-     "name": "小曦（AI漫剧）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我画地为牢厉娜 #厉娜许飞 #厉娜 #许飞 #后会友期 #画地为牢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "临沧融媒",
      "verify": "红V",
      "identity": "媒体人",
@@ -1454,56 +1674,14 @@
      "text": "原谅许飞吧！厉娜！我画地为牢厉娜（来源：临沧融媒 沈金雷） #遇见临沧如回故乡 #画地为牢 #后会有期 #许飞 #厉娜",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "三角洲新刀皮黑伤测评": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "用礼花筒boom打开婚纱照转场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一只微微ju",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用最近超火的boom来介绍我的顶美伴娘们～ 我的伴娘团完全是女团来的！#礼花筒卡点#boomclap舞挑战 #婚礼那天 #伴娘团",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "百亿少女的梦",
+     "name": "小曦（AI漫剧）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "用最近很多的boom拍了个婚纱照转场#礼炮变装 #转场 #拍婚纱照是在预演幸福",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "贵州洋芋粑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用很火的boom拍了个婚纱照转场#礼炮变装 #贵阳婚纱照 #贵阳婚纱照风格推荐 #终于轮到我拍这个转场了 #婚纱照花絮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一jay钟情",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "用最近很火的boom拍了个婚纱照转场🎉 #星雨编舞 #礼炮变装 #婚纱照 #重庆婚纱照 #转场",
+     "text": "我画地为牢厉娜 #厉娜许飞 #厉娜 #许飞 #后会友期 #画地为牢",
      "likes": 0,
      "hot": 0
     }
@@ -1511,51 +1689,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "考古许飞的采访太好品了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "现场见证BLG战胜DK": {
+  "邓超约了一场特殊球局": {
    "stats": {},
    "authors": [
     {
-     "name": "胸肌很大的良小伞",
-     "verify": "",
-     "identity": "",
+     "name": "老邓（SuperDeng）",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "恭喜BLG！！！半决赛加油！！！就在今年有感觉吗！！#热点观赛团",
+     "text": "好家伙，我们三个篮球天才@吴忠华💚 @stephcastle卡斯尔 总算碰面了！#邓超 #你是我的超级英雄",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "老A",
-     "verify": "",
-     "identity": "",
+     "name": "邓超工作室",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "BLG怕我胳膊举酸 3:0速通了直接 #热点观赛团 #BLG战胜DK #英雄联盟s16 #BLG #DK",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "暴龙小哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DK遗憾止步八强，许哥鞠躬告别舞台， 网友：最有希望的一年！#英雄联盟s16 #dk对战blg #blg战胜dk #showmaker #热点观赛团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞小学妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Showmaker赛后无奈摇头 网友：三局只拿一条龙，心态都炸了！#英雄联盟S16 #DK对战BLG #blg #dk #knight",
+     "text": "敢再试一次的人，自带超能力！#邓超 #你是我的超级英雄",
      "likes": 0,
      "hot": 0
     }
@@ -1563,36 +1716,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我和豆包关系最好时belike": {
+  "这是一条来自2018年易遥的抖音": {
    "stats": {},
    "authors": [
     {
-     "name": "李蠕蠕",
-     "verify": "",
-     "identity": "",
+     "name": "任敏",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不是在拍热点就是在拍热点的路上！终于一次性拍完所有热点了，厉娜！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "累子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "绝密档案 #我和豆包最好的时候belike#豆包",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小熊的奇思妙想",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当别人拥有全能管家时…#我和豆包最好的时候belike#豆包#内容过于真实 #真实还原#管家 @DOU+小助手",
+     "text": "这是一条来自2018年易遥的抖。#悲伤逆流到2018年了 #悲伤逆流成河八年后重映",
      "likes": 0,
      "hot": 0
     }
@@ -1610,117 +1743,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "请大家把力量借给iG吧！@英雄联盟赛事 #TheShy #iG #英雄联盟S16 #S16淘汰赛 #2026全球总决赛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "电视剧谷雨上演获奖即被抓": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "杯弓舌影",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张颂文新剧来袭，就被一伙人骗上了岛！ #谷雨酷酷进入敢拍时代 #电视剧谷雨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桑椹酒_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "孙艺洲这段演的也太帅了吧…… #孙艺洲 #严平安 #电视剧谷雨 #谷雨酷酷进入敢拍时代",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秋至",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "论好兄弟吃好的是有多嫉妒，好信的心达到顶峰，也是让好兄弟装上了！#谷雨酷酷进入敢拍时代 #电视剧谷雨",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "异环曳尔沐": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "菠萝椰子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这期依旧12m#elido摇#异环#异环曳尔沐#曳尔沐cos#致电空想迷数",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "异环",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《异环》曳尔沐角色PV丨我们重归于好 #致电空想迷数 #异环曳尔沐 #异环 从遥远的梦中浮现新的回忆。 发生未知记术故障。 如果您需要帮住，请联系技术支持人员。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "水泽（异环）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "评论区曳尔沐10连双金 #异环 #祷歌为谁而诵 #异环明音凛#异环曳尔沐",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "卫诗雅谈百花奖获奖": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "人物杂志",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "影后卫诗雅：我最怕是连龙套都没法当 卫诗雅，凭《破·地狱》获得第38届大众电影百花奖最佳女主角，也是百花奖历史上首位来自香港的影后。 她经历过漫长的跑龙套时期，",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#卫诗雅 谈#百花奖 获奖：来之前老公查了AI说我获不了奖。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京时间",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "近日，演员卫诗雅再度聊起拿下百花奖最佳女主角的经历。她透露，提名阶段公司就跟她说，自己肯定拿不到奖，不过能入围已经值得庆祝。出发去典礼前，她老公还用AI查询，结",
      "likes": 0,
      "hot": 0
     }
@@ -1788,50 +1810,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "Nimda kildu",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "后会友期群像太绝了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "冰娱上上签",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有种在看花少的幸福感谁懂。。。 #后会友期 #群像 #花少 #剪映",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "绝境最后一舞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "能不能打包去花少。七人群像正确！看完后会友期想念一个北斗七行#花儿与少年 #北斗七行 #后会友期 #青雉 #白小纯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "轻松拿捏穿搭障眼法": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小陈不沉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "174/155斤 全是干货！姐妹们快学起来！！#有效显瘦穿搭 #今日份穿搭公式 #穿搭障眼法 #显瘦穿搭 #穿搭干货",
      "likes": 0,
      "hot": 0
     }
@@ -1936,36 +1914,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "买首饰是为了取悦自己": {
+  "轻松拿捏穿搭障眼法": {
    "stats": {},
    "authors": [
     {
-     "name": "南奢主理人seven",
+     "name": "小陈不沉",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "别人给的惊喜随时会收回，自己给自己的底气永远不会消失#买首饰是为了取悦自己 #手链 #首饰是一个女人的底气",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栖于山",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "突然意识到生日是可以送给自己礼物的 他们都说人生第一只手镯是最重要的人送的 于是我买了一只送给自己 自己就是最重要的人#买首饰是为了取悦自己 #玉镯日常 #玉镯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿媛媛媛媛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "00后血脉觉醒 人生不过三万天 买个玉镯怎么了#玉镯 #美学 #买首饰是为了取悦自己",
+     "text": "174/155斤 全是干货！姐妹们快学起来！！#有效显瘦穿搭 #今日份穿搭公式 #穿搭障眼法 #显瘦穿搭 #穿搭干货",
      "likes": 0,
      "hot": 0
     }
@@ -2003,43 +1961,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "秋冬一周穿搭合集✖️7！不露腿篇！ 嘿嘿视频版又来啦～羽绒服搭配✖️7！ #韩搭秋冬 #穿搭分享 #秋冬穿搭参考 #早秋穿搭公式来了 #一周穿搭不重样",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今年立冬吃超长长长饺子": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "顺顺妈爱揍饭",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请你最好的朋友吃超长长长长长长长饺子！#饺子🥟 #超长饺子 #今天吃饺子 #大饺子 #传统美食自己做的好吃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "多加点醋.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "奖励好朋友吃超长长长长饺子！！ #立冬 #饺子 #今年立冬吃超长长长饺子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青春🌻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不是超长蛋挞吃不起，而是超长水饺更有性价比。#纯手工擀面 #娃娃爱吃的饺子 #农村生活",
      "likes": 0,
      "hot": 0
     }
@@ -2103,6 +2024,85 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "今年立冬吃超长长长饺子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "顺顺妈爱揍饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请你最好的朋友吃超长长长长长长长饺子！#饺子🥟 #超长饺子 #今天吃饺子 #大饺子 #传统美食自己做的好吃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "多加点醋.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奖励好朋友吃超长长长长饺子！！ #立冬 #饺子 #今年立冬吃超长长长饺子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青春🌻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不是超长蛋挞吃不起，而是超长水饺更有性价比。#纯手工擀面 #娃娃爱吃的饺子 #农村生活",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "更适合年轻人的文玩配饰": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "罗非鱼不吃鱼捏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "风传花信 雨濯春尘 #更适合年轻人的文玩配饰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "seo",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "她总嘴角上扬 她是我的白月光 #更适合年轻人的文玩配饰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不愧是我",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你眉目如当年 流转我心间#更适合年轻人的文玩配饰",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "冬天剥个橙子手上都是阳光味": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   }
  }
 }
