@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-06 01:44",
+ "updated_at": "2026-11-06 02:41",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
- "ok_count": 43,
+ "topic_count": 48,
+ "ok_count": 40,
  "lexicon_count": 0,
  "topics": {
   "BLG战胜DK晋级半决赛": {
@@ -30,16 +30,6 @@
      "hot": 0
     },
     {
-     "name": "电竞老山羊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG战胜DK：老叟戏顽童选出蛇女！ #BLG战胜DK #BLG对战DK #BLG晋级半决赛 #抖音精选APP #热点赛事观察",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "英雄联盟",
      "verify": "蓝V",
      "identity": "机构认证",
@@ -58,6 +48,26 @@
      "text": "[S16淘汰赛]【DK vs BLG】第一局速看 #英雄联盟S16 #S16淘汰赛 #2026全球总决赛 #DK对战BLG #抖音精选App",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "灵石路高振宇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG一串四LCK有感觉吗？ #英雄联盟S16 #DK对战BLG #BLG战胜DK #BLG零封DK晋级四强 #我的S16八强观赛日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "LOL大锤赛事速看",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLGvsDK速看G3：叫T1过来！Bin哥贾克斯怒秀五次单杀！BLG霸气零封晋级S16四强！#英雄联盟S16 #BLG战胜DK晋级半决赛 #DK对战BLG #",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -66,26 +76,6 @@
   "WTT法兰克福温瑞博3:0王楚钦": {
    "stats": {},
    "authors": [
-    {
-     "name": "潮新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京时间11月6日凌晨，2026WTT法兰克福冠军赛，温瑞博3-0战胜王楚钦，晋级男单八强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026WTT法兰克福冠军赛男单1/8决赛，温瑞博3-0战胜王楚钦，晋级男单八强。赛后温瑞博表示：“今天其实自己也是抱着拼他的心态，因为头哥水平包括之前拿过的成",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "四川日报",
      "verify": "红V",
@@ -107,12 +97,52 @@
      "hot": 0
     },
     {
-     "name": "Captain.骰",
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间11月6日凌晨，2026WTT法兰克福冠军赛，温瑞博3-0战胜王楚钦，晋级男单八强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026WTT法兰克福冠军赛男单1/8决赛，温瑞博3-0战胜王楚钦，晋级男单八强。赛后温瑞博表示：“今天其实自己也是抱着拼他的心态，因为头哥水平包括之前拿过的成",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爆冷！王楚钦0-3不敌温瑞博，止步WTT法兰克福冠军赛16强。 北京时间11月6日，WTT法兰克福冠军赛男单第二轮，在本站迎来复出的王楚钦0-3不敌队友温瑞博，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "澎湃新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王楚钦0：3温瑞博，温瑞博：头哥水平比我好太多，没有想到能赢下这场比赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "花一朵",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "温瑞博3-0王楚钦，进入八强#王楚钦 #温瑞博 #法兰克福冠军赛",
+     "text": "0:3！队长王楚钦不敌小将温瑞博，止步法兰克福冠军赛男单16强，无缘八强。国乒男单连折三将#王楚钦 #温瑞博 #国乒 #乒乓球 #法兰克福冠军赛",
      "likes": 0,
      "hot": 0
     }
@@ -124,22 +154,32 @@
    "stats": {},
    "authors": [
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 新华社消息｜第九届进博会开幕式举行（记者：马牧旺青、蔡志坚）#第九届进博会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "新闻联播",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "今天，第九届进博会在上海开幕。进博会汇聚全球优质商品、前沿技术与创新成果，持续彰显中国高水平开放的坚定姿态，也印证着世界对中国市场的信心。开放、富有活力的中国，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "CCTV4",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【历“九”弥新 共享机遇】第九届中国国际进口博览会11月5日到10日在上海举行。本届进博会，4142家境外企业首发超过480件展品，创历年新高。进博会历“九”弥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "进博会今日开幕，来看一条价值700万人民币的伊朗地毯#媒体原创",
      "likes": 0,
      "hot": 0
     },
@@ -154,23 +194,18 @@
      "hot": 0
     },
     {
-     "name": "环球网",
+     "name": "新民晚报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "进博会今日开幕，来看一条价值700万人民币的伊朗地毯#媒体原创",
+     "text": "#媒体原创今天，第九届#进博会正式启幕。进博之约，历“九”弥新：世界在“四叶草”看见笃定的中国。#媒体精选计划#精选主播说#进博会的热度上海的温度",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "降温了羽绒服先穿为敬": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "你怎么舍得让有趣的知识流走": {
    "stats": {},
@@ -234,42 +269,10 @@
    "authors": [],
    "lexicon": []
   },
-  "一道热乎菜开启各地冬天": {
+  "降温了羽绒服先穿为敬": {
    "stats": {},
-   "authors": [
-    {
-     "name": "贺千万。",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "给你看看武汉真正好吃“民间米其林” 感谢本地人带路，真的巨好吃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "丁一D",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁来了汕头不吃两个丸子再走啊 #美食探店#汕头美食#一道热乎菜开启各地冬天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "东北大个",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "东北铁锅炖 这天也冷了，东北也马上下雪了，欢迎各地南方小土豆都来东北玩#了不起的中国菜 #非遗有滋味 #一道热乎菜开启各地冬天#东北菜自带供暖系统",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "东风61已列装火箭军常态参训": {
    "stats": {},
@@ -305,12 +308,12 @@
      "hot": 0
     },
     {
-     "name": "环球网",
+     "name": "三沙卫视",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "九三阅兵首次公开亮相的东风-61，已列装火箭军！",
+     "text": "央视披露：洲际导弹东风-61亮相不到一年已常态参训！（央视新闻）",
      "likes": 0,
      "hot": 0
     },
@@ -342,32 +345,22 @@
      "hot": 0
     },
     {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "消息人士5日透露，日本政府考虑在紧急情况下引进核武器。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抚州发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本政府拟修订“安保三文件”，或允许在紧急情况下运进核武器，外交部：日本“再军事化”狂飙突进，国际社会必须高度警惕、共同遏止",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "风芒新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "核武器！可能要运进日本了？日本政府正研究年底修订《国家安全保障战略》，或允许在紧急情况下将核武器运进日本 #国际新闻 #日本 #核武器",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "消息人士5日透露，日本政府考虑在紧急情况下引进核武器。",
      "likes": 0,
      "hot": 0
     },
@@ -380,242 +373,14 @@
      "text": "日本共同社今天（11月5日）引述相关人士消息称，日本政府正研究在计划于年底修订的《国家安全保障战略》中写入“无核三原则”的例外条款。目前，较有可能采用的方案是，",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2027年放假安排来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "期待！2027年节假日放假安排正式出炉！多个假期不调休。（总台中国之声记者 周尧）#媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "春节休9天。2027年放假安排来了！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月5日，国务院办公厅公布2027年放假安排。2027年春节放假9天，连续第二年延续“史上最长”连休；端午节和中秋节均为周三且不调休，各放假1天。‌‌来源：央",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "春节休9天！2027年全国放假安排速览。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "1048广元交通旅游广播",
+     "name": "抚州发布",
      "verify": "蓝V",
-     "identity": "媒体人",
+     "identity": "官方机构",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今年假期全清零，明年2027快乐靠经营。#打工人顶级松弛感#我要放假#如何凑整假#2027年放假安排#国家法定节假日",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月5日，国务院办公厅关于2027年部分节假日安排的通知发布。 根据通知，元旦将在1月1日至3日放假，共3天；春节将在2月5日至13日放假调休，共",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 调休减少+9天超长春节假期！2027年放假安排出炉#放假安排 #调休 #春节",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "C罗宣布从葡萄牙国家队退役": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "葡萄牙国家足球队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "葡萄牙，永驻我心 #葡萄牙队 #C罗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗宣布从国家队退役。41岁的C罗通过社媒宣布，从葡萄牙国家队退役，结束自己23年葡萄牙生涯！#C罗退役 #C罗 #国际足球 #葡萄牙队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月05日，41岁的C罗通过社媒宣布，从葡萄牙国家队退役，结束自己23年葡萄牙生涯！来源：直播吧 #C罗 #C罗退役 #精选主播说 #足球 @抖音小助手 @D",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗宣布从葡萄牙国家足球队退役，结束23年的生涯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天下足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全文款款深情，C罗官宣从国家队退役！#C罗宣布从葡萄牙国家队退役 #媒体精选计划 #C罗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗宣布从葡萄牙国家足球队退役",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "C罗宣布从葡萄牙国家队退役",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一件单品穿两季穿搭技巧": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "赵啾啾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "穿搭人是怎么搭出繁荣秀场感的？看完！ #可可系 #浅浅期待一下秋冬的可可系风衣 #秋冬穿搭 #冬季穿搭 #穿搭技巧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "美股三大指数集体大幅收跌": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "每日经济新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中期选举后，市场两极反转？美股深夜跳水！纳指罕见暴跌5%，马斯克旗下特斯拉和SpaceX双双大跌，黄金白银也突然直线跳水",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王冰汝",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蓝色海啸冲击AI！美国选民对数据中心说不 #AI #美股 #中期选举 #黄仁勋 #马斯克",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "21世纪经济报道",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美股半导体全线重挫，纳指深夜暴跌超1400点，特斯拉跌近11% ，闪迪大跌超22%，美光、西部数据跌超17%；热门中概股逆势上涨（剪辑：张通）#美股 #纳指 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美股遭史诗级抛售！三大指数全线暴跌，纳指暴跌5.52%，创下自2025年4月以来最大单日跌幅（编辑：木木）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#美股史诗级暴跌 道指纳指双双狂泻超千点 #七巨头市值蒸发1万亿美元 #费城半导体指数创2020年以来最大跌幅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海量财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "民主党大胜才过去一天，美股崩了！道指跌3.44%，纳指跌5.52%，标普500指数跌4.35%并创下自2025年4月以来最大单日跌幅。闪迪跌超22%，西部数据、",
+     "text": "日本政府拟修订“安保三文件”，或允许在紧急情况下运进核武器，外交部：日本“再军事化”狂飙突进，国际社会必须高度警惕、共同遏止",
      "likes": 0,
      "hot": 0
     }
@@ -700,6 +465,231 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "一件单品穿两季穿搭技巧": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "赵啾啾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "穿搭人是怎么搭出繁荣秀场感的？看完！ #可可系 #浅浅期待一下秋冬的可可系风衣 #秋冬穿搭 #冬季穿搭 #穿搭技巧",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "C罗宣布从葡萄牙国家队退役": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "葡萄牙国家足球队",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "葡萄牙，永驻我心 #葡萄牙队 #C罗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗宣布从国家队退役。41岁的C罗通过社媒宣布，从葡萄牙国家队退役，结束自己23年葡萄牙生涯！#C罗退役 #C罗 #国际足球 #葡萄牙队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月05日，41岁的C罗通过社媒宣布，从葡萄牙国家队退役，结束自己23年葡萄牙生涯！来源：直播吧 #C罗 #C罗退役 #精选主播说 #足球 @抖音小助手 @D",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗宣布从葡萄牙国家足球队退役，结束23年的生涯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天下足球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全文款款深情，C罗官宣从国家队退役！#C罗宣布从葡萄牙国家队退役 #媒体精选计划 #C罗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗宣布从葡萄牙国家队退役",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "C罗宣布从葡萄牙国家足球队退役",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "范争一无缘国锦赛决赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视台球",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026斯诺克国锦赛半决赛，凯伦·威尔逊9:6战胜范争一，晋级决赛！#凯伦威尔逊#范争一 #斯诺克 #斯诺克国锦赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "台球不二心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "半决赛最大转折点！范争一领先53分黑球竟然失误，囧哥清台绝杀 #范争一 #凯伦威尔逊 #逆转 #晋级决赛 #斯诺克",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "七天体育",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026南京国锦赛：囧哥连续防守压迫，范争一一锤定音追平比分#斯诺克 #范争一 #南京国锦赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月2日（发布）。中国00后球手范争一爆冷淘汰特鲁姆普，晋级斯诺克国锦赛32强；赵心童、吴宜泽、丁俊晖等晋级下一轮。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "现场见证BLG战胜DK": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "暴龙小哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "DK遗憾止步八强，许哥鞠躬告别舞台， 网友：最有希望的一年！#英雄联盟s16 #dk对战blg #lpl #blg战胜dk #showmaker",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞小学妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Showmaker赛后无奈摇头 网友：三局只拿一条龙，心态都炸了！#英雄联盟S16 #DK对战BLG #blg #dk #knight",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美股三大指数集体大幅收跌": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "每日经济新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中期选举后，市场两极反转？美股深夜跳水！纳指罕见暴跌5%，马斯克旗下特斯拉和SpaceX双双大跌，黄金白银也突然直线跳水",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王冰汝",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "蓝色海啸冲击AI！美国选民对数据中心说不 #AI #美股 #中期选举 #黄仁勋 #马斯克",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "21世纪经济报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美股半导体全线重挫，纳指深夜暴跌超1400点，特斯拉跌近11% ，闪迪大跌超22%，美光、西部数据跌超17%；热门中概股逆势上涨（剪辑：张通）#美股 #纳指 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#美股史诗级暴跌 道指纳指双双狂泻超千点 #七巨头市值蒸发1万亿美元 #费城半导体指数创2020年以来最大跌幅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美股遭史诗级抛售！三大指数全线暴跌，纳指暴跌5.52%，创下自2025年4月以来最大单日跌幅（编辑：木木）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "一起来跳呲牙舞": {
    "stats": {},
    "authors": [
@@ -767,6 +757,75 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "后会友期第四期看点": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杉树",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王子璇退还了写序的三万块 王子璇太棒了 退了写序的三万块后说不想做朋友了 还说自己虽然狼狈但是不丢人 王子璇真的一点都不丢人 #后会友期 #王子璇 #影娱热点团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黄花梨罐头",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "白小纯这教科书般的口嫌体正直！ #后会友期 #后会友期友情品鉴团 #影娱热点团 #白小纯#青稚",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "姐感穿搭法则": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Nogi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "轻熟女の穿搭法则 #ootd #气质穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "油泼辣子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刚柔并济*属于轻熟女的松弛穿搭灵感 #可可系 #气质轻熟风 #秋冬复古松弛感穿搭 #姐感穿搭气质拉满",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿Sue.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "轻熟女。#outfits #ootd #fyp #姐感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深度复盘BLG战胜DK": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "我和豆包关系最好时belike": {
    "stats": {},
    "authors": [
@@ -804,135 +863,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "三角洲新刀皮黑伤测评": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "黄金后市怎么走": {
+  "轻松拿捏穿搭障眼法": {
    "stats": {},
    "authors": [
     {
-     "name": "中国证券报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金价大涨 矿企日均赚超5000万 后市怎么走？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "涨疯了！#金饰克价一夜暴涨49元 #黄金重回4100 ，网友直呼：我还没上车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "财经小师妹",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黄金为什么崩了？#媒体精选计划 #燃起来了大国重器 #真财实学计划 #黄金大跌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老任 故事会",
+     "name": "小陈不沉",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美国中选与金价#黄金的走向 #黄金影响因素",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李春华 银行/财经",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黄金大跌#现在是买黄金的时机吗 #黄金价格 #普通人投资该不该买黄金",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "考古许飞的采访太好品了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "吴磊一天骑行100公里": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴磊LEO",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#骑有此理 环海南岛篇EP01：物理意义上烫烫的一集 #交换100个旅途故事",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓬勃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "吴磊环海南岛骑行1000公里，在文昌看火箭发射 在三亚自由潜，把海岛风光 航天浪漫和骑行挑战串在一起，海南为什么让骑友“上头”？#吴磊环海南岛骑行1000公里 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "吴磊《骑有此理》环海南岛篇将于11月5日上线，骑行总路程达1000公里，单日骑行超百公里，超40℃高温暴晒，肤色明显分层。#吴磊 #骑有此理 #海南 #骑行 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "iG对阵GEN前瞻分析": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "后会友期第四期看点": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "杉树",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王子璇退还了写序的三万块 王子璇太棒了 退了写序的三万块后说不想做朋友了 还说自己虽然狼狈但是不丢人 王子璇真的一点都不丢人 #后会友期 #王子璇 #影娱热点团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黄花梨罐头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "白小纯这教科书般的口嫌体正直！ #后会友期 #后会友期友情品鉴团 #影娱热点团 #白小纯#青稚",
+     "text": "174/155斤 全是干货！姐妹们快学起来！！#有效显瘦穿搭 #今日份穿搭公式 #穿搭障眼法 #显瘦穿搭 #穿搭干货",
      "likes": 0,
      "hot": 0
     }
@@ -1020,181 +960,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "冬将至，我与你 #怀冬 #以凛冬之名 #以你为期的冬 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "红果为什么在台湾这么火": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "观察者网",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "短的是时长，不是心思。红果在台湾火成这样，靠的可不只是爽感。#红果为什么在台湾这么火",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "追完剧，评论区变成了历史课现场。台湾网友：建议教育界向红果抄作业。#红果为什么在台湾这么火",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "倍儿火",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "红果短剧的含金量还在上升#红果为什么在台湾这么火",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“红果短剧”火遍台湾，为什么有人却急了？ #与释之对谈 #媒体原创 #精选主播说",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "袁成杰被列为失信被执行人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月5日（发布）。男星袁成杰成老赖，涉案金额1210万，其公司被执行26万。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "经视直播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "袁成杰成老赖 涉案金额1210万元",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "男星袁成杰成老赖，涉案金额1210万元 企查查APP显示，近日，北京榴莲娱乐文化传播有限公司新增一条被执行人信息，执行标的约26.02万元，执行法院为上海市第三",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "男星#袁成杰 成#老赖 ，涉案金额1210万元，其公司被执行26万元。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西安广播电视台",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "歌手袁成杰成老赖，涉案金额1210万（来源：都市快报 编辑：刘雨桐）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "无畏契约主播橘子官宣抖音首秀": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "橘子患者",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我将在11月8号晚10在抖音和大家见面 给大家准备了一点礼物 EV63键盘 5个 华为平板 5个 weaimlab鼠标垫20张 五份云雀2耳机 1份gpw5 饱",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张颂文新剧穷小伙拿大结果": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧谷雨（谷东酷酷爽看",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#电视剧谷雨今日开播 这福气有人要吗，海洋哥免费出。#电视剧谷雨 #张颂文 李晓冉（#李小冉 ） 洪顺辉（#洪浚嘉 ）（按姓氏笔画排序）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "首款华为鸿蒙台式机抢先体验": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "李大锤同学",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "首款鸿蒙台式机来了！华为擎云 HM650 真机开箱！#华为首款台式机擎云HM650发布",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林捂捂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "鸿蒙首款台式机抢先上手 第一时间给大家带来华为擎云 HM650的上手，以后单位的电脑也能拥有现代体验了 #抢先体验鸿蒙首款台式机 #华为首款台式机擎云HM650",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "安远发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "华为发布首款鸿蒙商用台式机 #华为 #鸿蒙 #电脑 #华为首款台式机擎云HM650发布",
      "likes": 0,
      "hot": 0
     }
@@ -1302,6 +1067,154 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "肌肉女表达爱意的方式 #女生手臂肌肉线条 #肌肉比心 #健身女孩",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "红果为什么在台湾这么火": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "观察者网",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "短的是时长，不是心思。红果在台湾火成这样，靠的可不只是爽感。#红果为什么在台湾这么火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "追完剧，评论区变成了历史课现场。台湾网友：建议教育界向红果抄作业。#红果为什么在台湾这么火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "倍儿火",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "红果短剧的含金量还在上升#红果为什么在台湾这么火",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“红果短剧”火遍台湾，为什么有人却急了？ #与释之对谈 #媒体原创 #精选主播说",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "考古许飞的采访太好品了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "吴磊一天骑行100公里": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吴磊LEO",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#骑有此理 环海南岛篇EP01：物理意义上烫烫的一集 #交换100个旅途故事",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蓬勃新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "吴磊环海南岛骑行1000公里，在文昌看火箭发射 在三亚自由潜，把海岛风光 航天浪漫和骑行挑战串在一起，海南为什么让骑友“上头”？#吴磊环海南岛骑行1000公里 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "吴磊《骑有此理》环海南岛篇将于11月5日上线，骑行总路程达1000公里，单日骑行超百公里，超40℃高温暴晒，肤色明显分层。#吴磊 #骑有此理 #海南 #骑行 #",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "三角洲新刀皮黑伤测评": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "后会友期厉娜深度解析": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "第四Vibe观察室",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "事实证明友情be真的很有市场，所以那个谁和那个谁第二季能来吗…#后会友期#厉娜许飞#纯稚#友情",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "文深特",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我画地为牢厉娜！许飞厉娜对谈场面震撼内娱 30分钟深度解读综艺《后会友期》，为你梳理背后的“精彩看点”！ #厉娜 #许飞 #后会友期 #文深特深度解读 #影娱热",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "做个稀巴烂",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恨是全盘托出，爱也是全盘托出，太浓烈也太煎熬《后会友期》飞雪线解说版p3#后会友期 #许飞 #厉娜 #综艺 #飞雪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "张颂文新剧穷小伙拿大结果": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电视剧谷雨（谷东酷酷爽看",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电视剧谷雨今日开播 这福气有人要吗，海洋哥免费出。#电视剧谷雨 #张颂文 李晓冉（#李小冉 ） 洪顺辉（#洪浚嘉 ）（按姓氏笔画排序）",
      "likes": 0,
      "hot": 0
     }
@@ -1433,36 +1346,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "深度复盘GEN vs LYON": {
+  "贺炜发文致敬C罗国家队生涯": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "iG对阵GEN前瞻分析": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "无畏契约主播橘子官宣抖音首秀": {
    "stats": {},
    "authors": [
     {
-     "name": "鲨鱼王电竞",
+     "name": "橘子患者",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "chovy晋级四强和IG会师，今年他自己也觉得不一样了？ #英雄联盟S16 #GEN对战LYON #IG对战GEN #热点赛事观察 #抖音精选App",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞葱姜蒜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "抽签拯救了北美 印度神王三把亮剑直接被GEN干断 #英雄联盟S16 #抖音精选APP #热点赛事观察 #GEN战胜LYON #GEN战胜LYON晋级四强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞老山羊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "GEN战胜LYON：超威开始软脚！ #抖音精选APP #热点赛事观察 #Gen晋级四强 #英雄联盟S16 #GEN战胜LYON",
+     "text": "我将在11月8号晚10在抖音和大家见面 给大家准备了一点礼物 EV63键盘 5个 华为平板 5个 weaimlab鼠标垫20张 五份云雀2耳机 1份gpw5 饱",
      "likes": 0,
      "hot": 0
     }
@@ -1470,73 +1373,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "后会友期厉娜深度解析": {
+  "在红果看持械入宋涨知识了": {
    "stats": {},
    "authors": [
     {
-     "name": "第四Vibe观察室",
-     "verify": "",
-     "identity": "",
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "事实证明友情be真的很有市场，所以那个谁和那个谁第二季能来吗…#后会友期#厉娜许飞#纯稚#友情",
+     "text": "网约车司机+货车司机+宝妈+打工人 50多岁大叔带队手搓AI 自学1年就出爆款《持械入宋》： 没人是基金分析师，AI给了新的就业机会 #媒体原创 #媒体精选计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "文深特",
-     "verify": "",
-     "identity": "",
+     "name": "Vista看天下",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我画地为牢厉娜！许飞厉娜对谈场面震撼内娱 30分钟深度解读综艺《后会友期》，为你梳理背后的“精彩看点”！ #厉娜 #许飞 #后会友期 #文深特深度解读 #影娱热",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "做个稀巴烂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恨是全盘托出，爱也是全盘托出，太浓烈也太煎熬《后会友期》飞雪线解说版p3#后会友期 #许飞 #厉娜 #综艺 #飞雪",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "沈阳保洁大叔老钱风穿搭好飒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "沈阳保洁大叔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这就是我每天上班的路，55岁，正是闯的年纪，叔都不服输，年轻人，你必须支棱起来！一起跟叔唠唠，你因为啥这么拼#保洁大叔 #平凡人的生活 #保洁 #初秋街头穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我的偶像巨顽皮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一般电影里这么帅的保洁都是特工伪装的，结果你告诉我他是真保洁？？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芒果妈妈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "法拉利老了还是法拉利#沈阳商场 #保洁 #法拉利 #颜值@摄影师-Eason📷",
+     "text": "全网播放量破66亿，宝妈司机干翻专业导演，AI短剧《持械入宋》为啥这么火？（值班编辑 | 宇程；视频制作 | 鲁梦雨） #V人文 #持械入宋 #AI短剧",
      "likes": 0,
      "hot": 0
     }
@@ -1655,16 +1511,6 @@
    "stats": {},
    "authors": [
     {
-     "name": "甜心阿姨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和你一起上学好像是上辈子的事了#校园青春回忆 #澧县一中 #素颜 #优瞳隐形眼镜 #优瞳粉水片",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "小鱼披萨🍕",
      "verify": "",
      "identity": "",
@@ -1753,6 +1599,16 @@
      "text": "“一半青涩 一半纯真”#少年感 #0#1",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "一颗丸子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一半青涩一半纯真 #高中学生时代",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -1775,107 +1631,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "姐感穿搭法则": {
+  "沈阳保洁大叔老钱风穿搭好飒": {
    "stats": {},
    "authors": [
     {
-     "name": "Nogi",
+     "name": "沈阳保洁大叔",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "轻熟女の穿搭法则 #ootd #气质穿搭",
+     "text": "这就是我每天上班的路，55岁，正是闯的年纪，叔都不服输，年轻人，你必须支棱起来！一起跟叔唠唠，你因为啥这么拼#保洁大叔 #平凡人的生活 #保洁 #初秋街头穿搭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "油泼辣子",
+     "name": "我的偶像巨顽皮",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "刚柔并济*属于轻熟女的松弛穿搭灵感 #可可系 #气质轻熟风 #秋冬复古松弛感穿搭 #姐感穿搭气质拉满",
+     "text": "一般电影里这么帅的保洁都是特工伪装的，结果你告诉我他是真保洁？？",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "阿Sue.",
+     "name": "芒果妈妈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "轻熟女。#outfits #ootd #fyp #姐感",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "在红果看持械入宋涨知识了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "网约车司机+货车司机+宝妈+打工人 50多岁大叔带队手搓AI 自学1年就出爆款《持械入宋》： 没人是基金分析师，AI给了新的就业机会 #媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Vista看天下",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网播放量破66亿，宝妈司机干翻专业导演，AI短剧《持械入宋》为啥这么火？（值班编辑 | 宇程；视频制作 | 鲁梦雨） #V人文 #持械入宋 #AI短剧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "薛之谦万兽之王巡演落地昆明": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "都市时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#昆明的谦友在哪里？！#薛之谦昆明演唱会来了！ 11月5日，据昆明市文化和旅游局，关于薛之谦在拓东体育中心举办的“万兽之王”巡回演唱会-昆明站，目前已收到的文旅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "云南广播电视台",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间定了！薛之谦将在昆明连开7场演唱会，跨年也安排上",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "轻松拿捏穿搭障眼法": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小陈不沉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "174/155斤 全是干货！姐妹们快学起来！！#有效显瘦穿搭 #今日份穿搭公式 #穿搭障眼法 #显瘦穿搭 #穿搭干货",
+     "text": "法拉利老了还是法拉利#沈阳商场 #保洁 #法拉利 #颜值@摄影师-Eason📷",
      "likes": 0,
      "hot": 0
     }
@@ -1980,36 +1765,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "当秋冬穿搭不再all black": {
+  "首款华为鸿蒙台式机抢先体验": {
    "stats": {},
    "authors": [
     {
-     "name": "小玲嘎00",
+     "name": "李大锤同学",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "好韩好喜欢的一套～ #当秋冬穿搭不再allblack #韩系学院穿搭 #奶呼呼秋冬穿搭 #韩系穿搭 #全民进入购物听劝时代",
+     "text": "首款鸿蒙台式机来了！华为擎云 HM650 真机开箱！#华为首款台式机擎云HM650发布",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "翎羽好好吃饭",
+     "name": "林捂捂",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "月银…与星月潮汐共振。好貌美的丝绒旗袍#当秋冬穿搭不再allblack #女装穿搭技巧 #日常旗袍 #ootd穿搭 #穿搭思路分享",
+     "text": "鸿蒙首款台式机抢先上手 第一时间给大家带来华为擎云 HM650的上手，以后单位的电脑也能拥有现代体验了 #抢先体验鸿蒙首款台式机 #华为首款台式机擎云HM650",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "MaS",
+     "name": "安远发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "华为发布首款鸿蒙商用台式机 #华为 #鸿蒙 #电脑 #华为首款台式机擎云HM650发布",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深度复盘GEN vs LYON": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "鲨鱼王电竞",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "年轻要任性 外出要尽兴。#当秋冬穿搭不再allblack#羽绒服穿搭#inmyfeelings",
+     "text": "chovy晋级四强和IG会师，今年他自己也觉得不一样了？ #英雄联盟S16 #GEN对战LYON #IG对战GEN #热点赛事观察 #抖音精选App",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞葱姜蒜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "抽签拯救了北美 印度神王三把亮剑直接被GEN干断 #英雄联盟S16 #抖音精选APP #热点赛事观察 #GEN战胜LYON #GEN战胜LYON晋级四强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞老山羊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "GEN战胜LYON：超威开始软脚！ #抖音精选APP #热点赛事观察 #Gen晋级四强 #英雄联盟S16 #GEN战胜LYON",
      "likes": 0,
      "hot": 0
     }
@@ -2047,6 +1869,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "00后血脉觉醒 人生不过三万天 买个玉镯怎么了#玉镯 #美学 #买首饰是为了取悦自己",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当秋冬穿搭不再all black": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小玲嘎00",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好韩好喜欢的一套～ #当秋冬穿搭不再allblack #韩系学院穿搭 #奶呼呼秋冬穿搭 #韩系穿搭 #全民进入购物听劝时代",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "翎羽好好吃饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "月银…与星月潮汐共振。好貌美的丝绒旗袍#当秋冬穿搭不再allblack #女装穿搭技巧 #日常旗袍 #ootd穿搭 #穿搭思路分享",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "MaS",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "年轻要任性 外出要尽兴。#当秋冬穿搭不再allblack#羽绒服穿搭#inmyfeelings",
      "likes": 0,
      "hot": 0
     }
@@ -2111,23 +1970,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "大摆羽绒服不用当肥粽子": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "孙小桔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来冬天是不用当肥粽子的 不早说",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "更适合年轻人的文玩配饰": {
    "stats": {},
    "authors": [
@@ -2170,16 +2012,53 @@
    "authors": [],
    "lexicon": []
   },
-  "卢昱晓也来饭撒摇了": {
+  "今年立冬吃超长长长饺子": {
    "stats": {},
    "authors": [
     {
-     "name": "卢昱晓工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
+     "name": "顺顺妈爱揍饭",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "都有在看吗#云厘 来饭撒噜 @卢昱晓 #卢昱晓云厘 #饭撒摇",
+     "text": "请你最好的朋友吃超长长长长长长长饺子！#饺子🥟 #超长饺子 #今天吃饺子 #大饺子 #传统美食自己做的好吃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "多加点醋.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "奖励好朋友吃超长长长长饺子！！ #立冬 #饺子 #今年立冬吃超长长长饺子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "青春🌻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不是超长蛋挞吃不起，而是超长水饺更有性价比。#纯手工擀面 #娃娃爱吃的饺子 #农村生活",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "大摆羽绒服不用当肥粽子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "孙小桔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来冬天是不用当肥粽子的 不早说",
      "likes": 0,
      "hot": 0
     }
