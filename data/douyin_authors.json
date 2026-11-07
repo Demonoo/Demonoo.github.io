@@ -1,66 +1,38 @@
 {
- "updated_at": "2026-11-06 23:39",
+ "updated_at": "2026-11-07 00:39",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
+ "topic_count": 48,
  "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
   "T1对战KC": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "英雄联盟",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "T1 2-0 KC 拿下BO5赛点 #S16淘汰赛 #英雄联盟S16 #2026全球总决赛 #T1 #KC",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "国防部回应攻击-21在四川舰起降": {
+  "多地目击巨型火流星划过": {
    "stats": {},
    "authors": [
     {
-     "name": "央视军事",
+     "name": "蓬勃新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“攻击-21”在四川舰成功起降将改变西太平洋海上力量对比？国防部回应！（记者：淳于怀涛）#权威发布",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#国防部回应攻击21在四川舰成功起降 （编辑：刘劲鹰）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "国防部发布",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“攻击-21”无人机在四川舰成功起降是我军新域新质作战力量建设重要阶段性成果",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“攻击-21”无人机在四川舰成功起降是我军新域新质作战力量建设重要阶段性成果",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“攻击-21”隐身无人机首次在四川舰成功起降，国防部回应#国防部 #攻击21无人机 #四川舰",
+     "text": "石家庄网友偶遇天降“大火球”多地目击者拍到巨型火球划过天际，光亮耀眼 最初变蓝又变成黄色，天文馆专家确认，多地目击者拍到的是同一颗火流星#石家庄流星 #北京 #",
      "likes": 0,
      "hot": 0
     }
@@ -97,7 +69,188 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 #2026世界市长对话宁波 生活在中国的意大利经济评论员 Marco Leporati 表示，国际对话有助于增进对中国与世界的了解。他希望通过传递真",
+     "text": "#媒体原创 #2026世界市长对话宁波 一副翻译眼镜，一段28年的友城情谊……世界市长对话在宁波举行，一段段故事精彩上演。 新西兰的奥克兰和宁波成为友城28年，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "CGTN",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【世界市长在宁波 邂逅多彩甬城】11月3日，“2026世界市长对话·宁波”论坛启幕。主办城市宁波借此契机，展现其联通全球的姿态。这座坐落于中国东部沿海的城市，正",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【“来宁波，就是赚到了！” 世界市长走进甬城 感受书香底蕴 江湖潮声】#2026世界市长对话宁波 活动期间，来自世界各国的市长和代表游览了天一阁、东",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "仰望阿布扎比挑战极速破500km/h": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "503.17km/h，仰望阿布扎比公共道路极速挑战，再创全球极速新纪录！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "深视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 11月1日，比亚迪#仰望U9X 在阿联酋阿布扎比E11高速公路测试路段，取得503.17km/h的极速成绩，成为人类历史上首款极速突破500km/h",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "比亚迪仰望U9X在阿联酋公共道路跑出超过500km/h，再度刷新自己保持的全球量产车极速纪录，王传福竖起大拇指为团队点赞祝贺。#王传福祝贺仰望U9X再破纪录",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "二三里资讯",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "破500了！ 仰望U9X 阿布扎比极速503.17km/h，车手：马克·巴森｜吉尼+FIA双认证，中国纯电超跑，站上世界极速之巅。#仰望U9X阿布扎比公路极速挑",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苏老师说车",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "仰望U9X又破世界纪录 503.17公里的时速 真正做到了遥遥领先#仰望U9X阿布扎比公路极速挑战 #仰望U9X全球极速第一#地表最快量产车",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "暴风车速",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "比亚迪仰望U9X打破量产车极速记录，极速达到503.17 km/h，刷新世界纪录。#仰望u9x #比亚迪仰望 #比亚迪 #仰望u9 #极速",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国防部回应攻击-21在四川舰起降": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“攻击-21”在四川舰成功起降将改变西太平洋海上力量对比？国防部回应！（记者：淳于怀涛）#权威发布",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#国防部回应攻击21在四川舰成功起降 （编辑：刘劲鹰）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“攻击-21”无人机在四川舰成功起降是我军新域新质作战力量建设重要阶段性成果",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国防部回应攻击21首次在四川舰成功起降 有记者问：据报道，#攻击21首次在四川舰成功起降#。有媒体称这将拓展中国海军远海作战能力，改变西太平洋海上力量对比。请问",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "国防部发布",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“攻击-21”无人机在四川舰成功起降是我军新域新质作战力量建设重要阶段性成果",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "今日立冬积极过冬": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐狸花酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来立冬有这么多冷知识。 #立冬 #节气 #传统文化 #传统文化 #显化",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "熊出没",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又一年立冬到了，天开始变冷，大家要注意保暖哦~#熊出没来送立冬祝福了 #熊出没#奇迹少女第六季今日开播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "倩说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月7号立冬，今年冬天冷不冷#立冬 #11月6日 #24节气 #立冬节气",
      "likes": 0,
      "hot": 0
     }
@@ -135,23 +288,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "你应该出去看看 去看看这世界 就像是… #我的不烧心旅行地藏不住了 #发现新热地",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "多地目击巨型火流星划过": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "蓬勃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "石家庄网友偶遇天降“大火球”多地目击者拍到巨型火球划过天际，光亮耀眼 最初变蓝又变成黄色，天文馆专家确认，多地目击者拍到的是同一颗火流星#石家庄流星 #北京 #",
      "likes": 0,
      "hot": 0
     }
@@ -233,155 +369,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "北京11月7日试供暖": {
+  "你怎么舍得让有趣的知识流走": {
    "stats": {},
    "authors": [
     {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "浙大猫学长",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月7日北京供暖开始“热身”",
+     "text": "Vibe知识大赏｜声学研究1年，做了这个音效skill #抖音前沿科技首发计划 #vibe知识大赏 #ai新星计划 #抖音精选App知识充电站 #抖音精选App",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "小白debug",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "北京将于11月7日开始供热系统试运行",
+     "text": "Vibe知识大赏 | Super-agent 是什么？ DeepSeek Super-agent 是什么，跟普通 agent 有什么区别? @抖音科技 #Dee",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "北京交通广播",
-     "verify": "蓝V",
-     "identity": "媒体人",
+     "name": "宾大出逃AI_PhD",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【温暖就要来！北京立冬开启试供暖】明天（11月7日）就是立冬节气，北京也将开始供热系统试运行。各供热单位将在试运行期间加强对供热设施的检查和调试，为正式达标供热",
+     "text": "大模型应用｜深度研究 大家在写报告或者论文的时候有没有用过大模型的深度研究Deep Research的功能？你有没有发现对于同一个问题在你正着问和反着问的时候它",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "赵逍遥Xavier",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 北京11月7日开始试供暖！正式供暖周期为11月15日到2027年3月15日。（央视频号：新闻来了）",
+     "text": "Vibe知识大赏｜大模型的底层代码，居然是太极？ #抖音前沿科技首发计划 #ai新星计划 #vibe知识大赏 @抖音科技 #抖音精选app知识充电站 #大模型",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "北京日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "电子智人",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "官宣！北京11月7日起试供暖，供热服务电话公布 #北京明起试供暖 记者从北京市城市管理委了解到，北京将于11月7日开始供热系统试运行，锅炉房陆续点火，热电联产热",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "降温了羽绒服先穿为敬": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "土耳其连环枪击案致8人死亡": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社电视",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "土耳其连环枪击案致8人死亡 #土耳其 #枪击案",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月6日（发布），土耳其西部发生枪击事件，造成8人死亡1人重伤，嫌疑人已被抓获。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "北京发布暴雪黄色预警": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "北京日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "注意防范！北京市发布暴雪黄色预警 #北京市发布暴雪黄色预警 （来源 北京市气象局 编辑 周航）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新京报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京市发布暴雪黄色预警",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#原创新闻 北京市发布暴雪黄色预警，12小时降雪量将达到6毫米以上，请市民注意防范 #北京范儿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京交通广播",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京市气象台发布分区暴雪黄色预警信号#北京发布分区暴雪黄色预警信号 #北京暴雪 #北京天气",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京应急",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京市发布分区暴雪黄色预警信号 ：预计11月7日中午至8日上午，延庆、怀柔、密云、平谷、昌平、门头沟、房山等区的部分地区有大雪到暴雪，12小时降雪量将达到6毫米",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "前方+",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今年下半年首个暴雪预警发布：山西、河北、北京有大雪，局地积雪深度可超8厘米；中东部大部地区气温将普降4-8℃，湖北、安徽局地有大暴雨。（中央气象台）编辑：周周",
+     "text": "Vibe 知识大赏｜马尔可夫链 · 随机里的必然 什么是马尔可夫链？夜里的河上，你只能从脚下这一块石头，跳到下一块。 一个人，一颗星，一整个宇宙—— 难道，一切",
      "likes": 0,
      "hot": 0
     }
@@ -426,106 +463,195 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "江苏多地高中推迟到校时间": {
+  "向C罗和我的青春说再见": {
    "stats": {},
    "authors": [
     {
-     "name": "最泰州",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "天下足球",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "重磅消息！泰州已有高中推迟上学时间！此前有江苏家长在直播节目中反映：孩子在校时长普遍达到15小时，部分甚至超过16小时，担忧长期休息不足会损害身体健康。#泰州 ",
+     "text": "全文款款深情，C罗官宣从国家队退役！#C罗宣布从葡萄牙国家队退役 #媒体精选计划 #C罗",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "蓝星课代表",
+     "name": "花式足球克里斯",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "江苏重拳整治，高中生在校高达16小时，高压作息迎来监管 #零基础看懂全球 #全球创作者计划 #时代砺剑高燃出列 #抖音精选app征稿中",
+     "text": "太突然了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马上评｜高中生一天在校15小时，教育拼的不是“超长待机” 家长反映高中生每天在校长达15小时，江苏省教育厅厅长江涌坦言“深感内疚”，将整治随意延长在校时间、过早",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "主持人阳光",
+     "name": "向余望-7",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "高中生每天在校15小时多根本睡不够 #江苏教育厅长回应在校时长问题 #高中生睡眠 #创作者伙伴计划 #媒体人精选计划",
+     "text": "CR7 永远在我心中❤️#c罗 #致敬c罗 C罗可能不是一个完美的偶像 他固执 倔强 对胜利的渴望几乎疯狂 以至于他不能坦然的接受失败 但这就是最真实的他 不认",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "主持人王景",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "农村的罗",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "高中生在校15小时，老师批百份作业，家长掏钱补课！强压之下谁不是一身疲惫？教育不是超长待机的耐力赛#媒体人精选计划",
+     "text": "太突然了，C罗告别国家队退役！“到了该交还国家队7号球衣的时候了。”看到这句话，绷不住了…。从里斯本少年到传奇巨星，C罗的葡萄牙国家队生涯，正式画上句号。致敬传",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "田萌不卖萌",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "一个香蕉说球",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "江苏多地高中生在校“超长待机”，厅长一句深感内疚，戳破千万高中生的真实疲惫#江苏教育厅长回应在校时长问题 #江苏多地整改高中生超长待机 #媒体人精选计划 #精选",
+     "text": "突发，C罗宣布正式从葡萄牙国家队退役！ #C罗 #葡萄牙国家队 #c罗退役 #利雅得胜利 #曼联",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "马俊哲律师",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "宣宣",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一天在校15小时！高中生超长待机，办学红线能不能守住？#江苏淮安某中学高中生在校超长待机家长担心休息不足引争议 #江苏教育厅长回应在校时长问题 #江苏多所学校调",
+     "text": "难说再见，但看到世界杯最后一舞全场用掌声结尾送别你的时候，想起当年站在阿图玛玛的漫天嘘声里，我早就释怀了。能看到你最后一舞，我不遗憾了。你永远是我的足球初恋，永",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大众新闻-大众日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 江苏家长担忧高中生每天在校超过15小时，江苏教育厅厅长回应：深感愧疚，减负不能止于道歉，请把“内疚”变成制度纠偏 #媒体精选计划 #精选主播说 #大",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大众新闻•半岛都市报",
+     "name": "懂球帝",
      "verify": "蓝V",
-     "identity": "媒体人",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "半岛时评｜在校时长15小时，对高中生不能只有“内疚”（半岛全媒体记者 姚绍毅 姜瑞胜 宋总业）#精选主播说#媒体人精选计划#江苏教育厅厅长回应在校时长问题",
+     "text": "再见，C罗 再见，青春#C罗",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "降温了羽绒服先穿为敬": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "华北北部将现大到暴雪": {
+   "stats": {},
+   "authors": [
     {
-     "name": "冀时新闻",
+     "name": "中国气象",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 江苏家长吐槽：高中生每天在校15小时，早上6点40分到校晚上10点多放学，成年人上班15小时都扛不住！别让“高三就该这样”拉低教育底线 #教育",
+     "text": "7-9日有大范围降温雨雪天气 华北北部有大到暴雪 | 首席说天气",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "华北一带降雪鼎盛时段要来了！ 多地将有大到暴雪。#央视天气预报",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冷空气来袭，我国部分地区有大雪。暴雨、雨夹雪、8级大风，马上到达湖北",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #什么时候下雪 【#多地周末下雪 】明日立冬，通常立冬节气前后，影响我国的冷空气都开始变得活跃起来，此时如果有足够的水汽配合，就可能出现“立冬雪”。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新一轮冷空气来袭，华北等地部分地区或现强降雪",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "JDG晋级王者荣耀年总决赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "周三也休文体",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜北京JDG进入王者荣耀2026年总决赛，真的超级棒！#北京JDG首次进入KPL年总决赛 #北京JDG #kpl年总决赛 #王者荣耀 #JDG我们凤凰山见",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "KPL王者荣耀职业联赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "要让这天遮不住我的眼，让这地盖不住我的心！恭喜北京JDG晋级2026年王者荣耀KPL年度总决赛·决赛！#KPL十周年#2026KPL年度总决赛#北京JDG#KP",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大元游戏(KPL)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "JDG 4-0 狼队全面解析 年总淘汰赛 三十年河东三十年河西，BP和局内操作全面压制，京东零封横扫狼队，三年之约要到了？#2026kpl年度总决赛 #kpl十",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "KPL.凌迟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第一张决赛门票争夺！ 谁能率先进入凤凰山。JDG零封横扫狼队后 强势进入胜者组决赛 迎战下半区的WB 能否再度突破队史 同为队内大腿的边路 新生代VS中生代 光",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王者天黑君",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "JDG4-2WB，清融自称月亮中，无畏妙手空空，行天豪言夺冠 #2026kpl年度总决赛 #KPL十周年 #JDG #JDG清融 #鱼你共赏KPL",
      "likes": 0,
      "hot": 0
     }
@@ -543,6 +669,73 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "谢谢你C罗 ❤️‍🩹❤️‍🩹",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "北京发布暴雪黄色预警": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "北京日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "注意防范！北京市发布暴雪黄色预警 #北京市发布暴雪黄色预警 （来源 北京市气象局 编辑 周航）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京市发布暴雪黄色预警",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原创新闻 北京市发布暴雪黄色预警，12小时降雪量将达到6毫米以上，请市民注意防范 #北京范儿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京应急",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京市发布分区暴雪黄色预警信号 ：预计11月7日中午至8日上午，延庆、怀柔、密云、平谷、昌平、门头沟、房山等区的部分地区有大雪到暴雪，12小时降雪量将达到6毫米",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京交通广播",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京市气象台发布分区暴雪黄色预警信号#北京发布分区暴雪黄色预警信号 #北京暴雪 #北京天气",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "前方+",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今年下半年首个暴雪预警发布：山西、河北、北京有大雪，局地积雪深度可超8厘米；中东部大部地区气温将普降4-8℃，湖北、安徽局地有大暴雨。（中央气象台）编辑：周周",
      "likes": 0,
      "hot": 0
     }
@@ -637,83 +830,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "向C罗和我的青春说再见": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "天下足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全文款款深情，C罗官宣从国家队退役！#C罗宣布从葡萄牙国家队退役 #媒体精选计划 #C罗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "花式足球克里斯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太突然了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "向余望-7",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "CR7 永远在我心中❤️#c罗 #致敬c罗 C罗可能不是一个完美的偶像 他固执 倔强 对胜利的渴望几乎疯狂 以至于他不能坦然的接受失败 但这就是最真实的他 不认",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农村的罗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太突然了，C罗告别国家队退役！“到了该交还国家队7号球衣的时候了。”看到这句话，绷不住了…。从里斯本少年到传奇巨星，C罗的葡萄牙国家队生涯，正式画上句号。致敬传",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一个香蕉说球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "突发，C罗宣布正式从葡萄牙国家队退役！ #C罗 #葡萄牙国家队 #c罗退役 #利雅得胜利 #曼联",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宣宣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "难说再见，但看到世界杯最后一舞全场用掌声结尾送别你的时候，想起当年站在阿图玛玛的漫天嘘声里，我早就释怀了。能看到你最后一舞，我不遗憾了。你永远是我的足球初恋，永",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "懂球帝",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "再见，C罗 再见，青春#C罗",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "库里升至历史得分榜第17位": {
    "stats": {},
    "authors": [
@@ -738,12 +854,12 @@
      "hot": 0
     },
     {
-     "name": "金州勇士吧",
+     "name": "瞎猫遇见🏀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“库里连续稳定高效输出，其他球员各司其职，替补席上还有几位主力伤缺，这赛季的勇士真有看头了”#库里升至历史得分榜第17位 #勇士逆转战胜热火 #金州勇士 #do",
+     "text": "#库里升至历史得分榜第17位 #库里#金州勇士队 #字母哥#金州勇士 勇士大胜热火豪取6连胜！库里得分历史17！",
      "likes": 0,
      "hot": 0
     },
@@ -761,199 +877,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "反跨境腐败法表决通过": {
+  "S16淘汰赛热点赛事观察": {
    "stats": {},
    "authors": [
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "反跨境腐败法表决通过！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 新华社消息｜反跨境腐败法表决通过（记者：孙少龙、胡了然）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #反跨境腐败法 表决通过，距离反腐“无死角”又进一步#精选主播说 #东方快评 #子午观潮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社权威快报|反跨境腐败法表决通过",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第八十九号主席令说，《中华人民共和国反跨境腐败法》已由中华人民共和国第十四届全国人民代表大会常务委员会第二十五次会议于2026年11月6日通过，现予公布，自公布",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "在乌镇被机器人“拿捏”了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国西藏网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【乌镇网事】记者体验机器人小店，情绪价值拉满，未来感十足！ 记者体验机器人小店，情绪价值拉满，未来感十足！（中国西藏网 记者/毕然）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美丽浙江",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“脑控机器人”真的要来了吗？世界互联网大会乌镇峰会上，强脑科技展示脑电波操控机器人，完成了拿起苹果等多种动作。（记者：赵晨琰）#AI乌镇科创桐乡 #乌镇七子 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月4日，浙江乌镇，具身智能厨房也太顶了，3-4分钟炒出一道菜 能炒800多道，全流程自动化，一荤一素套餐定价15-18元，工作人员：未来还将升级",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "1818黄金眼",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟机器人体验踢球 记者：疑似可报工伤 #乌镇网事 #AI乌镇科创桐乡 #机器人踢球 #浙江dou知道 #乌镇峰会开大了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "从烽火岁月到盛世中华信仰从未改变": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【新长征路上的对话丨第十二集 今天的长征】 1935年吴起镇大捷，中央红军长征胜利结束，开启中国革命崭新篇章。今天，昔日黄土高原蝶变绿水青山，红色老区通高铁、兴",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吴记者正能量",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在江西兴国官田村，有一支专门为红军洗衣的队伍？ 这个小小的村落，藏着中国共产党独立创办的第一座大型综合性兵工厂——官田中央兵工厂。 妇女洗衣是烽火年代最常见的支",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "贺炜发文致敬C罗国家队生涯": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "邓超约了一场特殊球局": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "老邓（SuperDeng）",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好家伙，我们三个篮球天才@吴忠华💚 @stephcastle卡斯尔 总算碰面了！#邓超 #你是我的超级英雄",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "邓超工作室",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "敢再试一次的人，自带超能力！#邓超 #你是我的超级英雄",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "第五人格终于想起自己是恐怖游戏": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "鹿律UI（宁芙奖请投祭司）",
+     "name": "教练明仔（东东电竞）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新大金个性动作好忧郁 #游戏破壁计划 #第五人格 #就这个第五人格爽",
+     "text": "前LPL教练复盘丨IG 3-1 TES丨这永恩谁来能玩？ #IG战胜TES晋级四强#热点赛事观察#IG的奇迹还在继续 #英雄联盟S16#抖音精选APP",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "我好像在哪裡見過你",
+     "name": "联盟导员",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "码的心脏喷雪#加页手记 #第五人格#加页手记磷光症 #加页手记新赛季",
+     "text": "TES告别世界赛：三六九回头全是不甘！ #S16淘汰赛 #TES告别s16舞台 #抖音精选APP #369 #S16淘汰赛IG对战TES",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "咕咚莫宁",
+     "name": "尹天CLANG",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "S1单人噩梦，磷光镇保姆级攻略 #加页手记 #加页手记噩梦模式 #S1噩梦模式攻略",
+     "text": "IG半决赛前瞻，对阵GEN胜算几何，如何应对GEN？ #英雄联盟S16#热点赛事观察#IG战胜TES#GEN战胜LYON #IG的奇迹还在继续",
      "likes": 0,
      "hot": 0
     }
@@ -998,6 +951,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "第五人格终于想起自己是恐怖游戏": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "鹿律UI（宁芙奖请投祭司）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新大金个性动作好忧郁 #游戏破壁计划 #第五人格 #就这个第五人格爽",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我好像在哪裡見過你",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "码的心脏喷雪#加页手记 #第五人格#加页手记磷光症 #加页手记新赛季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咕咚莫宁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "S1单人噩梦，磷光镇保姆级攻略 #加页手记 #加页手记噩梦模式 #S1噩梦模式攻略",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "韩系秋冬显瘦穿搭": {
    "stats": {},
    "authors": [
@@ -1035,87 +1025,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "秋冬百搭通勤风穿搭合集": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小小太太阳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "退货大王的素颜新衣试穿 又是一期百搭通勤的美衣！每一套都无敌美腻！#穿搭分享 #梨形身材穿搭 #沉浸式开箱 #方圆脸 #秋冬穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今天是太阳雨越对抗越美味": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "今天是太阳雨（🥭12点等雨来",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "食堂突然飘来好大一股醋味 #今天是太阳雨 #杨超越 #董思成 #郑雨 #陈砚周",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黄渤自曝今年几乎没戏拍": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月6日（发布）。黄渤自曝今年几乎没戏拍，长时间没有好作品会有疲劳感，直言又有多少人在做喜欢的工作，自己又有什么好抱怨的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员黄渤在接受采访称长时间接不到好戏，就会有疲劳感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看度新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "52岁黄渤自曝今年几乎没戏拍：长期没好作品会有疲劳感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "逐浪新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月5日，“黄渤谈父母患老年痴呆”登上热搜。 黄渤在访谈节目《热浪之外》中，和鲁豫聊起了父母的阿尔茨海默症。他说，父亲已经因为这个病离世。晚年时，父亲认不出他",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "后会友期群像太绝了": {
    "stats": {},
    "authors": [
@@ -1143,36 +1052,154 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王彦霖救助小狗后续": {
+  "今天是太阳雨越对抗越美味": {
    "stats": {},
    "authors": [
     {
-     "name": "王彦霖",
+     "name": "今天是太阳雨（🥭12点等雨来",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "食堂突然飘来好大一股醋味 #今天是太阳雨 #杨超越 #董思成 #郑雨 #陈砚周",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋冬百搭通勤风穿搭合集": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小小太太阳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "退货大王的素颜新衣试穿 又是一期百搭通勤的美衣！每一套都无敌美腻！#穿搭分享 #梨形身材穿搭 #沉浸式开箱 #方圆脸 #秋冬穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "台湾观众看红果短剧感动哭了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "共同的历史文化记忆融入短剧之中。当厚重的历史化作生动的故事，自然能唤起两岸的情感共鸣。#台湾网友看红果短剧感动哭了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "钮祜禄淑芬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "同样的文化根脉藏在故事里。不少中国台湾的观众看完红果国风短剧，主动去深挖背后的历史典故，这样润物无声的文化共鸣，真的很美好。#台湾网友看红果短剧感动哭了 #台湾",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "喂我花生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "直击普通人的悲欢与温柔，这些短剧，让两岸观众看到了共通的情感底色。 #两岸观众在红果里找到同款感动 #台湾网友看红果短剧感动哭了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄渤自曝今年几乎没戏拍": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月6日（发布）。黄渤自曝今年几乎没戏拍，长时间没有好作品会有疲劳感，直言又有多少人在做喜欢的工作，自己又有什么好抱怨的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看度新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "52岁黄渤自曝今年几乎没戏拍：长期没好作品会有疲劳感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "演员黄渤在接受采访称长时间接不到好戏，就会有疲劳感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "逐浪新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月5日，“黄渤谈父母患老年痴呆”登上热搜。 黄渤在访谈节目《热浪之外》中，和鲁豫聊起了父母的阿尔茨海默症。他说，父亲已经因为这个病离世。晚年时，父亲认不出他",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "近日，演员黄渤在访谈中谈及父母患阿尔兹海默症， 并表示担心遗传风险。11月5日，四川观察记者采访医生：阿尔兹海默症女性的发病率是男性的两倍，如果直系亲属有阿尔兹",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "邓超约了一场特殊球局": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "老邓（SuperDeng）",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "有人爱它 就会疯狂的长出血肉💗 #养宠需负责 #请尊重生命 #领养大于买卖",
+     "text": "好家伙，我们三个篮球天才@吴忠华💚 @stephcastle卡斯尔 总算碰面了！#邓超 #你是我的超级英雄",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "邓超工作室",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#王彦霖救助小狗后续 被救下的流浪繁殖犬Lucky活过来了！吃了一辈子苦的小狗这次终于遇上了心软的“神”。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青岛新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员王彦霖在车流中救下流浪狗 送医检查发现是盆骨骨折繁育犬 小狗沦为繁殖工具 受苦受难 王彦霖决定收养后取名为Lucky 配文：愿你的每一天都比昨天更好 （编辑",
+     "text": "敢再试一次的人，自带超能力！#邓超 #你是我的超级英雄",
      "likes": 0,
      "hot": 0
     }
@@ -1180,26 +1207,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "隔岸手势舞挑战": {
+  "白小纯写字谁看了不高反": {
    "stats": {},
    "authors": [
     {
-     "name": "糖心蛋",
+     "name": "妈天生带野",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天坛好多人啊啊啊啊 #手势舞 #北京 #格格装",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "饺子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#可楼版隔岸 #可楼 也有春花秋月 也望相守不渝～ #饺你跳舞 #抖音玩法合伙人计划 #抖舞玩法模范生",
+     "text": "字已经是神的存在了，感觉把这封信扔了会自己跑回来#白小纯 #青稚 #后会友期 #写字",
      "likes": 0,
      "hot": 0
     }
@@ -1207,46 +1224,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "现场见证BLG战胜DK": {
+  "我很有当老大的天赋": {
    "stats": {},
    "authors": [
     {
-     "name": "胸肌很大的良小伞",
+     "name": "吾乃天之饺子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "恭喜BLG！！！半决赛加油！！！就在今年有感觉吗！！#热点观赛团",
+     "text": "这个ai深得我心",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "老A",
+     "name": "piao",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "BLG怕我胳膊举酸 3:0速通了直接 #热点观赛团 #BLG战胜DK #英雄联盟s16 #BLG #DK",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "暴龙小哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "DK遗憾止步八强，许哥鞠躬告别舞台， 网友：LPL最有希望的一年！#英雄联盟s16 #dk对战blg #blg战胜dk #showmaker #热点观赛团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电竞小学妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Showmaker赛后无奈摇头 网友：三局只拿一条龙，心态都炸了！#英雄联盟S16 #DK对战BLG #blg #dk #knight",
+     "text": "#古惑仔cos 哈哈哈哈哈，我很有当古惑仔的天赋",
      "likes": 0,
      "hot": 0
     }
@@ -1345,16 +1342,43 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "俄乌在顿巴斯多线战斗激烈": {
+  "贺炜发文致敬C罗国家队生涯": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "厉娜这组随拍太有氛围感": {
    "stats": {},
    "authors": [
     {
-     "name": "凤凰卫视",
+     "name": "厉娜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "分享一份🧋#娜就一起玩儿 #厉娜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "致PEL新老观众的一封信": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "BLG晋级四强后发文": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "BLG电子竞技俱乐部",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "俄乌在顿巴斯四线战斗激烈，多地持续拉锯战，俄军在库皮扬斯克与红利曼打出突出部 #俄乌 #顿巴斯 #凤凰记者一线直击 #媒体精选计划 #直击第一线",
+     "text": "【#2026全球总决赛 】 破风而行，信念愈坚。 我们成功晋级2026全球总决赛四强！ 一路并肩，步履不停。征途未竟，下一程，继续向着更高处进发！ #BLG晋级",
      "likes": 0,
      "hot": 0
     }
@@ -1362,36 +1386,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "台湾观众看红果短剧感动哭了": {
+  "现场见证BLG战胜DK": {
    "stats": {},
    "authors": [
     {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "共同的历史文化记忆融入短剧之中。当厚重的历史化作生动的故事，自然能唤起两岸的情感共鸣。#台湾网友看红果短剧感动哭了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "钮祜禄淑芬",
+     "name": "胸肌很大的良小伞",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "同样的文化根脉藏在故事里。不少中国台湾的观众看完红果国风短剧，主动去深挖背后的历史典故，这样润物无声的文化共鸣，真的很美好。#台湾网友看红果短剧感动哭了 #台湾",
+     "text": "恭喜BLG！！！半决赛加油！！！就在今年有感觉吗！！#热点观赛团",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "喂我花生",
+     "name": "老A",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "直击普通人的悲欢与温柔，这些短剧，让两岸观众看到了共通的情感底色。 #两岸观众在红果里找到同款感动 #台湾网友看红果短剧感动哭了",
+     "text": "BLG怕我胳膊举酸 3:0速通了直接 #热点观赛团 #BLG战胜DK #英雄联盟s16 #BLG #DK",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "暴龙小哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "DK遗憾止步八强，许哥鞠躬告别舞台， 网友：LPL最有希望的一年！#英雄联盟s16 #dk对战blg #blg战胜dk #showmaker #热点观赛团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电竞小学妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Showmaker赛后无奈摇头 网友：三局只拿一条龙，心态都炸了！#英雄联盟S16 #DK对战BLG #blg #dk #knight",
      "likes": 0,
      "hot": 0
     }
@@ -1399,36 +1433,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "姐感穿搭法则": {
+  "隔岸手势舞挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "Nogi",
+     "name": "糖心蛋",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "轻熟女の穿搭法则 #ootd #气质穿搭",
+     "text": "天坛好多人啊啊啊啊 #手势舞 #北京 #格格装",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "油泼辣子",
+     "name": "饺子",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "刚柔并济*属于轻熟女的松弛穿搭灵感 #可可系 #气质轻熟风 #秋冬复古松弛感穿搭 #姐感穿搭气质拉满",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿Sue.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "轻熟女。#outfits #ootd #fyp #姐感",
+     "text": "#可楼版隔岸 #可楼 也有春花秋月 也望相守不渝～ #饺你跳舞 #抖音玩法合伙人计划 #抖舞玩法模范生",
      "likes": 0,
      "hot": 0
     }
@@ -1436,16 +1460,83 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "轻松拿捏穿搭障眼法": {
+  "跟着后会友期去旅行": {
    "stats": {},
    "authors": [
     {
-     "name": "小陈不沉",
+     "name": "叶山南",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "174/155斤 全是干货！姐妹们快学起来！！#有效显瘦穿搭 #今日份穿搭公式 #穿搭障眼法 #显瘦穿搭 #穿搭干货",
+     "text": "看后会友期，才知道进藏的火车有多美。但她们举起相机，眼里只有对方 #火车进藏 #后会友期 #许飞 #厉娜 #飞雪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝑴𝒂𝒓𝒊𝒔𝒐𝒍 💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我仍感叹于世界之大，我永远也走不完。 点开《后会友期》第二期，第一幕的站点就戳到我了，好美，因为这个节目，我又知道了这个世界新的地方，但或许我永远也走不到这些地",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一口冰镇红茶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不得不说湖南卫视真会选地方啊#湖南卫视 #芒果TV #后会友期 #许飞厉娜 #厉娜原谅许飞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "抹茶大王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "甘肃你也要拿到大结果吗！#后会友期 #甘肃 #纯稚 #飞雪 #文旅",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我和豆包关系最好时belike": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李蠕蠕",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不是在拍热点就是在拍热点的路上！终于一次性拍完所有热点了，厉娜！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "累子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "绝密档案 #我和豆包最好的时候belike#豆包",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小熊的奇思妙想",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当别人拥有全能管家时…#我和豆包最好的时候belike#豆包#内容过于真实 #真实还原#管家 @DOU+小助手",
      "likes": 0,
      "hot": 0
     }
@@ -1507,22 +1598,22 @@
      "hot": 0
     },
     {
-     "name": "一米阳光《拒绝私聊》",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一米阳光《拒绝私聊》",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "贾姐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "贾姐",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一米阳光《拒绝私聊》",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一米阳光《拒绝私聊》",
      "likes": 0,
      "hot": 0
     },
@@ -1587,216 +1678,66 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "致PEL新老观众的一封信": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "中超收官山东泰山将迎战成都蓉城": {
+  "黑猫顺拐舞一跳通透极了": {
    "stats": {},
    "authors": [
     {
-     "name": "山东体育休闲频道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中超收官之战悬念拉满，山东泰山主场迎战成都蓉城，锁定山东体育休闲频道看直播",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "左海涛",
+     "name": "一块腹肌",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "唐田展望泰山队打成都，底线是赢球！ 唐田：“我们泰山队收官战底线是赢球，这不是礼物，也不是帮谁。大连的冠军，要靠自己赢回来，我也争取不让家乡失望。”#泰山队 #",
+     "text": "?#顺拐舞 #黑猫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "九又四分之三",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#成都蓉城今日出征 11月6日，成都蓉城球员从成都出发，即将客场对战山东。球迷在机场送行、为球员助威，球员也热情回应并签名合影。这场比赛是决定冠军归属的关键一战",
+     "text": "？#猎奇#巴西顺拐舞 #酷冰侠",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "日报体育",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成都球迷在飞往济南的航班上喊起了雄起 成都球迷陆续来到济南，成都球迷们在成都飞往济南的航班上就已经喊起了“雄起”，誓要把冠军带回成都#中超 #中超收官山东泰山将",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "梅戈",
+     "name": "绝望的白色老吴",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "成都蓉城这冠军，我真吹不动了！争口气吧！ 8月吹躺冠，现在多次机会全浪费。三连败！四轮0进球！末轮客场踢山东，我是真不敢立flag了。#山东泰山vs成都蓉城 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "BLG晋级四强后发文": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "BLG电子竞技俱乐部",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#2026全球总决赛 】 破风而行，信念愈坚。 我们成功晋级2026全球总决赛四强！ 一路并肩，步履不停。征途未竟，下一程，继续向着更高处进发！ #BLG晋级",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我和豆包关系最好时belike": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "李蠕蠕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不是在拍热点就是在拍热点的路上！终于一次性拍完所有热点了，厉娜！",
+     "text": "咪也有很多话想说呀 咪想你 #地铁偶遇喵星人 #喵#老吴#猫 #萌",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "累子",
+     "name": "德皓",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "绝密档案 #我和豆包最好的时候belike#豆包",
+     "text": "通透 #巴西顺拐舞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小熊的奇思妙想",
+     "name": "鸡奋陀螺",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "当别人拥有全能管家时…#我和豆包最好的时候belike#豆包#内容过于真实 #真实还原#管家 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "金铲铲大橘大利玩法大赏": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "五六一(金铲铲/云顶)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "稳定百分百追出三星七费，大橘大利最强黑科技机制玩法 最强T0暗影九五公式#金铲铲大橘大利 #金铲铲自然之力",
+     "text": "doja cat跳了sawadika #sawadika",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "林小北Lindo",
+     "name": "🕷️🕷️🕷️",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "铲铲搜打撤上线了！一期视频带你玩懂新模式大橘大利！ #金铲铲之战 #云顶之弈 #林小北 #铲一把 #大橘大利",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "金铲铲樵夫(欢迎投稿)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大橘大利真正的盗宗：不偷三星四费，直接全员偷光装！ #金铲铲自然之力 #金铲铲大橘大利#金铲铲之战@DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "后会友期第四期看点": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我是一只粽子啊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "彻底决裂？道歉相拥！《后会有期》第四期！完全不够看！ #后会友期 #影娱热点团 #后会友期友情品鉴团 #影娱漫谈编辑部",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杉树",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王子璇退还了写序的三万块 王子璇太棒了 退了写序的三万块后说不想做朋友了 还说自己虽然狼狈但是不丢人 王子璇真的一点都不丢人 #后会友期 #王子璇 #影娱热点团",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "赵丽颖黄晓明共同点亮金鸡": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "搜狐娱乐",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "姐姐笑的好开心～ #赵丽颖 #金鸡奖 #金鸡奖开幕式",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年中国金鸡百花电影节开幕式｜刚刚，黄晓明、赵丽颖点亮金鸡！（编辑/挺秀 责编/陈倩 编审/林军）#2026年中国金鸡百花电影节 #厦门进入金鸡时间 #金",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电影频道融媒体中心",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#黄晓明赵丽颖点亮金鸡 光影同行， 曜启金鸡。电影人#黄晓明 、#赵丽颖 亮相#2026年中国金鸡百花电影节开幕式 ，共同点亮金鸡，见证本届金鸡奖系列活动荣耀开",
+     "text": "Nimda kildu",
      "likes": 0,
      "hot": 0
     }
@@ -1808,6 +1749,60 @@
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "轻松拿捏穿搭障眼法": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小陈不沉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "174/155斤 全是干货！姐妹们快学起来！！#有效显瘦穿搭 #今日份穿搭公式 #穿搭障眼法 #显瘦穿搭 #穿搭干货",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "姐感穿搭法则": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Nogi",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "轻熟女の穿搭法则 #ootd #气质穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "油泼辣子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刚柔并济*属于轻熟女的松弛穿搭灵感 #可可系 #气质轻熟风 #秋冬复古松弛感穿搭 #姐感穿搭气质拉满",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿Sue.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "轻熟女。#outfits #ootd #fyp #姐感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   }
  }
 }
