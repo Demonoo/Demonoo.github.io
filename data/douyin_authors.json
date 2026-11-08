@@ -1,11 +1,38 @@
 {
- "updated_at": "2026-11-08 18:40",
+ "updated_at": "2026-11-08 19:42",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
  "ok_count": 45,
  "lexicon_count": 0,
  "topics": {
+  "BLG对战T1": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛半决赛第二日对阵预告。11月9日 6:00 BLG对战T1 （BO5） 解说席：记得、米勒、Rita 评论席：毛毛、王淞、Cat 主持人：余霜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "马击妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "也许有一天我们会对英雄联盟电子竞技失去信心 #英雄联盟s16 #blg#bin #AI创作浪潮计划 #Libtv",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "成都蓉城致歉": {
    "stats": {},
    "authors": [
@@ -50,39 +77,12 @@
      "hot": 0
     },
     {
-     "name": "央视体育",
+     "name": "四川观察",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "成都蓉城7次错失冠军点获得本赛季中超亚军 | 奥运来了 #成都蓉城获得中超亚军 #成都蓉城7次错失冠军点 #中超",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "BLG对战T1": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "英雄联盟赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026全球总决赛半决赛第二日对阵预告。11月9日 6:00 BLG对战T1 （BO5） 解说席：记得、米勒、Rita 评论席：毛毛、王淞、Cat 主持人：余霜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "马击妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也许有一天我们会对英雄联盟电子竞技失去信心 #英雄联盟s16 #blg#bin #AI创作浪潮计划 #Libtv",
+     "text": "#成都蓉城球迷赛后哭了 ：下一次有夺冠机会不知道还要等多久。11月8日，中超成都蓉城客场2:3输给山东泰山，争冠对手大连英博3比1战胜天津，成都蓉城积分相等，因",
      "likes": 0,
      "hot": 0
     }
@@ -100,83 +100,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "大国重器向地下万米进军！国产12000米超级钻机和全套国产技术组，让万米深井走向“常态化作业”，在数百公里外，实时监控井下各项关键参数，精准管控每一步作业。#大",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "大连时隔21年重夺中超冠军": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "足球报",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "足球没有不可能！中超末轮英博雪夜擒津门虎，逆转蓉城捧走火神杯 #中超冠军 #大连英博 #独家看中超就在咪咕 #足球咕起来",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026中超大结局！大连英博奇迹夺冠，成都蓉城错失7个“冠军点”",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026赛季中超冠军——大连英博！。2026赛季中超联赛在今天下午落下帷幕，最终，领头羊成都蓉城客场不敌山东泰山，而大连英博则是主场战胜天津津门虎！最终凭借相互",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一镜到底｜21年终圆梦 #大连队再夺中超冠军 #大连中超冠军 #中超争冠热血沸腾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不可思议的逆转！时隔21年，大连足球城再次捧起火神杯。恭喜大连！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "18分大逆转，“博”出奇迹！大连英博队夺得2026赛季中超联赛冠军。祝贺！（总台记者 陶泽文 苏泽丰）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大连英博获2026赛季中超冠军，祝贺！#媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -288,6 +211,83 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "大连时隔21年重夺中超冠军": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "足球报",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "足球没有不可能！中超末轮英博雪夜擒津门虎，逆转蓉城捧走火神杯 #中超冠军 #大连英博 #独家看中超就在咪咕 #足球咕起来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026中超大结局！大连英博奇迹夺冠，成都蓉城错失7个“冠军点”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026赛季中超冠军——大连英博！。2026赛季中超联赛在今天下午落下帷幕，最终，领头羊成都蓉城客场不敌山东泰山，而大连英博则是主场战胜天津津门虎！最终凭借相互",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一镜到底｜21年终圆梦 #大连队再夺中超冠军 #大连中超冠军 #中超争冠热血沸腾",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不可思议的逆转！时隔21年，大连足球城再次捧起火神杯。恭喜大连！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "18分大逆转，“博”出奇迹！大连英博队夺得2026赛季中超联赛冠军。祝贺！（总台记者 陶泽文 苏泽丰）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大连英博获2026赛季中超冠军，祝贺！#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "成都蓉城客场不敌泰山无缘冠军": {
    "stats": {},
    "authors": [
@@ -362,22 +362,22 @@
      "hot": 0
     },
     {
-     "name": "央视体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成都蓉城7次错失冠军点获得本赛季中超亚军 | 奥运来了 #成都蓉城获得中超亚军 #成都蓉城7次错失冠军点 #中超",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "四川观察",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#成都蓉城球迷赛后哭了 ：下一次有夺冠机会不知道还要等多久。11月8日，中超成都蓉城客场2:3输给山东泰山，争冠对手大连英博3比1战胜天津，成都蓉城积分相等，因",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "成都蓉城7次错失冠军点获得本赛季中超亚军 | 奥运来了 #成都蓉城获得中超亚军 #成都蓉城7次错失冠军点 #中超",
      "likes": 0,
      "hot": 0
     }
@@ -479,56 +479,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "布伦特油价一周暴跌超16%": {
+  "大连球员发抖音晒中超奖杯": {
    "stats": {},
    "authors": [
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "吕焯毅_",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国际油价暴跌！布伦特油价一周跌超16% 纽约油价一度跌破90美元 #国际油价",
+     "text": "大连是冠军🏆。愿意相信奇迹永远比完成奇迹更重要🍀 曾经是遗憾 现在是奇迹🩵 你们太牛逼了 谢谢你们🙏我们是冠军🏆 #大连是冠军",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "毛伟杰",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国际油价一周暴跌超16%！布伦特原油创2020年以来最大单周跌幅。两方面因素看懂这轮大跌：一是美伊冲突进一步升级预期降温；二是中东原油供应趋于宽松。",
+     "text": "毛伟杰",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "21世纪经济报道",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "Yang_杨铭锐",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国际油价一周暴跌超16%！布伦特原油创2020年以来最大单周跌幅 #国际油价 #布伦特原油 #石油 （编辑：张迎）",
+     "text": "我们是🏆。#中超冠军奖杯 #大连英博#大连是冠军",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "罗竞",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "原油暗盘上涨，国际油价一周暴跌16%； 本周以来，国际油价大幅下跌，美油期货主力合约价格一周下跌12.76%；布油期货主力合约价格一周下跌16.42%，创202",
+     "text": "舒服了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "安徽视讯",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "油价暴跌 当地时间8日凌晨伊朗称两艘油轮在霍尔木兹海峡触雷起火。（编辑：雪儿）国际油价暴跌，破每桶90美元，跌超16%，创2020年以来最大单周跌幅#油价下调 ",
+     "text": "不可思议的逆转！时隔21年，大连足球城再次捧起火神杯。恭喜大连！",
      "likes": 0,
      "hot": 0
     }
@@ -553,36 +553,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "湘超衡阳1:0娄底": {
+  "最后一位开国将军王扶之逝世": {
    "stats": {},
    "authors": [
     {
-     "name": "衡阳日报",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月8日晚，湘超淘汰赛第一回合，主场作战的衡阳队先下一城，1:0险胜娄底队，靠自己书写的逆袭剧本精彩继续！（全媒体记者 王皓永）#湘超#衡阳队#周末不忙来趟衡",
+     "text": "11月7日，最后一位开国将军王扶之逝世，享年104岁。自1955年我军首次授衔，历经十年补授、晋升，开国将军至此已全部走进历史。送别，致敬！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新湖南",
+     "name": "央视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 今晚，“湘超”四分之一决赛首回合打响，衡阳队坐镇主场迎战娄底队。比赛第24分钟，衡阳队44号球员李炫头球攻门得手，帮助球队以1∶0领先。（记者：胡怡",
+     "text": "最后一位开国将军王扶之逝世，享年104岁。致敬！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "湖南经视",
+     "name": "光明网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "湘超1/4决赛第一回合，衡阳队1:0娄底队，林家萱：做好了一切困难的准备，但很多机会没有把握住 #湘超 #2026湘超 #湘超淘汰赛 #风风火火战湘超 @康巴赫",
+     "text": "最后一位开国将军王扶之逝世",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#最后一位开国将军王扶之逝世 】11月7日，原乌鲁木齐军区副司令员王扶之走完一个多世纪的人生征程，病逝于辽宁大连，享年104岁。自1955年我军首次授衔，历经",
      "likes": 0,
      "hot": 0
     }
@@ -609,22 +619,22 @@
      "hot": 0
     },
     {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月8日，有目击者称，沙特阿拉伯首都利雅得金融区遭到袭击，沙特阿美石油公司大楼受损。 8日稍早前，沙特首都利雅得传出剧烈爆炸声，当地居民收到防空警报。 沙特主",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "沙特首都金融区遭袭，阿美石油公司大楼窗户破碎，多层楼受损",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "齐鲁晚报·果然视频",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月8日，有目击者称，沙特阿拉伯首都利雅得金融区遭到袭击，沙特阿美石油公司大楼受损。 8日稍早前，沙特首都利雅得传出剧烈爆炸声，当地居民收到防空警报。 沙特主",
      "likes": 0,
      "hot": 0
     },
@@ -642,46 +652,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "最后一位开国将军王扶之逝世": {
+  "湘超衡阳1:0娄底": {
    "stats": {},
    "authors": [
     {
-     "name": "人民日报",
+     "name": "衡阳日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月7日，最后一位开国将军王扶之逝世，享年104岁。自1955年我军首次授衔，历经十年补授、晋升，开国将军至此已全部走进历史。送别，致敬！",
+     "text": "11月8日晚，湘超淘汰赛第一回合，主场作战的衡阳队先下一城，1:0险胜娄底队，靠自己书写的逆袭剧本精彩继续！（全媒体记者 王皓永）#湘超#衡阳队#周末不忙来趟衡",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "看度新闻",
+     "name": "湖南经视",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 11月7日，#最后一位开国将军王扶之逝世 ，享年104岁，请停留三秒 向王扶之将军献花 #媒体精选计划",
+     "text": "湘超1/4决赛第一回合，衡阳队1:0娄底队，林家萱：做好了一切困难的准备，但很多机会没有把握住 #湘超 #2026湘超 #湘超淘汰赛 #风风火火战湘超 @康巴赫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "新湖南",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "最后一位开国将军王扶之逝世，享年104岁。致敬！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光明网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最后一位开国将军王扶之逝世",
+     "text": "#媒体原创 今晚，“湘超”四分之一决赛首回合打响，衡阳队坐镇主场迎战娄底队。比赛第24分钟，衡阳队44号球员李炫头球攻门得手，帮助球队以1∶0领先。（记者：胡怡",
      "likes": 0,
      "hot": 0
     }
@@ -830,6 +830,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "郑雨的人生从未放晴": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "会火大明星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "郑雨人生的太阳天到底什么时候来！#今天是太阳雨第6集好好哭 #今天是太阳雨#杨超越 #董思成",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "GEN零封IG晋级决赛": {
    "stats": {},
    "authors": [
@@ -864,22 +881,22 @@
      "hot": 0
     },
     {
-     "name": "兔玩电竞",
+     "name": "电竞小学妹",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "IG众人回应止步四强！ TheShy希望Chovy能拿一次冠军！并谈明年规划：我自己也不太清楚未来会怎样，还没有定下来！#英雄联盟S16 #GEN战胜IG #G",
+     "text": "IG 0:3 不敌Gen止步四强 网友：走到这已经是奇迹了！#英雄联盟S16#IG对战GEN #ig #theshy #lpl",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "真实电竞",
+     "name": "佟议个球🏀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "真实锐评GEN战胜IG晋级决赛！属于ig的故事结束了！ #GEN战胜IG #ig #theshy #英雄联盟S16 #chovy",
+     "text": "《IG 0:3 惜败GEN》 #gen #2026英雄联盟全球总决赛 #ig #blg #佟议个球",
      "likes": 0,
      "hot": 0
     }
@@ -924,73 +941,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "郑雨的人生从未放晴": {
+  "布伦特油价一周暴跌超16%": {
    "stats": {},
    "authors": [
     {
-     "name": "会火大明星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "郑雨人生的太阳天到底什么时候来！#今天是太阳雨第6集好好哭 #今天是太阳雨#杨超越 #董思成",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "大连球员发抖音晒中超奖杯": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吕焯毅_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大连是冠军🏆。愿意相信奇迹永远比完成奇迹更重要🍀 曾经是遗憾 现在是奇迹🩵 你们太牛逼了 谢谢你们🙏我们是冠军🏆 #大连是冠军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "毛伟杰",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "毛伟杰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Yang_杨铭锐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们是🏆。#中超冠军奖杯 #大连英博#大连是冠军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "罗竞",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "舒服了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视体育",
+     "name": "央广网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一镜到底｜21年终圆梦 #大连队再夺中超冠军 #大连中超冠军 #中超争冠热血沸腾",
+     "text": "国际油价暴跌！布伦特油价一周跌超16% 纽约油价一度跌破90美元 #国际油价",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国际油价一周暴跌超16%！布伦特原油创2020年以来最大单周跌幅。两方面因素看懂这轮大跌：一是美伊冲突进一步升级预期降温；二是中东原油供应趋于宽松。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "21世纪经济报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国际油价一周暴跌超16%！布伦特原油创2020年以来最大单周跌幅 #国际油价 #布伦特原油 #石油 （编辑：张迎）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国际油价一周暴跌超16%",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原油暗盘上涨，国际油价一周暴跌16%； 本周以来，国际油价大幅下跌，美油期货主力合约价格一周下跌12.76%；布油期货主力合约价格一周下跌16.42%，创202",
      "likes": 0,
      "hot": 0
     }
@@ -998,53 +998,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王嘉尔南京演唱会": {
+  "以总统授权埃森科特组建新政府": {
    "stats": {},
    "authors": [
     {
-     "name": "王嘉尔",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 南京站 · 天气冷了，记得多穿点，晚上见❤️ · #王嘉尔MAGICMAN2世界巡演#JACKS",
+     "text": "以色列总统宣布将正式授权埃森科特组建新一届政府 #24时区",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "SE HUNeysa2",
-     "verify": "",
-     "identity": "",
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这一段发言太真诚了！自己的开心很重要#王嘉尔现场live #王嘉尔演唱会 #王嘉尔巡演#王嘉尔南京演唱会",
+     "text": "新华社消息｜以色列总统将授权正直党领导人埃森科特组建新政府（记者：庞昕熠、王卓伦）#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "水妹妹",
-     "verify": "",
-     "identity": "",
+     "name": "闪电新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "什么？！王嘉尔要拍综艺了！！#王嘉尔 #王嘉尔jackson #王嘉尔演唱会",
+     "text": "战争之王内塔尼亚胡，被抛弃了！11月7日，以色列总统正式授权内塔尼亚胡的竞争对手、以军前总参谋长埃森科特，组建新政府。#内塔尼亚胡 #闪电主播说 #媒体精选计划",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "何与好标准的肱二头肌比心": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "何与happy",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "再比下去 要充血了 🫶 #肱二头肌比心模仿挑战 #一追就上头",
+     "text": "以色列总统将授权正直党领导人埃森科特组建新政府",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极光新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以色列总统没有选择内塔尼亚胡，授权埃森科特组建新一届政府，这是以色列政坛一次重要转向 #以色列 #国际 #木子",
      "likes": 0,
      "hot": 0
     }
@@ -1062,6 +1065,60 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "保姆级教程王子璇同款卷发 武汉化妆师丨一对一私教-约妆-婚礼跟妆各种工作吻上来吧！厉娜 #氛围感 #卷发教程 #王子璇 #后会友期 #新手卷发教程",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "AI霸气出场名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小月明天见",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "权威",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "再生骨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "唉 真的懒得和你扯了 你觉得我不好就滚呗 跟我讲干嘛 我又不会改.#现场抓拍 #高三晚自习放学 #现场随拍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不爱吃甜食",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#韩剧女主感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "何与好标准的肱二头肌比心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "何与happy",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再比下去 要充血了 🫶 #肱二头肌比心模仿挑战 #一追就上头",
      "likes": 0,
      "hot": 0
     }
@@ -1106,36 +1163,329 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "AI霸气出场名场面": {
+  "王嘉尔南京演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "小月明天见",
-     "verify": "",
-     "identity": "",
+     "name": "王嘉尔",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "权威",
+     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 南京站 · 天气冷了，记得多穿点，晚上见❤️ · #王嘉尔MAGICMAN2世界巡演#JACKS",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "再生骨",
+     "name": "SE HUNeysa2",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "唉 真的懒得和你扯了 你觉得我不好就滚呗 跟我讲干嘛 我又不会改.#现场抓拍 #高三晚自习放学 #现场随拍",
+     "text": "这一段发言太真诚了！自己的开心很重要#王嘉尔现场live #王嘉尔演唱会 #王嘉尔巡演#王嘉尔南京演唱会",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "不爱吃甜食",
+     "name": "水妹妹",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#韩剧女主感",
+     "text": "什么？！王嘉尔要拍综艺了！！#王嘉尔 #王嘉尔jackson #王嘉尔演唱会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "嫁金钗收官全员谢幕": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "辣条公主爱喝奶茶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嫁金钗全员谢幕的这两分钟 像是看了一场话剧 剧终 梦醒 #嫁金钗 #嫁金钗全员谢幕 #田曦薇#魏娆 #君黛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "该说我想你还是天冷了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "贝琪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在冬天我们说……#封面整不会了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "心若泪水纯明",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026.11.7｜立冬快乐 祝你 岁寒 时深 加衣 勿病 平安 想我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "張轩瑞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026.11.7｜立冬快乐 祝你 岁寒 时深 加衣 勿病 平安 想我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小乖ღᩚ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "立冬快乐🎉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "曲靖钱三一.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在冬天我们不说 大早上冻死我了 我们说 我该说我想你 还是天冷了#天冷炸毛 @抖音热点 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深度复盘IG不敌GenG": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "联盟导员",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "GEN战胜IG：第一局小薇引起蝴蝶效应！ #GEN零封IG晋级决赛 #IG对战GEN #抖音精选APP #热点赛事观察 #IG止步四强",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王多多1991",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "IG止步四强，Chovy首进决赛。#热点赛事观察 #GEN战胜IG #Chovy首次进入决赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "联盟乐播报喵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“GEN2:0领先IG，差距有点过大” 上野对位落后快一万经济，GEN要进决赛了#2026全球总决赛 #ig对战gen #热点赛事观察 #theshy #cho",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大龙虾游戏剧情",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第一局遗憾败北，努力寻找机会却反倒扩大劣势#ig对战gen #ig #热点赛事观察 #全球总决赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王力宏广州演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王力宏",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今晚演出的彩蛋是…❤️#王力宏最好的地方巡回演唱会 #王力宏广州演唱会 #王力宏巡演日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "念念不忘live",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王力宏广州演唱会《你这么美》现场伴舞小姐姐也吃的太好了吧！#王力宏 #美 #王力宏广州演唱会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浅夏live",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王力宏广州演唱会《你这么美》现场伴舞小姐姐也吃的太好了吧！#王力宏 #美#王力宏广州演唱会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我已进入大省钱时代": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小小小的家🏠(软装中)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不烧心🉐家居收纳！6大好处码住✅ #我已进入大省钱时代 #创作者中心 #创作灵感 #高效厨房收纳 #全民进入购物听劝时代",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "二手仓库张主任",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无用良品之铁盒大赏 #铁盒 #开箱 #又抠又会买之人 #全民进入大省钱时代 #抖音精选app征稿中",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一朵露露",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "像不像你的100块！！！#我已进入大省钱时代",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "CF绿豆抖音直播三周年": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "CF绿豆(旭旭宝宝传媒)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感谢兄弟们！新的阶段，继续奔赴热爱！！ #CF绿豆抖音直播三周年 #11月8日绿豆直播周年庆 #cf绿豆 #穿越火线",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "网友镜头下的北京雪景": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "啵啵星球的随笔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京下雪啦 #暖冬火锅宴 #北京今冬初雪已至 #北京暴雪 #暖冬火锅宴 #北京降温了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "丁壹.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京第一场雪 想和谁一起去看就@谁 #北京下雪 #inmyfeelings",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Nik",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11.7号晚上22点实拍 北京国贸初雪来临 简直美不胜收！！#雪景",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "各主播评价IG不敌GenG": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "儒雅马户解说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "GEN零封IG晋级决赛，德华吐槽theshy问题最大，挑战净人头还差89个下班@德华工作室 @王者荣耀主播站 #吕德华 #萤火主播二创作者团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "瓜皮说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "iG不敌GEN惨遭零封，弹幕满屏在喷水晶哥爆了：隔壁全是晚安你们骂什么？#ig #theshy #水晶哥 #2026英雄联盟全球总决赛 #胖虎陪你看S16",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "徐明浩我不知道您这是咋了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "徐明浩",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咱们上东北呗，回家瞅瞅，一起爬山买烤肠和热乎苞米吃行不行 #冬天 #东北",
      "likes": 0,
      "hot": 0
     }
@@ -1250,349 +1600,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "徐明浩我不知道您这是咋了": {
+  "张颂文周海洋彻底黑化": {
    "stats": {},
    "authors": [
     {
-     "name": "徐明浩",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "哦哦哥",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "咱们上东北呗，回家瞅瞅，一起爬山买烤肠和热乎苞米吃行不行 #冬天 #东北",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王力宏广州演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王力宏",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今晚演出的彩蛋是…❤️#王力宏最好的地方巡回演唱会 #王力宏广州演唱会 #王力宏巡演日记",
+     "text": "表面好兄弟，背地捅刀子！他猜不到自己的师父，竟是被自己信任的兄弟害的！@电视剧谷雨（谷东酷酷爽看 #电视剧谷雨",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "念念不忘live",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "南派雅影",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王力宏广州演唱会《你这么美》现场伴舞小姐姐也吃的太好了吧！#王力宏 #美 #王力宏广州演唱会",
+     "text": "高能来袭！张颂文黑化翻身之路 @电视剧谷雨（谷东酷酷爽看 #张颂文 #电视剧谷雨 #酷酷看张颂文在谷雨开新号 #犯罪悬疑剧 #新剧来袭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "浅夏live",
-     "verify": "",
-     "identity": "",
+     "name": "电视剧谷雨（谷东酷酷爽看",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王力宏广州演唱会《你这么美》现场伴舞小姐姐也吃的太好了吧！#王力宏 #美#王力宏广州演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "网友镜头下的北京雪景": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "啵啵星球的随笔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京下雪啦 #暖冬火锅宴 #北京今冬初雪已至 #北京暴雪 #暖冬火锅宴 #北京降温了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "丁壹.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "北京第一场雪 想和谁一起去看就@谁 #北京下雪 #inmyfeelings",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Nik",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11.7号晚上22点实拍 北京国贸初雪来临 简直美不胜收！！#雪景",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "以总统授权埃森科特组建新政府": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以色列总统宣布将正式授权埃森科特组建新一届政府 #24时区",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社消息｜以色列总统将授权正直党领导人埃森科特组建新政府（记者：庞昕熠、王卓伦）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "闪电新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "战争之王内塔尼亚胡，被抛弃了！11月7日，以色列总统正式授权内塔尼亚胡的竞争对手、以军前总参谋长埃森科特，组建新政府。#内塔尼亚胡 #闪电主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以色列总统将授权正直党领导人埃森科特组建新政府",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以色列总统没有选择内塔尼亚胡，将正式授权埃森科特组建政府",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我已进入大省钱时代": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小小小的家🏠(软装中)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不烧心🉐家居收纳！6大好处码住✅ #我已进入大省钱时代 #创作者中心 #创作灵感 #高效厨房收纳 #全民进入购物听劝时代",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "二手仓库张主任",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "无用良品之铁盒大赏 #铁盒 #开箱 #又抠又会买之人 #全民进入大省钱时代 #抖音精选app征稿中",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一朵露露",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "像不像你的100块！！！#我已进入大省钱时代",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "嫁金钗收官全员谢幕": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "辣条公主爱喝奶茶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嫁金钗全员谢幕的这两分钟 像是看了一场话剧 剧终 梦醒 #嫁金钗 #嫁金钗全员谢幕 #田曦薇#魏娆 #君黛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "该说我想你还是天冷了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "贝琪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在冬天我们说……#封面整不会了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "心若泪水纯明",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026.11.7｜立冬快乐 祝你 岁寒 时深 加衣 勿病 平安 想我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "張轩瑞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026.11.7｜立冬快乐 祝你 岁寒 时深 加衣 勿病 平安 想我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小乖ღᩚ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "立冬快乐🎉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曲靖钱三一.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在冬天我们不说 大早上冻死我了 我们说 我该说我想你 还是天冷了#天冷炸毛 @抖音热点 @抖音小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "各主播评价IG不敌GenG": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "儒雅马户解说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "GEN零封IG晋级决赛，德华吐槽theshy问题最大，挑战净人头还差89个下班@德华工作室 @王者荣耀主播站 #吕德华 #萤火主播二创作者团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "瓜皮说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "iG不敌GEN惨遭零封，弹幕满屏在喷水晶哥爆了：隔壁全是晚安你们骂什么？#ig #theshy #水晶哥 #2026英雄联盟全球总决赛 #胖虎陪你看S16",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "深度复盘IG不敌GenG": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "联盟导员",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "GEN战胜IG：第一局小薇引起蝴蝶效应！ #GEN零封IG晋级决赛 #IG对战GEN #抖音精选APP #热点赛事观察 #IG止步四强",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王多多1991",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "IG止步四强，Chovy首进决赛。#热点赛事观察 #GEN战胜IG #Chovy首次进入决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "联盟乐播报喵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“GEN2:0领先IG，差距有点过大” 上野对位落后快一万经济，GEN要进决赛了#2026全球总决赛 #ig对战gen #热点赛事观察 #theshy #cho",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大龙虾游戏剧情",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第一局遗憾败北，努力寻找机会却反倒扩大劣势#ig对战gen #ig #热点赛事观察 #全球总决赛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "CF绿豆抖音直播三周年": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "CF绿豆(旭旭宝宝传媒)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感谢兄弟们！新的阶段，继续奔赴热爱！！ #CF绿豆抖音直播三周年 #11月8日绿豆直播周年庆 #cf绿豆 #穿越火线",
+     "text": "#电视剧谷雨 周海洋你不对劲，十分有十二分不对劲。孙翱（#孙艺洲 ）#张颂文 #李洪涛 （按姓氏笔画排序）",
      "likes": 0,
      "hot": 0
     }
@@ -1605,78 +1642,36 @@
    "authors": [],
    "lexicon": []
   },
-  "就这样闯入王楚然的世界里": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "收到了一枚满是纪念意义的戒指": {
+  "许青冷面判官正义执法": {
    "stats": {},
    "authors": [
     {
-     "name": "白咪饭",
-     "verify": "",
-     "identity": "",
+     "name": "是辰辰啊",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这个真的太可爱啦！！！ #萌物周边开箱 #中国小动物保护协会",
+     "text": "许青打的就是天骄！ #光阴之外动画 #光阴之外 #许青冷面判官正义执法",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "乾隆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小动物保护协会你这家伙太会了吧 #中国小动物保护协会活动 #小动物保护科普宣传 #动物保护手链 #公益手链",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "困了倦了睡了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "守护猫猫🐱 #中国小动物保护协会 #戒指",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "王源镇江演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Esther.y🫐.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啊啊啊现场版因为遇见你我终于听到了 这个小王还打招呼了😭 提前祝你生日快乐宝贝 明天见～#王源生日快乐 #镇江 #1108#王源 #王源演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "镇江公安",
+     "name": "动画光阴之外（每周六10点更新",
      "verify": "蓝V",
-     "identity": "官方机构",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月7日，王源镇江演唱会开场前，镇江民警用歌词喊话反诈......@TFBOYS-王源 #王源 #王源演唱会 #王源镇江 #宇宙超级无敌大大狂欢 #反诈",
+     "text": "许青镇的就是天骄！#光阴之外动画 末世疯味，许青带你狠爽全年！每周六10点不见不散！#光阴之外 #国漫 #许青 #光阴之外许青",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "莳雨 ʚɞ",
+     "name": "摆摆",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "讓我們一起去源星球吧，宇宙太大了，我的眼睛只能裝下你一顆星#王源#源星球#王源镇江演唱会#演唱会#浪漫",
+     "text": "我镇的就是天骄！ #光阴之外动画 #光阴之外 #许青冷面判官正义执法",
      "likes": 0,
      "hot": 0
     }
@@ -1721,16 +1716,21 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "宋雨琦叶舒华合跳Tell Me": {
+  "老实打工人放狠话就许飞这样": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "赵雨凡跳着跳着消失了": {
    "stats": {},
    "authors": [
     {
-     "name": "i-dle",
+     "name": "CORTIS_BIGHIT",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Tell Me #idle #宋雨琦 #叶舒华",
+     "text": "i'm all gone fr #CORTIS",
      "likes": 0,
      "hot": 0
     }
@@ -1738,26 +1738,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "陈小春武汉演唱会": {
+  "康康十八岁集齐旧伙伴同框": {
    "stats": {},
    "authors": [
     {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "胡军",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 “山鸡哥”狂飙武汉话把自己逗笑！陈小春演唱会上跟12000名观众互动：舒服吗？是不是蛮有板眼？我说的还阔以吗？",
+     "text": "康康的18岁首航，今天大家都是18岁！#一追就上头 #康康",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "汉Plus",
+     "name": "爆爆小薯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爸爸去哪儿3迎来了它的最强售后，大家都长大啦 #爸爸去哪儿3 #康康 #诺一 #综艺名场面 #考古",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哈尔滨日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "陈小春在2026年11月7日于武汉光谷国际网球中心举办的“BIGMAN人一个”巡回演唱会武汉站上，在互动环节大飙武汉话，还把自己逗笑了。他面对约12000名观众",
+     "text": "胡军儿子康康迎来18岁成人礼，《爸爸去哪儿3》小伙伴时隔11年重聚，诺一 霓娜 轩轩 林大竣到场庆生，网友：最强的童年售后。#爸爸去哪儿 #胡军 #康康",
      "likes": 0,
      "hot": 0
     }
@@ -1862,6 +1872,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "就这样闯入王楚然的世界里": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "美丽不冻人的冬季穿搭": {
    "stats": {},
    "authors": [
@@ -1899,42 +1914,37 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "当我把EXO写在脸上被吴世勋看见": {
+  "立冬初雪被毛茸茸治愈了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "陈小春武汉演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "想退学在家一天打九份工孝欧巴（努力日更版",
-     "verify": "",
-     "identity": "",
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "对视了……🥹🥹🥹 #吴世勋 #sehun #饭撒 #exo #exo安可 不授权任何 视频不接受任何二传二改 如果未经我允许私自传播必要时我会采取法律手段",
+     "text": "#媒体原创 “山鸡哥”狂飙武汉话把自己逗笑！陈小春演唱会上跟12000名观众互动：舒服吗？是不是蛮有板眼？我说的还阔以吗？",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "BBCUTE",
-     "verify": "",
-     "identity": "",
+     "name": "汉Plus",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这个吴世勋 跟我对视后偷偷的笑 （不管 就当是跟我对视） #吴世勋 #exo演唱会 #exo安可",
+     "text": "陈小春在2026年11月7日于武汉光谷国际网球中心举办的“BIGMAN人一个”巡回演唱会武汉站上，在互动环节大飙武汉话，还把自己逗笑了。他面对约12000名观众",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "拉宏骑粉凤凰闯哈萨克斯坦": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "老实打工人放狠话就许飞这样": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   }
  }
 }
