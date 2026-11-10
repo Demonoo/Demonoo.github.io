@@ -1,11 +1,38 @@
 {
- "updated_at": "2026-11-10 15:39",
+ "updated_at": "2026-11-10 16:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 47,
+ "ok_count": 46,
  "lexicon_count": 0,
  "topics": {
+  "高叶获第39届金鸡奖最佳女主角": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#高叶荣获金鸡奖最佳女主角 恭喜！高叶凭借《南京照相馆》中林毓秀一角荣获第39届中国电影金鸡奖最佳女主角！#金鸡奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门广电",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第39届中国电影金鸡奖最佳女主角高叶泣不成声：“原来这就是梦想照进现实的感觉！”（编辑/宜轩 责编/黄岚 编审/继成、林军）#2026年中国金鸡百花电影节 #厦",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "梁家辉第39届金鸡奖最佳男主角": {
    "stats": {},
    "authors": [
@@ -20,7 +47,7 @@
      "hot": 0
     },
     {
-     "name": "会化妆的小明（线下有课）",
+     "name": "会化妆的小明（金鸡奖工作中)",
      "verify": "",
      "identity": "",
      "identity_raw": "",
@@ -93,33 +120,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "高叶获第39届金鸡奖最佳女主角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#高叶荣获金鸡奖最佳女主角 恭喜！高叶凭借《南京照相馆》中林毓秀一角荣获第39届中国电影金鸡奖最佳女主角！#金鸡奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第39届中国电影金鸡奖最佳女主角高叶泣不成声：“原来这就是梦想照进现实的感觉！”（编辑/宜轩 责编/黄岚 编审/继成、林军）#2026年中国金鸡百花电影节 #厦",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "进博会见证中国产业链硬实力": {
    "stats": {},
    "authors": [
@@ -134,22 +134,22 @@
      "hot": 0
     },
     {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 进博会超480件新品首发，图的不只销量！企业少踩坑、消费者少踩雷，#财米油盐 带你看！#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "新闻联播",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "今天，第九届进博会在上海开幕。进博会汇聚全球优质商品、前沿技术与创新成果，持续彰显中国高水平开放的坚定姿态，也印证着世界对中国市场的信心。开放、富有活力的中国，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 进博会超480件新品首发，图的不只销量！企业少踩坑、消费者少踩雷，#财米油盐 带你看！#媒体精选计划",
      "likes": 0,
      "hot": 0
     }
@@ -265,16 +265,6 @@
      "hot": 0
     },
     {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月10日，中国乒协公布2026混团世界杯参赛名单：王楚钦、林诗栋、黄友政、周启豪、王曼昱、孙颖莎、蒯曼、陈熠入选。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
@@ -285,12 +275,177 @@
      "hot": 0
     },
     {
-     "name": "越牛新闻",
+     "name": "纵览新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月10日，中国乒协公布混团世界杯国乒参赛名单，确定王楚钦、林诗栋、黄友政、周启豪、王曼昱、孙颖莎、蒯曼、陈熠入选。",
+     "text": "11月10日，中国乒协公布2026混团世界杯参赛名单：王楚钦、林诗栋、黄友政、周启豪、王曼昱、孙颖莎、蒯曼、陈熠入选。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "纪录片树说中国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "视听中国",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "地坑院门口的槐树为什么被叫“小槐树”？ #纪录片树说中国 在陕州地坑院，当地人总爱在院门口栽槐树，大家亲切叫它“小槐树”，这是相对于山西洪洞大槐树来说的。村里很",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "超长长长长长长饺子吃了不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "顺顺妈爱揍饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超长长长长长长饺子，吃了不烧心！#好吃不过饺子 #超长饺子 #饺子 #手搓美食 #大饺子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大瑶小海",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超长长长长长长饺子出锅#碳水快乐时刻 #长长长饺子 #满级吃商通关赛 #抖音美食跟学大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "“株洲物流仓库大火”系谣言": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "抖音求真",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#今日辟谣 （2026年11月10日）今日辟谣 | “湖南株洲一物流仓库突发大火”系谣言#谣零零计划 #抖音求真",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "半月谈",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "湖南一处物流家具仓库突发大火？经株洲市消防救援局核实，近期全市范围内并未发生类似火灾。该图片来源于网络素材，请勿轻信转发。#谈谈求真 #抖音媒体辟谣团 #抖音求",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "勇士51分大胜鹈鹕豪取8连胜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "09年同届选秀的两位传奇！库里三节砍下25分，生涯总得分超越德罗赞升至历史第16位，勇士51分大胜鹈鹕豪取8连胜 #勇士51分大胜鹈鹕 #库里三节砍下25分 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "球场李云龙（梗王）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "差一错满一炮！勇士狂胜鹈鹕51分豪取八连胜！ #勇士51分大胜鹈鹕豪取8连胜 #库里 #巴特勒 #伦德伯格 #追梦格林",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "曼巴篮球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#波杰姆斯基 本赛季的成长确实为#库里 减压太多了，勇士51分险胜鹈鹕，太强了#dou来nba #巴特勒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "篮球季🍃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "勇士138:87大胜鹈鹕，勇士豪取八连胜，51分分差创赛季新高，库里25分三节打卡，波姐波哥双双爆发，吉米巴特勒化身教练！#库里 #勇士 #吉米巴特勒 #大牙顽",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是勇士的内线吗！？巴锡镇守禁区血帽奎因！看high#库里 #盖帽 #鹈鹕vs勇士 #勇士半场领先鹈鹕29分",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当一次MV女主角": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "哇哒西蛙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🤤已经被撩成翘嘴了#权志龙mv既视感 #权志龙mv女主#被撩到了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是美美阿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "也是拍上MV了#权志龙mv",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洵钰.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#全世界还有谁比我们更绝配 #爱豆恋爱观 #权志龙mv #韩语告白 哇哦～和我男神",
      "likes": 0,
      "hot": 0
     }
@@ -405,238 +560,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "纪录片树说中国": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "视听中国",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "地坑院门口的槐树为什么被叫“小槐树”？ #纪录片树说中国 在陕州地坑院，当地人总爱在院门口栽槐树，大家亲切叫它“小槐树”，这是相对于山西洪洞大槐树来说的。村里很",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当一次MV女主角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "哇哒西蛙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🤤已经被撩成翘嘴了#权志龙mv既视感 #权志龙mv女主#被撩到了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是美美阿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "也是拍上MV了#权志龙mv",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洵钰.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#全世界还有谁比我们更绝配 #爱豆恋爱观 #权志龙mv #韩语告白 哇哦～和我男神",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "“株洲物流仓库大火”系谣言": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "抖音求真",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#今日辟谣 （2026年11月10日）今日辟谣 | “湖南株洲一物流仓库突发大火”系谣言#谣零零计划 #抖音求真",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "半月谈",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "湖南一处物流家具仓库突发大火？经株洲市消防救援局核实，近期全市范围内并未发生类似火灾。该图片来源于网络素材，请勿轻信转发。#谈谈求真 #抖音媒体辟谣团 #抖音求",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "吾守尔赛来获金鸡奖最佳男配角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“今天我的梦想实现了！”演员吾守尔·赛来凭借《万桐书》获第39届金鸡奖最佳男配角（编辑/烨鑫，责编/黄岚，编审/林军、继成）#吾守尔·赛来 #最佳男配角 #万桐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#吾守尔赛来荣获金鸡奖最佳男配角 恭喜！吾守尔·赛来凭借《万桐书》中吐尔迪·阿洪一角荣获第39届中国电影金鸡奖最佳男配角！#金鸡奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月10日，吾守尔・赛来凭借电影《万桐书》，获得第39届中国电影金鸡奖最佳男配角",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "石榴云",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜吾守尔·赛来 斩获第39届中国电影金鸡奖 最佳男配角 #金鸡奖 #最佳男配角 #万桐书 #新疆 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今视频长天新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第39届金鸡奖 吾守尔・赛来和王传君、白客、此沙、 邵峰同台角逐，凭借《万桐书》获得最佳男配角 他在片中饰演民间艺人吐尔迪・阿洪。#金鸡奖 #最佳男配角",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "勇士51分大胜鹈鹕豪取8连胜": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "09年同届选秀的两位传奇！库里三节砍下25分，生涯总得分超越德罗赞升至历史第16位，勇士51分大胜鹈鹕豪取8连胜 #勇士51分大胜鹈鹕 #库里三节砍下25分 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "球场李云龙（梗王）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "差一错满一炮！勇士狂胜鹈鹕51分豪取八连胜！ #勇士51分大胜鹈鹕豪取8连胜 #库里 #巴特勒 #伦德伯格 #追梦格林",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曼巴篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#波杰姆斯基 本赛季的成长确实为#库里 减压太多了，勇士51分险胜鹈鹕，太强了#dou来nba #巴特勒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Touchmenot__",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "史蒂夫·科尔正在以一种我长期以来希望他使用斯蒂芬·库里的方式使用他，这就是结果——库里在38岁、接近39岁时，每场比赛不到30分钟上场时间就能场均得到30分。 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "@轩少",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这下提前半场开香槟应该没有任何问题！！💥半场勇士72:43领先鹈鹕29分！！库里9分神雪藏，波杰15分1板2助正负值+25，伦德伯格16分5板3助，再次感叹今",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "你怎么能这么说我呢": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "不愚不智",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "娘们唧唧的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "闷油瓶🇨🇳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#暴力美学名场面 哈哈哈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "社恐文静王思雨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "气性太大了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "大理初雪把风花雪月具象化了": {
    "stats": {},
    "authors": [
@@ -698,6 +621,16 @@
      "hot": 0
     },
     {
+     "name": "南方都市报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "兰西雅凭借《震耳欲聋》 斩获第39届金鸡奖最佳女配角 登台哽咽感谢父母 “如果孩子想走出去 就应该让她出去看看”#兰西雅 #金鸡奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "极目新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -716,61 +649,71 @@
      "text": "11月10日，福建厦门，27岁#兰西雅获金鸡奖最佳女配角 ，领奖现场，#兰西雅获奖后感谢檀健次 。",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 兰西雅获得第39届金鸡奖最佳女配！ #媒体原创 兰西雅获得第39届金鸡奖最佳女配！ 檀健次前排起立与其庆祝拥抱 兰西雅在影片《震耳欲聋》中饰演聋哑人",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "金鸡奖闭幕式红毯": {
+  "吾守尔赛来获金鸡奖最佳男配角": {
    "stats": {},
    "authors": [
     {
-     "name": "大众电影",
+     "name": "厦门广电",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "檀健次亮相第39届中国电影金鸡奖颁奖典礼红毯！#檀健次 #金鸡奖",
+     "text": "“今天我的梦想实现了！”演员吾守尔·赛来凭借《万桐书》获第39届金鸡奖最佳男配角（编辑/烨鑫，责编/黄岚，编审/林军、继成）#吾守尔·赛来 #最佳男配角 #万桐",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "西瓜娱乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#李思潼 亮相金鸡奖红毯，抬头笑起来的时候好美啊#金鸡奖 #金鸡奖闭幕式红毯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "福建日报",
+     "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "第39届中国电影金鸡奖红毯 金鸡主持天团来啦 #刘昊然 #关晓彤 #杜江 #蓝羽 #2026中国金鸡百花电影节",
+     "text": "#吾守尔赛来荣获金鸡奖最佳男配角 恭喜！吾守尔·赛来凭借《万桐书》中吐尔迪·阿洪一角荣获第39届中国电影金鸡奖最佳男配角！#金鸡奖",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "厦门日报",
-     "verify": "蓝V",
+     "name": "石榴云",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "演员李乃文、钟楚曦携手亮相金鸡奖红毯#厦门 #明星 #心动厦门 #我在厦门看金鸡 #第39届金鸡奖闭幕",
+     "text": "恭喜吾守尔·赛来 斩获第39届中国电影金鸡奖 最佳男配角 #金鸡奖 #最佳男配角 #万桐书 #新疆 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月10日，吾守尔・赛来凭借电影《万桐书》，获得第39届中国电影金鸡奖最佳男配角",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新疆卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新疆演员吾守尔·赛来凭借《万桐书》 荣获第39届中国电影金鸡奖最佳男配角#金鸡奖 #最佳男配角 #万桐书 #吾守尔赛来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“我的金鸡梦想实现了！”演员吾守尔·赛来凭借《万桐书》获第39届金鸡奖最佳男配角！#吾守尔·赛来 #最佳男配角 #万桐书 #2026年中国金鸡百花电影节",
      "likes": 0,
      "hot": 0
     }
@@ -783,10 +726,42 @@
    "authors": [],
    "lexicon": []
   },
-  "人类有自己的毛茸茸宇宙": {
+  "谷雨张颂文喊李小冉妈": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "电视剧谷雨（谷东酷酷爽看",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电视剧谷雨 低头喊的是妈，抬头藏的是野心。#张颂文 李晓冉（#李小冉 ）#张雪迎 （按姓氏笔画排序）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小熠说片儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丈母娘看女婿，怎料越看越不顺眼 #酷看谷雨人性博弈好带劲 #电视剧谷雨 #张颂文 #井柏然 #李小冉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李小冉",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电视剧谷雨 看见李阿红应该喊什么？",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "你又在和别人聊天吗": {
    "stats": {},
@@ -895,87 +870,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "跟白鹿一起变身毛茸茸": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "白鹿my",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#毛茸茸治愈一切 💕",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白鹿工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "转身以后，@白鹿my 会练成无敌神功～#白鹿",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "孟子义苏妲己好娇啊": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "孟子义",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大王～把他们豆沙辣！！#一追就上头 #热点趋势策划人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "谷雨张颂文喊李小冉妈": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧谷雨（谷东酷酷爽看",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#电视剧谷雨 低头喊的是妈，抬头藏的是野心。#张颂文 李晓冉（#李小冉 ）#张雪迎 （按姓氏笔画排序）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小熠说片儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丈母娘看女婿，怎料越看越不顺眼 #酷看谷雨人性博弈好带劲 #电视剧谷雨 #张颂文 #井柏然 #李小冉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李小冉",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#电视剧谷雨 看见李阿红应该喊什么？",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "昊天武道会复活成团之夜": {
    "stats": {},
    "authors": [
@@ -1013,26 +907,239 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "超长长长长长长饺子吃了不烧心": {
+  "孟子义苏妲己好娇啊": {
    "stats": {},
    "authors": [
     {
-     "name": "顺顺妈爱揍饭",
+     "name": "孟子义",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大王～把他们豆沙辣！！#一追就上头 #热点趋势策划人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "你怎么能这么说我呢": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "不愚不智",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "超长长长长长长饺子，吃了不烧心！#好吃不过饺子 #超长饺子 #饺子 #手搓美食 #大饺子",
+     "text": "娘们唧唧的",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大瑶小海",
+     "name": "闷油瓶🇨🇳",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天冷了，请最好的闺蜜吃长长长长长长饺子🥟#长长长饺子 #水饺 #满级吃商通关赛 #动手做美食的快乐",
+     "text": "#暴力美学名场面 哈哈哈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "社恐文静王思雨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "气性太大了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "金鸡奖闭幕式红毯": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "大众电影",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "檀健次亮相第39届中国电影金鸡奖颁奖典礼红毯！#檀健次 #金鸡奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西瓜娱乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#李思潼 亮相金鸡奖红毯，抬头笑起来的时候好美啊#金鸡奖 #金鸡奖闭幕式红毯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "福建日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第39届中国电影金鸡奖红毯 金鸡主持天团来啦 #刘昊然 #关晓彤 #杜江 #蓝羽 #2026中国金鸡百花电影节",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "演员李乃文、钟楚曦携手亮相金鸡奖红毯#厦门 #明星 #心动厦门 #我在厦门看金鸡 #第39届金鸡奖闭幕",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "人类有自己的毛茸茸宇宙": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "我看到平凡的我也会有一刻不普通": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "叶儿❤️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果这是你女朋友，你会不会觉得很丢脸啊，我想听真心话🥺#被偷拍的样子，这是我最真实的样子，作品里的漂亮照片都是平时不加班的时候拍的，比较喜欢记录自己，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张十三🚥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前方无人引路 后方无人兜底",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "‍‍‍‍‍‍‍‍‍‍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前方无人引路 后方无人兜底 南墙自补 万事自渡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "｡◕‿◕｡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你懂我的辛苦，那我就不辛苦。你知道我累，那我就不累#破碎感cos #懂你的人一定很爱你心疼你理解你 #爱的最高境界是心疼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "7u.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后来 再一次又一次参加别人的婚礼 见证别人的幸福的时候 我突然开始羡慕 #文案",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "困的晕ᶠᵘᶠᵘ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后来 再一次又一次参加别人的婚礼 见证别人的幸福的时候 我突然开始羡慕#农村新中式婚礼 #乡村喜嫁 #婚礼现场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "乖乖.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后来 一次又一次参加别人的婚礼 见证别人幸福的时候 我突然开始羡慕 #文案",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "常被女人骗、",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无人引路，无人兜底，南墙自补，万事自渡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "睡 觉 吧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前方无人引路 后方无人兜底 南墙自补 万事自渡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "yes",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后来再一次又一次参加别人的婚礼 见证别人的幸福的时候 我突然开始羡慕.#做幸福的见证者",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "跟白鹿一起变身毛茸茸": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "白鹿my",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#毛茸茸治愈一切 💕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白鹿工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "转身以后，@白鹿my 会练成无敌神功～#白鹿",
      "likes": 0,
      "hot": 0
     }
@@ -1398,113 +1505,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "这次真让我装到了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "可心儿.🧸ྀི",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可心儿.🧸ྀི",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赵温柔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "😁 看的我爽一下",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "uu糖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爱了 #爽 #古惑仔",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱吃的baby",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终于活成大哥了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小赵又困ᴸᵃ💤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "管像不像，反正装到了😂#古惑仔maggie",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小左.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这把演爽了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DJ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这AI神了👍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小野姐姐.🧸",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#古惑仔maggie",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "烤鱼.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这把我演爽了#暴力美学 #al #演爽了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "℘ 叶叶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这表情好不搭啊#古惑仔cos #古惑仔高燃混剪",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "表面心连心背后玩脑筋成气候了": {
    "stats": {},
    "authors": [
@@ -1539,22 +1539,22 @@
      "hot": 0
     },
     {
-     "name": "李易安",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表面心连心 背后玩脑筋#勾心斗角#帅大叔的日常生活 #创作者中心 #创作灵感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "🌈是胖虎吖🌈",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#AI表面心连心 #跳舞还得奶牛猫 #诡计多端的奶牛猫 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李易安",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "表面心连心 背后玩脑筋#勾心斗角#帅大叔的日常生活 #创作者中心 #创作灵感",
      "likes": 0,
      "hot": 0
     },
@@ -1612,6 +1612,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "这次真让我装到了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "小u郁达成首个女瓦国服第一成就": {
    "stats": {},
    "authors": [
@@ -1641,108 +1646,7 @@
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小u郁谈上国一@小u郁 #小u郁 #无畏契约 #valorant #小u郁首个女瓦国服第一 #小u郁达成首个女瓦国服第一成就",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天使咬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜小u郁登顶国服第一 @小u郁 #小u郁 #xuy #无畏契约#小u郁首个女瓦国服第一#小u郁达成首个女瓦国服第一成就",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "曾舜晞伯爵神之十秒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "曾舜晞",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今晚请勿闭眼。#一追就上头",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "朱一龙出席第39届金鸡奖": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "朱一龙工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "故事的褶皱由帷幕声起，时落向留白，时逢于影间。#朱一龙 #第39届中国电影金鸡奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金鸡红毯名场面！朱一龙打招呼太热情投入，一回头发现走远，小跑归队跟上惠英红（采编/林婕、玚阳、立腾、宏仕、璟煊 责编/昕娉 编审/继成、林军）#惠英红 #朱一龙",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "东南网厦门",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朱一龙亮相第39届中国电影金鸡奖红毯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "用豆包手搓和朋友们的快乐老家": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "发癫吧，后浪！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和朋友一起“建个村子”，过日子——只有后浪！ 这里的“只有”，不代表门槛， 不论你来自哪里，做着什么， 只要心里有火，眼里有光， 所有年轻人，都可以是后浪。 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猪猪小梗妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "后浪这群人的脑洞和执行力完全就是热血番的程度！#发癫吧后浪 #群像 #友情#豆包",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大梗萌妹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一起动工，一起唱歌，一起忙碌，群像的魅力无法抵抗 #发癫吧后浪 #群像 #友情#豆包",
+     "text": "小u郁首个女瓦国服第一@小u郁 #小u郁 #无畏契约 #valorant #小u郁首个女瓦国服第一 #小u郁达成首个女瓦国服第一成就",
      "likes": 0,
      "hot": 0
     }
@@ -1827,37 +1731,101 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "上海W年度盛典红毯造型大盘点": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "起猛了紫薯精变成多闪小火人了": {
+  "朱一龙出席第39届金鸡奖": {
    "stats": {},
    "authors": [
     {
-     "name": "周小闹",
-     "verify": "",
-     "identity": "",
+     "name": "朱一龙工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "饭店的寒假工，服务员下班送外卖！#起猛了紫薯精变成多闪小火人了",
+     "text": "故事的褶皱由帷幕声起，时落向留白，时逢于影间。#朱一龙 #第39届中国电影金鸡奖",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "多闪",
+     "name": "厦门广电",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "跟孙晓晓上班的第一天，闪宝开启了“闯祸”模式。。 11月9日11:00，合养精灵X多闪 周小闹联名活动正式上线！#多闪小火人周小闹联动 #起猛了紫薯精变成多闪小",
+     "text": "金鸡红毯名场面！朱一龙打招呼太热情投入，一回头发现走远，小跑归队跟上惠英红（采编/林婕、玚阳、立腾、宏仕、璟煊 责编/昕娉 编审/继成、林军）#惠英红 #朱一龙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东南网厦门",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "朱一龙亮相第39届中国电影金鸡奖红毯",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "丞磊张云龙再现名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "丞磊",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "call back😬 #可可系",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "用豆包手搓和朋友们的快乐老家": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "发癫吧，后浪！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和朋友一起“建个村子”，过日子——只有后浪！ 这里的“只有”，不代表门槛， 不论你来自哪里，做着什么， 只要心里有火，眼里有光， 所有年轻人，都可以是后浪。 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猪猪小梗妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后浪这群人的脑洞和执行力完全就是热血番的程度！#发癫吧后浪 #群像 #友情#豆包",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大梗萌妹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一起动工，一起唱歌，一起忙碌，群像的魅力无法抵抗 #发癫吧后浪 #群像 #友情#豆包",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "上海W年度盛典红毯造型大盘点": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "跟着虞书欣学拿破仑穿搭": {
    "stats": {},
@@ -1896,53 +1864,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "虞书欣变身毛茸茸造型": {
+  "曾舜晞伯爵神之十秒": {
    "stats": {},
    "authors": [
     {
-     "name": "虞书欣Esther",
+     "name": "曾舜晞",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "来到黄金时代。🕊️ #WGALA此刻即黄金时代 #W中文版年度盛典 #WGALA双城记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "虞书欣工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今晚上海滩very有腔调的女人 @虞书欣Esther",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "听听",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欣欣内场晚宴，生图直出美晕了#虞书欣 #云初 #云初令 #何盼",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "丞磊张云龙再现名场面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "丞磊",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "call back😬 #可可系",
+     "text": "今晚请勿闭眼。#一追就上头",
      "likes": 0,
      "hot": 0
     }
@@ -2185,16 +2116,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "张翅金鸡奖出图": {
+  "虞书欣变身毛茸茸造型": {
    "stats": {},
    "authors": [
     {
-     "name": "张翅",
+     "name": "虞书欣Esther",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "1/2",
+     "text": "来到黄金时代。🕊️ #WGALA此刻即黄金时代 #W中文版年度盛典 #WGALA双城记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "虞书欣工作室",
+     "verify": "蓝V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今晚上海滩very有腔调的女人 @虞书欣Esther #虞书欣 #云初 #云初令 #何盼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "听听",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欣欣内场晚宴，生图直出美晕了#虞书欣 #云初 #云初令 #何盼",
      "likes": 0,
      "hot": 0
     }
@@ -2306,6 +2257,113 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "我有的奇怪心事它一大堆 #美琪 #cos #巴啦啦小魔仙 #巴啦啦小魔仙之梦幻旋律 #走拍",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "万物皆可治愈大笑": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "六月的太阳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#小奶狗表情",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "月竹挽风",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#苹果好吃又好看 #被苹果惊艳到了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "翠花🌹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#南瓜人偶 #把南瓜当玩具 #可爱大南瓜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "快乐奶奶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "快乐奶奶",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王红映",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王红映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "周四妹学跳曳步舞，(一点难度)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一生有你",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#爱撅嘴巴的宝宝 😁😁#爱笑宝宝已上线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "帅仲芬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "帅仲芬",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "开心幸福每一天",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "开心幸福每一天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "💗᭄余生ᝰᩚ随心ꦿ໌💗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#可爱小猫在线营业 #谁能拒绝小猫卖萌啊 #可爱又可气的猫咪",
      "likes": 0,
      "hot": 0
     }
