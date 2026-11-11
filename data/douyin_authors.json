@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11 18:39",
+ "updated_at": "2026-11-11 19:40",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
@@ -60,12 +60,22 @@
      "hot": 0
     },
     {
-     "name": "小央视频",
+     "name": "光明网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今日关注 | 时隔九个月 俄美乌三方会谈在阿布扎比重启#今日关注 #媒体精选计划",
+     "text": "俄罗斯、美国、乌克兰在阿布扎比开始第二日会谈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄美乌三方首日会谈结束 鲁比奥：“有成效”但存分歧#俄乌冲突 #美国国务卿 #鲁比奥 #俄美乌三方会谈",
      "likes": 0,
      "hot": 0
     }
@@ -102,8 +112,40 @@
   },
   "中国外贸的APEC底色": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创【“数”看中国外贸的APEC底色】中国与APEC经济体之间的贸易往来不断加深，结构也不断优化。今年前三季度，中国每100元的外贸进出口中，就有60.3",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 深圳对APEC经济体的外贸规模全国第一！2026年前三季度深圳对APEC经济体贸易占深圳外贸总值近七成。（央视频号：总台电视资讯）#媒体精选计划 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "亲历多年APEC的前加拿大政府顾问芮安卓，亲眼看中国从\"我们准备好了\"，走到全球供应链中最重要的一环。他说，在很多方面，中国所走过的也是世界上其他国家走过的路，",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "网购一个家系列": {
    "stats": {},
@@ -146,22 +188,22 @@
    "stats": {},
    "authors": [
     {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重磅！国家税务总局：离岸信托收益征税过渡期已结束，累计申报个税超1600亿元，其中10月入库超1200亿元，带动10月个人所得税增长近90%#一财情报局",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "中新经纬",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#离岸信托收益征税 平稳有序推进：累计申报离岸信托个人所得税超1600亿元，其中10月当月入库超1200亿元",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "重磅！国家税务总局：离岸信托收益征税过渡期已结束，累计申报个税超1600亿元，其中10月入库超1200亿元，带动10月个人所得税增长近90%#一财情报局",
      "likes": 0,
      "hot": 0
     },
@@ -192,6 +234,33 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "口罩哥研报60秒",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "胡塞武装发射导弹袭击沙特": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！#霍尔木兹海峡三艘油轮爆炸 火焰冲天 国际油价延续跌势 #胡塞武装发射导弹袭击沙特",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财经小师妹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "首都金融区被炸，沙特的经济盘要被胡塞武装打烂了#媒体精选计划 #燃起来了大国重器 #真财实学计划 #沙特 #胡塞武装",
      "likes": 0,
      "hot": 0
     }
@@ -253,22 +322,22 @@
      "hot": 0
     },
     {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "斯坦丘与李国旭分别荣膺中超年度金球奖&金帅奖 斯坦丘与李国旭分别荣膺中超年度金球奖&金帅奖#李国旭 #斯坦丘 #大连英博",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 北京国安前锋张玉宁一人独得两项个人荣誉，收获2026中超本土金球奖&本土最佳射手，再加上入选最佳阵容，成为最大赢家！张玉宁：足球是一个11个人的运动",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "五星体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "斯坦丘与李国旭分别荣膺中超年度金球奖&金帅奖 斯坦丘与李国旭分别荣膺中超年度金球奖&金帅奖#李国旭 #斯坦丘 #大连英博",
      "likes": 0,
      "hot": 0
     }
@@ -390,90 +459,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "开拓者123:103雷霆": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Dame Time!#利拉德 LOGO超远三分投进，开拓者取得17分优势进入第四节 #雷霆vs开拓者",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "波特兰开拓者队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@杨瀚森👑 备战对阵雷霆，比赛将在中午12:00开打！#雷霆vs开拓者 #杨瀚森 #波特兰开拓者",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小五说球儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雷霆vs开拓者 开拓者大胜雷霆20分，森林狼升至西部第三#雷霆#开拓者",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "高小艾的篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雷霆不敌开拓者！亚历山大三节打卡下班！ #亚历山大 #利拉德 #杨瀚森 #雷霆 #开拓者",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "和平精英新版本冰雪阿勒泰全攻略": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "和平精英",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "雪战冬日Every Night，大吉大利大盘鸡！ #和平精英雪战冬日新版本现已开启，耍起撒！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "甜柒和平精英",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本更新的第一把 #和平精英 #和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英决斗机制",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小幼姿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这是谁的队友#和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英 #和平女孩",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "我往这你不炸了吗对口型挑战": {
    "stats": {},
    "authors": [
@@ -571,26 +556,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "造山农村女团平均年龄55岁": {
+  "和平精英新版本冰雪阿勒泰全攻略": {
    "stats": {},
    "authors": [
     {
-     "name": "小莉帮忙",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "和平精英",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月11日（发布）河南安阳，农村大妈组女团，平均年龄55岁，日收入3位数。网友称希望老了也能拥有这样的气血！（直播部：宋博毅 胡志良；小莉帮忙： 王新萍）#媒",
+     "text": "雪战冬日Every Night，大吉大利大盘鸡！ #和平精英雪战冬日新版本现已开启，耍起撒！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大参考",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "甜柒和平精英",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月11日（发布），河南林州，人均60岁的河南农村女团爆火，农忙了种地，不忙了一起直播，“不用上班打卡，又能锻炼又能挣钱”#媒体原创 #媒体原创计划#当事人会",
+     "text": "新版本更新的第一把 #和平精英 #和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英决斗机制",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小幼姿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这是谁的队友#和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英 #和平女孩",
      "likes": 0,
      "hot": 0
     }
@@ -705,6 +700,33 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "造山农村女团平均年龄55岁": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小莉帮忙",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月11日（发布）河南安阳，农村大妈组女团，平均年龄55岁，日收入3位数。网友称希望老了也能拥有这样的气血！（直播部：宋博毅 胡志良；小莉帮忙： 王新萍）#媒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大参考",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月11日（发布），河南林州，人均60岁的河南农村女团爆火，农忙了种地，不忙了一起直播，“不用上班打卡，又能锻炼又能挣钱”#媒体原创 #媒体原创计划#当事人会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "尚公主大结局": {
    "stats": {},
    "authors": [
@@ -742,150 +764,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "恭喜《给阿嬷的情书》获金鸡奖最佳编剧奖！#金鸡奖 #给阿嬷的情书 #电影 #编剧 #中国电影金鸡奖",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "萌宠的表面心连心太上头了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "铁石阿姨🐈‍⬛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表面心连心那么背后玩脑筋。#猫猫祟祟 #勾心斗角",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "舒心",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI表面心连心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "酱香小诗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#表面心连心背后玩脑筋 #挡不住猫硬要表演#即梦AI #即梦电脑版还是太全面了#一站式AI创作工作台",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Sycyqx",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#表面心连心背后玩脑筋 #直视喵的眼睛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宇宙大漂亮🦋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#Ai表面心连心 #狸花猫天下第一",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "开朗的菠萝头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表面心连心，背后玩脑筋#橘猫 #万物可爱计划 #抽象",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中登",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#表面心连心背后玩脑筋 #邪恶银渐层计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张十一.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI表面心连心 #猫咪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "囚牛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我严重怀疑 鳌拜跟我俩就是表面的#温柔的猛犬 #护卫犬罗威纳 #罗威纳护卫 #猛犬养成记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Banana",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表面心连心 背后玩脑筋 #奶牛猫精神病 #奶牛猫精神病 #两面人 #表面心连心背后玩脑筋 #萌宠日常分享",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "黄金时代的可人儿集体发力了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "虞书欣Esther",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来到黄金时代。🕊️ #WGALA此刻即黄金时代 #W中文版年度盛典 #WGALA双城记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "戚薇",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我说的不是tiger吗？。。。#WGALA此刻即黄金时代 #W中文版年度盛典 #WGALA双城记 #毛茸茸治愈一切",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无敌泡泡鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "所有人感受这个伟大的女性群像！#W盛典 #女性 #群像",
      "likes": 0,
      "hot": 0
     }
@@ -960,610 +838,76 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "金铲铲百万撤离卡组": {
+  "和平精英冰雪阿勒泰冬游记": {
    "stats": {},
    "authors": [
     {
-     "name": "树哥（金铲铲/云顶）",
+     "name": "甜柒和平精英",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "更新后再现最强百万撤离卡组搭配，全新最强公式全职高手塞拉斯 全新最强公式全职高手塞拉斯#金铲铲大橘大利 #金铲铲自然之力 #精选计划",
+     "text": "新版本更新的第一把 #和平精英 #和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英决斗机制",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "苦说（金铲铲）",
+     "name": "步酱",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "大橘大利最强赌狗VS时光卡牌，最后赢家却是它#金铲铲之战 #金铲铲自然之力 #金铲铲大橘大利 #游戏破壁计划 #游戏花样乱斗",
+     "text": "新版本想跟谁一起打卡 #我AI玩和平 #和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英吃鸡搭子 #步酱",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "今晚吃香菜(金铲铲之战）",
+     "name": "范特鸡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "大橘大利最新信息差《最强五大T0阵容》 全网最细节的大橘大利教学，职业选手都在用最新信息差的阵容，百分百撤离，新手教学天花板，从猛攻到跑刀,学会金橘币拿到手软，",
+     "text": "新版本一局6条命！主题海岛四大召回方法，一个比一个简单！ #和平精英带出来的兵 #和平精英雪战冬日 #和平精英体验服 #我在抖音玩和平 #抖音精选APP",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "邓家佳 欢迎来到肌肉时代": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "邓家佳",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欢迎来到肌肉时代～ #我的金鸡live",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "许飞的穿搭功力恐怕在我之下": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "芒果妈妈",
+     "name": "林牛牛",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "虽然许飞穿搭有限，但文化无限啊！#许飞 #厉娜 #穿搭 #搞笑 #考古",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "星穹铁道星神阿哈上线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "崩坏星穹铁道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」 「你这妙计叫什么名字？」 「打BOSS，直接用BOSS打——此计名为BOSS直拼。」 #崩坏星穹铁道 #此",
+     "text": "快叫上游戏搭子去打卡吧 #和平精英雪战冬日#和平精英冰雪阿勒泰 #和平精英新版本 #和平精英打卡 #和平精英打卡点",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "方老师来啦",
+     "name": "抱抱",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "表演就要让人眼前一亮！ #崩坏星穹铁道 #阿哈的游戏 #此刻将群星付之一笑 #阿哈",
+     "text": "新版本已上线 快叫你们的游戏搭子去打卡吧 #和平精英#和平精英冰雪阿勒泰 #和平精英新版本#和平精英游戏搭子",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "董思成陈砚周进行曲": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "副作用.",
+     "name": "欢欢.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "帅我一脸. #今天是太阳雨 #我画地为牢了今天是太阳雨 #董思成 #杨超越 #陈砚周",
+     "text": "新版本上线啦，争做打卡第一人#新版本 #冰雪阿勒泰",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "剪子",
+     "name": "腿腿✨",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "哪个球场有这么帅的同学 #今天是太阳雨 #今天是太阳雨越对抗越美味 #董思成 @今天是太阳雨（1106🥭见 #陈砚周",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "董思成WINWIN工作室（24h监测版",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#陈砚周进行曲 @董思成 来了来了 #今天是太阳雨 #董思成 #陈砚周",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "胡塞武装发射导弹袭击沙特": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场视频！#霍尔木兹海峡三艘油轮爆炸 火焰冲天 国际油价延续跌势 #胡塞武装发射导弹袭击沙特",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "财经小师妹",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "首都金融区被炸，沙特的经济盘要被胡塞武装打烂了#媒体精选计划 #燃起来了大国重器 #真财实学计划 #沙特 #胡塞武装",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一学就会的手势舞来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "我是大哈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "到最后才明白～^小堍摇来喽～（yc：@one堍 ）#看大哈跳简单手势舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "麻辣猫薄荷ॱଳॱ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "简单又好看的手势舞 喊你爱播跳这个#隔岸dj #舞蹈玩法 #抖音潮流玩法挑战赛 #抖舞玩法模范生 #抖音玩法合伙人计划 原创@小十三",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白哈哈_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "收藏起来 留着过年拍～#来财dj #一学就会系列好洗脑 #来财来财 #手势舞教程",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "白小纯33Svan组队鹅鸭杀": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "安利韩芳芳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个视频我竟品出了一丝别样的3纯风味啊#TJB白小纯 #3纯 #搞笑",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李小星.（只对wwx深情版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谁也不放过谁#33Svan #tjb白小纯 #ltg魏无羡 #pel #tec",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "拜托了小椰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "口嫌体正直3和软萌撒娇怪纯 简直神来的#三纯 #3纯 #直播录屏分享 #鹅鸭杀 #磕cp哪有不发疯的",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "以为是你想我了 原来是冬天来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爱喝冰冰冰美式",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "打了一个喷嚏 我以为是你想我了 原来是冬天来了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "@nono 💕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天打了一个喷嚏 我以为是你想我了 原来是冬天来了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "洋葱🧅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天打了一个喷嚏 我以为是你想我了 原来是冬天来了.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "狒狒.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天打喷嚏 以为你想我了 原来是冬天来了#忽然就冷了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "博",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "打了一个喷嚏 我以为是你想我了 原来是冬天来了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张小猴🐒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天打了一个喷嚏，以为是你想我了，原来是冬天来了#冬天 #降温",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "离别",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "打了一个喷嚏 我以为是你想我了 原来是冬天来了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小井迪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“今天打了两个喷嚏 以为是谁想我了 原来是冬天来了”#井迪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Midor",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的感受无比重要 我的决定不可动摇。#不浪漫罪名",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "@丫头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天打了个喷嚏 我以为是你想我了 原来是冬天来了.",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "高叶获第39届金鸡奖最佳女主角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【高叶几度哽咽的说不出话】 完整版现场视频来啦！高叶凭借《南京照相馆》中林毓秀一角荣获第39届中国电影金鸡奖最佳女主角，现场哽咽说出获奖感言。#第39届金鸡奖 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "高叶ChLoe",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感谢每一位观众，感谢金鸡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第39届中国电影金鸡奖最佳女主角高叶泣不成声：“原来这就是梦想照进现实的感觉！”（编辑/宜轩 责编/黄岚 编审/继成、林军）#2026年中国金鸡百花电影节 #厦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 高叶获金鸡最佳女主角后发表感想，”有梦就去追，万一实现了呢？”#金鸡奖 #高叶",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "福建日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第39届中国电影金鸡奖 最佳女主角高叶：厦门是我的福地也是我的圆梦之地",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月10日，高叶获得第39届金鸡奖最佳女主角，获奖时泣不成声，哽咽道：这是我从业的第20年，现在是我的圆梦时刻。朋友们，有梦就去追吧，热爱终有回响！#金鸡奖 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月10日晚，福建厦门，第39届中国电影金鸡奖颁奖典礼，高叶凭借电影《南京照相馆》中林毓秀一角，获得最佳女主角奖。由于在《狂飙》中饰演的陈书婷一角深入人心，现",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京时间",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月10日，第39届中国电影金鸡奖颁奖典礼，高叶凭借影片《南京照相馆》斩获最佳女主角。发表获奖感言时，她哽咽落泪，感慨“原来这就是梦想照进现实的感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "指尖新闻沈阳晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月10日，高叶凭《南京照相馆》中林毓秀一角获得第39届中国电影金鸡奖最佳女主角。站上领奖台的她热泪盈眶，特意感谢始终信任她的母亲，更感恩生在这片热土、拥有追",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别人领奖感谢剧组、感谢机遇，高叶获得金鸡奖最佳女主角，领奖开口第一句话感谢的，是自己生在和平年代。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "所有人感受李思潼金鸡怼脸拍": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "娱乐圈小蜜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#李思潼 淡妆配黑裙亮相金鸡奖闭幕式红毯 越来越漂亮了#我的金鸡live #抖音带你看金鸡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京时间",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月10日，第39届中国电影金鸡奖颁奖典礼举行入场仪式，李思潼随《给阿嬷的情书》剧组一同亮相。不停和现场观众挥手互动，笑容甜美治愈，一路小跑跟上队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国电影报道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#李思潼说心里很紧张 #金鸡奖演员集结中 《给阿嬷的情书》剧组亮相金鸡奖入场仪式，记者感叹李思潼看起来很稳，一点都不紧张。李思潼坦言心里其实很紧张，但和这么多小",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "权威展示allwhite穿搭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "江歭奈绘美",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天资是个残忍的东西",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "茉茉手势舞挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "酥酥🍪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在吗 我家门口新开了一朵茉莉 #茉茉 #傻孩子编舞 #Nzwin黄跃成 #BJHG #不计后果羽绒服",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "穆祉丞",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "：在吗#我家门口新开了一朵茉莉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "赖矜持",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在吗？ #茉茉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "yani",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我家门口新开了一朵茉莉#eyepony暖珍珠 #茉茉 #手势舞 #抖音玩法合伙人计划 #抖舞玩法模范生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿镕公子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在吗 #手势舞 #茉茉 #傻孩子编舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奥利",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一朵茉莉 #茉茉 #傻孩子编舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你家的小号",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我家门口新开了一朵茉莉❄️ #手势舞 #茉茉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鱼鱼🐟",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "玉龙雪山版茉莉！#茉茉 #手势舞 #Nzwin黄跃成 #甜弟 #雪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "hate",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又是舍不得删的第二版 #手势舞 #傻孩子编舞#茉茉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "什么小椰🥥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好喜欢这套紫色！#茉茉#卡点#手势舞#甜妹",
+     "text": "新版本冰雪阿勒泰有很多超美的打卡点 已经开始期待和朋友一起去了#和平精英体验服 #和平精英雪战冬日 #和平精英冰雪阿勒泰",
      "likes": 0,
      "hot": 0
     }
@@ -1678,6 +1022,327 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "金铲铲百万撤离卡组": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "树哥（金铲铲/云顶）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "更新后再现最强百万撤离卡组搭配，全新最强公式全职高手塞拉斯 全新最强公式全职高手塞拉斯#金铲铲大橘大利 #金铲铲自然之力 #精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苦说（金铲铲）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大橘大利最强赌狗VS时光卡牌，最后赢家却是它#金铲铲之战 #金铲铲自然之力 #金铲铲大橘大利 #游戏破壁计划 #游戏花样乱斗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今晚吃香菜(金铲铲之战）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大橘大利最新信息差《最强五大T0阵容》 全网最细节的大橘大利教学，职业选手都在用最新信息差的阵容，百分百撤离，新手教学天花板，从猛攻到跑刀,学会金橘币拿到手软，",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "许飞的穿搭功力恐怕在我之下": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "芒果妈妈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "虽然许飞穿搭有限，但文化无限啊！#许飞 #厉娜 #穿搭 #搞笑 #考古",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄金时代的可人儿集体发力了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "虞书欣Esther",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来到黄金时代。🕊️ #WGALA此刻即黄金时代 #W中文版年度盛典 #WGALA双城记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "戚薇",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我说的不是tiger吗？。。。#WGALA此刻即黄金时代 #W中文版年度盛典 #WGALA双城记 #毛茸茸治愈一切",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "无敌泡泡鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人感受这个伟大的女性群像！#W盛典 #女性 #群像",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "星穹铁道星神阿哈上线": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "崩坏星穹铁道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」 「你这妙计叫什么名字？」 「打BOSS，直接用BOSS打——此计名为BOSS直拼。」 #崩坏星穹铁道 #此",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "方老师来啦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "表演就要让人眼前一亮！ #崩坏星穹铁道 #阿哈的游戏 #此刻将群星付之一笑 #阿哈",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "董思成陈砚周进行曲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "副作用.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "帅我一脸. #今天是太阳雨 #我画地为牢了今天是太阳雨 #董思成 #杨超越 #陈砚周",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "剪子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哪个球场有这么帅的同学 #今天是太阳雨 #今天是太阳雨越对抗越美味 #董思成 @今天是太阳雨（1106🥭见 #陈砚周",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "董思成WINWIN工作室（24h监测版",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#陈砚周进行曲 @董思成 来了来了 #今天是太阳雨 #董思成 #陈砚周",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一学就会的手势舞来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我是大哈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "到最后才明白～^小堍摇来喽～（yc：@one堍 ）#看大哈跳简单手势舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "麻辣猫薄荷ॱଳॱ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "简单又好看的手势舞 喊你爱播跳这个#隔岸dj #舞蹈玩法 #抖音潮流玩法挑战赛 #抖舞玩法模范生 #抖音玩法合伙人计划 原创@小十三",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白哈哈_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "收藏起来 留着过年拍～#来财dj #一学就会系列好洗脑 #来财来财 #手势舞教程",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "你还是从前的你吗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱唱歌的小老乖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#真情演绎真实故事 #夜晚真情流露",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你爱我吗，爱的就是你",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你还是从前的你吗，为什么变陌生了，请别忘记我！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "钟情于☞李☜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "钟情于☞李☜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "快乐人生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#歌曲分享",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "做个好男人＂累＂",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你还是从前的你吗？为什么你别了模样",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "王诚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你已经不是从前的你，我也不是从前的我#你还是从前的你吗#石红豆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小军",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#经典老歌 #你还是从前的你吗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "亮亮哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "为什么你变了 变得让我陌生害怕",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "以为是你想我了 原来是冬天来了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "白小纯33Svan组队鹅鸭杀": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "安利韩芳芳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个视频我竟品出了一丝别样的3纯风味啊#TJB白小纯 #3纯 #搞笑",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李小星.（只对wwx深情版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谁也不放过谁#33Svan #tjb白小纯 #ltg魏无羡 #pel #tec",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拜托了小椰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "口嫌体正直3和软萌撒娇怪纯 简直神来的#三纯 #3纯 #直播录屏分享 #鹅鸭杀 #磕cp哪有不发疯的",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "当一次MV女主角": {
    "stats": {},
    "authors": [
@@ -1714,227 +1379,6 @@
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "尖牙小黑猫萌到犯规了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "111",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "懵一天，萌一天，愣一天。#拉拜诗时髦书呆子 #拉拜诗满着色",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "rainy season",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "刷到这个萌萌的耳朵，马不停蹄的翻了一下相册！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "嘴皮，梦想哭了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "装可爱好难但幸好 我是真的爱装的ᯇ⩊ᯇ。#旧照新发",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大聪明拆卡",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请给我一次机会#甜妹统治",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "忧郁奶黄包",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累一天 笑一天 傻一天 萌一天 蠢一天 躺一天 懵一天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "神秘人Y",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又瘦了…",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "和平精英冰雪阿勒泰冬游记": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "甜柒和平精英",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本更新的第一把 #和平精英 #和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英决斗机制",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "步酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本想跟谁一起打卡 #我AI玩和平 #和平精英雪战冬日 #和平精英冰雪阿勒泰 #和平精英吃鸡搭子 #步酱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "范特鸡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本一局6条命！主题海岛四大召回方法，一个比一个简单！ #和平精英带出来的兵 #和平精英雪战冬日 #和平精英体验服 #我在抖音玩和平 #抖音精选APP",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林牛牛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快叫上游戏搭子去打卡吧 #和平精英雪战冬日#和平精英冰雪阿勒泰 #和平精英新版本 #和平精英打卡 #和平精英打卡点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抱抱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本已上线 快叫你们的游戏搭子去打卡吧 #和平精英#和平精英冰雪阿勒泰 #和平精英新版本#和平精英游戏搭子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "欢欢.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本上线啦，争做打卡第一人#新版本 #冰雪阿勒泰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "腿腿✨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新版本冰雪阿勒泰有很多超美的打卡点 已经开始期待和朋友一起去了#和平精英体验服 #和平精英雪战冬日 #和平精英冰雪阿勒泰",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟白鹿一起变身毛茸茸": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "梁家辉第39届金鸡奖最佳男主角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视文艺",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#文艺观察 梁家辉凭《捕风追影》中傅隆生一角斩获第39届金鸡奖最佳男主角，达成华语影坛三金大满贯。从影四十余载，塑造无数经典角色，这却是他第一次站上金鸡的领奖台",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 “我不愿意当明星，我愿意当一个演员。”梁家辉获金鸡最佳男主角后发表感想。#金鸡奖 #梁家辉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #梁家辉回应独自坐高铁像孤独老人 #梁家辉回应一个人坐高铁来厦门 梁家辉凭借《捕风追影》获得金鸡奖最佳男主角。此前，他“独自”拖着行李箱在高铁站候车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "南方都市报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "68岁梁家辉首次提名便一举摘下金鸡奖影帝：拿了奖不代表可以收工，咱们开工了！#梁家辉 #金鸡奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "现代快报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "从影40余年首获金鸡奖，梁家辉摘得第39届中国电影金鸡奖最佳男主角奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门日报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜梁家辉！68岁首夺金鸡奖最佳男主角： “拿了奖不代表可以收工，咱们开工了”#厦门 #金鸡奖 #梁家辉 #心动厦门 #我在厦门看金鸡",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "马嘉祺是另一个齐景明": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "五官这下真的是各过各的了": {
    "stats": {},
@@ -2043,26 +1487,616 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "吴克群用桂林好柿交换全国特产": {
+  "穿上毛茸茸和青稚一起小猫踏步": {
    "stats": {},
    "authors": [
     {
-     "name": "吴克群",
+     "name": "天霸青稚",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "广西桂林的柿子熟了，我想把这份甜送到更远的地方。用一份家乡味道，换遍全国的家乡味道，让所有人好事发生！❤️ #桂林好柿传千里 #为你做不可能的柿 #吴克群的巡演",
+     "text": "不带八月玩#毛茸茸治愈一切 #小猫踏步",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "开拓者123:103雷霆": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Dame Time!#利拉德 LOGO超远三分投进，开拓者取得17分优势进入第四节 #雷霆vs开拓者",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "桂林生活网",
+     "name": "波特兰开拓者队",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@杨瀚森👑 备战对阵雷霆，比赛将在中午12:00开打！#雷霆vs开拓者 #杨瀚森 #波特兰开拓者",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小五说球儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雷霆vs开拓者 开拓者大胜雷霆20分，森林狼升至西部第三#雷霆#开拓者",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "高小艾的篮球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "雷霆不敌开拓者！亚历山大三节打卡下班！ #亚历山大 #利拉德 #杨瀚森 #雷霆 #开拓者",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "今天是太阳雨二创大赏": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "莎宝啊biu",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“因为你 我开始期待未来” #今天是太阳雨 #杨超越 #董思成 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Only+",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我用《爱情怎么翻译》ost打开太阳雨☀ 还挺适配的#今天是太阳雨 #爱情怎么翻译 #董思成 #陈砚周 #杨超越",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "梁家辉第39届金鸡奖最佳男主角": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视文艺",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "桂林的柿子熟啦！歌手吴克群发起特产交换活动，把“桂林好柿”送往全国#桂林好柿传千里 #为你做不可能的事 #吴克群的巡演看世界 #恭城月柿 @吴克群",
+     "text": "#文艺观察 梁家辉凭《捕风追影》中傅隆生一角斩获第39届金鸡奖最佳男主角，达成华语影坛三金大满贯。从影四十余载，塑造无数经典角色，这却是他第一次站上金鸡的领奖台",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 “我不愿意当明星，我愿意当一个演员。”梁家辉获金鸡最佳男主角后发表感想。#金鸡奖 #梁家辉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #梁家辉回应独自坐高铁像孤独老人 #梁家辉回应一个人坐高铁来厦门 梁家辉凭借《捕风追影》获得金鸡奖最佳男主角。此前，他“独自”拖着行李箱在高铁站候车",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南方都市报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "68岁梁家辉首次提名便一举摘下金鸡奖影帝：拿了奖不代表可以收工，咱们开工了！#梁家辉 #金鸡奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "现代快报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从影40余年首获金鸡奖，梁家辉摘得第39届中国电影金鸡奖最佳男主角奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜梁家辉！68岁首夺金鸡奖最佳男主角： “拿了奖不代表可以收工，咱们开工了”#厦门 #金鸡奖 #梁家辉 #心动厦门 #我在厦门看金鸡",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "高叶获第39届金鸡奖最佳女主角": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【高叶几度哽咽的说不出话】 完整版现场视频来啦！高叶凭借《南京照相馆》中林毓秀一角荣获第39届中国电影金鸡奖最佳女主角，现场哽咽说出获奖感言。#第39届金鸡奖 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "高叶ChLoe",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感谢每一位观众，感谢金鸡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门广电",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第39届中国电影金鸡奖最佳女主角高叶泣不成声：“原来这就是梦想照进现实的感觉！”（编辑/宜轩 责编/黄岚 编审/继成、林军）#2026年中国金鸡百花电影节 #厦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 高叶获金鸡最佳女主角后发表感想，”有梦就去追，万一实现了呢？”#金鸡奖 #高叶",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "福建日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第39届中国电影金鸡奖 最佳女主角高叶：厦门是我的福地也是我的圆梦之地",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第1眼新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月10日，高叶获得第39届金鸡奖最佳女主角，获奖时泣不成声，哽咽道：这是我从业的第20年，现在是我的圆梦时刻。朋友们，有梦就去追吧，热爱终有回响！#金鸡奖 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月10日晚，福建厦门，第39届中国电影金鸡奖颁奖典礼，高叶凭借电影《南京照相馆》中林毓秀一角，获得最佳女主角奖。由于在《狂飙》中饰演的陈书婷一角深入人心，现",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 11月10日，第39届中国电影金鸡奖颁奖典礼，高叶凭借影片《南京照相馆》斩获最佳女主角。发表获奖感言时，她哽咽落泪，感慨“原来这就是梦想照进现实的感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "指尖新闻沈阳晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月10日，高叶凭《南京照相馆》中林毓秀一角获得第39届中国电影金鸡奖最佳女主角。站上领奖台的她热泪盈眶，特意感谢始终信任她的母亲，更感恩生在这片热土、拥有追",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别人领奖感谢剧组、感谢机遇，高叶获得金鸡奖最佳女主角，领奖开口第一句话感谢的，是自己生在和平年代。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王子璇蓝色毛衣编织图解来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "尼古拉斯大妞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《后会友期》王子璇蓝色毛衣花片我画出图解了！ #后会友期 #棒针毛衣 #棒针图解 #针织 #尼古拉斯大妞",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "所有人感受李思潼金鸡怼脸拍": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "娱乐圈小蜜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#李思潼 淡妆配黑裙亮相金鸡奖闭幕式红毯 越来越漂亮了#我的金鸡live #抖音带你看金鸡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 11月10日，第39届中国电影金鸡奖颁奖典礼举行入场仪式，李思潼随《给阿嬷的情书》剧组一同亮相。不停和现场观众挥手互动，笑容甜美治愈，一路小跑跟上队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国电影报道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#李思潼说心里很紧张 #金鸡奖演员集结中 《给阿嬷的情书》剧组亮相金鸡奖入场仪式，记者感叹李思潼看起来很稳，一点都不紧张。李思潼坦言心里其实很紧张，但和这么多小",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "权威展示allwhite穿搭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "江歭奈绘美",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天资是个残忍的东西",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "萌宠的表面心连心太上头了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "铁石阿姨🐈‍⬛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "表面心连心那么背后玩脑筋。#猫猫祟祟 #勾心斗角",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "舒心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI表面心连心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "酱香小诗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#表面心连心背后玩脑筋 #挡不住猫硬要表演#即梦AI #即梦电脑版还是太全面了#一站式AI创作工作台",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Sycyqx",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#表面心连心背后玩脑筋 #直视喵的眼睛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宇宙大漂亮🦋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#Ai表面心连心 #狸花猫天下第一",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "开朗的菠萝头",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "表面心连心，背后玩脑筋#橘猫 #万物可爱计划 #抽象",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中登",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#表面心连心背后玩脑筋 #邪恶银渐层计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张十一.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI表面心连心 #猫咪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "囚牛",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我严重怀疑 鳌拜跟我俩就是表面的#温柔的猛犬 #护卫犬罗威纳 #罗威纳护卫 #猛犬养成记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Banana",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "表面心连心 背后玩脑筋 #奶牛猫精神病 #奶牛猫精神病 #两面人 #表面心连心背后玩脑筋 #萌宠日常分享",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "尖牙小黑猫萌到犯规了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "111",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "懵一天，萌一天，愣一天。#拉拜诗时髦书呆子 #拉拜诗满着色",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "rainy season",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刷到这个萌萌的耳朵，马不停蹄的翻了一下相册！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "嘴皮，梦想哭了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "装可爱好难但幸好 我是真的爱装的ᯇ⩊ᯇ。#旧照新发",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大聪明拆卡",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请给我一次机会#甜妹统治",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "忧郁奶黄包",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "累一天 笑一天 傻一天 萌一天 蠢一天 躺一天 懵一天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "神秘人Y",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又瘦了…",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "茉茉手势舞挑战": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "酥酥🍪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在吗 我家门口新开了一朵茉莉 #茉茉 #傻孩子编舞 #Nzwin黄跃成 #BJHG #不计后果羽绒服",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "穆祉丞",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "：在吗#我家门口新开了一朵茉莉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赖矜持",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在吗？ #茉茉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "yani",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我家门口新开了一朵茉莉#eyepony暖珍珠 #茉茉 #手势舞 #抖音玩法合伙人计划 #抖舞玩法模范生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿镕公子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在吗 #手势舞 #茉茉 #傻孩子编舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奥利",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一朵茉莉 #茉茉 #傻孩子编舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你家的小号",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我家门口新开了一朵茉莉❄️ #手势舞 #茉茉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鱼鱼🐟",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "玉龙雪山版茉莉！#茉茉 #手势舞 #Nzwin黄跃成 #甜弟 #雪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "hate",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又是舍不得删的第二版 #手势舞 #傻孩子编舞#茉茉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "什么小椰🥥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好喜欢这套紫色！#茉茉#卡点#手势舞#甜妹",
      "likes": 0,
      "hot": 0
     }
@@ -2121,16 +2155,6 @@
    "stats": {},
    "authors": [
     {
-     "name": "佐维Zovi",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你怎么知道我拿到这个了 #库迪黄油南瓜派系列 #库迪黄油南瓜派拿铁 #库迪黄油南瓜派红茶 #库迪火影忍者疾风传联名 #火影热血番冬日解冻了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "我叫龙舟（仙人模式）",
      "verify": "",
      "identity": "",
@@ -2154,26 +2178,21 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "今天是太阳雨二创大赏": {
+  "跟白鹿一起变身毛茸茸": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "邓家佳 欢迎来到肌肉时代": {
    "stats": {},
    "authors": [
     {
-     "name": "莎宝啊biu",
-     "verify": "",
-     "identity": "",
+     "name": "邓家佳",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“因为你 我开始期待未来” #今天是太阳雨 #杨超越 #董思成 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Only+",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我用《爱情怎么翻译》ost打开太阳雨☀ 还挺适配的#今天是太阳雨 #爱情怎么翻译 #董思成 #陈砚周 #杨超越",
+     "text": "欢迎来到肌肉时代～ #我的金鸡live",
      "likes": 0,
      "hot": 0
     }
@@ -2255,39 +2274,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王嘉尔在观复博物馆走不动道了": {
+  "马嘉祺是另一个齐景明": {
    "stats": {},
-   "authors": [
-    {
-     "name": "马未都",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马未都&王嘉尔｜欢迎嘉尔下次再来！ #王嘉尔在观复博物馆走不动道了 #观复博物馆 #大有学问",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "穿上毛茸茸和青稚一起小猫踏步": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "天霸青稚",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不带八月玩#毛茸茸治愈一切 #小猫踏步",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   }
  }
 }
