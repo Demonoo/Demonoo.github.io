@@ -1,38 +1,11 @@
 {
- "updated_at": "2026-11-12 06:42",
+ "updated_at": "2026-11-12 07:40",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 50,
- "ok_count": 46,
+ "topic_count": 49,
+ "ok_count": 45,
  "lexicon_count": 0,
  "topics": {
-  "火箭115:108击败勇士": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一波流带走！小谢老范射穿金州！#火箭115比108战胜勇士 #火箭终结勇士八连胜 #勇士vs火箭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "NBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜杜兰特生涯进球数超越奥尼尔升至历史第七！#杜兰特升至历史进球榜第七位",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "纪念孙中山先生诞辰160周年": {
    "stats": {},
    "authors": [
@@ -110,56 +83,288 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "AI算力成消费新热点": {
+  "天凉热乎美食登场": {
    "stats": {},
    "authors": [
     {
-     "name": "新闻联播",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "徐可",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今年“双十一”期间，短短一周就卖出约20万亿Token，这意味着AI算力服务正从后台技术资源，变成大众触手可及的消费服务。购物车的这一新变化，让人不仅看到消费升",
+     "text": "要变天了，记得吃点热乎的呀",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "人民财经网",
+     "name": "四川文旅",
+     "verify": "蓝V",
+     "identity": "官方机构",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天冷了，来四川吃口热乎的#四川美食 #把秋天吃进日常里 #美食 #锦绣天府安逸四川",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "海上风电装机量居全球首位": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "AI的“燃料”在直播间卖火了 #媒体原创 “双十一”临近，今年直播间里刷的不是“上链接”，是“3、2、1，上 Token”。AI软件的会员月卡，成了抢手货。 开",
+     "text": "我国海上风电累计并网装机和年度新增装机连续五年居全球首位，占全球比重均超过一半，年发电量超过1000亿千瓦时。",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "火箭115:108击败勇士": {
+   "stats": {},
+   "authors": [
     {
-     "name": "第1眼新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "第1观察 | 今年“双11”，直播间里最让人意外的新商品，是看不见、摸不着的token。AI正在从技术圈的话题，变成日常消费。智能服务正在零售化，AI消费正在开",
+     "text": "一波流带走！小谢老范射穿金州！#火箭115比108战胜勇士 #火箭终结勇士八连胜 #勇士vs火箭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "宅男阿翌",
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜杜兰特生涯进球数超越奥尼尔升至历史第七！#杜兰特升至历史进球榜第七位",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风杨看球",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "AI走出屏幕，我们的生活未来会发生什么变化？ #2026移动网络大会 #共创智能经济新形态 #出片率超高的科技展",
+     "text": "火箭希望交易得到哈登帮助杜兰特争冠！#哈登重返火箭#哈登联手杜兰特#休斯顿火箭#火箭#nba新赛季",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "闪电新闻",
+     "name": "辉弟爱侃球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "火箭队的“死亡六一”的搭配，真的挺吓人呀。 打太阳的落后19分追平比赛，打掘金的被对手追平之后的搞出来一波流，那都是五小阵容的杰作。而且这个五小阵容给对手的压迫",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "寒潮结束全国大部气温回升": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱济南新闻客户端",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "苹果一边说AI是未来，一边给自己人算起了账。美企“狂烧Token”时代落幕了？苹果下调员工AI使用预算，部分工程团队日额度或降至100美元。#iPhone #a",
+     "text": "寒潮过后大回暖！全国大部地区升温，昼夜温差超15℃；本周末起，新一股冷空气又会自北向南影响我国。 今天白天，寒潮影响基本结束。北方气温继续回升，南方多地也将加入",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "渔舟风云观察",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冷空气刚走，气温直接开启“快速回升”模式！根据中央气象台最新预报，南方“速冻体验卡”已正式到期，暖空气团正大举反扑。从红彤彤的气温预报图来看，长江以南地区日最高",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荆楚网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "寒潮南下多地气温创下半年来新低 回暖后将迎大范围雨雪 随着寒潮深入南方地区，今天（11月10日）早晨，它终于拿到了“大结果”： 截至8时，江南、华南中东部及云南",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "钦天监气象解读",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "云南的朋友再忍两天，本轮冷空气和阴雨即将结束，大回暖来袭，最高气温将升至20度左右#云南天气 #钦天监 #云南升温 #云南降雨 #云南降温",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "俄方公布俄美乌三方会谈成果": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 新华社消息｜俄乌就大规模换俘达成一致（记者：温新年、王昊）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 俄方公布本轮俄美乌三方会谈成果：俄乌原则同意进行新一轮大规模在押人员交换 #24时区",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄美乌会谈结束 俄乌宣告达成大规模换俘协议 普京今日会见美国特使",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美俄乌首日会谈近4小时 美方透露双方分歧缩小 乌东领土争议仍是关键分歧 #凤凰记者现场报道 #俄乌局势 #美俄乌会谈 #媒体精选计划 #直击第一线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "总台记者观察：新一轮俄美乌三方会谈举行。俄方立场：不接受“冻结”冲突。（总台记者 王德禄）#媒体精选计划 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "彭啸补招进入国足集训名单": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "山东体育休闲频道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泰山中卫彭啸被补招进国足，这是他第一次入选成年国家队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "彭喜奥.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "苦尽甘来……#山东泰山队 #彭啸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "手机之友",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "21岁泰山带刀中卫获邵佳一补招 #山东泰山 #21岁泰山带刀 21岁泰山带刀中卫获邵佳一补招 #山东泰山 #21岁泰山带刀中卫获邵佳一补招",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一山橙语",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我评论了@大鑫 的作品： #国家队集训名单 谢文能因伤退出本期国足集训，毛伟杰补招入队",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "乌东领土问题未达成结论性共识": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美俄乌第二日会谈持续约2小时 俄乌将交换数以千计的战俘 乌东领土问题未有结论性共识 #凤凰记者现场报道 #俄乌冲突 #美俄乌会谈 #直击第一线 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息｜俄美乌三方在阿布扎比开始第二日会谈（记者：温新年、王昊）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 阿布扎比会谈在即 总台记者观察：俄方目标是从根本上、全局上解决问题。#直击第一线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国之声",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "总台记者观察：新一轮俄美乌三方会谈举行。俄方立场：不接受“冻结”冲突。（总台记者 王德禄）#媒体精选计划 #媒体原创",
      "likes": 0,
      "hot": 0
     }
@@ -224,194 +429,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "天凉热乎美食登场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "徐可",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "要变天了，记得吃点热乎的呀",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川文旅",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天冷了，来四川吃口热乎的#四川美食 #把秋天吃进日常里 #美食 #锦绣天府安逸四川",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "俄方公布俄美乌三方会谈成果": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 新华社消息｜俄乌就大规模换俘达成一致（记者：温新年、王昊）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 俄方公布本轮俄美乌三方会谈成果：俄乌原则同意进行新一轮大规模在押人员交换 #24时区",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄方公布本轮俄美乌三方会谈成果 （来源：央视新闻）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美俄乌第二日会谈持续约2小时 俄乌将交换数以千计的战俘 乌东领土问题未有结论性共识 #凤凰记者现场报道 #俄乌冲突 #美俄乌会谈 #直击第一线 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "总台记者观察：三方首日会谈结束，俄美乌表态各有侧重。（总台记者 周宣）#媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "寒潮结束全国大部气温回升": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "国家应急广播",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月12日#今日天气提要 | 我国大部持续回温，江南、华南等地有降雨。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "寒潮过后大回暖！全国大部地区升温，昼夜温差超15℃；本周末起，新一股冷空气又会自北向南影响我国。 今天白天，寒潮影响基本结束。北方气温继续回升，南方多地也将加入",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "渔舟风云观察",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冷空气刚走，气温直接开启“快速回升”模式！根据中央气象台最新预报，南方“速冻体验卡”已正式到期，暖空气团正大举反扑。从红彤彤的气温预报图来看，长江以南地区日最高",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荆楚网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "寒潮南下多地气温创下半年来新低 回暖后将迎大范围雨雪 随着寒潮深入南方地区，今天（11月10日）早晨，它终于拿到了“大结果”： 截至8时，江南、华南中东部及云南",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "离岸信托收益征税过渡期已结束": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "重磅！国家税务总局：离岸信托收益征税过渡期已结束，累计申报个税超1600亿元，其中10月入库超1200亿元，带动10月个人所得税增长近90%#一财情报局",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#离岸信托收益征税 平稳有序推进：累计申报离岸信托个人所得税超1600亿元，其中10月当月入库超1200亿元",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国家税务总局：累计申报离岸信托个人所得税超1600亿元。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "据央视新闻，记者11月11日从国家税务总局获悉，目前，离岸信托收益征税政策过渡期已平稳结束，绝大多数纳税人积极配合，累计申报离岸信托个人所得税超1600亿元，其",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "口罩哥研报60秒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "口罩哥研报60秒",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "国内成品油价格或迎下调": {
    "stats": {},
    "authors": [
@@ -436,16 +453,6 @@
      "hot": 0
     },
     {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【明晚，国内油价将调整】11月12日24时，新一轮国内成品油零售限价调整窗口将开启，多家机构预测或将迎来8月下旬以来首次下调。（视频：妮思娜 编辑：妮思娜 曹静",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "陕视新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -456,29 +463,22 @@
      "hot": 0
     },
     {
+     "name": "长江云新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不用急着加油，明天24时油价要跌#加油 #加油站 #油价",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "中国证券报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "好消息 明晚油价或迎下调",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "彭啸补招进入国足集训名单": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "山东体育休闲频道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泰山中卫彭啸被补招进国足，这是他第一次入选成年国家队",
      "likes": 0,
      "hot": 0
     }
@@ -513,16 +513,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "乌东领土问题未达成结论性共识": {
+  "自请分配去老君山看雪": {
    "stats": {},
    "authors": [
     {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "苏寻",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美俄乌第二日会谈持续约2小时 俄乌将交换数以千计的战俘 乌东领土问题未有结论性共识 #凤凰记者现场报道 #俄乌冲突 #美俄乌会谈 #直击第一线 #媒体精选计划",
+     "text": "你会为了一场云海， 专程奔赴老君山吗？ #自请分配去老君山看雪#来神奇栾川赴一场冰雪之约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "摄影师燎原",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "自请分配到老君山看雪，你会看到。 #自请分配去老君山看雪 #来神奇栾川赴一场冰雪之约",
      "likes": 0,
      "hot": 0
     },
@@ -532,17 +542,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 新华社消息｜俄乌就大规模换俘达成一致（记者：温新年、王昊）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "CCTV4",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新一轮俄美乌三方会谈 首日持续近4小时#中国新闻",
+     "text": "一山藏两季 ，半壁风雪半壁秋。网友：南北分界线具象化了！（记者：韦晓睿 素材来源：老君山景区）",
      "likes": 0,
      "hot": 0
     }
@@ -582,31 +582,14 @@
      "text": "新京报快评：编造“51万和平饭店吃顿饭”,别靠炫富博流量",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "今天是太阳雨二创大赏": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "莎宝啊biu",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“因为你 我开始期待未来” #今天是太阳雨 #杨超越 #董思成 #混剪产粮团 #了不起的混剪团",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "luckyuja",
-     "verify": "",
-     "identity": "",
+     "name": "南方都市报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "当我用《爱情怎么翻译》ost打开太阳雨☀ 还挺适配的#今天是太阳雨 #爱情怎么翻译 #董思成 #陈砚周 #杨超越",
+     "text": "网友晒“上海和平饭店51万元小票” 酒水消费46万元、服务费4.7万元…… 饭店辟谣：小票系网友虚构 警方：指派相关警种介入处置#抖音求真 #抖音媒体辟谣团",
      "likes": 0,
      "hot": 0
     }
@@ -721,6 +704,48 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "十万狂花入梦来定档": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "是孙珍妮",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "hey是在找我吗？#十万狂花入梦来定档1115 #十万狂花入梦来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张康乐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#十万狂花入梦来定档1115 注意，#宇文浩 已经发现你了！#十万狂花入梦来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "L李宏毅",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#十万狂花入梦来定档1115 别眨眼，#岐凤殷 带你看不一样的世界 #十万狂花入梦来",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "你爱的是花还是花为你开": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "根本没有这样的团战": {
    "stats": {},
    "authors": [
@@ -827,11 +852,6 @@
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "后会友期中译中": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "我要去江城找顾总傅总陆总": {
    "stats": {},
@@ -940,96 +960,96 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我往这你不炸了吗对口型挑战": {
+  "爱拥有跨越时空的能力": {
    "stats": {},
    "authors": [
     {
-     "name": "蜜蜜蜜蜜瓜",
+     "name": "全网最爱短萌脸的用户",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#吃播#我往这你不炸了吗对口型挑战 #热点趋势策划人",
+     "text": "爱拥有跨越时空的能力，为了你我愿意 yc：@梅新杨Moao #单依纯 #单依纯演唱会 #纯妹妹 #这个世界不能没有演唱会 #张函瑞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "短腿小拖宝🧸",
+     "name": "请别下雨了.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小咪 你往这我直接往这 你不炸了吗 #演绎玩法达人成长营",
+     "text": "有对男孩让我好想念#张函瑞 #锐因 #线下",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "管得着吗 你",
+     "name": "琦迹miracle_🌱",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你这不炸了吗 #管的着吗你 #不知原创 参考：@蜜蜜蜜蜜瓜",
+     "text": "爱拥有跨越时空维度的力量 #鹿晗 #线下 #张函瑞 #剪映 yc@梅新杨Moao",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Rio",
+     "name": "扶蜜果羹过马路",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你往这 你往这我直接往这 你不炸了吗#学不动了开始发疯",
+     "text": "爱拥有跨越时空的能力 每次见面都珍贵💚 #爱拥有跨越时空的能力 #王源 #王源宇宙超级无敌大大狂欢 #演唱会 #张函瑞 （剪映yc@梅新杨Moao）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "爱吃又",
+     "name": "否定之否定.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#你往这我往这你不炸了吗 #诗朗诵 #抽象 #绷住 #你不炸了吗",
+     "text": "小黄同学 我们也走了很远很远.😾 #永远值得珍藏的记忆 #黄子弘凡 #张函瑞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Jolyza-4",
+     "name": "DreamSu.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你往这 那我直接来个这个你不炸了吗#用帅大叔特效记录日常所有人打开手机用帅大叔报备 #大叔的帅是一种感觉 #换头失败 #方圆脸自拍姿势 #展示刘海",
+     "text": "爱拥有跨越时空维度的力量 #苏新皓 #线下 #爱 #张函瑞 （yc：@梅新杨Moao ）",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "精分老来俏",
+     "name": "用户47560692",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "再睡五分钟",
+     "text": "建设🫰 #张函瑞 #边伯贤 yc @梅新杨Moao",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "恶魔咩咩灭猫猫",
+     "name": "凯蒂吉吉",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "严肃品尝",
+     "text": "爱拥有跨越时空维度的力量 yc@梅新杨Moao #左航#线下 #追星 #张函瑞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "叮当猪哥",
+     "name": "Ko7",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这你不炸了吗#叮当猪哥 #你不炸了吗 yc：蜜蜜蜜蜜瓜",
+     "text": "爱拥有跨越时空维度的力量 #张函瑞 #线下 yc：@梅新杨Moao",
      "likes": 0,
      "hot": 0
     }
@@ -1051,22 +1071,32 @@
      "hot": 0
     },
     {
-     "name": "老迪",
+     "name": "小和不会三分🏀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "G12 勇士vs火箭 超详细前瞻预测｜八连胜后的一次阶段性大考？火箭是一个强劲的对手！但勇士未必会是下风球！千字分析 勇士到底该做好什么？#勇士vs火箭 #库里",
+     "text": "感受下短短几分钟火箭对库里的防守....#库里伤退#勇士VS火箭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "琉璃",
+     "name": "金州勇士中文网",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "明日勇士客场对阵休斯敦火箭。#库里#杜兰特#金州勇士 #火箭众将 #勇士vs火箭",
+     "text": "受伤离场！库里拉伤腹斜肌！退出比赛 ！祝愿早日康复！#库里受伤 #金州勇士 #勇士vs火箭 #剪映",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "用户429",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "库里伤退 #勇士vs火箭#金州#金州勇士队 #斯蒂芬库里",
      "likes": 0,
      "hot": 0
     }
@@ -1148,16 +1178,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "适合五五分的秋冬韩系穿搭": {
+  "今天是太阳雨二创大赏": {
    "stats": {},
    "authors": [
     {
-     "name": "二姐YIHUAHUAER",
+     "name": "莎宝啊biu",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "韩系高颜值｜14套穿搭承包你的秋冬衣橱！ #冬日软乎乎氛围感穿搭 #冬日通勤穿搭一周不重样 #这个秋冬解锁高智感穿搭 #韩系秋冬显瘦穿搭 #秋冬姐系高智感穿搭",
+     "text": "“因为你 我开始期待未来” #今天是太阳雨 #杨超越 #董思成 #混剪产粮团 #了不起的混剪团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "luckyuja",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我用《爱情怎么翻译》ost打开太阳雨☀ 还挺适配的#今天是太阳雨 #爱情怎么翻译 #董思成 #陈砚周 #杨超越",
      "likes": 0,
      "hot": 0
     }
@@ -1165,71 +1205,96 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "自请分配去老君山看雪": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "尖牙小黑猫萌到犯规了": {
+  "我往这你不炸了吗对口型挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "111",
+     "name": "蜜蜜蜜蜜瓜",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "懵一天，萌一天，愣一天。#拉拜诗时髦书呆子 #拉拜诗满着色",
+     "text": "#吃播#我往这你不炸了吗对口型挑战 #热点趋势策划人",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "rainy season",
+     "name": "短腿小拖宝🧸",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "刷到这个萌萌的耳朵，马不停蹄的翻了一下相册！",
+     "text": "小咪 你往这我直接往这 你不炸了吗 #演绎玩法达人成长营",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "嘴皮，梦想哭了",
+     "name": "管得着吗 你",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "装可爱好难但幸好 我是真的爱装的ᯇ⩊ᯇ。#旧照新发",
+     "text": "你这不炸了吗 #管的着吗你 #不知原创 参考：@蜜蜜蜜蜜瓜",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大聪明拆卡",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请给我一次机会#甜妹统治",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "忧郁奶黄包",
+     "name": "Rio",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "累一天 笑一天 傻一天 萌一天 蠢一天 躺一天 懵一天",
+     "text": "你往这 你往这我直接往这 你不炸了吗#学不动了开始发疯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "神秘人Y",
+     "name": "爱吃又",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "又瘦了…",
+     "text": "#你往这我往这你不炸了吗 #诗朗诵 #抽象 #绷住 #你不炸了吗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Jolyza-4",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你往这 那我直接来个这个你不炸了吗#用帅大叔特效记录日常所有人打开手机用帅大叔报备 #大叔的帅是一种感觉 #换头失败 #方圆脸自拍姿势 #展示刘海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "精分老来俏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再睡五分钟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "谢艺",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你旷课 我点名 那你不炸了吗～ #大学生 #旷课 #大学#我往这你不炸了吗对口型挑战 #热点趋势策划人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "恶魔咩咩灭猫猫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "严肃品尝",
      "likes": 0,
      "hot": 0
     }
@@ -1305,22 +1370,22 @@
      "hot": 0
     },
     {
-     "name": "白鹿视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马志明收郭德纲为义子，西河门收徒仪式临时起意“江湖无辈，处的是感情”#郭德纲 #马志明 #义父",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "德云社",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#德云社 #马志明 #郭德纲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白鹿视频",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马志明收郭德纲为义子，西河门收徒仪式临时起意“江湖无辈，处的是感情”#郭德纲 #马志明 #义父",
      "likes": 0,
      "hot": 0
     },
@@ -1338,16 +1403,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "后会友期素质教育最有用的一集": {
+  "适合五五分的秋冬韩系穿搭": {
    "stats": {},
    "authors": [
     {
-     "name": "爆爆大王",
+     "name": "二姐YIHUAHUAER",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "还是吃了没文化的亏#纯稚 #飞雪 #许飞 #后会友期 #搞笑",
+     "text": "韩系高颜值｜14套穿搭承包你的秋冬衣橱！ #冬日软乎乎氛围感穿搭 #冬日通勤穿搭一周不重样 #这个秋冬解锁高智感穿搭 #韩系秋冬显瘦穿搭 #秋冬姐系高智感穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -1355,106 +1420,66 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "你还是从前的你吗": {
+  "尖牙小黑猫萌到犯规了": {
    "stats": {},
    "authors": [
     {
-     "name": "爱唱歌的小老乖",
+     "name": "111",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#真情演绎真实故事 #夜晚真情流露",
+     "text": "懵一天，萌一天，愣一天。#拉拜诗时髦书呆子 #拉拜诗满着色",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "你爱我吗，爱的就是你",
+     "name": "rainy season",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你还是从前的你吗，为什么变陌生了，请别忘记我！",
+     "text": "刷到这个萌萌的耳朵，马不停蹄的翻了一下相册！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "钟情于☞李☜",
+     "name": "嘴皮，梦想哭了",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "钟情于☞李☜",
+     "text": "装可爱好难但幸好 我是真的爱装的ᯇ⩊ᯇ。#旧照新发",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "兰优秀",
-     "verify": "",
-     "identity": "",
+     "name": "大聪明拆卡",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "@@九月～",
+     "text": "请给我一次机会#甜妹统治",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "王诚",
+     "name": "忧郁奶黄包",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你已经不是从前的你，我也不是从前的我#你还是从前的你吗#石红豆",
+     "text": "累一天 笑一天 傻一天 萌一天 蠢一天 躺一天 懵一天",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "快乐人生",
+     "name": "神秘人Y",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#歌曲分享",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "做个好男人＂累＂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你还是从前的你吗？为什么你别了模样",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小军",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#经典老歌 #你还是从前的你吗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "随意",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#翻唱 #男女合唱 #抖音二创激励计划 @",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亮亮哥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为什么你变了 变得让我陌生害怕",
+     "text": "又瘦了…",
      "likes": 0,
      "hot": 0
     }
@@ -1509,16 +1534,120 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "后会友期省钱水平恐在我之上": {
+  "杨迪肱二头肌比心自己也没绷住": {
    "stats": {},
    "authors": [
     {
-     "name": "追星少女小安",
+     "name": "杨迪",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#二头比心 #肱二头肌比心 #肱二头肌比心模仿挑战 #热点趋势策划人 我的心你想看吗😂",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "拔萝卜一开口就是童年那味儿": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "L 👾",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "后会友期你们七个人的省钱水平恐怕在我之上 #后会友期 #白小纯 #青稚 #张萌 #马天宇",
+     "text": "@PhurbuTashi NorKhang 哈哈 好可爱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌈🔮👑 Gianna✨🍀💫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#橘猫 我们家小橘子😂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@风的信仰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "每天一唱拨萝卜，唱的好听吗#橘猫日常搞笑 #有镜头感的小猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老娘wafd",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "拔萝卜 #人类的忠诚伙伴 #给你看看我家中华田园犬 #狗崽子的日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "柯基66一家",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#当你拥有一只可爱的小狗 #铲屎官日常记录 #小短腿大屁股柯基",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金十一",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萌宠表情很到位，😄😄",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "巩晓彬朱芳雨老友宵夜畅聊": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "朱芳雨",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟老友彬哥聊天总是那么欢乐#朱芳雨的寻味日记 #老友记#遇见城市 #无兄弟不篮球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Aliya。",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "呼市！很好吃的牛肉汤和牛肉夹馍！！！ #呼和浩特美食 #呼和浩特吃喝玩乐 #碳水脑袋又幸福了 #呼市探店 #谁懂这一口的好吃程度",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "六个车厘子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "内蒙古的羊肉太太太太太好吃了！！！ #呼和浩特 #呼市 #内蒙古#冰煮羊",
      "likes": 0,
      "hot": 0
     }
@@ -1638,254 +1767,106 @@
    "authors": [],
    "lexicon": []
   },
-  "爱拥有跨越时空的能力": {
+  "你还是从前的你吗": {
    "stats": {},
    "authors": [
     {
-     "name": "全网最爱短萌脸的用户",
+     "name": "爱唱歌的小老乖",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱拥有跨越时空的能力，为了你我愿意 yc：@梅新杨Moao #单依纯 #单依纯演唱会 #纯妹妹 #这个世界不能没有演唱会 #张函瑞",
+     "text": "#真情演绎真实故事 #夜晚真情流露",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "请别下雨了.",
+     "name": "你爱我吗，爱的就是你",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "有对男孩让我好想念#张函瑞 #锐因 #线下",
+     "text": "你还是从前的你吗，为什么变陌生了，请别忘记我！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "琦迹miracle_🌱",
+     "name": "钟情于☞李☜",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱拥有跨越时空维度的力量 #鹿晗 #线下 #张函瑞 #剪映 yc@梅新杨Moao",
+     "text": "钟情于☞李☜",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "扶蜜果羹过马路",
+     "name": "兰优秀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱拥有跨越时空的能力 每次见面都珍贵💚 #爱拥有跨越时空的能力 #王源 #王源宇宙超级无敌大大狂欢 #演唱会 #张函瑞 （剪映yc@梅新杨Moao）",
+     "text": "@@九月～",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "否定之否定.",
+     "name": "王诚",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小黄同学 我们也走了很远很远.😾 #永远值得珍藏的记忆 #黄子弘凡 #张函瑞",
+     "text": "你已经不是从前的你，我也不是从前的我#你还是从前的你吗#石红豆",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "DreamSu.",
+     "name": "快乐人生",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱拥有跨越时空维度的力量 #苏新皓 #线下 #爱 #张函瑞 （yc：@梅新杨Moao ）",
+     "text": "#歌曲分享",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "用户47560692",
+     "name": "做个好男人＂累＂",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "建设🫰 #张函瑞 #边伯贤 yc @梅新杨Moao",
+     "text": "你还是从前的你吗？为什么你别了模样",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凯蒂吉吉",
+     "name": "小军",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱拥有跨越时空维度的力量 yc@梅新杨Moao #左航#线下 #追星 #张函瑞",
+     "text": "#经典老歌 #你还是从前的你吗",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Ko7",
+     "name": "随意",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "爱拥有跨越时空维度的力量 #张函瑞 #线下 yc：@梅新杨Moao",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "明星们也来玩麻辣烫糖葫芦了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "SHINee",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前辈 请给我买麻辣烫吧!!! #珉豪 #SHINee #WayV #RIIZE #Hearts2Hearts",
+     "text": "#翻唱 #男女合唱 #抖音二创激励计划 @",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "程潇",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请你吃！糖🍡呼噜噜噜噜～#麻辣烫糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "dayeon_you",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我嘴馋be like： #柳多恋 #YOUDAYEON #麻辣烫糖葫芦 #星动营业中 #黑马计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曹璐LuLu",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最近又火了 《糖葫芦》！原唱妹妹很可爱呢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张语格（广州12.6演出/12.5见面会",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "吃麻辣烫糖葫芦得来东北啊 #麻辣烫糖葫芦 #前辈请我吃麻辣烫吧对口型挑战",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "秋日实况加了什么好有氛围感": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "木习习🍭",
+     "name": "亮亮哥",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "被这首歌杀疯了，交换一张你拍的落叶🍂 #交换一张你相册里的树 #交换一张你拍到的秋天吧 #交换一张你拍的树",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Y_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "又到了可以相依的季节。#秋天 #落叶 #infj",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "派对动物",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "许嵩杀疯了#许嵩 #秋日 #银杏黄了 #落叶 #北京的秋天",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "许飞的穿搭功力恐怕在我之下": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "芒果妈妈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "虽然许飞穿搭有限，但文化无限啊！#许飞 #厉娜 #穿搭 #搞笑 #考古",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "高叶回应获金鸡最佳女主角": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "高叶ChLoe",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感谢每一位观众，感谢金鸡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "厦门广电",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "高叶哽咽发言：用了很久走到这里，感谢每一次的“被看见”！#高叶 #2026年中国金鸡百花电影节 #厦门进入金鸡时间 #厦门广电看金鸡 #光影时尚潮鹭岛群星耀 （",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大众电影",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第39届中国电影金鸡奖最佳女主角：高叶！#高叶 #金鸡奖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李小萌",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "演员高叶获得第39届金鸡奖最佳女主角，20年，她的梦想实现了#高叶 #金鸡奖 #影后 #女演员",
+     "text": "为什么你变了 变得让我陌生害怕",
      "likes": 0,
      "hot": 0
     }
@@ -1950,6 +1931,296 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#陈砚周进行曲 @董思成 来了来了 #今天是太阳雨 #董思成 #陈砚周",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "高叶回应获金鸡最佳女主角": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "高叶ChLoe",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感谢每一位观众，感谢金鸡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "厦门广电",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "高叶哽咽发言：用了很久走到这里，感谢每一次的“被看见”！#高叶 #2026年中国金鸡百花电影节 #厦门进入金鸡时间 #厦门广电看金鸡 #光影时尚潮鹭岛群星耀 （",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大众电影",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第39届中国电影金鸡奖最佳女主角：高叶！#高叶 #金鸡奖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "李小萌",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "演员高叶获得第39届金鸡奖最佳女主角，20年，她的梦想实现了#高叶 #金鸡奖 #影后 #女演员",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的正缘原来离我这么近": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "苦难视为调情",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#正缘 #命中注定的缘分",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🖤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🖤",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "再睡一夏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再睡一夏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不想上班想睡觉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不想上班想睡觉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一只小小缘🍀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "老子他妈都早就毕业了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "徐 妍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "徐 妍",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "布鲁布鲁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "正缘 #正缘",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "W",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没进过大学门啊？",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Dq7",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#八百个洋相的感觉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毕业了谢谢",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "秋日实况加了什么好有氛围感": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "木习习🍭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "被这首歌杀疯了，交换一张你拍的落叶🍂 #交换一张你相册里的树 #交换一张你拍到的秋天吧 #交换一张你拍的树",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Y_",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "又到了可以相依的季节。#秋天 #落叶 #infj",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "派对动物",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "许嵩杀疯了#许嵩 #秋日 #银杏黄了 #落叶 #北京的秋天",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "和平玩家挑战自驾新疆吃鸡上分": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "甜妻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新版本的每个打卡点都好浪漫 快和你游戏搭子一起去打卡吧#和平精英雪战冬日#和平精英冰雪阿勒泰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "汽修六班熊喵喵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "火速打卡@靠谱👟👔找阿古家的鞋工厂💯 #和平精英 #和平精英冰雪阿勒泰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "￴ ￴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好萌的两个小羊崽#冰雪阿勒泰和平精英",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "厉娜已严肃掌握白小纯说明书": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "冷都女核心搭配公式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "屁屁苹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冷都女合集*8｜🖤时髦美女味！ 秋冬lady感大姐姐味穿搭～秋冬也要依旧曼妙👅🫶#当我成为那个很会穿的人 #全民进入购物听劝时代 #抖音风格实验室 #我的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "栗栗栗子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "韩女日常穿搭｜首尔冷都女三个思路直接抄 #高智淡人穿搭 #韩国街头穿搭 #穿搭思路分享 #ins #冷都女",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "喂51",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "严肃进入冷都女时代！秋冬实穿姐感外套*7 🧥#日常穿搭分享 #秋冬穿搭参考 #高智淡人穿搭 #姐感穿搭 #秋冬穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蓮",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#downtowngirl #冷都女 #jk #美式 #韩系穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叉叉滴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "预制一下月底的澳门演唱会穿搭 #晒晒我的女装穿搭 #演唱会穿搭 #冷都女 #秋冬穿搭 #跟着韩女学ins感穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -2024,171 +2295,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "杨迪肱二头肌比心自己也没绷住": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "杨迪",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#二头比心 #肱二头肌比心 #肱二头肌比心模仿挑战 #热点趋势策划人 我的心你想看吗😂",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "巩晓彬朱芳雨老友宵夜畅聊": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "朱芳雨",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟老友彬哥聊天总是那么欢乐#朱芳雨的寻味日记 #老友记#遇见城市 #无兄弟不篮球",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Aliya。",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "呼市！很好吃的牛肉汤和牛肉夹馍！！！ #呼和浩特美食 #呼和浩特吃喝玩乐 #碳水脑袋又幸福了 #呼市探店 #谁懂这一口的好吃程度",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "六个车厘子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "内蒙古的羊肉太太太太太好吃了！！！ #呼和浩特 #呼市 #内蒙古#冰煮羊",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "冷都女核心搭配公式": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "屁屁苹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冷都女合集*8｜🖤时髦美女味！ 秋冬lady感大姐姐味穿搭～秋冬也要依旧曼妙👅🫶#当我成为那个很会穿的人 #全民进入购物听劝时代 #抖音风格实验室 #我的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栗栗栗子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "韩女日常穿搭｜首尔冷都女三个思路直接抄 #高智淡人穿搭 #韩国街头穿搭 #穿搭思路分享 #ins #冷都女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "喂51",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "严肃进入冷都女时代！秋冬实穿姐感外套*7 🧥#日常穿搭分享 #秋冬穿搭参考 #高智淡人穿搭 #姐感穿搭 #秋冬穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓮",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#downtowngirl #冷都女 #jk #美式 #韩系穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叉叉滴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "预制一下月底的澳门演唱会穿搭 #晒晒我的女装穿搭 #演唱会穿搭 #冷都女 #秋冬穿搭 #跟着韩女学ins感穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "大课间打跳我先跳了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "陇家湾程校长",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "音乐一响，烦恼全忘。把课本里的压力，踩进欢快的舞步里，让孩子们身上有汗，眼里有光，脸上有笑，这就是云南孩子独有的大课间，民族打跳，跳的是快乐，传的是文化。#云南",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓬勃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 云南一所小学把“打跳”融入大课间，师生一起在操场伴随欢快乐曲打跳，“在快乐运动的同时传承本土的民族文化”。网友：难怪云南每赛季封神 原来是从小就练 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "曲靖珠江网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "云南只打巅峰赛可不跟你闹着玩 近日，云南昭通，云南大课间名场面！音乐一响，孩子们瞬间“燃”起来！网友：从小培养！难怪云南人能歌善舞",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "权威展示allwhite穿搭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "江歭奈绘美",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天资是个残忍的东西",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "当我尝试很火的翘翘头邪修": {
    "stats": {},
    "authors": [
@@ -2221,106 +2327,53 @@
    "authors": [],
    "lexicon": []
   },
-  "一被窝一红果": {
+  "谷雨大结局我先来猜": {
    "stats": {},
    "authors": [
     {
-     "name": "想要香啵啵💚.",
+     "name": "昕昕呀",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "本猪妞现状Be like#红果短剧",
+     "text": "咱就是说，这大结果又是让强哥拿到了呀#谷雨全员狠人酷酷就是干 #电视剧谷雨",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "全网进入太阳雨时期": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "杨超越",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "郑雨我陪你看🌦️ #我的追剧日志",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "83°🕊️",
+     "name": "星星打烊啦",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "红锅红果我看看～ #宿舍小床🛏",
+     "text": "今日晴雨，恰逢温柔。我是郑雨。 我的青春，好像一直都在无声下雨。 很早以前我就知道，生活从不会偏袒任何人，更不会对年少的我手下留情。压在肩上的生活重担、无人言说",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "in",
+     "name": "牛油果🥑",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "两眼一睁就是看#剧荒推荐 #短剧男主",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "冰淇凌",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "立冬四件套来啦#立冬的第一张照片 #窗帘透过的光 #窗帘一拉就能睡得饱 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "放开那只🐑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终于找到适合我的门派 躺派 #窗帘一拉又是一天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "回忆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "立冬就适合躺被窝不出门#过冬的正确方式 #天冷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🌟-",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终于找到适合我的门派“躺门” 立冬就适合躺被窝#过冬的正确方式 #天冷不想出被窝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "铁铁呀……🙈🙈🙈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "终于找到适合我的门派“躺门” 立冬就适合躺被窝#过冬的正确方式 #天冷不想出被窝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小葫芦麻麻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#下雨的周末 #我的追剧日常📺 这才是我喜欢的周末❤️",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "lulan💕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#秋冬床品拯救怕冷体质 贵州一秒入冬 你在的城市冷了吗？",
+     "text": "今天是太阳雨🌦。#plog#inmyfeeling #fyp#桌面布置 #今天是太阳雨",
      "likes": 0,
      "hot": 0
     }
