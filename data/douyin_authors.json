@@ -1,11 +1,48 @@
 {
- "updated_at": "2026-11-13 20:39",
+ "updated_at": "2026-11-13 21:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 44,
+ "ok_count": 47,
  "lexicon_count": 0,
  "topics": {
+  "阿根廷vs乌拉圭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "阿根廷国家足球队",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以为没有什么能在周六早上睁眼了？ #阿根廷国家队",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晨报体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "保加利亚vs冰岛 阿根廷vs乌拉圭 #保加利亚vs冰岛 #阿根廷vs乌拉圭 #足球解说 #欧国联 #赵鹏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海西体育",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "斯洛文尼亚vs瑞士 阿根廷vs乌拉圭 塞尔维亚vs德国 #欧国联 #斯洛文尼亚vs瑞士 #阿根廷vs乌拉圭 #塞尔维亚vs德国 #解说员李霄",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "手工敲虾到底有多好吃": {
    "stats": {},
    "authors": [
@@ -36,6 +73,53 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "宁波这个手工敲虾建议申遗。。。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "解锁APEC限定“寻宝”路线": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和合共生｜机器人、无人机外卖、无人驾驶，还有安静低噪的路面……外国人专门来深圳打卡“科技”？跟科技导游一起，解锁APEC限定“寻宝”路线！#和合共生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 请查收，这封来自深圳的邀请函，深圳欢迎你！#聚焦APEC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创【深圳全城装点迎APEC】2026年APEC工商领导人峰会将于11月17日至18日在深圳举办。深圳正以最美的城市风貌、开放包容的姿态，迎接四海宾朋。 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大公文匯",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC如此隆重，为何要叫“非正式”会议？#媒体精选计划 #APEC",
      "likes": 0,
      "hot": 0
     }
@@ -80,110 +164,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "解锁APEC限定“寻宝”路线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和合共生｜机器人、无人机外卖、无人驾驶，还有安静低噪的路面……外国人专门来深圳打卡“科技”？跟科技导游一起，解锁APEC限定“寻宝”路线！#和合共生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 请查收，这封来自深圳的邀请函，深圳欢迎你！#聚焦APEC",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创【深圳全城装点迎APEC】2026年APEC工商领导人峰会将于11月17日至18日在深圳举办。深圳正以最美的城市风貌、开放包容的姿态，迎接四海宾朋。 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "深圳特区报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC 将至，世界的目光来到深圳。高楼之外，这座科技之城用什么招待远道而来的客人？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大公文匯",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC如此隆重，为何要叫“非正式”会议？#媒体精选计划 #APEC",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "阿根廷vs乌拉圭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "阿根廷国家足球队",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为没有什么能在周六早上睁眼了？ #阿根廷国家队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晨报体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "保加利亚vs冰岛 阿根廷vs乌拉圭 #保加利亚vs冰岛 #阿根廷vs乌拉圭 #足球解说 #欧国联 #赵鹏",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海西体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "斯洛文尼亚vs瑞士 阿根廷vs乌拉圭 塞尔维亚vs德国 #欧国联 #斯洛文尼亚vs瑞士 #阿根廷vs乌拉圭 #塞尔维亚vs德国 #解说员李霄",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "绿茵模拟官",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天用游戏连续模拟三场比赛，每场模拟5次。 #欧国联 #阿根廷 #荷兰 #德国 #足球游戏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "油价下调 加满一箱油少花约26元": {
    "stats": {},
    "authors": [
@@ -215,22 +195,32 @@
      "hot": 0
     },
     {
-     "name": "可可喵娱",
+     "name": "无畏小黑板",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "真正看到EDG几兄弟分别，最先出现的情绪还是难过不舍啊！#EDG #无畏契约 #张钊 #smoggy #分别",
+     "text": "EDG四人组基本全员离队，曾经的冠军队伍也不复存在， 这场转会风暴还在继续，整个VCTCN将重新洗牌#EDG #XLG #ZmjjKK #simon #TE",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "祁连（无畏契约）",
+     "name": "VCT MOTION",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "再见EDG.Smoggy 你好BLG.Smoggy 在未来能看见你更多的可能性吗#Smoggy #EDG #BLG #无畏契约 #无畏契约转会",
+     "text": "EDG彻底瓦解！随着张钊加盟BLG，球球与巴蒂携手前往TE，再到康康转会XLG，EDG四人组的故事就此画上了句号 #EDG无畏契约 #zmjjkk #nobod",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "瓦鸽233",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "XLG第五人开始扑朔迷离？外赛区战舰名单还在加码！ #ZMJJKK #Dambi #Derke #来抖音精选App看游戏 #EDG",
      "likes": 0,
      "hot": 0
     },
@@ -243,14 +233,71 @@
      "text": "至此，EDG冠军五人已全部离队。 #edg #无畏契约 #无畏契约赛事 #zmjjkk#抖音精选App征稿中",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国务院安委会约谈11个市级政府": {
+   "stats": {},
+   "authors": [
     {
-     "name": "瓦鸽233",
-     "verify": "",
-     "identity": "",
+     "name": "茂名+",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "XLG第五人开始扑朔迷离？外赛区战舰名单还在加码！ #ZMJJKK #Dambi #Derke #来抖音精选App看游戏 #EDG",
+     "text": "国务院安委办约谈包头市、南阳市、襄阳市、吕梁市、朔州市、忻州市、牡丹江市、烟台市、郑州市、红河州、曲靖市等11地政府主要负责人#安全生产 视频：潘观丽 一审：柯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新华社消息｜国务院安委办对11个市级政府开展安全生产约谈（记者：黄韬铭）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国务院安委会办公室对11个市级政府开展安全生产约谈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国务院安委办对11个市级政府开展安全生产约谈。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国务院安委会办公室约谈11个市级政府 #安全生产",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "经济日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国务院安委办约谈11个市级政府主要负责人！",
      "likes": 0,
      "hot": 0
     }
@@ -352,12 +399,29 @@
      "hot": 0
     },
     {
-     "name": "野原新之助",
+     "name": "@凌越",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#lpl加油 #lpl #世界总决赛英雄联盟 #lpl全球总决赛 终于能吧这个视频拿出来了",
+     "text": "BLG 就今年吧 一穿四夺冠吧 LPL 最后的希望#英雄联盟#BLG",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我军无人发烟车亮相演练场": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一键封烟！无人发烟车来了。网友：个头不大，“气性”不小！@中国军号",
      "likes": 0,
      "hot": 0
     }
@@ -412,66 +476,66 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国务院安委会约谈11个市级政府": {
+  "库里腹斜肌撕裂 预计缺席4周": {
    "stats": {},
    "authors": [
     {
-     "name": "茂名+",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国务院安委办约谈包头市、南阳市、襄阳市、吕梁市、朔州市、忻州市、牡丹江市、烟台市、郑州市、红河州、曲靖市等11地政府主要负责人#安全生产 视频：潘观丽 一审：柯",
+     "text": "勇士队官方宣布，斯蒂芬-库里在昨日比赛中遭遇腹斜肌撕裂，将在两周后重新评估伤情。#库里预计伤缺一个月 #库里遭遇腹斜肌撕裂",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新华社消息｜国务院安委办对11个市级政府开展安全生产约谈（记者：黄韬铭）#媒体原创",
+     "text": "在昨天对阵火箭的比赛中，因腹斜肌撕裂提前退场的库里，将在两周后迎来复查和预估恢复时间，勇士已做好他缺席两位数比赛的准备。#库里腹斜肌撕裂 #库里将缺席一个月 #",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "于嘉",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国务院安委办对11个市级政府开展安全生产约谈。",
+     "text": "库里伤一个月，詹姆斯伤停，坎宁安爆了 都在今天，历史上这是有迹可循的……但是各位还是求伤病退散啊……#库里 #詹姆斯 #坎宁安 #NBA",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "苏群",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国务院安委会办公室约谈11个市级政府 #安全生产",
+     "text": "库里伤停！勇士准备怎样过苦日子",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网",
+     "name": "五星体育",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国务院安委会办公室对11个市级政府开展安全生产约谈",
+     "text": "噩耗！勇士核心库里腹斜肌撕裂！。北京时间今天凌晨，金州勇士官方宣布，球队核心斯蒂芬·库里在与休斯敦火箭的比赛中遭遇腹斜肌撕裂，将在两周后接受复查。而据名记Sha",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "经济日报",
+     "name": "扬子晚报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "国务院安委办约谈11个市级政府主要负责人！",
+     "text": "状态火热却遭遇伤病，勇士官宣库里腹斜肌撕裂，或将缺席两到四周",
      "likes": 0,
      "hot": 0
     }
@@ -523,106 +587,22 @@
      "hot": 0
     },
     {
+     "name": "冒牌男神",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大帝诈伤劝退老詹，无詹76人轻松战胜猛龙 #nba #76人 #詹姆斯 #恩比德 #76人vs猛龙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "漫球",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "詹姆斯：什么叫76人赢球了我没赢？！ #76人 #詹姆斯 #恩比德 #马克西 #杰伦布朗",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "2027研究生报考人数347万": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 2027年全国硕士研究生招生考试今年12月19日至20日举行，报名人数为347万。（央视频号：新闻来了）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2027年全国硕士研究生招生考试将于2026年12月19日至20日举行，考试报名人数为347万。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2027年全国硕士研究生招生考试报名人数为347万 #考研 #2027考研人数",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2027年全国硕士研究生招生考试于2026年12月19日至20日举行 报名人数为347万",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "343万 人数三连降 考研降温了？济南高校楼梯间仍摆满小板凳，有班级40人 一半人考研 少数人工作，降温的是数字 没降的是竞争，考研是年轻人给自己多争取的一种可",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "大舞台把人间烟火气摆进直播间": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "光明网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#大舞台把人间烟火气摆进直播间 80多岁奶奶千里赴现场，直播间里摆进了人间烟火气",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国电影报道",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#大舞台把人间烟火气摆进直播间 从街头艺人登台共创到本土品牌主题专场，大舞台打通直播文旅与本地产业",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#大舞台把人间烟火气摆进直播间 一条短视频引流60万人，户外大舞台借力切片破圈",
      "likes": 0,
      "hot": 0
     }
@@ -734,56 +714,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "现货黄金跌破3900美元": {
+  "2027研究生报考人数347万": {
    "stats": {},
    "authors": [
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 2027年全国硕士研究生招生考试今年12月19日至20日举行，报名人数为347万。（央视频号：新闻来了）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2027年全国硕士研究生招生考试将于2026年12月19日至20日举行，考试报名人数为347万。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2027年全国硕士研究生招生考试报名人数为347万 #考研 #2027考研人数",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "央视网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "金价再度跌破3900美元 12日国际金价、银价双双下跌",
+     "text": "2027年全国硕士研究生招生考试于2026年12月19日至20日举行 报名人数为347万",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中新经纬",
+     "name": "央广网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一夜大跌30元！金饰克价跌到1170元 现货黄金跌破3900美元 #黄金",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#一财情报局 现货黄金跌破3900美元！黄金、白银集体跳水！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现货黄金跌破3900美元，国际油价拉升。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "闪",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当下回调只是牛市路上的一次回调🌹。早安🌹 很多小伙伴最近听到一个说法：现在处处利空，一旦央行购金停下，黄金缺少最重要的大买家🌹黄金是不是涨不起来了？ 没错",
+     "text": "#媒体原创 2027年全国硕士研究生招生考试报名人数为347万 #研究生",
      "likes": 0,
      "hot": 0
     }
@@ -895,106 +875,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "烂奇迹翻唱挑战": {
+  "为何说许飞厉娜可能不需要和解": {
    "stats": {},
    "authors": [
     {
-     "name": "热水福🦋（杨松霖）",
+     "name": "呆若木一",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不小心惹了上帝#歌曲烂奇迹杨羊烊#不小心惹了上帝#烂奇迹翻唱挑战 #无声卡直录",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "炸鱼没有薯条",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“神来了都没用”#烂奇迹 #翻唱#无声卡",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晴天雨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我这一生 颠沛流离 #烂奇迹 原创来源：@杨羊烊《烂奇迹（不小心惹了上帝）》已上线 词和调调都是我好喜欢的风格🤤#翻唱#不小心惹了上帝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "骑猪去跳舞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【三角洲渡鸦】翻唱《烂奇迹》不小心惹了上帝 #三角洲行动 #不小心惹了上帝 #烂奇迹 #歌曲烂奇迹杨羊烊 渡鸦的经历和这一段还挺贴的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "嘟啊哆啦（兰珺菡）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“不小心惹了上帝”#烂奇迹 #不小心惹了上帝 #烂奇迹翻唱 #歌曲烂奇迹杨羊烊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝓛𝓾𝓶𝓲𝓷𝓸𝓾𝓼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我不小心惹了上帝…… #星空 #歌曲烂奇迹杨羊烊 #不小心惹了上帝 #治愈系 #inmyfeeling @杨羊烊《烂奇迹（不小心惹了上帝）》已上线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荷包溏心蛋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#烂奇迹#杨羊烊#翻唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Mogoo蘑菇（12月个人巡演）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "命运高抬贵手 原来是扇我来了 #歌曲烂奇迹杨羊烊 #不小心惹了上帝 #杨羊烊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Rap淳熙",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一屁股坐坏妈妈新手机肯定还能活吧😬 #烂奇迹#翻唱#闯祸了#抖音精选#无声卡清唱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Ciyo",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "生活一地鸡毛，好蓬松 yc@杨羊烊《烂奇迹（不小心惹了上帝）》已上线 #不小心惹了上帝 #杨羊烊 #翻唱 #音为有你 #歌曲烂奇迹杨羊烊",
+     "text": "许飞和厉娜，可能根本不需要和解 最近看《后会友期》，尤其在这一期节目中许飞说不可能再和厉娜做朋友，我最大的感受是——人和人之间的感情真的有太多没有办法。关于许飞",
      "likes": 0,
      "hot": 0
     }
@@ -1002,36 +892,56 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "停车楼飘移帅炸了": {
+  "现货黄金跌破3900美元": {
    "stats": {},
    "authors": [
     {
-     "name": "痞幼",
-     "verify": "",
-     "identity": "",
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "菜就多练 #停车楼飘移 #城市飘移大片 #极致玩车志",
+     "text": "金价再度跌破3900美元 12日国际金价、银价双双下跌",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "钟奇钟奇",
-     "verify": "",
-     "identity": "",
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“当你的朋友接你放学” @痞幼#速度与激情 #停车楼飘移 #城市漂移大片 #极致玩车志",
+     "text": "一夜大跌30元！金饰克价跌到1170元 现货黄金跌破3900美元 #黄金",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "叶志成爱金港",
-     "verify": "",
-     "identity": "",
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "第六集《停车楼飘移》 这次，致敬我们童年最爱的那部电影，没有之一！#停车楼飘移 #城市飘移大片 #极致玩车志 #痞幼",
+     "text": "#一财情报局 现货黄金跌破3900美元！黄金、白银集体跳水！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现货黄金跌破3900美元，国际油价拉升。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "直线拉涨！现货黄金盘中突破3900美元，国内金饰报价继续下调 年内大跌超500元，机构预测：看好2027年一季度 金价将涨至4850美元（编辑：振楠）",
      "likes": 0,
      "hot": 0
     }
@@ -1039,10 +949,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "蒋一帆沈阳为爱而歌歌友会": {
+  "大舞台把人间烟火气摆进直播间": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "光明网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#大舞台把人间烟火气摆进直播间 80多岁奶奶千里赴现场，直播间里摆进了人间烟火气",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国电影报道",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#大舞台把人间烟火气摆进直播间 从街头艺人登台共创到本土品牌主题专场，大舞台打通直播文旅与本地产业",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#大舞台把人间烟火气摆进直播间 一条短视频引流60万人，户外大舞台借力切片破圈",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "TXT新专主打初舞台公开": {
    "stats": {},
@@ -1083,35 +1025,62 @@
   },
   "当你被选中和吴彦祖一起嗦粉": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我们再发光开播啦": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "玫瑰战争关子盈死亡真相": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "吴磊更新了47张骑行日记": {
-   "stats": {},
    "authors": [
     {
-     "name": "吴磊LEO",
+     "name": "吴彦祖",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我与我的自行车🚴#骑有此理 #交换100个旅途故事",
+     "text": "很好吃，真的不辣！#喜笑彦开 #心动打卡指南 #遇见城市",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "我们再发光开播啦": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天赐的声音",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我们再发光开播 正片来啦！看@再发光男团 怎么把日子过成舞台！11月13日起每周五12:00抖音、Z视介正片上线，20:20浙江卫视播出！#我们再发光团综正片",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "再发光男团",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#我们再发光团综官宣 今日开播啦！11月13日起，每周五12:00抖音、Z视介正片上线，20:20浙江卫视播出！#再发光男团 @刘凤瑶 @曾一鸣 @张玮 @李琦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘凤瑶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "再发光团综今日开播！11月13日起，每周五12:00抖音、Z视介正片上线，20:20浙江卫视播出！@刘凤瑶 @曾一鸣 @张玮 @李琦-重生之我在这一世做歌手 @",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "高校学子为BLG助威": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "烂奇迹手势舞挑战": {
    "stats": {},
@@ -1247,31 +1216,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "高校学子为BLG助威": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "影视飓风Tim开通个人账号": {
+  "烂奇迹翻唱挑战": {
    "stats": {},
    "authors": [
     {
-     "name": "Tim潘",
+     "name": "热水福🦋（杨松霖）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我是Tim，同事让我变装",
+     "text": "不小心惹了上帝#歌曲烂奇迹杨羊烊#不小心惹了上帝#烂奇迹翻唱挑战 #无声卡直录",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "炸鱼没有薯条",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#影视飓风Tim开通个人账号，发布#变装 视频，秒变“氛围感帅哥”，截至发稿前账号粉丝涨至26.9万。#影视飓风Tim",
+     "text": "“神来了都没用”#烂奇迹 #翻唱#无声卡",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晴天雨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我这一生 颠沛流离 #烂奇迹 原创来源：@杨羊烊《烂奇迹（不小心惹了上帝）》已上线 词和调调都是我好喜欢的风格🤤#翻唱#不小心惹了上帝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "骑猪去跳舞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【三角洲渡鸦】翻唱《烂奇迹》不小心惹了上帝 #三角洲行动 #不小心惹了上帝 #烂奇迹 #歌曲烂奇迹杨羊烊 渡鸦的经历和这一段还挺贴的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "嘟啊哆啦（兰珺菡）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“不小心惹了上帝”#烂奇迹 #不小心惹了上帝 #烂奇迹翻唱 #歌曲烂奇迹杨羊烊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𝓛𝓾𝓶𝓲𝓷𝓸𝓾𝓼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当我不小心惹了上帝…… #星空 #歌曲烂奇迹杨羊烊 #不小心惹了上帝 #治愈系 #inmyfeeling @杨羊烊《烂奇迹（不小心惹了上帝）》已上线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荷包溏心蛋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#烂奇迹#杨羊烊#翻唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Mogoo蘑菇（12月个人巡演）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "命运高抬贵手 原来是扇我来了 #歌曲烂奇迹杨羊烊 #不小心惹了上帝 #杨羊烊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Rap淳熙",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一屁股坐坏妈妈新手机肯定还能活吧😬 #烂奇迹#翻唱#闯祸了#抖音精选#无声卡清唱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Ciyo",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "生活一地鸡毛，好蓬松 yc@杨羊烊《烂奇迹（不小心惹了上帝）》已上线 #不小心惹了上帝 #杨羊烊 #翻唱 #音为有你 #歌曲烂奇迹杨羊烊",
      "likes": 0,
      "hot": 0
     }
@@ -1316,53 +1360,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "深情航仔要当爸爸了": {
+  "影视飓风Tim开通个人账号": {
    "stats": {},
    "authors": [
     {
-     "name": "深情航仔",
+     "name": "Tim潘",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "宣布一下马上要当爸爸了#解锁人生新角色 #内容过于真实日常vlog #怀孕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的脸不接受锐评谢谢": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "陈域杰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我谢谢你#大一传媒生 #理工类大学生 #师范生专场 #播音男大 #大专生怎么逆袭",
+     "text": "我是Tim，同事让我变装",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "希音姐.",
-     "verify": "",
-     "identity": "",
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#原相机出境",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "云生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "云生",
+     "text": "#影视飓风Tim开通个人账号，发布#变装 视频，秒变“氛围感帅哥”，截至发稿前账号粉丝涨至26.9万。#影视飓风Tim",
      "likes": 0,
      "hot": 0
     }
@@ -1504,16 +1521,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "为何说许飞厉娜可能不需要和解": {
+  "停车楼飘移帅炸了": {
    "stats": {},
    "authors": [
     {
-     "name": "呆若木一",
+     "name": "痞幼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "许飞和厉娜，可能根本不需要和解 最近看《后会友期》，尤其在这一期节目中许飞说不可能再和厉娜做朋友，我最大的感受是——人和人之间的感情真的有太多没有办法。关于许飞",
+     "text": "菜就多练 #停车楼飘移 #城市飘移大片 #极致玩车志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "钟奇钟奇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“当你的朋友接你放学” @痞幼#速度与激情 #停车楼飘移 #城市漂移大片 #极致玩车志",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叶志成爱金港",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第六集《停车楼飘移》 这次，致敬我们童年最爱的那部电影，没有之一！#停车楼飘移 #城市飘移大片 #极致玩车志 #痞幼",
      "likes": 0,
      "hot": 0
     }
@@ -1521,16 +1558,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "铁公鸡来南太行也得破费": {
+  "人生中的第一座雪山是萨武神山": {
    "stats": {},
    "authors": [
     {
-     "name": "so、",
+     "name": "不吃奶露拖",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "有懂这个拐角的含金量吗 我先去哭一会了#南太行 #绝望坡",
+     "text": "萨武神山5175米海拔 你敢接吗？#萨武神山",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "艾斯坦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“你这次去成都 就为了萨武神山？” “嗯” “不怕吗？” “怕 怕高反 怕登不了顶 可人生那么多事情又不是非得有意义 去体验就好了” “做攻略了吗？” “没有 ",
      "likes": 0,
      "hot": 0
     }
@@ -1575,106 +1622,112 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "可以给我买麻辣烫糖葫芦吗": {
+  "蒋一帆沈阳为爱而歌歌友会": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "我的脸不接受锐评谢谢": {
    "stats": {},
    "authors": [
     {
-     "name": "v!nVinviN",
+     "name": "陈域杰",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "麻辣烫糖葫芦 #大学生干饭首选 #韩国大学饭堂 #麻辣烫糖葫芦 #韩语",
+     "text": "我谢谢你#大一传媒生 #理工类大学生 #师范生专场 #播音男大 #大专生怎么逆袭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "SHINee",
+     "name": "希音姐.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原相机出境",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "云生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "云生",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深情航仔要当爸爸了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "深情航仔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宣布一下马上要当爸爸了#解锁人生新角色 #内容过于真实日常vlog #怀孕",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "吴磊更新了47张骑行日记": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吴磊LEO",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "前辈 请给我买麻辣烫吧!!! #珉豪 #SHINee #WayV #RIIZE #Hearts2Hearts",
+     "text": "我与我的自行车🚴#骑有此理 #交换100个旅途故事",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "谷雨张颂文赘婿上位": {
+   "stats": {},
+   "authors": [
     {
-     "name": "程潇",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请你吃！糖🍡呼噜噜噜噜～#麻辣烫糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是冉不是然",
+     "name": "不积小流，无以为江",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "前辈请我吃糖葫芦吧 糖糖葫芦葫芦糖糖葫芦芦芦芦#糖糖葫芦葫芦葫芦芦芦芦 #cortis #cortis小剧场",
+     "text": "周海洋蛰伏到今天，终于可以崛起了！@电视剧谷雨（谷东酷酷爽看 #电视剧谷雨",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "幸子-sani",
+     "name": "优酷",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电视剧谷雨 赘婿夺权！林家的产业，都要姓周了！#张颂文 #谷雨人人皆是局中人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "影之初",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不就多要了个糖葫芦嘛 前辈至于这么大动静#对口型",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "遛弯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前辈 给我买麻辣烫葫芦吧 #麻辣烫葫芦 #塑料韩语",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "太帅了求放过",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前辈 这个糖葫芦你到底给不给我买。#韩系穿搭 #韩国街头 #麻辣烫糖葫芦 #韩系 #主理人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "沈月",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "麻辣烫叽里咕芦 #麻辣烫糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "徐松松",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请你吃糖葫芦！ #麻辣烫糖葫芦 #糖糖葫芦葫芦葫芦芦芦芦 #手势舞 #手势舞教程",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "kesong.Yy🐹韩国财阀、",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "财阀 唱糖葫芦唱的喷香！#糖葫芦 #韩语 #抽象 #韩语自学",
+     "text": "赘婿周海洋敬茶时被丈母娘刁难，但却不影响他拿到大结果！ #看谷雨逐集反转酷上头 #电视剧谷雨 @电视剧谷雨（谷东酷酷爽看 #李小冉 #张颂文 #热播剧",
      "likes": 0,
      "hot": 0
     }
@@ -1789,6 +1842,113 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "可以给我买麻辣烫糖葫芦吗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "v!nVinviN",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "麻辣烫糖葫芦 #大学生干饭首选 #韩国大学饭堂 #麻辣烫糖葫芦 #韩语",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "SHINee",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前辈 请给我买麻辣烫吧!!! #珉豪 #SHINee #WayV #RIIZE #Hearts2Hearts",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "程潇",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请你吃！糖🍡呼噜噜噜噜～#麻辣烫糖葫芦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是冉不是然",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前辈请我吃糖葫芦吧 糖糖葫芦葫芦糖糖葫芦芦芦芦#糖糖葫芦葫芦葫芦芦芦芦 #cortis #cortis小剧场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "幸子-sani",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不就多要了个糖葫芦嘛 前辈至于这么大动静#对口型",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "遛弯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前辈 给我买麻辣烫葫芦吧 #麻辣烫葫芦 #塑料韩语",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "太帅了求放过",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前辈 这个糖葫芦你到底给不给我买。#韩系穿搭 #韩国街头 #麻辣烫糖葫芦 #韩系 #主理人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沈月",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "麻辣烫叽里咕芦 #麻辣烫糖葫芦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "徐松松",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "请你吃糖葫芦！ #麻辣烫糖葫芦 #糖糖葫芦葫芦葫芦芦芦芦 #手势舞 #手势舞教程",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "kesong.Yy🐹韩国财阀、",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "财阀 唱糖葫芦唱的喷香！#糖葫芦 #韩语 #抽象 #韩语自学",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "这口猪刨花拌面吃商极高": {
    "stats": {},
    "authors": [
@@ -1799,87 +1959,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "葱油拌面 蜜汁猪刨花 #无敌拌面 #厨房日常记录 #葱油拌面 #懒人拌面做法",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "谷雨张颂文赘婿上位": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "不积小流，无以为江",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "周海洋蛰伏到今天，终于可以崛起了！@电视剧谷雨（谷东酷酷爽看 #电视剧谷雨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "优酷",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#电视剧谷雨 赘婿夺权！林家的产业，都要姓周了！#张颂文 #谷雨人人皆是局中人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "影之初",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "赘婿周海洋敬茶时被丈母娘刁难，但却不影响他拿到大结果！ #看谷雨逐集反转酷上头 #电视剧谷雨 @电视剧谷雨（谷东酷酷爽看 #李小冉 #张颂文 #热播剧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "人生中的第一座雪山是萨武神山": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "不吃奶露拖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萨武神山5175米海拔 你敢接吗？#萨武神山",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "艾斯坦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“你这次去成都 就为了萨武神山？” “嗯” “不怕吗？” “怕 怕高反 怕登不了顶 可人生那么多事情又不是非得有意义 去体验就好了” “做攻略了吗？” “没有 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "果子漫游追剧夜": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "红果免费短剧",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "把终章交给这一夜~🍎漫游追剧夜，TA 们跨次元而来！ 各自从副本里走出，把不一样的故事，落在同一段动人的旋律里——这一夜，是独属于 TA 们的群像时刻。 🍎",
      "likes": 0,
      "hot": 0
     }
@@ -1974,10 +2053,39 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "天赐抖音直播首秀": {
+  "申请加入杨紫的假期": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "杨紫",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超nice的假期🌊🐳🌄🎢🦭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "果子漫游追剧夜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "红果免费短剧",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "把终章交给这一夜~🍎漫游追剧夜，TA 们跨次元而来！ 各自从副本里走出，把不一样的故事，落在同一段动人的旋律里——这一夜，是独属于 TA 们的群像时刻。 🍎",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "我的正缘原来离我这么近": {
    "stats": {},
@@ -2086,6 +2194,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "铁公鸡来南太行也得破费": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "so、",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有懂这个拐角的含金量吗 我先去哭一会了#南太行 #绝望坡",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "秋冬色彩穿搭不重样": {
    "stats": {},
    "authors": [
@@ -2123,6 +2248,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "天赐抖音直播首秀": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "看今天是太阳雨花絮嗑疯了": {
    "stats": {},
    "authors": [
@@ -2133,60 +2263,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "“你猜”#今天是太阳雨 #杨超越 #董思成 #郑雨 #陈砚周",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "短国乐子人有自己的满汉全席": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "听花不听话",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第3期｜听花天团天资展示！秘密个人技showtime～#自制综艺 #未来导演扶持计划 #听花不听话",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "被毛茸茸裹住的秋冬": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "郭有才（12-13号晚7点相聚飞马水城）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这地也太滑了，一下就滑到大家面前了。#毛茸茸治愈一切 #被毛茸茸裹住的秋冬 #探见好物 #瞬移滑镜慢动作挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杏子王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "-20℃出片又保暖！南方小土豆的东北穿搭指南！#被毛茸茸裹住的秋冬 #探见好物 #高质感通勤妆跟练 #通勤妆妆教 #东北穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "富贵rich",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "双十一我也太会买了 厉娜！ #一学就会的可可系换季公式 #全民进入购物听劝时代 #高质感通勤妆跟练 #被毛茸茸裹住的秋冬#掏出我的极简护肤焚决",
      "likes": 0,
      "hot": 0
     }
