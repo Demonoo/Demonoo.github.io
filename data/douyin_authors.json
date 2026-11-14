@@ -1,58 +1,11 @@
 {
- "updated_at": "2026-11-14 14:39",
+ "updated_at": "2026-11-14 15:39",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 49,
+ "topic_count": 50,
  "ok_count": 46,
  "lexicon_count": 0,
  "topics": {
-  "国足2:0马来西亚": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李昊两连扑力保城门不失，国足2比0完胜马来西亚终结三连败 #李昊两连扑 #国足2比0马来西亚 #国足终结3连败 #李昊两连扑救主",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月14日，在广东肇庆进行的一场国际足球热身赛中，中国男足国家队2:0战胜马来西亚队，结束三连败。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "美丽浙江",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#国足终结三连败 主场2:0战胜马来西亚队，浙江球员王钰栋、张玉宁各进一球 #美丽主播说新闻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "都市现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "14日，在广东肇庆进行的一场国际足球热身赛中，中国男足国家队2:0战胜马来西亚队，结束三连败。#国足",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "BLG对阵GEN": {
    "stats": {},
    "authors": [
@@ -127,12 +80,59 @@
      "hot": 0
     },
     {
-     "name": "潮新闻",
+     "name": "中安在线",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026英雄联盟全球总决赛冠亚军决赛由BLG对阵GEN，赛前GEN团长接受韩媒体育首尔专访，原文部分内容翻译如下：剩余时间的备战方向也十分明确。李团长强调：“从",
+     "text": "2026英雄联盟全球总决赛冠亚军决赛，11月15日 3:00，GEN对战BLG (BO5)，争夺2026英雄联盟全球总决赛冠军，一边是LCK无冕之王，一边是LP",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国足2:0马来西亚": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李昊两连扑力保城门不失，国足2比0完胜马来西亚终结三连败 #李昊两连扑 #国足2比0马来西亚 #国足终结3连败 #李昊两连扑救主",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间11月14日，2026CFA中国之队·肇庆国际足球邀请赛，中国男足2-0战胜马来西亚男足，收获赛事开门红。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月14日，在广东肇庆进行的一场国际足球热身赛中，中国男足国家队2:0战胜马来西亚队，结束三连败。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕西日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国足2-0领先马来西亚队，杨希“被犯规”：马来西亚球员故意将球踢在他身上，现场一度发生冲突。",
      "likes": 0,
      "hot": 0
     }
@@ -150,6 +150,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 新华社消息｜我国新增3处世界地质遗产地（记者：郑世昌）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社电视",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国新增3处世界地质遗产地 #世界地质遗产地 #墨石公园 #恐龙化石 #三叠纪",
      "likes": 0,
      "hot": 0
     },
@@ -191,32 +201,42 @@
      "hot": 0
     },
     {
-     "name": "轲",
-     "verify": "",
-     "identity": "",
+     "name": "体坛电竞",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "荣耀加冕，追梦不休#北京微博#暖阳#梓墨#kpl决赛#京东",
+     "text": "恭喜北京WB夺得KPL年度总决赛冠军 #2026KPL年总决赛 #KPL十周年 #WB年总冠军 #WB圆梦凤凰山",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "不吃鸭力",
-     "verify": "",
-     "identity": "",
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "从夯到拉锐评年总12只站队的表现！#2026kpl年度总决赛 #从夯到拉",
+     "text": "#北京WB斩获KPL年度总冠军 11月14日，成都。经历过整整7局鏖战，北京WB4-3击败北京JDG，夺得2026年王者荣耀KPL年度总决赛冠军，捧起队史首座圣",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Gemini郭家毅",
-     "verify": "",
-     "identity": "",
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "什么？你们怎么知道我奶王杯拿到冠军了#2026KPL年度总决赛 #gemini郭家毅 #王者荣耀",
+     "text": "#媒体原创 11月14日，成都，2026KPL年度总决赛迎来巅峰对决。北京WB鏖战七局，以 4-3战胜北京JDG斩获年度总冠军。队员奔向奖杯、共同捧起，意气风发",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 2026KPL年度总决赛·决赛，北京WB4比3战胜北京JDG，时隔三年重回凤凰山，他们在曾经梦碎的地方完成逆袭",
      "likes": 0,
      "hot": 0
     }
@@ -254,36 +274,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "湘超淘汰赛岳阳队VS永州队0: 0，结合第一回合成绩，最终比分0: 1，岳阳队遗憾告别， 永州队挺进四强，半决赛永州队对阵长沙队！#湘超 #永州队 #岳阳队 （",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "罗伟明日常",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "表表心意#永州队 #为家乡球队打call",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "子源在永州",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "已经平安抵达岳阳，子源第一个把永州大旗扛进现场为永州队加油呐喊#湘超 #永州 #岳阳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "永州观察",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "岳阳小球迷追星永州队林昊，欣赏他伤愈复出、奋力拼搏的韧劲，同场竞技，双向热爱，永州岳阳都加油！ #第七届湖南旅游发展大会#三湘四水相约湖南#千年文脉源来永州 #",
      "likes": 0,
      "hot": 0
     }
@@ -474,6 +464,63 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "BLG发布决赛赛前预告": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "BLG电子竞技俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【2026全球总决赛 赛前预告】 2026年11月15日 03:00 决赛丨BLG vs GEN.G 风起今朝 #BLG #英雄联盟S16 #BLG对阵GEN",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿怪（秒杀怪卡萨丁）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "加油BLG，最后的希望，一定要争气！ #英雄联盟 #BLG #把力量借给BLG #把这份庆祝留给BLG",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鲨鱼王电竞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG迎接最后的试炼吧，相信你们可以做到的！ #英雄联盟S16 #BLG决赛对阵GEN #伦敦的泪不会流到纽约 #我的S16决赛观赛日记 #抖音精选App",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东方红🔥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Faker vs Bin 你们知道吗？盼望着盼望着！S16总决赛，就差一步！为BLG加油！ #以我之名为LPL加油 #FakervsBin #blgvsgen ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "阿宽.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG加油👏#英雄联盟总决赛 #BLG #LPL",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "最有安全感的覆面系出现了": {
    "stats": {},
    "authors": [
@@ -561,62 +608,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "BLG发布决赛赛前预告": {
+  "高铁为什么完全密封": {
    "stats": {},
-   "authors": [
-    {
-     "name": "BLG电子竞技俱乐部",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【2026全球总决赛 赛前预告】 2026年11月15日 03:00 决赛丨BLG vs GEN.G 风起今朝 #BLG #英雄联盟S16 #BLG对阵GEN",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "森谷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG 就今年吧 一穿四夺冠吧 LPL 最后的希望#英雄联盟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "东方红🔥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Faker vs Bin 你们知道吗？盼望着盼望着！S16总决赛，就差一步！为BLG加油！ #以我之名为LPL加油 #FakervsBin #blgvsgen ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "明珏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为了梦想给BLG加油。blg今年夺冠选一个送了#英雄联盟全球总决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "召唤AI大师",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG vs GenG 用AI模拟10万次对局谁将夺冠？左右手对决来了！【S16决赛预测】#英雄联盟S16#BLG对战Gen #英雄联盟音乐赛季 #联盟音乐季 ",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "把这份庆祝留给BLG": {
    "stats": {},
@@ -698,6 +693,315 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "Ai随机抽，不是粉丝抽中了不算重新抽。#blg #s16#把力量借给BLG #用一百种方式为BLG加油",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "马刺38分大胜勇士豪取11连胜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【文班空接连线卡斯尔】空中作业！马刺快攻反击，文班亚马送出精准抛传，卡斯尔高高跃起双手暴扣点燃全场！#马刺11连胜 #马刺38分大胜勇士 #卡斯尔",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "苏群",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这科尔，还是护着追梦啊",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "孔祥宇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马刺狂胜勇士！伦德伯格13中1！ #马刺战胜勇士 库里缺席，伦德伯格状态全无，卡斯尔爆砍30+",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ESPN",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无库勇惨败38分！伦德博格：我真的很崩溃 #马刺38分大胜勇士豪取11连胜 #勇士 #伦德伯格",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国足对阵马来西亚赛场爆发冲突": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这都是些什么动作？杨希连续两次遭到马来西亚球员恶意报复，引发双方大规模冲突 #杨希被马来西亚球员恶意报复 #国足vs马来西亚 #国足半场2比0马来西亚 #国足马",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕西日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国足2-0领先马来西亚队，杨希“被犯规”：马来西亚球员故意将球踢在他身上，现场一度发生冲突。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026CFA中国之队·肇庆国际足球邀请赛11月14日晚在肇庆新区体育中心体育场进行，中国国家男子足球队迎战马来西亚队。 开场第10分钟，王钰栋头球破门；第19",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月14日，广东肇庆，#国足2比0战胜马来西亚，#詹俊发文怒斥裁判 ：上半场表现最差的是韩国主裁判高亨进。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月14日，中国男足vs马来西亚，比赛第44分钟，裁判吹罚犯规后，马来西亚球员故意将球踢向倒地的杨希，双方爆发大规模冲突，裁判回看后仅出示黄牌。现场解说直呼：",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国足热身赛2:0战胜马来西亚，结束三连败 ，“国足马来西亚爆发冲突”冲上热搜，杨希拼抢倒地后，马来西亚球员故意将球踢向其脸部，双方爆发大规模冲突 #国足 #马来",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "独属我们的非凡之爱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "银发舞爷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陪伴才是最长情的告白#剪映 #非凡之爱 #无解的眼神心像海底针",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小羊失棉了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这......有点怪怪的#非凡之爱 #小说男主视角 #暧昧拉扯的心动瞬间 #剪映 #男主破碎感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "抹茶星冰乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "祁南♥夏柠柒 柠柒我会一陪着你的#小说男主视角 #剧情拉扯感#撑伞氛围感名场面 #祁夏 #男主破碎感",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "KPL年度总决赛现场直击": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "北京时间",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 11月14日，成都，2026KPL年度总决赛，北京JDG对阵北京WB。场外一位首次观赛的女生表示，本月开始关注赛事，看好北京 JDG，欣赏无畏的赛场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王者荣耀KPL年度总决赛今晚开打，选手清融赛前坦言压力大，“有压力才会变得更强，这几年我和无畏都变成熟了” #媒体原创 #媒体精选计划 #KPL年总决战凤凰山",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Tim变装变上瘾了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Tim潘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我是Tim，陶阿狗君让我变装",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "谢霆锋杭州演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "锋味",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#EvolutionNicLive 杭州，進化再開啟🤟。#巡演日记",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "谢霆锋FM",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“年轻时唱这首歌是少年宣言，现在唱是中年答案。歌没变，唱的人变了。” 🎤#谢霆锋进化演唱会 #EvolutionNicLive #谢霆锋杭州演唱会 #因为爱所",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "慌啥子嘛配什么都好治愈": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Andy妈妈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛 慢慢来。太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待#好运都在来的路上 #慌啥子嘛 #记录户外童趣时光",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "泽一小盆友",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛 慢慢来 太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待 #慌啥子嘛 #人类幼崽 #宝宝穿搭分享",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "懒懒咩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "本山大叔的声音太治愈了 慌啥子嘛 慢慢来 太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小十一.（牛马版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛，慢慢来！ #慌啥子慌 #旷野自由感 #户外徒步",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘老根传媒",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "片段先行｜谁懂啊，就爱这一句“慌啥子嘛”！#走马上任 #赵家班",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "荀宝➹♡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小学生的快乐很简单，放学就是最治愈的时刻#慌啥子嘛 #放学后的样子 #治愈系笑容瞬间 #治愈系笑容",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "是小小玥吖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛 慢慢来 太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待 #创意文案玩法集#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小李同学",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "本山大叔的调调听了真的好治愈，慌啥子嘛 感觉一切都会有希望#走马上任#赵本山老师#走马上任 #年末被赵本山慌啥子嘛治愈了",
      "likes": 0,
      "hot": 0
     }
@@ -812,56 +1116,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "国足对阵马来西亚赛场爆发冲突": {
+  "海陆再扮紫薇": {
    "stats": {},
    "authors": [
     {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "海陆",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这都是些什么动作？杨希连续两次遭到马来西亚球员恶意报复，引发双方大规模冲突 #杨希被马来西亚球员恶意报复 #国足vs马来西亚 #国足半场2比0马来西亚 #国足马",
+     "text": "欢迎紫薇入宫来，心酸委屈成过去，从此心花朵朵开。#新还珠格格 #紫薇 #毛茸茸治愈一切 #可可系",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "陕西日报",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国足2-0领先马来西亚队，杨希“被犯规”：马来西亚球员故意将球踢在他身上，现场一度发生冲突。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陕视新闻",
+     "name": "浪涨新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026CFA中国之队·肇庆国际足球邀请赛11月14日晚在肇庆新区体育中心体育场进行，中国国家男子足球队迎战马来西亚队。 开场第10分钟，王钰栋头球破门；第19",
+     "text": "42岁海陆暴瘦20斤再扮紫薇 此前她否认刻意节食 称瘦身是跳舞 户外运动等爱好带来的变化 海陆曾凭《新还珠格格》紫薇一角走红 因骨架较大被调侃“海大壮”（编辑 ",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "930老友记",
+     "name": "新晚报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#国足球员与马来西亚球员发生冲突 #国足2比0马来西亚 11月14日晚，在国足2比0领先马来西亚之后，比分落后的马来西亚球员出现了明显的急躁情绪，甚至上升到了报",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月14日，广东肇庆，#国足2比0战胜马来西亚，#詹俊发文怒斥裁判 ：上半场表现最差的是韩国主裁判高亨进。",
+     "text": "42岁海陆暴瘦20斤再扮紫薇，此前她否认刻意节食，称瘦身是跳舞等爱好带来的变化，海陆曾凭《新还珠格格》紫薇一角走红，因骨架较大被调侃“海大壮”#海陆 #还珠格格",
      "likes": 0,
      "hot": 0
     }
@@ -869,92 +1153,47 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "慌啥子嘛配什么都好治愈": {
+  "许飞专辑开售销量破万": {
    "stats": {},
    "authors": [
     {
-     "name": "Andy妈妈",
-     "verify": "",
-     "identity": "",
+     "name": "许飞（新专&20周年演唱会版）",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "慌啥子嘛 慢慢来。太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待#好运都在来的路上 #慌啥子嘛 #记录户外童趣时光",
+     "text": "#许飞出道二十年新专辑 “飞碟”们请查收！春天、诗意与歌声。《每个春天我都会唱歌》终于来到我的手里，第一时间就想向飞碟们呈现这份花了很多心思的“礼物”！这一次真",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "泽一小盆友",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "慌啥子嘛 慢慢来 太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待 #慌啥子嘛 #人类幼崽 #宝宝穿搭分享",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "懒懒咩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "本山大叔的声音太治愈了 慌啥子嘛 慢慢来 太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小十一.（牛马版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "慌啥子嘛，慢慢来！ #慌啥子慌 #旷野自由感 #户外徒步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘老根传媒",
-     "verify": "蓝V",
+     "name": "荔枝新闻",
+     "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "片段先行｜谁懂啊，就爱这一句“慌啥子嘛”！#走马上任 #赵家班",
+     "text": "许飞新实体专辑《每个春天我都会唱歌》 开售秒罄 一小时销量近万张 上张专辑同平台仅售百余张 #许飞 #后会友期",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "荀宝➹♡",
-     "verify": "",
-     "identity": "",
+     "name": "抖音演出",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "小学生的快乐很简单，放学就是最治愈的时刻#慌啥子嘛 #放学后的样子 #治愈系笑容瞬间 #治愈系笑容",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是小小玥吖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "慌啥子嘛 慢慢来 太阳下山有月亮爬上来 云会在 花会开 好运总会为你而等待 #创意文案玩法集#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小李同学",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "本山大叔的调调听了真的好治愈，慌啥子嘛 感觉一切都会有希望#走马上任#赵本山老师#走马上任 #年末被赵本山慌啥子嘛治愈了",
+     "text": "#许飞出道二十年新专辑 许飞新实体专辑《每个春天我都会唱歌》开售秒罄！ 感谢大家的热情与支持，让这份跨界之作迎来了如此耀眼的开场。 11月14日12:00~11",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "写在BLG赛前的一封长文": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "华晨宇第100场演唱会": {
    "stats": {},
@@ -993,112 +1232,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "Tim变装变上瘾了": {
+  "和赵露思一起跳茉茉手势舞": {
    "stats": {},
    "authors": [
     {
-     "name": "Tim潘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我是Tim，陶阿狗君让我变装",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "写在BLG赛前的一封长文": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "许飞专辑开售销量破万": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "许飞（新专&20周年演唱会版）",
+     "name": "赵露思",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#许飞出道二十年新专辑 “飞碟”们请查收！春天、诗意与歌声。《每个春天我都会唱歌》终于来到我的手里，第一时间就想向飞碟们呈现这份花了很多心思的“礼物”！这一次真",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "抖音演出",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#许飞出道二十年新专辑 许飞新实体专辑《每个春天我都会唱歌》开售秒罄！ 感谢大家的热情与支持，让这份跨界之作迎来了如此耀眼的开场。 11月14日12:00~11",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "荔枝新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "许飞新实体专辑《每个春天我都会唱歌》 开售秒罄 一小时销量近万张 上张专辑同平台仅售百余张 #许飞 #后会友期",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "宝宝接爸爸下班名场面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "芝麻花晟糖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宝宝接爸爸下班名场面 #萌娃搞笑日常 #可爱的女鹅",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "海陆再扮紫薇": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "海陆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欢迎紫薇入宫来，心酸委屈成过去，从此心花朵朵开。#新还珠格格 #紫薇 #毛茸茸治愈一切 #可可系",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "42岁海陆暴瘦20斤再扮紫薇 此前她否认刻意节食 称瘦身是跳舞 户外运动等爱好带来的变化 海陆曾凭《新还珠格格》紫薇一角走红 因骨架较大被调侃“海大壮”（编辑 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "42岁海陆暴瘦20斤再扮紫薇，此前她否认刻意节食，称瘦身是跳舞等爱好带来的变化，海陆曾凭《新还珠格格》紫薇一角走红，因骨架较大被调侃“海大壮”#海陆 #还珠格格",
+     "text": "晚安 #葛栗 晚安大家",
      "likes": 0,
      "hot": 0
     }
@@ -1185,7 +1328,7 @@
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "严肃进入斜构图时代 @天霸青稚 #甜弟拯救世界 #天霸青稚#青稚#后会有期",
+     "text": "严肃进入斜构图时代 @天霸青稚 #甜弟拯救世界 #后会友期#天霸青稚#青稚",
      "likes": 0,
      "hot": 0
     },
@@ -1206,87 +1349,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "稚稚呐#青稚 #斜构图",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "首届天霸主播比武大会要来了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王浩宇Whys",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "很荣幸能当选首届互联网坐播比武大会队长，是时候检验这两个月健身成果了！#天霸主播比武大会 #首届互联网坐播比武大会 #自制综艺",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "林树（三角洲行动）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "首届互联网坐播 强身健体比武大会 #天霸主播比武大会 #首届互联网坐播比武大会 #自制综艺",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天霸像素（暴君）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "强身健体！ #天霸像素 #天霸主播比武大会 #首届互联网坐播比武大会 #自制综艺",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "谢霆锋杭州演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "锋味",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#EvolutionNicLive 杭州，進化再開啟🤟。#巡演日记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "谢霆锋FM",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“年轻时唱这首歌是少年宣言，现在唱是中年答案。歌没变，唱的人变了。” 🎤#谢霆锋进化演唱会 #EvolutionNicLive #谢霆锋杭州演唱会 #因为爱所",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当你被选中和吴彦祖一起嗦粉": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴彦祖",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "很好吃，真的不辣！#喜笑彦开 #心动打卡指南 #遇见城市",
      "likes": 0,
      "hot": 0
     }
@@ -1438,6 +1500,113 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "时间无言 如此这般": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "_青",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "明 ·",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般#新疆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老陳睡着了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般. #西藏#平凡之路",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大哼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "故里",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小宇睡不着",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般.#西藏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "_05",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "珞南叙",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "周游Dream",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言 如此这般.#西藏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蟹老板ℤ📸",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间无言，如此这般.#厦门",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "我的脸不接受锐评谢谢": {
    "stats": {},
    "authors": [
@@ -1478,6 +1647,186 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#我的脸不接受锐评谢谢",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "还是老艺术家的曲调对味儿": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "K·haiyang Cap ✧°",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还是老爷子的曲调对味儿 #致敬老艺术家 #老艺人 #赵本山 #唱个小曲儿 #歌手老顽童",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "衣浓全码女装店",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "听着听着，我心里居然看开了好多 舒服了许多 #赵本山 #慌啥子嘛 #走马上任 #衣浓全码女装店",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "⁵²º᭄ꦿ🎀静⅓¼🍬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "聋子说炮不响，瞎子说灯不亮， 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心， 立场不同，不必强求一致，守好本心！ #总有一句歌词唱到你心里 #宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "年高💯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "聋子说炮不响，瞎子说灯不亮。 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心。 走自己的路，不慌不忙。 修自己的心，默默发光。 #一歌一故事 #赵",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "有妳很幸福",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛 慢慢来，太阳下山 有月亮爬上来，云会在花会开，好运总会 为你而等待；慌啥子嘛 慢慢来，每个人都有 自己的节拍，得不到就放开，一切都是 最好的安排……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太好听！本山大叔新歌来了！（kun）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "首届天霸主播比武大会要来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王浩宇Whys",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "很荣幸能当选首届互联网坐播比武大会队长，是时候检验这两个月健身成果了！#天霸主播比武大会 #首届互联网坐播比武大会 #自制综艺",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "林树（三角洲行动）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "首届互联网坐播 强身健体比武大会 #天霸主播比武大会 #首届互联网坐播比武大会 #自制综艺",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天霸像素（暴君）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "强身健体！ #天霸像素 #天霸主播比武大会 #首届互联网坐播比武大会 #自制综艺",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "短剧少夫人来自东北3权威开播": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "宝宝接爸爸下班名场面": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "芝麻花晟糖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宝宝接爸爸下班名场面 #萌娃搞笑日常 #可爱的女鹅",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "会呼麦的咖啡机集合了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "坛子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来如此，哈哈哈哈#在家做咖啡 #自制咖啡的快乐 #天冷了喝点热乎的 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "威士忌冰美式",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来自蒙古草原的咖啡机 #沉浸式做咖啡#咖啡教学 #搞笑配音 #呼麦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "烫手甜心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#真实还原 #内容过于真实 #廉价咖啡机 #搞笑",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深情航仔要当爸爸了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "深情航仔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宣布一下马上要当爸爸了#解锁人生新角色 #内容过于真实日常vlog #怀孕",
      "likes": 0,
      "hot": 0
     }
@@ -1592,330 +1941,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影决斗场天降大魔方": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "耀光",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你已进入川木节奏. #火影忍者手游 #火影决斗场天降大魔方",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "千代玩家",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "楔二川木:吸漏了一个！#火影决斗场天降大魔方 #火影忍者手游#楔二川木",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "累赘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“区区蝼蚁，也配和大筒木相提并论？” #火影忍者手游 #火影决斗场天降大魔方",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "还是老艺术家的曲调对味儿": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "K·haiyang Cap ✧°",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "还是老爷子的曲调对味儿 #致敬老艺术家 #老艺人 #赵本山 #唱个小曲儿 #歌手老顽童",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "衣浓全码女装店",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听着听着，我心里居然看开了好多 舒服了许多 #赵本山 #慌啥子嘛 #走马上任 #衣浓全码女装店",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "⁵²º᭄ꦿ🎀静⅓¼🍬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "聋子说炮不响，瞎子说灯不亮， 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心， 立场不同，不必强求一致，守好本心！ #总有一句歌词唱到你心里 #宝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "年高💯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "聋子说炮不响，瞎子说灯不亮。 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心。 走自己的路，不慌不忙。 修自己的心，默默发光。 #一歌一故事 #赵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "有妳很幸福",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "慌啥子嘛 慢慢来，太阳下山 有月亮爬上来，云会在花会开，好运总会 为你而等待；慌啥子嘛 慢慢来，每个人都有 自己的节拍，得不到就放开，一切都是 最好的安排……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太好听！本山大叔新歌来了！（kun）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "蛋仔版不小心惹了上帝": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "呆宝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不小心惹了上帝#蛋仔派对 #蛋仔奇思妙想计划 #蛋仔地图推荐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "网易蛋仔派对",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "TA们的一生颠沛流离... #蛋仔派对 #蛋仔派对惊魂寻宝队 #烂奇迹 #不小心惹了上帝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猫猫猫猫猫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不小心惹了上帝 #蛋仔派对#我在蛋仔岛过秋天#蛋仔奇思妙想计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "甜茶 ya（揪捣大师赛举办中）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小茶宝们！晚上不允许睡，我来咯！ #蛋仔派对#蛋仔派对揪出捣蛋鬼#蛋仔奇思妙想计划#我在蛋仔岛过秋天#蛋仔全民寻宝队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蛋仔饭特稀",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "蛋小冷不小心惹到上帝后 （mf@呆宝）#蛋仔派对#蛋仔奇思妙想计划#蛋仔派对摄影剪辑师#蛋仔小剧场#蛋仔日常",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "呆脸小蛋挞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上帝钻入了我的身体，却发现我这一生都好似很糟糕啊 mf@呆宝 音频 @𝑺.𝑽𝒊𝒏𝒏𝒊𝒆 #蛋仔玩家精神状态#烂奇迹 #生活很累但我无路可退 #百分",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亿只岳阳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好家伙最近被这首歌洗脑了 原声@杨羊烊《烂奇迹（不小心惹了上帝）》已上线 后面模仿@呆宝 #蛋仔派对#蛋仔奇思妙想计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "栓甜凉面",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "(mf@呆宝 ) 地图名称《晚安蛋宝》 地图作者 浦西可乐. 地图码5667-1447 #蛋仔派对 #蛋仔派对摄影剪辑师 #蛋仔地图推荐 #蛋仔奇思妙想计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叶安拾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原音频@杨羊烊《烂奇迹（不小心惹了上帝）》已上线 仿@呆宝 #蛋仔派对 #蛋仔派对摄影剪辑师 #我在蛋仔岛过秋天 #蛋仔全民寻宝队",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "AAA纠结伦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不小心惹了上帝🧐（mf@呆宝 ）地图名：秋落蛋仔岛 地图码：9218-0970 作者：浦西可乐.#蛋仔派对#我在蛋仔岛过秋天#蛋仔全民寻宝队#蛋仔地图推荐 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "短剧少夫人来自东北3权威开播": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "王嘉尔杭州演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "王嘉尔",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 杭州站 · 下雨天，注意安全，今晚见❤️ · #王嘉尔MAGICMAN2世界巡演 #巡演日记 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "和平冰封列车限时返场": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "失控的王叔叔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "零成本？一局拿满冰封列车全部通关奖励！ #和平精英地铁逃生 #地铁逃生钢铁之鸣 #抖音精选APP #我在抖音玩和平 #和平精英",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "狼云",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冰封列车返场又能速刷金手指logo了 #和平精英冰封列车 #和平精英蜘蛛侠崭新之日联动 #和平精英 #和平精英金拇指",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "校霸（和平精英）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冰封列车速刷等级教学，以及5分钟速通教学 #地铁逃生钢铁之鸣 #和平精英冰封列车 #来抖音精选App看游戏#抖音精选APP #我在抖音玩和平",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "会呼麦的咖啡机集合了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "坛子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来如此，哈哈哈哈#在家做咖啡 #自制咖啡的快乐 #天冷了喝点热乎的 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "威士忌冰美式",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来自蒙古草原的咖啡机 #沉浸式做咖啡#咖啡教学 #搞笑配音 #呼麦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "烫手甜心",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#真实还原 #内容过于真实 #廉价咖啡机 #搞笑",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "深情航仔要当爸爸了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "深情航仔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宣布一下马上要当爸爸了#解锁人生新角色 #内容过于真实日常vlog #怀孕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "coldy2.0也太萌啦": {
    "stats": {},
    "authors": [
@@ -1993,80 +2018,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "白灰🤍🩶 #羽绒服也可以很显瘦 #冬季白色系穿搭 #日常穿搭分享 #白色羽绒服ootd穿搭#羽绒服",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "被毛茸茸裹住的秋冬": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "郭有才",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这地也太滑了，一下就滑到大家面前了。#毛茸茸治愈一切 #被毛茸茸裹住的秋冬 #探见好物 #瞬移滑镜慢动作挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杏子王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "-20℃出片又保暖！南方小土豆的东北穿搭指南！#被毛茸茸裹住的秋冬 #探见好物 #高质感通勤妆跟练 #通勤妆妆教 #东北穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "富贵rich",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "双十一我也太会买了 厉娜！ #一学就会的可可系换季公式 #全民进入购物听劝时代 #高质感通勤妆跟练 #被毛茸茸裹住的秋冬#掏出我的极简护肤焚决",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "手工敲虾到底有多好吃": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一栀沚含",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "长春这个手工敲虾建议申遗…",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "呵呵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天吃敲虾#谁懂这一口的好吃程度",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "超级无敌暴龙骑士",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宁波这个手工敲虾建议申遗。。。",
      "likes": 0,
      "hot": 0
     }
@@ -2185,6 +2136,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "手工敲虾到底有多好吃": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "一栀沚含",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "长春这个手工敲虾建议申遗…",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "呵呵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天吃敲虾#谁懂这一口的好吃程度",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "超级无敌暴龙骑士",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宁波这个手工敲虾建议申遗。。。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "这口猪刨花拌面吃商极高": {
    "stats": {},
    "authors": [
@@ -2202,36 +2190,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "归期雨抄古风OST氛围拉满": {
+  "被毛茸茸裹住的秋冬": {
    "stats": {},
    "authors": [
     {
-     "name": "摩登兄弟刘宇宁",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#音乐缘计划 我的首个国风舞台。#归期雨抄 BGM循环走起。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "音乐缘计划",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#刘宇宁归期雨抄武侠感好强 #音乐缘计划 #刘宇宁 《归期雨抄》舞台送达！以深情唱腔诠释一场没有归期的等候，落笔尽是思念，藏于纸页的牵挂，经年不散。#综好玩",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "音合现场 Music",
+     "name": "郭有才",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "刘宇宁《归期雨抄》直拍！这套到底是让我听歌还是看人啊！ #刘宇宁 #归期雨抄 #音乐缘计划 #音乐缘计划3 #刘宇宁归期雨抄武侠感好强",
+     "text": "这地也太滑了，一下就滑到大家面前了。#毛茸茸治愈一切 #被毛茸茸裹住的秋冬 #探见好物 #瞬移滑镜慢动作挑战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杏子王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "-20℃出片又保暖！南方小土豆的东北穿搭指南！#被毛茸茸裹住的秋冬 #探见好物 #高质感通勤妆跟练 #通勤妆妆教 #东北穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "富贵rich",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "双十一我也太会买了 厉娜！ #一学就会的可可系换季公式 #全民进入购物听劝时代 #高质感通勤妆跟练 #被毛茸茸裹住的秋冬#掏出我的极简护肤焚决",
      "likes": 0,
      "hot": 0
     }
@@ -2266,26 +2254,33 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "KPL年度总决赛现场直击": {
+  "王嘉尔杭州演唱会": {
    "stats": {},
    "authors": [
     {
-     "name": "北京时间",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "王嘉尔",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 11月14日，成都，2026KPL年度总决赛，北京JDG对阵北京WB。场外一位首次观赛的女生表示，本月开始关注赛事，看好北京 JDG，欣赏无畏的赛场",
+     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 杭州站 · 下雨天，注意安全，今晚见❤️ · #王嘉尔MAGICMAN2世界巡演 #巡演日记 #",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "一对父子被夺走的半生": {
+   "stats": {},
+   "authors": [
     {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "极目纪实",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "王者荣耀KPL年度总决赛今晚开打，选手清融赛前坦言压力大，“有压力才会变得更强，这几年我和无畏都变成熟了” #媒体原创 #媒体精选计划 #KPL年总决战凤凰山",
+     "text": "#媒体原创 【花坛藏尸28年后——一对父子被夺走的半生】11月12日，备受关注的泸州“花坛埋尸案”一审宣判两天后，被害人吴艳萍的前夫黄福千、儿子黄平回到绍兴新昌",
      "likes": 0,
      "hot": 0
     }
