@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-15 07:39",
+ "updated_at": "2026-11-15 08:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 48,
- "ok_count": 43,
+ "ok_count": 46,
  "lexicon_count": 0,
  "topics": {
   "BLG夺冠": {
@@ -30,12 +30,32 @@
      "hot": 0
     },
     {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 时隔五年！LPL重回顶峰 恭喜#中国战队BLG拿下英雄联盟S16全球总决赛冠军 创造多项历史 “一穿四”LCK、战胜T1、队史首冠······ #直",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "暴龙小哥",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "BLG拿下冠军后众人拥抱在一起， 网友：这一刻等了太久了！#lpl #英雄联盟s16 #gen对战blg #blg战胜gen",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "BLG电子竞技俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【BLG夺冠时刻语音】这一刻，我们等了太久！ 当敌方基地水晶爆炸的那一刻，所有的坚持与付出，终于化作一句——我们是世界冠军！#BLG #BLG夺冠",
      "likes": 0,
      "hot": 0
     }
@@ -82,6 +102,36 @@
      "text": "#媒体原创 开放、创新、合作！#4分钟读懂APEC #晶采观察 #媒体精选计划",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国加入APEC的35年里，深圳也从小渔村“长”成国际化大都市，一个个普通家庭的生活也悄然改变。亚太合作带来的发展机遇，最终落在了普通人每一个平凡日子里。#深圳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC的21个成员经济体代表聚首中国，卫星图观，深圳“迎宾大门”海陆空联动，展现硬核实力。#空间观策 #APEC #深圳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小强快评",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一条视频读懂APEC为什么选在大湾区？ #媒体精选计划 #APEC #APEC在广东 #小强深读APEC",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -109,34 +159,41 @@
      "text": "完成一穿四LCK壮举！英雄联盟世界赛，BLG3比1击败GENG，一己之力挑落LCK四个种子，强势夺得S16冠军，祝贺BLG！#BLG一穿四LCK #BLG夺得S",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Ruler燃尽了": {
+   "stats": {},
+   "authors": [
     {
-     "name": "武汉广播电视台",
-     "verify": "蓝V",
-     "identity": "媒体人",
+     "name": "电竞小学妹",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2026英雄联盟全球决赛，中国战队BLG 3:1 GEN 加冕S16 总冠军#2026英雄联盟全球总决赛 #BLG夺冠 #knight #blg #英雄联盟赛事",
+     "text": "Ruler含泪向观众致意，遗憾总是贯穿 始终，尺子真的尽力了！#英雄联盟S16 #GEN对战BLG #ruler #blg战胜gen #热点观察团",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "今视频长天新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "佟锣烧",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "江西籍选手#Knight 拿下S16世界赛FMVP，解锁中单大满贯成就。#blg #lpl夺冠 #江西人",
+     "text": "恭喜BLG拿下S16全球总决赛冠军 #英雄联盟S16 #GEN对战BLG #BLG战胜GEN #BLG夺冠",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "金彩云",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "神奇的巅峰",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月15日（报道时间），2026英雄联盟全球总决赛，BLG战胜GEN，夺得队史首个S赛冠军。中单选手卓定（Knight）获得FMVP，同时成为14年来首位夺得",
+     "text": "GEN同意了 #S赛 #BLG #GEN",
      "likes": 0,
      "hot": 0
     }
@@ -168,12 +225,12 @@
      "hot": 0
     },
     {
-     "name": "红魔92班阿桑",
-     "verify": "",
-     "identity": "",
+     "name": "扬子晚报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "拷打拉莫斯！葡萄牙105年主场最大失利！在主场1:4输给丹麦 #热苏斯 #C罗 #拉莫斯 #dou来足球季 #葡萄牙vs丹麦",
+     "text": "“后C罗时代”首战惨败：葡萄牙1:4不敌丹麦；丹麦主帅：C罗是史上最佳，他们需要时间重新确立球队内部地位 #媒体原创 #媒体精选计划",
      "likes": 0,
      "hot": 0
     },
@@ -188,79 +245,12 @@
      "hot": 0
     },
     {
-     "name": "扬子晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“后C罗时代”首战惨败：葡萄牙1:4不敌丹麦；丹麦主帅：C罗是史上最佳，他们需要时间重新确立球队内部地位 #媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "BLG夺冠了你们知道吗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "东方红🔥",
+     "name": "红魔92班阿桑",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "BLG VS GEN 你们知道吗？BLG战胜心魔，战胜GEN！静下心来，Be Water My Friend！加油BLG，LPL冲鸭！#静下心来 #英雄联盟S1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大风视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们是冠军！#BLG实现1穿4 #BLG每人举一次奖杯#BLG夺冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月15日，据媒体报道，S16世界赛决赛，BLG成功击败GEN，拿下了队史首座冠军。Tim晒出现场照，网友评论：为了庆祝BLG夺冠读到我送我一台iPhone ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "先锋新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG夺冠，B站宣布：免费送所有人大会员！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江云新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "热搜爆了！BLG夺冠！23岁湖北小伙陈泽彬成LPL首位大满贯上单",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "江苏新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "英雄联盟全球总决赛，中国BLG战队战胜韩国Gen战队，加冕S16总冠军，这是中国战队时隔五年再度捧起S赛冠军奖杯。（荔枝新闻编辑：兰兰 焱茹 责编：乔恩 来源：",
+     "text": "拷打拉莫斯！葡萄牙105年主场最大失利！在主场1:4输给丹麦 #热苏斯 #C罗 #拉莫斯 #dou来足球季 #葡萄牙vs丹麦",
      "likes": 0,
      "hot": 0
     }
@@ -473,36 +463,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "Ruler燃尽了": {
+  "35岁老粉说等这么多年终于夺冠": {
    "stats": {},
    "authors": [
     {
-     "name": "电竞小学妹",
-     "verify": "",
-     "identity": "",
+     "name": "九派新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Ruler含泪向观众致意，遗憾总是贯穿 始终，尺子真的尽力了！#英雄联盟S16 #GEN对战BLG #ruler #blg战胜gen #热点观察团",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "佟锣烧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜BLG拿下S16全球总决赛冠军 #英雄联盟S16 #GEN对战BLG #BLG战胜GEN #BLG夺冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "神奇的巅峰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "GEN同意了 #S赛 #BLG #GEN",
+     "text": "#媒体原创 11月15日，湖北武汉，#35岁老粉说等这么多年终于夺冠 ：有工作、家庭，没时间玩游戏，但每年关注比赛，很激动，我们是冠军。#BLG夺冠",
      "likes": 0,
      "hot": 0
     }
@@ -530,43 +500,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "高铁车窗密闭是怕人会被气流吸出吗？高铁车厢不存在持续巨大内外压差",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李炮骑三蹦子勇闯泥潭越野赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "越野小洋（领队）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李炮儿骑着三轮车也来越野挑战赛了#懂车帝越野嘉年华 #趣玩山友会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天美越野",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@李炮儿开着三蹦子勇闯泥坑越野， 玩的就是真实，全身最使劲的是牙齿，动力嗷嗷叫#拖拉机带劲 #懂车帝越野嘉年华#趣玩山友会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娱小圈儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李炮又整新活了！别人玩挑战都是正经座驾，他直接开三蹦子下场造 #趣玩山友会#越野#三蹦子#李炮骑三蹦子勇闯泥潭越野赛",
      "likes": 0,
      "hot": 0
     }
@@ -768,16 +701,63 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "35岁老粉说等这么多年终于夺冠": {
+  "司空震FMVP新皮肤": {
    "stats": {},
    "authors": [
     {
-     "name": "九派新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "KPL王者荣耀职业联赛",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 11月15日，湖北武汉，#35岁老粉说等这么多年终于夺冠 ：有工作、家庭，没时间玩游戏，但每年关注比赛，很激动，我们是冠军。#BLG夺冠",
+     "text": "恭喜北京WB获得2026年王者荣耀KPL年度总决赛总冠军！同时恭喜@北京WB梓墨 （吴喆杰）获得2026年王者荣耀KPL年度总决赛FMVP！他将选择【司空震】作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猫萌",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "已确定！恭喜司空震喜提FMVP新皮肤！ #梓墨FMVP皮肤",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李炮骑三蹦子勇闯泥潭越野赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "越野小洋（领队）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李炮儿骑着三轮车也来越野挑战赛了#懂车帝越野嘉年华 #趣玩山友会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天美越野",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@李炮儿开着三蹦子勇闯泥坑越野， 玩的就是真实，全身最使劲的是牙齿，动力嗷嗷叫#拖拉机带劲 #懂车帝越野嘉年华#趣玩山友会",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "娱小圈儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "李炮又整新活了！别人玩挑战都是正经座驾，他直接开三蹦子下场造 #趣玩山友会#越野#三蹦子#李炮骑三蹦子勇闯泥潭越野赛",
      "likes": 0,
      "hot": 0
     }
@@ -802,103 +782,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "BLG一穿四LCK战队": {
+  "毛孩子律动舞萌翻了": {
    "stats": {},
    "authors": [
     {
-     "name": "余霜YSCandice",
+     "name": "我不是薯条！（有教程）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "BLG一穿四LCK，我们做到了！#blg夺冠 #英雄联盟s16 #s16 #lol全球总决赛 #余霜",
+     "text": "#橘猫臭臭",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "完成一穿四LCK壮举！英雄联盟世界赛，BLG3比1击败GENG，一己之力挑落LCK四个种子，强势夺得S16冠军，祝贺BLG！#BLG一穿四LCK #BLG夺得S",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "英雄联盟赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026全球总决赛：BLG夺冠之路 携手共进的信念会战胜一切！恭喜BLG勇夺2026英雄联盟全球总决赛冠军！ 让我们一起跟随视频，共同回顾这段精彩的夺冠之旅~ ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG 3:1 GEN 夺得英雄联盟S16冠军！打破LCK统治“一穿四”创造历史 LPL赛区是很强的！#媒体原创 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "越牛新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG实现单届世界赛击败全部四支LCK参赛队的壮举",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一现场",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月15日，BLG战胜GEN夺得S16世界赛总决赛冠军，完成了史无前例的一穿四，冲破所有定论与枷锁，在巴克莱中心，捧起召唤师奖杯，写下属于LPL崭新的传奇。#",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大参考",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG 创造历史，史诗级一穿四，连斩四支 LCK 强队！LPL 时隔五年，再度捧起召唤师杯。没有唾手可得的胜利，只有咬牙坚持的少年。这，就是竞技体育的热血与浪漫",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "司空震FMVP新皮肤": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "KPL王者荣耀职业联赛",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恭喜北京WB获得2026年王者荣耀KPL年度总决赛总冠军！同时恭喜@北京WB梓墨 （吴喆杰）获得2026年王者荣耀KPL年度总决赛FMVP！他将选择【司空震】作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猫萌",
+     "name": "芒果果🥭（主页有教程）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "已确定！恭喜司空震喜提FMVP新皮肤！ #梓墨FMVP皮肤",
+     "text": "@同款教程👉🏻蛋挞只是经过 #宇宙第一萌猫 #猫咪统治世界需要多久",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "僭越",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "修勾 宝宝你就是一个小熊 #我镜头下的小狗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "囧囧要开心一点",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "可爱 #小猫到底有多会卖萌 #橘白猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘香猪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "猪之舞 #宇宙第一萌猫 #猫猫歪头 #小猫出道计划 #剪映 #圆眼橘猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芝麻大王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嘿嘿 #猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "泰迪大王",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#猫",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Lucky是只德文（涨粉版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别睡了。接着舞 #狸花 #狸花猫 #跳舞使我快乐 #跳舞我不是专业的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Ulva",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "沬宝呀你怎么这么萌#小咪日常",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一只橘",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "回家有🐱给我跳舞#萌宠出道计划 #骗你养猫系列 #剪映 #金渐层 #橘猫",
      "likes": 0,
      "hot": 0
     }
@@ -1017,6 +1000,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "十万狂花入梦来开播": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "BLG夺冠雷鸟看得到底有多远": {
    "stats": {},
    "authors": [
@@ -1091,11 +1079,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "十万狂花入梦来开播": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "冷都女为什么好看": {
    "stats": {},
    "authors": [
@@ -1106,23 +1089,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "有一种好看，不迎合不讨好~ 这就是冷都女——安安静静，但没人敢忽略她｜基础款穿出“很贵很冷”的距离感，三步抄作业#穿搭 #秋冬穿搭 #冷都女 #高级感穿搭 #o",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "一对父子被夺走的半生": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极目纪实",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 【花坛藏尸28年后——一对父子被夺走的半生】11月12日，备受关注的泸州“花坛埋尸案”一审宣判两天后，被害人吴艳萍的前夫黄福千、儿子黄平回到绍兴新昌",
      "likes": 0,
      "hot": 0
     }
@@ -1167,428 +1133,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "毛孩子律动舞萌翻了": {
+  "我的S16决赛观赛日记": {
    "stats": {},
    "authors": [
     {
-     "name": "我不是薯条！（有教程）",
+     "name": "小铭吃了没",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#橘猫臭臭",
+     "text": "恭喜BLG拿下一把胜利 全场欢呼🤩 这把看的我觉得自己不能呼吸了 太精彩了 全场欢呼声告诉我还是lpl的支持更多😂 #电子竞技的魅力 #英雄联盟全球总决赛现",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "芒果果🥭（主页有教程）",
+     "name": "骆歆同学🥕（11.16晚8:30首秀）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "@同款教程👉🏻蛋挞只是经过 #宇宙第一萌猫 #猫咪统治世界需要多久",
+     "text": "恭喜BLG！3-1击败Gen拿下S16总冠军！！！！捧杯吧BLG！！！所有跌倒过的地方，最后都变成通往王座的台阶！今天一穿四LCK夺冠🏆！！！你们做到了！！！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "僭越",
+     "name": "洋洋在努力",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "修勾 宝宝你就是一个小熊 #我镜头下的小狗",
+     "text": "BLG最终3比1GEN拿下英雄联盟s16总冠军！我们做到了！一穿四LCK拿下冠军！Bin哥就是世一上！#BLG夺冠 #Bin #xun #英雄联盟s16",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "囧囧要开心一点",
+     "name": "G1c1",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "可爱 #小猫到底有多会卖萌 #橘白猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘香猪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "猪之舞 #宇宙第一萌猫 #猫猫歪头 #小猫出道计划 #剪映 #圆眼橘猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芝麻大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嘿嘿 #猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "泰迪大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lucky是只德文（涨粉版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别睡了。接着舞 #狸花 #狸花猫 #跳舞使我快乐 #跳舞我不是专业的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "良药",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小小花开#猫咪 #橘猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一只橘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "回家有🐱给我跳舞#萌宠出道计划 #骗你养猫系列 #剪映 #金渐层 #橘猫",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "孩子的想象力太治愈了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "还是老艺术家的曲调对味儿": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "K·haiyang Cap ✧°",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "还是老爷子的曲调对味儿 #致敬老艺术家 #老艺人 #赵本山 #唱个小曲儿 #歌手老顽童",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "衣浓全码女装店",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "听着听着，我心里居然看开了好多 舒服了许多 #赵本山 #慌啥子嘛 #走马上任 #衣浓全码女装店",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "⁵²º᭄ꦿ🎀静⅓¼🍬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "聋子说炮不响，瞎子说灯不亮， 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心， 立场不同，不必强求一致，守好本心！ #总有一句歌词唱到你心里 #宝",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "年高💯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "聋子说炮不响，瞎子说灯不亮。 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心。 走自己的路，不慌不忙。 修自己的心，默默发光。 #一歌一故事 #赵",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "有妳很幸福",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "慌啥子嘛 慢慢来，太阳下山 有月亮爬上来，云会在花会开，好运总会 为你而等待；慌啥子嘛 慢慢来，每个人都有 自己的节拍，得不到就放开，一切都是 最好的安排……",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大庆油田",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不慌不忙 静待时间流转 @DOU+小助手 #大庆油田 #慌啥子嘛 #赵本山 #油田点歌台",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太好听！本山大叔新歌来了！（kun）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "谷雨背后保护伞太敢拍了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "电视剧谷雨（谷东酷酷爽看",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#电视剧谷雨 幕后之人这下终于现身了。#张颂文 #余文乐 #冯雷 #丁海峰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "优酷剧集君",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#电视剧谷雨 幕后之人现身救周海洋！举报信竟成了护身符？#井柏然 #张颂文 （按姓氏笔画排序）#谷雨人人皆是局中人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "周深失语症梦回达拉崩吧": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "我在抖音有了自己的专属歌曲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "软fufu的小tay子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "多香手机里被记录的我们🧩😬🥰 #抖音AI成片 #我在抖音有了自己的专属歌曲 #小tay子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "邓小七🌊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的海边记#抖音AI成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "调皮爷爷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "每次不开心 爷爷都想着办法逗我笑#抖音AI成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "白浩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大力水手的日常生活！#抖音ai成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "帅帅小猫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "卷卷成长录#抖音AI成片#我在抖音有了自己的专属bgm",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小奶猫成长日记🍼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不知不觉又陪我一年啦～ #抖音AI成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "月小妹儿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的一些快乐碎片，希望一直这么开心#抖音ai成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "扬扬和北北",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "幸福预告曲 #抖音AI成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "笑哥（带娃版",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好好生活，慢慢长大！ #抖音AI成片 #我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "张不大.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "专属自己的BGM #抖音AI成片#我在抖音有了自己的专属歌曲",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "温柔白月光冬季穿搭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "米呀米呀‘’",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "米米嘟一套🐰❄️ #温柔晚风穿搭 #白月光冬季穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不萌还很贱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这次跨年我们还会一起吗#秋冬穿搭 #小斗篷 #温柔风穿搭 #ootd",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "不穿贵的只穿帅的": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "肉桂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "穿点帅的🤟🏿。#ootd#对镜拍#秋冬穿搭#日常穿搭#帅就完事了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Eternal3now",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你要牢记这种窘迫 这种难堪 这种轻视 不要背叛自己 #outfit#chill#allblack#inmyfeelings",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灰色倒带-",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冬天穿就给我往帅的穿。#冬季穿搭 #穿搭 #穿搭分享 #男生穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "在白帝城看到了齐天大圣": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "红镭🔥",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当年菩提师祖眼中的悟空也是如此吧 （搬运我视频的麻烦标明出处！感谢！）#孙悟空 #黑神话悟空 #随拍 #cos #红镭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘拍拍",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "是菩提师祖眼中的小悟空吗？#黑神话悟空 #红镭@红镭🔥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桑芷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "猴哥，你再看看这世间。#大圣 菩提祖师当年看悟空，可能就是这个眼神吧～（侵权可删）@红镭🔥 摄影师在这➡️@刘拍拍",
+     "text": "让胜利的声音响彻这天地！ 恭喜BLG3:1战胜GENG获得S16全球总决赛冠军！🏆#2026英雄联盟全球总决赛 #blg",
      "likes": 0,
      "hot": 0
     }
@@ -1703,6 +1287,271 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "一对父子被夺走的半生": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "极目纪实",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【花坛藏尸28年后——一对父子被夺走的半生】11月12日，备受关注的泸州“花坛埋尸案”一审宣判两天后，被害人吴艳萍的前夫黄福千、儿子黄平回到绍兴新昌",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王嘉尔杭州演唱会": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "王嘉尔",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "MAGICMAN 2 WORLD TOUR 2026-2027 杭州站 · 下雨天，注意安全，今晚见❤️ · #王嘉尔MAGICMAN2世界巡演 #巡演日记 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "洋气呀呀呀💭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑咧了 #演唱会现场 #王嘉尔演唱会现场 #王嘉尔 #magicman2 #杭州站",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小五五五五五",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "经典环节永不过时，这个Jackson啊啊啊啊啊还是太好笑了#王嘉尔 #王嘉尔演唱会 #王嘉尔杭州演唱会 #大麦 #王嘉尔magicman世界巡回演唱会",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "还是老艺术家的曲调对味儿": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "K·haiyang Cap ✧°",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还是老爷子的曲调对味儿 #致敬老艺术家 #老艺人 #赵本山 #唱个小曲儿 #歌手老顽童",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "衣浓全码女装店",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "听着听着，我心里居然看开了好多 舒服了许多 #赵本山 #慌啥子嘛 #走马上任 #衣浓全码女装店",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "⁵²º᭄ꦿ🎀静⅓¼🍬",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "聋子说炮不响，瞎子说灯不亮， 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心， 立场不同，不必强求一致，守好本心！ #总有一句歌词唱到你心里 #宝",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "年高💯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "聋子说炮不响，瞎子说灯不亮。 瘸子说炮响灯也亮只是路不平。 千人同茶不同味，万人同道不同心。 走自己的路，不慌不忙。 修自己的心，默默发光。 #一歌一故事 #赵",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "有妳很幸福",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛 慢慢来，太阳下山 有月亮爬上来，云会在花会开，好运总会 为你而等待；慌啥子嘛 慢慢来，每个人都有 自己的节拍，得不到就放开，一切都是 最好的安排……",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大庆油田",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不慌不忙 静待时间流转 @DOU+小助手 #大庆油田 #慌啥子嘛 #赵本山 #油田点歌台",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太好听！本山大叔新歌来了！（kun）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "谷雨背后保护伞太敢拍了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "电视剧谷雨（谷东酷酷爽看",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电视剧谷雨 幕后之人这下终于现身了。#张颂文 #余文乐 #冯雷 #丁海峰",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "优酷剧集君",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#电视剧谷雨 幕后之人现身救周海洋！举报信竟成了护身符？#井柏然 #张颂文 （按姓氏笔画排序）#谷雨人人皆是局中人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我在抖音有了自己的专属歌曲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "软fufu的小tay子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "多香手机里被记录的我们🧩😬🥰 #抖音AI成片 #我在抖音有了自己的专属歌曲 #小tay子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "邓小七🌊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的海边记#抖音AI成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "调皮爷爷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "每次不开心 爷爷都想着办法逗我笑#抖音AI成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "白浩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大力水手的日常生活！#抖音ai成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "帅帅小猫",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "卷卷成长录#抖音AI成片#我在抖音有了自己的专属bgm",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小奶猫成长日记🍼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不知不觉又陪我一年啦～ #抖音AI成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "月小妹儿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的一些快乐碎片，希望一直这么开心#抖音ai成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "扬扬和北北",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幸福预告曲 #抖音AI成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "笑哥（带娃版",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好好生活，慢慢长大！ #抖音AI成片 #我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张不大.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "专属自己的BGM #抖音AI成片#我在抖音有了自己的专属歌曲",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "请选择你的秋假遛娃地": {
    "stats": {},
    "authors": [
@@ -1733,6 +1582,139 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "秋假不知道带娃去哪里玩的？看这里就对 #秋假带你一起去看海 #秋假涠洲岛亲子看海天花板 #亲子度假去看海 #只要有假期就来涠洲岛 #亲子旅行攻略",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "乐评歌曲松花": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李寒山（摇滚美声版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "真实感受浮萍草/东北宣传队《松花》REACTION~ #reaction #歌曲松花 #松花 #东北 #振兴东北",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱说唱的迪伦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "东北文学会刀人《松花》浮萍草 /东北宣传队 动画@渡何不渡 #歌曲松花 #东北宣传队 #浮萍草",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "温柔白月光冬季穿搭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "米呀米呀‘’",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "米米嘟一套🐰❄️ #温柔晚风穿搭 #白月光冬季穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "不萌还很贱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这次跨年我们还会一起吗#秋冬穿搭 #小斗篷 #温柔风穿搭 #ootd",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "在白帝城看到了齐天大圣": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "红镭🔥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当年菩提师祖眼中的悟空也是如此吧 （搬运我视频的麻烦标明出处！感谢！）#孙悟空 #黑神话悟空 #随拍 #cos #红镭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "刘拍拍",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "是菩提师祖眼中的小悟空吗？#黑神话悟空 #红镭@红镭🔥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桑芷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "猴哥，你再看看这世间。#大圣 菩提祖师当年看悟空，可能就是这个眼神吧～（侵权可删）@红镭🔥 摄影师在这➡️@刘拍拍",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "孩子的想象力太治愈了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "不穿贵的只穿帅的": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "肉桂",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "穿点帅的🤟🏿。#ootd#对镜拍#秋冬穿搭#日常穿搭#帅就完事了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "灰色倒带-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冬天穿就给我往帅的穿。#冬季穿搭 #穿搭 #穿搭分享 #男生穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Eternal3now",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你要牢记这种窘迫 这种难堪 这种轻视 不要背叛自己 #outfit#chill#allblack#inmyfeelings",
      "likes": 0,
      "hot": 0
     }
@@ -1851,43 +1833,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "蒋一帆唱泪桥好温柔": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "谢霆锋杭州演唱会": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "锋味",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#EvolutionNicLive 杭州，進化再開啟🤟。#巡演日记",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "谢霆锋FM",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“年轻时唱这首歌是少年宣言，现在唱是中年答案。歌没变，唱的人变了。” 🎤#谢霆锋进化演唱会 #EvolutionNicLive #谢霆锋杭州演唱会 #因为爱所",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "程潇和粉丝的双向奔赴": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "在香格里拉闯进外星地貌": {
    "stats": {},
    "authors": [
@@ -1905,6 +1850,90 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "BLG夺冠了你们知道吗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "东方红🔥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG VS GEN 你们知道吗？BLG战胜心魔，战胜GEN！静下心来，Be Water My Friend！加油BLG，LPL冲鸭！#静下心来 #英雄联盟S1",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "英雄联盟赛事",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026全球总决赛：BLG夺冠之路 携手共进的信念会战胜一切！恭喜BLG勇夺2026英雄联盟全球总决赛冠军！ 让我们一起跟随视频，共同回顾这段精彩的夺冠之旅~ ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG拿下S16冠军！创造历史，实现对LCK“一穿四”，哔哩哔哩和雷鸟到底看到了多远？多个BLG赞助商等来了投资高光时刻#一财情报局 #BLG夺冠 #bin #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "豫视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "BLG夺冠，B站免费领7天大会员，开送10分钟被挤爆！你领到冠军福利了吗～#英雄联盟 #BLG #B站 （编辑：小侯）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "KaKKii",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#英雄联盟全球总决赛冠军 #blg #bin 伦敦的眼泪不会留到纽约，三次决赛，终将成神，恭迎世一上",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "妍汁西米露",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜BLG夺冠🏆！！！ #blg夺冠",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李治廷也是有第一视角vlog了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李治廷Aarif",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在吗？ #我家门口开了一朵茉莉 #热点趋势策划人 #茉茉",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "短国熟人局直接开耍": {
    "stats": {},
    "authors": [
@@ -1915,6 +1944,33 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "第5期｜决战胡闹之巅！到底谁是谁队友？#自制综艺 #未来导演扶持计划 #听花不听话",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "和赵露思一起跳茉茉手势舞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "赵露思",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "晚安 #葛栗 晚安大家",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "聂振杨",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "茉茉手势舞，晚风遇茉莉🌿 #和赵露思一起跳茉茉手势舞 #茉茉手势舞 #聂振杨",
      "likes": 0,
      "hot": 0
     }
