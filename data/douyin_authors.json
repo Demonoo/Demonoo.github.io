@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-16 21:39",
+ "updated_at": "2026-11-16 22:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 50,
- "ok_count": 48,
+ "ok_count": 49,
  "lexicon_count": 0,
  "topics": {
   "习近平将同普京特朗普会晤": {
@@ -57,6 +57,16 @@
      "hot": 0
     },
     {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC的21个成员经济体代表聚首中国，卫星图观，深圳“迎宾大门”海陆空联动，展现硬核实力。#空间观策 #APEC #深圳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
@@ -67,12 +77,12 @@
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
+     "name": "N小黑财经",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "APEC的21个成员经济体代表聚首中国，卫星图观，深圳“迎宾大门”海陆空联动，展现硬核实力。#空间观策 #APEC #深圳",
+     "text": "世界，正式进入【APEC时间】 #热点解读看财经 #真财实学计划 #燃起来了大国重器 #热点零距离 #来抖音精选app看天下事",
      "likes": 0,
      "hot": 0
     }
@@ -109,7 +119,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚太经合组织是亚太地区层级最高、领域最广、影响力最大的经济合作机制。18日至19日，亚太经合组织第三十三次领导人非正式会议将在深圳举行。亚太伙伴齐聚深圳，世界目",
+     "text": "作为APEC经济体，中国既是双向投资的重要参与者，也是重要的贡献者。#数说APEC 看一场双向奔赴的投资。（总台央视记者 李斌 丁苗 张志）",
      "likes": 0,
      "hot": 0
     },
@@ -169,16 +179,6 @@
      "text": "11月16日晚，#加拿大总理卡尼抵达深圳 。（深圳卫视深视新闻 记者：唐萍 ；编辑：雷馥榕 钱首文）",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "北京日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "加拿大总理卡尼抵达深圳 将出席APEC领导人非正式会议 加拿大总理卡尼11月16日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。（来源 新华社 央视新",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -223,7 +223,64 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "墨西哥总统辛鲍姆抵达深圳 #媒体原创 11月16日，墨西哥总统辛鲍姆乘机抵达深圳。她将出席在深圳举行的亚太经合组织第三十三次领导人非正式会议。#深圳 #APEC",
+     "text": "#媒体原创 11月16日，墨西哥总统辛鲍姆乘机抵达深圳。深圳卫视直新闻记者曾子瑾在深圳宝安国际机场带来了第一手观察，辛鲍姆将参加APEC领导人非正式会议和APE",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "克里米亚大桥遭袭交通暂时受限": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当地时间16日，总台记者自俄罗斯方面获悉，克里米亚大桥遭袭，交通暂时受限。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "参考消息",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄媒：克里米亚大桥遭袭#俄乌冲突 #克里米亚大桥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "光明网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "克里米亚大桥遭袭，交通受限",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当地时间16日，总台记者自俄罗斯方面获悉，克里米亚大桥遭袭，交通暂时受限。克里米亚地区行政长官谢尔盖·阿克肖诺夫16日在社交媒体表示，克里米亚大桥遭到袭击。受此",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄称克里米亚大桥遭乌无人机袭击",
      "likes": 0,
      "hot": 0
     }
@@ -245,22 +302,22 @@
      "hot": 0
     },
     {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "转发期待！“流星雨之王”即将登场 最佳观测窗口为18日凌晨至天亮前",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "美丽浙江",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
      "text": "11月18日，#流星雨之王狮子座流星雨将迎来极大期 不要错过许愿哦！#美丽主播说新闻",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "转发期待！“流星雨之王”即将登场 最佳观测窗口为18日凌晨至天亮前",
      "likes": 0,
      "hot": 0
     },
@@ -288,36 +345,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "草靶子糖葫芦是冬日的第一份甜蜜": {
+  "东北地区将迎强降雪": {
    "stats": {},
    "authors": [
     {
-     "name": "爱买保健品的腻腻",
-     "verify": "",
-     "identity": "",
+     "name": "极光新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "当你们还在选糖葫芦家族继承人的时候 我已经在保定吃上微型草垛糖葫芦了 离开保定谁还把我当小孩#糖葫芦界的天花板",
+     "text": "哈尔滨18日凌晨从主城区开始降雪，部分地区可达大到暴雪，全市大风降温！哈尔滨不下则已，下就下大的，南方宝宝可以来哈尔滨看雪了！",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "吃饭",
-     "verify": "",
-     "identity": "",
+     "name": "维度新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "给我买糖葫芦吧 生活需要有点小奔头#糖葫芦",
+     "text": "#媒体原创 暴雪预报调整！黑龙江东部17至19日降雪量级下调，大范围暴风雪消失，但仍有中到大雪、局部暴雪，风吹雪、雪阻及剧烈降温风险尚存，预报动态更新，切莫放松",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "蔚·喜小食",
-     "verify": "",
-     "identity": "",
+     "name": "农业苑",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "糖葫芦家族又增加一个新成员——迷你草靶子糖葫芦#网红糖葫芦 #糖葫芦主理人 #蔚喜小食",
+     "text": "黑龙江暴雪预警地趴粮别慌 #农业苑 #三农 #农业",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "东北地区强降雪来袭！主要降雪时段17日至18日，中央气象台最新预报！黑龙江小到中雪或雨夹雪；吉林大到暴雪",
      "likes": 0,
      "hot": 0
     }
@@ -355,6 +422,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "一炉藏暖意，一盏寄清欢 #非遗暖居过冬仪式感 #非遗有好物 #抖音非遗计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "草靶子糖葫芦是冬日的第一份甜蜜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "爱买保健品的腻腻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当你们还在选糖葫芦家族继承人的时候 我已经在保定吃上微型草垛糖葫芦了 离开保定谁还把我当小孩#糖葫芦界的天花板",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吃饭",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "给我买糖葫芦吧 生活需要有点小奔头#糖葫芦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "蔚·喜小食",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "糖葫芦家族又增加一个新成员——迷你草靶子糖葫芦#网红糖葫芦 #糖葫芦主理人 #蔚喜小食",
      "likes": 0,
      "hot": 0
     }
@@ -456,120 +560,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "东北地区将迎强降雪": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极光新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈尔滨18日凌晨从主城区开始降雪，部分地区可达大到暴雪，全市大风降温！哈尔滨不下则已，下就下大的，南方宝宝可以来哈尔滨看雪了！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "维度新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 暴雪预报调整！黑龙江东部17至19日降雪量级下调，大范围暴风雪消失，但仍有中到大雪、局部暴雪，风吹雪、雪阻及剧烈降温风险尚存，预报动态更新，切莫放松",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "东北地区强降雪来袭！主要降雪时段17日至18日，中央气象台最新预报！黑龙江小到中雪或雨夹雪；吉林大到暴雪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全球进入“极端天气新时代”！黑龙江局地将迎暴雪+暴风雪！黑龙江今冬“忽冷忽热”成常态！ #东旭 #主播说新闻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "农业苑",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黑龙江暴雪预警地趴粮别慌 #农业苑 #三农 #农业",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "日本GDP再次负增长": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本三季度实际GDP年率下降0.1%，再次出现负增长",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#日本三季度GDP再现负增长 日本内阁府16日发表的初步统计结果显示，受个人消费下滑影响，扣除物价变动因素，日本今年第三季度实际国内生产总值（GDP）环比基本持",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本GDP时隔4个季度再现负增长（编辑：李李）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中原新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@中原新闻网#日本GDP时隔4个季度再现负增长#三季度实际GDP年率下降0.1%#日本GDP再次负增长",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "国际金融报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "日本三季度GDP再现负增长",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "“沈阳中考英语听力口语改革”不实": {
    "stats": {},
    "authors": [
@@ -617,36 +607,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "克里米亚大桥遭袭交通暂时受限": {
+  "日本GDP再次负增长": {
    "stats": {},
    "authors": [
     {
-     "name": "央视网",
+     "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "当地时间16日，总台记者自俄罗斯方面获悉，克里米亚大桥遭袭，交通暂时受限。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄媒：克里米亚大桥遭袭#俄乌冲突 #克里米亚大桥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄称克里米亚大桥遭乌无人机袭击",
+     "text": "日本三季度实际GDP年率下降0.1%，再次出现负增长",
      "likes": 0,
      "hot": 0
     },
@@ -656,17 +626,37 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#克里米亚大桥遭袭 （视频：董静 审核：耿婉茹 韩鹤 图文来源：新华社）",
+     "text": "#日本三季度GDP再现负增长 日本内阁府16日发表的初步统计结果显示，受个人消费下滑影响，扣除物价变动因素，日本今年第三季度实际国内生产总值（GDP）环比基本持",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "光明网",
+     "name": "国际金融报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "克里米亚大桥遭袭，交通受限",
+     "text": "日本三季度GDP再现负增长",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日本GDP时隔4个季度再现负增长（编辑：李李）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "梓鉴风向标",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "日元狂贬四成，日本为何没有引发金融危机，背后的真相到底是什么 #日元 #货币 #美元 #日本 #美国",
      "likes": 0,
      "hot": 0
     }
@@ -674,123 +664,103 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "BLG夺冠意味着什么": {
+  "斯托伊科维奇任山东泰山队主教练": {
    "stats": {},
    "authors": [
     {
-     "name": "评论员刘雪松",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG夺冠意味着什么 #媒体人精选计划 #BLG夺冠意味着什么 #BLG夺冠 #2026英雄联盟全球总决赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "主持人阿喆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体人精选计划 恭喜中国战队BLG“一穿四”夺冠！这是属于选手的荣耀，也是每一份热爱的答案。#BLG夺冠 #英雄联盟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "记者洛嘉",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来吧！一人一句,恭喜BLG！ 从悬崖绝境到捧杯！BLG拿下队史首座S赛总冠军，LPL时隔五年再登顶#媒体人精选计划 #BLG夺冠 #lpl时隔3147天再次零封",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小杨说财",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG夺冠🏆 #BLG夺冠 喂出凌晨经济 #2026英雄联盟全球总决赛 #🏆冠军时刻 #媒体人精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "雷小雪",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体人精选计划BLG 夺冠，看懂电竞账 BLG 拿下 S16 冠军，不止赛场狂欢。几百亿电竞产业真实账本，机遇与瓶颈一次性讲透。聊聊如何理性看待电竞。 #BL",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "跑体育的小桌子",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG夺冠，Bin说今晚又要睡不着了！ 不过这次和两年前不一样，那一次是遗憾和不甘，这一次是圆梦后的激动！再次恭喜BLG！#blg夺冠 #2026英雄联盟全球总",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "弓立军",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "英雄联盟全球赛中国队夺冠 3欢愉 #媒体人精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "每日经济新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "BLG“一穿四”创造历史，夺得英雄联盟全球总决赛冠军：我们是世界冠军！B站免费送所有人大会员今天开领 #BLG夺冠 #B站送所有人大会员",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李记者的日常",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "燃爆！BLG史诗级一穿四夺冠！ 这个冠军含金量有多高？全过程回顾！翻过最高的山，渡过最长的河#媒体人精选计划 #BLG夺冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "记者李喜喆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国战队电竞夺冠🏆 #媒体人精选计划 凌晨三点，466座影院座无虚席，就为看一群\"不务正业\"的孩子打游戏？结果他们一穿四韩国队，把世界冠军捧回来了！🏆#电竞",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "多喜一家人开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "多喜一家人（11月16日定档版",
+     "name": "山东体育休闲频道",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#多喜一家人开播 又演我？生气暂停！先把瓜吃明白再说！#多喜一家人 纪彩钰#杨采钰 #李光洁",
+     "text": "斯托伊科维奇出任山东泰山队主教练",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "生活帮",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月16日，山东泰山足球俱乐部发布消息，斯托伊科维奇正式出任山东泰山队主教练。德拉甘·斯托伊科维奇，1965年出生，塞尔维亚籍。先后执教过日本J1联赛名古屋鲸",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 官宣！斯托伊科维奇正式出任山东泰山队主教练。#山东泰山队 #足球 #热门 #中超 （来源：山东泰山足球俱乐部、新黄河 剪辑：李 麦 格）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新黄河",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "官宣！德拉甘・斯托伊科维奇正式出任山东泰山足球俱乐部一线队主教练（剪辑、运营：冯业鹏）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海报新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月16日中午，山东泰山足球俱乐部官方发文宣布，斯托伊科维奇将正式出任山东泰山队主教练。 官方公告： 11月16日，山东泰山足球俱乐部与塞尔维亚籍教练德拉甘·",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "马刺豪取12连胜": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【哈珀末节18分】逆转功臣！哈珀末节进攻端里突外投势不可挡，全场砍下31分9助攻创生涯新高！#马刺豪取12连胜 #马刺vs爵士 #哈珀",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "赛事先声",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马刺上一次联盟第一，文班才10岁！ 2014 年 6 月，马刺夺冠。 那一年，文班亚马 10 岁，在法国打少年队。 12 年后，他带着这支球队回到联盟第一。12",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不可阻挡！#文班亚马40分11板8帽 马刺豪取9连胜！#马刺122比96大胜太阳 #NBA",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "2K脏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《马刺开场16-0勇士》 #马刺vs勇士 #伦德博格 #nba常规赛",
      "likes": 0,
      "hot": 0
     }
@@ -979,22 +949,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "MC版薯骨鸡腿做法": {
+  "我该如何和我的青春说再见呢": {
    "stats": {},
-   "authors": [
-    {
-     "name": "村民揍菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "村民揍菜 薯骨鸡腿 外酥里糯 关键没骨头 以后一个带劲！！#薯骨鸡腿 #我的世界 #MC #小孩菜 #美食教程",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "拆正缘星座盲盒": {
    "stats": {},
@@ -1010,22 +968,22 @@
      "hot": 0
     },
     {
-     "name": "陈问号",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈问号",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "懒洋洋大王.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "懒洋洋大王.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈问号",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈问号",
      "likes": 0,
      "hot": 0
     },
@@ -1234,26 +1192,6 @@
      "hot": 0
     },
     {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "二代iPhone Duo曝光，苹果已造出搭载面容ID的iPhone Duo 2原型机，正尝试将这套系统装进外屏。第二代iPhone Duo预计明年秋季推出。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "舜网发布",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 二代iPhone Duo曝光，计划明年秋季推出，或将迎来新一轮升级；面容ID为优先研究方向#苹果 #iPhone",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "纵览新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -1262,15 +1200,37 @@
      "text": "据科技网站9to5mac报道，明年秋季，苹果将推出第二代iPhone Duo。目前尚不清楚这款产品除了常规的芯片升级和摄像头改进之外，还会带来哪些实质性升级。据",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第二代iPhone Duo曝光！苹果将于明年秋季推出，优先目标为Face ID和操作按钮，尚不清楚芯片和摄像头外的实质升级 #iPhoneDuo #苹果",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "我该如何和我的青春说再见呢": {
+  "多喜一家人开播": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "多喜一家人（11月16日定档版",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#多喜一家人开播 又演我？生气暂停！先把瓜吃明白再说！#多喜一家人 纪彩钰#杨采钰 #李光洁",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "后会友期友情品鉴团来了": {
    "stats": {},
@@ -1329,16 +1289,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "被鹿晗手搓大背头帅到了": {
+  "在美术馆和另一个自己同框了": {
    "stats": {},
    "authors": [
     {
-     "name": "鹿晗",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "！花儿一样美",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "手搓个背头 哈哈哈🙌🙌🙌",
+     "text": "#自然甜美风",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "幸福",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幸福",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "释然🌻（76年龙）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "后来才知道，有人对你好，和有人只对你好，完全是两码事，人总需要片刻的快乐，来爱上这日复一日的生活… #有人问我你究竟是哪里好 #鬼迷心窍 #艺术创作灵感源 #A",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "jinxian",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#风遇花开我遇见我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一切都好",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "早ﾉ☀#抖音合伙人计划 #大屏肖像 #美在ai",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@ℋღ᭄群🍒宝💞࿐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#画中画 #抖音小助手dou上热门 抖音创作者激励计划抖音创作者伙伴计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "趙 曌",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#艺术究竟能赋予生活什么 #给自己充值一点艺术细胞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ℳ💗ꦿ໊隨遇ꦿ而安ꦿ¹³¹⁴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI艺展同框 #baby今晚一起出来吃个饭 #抖音玩法达人挑战赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "忘忧草",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "做个潇洒的自己，活的自在又惬意😀 喜欢AI玩法的朋友看过来： 点击左下角→拍同款→手机对着自己面部拍摄（或者上传一张自己的照片）→等系统生成就好啦→简单好看又",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "芯芯如梦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "看看你拍是几个人？#特效拍摄#抖音玩法合伙人计划",
      "likes": 0,
      "hot": 0
     }
@@ -1400,103 +1450,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "汪星人也有自己的专属小黄鸭": {
+  "MJ听全场合唱TimeMachine哽咽": {
    "stats": {},
    "authors": [
     {
-     "name": "小米🐾日记",
+     "name": "别管了正在追星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "惊喜～米狗把旧鸭子pia叽就扔地上了，哈哈哈#新玩具 #金毛金毛 #萌宠出道计划 #可爱可爱可爱可爱可爱",
+     "text": "与其说是籍籍无名的新人美，不如说中粉的爱给谁都值得！（素材已标注侵删）#timemachine #mjapanay #演唱会 #追星 #神级现场",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "送玩具的长寿面",
+     "name": "互联网恋爱中",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "菜市场惊现一只金毛摊主，我有点事要去菜市场办一下#送玩具的长寿面 #小金毛小金毛",
+     "text": "哭到从观众席拿纸巾的mj💧 还是太性感了 听到大合唱会不自觉的流眼泪😭#timemachine #mjapanay #timemachine巡演",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "比熊叫来财",
+     "name": "🍊valuri🍊",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "是不是每个狗狗都喜欢这个鸭鸭#狗狗 #狗狗玩具 #宠物玩具 #铲屎官的日常记录 #汪星人也有自己的专属小黄鸭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "最近想谈恋爱现在突然想开了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "老烧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我很不挑的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "少女总裁的朋友圈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "少女总裁的朋友圈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "aml1",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我最近谈恋爱了 给你们介绍一下我对象",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "再见小行星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我已经放弃了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "灵芝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我编不下去了！抖音你就继续吧！#抖音我容易吗 #抖音你想怎样 #抽象 #开玩笑纯属开玩笑 #精神状态belike",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "禾下",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你心肝 #我最近恋爱了 #抖音玩法合伙人计划",
+     "text": "第三遍 下台后又听见我们唱第三遍time machine的时候，你又在想什么呢@mj apanay #线下演出 #mjapanay #mjapanay上海 #t",
      "likes": 0,
      "hot": 0
     }
@@ -1541,36 +1524,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "原来热爱星球才是最浪漫的事": {
+  "汪星人也有自己的专属小黄鸭": {
    "stats": {},
    "authors": [
     {
-     "name": "星球研究所",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#值此青春 #热爱星球是最浪漫的事 一群热爱地球的年轻人组建科普团队“星球研究所”，一个项目制作要3个月，成本近百万，过程中废稿率近一半。如今，团队年产出约40",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "主持人阿喆",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一条视频花100万，一年只更40条，这个“全网最慢“的科普团队，凭什么让970万人蹲点催更？#值此青春 #原来热爱星球才是最浪漫的事 #成本上百万的科普视频长啥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱养鱼的卓林",
+     "name": "小米🐾日记",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "辟谣伪科普！我买到了一本满是错误的科普书！ #辟谣科普 #世界之最科学漫游指南 #值此青春 #原来热爱星球才是最浪漫的事 #成本上百万的科普视频长啥样",
+     "text": "惊喜～米狗把旧鸭子pia叽就扔地上了，哈哈哈#新玩具 #金毛金毛 #萌宠出道计划 #可爱可爱可爱可爱可爱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "送玩具的长寿面",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "菜市场惊现一只金毛摊主，我有点事要去菜市场办一下#送玩具的长寿面 #小金毛小金毛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "比熊叫来财",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "是不是每个狗狗都喜欢这个鸭鸭#狗狗 #狗狗玩具 #宠物玩具 #铲屎官的日常记录 #汪星人也有自己的专属小黄鸭",
      "likes": 0,
      "hot": 0
     }
@@ -1578,128 +1561,22 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "许飞长文感谢大家支持专辑": {
+  "兰寿金鱼居然学会走路了": {
    "stats": {},
    "authors": [
     {
-     "name": "许飞（新专&20周年演唱会版）",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "卡皮拉拉𓆡",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#许飞出道二十年新专辑 生活啊，还有诗与歌声。 捕捉那些吞下文字的感动，与想要歌唱的瞬间——用歌声写就的诗篇，即将向你呈现。 快来和我一起进行新歌接唱挑战吧 #",
+     "text": "“你到底能不能游 搞的我心慌的很”#玛丽泰狮 @嘟嘟水族金鱼（直播号） #观赏鱼 #兰寿金鱼",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "张元英像管不住后排的纪律委员": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "椰子树",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在外面可以稳重一点吗孩子们 #严成玹 #安乾镐 #张元英 #mma #cortis （看不下去就把我拉黑了，每个人都很好，我本来也只是开玩笑的语气，不知道为什么",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "꒰ঌ锁骨痣໒꒱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "耶闹#cortis#张元英#kiiikiii#MMA",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "MJ听全场合唱TimeMachine哽咽": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "别管了正在追星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "与其说是籍籍无名的新人美，不如说中粉的爱给谁都值得！（素材已标注侵删）#timemachine #mjapanay #演唱会 #追星 #神级现场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "互联网恋爱中",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哭到从观众席拿纸巾的mj💧 还是太性感了 听到大合唱会不自觉的流眼泪😭#timemachine #mjapanay #timemachine巡演",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🍊valuri🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "第三遍 下台后又听见我们唱第三遍time machine的时候，你又在想什么呢@mj apanay #线下演出 #mjapanay #mjapanay上海 #t",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "云顶之弈S19爆料": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "云顶之弈",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "云顶之弈s19赛季【棱彩音乐盛典】-全羁绊介绍 #云顶之弈s19 #云顶之弈棱彩音乐盛典",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿助今天有工资吗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "S19全三星5费1打多实战技能演示！ #金铲铲之战 #云顶之弈S19 #云顶之弈棱彩音乐盛典 #金铲铲棱彩音乐盛典 #金铲铲新赛季",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晚晚恶霸和小跟班",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【爆料S19】五形态琴女！蒙多狂爆金币！女枪一人打爆八比特！ #云顶之弈S19 #云顶之弈棱彩音乐盛典 #金铲铲之战S19",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "管泽元谈BLG夺冠": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "爱乐之城群像齐舞挑战": {
    "stats": {},
@@ -1768,36 +1645,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "灵山审美已经next level了": {
+  "原来热爱星球才是最浪漫的事": {
    "stats": {},
    "authors": [
     {
-     "name": "央视网财经",
-     "verify": "",
-     "identity": "",
+     "name": "星球研究所",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "央视财经频道正在直播",
+     "text": "#值此青春 #热爱星球是最浪漫的事 一群热爱地球的年轻人组建科普团队“星球研究所”，一个项目制作要3个月，成本近百万，过程中废稿率近一半。如今，团队年产出约40",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "11-21°",
-     "verify": "",
-     "identity": "",
+     "name": "主持人阿喆",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "梵宫审美已经next level了。#灵山胜境 #吉祥愿 #飞天",
+     "text": "一条视频花100万，一年只更40条，这个“全网最慢“的科普团队，凭什么让970万人蹲点催更？#值此青春 #原来热爱星球才是最浪漫的事 #成本上百万的科普视频长啥",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "叶 钦",
+     "name": "爱养鱼的卓林",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "灵山梵宫审美已经next level了！ #灵山审美已经nextlevel了 #灵山胜境 #吉祥愿",
+     "text": "辟谣伪科普！我买到了一本满是错误的科普书！ #辟谣科普 #世界之最科学漫游指南 #值此青春 #原来热爱星球才是最浪漫的事 #成本上百万的科普视频长啥样",
      "likes": 0,
      "hot": 0
     }
@@ -1805,16 +1682,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "兰寿金鱼居然学会走路了": {
+  "许飞长文感谢大家支持专辑": {
    "stats": {},
    "authors": [
     {
-     "name": "卡皮拉拉𓆡",
-     "verify": "",
-     "identity": "",
+     "name": "许飞（新专&20周年演唱会版）",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“你到底能不能游 搞的我心慌的很”#玛丽泰狮 @嘟嘟水族金鱼（直播号） #观赏鱼 #兰寿金鱼",
+     "text": "#许飞出道二十年新专辑 生活啊，还有诗与歌声。 捕捉那些吞下文字的感动，与想要歌唱的瞬间——用歌声写就的诗篇，即将向你呈现。 快来和我一起进行新歌接唱挑战吧 #",
      "likes": 0,
      "hot": 0
     }
@@ -1929,46 +1806,230 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "欧国联英格兰3:2西班牙": {
+  "今年冬天一定要穿成冷都男": {
    "stats": {},
    "authors": [
     {
-     "name": "80后老球迷",
+     "name": "𝑨𝒐𝒐𝒐𝒐𝒐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "击败世界冠军！终结对手43场不败！十人英格兰3比2西班牙，图赫尔激情振臂庆祝#足球战术#足球技巧 #凯恩 #西班牙vs英格兰 #dou来足球季",
+     "text": "冷都男 #riku#前田陸",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "UEFA欧洲杯",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "Feu",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "🔥欧国联A级联赛第六轮第一比赛日战报：🇪🇸西班牙🆚🏴󠁧󠁢󠁥󠁮󠁧󠁿英格兰：上半场结束前，库巴西送点，凯恩亲自主罚点球命中；下半场，赖斯角球助",
+     "text": "今年冬天一定要穿成冷都男 #冬季男生穿搭#黑色系穿搭 #冷都男",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新爱体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "Acse",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "三狮复兴靠你厂？赖斯助攻孔萨破门本怀特建功，十人英格兰3-2客胜西班牙 #阿森纳 #英格兰队 #西班牙队 #欧国联 #上新爱体育看欧国联",
+     "text": "冷都男。#韩潮来袭的风吹到了冬季男装 #都市通勤穿搭 #男生穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "快乐的小青蛙跳进我的生活": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "我不知道取啥名了…💙💚",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "就是这个草地上好多青蛙口牙#小跳蛙#快乐的一只小青蛙",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "绿茵直播",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "-飞鸟-",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "世界冠军西班牙2比3英格兰，各赛事43场不败纪录遭终结！ #西班牙各赛事43场不败纪录遭终结 #西班牙2比3英格兰",
+     "text": "-飞鸟-",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@失眠药",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "醉落魄",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这青蛙扎啤吧🤣👉📱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晚点再吃橙子_w",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#小跳蛙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "甜欣.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "快乐池塘ovo",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雪が降る時🌿🐻🌙🐶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "wow！（喜）#小跳蛙#炭火烤肉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "困薯不困🍀",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "室友我对你好吧~ 我真是一个善解人意的室友#宿舍小窝 #小青蛙#快乐的小青蛙 #小跳蛙 @抖音小助手 @抖音创作灵感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "AA青蛙批发钟大姐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#猎奇小游戏",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "悠念里晴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#小青蛙#小跳蛙#抖音玩法达人挑战赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "2027我要再创辉煌": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "英子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一张照片就能制作有趣的跨年登山创意视频✨ #2027再创辉煌 #新年登顶 #创意摄影",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拌绊",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#挑战最强的自己 #登顶不是终点是新的起点",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "文殊兔",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "文殊兔",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "餐饮老板娘健身操",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#愿大家2027年越来越好",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "徐姐姐（摄影）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#户外冲锋衣 #新年攀登高峰 #2027",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哈尼王子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2027马上来。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "戊子世界",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们一起奔赴80岁之约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "提拉老猫耳朵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "点亮末来#登顶的勇者 #新年登顶",
      "likes": 0,
      "hot": 0
     }
@@ -2083,36 +2144,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "全员严肃学习赵露思穿搭": {
+  "张元英像管不住后排的纪律委员": {
    "stats": {},
    "authors": [
     {
-     "name": "小柯基🍫",
+     "name": "椰子树",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "轻熟风 #赵露思 #葛栗 #告别信",
+     "text": "在外面可以稳重一点吗孩子们 #严成玹 #安乾镐 #张元英 #mma #cortis （看不下去就把我拉黑了，每个人都很好，我本来也只是开玩笑的语气，不知道为什么",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小小",
+     "name": "꒰ঌ锁骨痣໒꒱",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天蝎座冷都女葛栗 #赵露思 #葛栗 #告别信",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "露露章鱼饼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "倘若葛栗长这样。那将会很爽#赵露思 #葛栗 #告别信葛栗 #ootd穿搭高智感穿搭 #审美提升穿搭",
+     "text": "耶闹#cortis#张元英#kiiikiii#MMA",
      "likes": 0,
      "hot": 0
     }
@@ -2120,36 +2171,117 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "今年冬天一定要穿成冷都男": {
+  "欧国联英格兰3:2西班牙": {
    "stats": {},
    "authors": [
     {
-     "name": "𝑨𝒐𝒐𝒐𝒐𝒐",
+     "name": "80后老球迷",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "冷都男 #riku#前田陸",
+     "text": "击败世界冠军！终结对手43场不败！十人英格兰3比2西班牙，图赫尔激情振臂庆祝#足球战术#足球技巧 #凯恩 #西班牙vs英格兰 #dou来足球季",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Feu",
-     "verify": "",
-     "identity": "",
+     "name": "UEFA欧洲杯",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今年冬天一定要穿成冷都男 #冬季男生穿搭#黑色系穿搭 #冷都男",
+     "text": "🔥欧国联A级联赛第六轮第一比赛日战报：🇪🇸西班牙🆚🏴󠁧󠁢󠁥󠁮󠁧󠁿英格兰：上半场结束前，库巴西送点，凯恩亲自主罚点球命中；下半场，赖斯角球助",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Acse",
+     "name": "新爱体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三狮复兴靠你厂？赖斯助攻孔萨破门本怀特建功，十人英格兰3-2客胜西班牙 #阿森纳 #英格兰队 #西班牙队 #欧国联 #上新爱体育看欧国联",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "绿茵直播",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "世界冠军西班牙2比3英格兰，各赛事43场不败纪录遭终结！ #西班牙各赛事43场不败纪录遭终结 #西班牙2比3英格兰",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "灵山审美已经next level了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网财经",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "冷都男。#韩潮来袭的风吹到了冬季男装 #都市通勤穿搭 #男生穿搭",
+     "text": "央视财经频道正在直播",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "11-21°",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "梵宫审美已经next level了。#灵山胜境 #吉祥愿 #飞天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叶 钦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "灵山梵宫审美已经next level了！ #灵山审美已经nextlevel了 #灵山胜境 #吉祥愿",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "被鹿晗手搓大背头帅到了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "鹿晗",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "手搓个背头 哈哈哈🙌🙌🙌",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "MC版薯骨鸡腿做法": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "村民揍菜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "村民揍菜 薯骨鸡腿 外酥里糯 关键没骨头 以后一个带劲！！#薯骨鸡腿 #我的世界 #MC #小孩菜 #美食教程",
      "likes": 0,
      "hot": 0
     }
@@ -2194,93 +2326,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "英雄联盟曙光全新升级": {
+  "全员严肃学习赵露思穿搭": {
    "stats": {},
    "authors": [
     {
-     "name": "英雄联盟",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《英雄联盟：曙光》预告片 曙光将至——Pabro与Meddler带来《英雄联盟：曙光》预告，并分享《英雄联盟》2027年发展方向。更多详情将于明年1月揭晓。#英",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "英雄联盟赛事",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《英雄联盟：曙光》预告片 曙光将至——Pabro与Meddler带来《英雄联盟：曙光》预告，并分享《英雄联盟》2027年发展方向。更多详情将于明年1月揭晓。 #",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "森上木",
+     "name": "小柯基🍫",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "英雄联盟的这次更新玩的真大！ #英雄联盟曙光",
+     "text": "轻熟风 #赵露思 #葛栗 #告别信",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "无毒无害的水母",
+     "name": "小小",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "英雄联盟2来了！超多更新，底层升级。 #英雄联盟曙光预约 #英雄联盟即将全面升级 #英雄联盟音乐赛季 #联盟音乐季 #海斗音乐季",
+     "text": "天蝎座冷都女葛栗 #赵露思 #葛栗 #告别信",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "云顶阿东",
+     "name": "露露章鱼饼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "英雄联盟即将迎来大更新 #英雄联盟曙光预约 #英雄联盟即将全面升级#英雄联盟音乐赛季 #联盟音乐季 #海斗音乐季",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "复联5影迷盛典约朋友抢票": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "漫威影业",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【重磅】#复仇者联盟5 影迷盛典将于12月10日（周四）19:00在浦发银行东方体育中心盛大举行💚小罗伯特·唐尼、克里斯·埃文斯、克里斯·海姆斯沃斯，携手漫威",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻晨报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#漫威三巨头齐聚上海 10月16日，漫威影业宣布《复仇者联盟5》影迷盛典将于12月10日在东方体育中心盛大举行。小罗伯特·唐尼、克里斯·埃文斯、克里斯·海姆斯沃",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "天真",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不行了，已经开始脑补红毯了，有没有一起抢票的搭子！#复联5官宣唐尼桃总海总来华 #复仇者联盟5",
+     "text": "倘若葛栗长这样。那将会很爽#赵露思 #葛栗 #告别信葛栗 #ootd穿搭高智感穿搭 #审美提升穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -2355,6 +2430,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "在江油下顿馆子，看看仨人要花多少？ #人间烟火 #川菜 #肥肠 #江油#吃商极高的人都爱路边饭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "复联5影迷盛典约朋友抢票": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "漫威影业",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【重磅】#复仇者联盟5 影迷盛典将于12月10日（周四）19:00在浦发银行东方体育中心盛大举行💚小罗伯特·唐尼、克里斯·埃文斯、克里斯·海姆斯沃斯，携手漫威",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻晨报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#漫威三巨头齐聚上海 10月16日，漫威影业宣布《复仇者联盟5》影迷盛典将于12月10日在东方体育中心盛大举行。小罗伯特·唐尼、克里斯·埃文斯、克里斯·海姆斯沃",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天真",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不行了，已经开始脑补红毯了，有没有一起抢票的搭子！#复联5官宣唐尼桃总海总来华 #复仇者联盟5",
      "likes": 0,
      "hot": 0
     }
