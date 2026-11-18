@@ -1,14 +1,24 @@
 {
- "updated_at": "2026-11-18 14:40",
+ "updated_at": "2026-11-18 15:39",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 47,
- "ok_count": 41,
+ "topic_count": 48,
+ "ok_count": 44,
  "lexicon_count": 0,
  "topics": {
   "APEC欢迎宴会": {
    "stats": {},
    "authors": [
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "毛宁发布现场图：习近平与普京、特朗普亲切握手 #APEC",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "央视新闻",
      "verify": "红V",
@@ -32,16 +42,6 @@
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "贵南像是一本摊开的地理书": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "深圳科创吸引世界目光": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "特朗普出席深圳APEC欢迎宴会": {
    "stats": {},
@@ -67,6 +67,16 @@
      "hot": 0
     },
     {
+     "name": "青蜂侠",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#APEC欢迎晚宴 现场演奏起美国著名爱国歌曲 特朗普驻足观看并鼓掌 #特朗普 #APEC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "直新闻",
      "verify": "红V",
      "identity": "媒体人",
@@ -85,14 +95,21 @@
      "text": "#特朗普出席APEC会议欢迎宴会 驻足观赏现场音乐表演",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "深圳科创吸引世界目光": {
+   "stats": {},
+   "authors": [
     {
-     "name": "央视新闻",
+     "name": "央视一套",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场视频！美国总统特朗普抵达深圳。#媒体原创",
+     "text": "#深圳科创吸引世界目光 【#外媒相聚深圳共探科创合作新机遇 】亚太经合组织（APEC）第三十三次领导人非正式会议在深圳举行。海外媒体的目光正从会议议程，延伸到这",
      "likes": 0,
      "hot": 0
     }
@@ -134,69 +151,12 @@
      "hot": 0
     },
     {
-     "name": "湖北日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日，来华出席亚太经合组织第三十三次领导人非正式会议的俄罗斯总统普京到访深圳北理莫斯科大学，并发表演讲。（剪辑：文捷）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "11月18日凌晨，俄罗斯总统普京乘专机抵达深圳。这是继今年5月国事访问后，普京总统再次来到中国。一支视频，近距离看现场。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李在明夫妇与华南韩侨共进午餐": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "穿韩服亮相，李在明总统夫妇在深圳同华南地区韩侨共进午餐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视法治在线",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【#韩国总统李在明乘机抵达深圳 】11月18日凌晨，韩国总统李在明乘机抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。韩国是APEC创始成员之一，也是上",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "粤TV",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月18日凌晨，韩国总统李在明乘机抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。记者在现场留意到，韩国总统李在明和夫人看到青年迎宾人员后",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青蜂侠",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#韩国总统李在明抵达深圳 将出席APEC领导人非正式会议 #李在明抵达深圳 #APEC迎宾进行时",
      "likes": 0,
      "hot": 0
     }
@@ -258,116 +218,12 @@
      "hot": 0
     },
     {
-     "name": "极光新闻",
+     "name": "光明日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "普京：感谢中方出色主办APEC会议，表示深圳是一座充满活力、蓬勃发展的大都市，令人印象深刻，亚太地区现已成为全球经济的中心！#浩琛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "藏在中国古诗里的母爱": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "视听中国",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【 #天涯共此诗 | 游子吟】你在哪一个瞬间，突然读懂了父母的不容易？当美国女孩苏珊来到中国，从游子成为慈母，才从美国妈妈和藏族阿妈缝制的小裙子里，读懂“慈母手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "钱江视频",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“莫愁前路无知己，天下谁人不识君”中美知己以歌声续写友情。#全国广电新媒体集结发光",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辽宁卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天涯共此诗——《别董大》。一个美国人来中国后最大的收获:他想用一句唐诗送给所有正在前行的人#天涯共此诗 #别董大 #我最喜欢的一句中国诗 #全国广电新媒体集结发",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "相约APEC一起看到更多可能": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #相约深圳APEC一起看到更多可能 2026年深圳APEC会议主题是“建设亚太共同体，促进共同繁荣”，并将围绕开放、创新、合作三大优先领域展开。随着",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“APEC 的每一个画面，世界都在关注。”2026 年亚太经合组织工商领导人峰会现场，记者方浩明表示：APEC 上讨论的每一个话题，都和你我息息相关。世界需要交",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "关于APEC“中国年”，这些知识点不容错过。#聚焦APEC #和合共生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【APEC需要中国】2026年APEC工商领导人峰会将于11月17~18日在深圳举行，参会代表陆续抵达深圳。来听听他们对中国之行有何期待？#共同期待2026AP",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC 2026：30亿人的“朋友圈”，亚太合作下一程怎么走？ 2026年APEC深圳峰会本周即将启幕。中国加入APEC35年来，亚太21个经济体、约30亿人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "经济日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "从堪培拉到深圳！45秒带你了解什么是APEC？#媒体原创",
+     "text": "普京点赞深圳：最现代化、最具活力的大都市之一！",
      "likes": 0,
      "hot": 0
     }
@@ -389,16 +245,6 @@
      "hot": 0
     },
     {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "回到老家格外兴奋！祖籍广东的泰国总理开怀大笑飙粤语：猴开森！中泰情同手足。 #泰国 #广东 #媒体原创 #热点零距离",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "CGTN",
      "verify": "红V",
      "identity": "媒体人",
@@ -409,22 +255,32 @@
      "hot": 0
     },
     {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "回到老家格外兴奋！祖籍广东的泰国总理开怀大笑飙粤语：猴开森！中泰情同手足。 #泰国 #广东 #媒体原创 #热点零距离",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "回到老家格外兴奋！11月18日，祖籍广东的泰国总理阿努廷在深圳APEC受访时开怀大笑，飙粤语回应记者：“猴开森”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "羊城晚报•羊城派",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 11月18日，泰国总理阿努廷抵达深圳。据悉，阿努廷祖籍中国广东，此前接受媒体采访时曾表示，自己是100%的中国人后代，虽在泰国出生，但有中文名字（陈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场直击！泰国总理阿努廷抵达深圳 红毯上一路为欢迎人员鼓掌#微观深圳APEC #媒体精选计划 #热点零距离",
      "likes": 0,
      "hot": 0
     }
@@ -502,6 +358,244 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "APEC这场家门口的国际盛会，谈的是亚太的大格局，落的是你我的日常。#APEC #深圳",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "特朗普深圳之行有哪些看点": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普总统抵达 深圳之行有哪些看点 #APEC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！美国总统特朗普抵达深圳。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月18日下午，美国总统特朗普乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#凤凰记者现场报道 特朗普车队抵达下榻酒店 #特朗普 #APEC #走近APEC #繁荣与共",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球时报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美媒：特朗普将成为首位踏足中国“奇迹之城”的在任总统 （编辑：小雅） #媒体精选计划 #媒体原创 #精选主播说",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "相约APEC一起看到更多可能": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #相约深圳APEC一起看到更多可能 2026年深圳APEC会议主题是“建设亚太共同体，促进共同繁荣”，并将围绕开放、创新、合作三大优先领域展开。随着",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“APEC 的每一个画面，世界都在关注。”2026 年亚太经合组织工商领导人峰会现场，记者方浩明表示：APEC 上讨论的每一个话题，都和你我息息相关。世界需要交",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "关于APEC“中国年”，这些知识点不容错过。#聚焦APEC #和合共生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【APEC需要中国】2026年APEC工商领导人峰会将于11月17~18日在深圳举行，参会代表陆续抵达深圳。来听听他们对中国之行有何期待？#共同期待2026AP",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创【潮涌亚太——APEC在中国的三个时间坐标】占世界近40%的人口，创造约全球60%的经济总量——APEC成员经济体，在世界版图上，分量举足轻重。200",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC 2026：30亿人的“朋友圈”，亚太合作下一程怎么走？ 2026年APEC深圳峰会本周即将启幕。中国加入APEC35年来，亚太21个经济体、约30亿人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "阿根廷7:0哥斯达黎加": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天蓝足球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "眼花缭乱！国际足球热身赛，阿根廷VS哥斯达黎加！ #阿根廷 #哥斯达黎加 #天蓝足球 #梅西 #dou来足球季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "绿茵解说-老马",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "阿根廷7球血洗哥斯达黎加，三人梅开二度！#阿根廷7比0哥斯达黎加 #尼科帕斯 #阿尔瓦雷斯 #马斯坦托诺 #梅西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "足球传奇",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "找回信心！小蜘蛛#阿尔瓦雷斯 梅开二度，小角度爆射尽显霸气，阿根廷7比0哥斯达黎加#足球技巧#战术 #阿根廷vs哥斯达黎加 #dou来足球季",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "球王记忆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "十号球衣可以慢慢定，弧顶这活儿，小帕先接了。#尼科帕斯 #梅西 #恩佐 #阿根廷队 #足球",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "泰国总理阿努廷抵达深圳": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视法治在线",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【 #泰国总理阿努廷乘飞机抵达深圳 】今天（18日）上午，泰国总理阿努廷乘飞机抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。今年7月，阿努廷总理就任后",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 现场画面！泰国总理阿努廷抵达深圳 随行人员拎着大包小包走下舷梯 抱着必出片的决心 掏出手机疯狂拍拍拍#微观深圳APEC #热点零距离 #直击第一线 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 泰国总理阿努廷11月18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。（记者：周颖、刘春晖、王瑞平）#聚焦APEC #和合共生",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "粤TV",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 11月18日上午，泰国总理阿努廷乘飞机抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。走下飞机时，面对中方礼宾执勤人员的敬礼，阿努廷暖心同步",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原创新闻 11月18日上午，泰国总理阿努廷抵达深圳，受到热烈欢迎。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "泰国总理飚粤语谈回广东感受：“好开心”“冇时间” #APEC #走近APEC #现场画面 #泰国 #繁荣与共",
      "likes": 0,
      "hot": 0
     }
@@ -616,6 +710,63 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "现货黄金跌破3800美元关口": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "秒懂金融",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现货黄金跌破3800美元/盎司创一年新低 #黄金 #金价",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财经小师妹",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "5分钟看懂金价持续下跌的核心逻辑#媒体精选计划 #燃起来了大国重器 #真财实学计划 #黄金",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金饰克价七连跌！7天跌88元 年内暴跌577元 50克大金镯子亏掉近3台iPhone 18 Pro #黄金#现货黄金跌破3800美元关口",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宅男财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刚刚！现货黄金跌破3800美元关口 专家分析：3800美元关口是当前重要心理和技术支撑区域 下一步需关注3450-3600美元附近 #金价 #黄金 #投资理财 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "国+社区",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现货黄金失守3800美元/盎司，国内部分品牌金饰报价已经出现七连跌 （编辑：CJ）#现货黄金 #国内品牌金饰克价",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "普京抵达深圳": {
    "stats": {},
    "authors": [
@@ -693,7 +844,7 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "泰国总理阿努廷抵达深圳": {
+  "澳大利亚总理阿尔巴尼斯抵达深圳": {
    "stats": {},
    "authors": [
     {
@@ -702,17 +853,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【 #泰国总理阿努廷乘飞机抵达深圳 】今天（18日）上午，泰国总理阿努廷乘飞机抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。今年7月，阿努廷总理就任后",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场画面！泰国总理阿努廷抵达深圳 随行人员拎着大包小包走下舷梯 抱着必出片的决心 掏出手机疯狂拍拍拍#微观深圳APEC #热点零距离 #直击第一线 ",
+     "text": "【#澳大利亚总理阿尔巴尼斯抵达深圳 】11月18日上午，澳大利亚总理阿尔巴尼斯乘机抵达深圳。他将出席在深圳举行的亚太经合组织第三十三次领导人非正式会议。1989",
      "likes": 0,
      "hot": 0
     },
@@ -722,37 +863,37 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 泰国总理阿努廷11月18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。（记者：周颖、刘春晖、王瑞平）#聚焦APEC #和合共生",
+     "text": "#媒体原创 澳大利亚总理阿尔巴尼斯11月18日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。（记者：杨深深、刘春晖、王瑞平）#聚焦APEC #和合共生",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泰国总理夫妇步出舱门，中方仪仗队庄严敬礼，二人双手合十回礼。 #深圳 #热点零距离 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "粤TV",
+     "name": "中国新闻网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 11月18日上午，泰国总理阿努廷乘飞机抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。走下飞机时，面对中方礼宾执勤人员的敬礼，阿努廷暖心同步",
+     "text": "现场直击！澳大利亚总理阿尔巴尼斯抵达深圳 向欢迎人群鼓掌、挥手#微观深圳APEC #热点零距离",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
+     "name": "北京新闻",
      "verify": "蓝V",
-     "identity": "机构认证",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "泰国总理飚粤语谈回广东感受：“好开心”“冇时间” #APEC #走近APEC #现场画面 #泰国 #繁荣与共",
+     "text": "#原创新闻 多次访华的澳大利亚总理阿尔巴尼斯抵达深圳，出席APEC！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广东新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "澳大利亚总理阿尔巴尼斯抵达深圳 APEC领导人非正式会议今日举行",
      "likes": 0,
      "hot": 0
     }
@@ -814,6 +955,23 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "忘情牛肉面舞蹈大赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "不齐舞团",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们还想看我们抓谁 #忘情牛肉面 #忘情牛肉面舞蹈大赛 #抖音潮流舞蹈大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "慌啥子嘛要好好吃饭呀": {
    "stats": {},
    "authors": [
@@ -844,6 +1002,23 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "慌啥子嘛。吃好喝好，生活就不慌！一顿热饭下肚，啥子事都慢半拍再说。#走马上任 #赵本山慌啥子 #民间生活大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "专访BLG冠军成员Xun父亲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 湖南伢子到世界“打野”击败韩国GEN战队 2026英雄联盟全球总决赛 BLG夺冠 彭立勋父亲：我不懂游戏 儿子进战队才关注 “现在对英雄联盟游戏规则",
      "likes": 0,
      "hot": 0
     }
@@ -888,80 +1063,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "慌啥子嘛弹唱版": {
+  "成毅来给他们狠一个": {
    "stats": {},
    "authors": [
     {
-     "name": "ZouHaoHao",
-     "verify": "",
-     "identity": "",
+     "name": "成毅",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "笑口常开 好彩自然来 #慌啥子嘛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "临沧融媒",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "慌啥子嘛，慢慢来。（来源：临沧融媒 陈远杰） #慌啥子嘛慢慢来 #走马上任#遇见临沧如回故乡",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "高低得去景德镇画一次盘子": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "起司姨太",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我们在景德镇画的盘子终于到啦！！！ #景德镇 #情侣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "派呐泡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "咪在景德镇画盘子的天。#景徳镇 #景德镇画盘子 @抖音小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小狮子🦁️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#景德镇画盘子",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "专访BLG冠军成员Xun父亲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "风芒新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 湖南伢子到世界“打野”击败韩国GEN战队 2026英雄联盟全球总决赛 BLG夺冠 彭立勋父亲：我不懂游戏 儿子进战队才关注 “现在对英雄联盟游戏规则",
+     "text": "回京第一步：来给他们狠一个！#两京十五日",
      "likes": 0,
      "hot": 0
     }
@@ -993,16 +1104,6 @@
      "hot": 0
     },
     {
-     "name": "长江日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日，特朗普车队抵达深圳酒店，马斯克现身随行大巴车。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "珠江之声fm105.7",
      "verify": "蓝V",
      "identity": "机构认证",
@@ -1013,63 +1114,22 @@
      "hot": 0
     },
     {
-     "name": "陕视新闻",
+     "name": "纵览新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "据中国新闻网11月18日报道，特朗普车队抵达深圳东海朗廷酒店，马斯克现身随行大巴车。11月17日，马斯克在回复一条关于纽约‌DealBook峰会的帖文下留言称：",
+     "text": "特朗普车队抵达深圳东海朗廷酒店，马斯克现身。深圳市民在路边热情围观。#精选主播说 #媒体精选计划",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "忘情牛肉面舞蹈大赛": {
-   "stats": {},
-   "authors": [
+    },
     {
-     "name": "不齐舞团",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "长江日报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你们还想看我们抓谁 #忘情牛肉面 #忘情牛肉面舞蹈大赛 #抖音潮流舞蹈大赛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "成毅来给他们狠一个": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "成毅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "回京第一步：来给他们狠一个！#两京十五日",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "两京十五日定档11月20日": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "两京十五日（1120夺回一切",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#两京十五日定档1120 成大事者，要跑得快！#两京十五日 #成毅",
+     "text": "11月18日，特朗普车队抵达深圳酒店，马斯克现身随行大巴车。",
      "likes": 0,
      "hot": 0
     }
@@ -1099,31 +1159,217 @@
    "authors": [],
    "lexicon": []
   },
-  "甲亢哥：GTA6我来了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "全女综艺峨眉山开录了": {
+  "两京十五日定档11月20日": {
    "stats": {},
    "authors": [
     {
-     "name": "大板凳娱乐",
+     "name": "两京十五日（1120夺回一切",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#两京十五日定档1120 成大事者，要跑得快！#两京十五日 #成毅",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "慌啥子嘛弹唱版": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "ZouHaoHao",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "峨眉山来了群女弟子 好期待大家会擦出怎么样的火花！！ #峨眉山来了群女弟子 #综艺 #峨眉山 #路透 #全女",
+     "text": "笑口常开 好彩自然来 #慌啥子嘛",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "追娱大明星",
+     "name": "临沧融媒",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "慌啥子嘛，慢慢来。（来源：临沧融媒 陈远杰） #慌啥子嘛慢慢来 #走马上任#遇见临沧如回故乡",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "天冷拍甜甜手势舞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "李朋朋",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "峨眉山全女综艺开始录制啦！！快来看看有没有你期待的#宋雨琦 #虞书欣 #刘涛 #秦岚 #峨眉山来了群女弟子 补tag白百何 沈羽洁 金晨 蔡文静",
+     "text": "可爱又简单手势舞来喽#手势舞教程 #一学就会系列 #手势舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "路明",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天冷了就拍这个甜甜手势舞#手势舞教程 #手势舞 #甜甜手势舞 #反差萌 #简单易学手势舞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "给您添麻花了",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "冬天就拍这个韩韩的手势舞🥰💗 #手势舞 #甜妹 #韩系 #sweetestpie #活跃账号",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "豆猫日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "️❅⛇☃︎❆⛄️冬天拍这个手势舞呀！ 氛围感拉满～ #手势舞教程 #一学就会系列 #甜甜的手势舞 @DOU+小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Sevennnnnn",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "好甜的手势舞呀！可以跟我一起拍嘛#手势舞教程 #试试看手势舞 #简单手势舞教程 #一学就会系列 #甜妹",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你的舞蹈生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天冷拍甜甜手势舞 #女大学生 #眼镜妹 #反差 #你的舞蹈生 #变装",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的明星同款脸藏不住了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "㲺离",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#和哪个明星像 感觉良好",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "有所谓",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#脸和身高各长各的",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你要这么想我也没办法",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "6%也行😀#今日份素颜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "0825.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "0825.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𓆩恶魔钉𓆪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "𓆩恶魔钉𓆪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "圆圆",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "圆圆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "道听又途说",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "道听又途说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "笑笑、",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "答辩走你#答辩 #看看你像哪个明星脸 #动漫推荐 #这曲有劲 #像谁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小鱼心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小鱼心",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "早点睡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "早点睡",
      "likes": 0,
      "hot": 0
     }
@@ -1225,6 +1471,43 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "高低得去景德镇画一次盘子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "起司姨太",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们在景德镇画的盘子终于到啦！！！ #景德镇 #情侣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "派呐泡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咪在景德镇画盘子的天。#景徳镇 #景德镇画盘子 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小狮子🦁️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#景德镇画盘子",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "慌啥子嘛为什么动人": {
    "stats": {},
    "authors": [
@@ -1294,173 +1577,26 @@
    "authors": [],
    "lexicon": []
   },
-  "天冷拍甜甜手势舞": {
+  "全女综艺峨眉山开录了": {
    "stats": {},
    "authors": [
     {
-     "name": "李朋朋",
+     "name": "大板凳娱乐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "可爱又简单手势舞来喽#手势舞教程 #一学就会系列 #手势舞",
+     "text": "峨眉山来了群女弟子 好期待大家会擦出怎么样的火花！！ #峨眉山来了群女弟子 #综艺 #峨眉山 #路透 #全女",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "路明",
+     "name": "追娱大明星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天冷了就拍这个甜甜手势舞#手势舞教程 #手势舞 #甜甜手势舞 #反差萌 #简单易学手势舞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "给您添麻花了",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冬天就拍这个韩韩的手势舞🥰💗 #手势舞 #甜妹 #韩系 #sweetestpie #活跃账号",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆猫日记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "️❅⛇☃︎❆⛄️冬天拍这个手势舞呀！ 氛围感拉满～ #手势舞教程 #一学就会系列 #甜甜的手势舞 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Sevennnnnn",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好甜的手势舞呀！可以跟我一起拍嘛#手势舞教程 #试试看手势舞 #简单手势舞教程 #一学就会系列 #甜妹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你的舞蹈生",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天冷拍甜甜手势舞 #女大学生 #眼镜妹 #反差 #你的舞蹈生 #变装",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的明星同款脸藏不住了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "㲺离",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#和哪个明星像 感觉良好",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "有所谓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#脸和身高各长各的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "0825.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "0825.",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "你要这么想我也没办法",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "6%也行😀#今日份素颜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𓆩恶魔钉𓆪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "𓆩恶魔钉𓆪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "圆圆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "圆圆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "道听又途说",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "道听又途说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "笑笑、",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "答辩走你#答辩 #看看你像哪个明星脸 #动漫推荐 #这曲有劲 #像谁",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小鱼心",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小鱼心",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "早点睡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "早点睡",
+     "text": "峨眉山全女综艺开始录制啦！！快来看看有没有你期待的#宋雨琦 #虞书欣 #刘涛 #秦岚 #峨眉山来了群女弟子 补tag白百何 沈羽洁 金晨 蔡文静",
      "likes": 0,
      "hot": 0
     }
@@ -1488,6 +1624,117 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "GTA6上线前一天的我： #GTA6#GTA#PS5#索尼#抖音前沿科技首发计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "多喜一家人赛秀明一鸣惊人": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "多喜一家人（青阳里街坊吃瓜中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#多喜一家人 一吻定情？激情幻梦过后会是什么......#任重 #张宇柠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猪猪不说话",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没想到后面赛秀明居然和马来娇好上了,背着闻佳音偷偷和马来娇搞地下q!",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "北京的银杏雨你淋到了吗": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "31_w",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京你真有意思。 #银杏叶#冬天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "🌟一只鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "离开北京前的一场惊喜 #瞬息万变的不只天气 #北京的秋天 #银杏 #落叶🍂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叫什么",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的秋天就是这样被吹走的。#北京 #雨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你要快乐！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京这场秋叶雨太浪漫了！ 这场大雨来得猝不及防 淋了一身雨 但也见到了漫天纷飞的黄叶 或许明天 秋尽冬来 北京啊 我们又一起度过了一个秋 #北平的秋 #秋雨落叶",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "刘思懿回应弟弟刘熙墨拍戏烧伤": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "思懿-边城刀客",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一切尚好，感谢大家对熙墨的关心 #刘思懿 #刘熙墨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刘思懿回应弟弟刘熙墨拍戏烧伤，坦言看到路透画面被吓到、心情复杂，曾劝弟弟放弃演戏，回家卖翡翠：他真的很努力，值得更好的资源和剧本#媒体精选计划 #刘思懿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哈尔滨日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "博主刘思懿回应弟弟刘熙墨拍戏烧伤，称喷火戏是主动要求不用替身，目前面部 颈部二度烧伤 伤情已稳定，同时喊话制片人多给弟弟表演机会 #刘思懿 #烧伤",
      "likes": 0,
      "hot": 0
     }
@@ -1552,33 +1799,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "多喜一家人赛秀明一鸣惊人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "多喜一家人（青阳里街坊吃瓜中",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#多喜一家人 一吻定情？激情幻梦过后会是什么......#任重 #张宇柠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猪猪不说话",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没想到后面赛秀明居然和马来娇好上了,背着闻佳音偷偷和马来娇搞地下q!",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "每个人都能测出颜值高光": {
    "stats": {},
    "authors": [
@@ -1626,80 +1846,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "刘思懿回应弟弟刘熙墨拍戏烧伤": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "思懿-边城刀客",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一切尚好，感谢大家对熙墨的关心 #刘思懿 #刘熙墨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潇湘晨报·晨视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "刘思懿回应弟弟刘熙墨拍戏烧伤，坦言看到路透画面被吓到、心情复杂，曾劝弟弟放弃演戏，回家卖翡翠：他真的很努力，值得更好的资源和剧本#媒体精选计划 #刘思懿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "哈尔滨日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "博主刘思懿回应弟弟刘熙墨拍戏烧伤，称喷火戏是主动要求不用替身，目前面部 颈部二度烧伤 伤情已稳定，同时喊话制片人多给弟弟表演机会 #刘思懿 #烧伤",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "年度烟火市集全明星阵容": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "特别乌啦啦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "在吕梁第一次吃「噔噔面」～搭着烧烤吃太解馋了 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火 #年度烟火市集全明星阵容",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "密子君",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "花500r测评汕头酒店外卖开启碳水盛宴！#年度烟火市集全明星阵容 #烟火榜夯吃挑战#年度烟火市集#烟火美食夯吃挑战开赛了#美食vlog",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宋小睿",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "山东女孩在深圳吃鸡蛋灌饼，一口咬出潮汕味 #年度烟火市集全明星阵容 我为笨阿叔老总三拼鸡蛋灌饼提名！山东人的吃饼雷达，在深圳响了~你心里最夯的街头小吃是哪一口？",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "贵州辣卤会惩罚每一个嘴硬的人": {
    "stats": {},
    "authors": [
@@ -1737,44 +1883,12 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "会唱歌的大嘴鱼玩具我是真想要": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Hayden Sun",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太洗脑了这玩具跑了三家shoppers买到了哈哈哈#新奇玩具 #多伦多 #唱歌鱼 #钓鱼 #多伦多生活",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Psyman",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "唱歌的大嘴鲈鱼 脑子抽了，买了个神经兮兮的玩意挂墙上 好多问歌词的，整理在下面： Hanging on this wall all day long 我整天挂在",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凶巴巴",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "莫名其妙火了的鱼 最近刷到好多big mouth billy bass！😎 俺也有一只，很久之前中古店淘到的～1999年产的圣诞限量款嘿嘿！好久没玩了，在仓库",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "全员严肃品鉴高质量短剧": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "甲亢哥：GTA6我来了": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -1876,46 +1990,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "北京的银杏雨你淋到了吗": {
+  "会唱歌的大嘴鱼玩具我是真想要": {
    "stats": {},
    "authors": [
     {
-     "name": "31_w",
+     "name": "Hayden Sun",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "北京你真有意思。 #银杏叶#冬天",
+     "text": "太洗脑了这玩具跑了三家shoppers买到了哈哈哈#新奇玩具 #多伦多 #唱歌鱼 #钓鱼 #多伦多生活",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "🌟一只鱼",
+     "name": "Psyman",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "离开北京前的一场惊喜 #瞬息万变的不只天气 #北京的秋天 #银杏 #落叶🍂",
+     "text": "唱歌的大嘴鲈鱼 脑子抽了，买了个神经兮兮的玩意挂墙上 好多问歌词的，整理在下面： Hanging on this wall all day long 我整天挂在",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "叫什么",
+     "name": "凶巴巴",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我的秋天就是这样被吹走的。#北京 #雨",
+     "text": "莫名其妙火了的鱼 最近刷到好多big mouth billy bass！😎 俺也有一只，很久之前中古店淘到的～1999年产的圣诞限量款嘿嘿！好久没玩了，在仓库",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "年度烟火市集全明星阵容": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "特别乌啦啦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "在吕梁第一次吃「噔噔面」～搭着烧烤吃太解馋了 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火 #年度烟火市集全明星阵容",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "你要快乐！",
+     "name": "密子君",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "北京这场秋叶雨太浪漫了！ 这场大雨来得猝不及防 淋了一身雨 但也见到了漫天纷飞的黄叶 或许明天 秋尽冬来 北京啊 我们又一起度过了一个秋 #北平的秋 #秋雨落叶",
+     "text": "花500r测评汕头酒店外卖开启碳水盛宴！#年度烟火市集全明星阵容 #烟火榜夯吃挑战#年度烟火市集#烟火美食夯吃挑战开赛了#美食vlog",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宋小睿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "山东女孩在深圳吃鸡蛋灌饼，一口咬出潮汕味 #年度烟火市集全明星阵容 我为笨阿叔老总三拼鸡蛋灌饼提名！山东人的吃饼雷达，在深圳响了~你心里最夯的街头小吃是哪一口？",
      "likes": 0,
      "hot": 0
     }
