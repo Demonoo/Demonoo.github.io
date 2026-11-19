@@ -1,31 +1,71 @@
 {
- "updated_at": "2026-11-19 07:45",
+ "updated_at": "2026-11-19 08:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
  "ok_count": 48,
  "lexicon_count": 0,
  "topics": {
-  "中美元首在深圳会晤": {
+  "中俄美元首举行会晤": {
    "stats": {},
    "authors": [
+    {
+     "name": "央视新闻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大国外交进行时丨习近平主持中俄美元首会晤",
+     "likes": 0,
+     "hot": 0
+    },
     {
      "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场视频！习近平会见美国总统特朗普#聚焦APEC #和合共生",
+     "text": "历史首次！中俄美三国元首面对面会晤举行（记者：杨依军、冯歆然）#近镜头#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "美国总统特朗普：非常期待同习近平主席、普京总统会晤。#大国外交进行时#媒体原创",
+     "text": "11月19日，习近平即将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "光明网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！俄罗斯总统普京抵达会晤现场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "历史时刻！#普京特朗普同日抵达深圳19日将举行#中俄美元首会晤 #直击第一线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "起底",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "深度解读中俄美元首会晤 11月19日，中俄美元首将在深圳举行历史上首次面对面会晤，外交部称其“具有开创性意义”。这场会晤为何如此特殊？三国元首将重点讨论哪些议题",
      "likes": 0,
      "hot": 0
     }
@@ -47,22 +87,22 @@
      "hot": 0
     },
     {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欢迎晚宴合影期间 普京和特朗普互动握手 #微观深圳APEC",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "中新社国是直通车",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "欢迎晚宴合影期间 普京和特朗普互动握手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欢迎晚宴合影期间 普京和特朗普互动握手 #微观深圳APEC",
      "likes": 0,
      "hot": 0
     },
@@ -80,73 +120,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "APEC吸引全球目光": {
+  "为何都说APEC需要中国": {
    "stats": {},
    "authors": [
     {
-     "name": "央视一套",
+     "name": "央视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 【APEC吸引全球目光】APEC第三十三次领导人非正式会议在深圳举行。从贸易、数字经济、人工智能到绿色发展，一项项务实合作持续拉近APEC各成员经济",
+     "text": "#媒体原创亚太工商界大咖齐聚 为何都说“APEC需要中国”？（央视频号：财经老王）#媒体精选计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国发展改革",
+     "name": "央视网财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【晓莉看全球】2026APEC，外国元首关心啥？",
+     "text": "亚太工商界大咖为何都说“APEC需要中国”",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国网",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "APEC 2026：30亿人的“朋友圈”，亚太合作下一程怎么走？ 2026年APEC深圳峰会本周即将启幕。中国加入APEC35年来，亚太21个经济体、约30亿人",
+     "text": "为啥APEC在深圳办？听一听深圳市民怎么说。深圳的故事是中国改革开放的缩影，也是亚太合作的成功范例。在这里，期待亚太的明天更美好。#媒体原创",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "CCTV4",
+     "name": "新华社",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "全球聚焦APEC：海外创业者逐梦深圳 #今日亚洲",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "公信财经",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全球30亿人都在盯着这场会议到底要聊什么！#APEC #国际形势 #燃起来了大国重器 #真财实学计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "APEC美食硬控各国来宾": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "闪电新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月18日，深圳。本次APEC会议吸引了全球4000多名记者参与报道，其中外媒记者多达2000多人。新闻中心餐饮不仅兼顾世界口味与岭南特色，还在菜",
+     "text": "#媒体原创 新华社消息｜数智领域占APEC“中国年”经贸合作成果半壁江山 （记者：唐诗凝、王丰）#聚焦APEC #和合共生",
      "likes": 0,
      "hot": 0
     }
@@ -211,6 +224,228 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "APEC美食硬控各国来宾": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "闪电新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 11月18日，深圳。本次APEC会议吸引了全球4000多名记者参与报道，其中外媒记者多达2000多人。新闻中心餐饮不仅兼顾世界口味与岭南特色，还在菜",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "澳大利亚总理发布逛深圳超市照片": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "澳大利亚总理发布逛深圳超市照片：中国是我们最大的客户",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原创新闻 多次访华的澳大利亚总理阿尔巴尼斯抵达深圳，出席APEC！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场直击！澳大利亚总理阿尔巴尼斯抵达深圳 向欢迎人群鼓掌、挥手#微观深圳APEC #热点零距离",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广州ing",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 花城+记者现场直击：澳大利亚总理阿尔巴尼斯抵达深圳。#APEC大湾区之约 #APEC #澳大利亚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场画面！澳大利亚总理阿尔巴尼斯抵达深圳 随行人员将衣物等放进后备箱 #媒体原创 #APEC #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美联储沃勒称12月或加息50基点": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "21世纪经济报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金银价格持续下跌 美联储理事沃勒称12月或加息50个基点（剪辑：张通）#黄金 #白银 #美联储 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刚刚！#黄金白银跳水 #现货黄金失守3750关口 美联储加息大消息！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美联储理事克里斯托弗·沃勒周三表示，面对比预期更加顽固、且正在扩散的通胀，美联储可能需要采取更有力度的行动，包括在12月会议上一口气加息50个基点。 “你可能需",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "财联社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美联储沃勒：12月可能需要加息50个基点“给人们一点震撼”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#美联储或将连续三次加息 多名美联储官员接连发表鹰派讲话，连续三次加息预期升温。最新的利率期货定价显示，投资者押注美联储将在今年12月、明年1月、3月的三次议息",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "191式自动步枪首次全记录式开箱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国产20式枪族中191式自动步枪全记录式开箱，一箱5支配50个弹匣。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "191式自动步枪开箱！#媒体精选计划 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "世界看深圳 深圳看未来": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#星火成炬 ｜世界看深圳 深圳看未来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "CCTV4",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全球聚焦APEC：世界在深圳看见未来！ #今日亚洲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "俄总统特别代表盛赞深圳是未来之城 绿色之城！ #深圳 #APEC",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "中方回应高市早苗接机仪式": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "高市早苗抵达深圳，在机场受到中方“简朴迎接”？外交部回应！ #中日 #外交",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "界面快讯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "界面快讯",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "俄美专机在深圳机场同框": {
    "stats": {},
    "authors": [
@@ -255,12 +490,12 @@
      "hot": 0
     },
     {
-     "name": "中国新闻网",
+     "name": "中国日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场画面！特朗普乘坐专属座驾抵达下榻酒店 马斯克现身随行大巴 #微观深圳APEC #媒体原创",
+     "text": "#俄罗斯总统普京抵达深圳 俄罗斯总统普京11月18日凌晨乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。#和合共生",
      "likes": 0,
      "hot": 0
     }
@@ -268,297 +503,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "美联储沃勒称12月或加息50基点": {
+  "苹果糖有自己的高原小甜心": {
    "stats": {},
-   "authors": [
-    {
-     "name": "21世纪经济报道",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "金银价格持续下跌 美联储理事沃勒称12月或加息50个基点（剪辑：张通）#黄金 #白银 #美联储 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美联储理事克里斯托弗·沃勒周三表示，面对比预期更加顽固、且正在扩散的通胀，美联储可能需要采取更有力度的行动，包括在12月会议上一口气加息50个基点。 “你可能需",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中新经纬",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "刚刚！#黄金白银跳水 #现货黄金失守3750关口 美联储加息大消息！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "财联社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "美联储沃勒：12月可能需要加息50个基点“给人们一点震撼”",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "191式自动步枪首次全记录式开箱": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国产20式枪族中191式自动步枪全记录式开箱，一箱5支配50个弹匣。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "191式自动步枪开箱！#媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "为啥APEC在深圳办": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "为啥APEC在深圳办？听一听深圳市民怎么说。深圳的故事是中国改革开放的缩影，也是亚太合作的成功范例。在这里，期待亚太的明天更美好。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【APEC观潮｜深圳的故事，远不止“深圳速度”】“拍照的速度，赶不上建设的速度。”这是一位老摄影师眼中的“深圳速度”。从小渔村长成举办国际盛会的国际化大都市，深",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新时代中国外交思想库",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 英国“社会主义中国之友”网站联合创始人基思·贝内特（Keith Bennett）在《大变局》节目中表示，在深圳举办APEC峰会，向世界传递出一个强烈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC 2026：30亿人的“朋友圈”，亚太合作下一程怎么走？ 2026年APEC深圳峰会本周即将启幕。中国加入APEC35年来，亚太21个经济体、约30亿人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【习言道｜60秒了解APEC为何如此重要】亚太经合组织（APEC）第三十三次领导人非正式会议将于2026年11月18日至19日在广东省深圳市举行。这是中国第三次",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "旅行者1号正式抵达1光日": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "历经49年！人类飞得最远的探测器今天（11月18日）将正式抵达1光日",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "熹天取经",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "人类首次！旅行者一号飞行1光日！史上最远！ #旅行者一号 #一光日 #金唱片 #宇宙探索 #媒体人精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老马探秘社",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "旅行者1号飞到一光天！用时49年…… #旅行者1号 #NASA #宇宙 #天文科普 #探索宇宙",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "\"旅行者1号\"抵达1光日！人类花了49年追上了光1天走的路",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月19日（发布）人类飞得最远探测器旅行者1号正式抵达1光日！1光日=离地球大约259亿公里，飞了49年还没飞出太阳系，随身携带金唱片还标注了地球的坐标！#U",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "国台办评罗大佑批判民进党言论": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国台办评罗大佑近日批判民进党当局言论",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "罗大佑批民进党当局钳制岛内言论，国台办：“文化台独”已激起台湾民众普遍反对。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光明日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国台办评罗大佑近日批判民进党当局言论。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "国台办评罗大佑近日批判民进党当局言论",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看台海",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 罗大佑痛批赖当局钳制言论，于强：民进党大肆推进“文化台独”只会害死台湾。#看台海",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "APEC带给年轻人哪些新机遇": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 APEC新机遇已敲门，年轻人怎么稳稳“接接接”？#财米油盐 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "广东文旅",
-     "verify": "蓝V",
-     "identity": "官方机构",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC盛会即将启幕，深圳全城盛装以待！ #世界之约·广东欢迎你莲花山公园21米“同心聚力、花开亚太”主题绿雕，缤纷花环呼应21个经济体；深南大道花境绵延，AP",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC盛会期间，深圳多个地标幕墙亮灯 。光影里的深圳，正以开放、创新、合作的姿态，迎接八方来宾。（记者：胡拿云、赵瑞希）#聚焦APEC #和合共生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻姐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体人精选计划与中国同行就是与机遇同行！我在中国贸促会主办的2026APEC工商领导人峰会现场 #2026年APEC工商领导人峰会开幕 #深圳人的热情藏不住了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "严苛的训练几乎要了我的命": {
    "stats": {},
@@ -701,22 +649,22 @@
      "hot": 0
     },
     {
-     "name": "游戏板砖",
-     "verify": "",
-     "identity": "",
+     "name": "IShowSpeed",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "夜店改名，同行改档，明星上岗，GTA6的影响力到底有多大？ #R星 #GTA6 #侠盗猎车手6 #rockstar",
+     "text": "我第一次玩 GTA 6！🎮 #ishowspeed #甲亢哥 #gta #gta6",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小明同学",
+     "name": "黑桃没有k",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "悲！GTA6确认在PS5只有30帧 #GTA6",
+     "text": "太梦幻了，R星官方入驻还发视频，今早的实机也被官方确认简直炸圈了#steam游戏 #主机游戏 #gta #gta6",
      "likes": 0,
      "hot": 0
     }
@@ -724,7 +672,151 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我国成功发射实践二十四号卫星": {
+  "橘子海剪影宿命感拉满": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "橘子海",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的爱拿得出手 只是偏爱你不配了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "J1y🧸ྀི",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "试试",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好饿好饿的欢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "习惯了习惯",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Hakuna Matata（🐯关）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI橙红实验情绪人像海报 #光影高级感大片 #男生氛围感情绪片",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "茶茶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI橙红实验情绪人像海报 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "弓長张張",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "悲伤的秋千。#侧颜 #悲伤逆流成河 #珍惜对你好的人下辈子不一定遇见 #AI橙红实验情绪人像海报 #抖音ai创作 @DOU+上热门 @DOU+小助手 @抖音小助",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ㅤ李泽安",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "嘿，有我，别心慌 #射手座 #星座共鸣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "媛媛🛵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "删繁就简，才有余力善待自己。 #AI橙红实验情绪人像海报 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈Connie",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "燃。点燃了我 但选一个 不易起火的阴雨天 #AI橙红实验情绪人像海报 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "水甁蓙 ✨",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "跟风蹭一波，果然很出片🌇#光影慵懒风",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "APEC带给年轻人哪些新机遇": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 APEC新机遇已敲门，年轻人怎么稳稳“接接接”？#财米油盐 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻姐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体人精选计划与中国同行就是与机遇同行！我在中国贸促会主办的2026APEC工商领导人峰会现场 #2026年APEC工商领导人峰会开幕 #深圳人的热情藏不住了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC盛会期间，深圳多个地标幕墙亮灯 。光影里的深圳，正以开放、创新、合作的姿态，迎接八方来宾。（记者：胡拿云、赵瑞希）#聚焦APEC #和合共生",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "旅行者1号正式抵达1光日": {
    "stats": {},
    "authors": [
     {
@@ -733,17 +825,37 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场原声！我国成功发射实践二十四号卫星 发射任务取得圆满成功",
+     "text": "历经49年！人类飞得最远的探测器今天（11月18日）将正式抵达1光日",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小央视频",
-     "verify": "红V",
+     "name": "熹天取经",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "人类首次！旅行者一号飞行1光日！史上最远！ #旅行者一号 #一光日 #金唱片 #宇宙探索 #媒体人精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老马探秘社",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "旅行者1号飞到一光天！用时49年…… #旅行者1号 #NASA #宇宙 #天文科普 #探索宇宙",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙视新闻",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场视频！我国成功发射实践二十四号卫星 #总台记者在现场",
+     "text": "11月19日（发布）人类飞得最远探测器旅行者1号正式抵达1光日！1光日=离地球大约259亿公里，飞了49年还没飞出太阳系，随身携带金唱片还标注了地球的坐标！#U",
      "likes": 0,
      "hot": 0
     },
@@ -753,64 +865,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 今天（19日）6时51分，我国成功发射实践二十四号卫星，发射任务取得圆满成功！（央视频号：总台电视资讯）#直击第一线",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我国成功发射实践二十四号卫星",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社电视",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我国成功发射实践二十四号卫星#人造卫星 #中国航天 #卫星",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "APEC伙伴相约深圳": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC伙伴相约深圳！跟随#大国外交最前线 来会见现场看一看。#媒体原创 #和合共生#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场画面！泰国总理阿努廷抵达深圳 随行人员拎着大包小包走下舷梯 抱着必出片的决心 掏出手机疯狂拍拍拍#微观深圳APEC #热点零距离 #直击第一线 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巴布亚新几内亚总理马拉佩11月16日抵达深圳，将出席亚太经合组织第三十三次领导人非正式会议。（记者：赵瀚泽、王瑞平、黄国保）#媒体原创 #聚焦APEC #和合共",
+     "text": "#媒体原创 旅行者1号抵达1光日，49年还没飞出太阳系？历经49年飞行，人类飞得最远的探测器——旅行者1号抵达1光日。#全释硬科技 ，揭秘人类投向宇宙的漂流瓶。",
      "likes": 0,
      "hot": 0
     }
@@ -848,6 +903,63 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "慌啥子嘛。吃好喝好，生活就不慌！一顿热饭下肚，啥子事都慢半拍再说。#走马上任 #赵本山慌啥子 #民间生活大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国台办评罗大佑批判民进党言论": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国台办评罗大佑近日批判民进党当局言论",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "罗大佑批民进党当局钳制岛内言论，国台办：“文化台独”已激起台湾民众普遍反对。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "光明日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国台办评罗大佑近日批判民进党当局言论。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看台海",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 罗大佑痛批赖当局钳制言论，于强：民进党大肆推进“文化台独”只会害死台湾。#看台海",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国台办评罗大佑近日批判民进党当局言论",
      "likes": 0,
      "hot": 0
     }
@@ -909,6 +1021,214 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "我国成功发射实践二十四号卫星": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场原声！我国成功发射实践二十四号卫星 发射任务取得圆满成功",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！我国成功发射实践二十四号卫星 #总台记者在现场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 今天（19日）6时51分，我国成功发射实践二十四号卫星，发射任务取得圆满成功！（央视频号：总台电视资讯）#直击第一线",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国成功发射实践二十四号卫星",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "山西日报",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我国成功发射实践二十四号卫星 #太原卫星发射中心 #卫星",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "蔡国庆走秀时意外摔倒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "珠宝人倩爷（二胎带娃中）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谢幕的时候蔡国庆老师狠狠摔了一跤 现场地面真的很滑，安全第一#盛典高光时刻 #盖娅传说 #蔡国庆 #秀场直击",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "哈尔滨日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "58岁蔡国庆走秀摔倒却坚持走完台步，起身后身形不稳，手捂腹部。周迅上前搀扶，谢娜满脸担忧。#蔡国庆#走秀#谢娜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#58岁蔡国庆走秀时滑倒，捂着腹部起身，身形不稳但神志清醒，#周迅 等人搀扶，#谢娜 凑近询问身体情况，网友纷纷喊话务必去医院检查！#蔡国庆",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "当甲亢哥第一次玩GTA6": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "IShowSpeed",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我第一次玩 GTA 6！🎮 #ishowspeed #甲亢哥 #gta #gta6",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "青稚的神图真有了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天霸青稚",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神图有了#天霸青稚 #神图有了 #热点趋势策划人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "放扬的心心",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "坏消息：鞋子崩了 好消息：神图有了 #万万没想到",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "勇闯21世纪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "适合废片的bgm来了 #青稚 #神图 #神本无相",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "天霸电子竞技俱乐部",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神图有了#神图 #职业选手 #和平精英",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "打工测评师傅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "难道青稚他真是天生互联网圣体？！这人怎么能这么多梗 #青稚 #神图有了 #后会友期#后会友期友情品鉴团 #影娱热点团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "甘肃文旅GCT",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太好了！甘甘的神图有了！ #后会友期 #青稚 #神图有了 #甘肃美景 #甘肃文旅集团",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "网格预言家",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "诡秘拍的废片有救了 神在哪 神在拍照 #后会友期 #神图有了 #青稚 #摄影技巧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好柿花生",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来青稚的神图有了是幸福有了#后会友期 #青稚 #张萌马天宇",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一二（成都约拍）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谢谢青稚 校园神图真的有了 #校园 #青春 #谢谢青稚神图有了 #热点趋势策划人 #抖音摄影美学大赏",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "两京十五日白龙挂画面封神": {
    "stats": {},
    "authors": [
@@ -939,23 +1259,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "抓住我！#成毅 #两京十五日 #两京十五日极限回京太刺激",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当甲亢哥第一次玩GTA6": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "IShowSpeed",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我第一次玩 GTA 6！🎮 #ishowspeed #甲亢哥 #gta #gta6",
      "likes": 0,
      "hot": 0
     }
@@ -1040,276 +1343,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "伊能静能不能常驻后会友期": {
+  "Donk瓦场悟道": {
    "stats": {},
    "authors": [
     {
-     "name": "明明就（ing",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "说白了，伊能静老师多来两期｜后会友期x伊能静｜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奈.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个节目终于迎来懂它的人了 伊能静老师#伊能静 #许飞 #厉娜 #纯稚 #后会友期",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "满满多多吖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "说出了多少观众心里话啊 伊能静姐姐真是说出了这么几期大家的心里话。太对了#许飞 #后会友期 #厉娜 #许飞厉娜 #伊能静",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小猫律动舞我能看一天": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一只橘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "回家有🐱给我跳舞#萌宠出道计划 #骗你养猫系列 #剪映 #金渐层 #橘猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "秋七序",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "苗条小咪 在线热舞 #小猫 #ai律动 #舞蹈 #橘猫 #瘦瘦瘦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "悲观主义者",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不要用一句ai就否定小猫的所有努力 #猫咪 #律动舞 #持刀律动舞 #喵生哲学 #ai小猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一栗年年",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "舞动小猫#毛孩子律动舞萌翻了 #治愈系萌宠瞬间",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "胖胖虎",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啊啊啊 黄毛跳舞 #毛孩子律动舞萌翻了 #大橘为重 #橘猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "欣的",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "欣的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蜂蜜是甜的",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#当代年轻人的工位 #萌物制造 #电脑上长猫了 #键盘上的哈基米 #电脑长猫了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "1.2万人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "从我舍友身上下来行不行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北叙星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别跳了，一会导员来了#大学生教室 #大学生的课堂精神状态 #大学生上自习",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "昕丂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "猫猫踩疼了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的未来存款让我富了三秒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "天空飘来五个字❤️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天空飘来五个字❤️",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Nar",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#慵懒松弛感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小美美眉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小美美眉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "❄️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我同事说了啥？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "keke乐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#测一测 #你未来会有多少存款",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "登贝莱叫你上号玩GTA6": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "蔡国庆走秀时意外摔倒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "哈尔滨日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "58岁蔡国庆走秀摔倒却坚持走完台步，起身后身形不稳，手捂腹部。周迅上前搀扶，谢娜满脸担忧。#蔡国庆#走秀#谢娜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#58岁蔡国庆走秀时滑倒，捂着腹部起身，身形不稳但神志清醒，#周迅 等人搀扶，#谢娜 凑近询问身体情况，网友纷纷喊话务必去医院检查！#蔡国庆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日（发布），58岁的蔡国庆走秀时意外摔倒，整个人扑倒在羽毛堆里，但神志清醒 并摆手示意周围人不用紧张，谢娜立刻从座位上站起满脸担忧，周迅 李斯丹妮等也",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "忘情牛肉面舞蹈大赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "不齐舞团",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你们还想看我们抓谁 #忘情牛肉面 #忘情牛肉面舞蹈大赛 #抖音潮流舞蹈大赛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "两京十五日定档11月20日": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "两京十五日（1120夺回一切",
+     "name": "无畏契约",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#两京十五日定档1120 成大事者，要跑得快！#两京十五日 #成毅",
+     "text": "困难靶27/30 donk首次打瓦试玩狐狸套#无畏契约 #donk把天赋带到无畏契约 #donk首次打瓦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "显卡不要停",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《TOP1都干了》载物打粥，Donk打瓦 #donk #zywoo #绿龙 #无畏契约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "情报马（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "donk居然打瓦了！ #无畏契约 #情报马 #donk #电子竞技",
      "likes": 0,
      "hot": 0
     }
@@ -1317,36 +1380,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "摆摊规矩立住了才能不烧心": {
+  "王子璇称无法接受文吉儿背刺": {
    "stats": {},
    "authors": [
     {
-     "name": "小海锅生活记",
+     "name": "非常规碎碎念",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "先把规矩立住才能摆的不烧心 我摆摊从来不和同行卷谁的分量多，只要食材新鲜干净卫生，就不怕没人吃，有人愿意吃我就做，吃腻了就换地方。#不烧心 #摆摊创业的真实经历",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "闲娱日记本",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现实版随机摆摊：满城食客到处追 至今不知道老板身上绑定了什么系统#路边摊 #摆摊 #娱乐 #搞笑 #大厨",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "冲浪少女杨美丽（摩登野马版）",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "满城食客到处追也是在现实上演了 #摆摊 #路边摊美味 #内卷 （cr：@小海锅生活记）",
+     "text": "张萌说日久见人心#张萌 #王子璇 #文吉儿 #后会友期",
      "likes": 0,
      "hot": 0
     }
@@ -1354,106 +1397,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "超级棒棒糖给我神奇的力量": {
+  "华为Mate 90 Air抢先开箱": {
    "stats": {},
    "authors": [
     {
-     "name": "鸭ya",
+     "name": "科技小康",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "超级棒棒糖🍭",
+     "text": "华为Mate90Air开箱体验，太薄了 #华为Mate90Air #华为Mate90系列 #华为Mate90 #数码科技 #Mate一起发光吧",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "点点",
+     "name": "怪咖学徒",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "如果没有超级棒棒糖 还有友情来帮忙。#女儿",
+     "text": "华为Mate90Air到啦！来开个箱~ #华为Mate90Air #华为Mate90 #开箱 #用鸿蒙的亿点理由 #数码科技",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小小团子",
+     "name": "HunD贺天",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "如果没有超级棒棒糖🍭#人类幼崽 #萌娃日常 #治愈宝宝已上线 #骗你生娃系列",
+     "text": "华为Mate90Air到手了！简单开个箱，来看看到底是直屏还是曲屏呢#华为Mate90Air #华为Mate90 #开箱 #数码科技 #开箱视频",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "累了就出去玩": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "许弱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "雪糕糕🍦",
+     "name": "_09",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "超级棒棒糖 给我神奇的力量 #猫咪#萌宠出道计划",
+     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "2胖",
+     "name": "博不会跑",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "超级棒棒糖 给我神奇的力量",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "癫狂大菠萝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“如果没有超级棒棒糖 还有友情来帮忙.” #超级棒棒糖 #转场 #猪猪侠 原创@镜间像 素材@伊伊 #超级棒棒糖披着彩虹的光芒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱喝果汁",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "以为棒棒糖是道具 其实是我在囤物资@骆驼羽绒服旗舰店 #果汁儿编舞 #超级棒棒糖 #猪猪侠 #骆驼黑钻pro羽绒服 #骆驼羽绒服",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lin ㅤ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如果没有超级棒棒糖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "进击的小宋",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如果没有超级棒棒糖 会不会超级帮忙.#超级棒棒糖",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人善变人机ʕ•̫͡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#一只小土狗 #超级棒棒糖 #狗狗",
+     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
      "likes": 0,
      "hot": 0
     }
@@ -1682,181 +1692,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王子璇称无法接受文吉儿背刺": {
+  "全女综艺峨眉山开录了": {
    "stats": {},
    "authors": [
     {
-     "name": "非常规碎碎念",
+     "name": "大板凳娱乐",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "张萌说日久见人心#张萌 #王子璇 #文吉儿 #后会友期",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "Donk瓦场悟道": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "无畏契约",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "困难靶27/30 donk首次打瓦试玩狐狸套#无畏契约 #donk把天赋带到无畏契约 #donk首次打瓦",
+     "text": "峨眉山来了群女弟子 好期待大家会擦出怎么样的火花！！ #峨眉山来了群女弟子 #综艺 #峨眉山 #路透 #全女",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "显卡不要停",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《TOP1都干了》载物打粥，Donk打瓦 #donk #zywoo #绿龙 #无畏契约",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "情报马（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "donk居然打瓦了！ #无畏契约 #情报马 #donk #电子竞技",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "华为Mate 90 Air抢先开箱": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "科技小康",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "华为Mate90Air开箱体验，太薄了 #华为Mate90Air #华为Mate90系列 #华为Mate90 #数码科技 #Mate一起发光吧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "怪咖学徒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "华为Mate90Air到啦！来开个箱~ #华为Mate90Air #华为Mate90 #开箱 #用鸿蒙的亿点理由 #数码科技",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "HunD贺天",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "华为Mate90Air到手了！简单开个箱，来看看到底是直屏还是曲屏呢#华为Mate90Air #华为Mate90 #开箱 #数码科技 #开箱视频",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "累了就出去玩": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "许弱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "_09",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "博不会跑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "76人121:116战胜魔术": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "NBA",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#詹姆斯两传一射主导逆转 把客场打成了主场吗？詹姆斯关键时刻接管比赛，不看人妙传助VJ命中反超三分，被放空后中投也稳稳命中！最后回合老詹再助西蒙斯命中三分锁定胜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕篮球",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#詹姆斯关键时刻一传一射 ，法拉利老了还是法拉利！#76人战胜魔术 #76人关键球11胜0负 #NBA",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "恩比德大帽卡特，VJ压哨中投，76人第二节结束时刻抢成2换1，单节净胜魔术8分，将分差迫近到5分 #恩比德大帽卡特 #VJ半场压哨中投 #76人单节净胜8分 #",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "专访BLG冠军成员Xun父亲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "风芒新闻",
+     "name": "四川观察",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 湖南伢子到世界“打野”击败韩国GEN战队 2026英雄联盟全球总决赛 BLG夺冠 彭立勋父亲：我不懂游戏 儿子进战队才关注 “现在对英雄联盟游戏规则",
+     "text": "11月18日，《峨眉山来了群女弟子》集结八位女艺人，在峨眉山正式开录。白百何、蔡文静、金晨、刘涛、秦岚、沈羽洁、宋雨琦、虞书欣将与峨眉武术非遗传承人凌云在此开启",
      "likes": 0,
      "hot": 0
     }
@@ -1874,90 +1729,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "云还在，花会开，好运总会为你而等待…#人生感悟分享 #创作者中心 #创作灵感 #记录生活 #慌啥子嘛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "徐通已安全抵达迈阿密": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "AirChina徐通",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "等了6年！终于来了！迈阿密见兄弟们！@是瑶瑶呐 #gta6",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "没人能拒绝下雪天的哈尔滨": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "哈尔滨欣欣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈尔滨今天鹅毛大雪！#索非亚大教堂 #哈尔滨圣索菲亚教堂广场 #哈尔滨下雪了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黑龙江大学",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天尔滨的雪，你看到了吗？ 我在黑龙江大学看到大雪啦！ #雪 #哈尔滨 #哈尔滨初雪开启冬日浪漫 #黑龙江大学 #校园",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电气昊子📷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没有人能拒绝下雪天的哈尔滨 #哈尔滨 #下雪了 #冬天 #旅行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "指尖上的城市",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11.18凌晨 哈尔滨下雪了 #哈尔滨 #下雪的哈尔滨 #下雪 #中央大街",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晓岚不是晓岗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026 11.18 赶上了哈尔滨的第一场雪❄️ #哈尔滨索菲亚教堂 #哈尔滨初雪 #初雪穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "航拍高端领域 景区推荐官",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下雪哈尔滨中央大街 #哈尔滨下雪了 #哈尔滨暴雪 #哈尔滨中央大街",
      "likes": 0,
      "hot": 0
     }
@@ -2002,106 +1773,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "潇洒走在银杏树下": {
+  "小猫律动舞我能看一天": {
    "stats": {},
    "authors": [
     {
-     "name": "小爱汾洲老酒坊永康红绿灯东南50米",
+     "name": "一只橘",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#银杏树下的国风 #",
+     "text": "回家有🐱给我跳舞#萌宠出道计划 #骗你养猫系列 #剪映 #金渐层 #橘猫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "简单",
+     "name": "秋七序",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "一路看秋景，满心都是喜…#银杏黄了#银杏古风写真 #潇洒走一回#剪同款",
+     "text": "苗条小咪 在线热舞 #小猫 #ai律动 #舞蹈 #橘猫 #瘦瘦瘦",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "💞梅姐℘࿐ᩚ",
+     "name": "悲观主义者",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#时尚 #秋日汉服穿搭",
+     "text": "不要用一句ai就否定小猫的所有努力 #猫咪 #律动舞 #持刀律动舞 #喵生哲学 #ai小猫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "朱树芳",
+     "name": "一栗年年",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "朱树芳",
+     "text": "舞动小猫#毛孩子律动舞萌翻了 #治愈系萌宠瞬间",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "可🌸爱🌹的🍒小❤️仙🎄女",
+     "name": "胖胖虎",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#秋日汉服穿搭",
+     "text": "啊啊啊 黄毛跳舞 #毛孩子律动舞萌翻了 #大橘为重 #橘猫",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "涓涓细流",
+     "name": "蜂蜜是甜的",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#银杏树下的国风",
+     "text": "#当代年轻人的工位 #萌物制造 #电脑上长猫了 #键盘上的哈基米 #电脑长猫了",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "云朵（没回就是限评了）",
+     "name": "欣的",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#汉服遇上银杏",
+     "text": "欣的",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "李晓",
+     "name": "1.2万人",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "秋天一过，迎来的冬，开心快乐每一天！",
+     "text": "从我舍友身上下来行不行",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "美美（拒私聊）",
+     "name": "北叙星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#汉服穿出去才是传承 #感受汉服复兴浪潮 ✌✌✌✌",
+     "text": "别跳了，一会导员来了#大学生教室 #大学生的课堂精神状态 #大学生上自习",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "含羞草《张红梅》",
+     "name": "昕丂",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#感受汉服复兴浪潮 #银杏树下的国风 美美的特效来一个😊自娱自乐🌹",
+     "text": "猫猫踩疼了",
      "likes": 0,
      "hot": 0
     }
@@ -2109,26 +1880,378 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "全女综艺峨眉山开录了": {
+  "76人121:116战胜魔术": {
    "stats": {},
    "authors": [
     {
-     "name": "大板凳娱乐",
-     "verify": "",
-     "identity": "",
+     "name": "NBA",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "峨眉山来了群女弟子 好期待大家会擦出怎么样的火花！！ #峨眉山来了群女弟子 #综艺 #峨眉山 #路透 #全女",
+     "text": "#詹姆斯两传一射主导逆转 把客场打成了主场吗？詹姆斯关键时刻接管比赛，不看人妙传助VJ命中反超三分，被放空后中投也稳稳命中！最后回合老詹再助西蒙斯命中三分锁定胜",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "四川观察",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月18日，《峨眉山来了群女弟子》集结八位女艺人，在峨眉山正式开录。白百何、蔡文静、金晨、刘涛、秦岚、沈羽洁、宋雨琦、虞书欣将与峨眉武术非遗传承人凌云在此开启",
+     "text": "#詹姆斯关键时刻一传一射 ，法拉利老了还是法拉利！#76人战胜魔术 #76人关键球11胜0负 #NBA",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恩比德大帽卡特，VJ压哨中投，76人第二节结束时刻抢成2换1，单节净胜魔术8分，将分差迫近到5分 #恩比德大帽卡特 #VJ半场压哨中投 #76人单节净胜8分 #",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "忘情牛肉面舞蹈大赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "不齐舞团",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们还想看我们抓谁 #忘情牛肉面 #忘情牛肉面舞蹈大赛 #抖音潮流舞蹈大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "摆摊规矩立住了才能不烧心": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小海锅生活记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "先把规矩立住才能摆的不烧心 大家好，我就是那个摆摊8年反内卷随机摆摊的摊主。#摆摊创业的真实经历 #真实生活分享计划 #小海锅美食屋 #小海锅生活记 @抖音小助",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "闲娱日记本",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现实版随机摆摊：满城食客到处追 至今不知道老板身上绑定了什么系统#路边摊 #摆摊 #娱乐 #搞笑 #大厨",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "超级棒棒糖给我神奇的力量": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "鸭ya",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超级棒棒糖🍭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "点点",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果没有超级棒棒糖 还有友情来帮忙。#女儿",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小小团子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果没有超级棒棒糖🍭#人类幼崽 #萌娃日常 #治愈宝宝已上线 #骗你生娃系列",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雪糕糕🍦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超级棒棒糖 给我神奇的力量 #猫咪#萌宠出道计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "2胖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "超级棒棒糖 给我神奇的力量",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "癫狂大菠萝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“如果没有超级棒棒糖 还有友情来帮忙.” #超级棒棒糖 #转场 #猪猪侠 原创@镜间像 素材@伊伊 #超级棒棒糖披着彩虹的光芒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱喝果汁",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "以为棒棒糖是道具 其实是我在囤物资@骆驼羽绒服旗舰店 #果汁儿编舞 #超级棒棒糖 #猪猪侠 #骆驼黑钻pro羽绒服 #骆驼羽绒服",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Lin ㅤ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果没有超级棒棒糖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人善变人机ʕ•̫͡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#一只小土狗 #超级棒棒糖 #狗狗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "进击的小宋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果没有超级棒棒糖 会不会超级帮忙.#超级棒棒糖",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "提线木偶转场集齐了影视回忆杀": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "赵圆瑗",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的背后有很多个“我”（你是从哪个角色认识我的呢）#提线木偶 #提线人偶转场挑战 #一追就上头 #回忆杀 #旋风少女",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "方晓莉",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赶个时髦，我也做一个玩玩 #提线人偶转场挑战 #言皇后 #琅琊榜 #提线木偶 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海陆",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这次回宫，到底哪个“我”才是那个被牵着走的人？#提线木偶 #提线人偶转场挑战 #一追就上头",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "斓曦",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的背后，还有无数个“我” #提线木偶 #曦欢不一样",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "张晓龙",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "赶个时髦 #提线人偶转场挑战 #提线木偶 #一追就上头 #提线人偶转场挑战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "强哥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大嫂和强哥的来了#高启强#大嫂#陈舒婷#提线木偶",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ヽ兜兜里囿糖.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#甜美暴击现场 #提线木偶",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "演员杨凯淳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "到底谁操控谁？哪个才是真的我？ #提线人偶转场挑战 #提线木偶 #甄嬛传 #女演员 #剪秋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "万美汐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "还有谁不知道，欣贵人背后有“娘家人”啊？ #提线木偶#甄嬛传#欣贵人#汉尼拔#提线人偶转场挑战",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的未来存款让我富了三秒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天空飘来五个字❤️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天空飘来五个字❤️",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Nar",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#慵懒松弛感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小美美眉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小美美眉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "❄️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我同事说了啥？",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "keke乐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#测一测 #你未来会有多少存款",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "伊能静能不能常驻后会友期": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "明明就（ing",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "说白了，伊能静老师多来两期｜后会友期x伊能静｜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "奈.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这个节目终于迎来懂它的人了 伊能静老师#伊能静 #许飞 #厉娜 #纯稚 #后会友期",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "满满多多吖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "说出了多少观众心里话啊 伊能静姐姐真是说出了这么几期大家的心里话。太对了#许飞 #后会友期 #厉娜 #许飞厉娜 #伊能静",
      "likes": 0,
      "hot": 0
     }
@@ -2156,6 +2279,23 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "等了 5 年的 gta6 来了，先谈谈游玩的半个小时，首先画质很高，在 ps5 呈现的效果感觉比我 2k 全高的大表哥还好，但 30 帧确实看起来卡卡的，我个人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "两京十五日定档11月20日": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "两京十五日（1120夺回一切",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#两京十五日定档1120 成大事者，要跑得快！#两京十五日 #成毅",
      "likes": 0,
      "hot": 0
     }
@@ -2237,22 +2377,22 @@
      "hot": 0
     },
     {
-     "name": "菲菲有点辣🌶🌶🌶🌶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "菲菲有点辣🌶🌶🌶🌶",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "记忆流年、早已不记得往昔",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#时代的变化剩下的都是回忆 #致我们终已逝去的纯真年代 #致回不去的青春留不住的岁月",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "菲菲有点辣🌶🌶🌶🌶",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "菲菲有点辣🌶🌶🌶🌶",
      "likes": 0,
      "hot": 0
     },
@@ -2270,16 +2410,66 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "多喜一家人中式亲情的含蓄": {
+  "没人能拒绝下雪天的哈尔滨": {
    "stats": {},
    "authors": [
     {
-     "name": "多喜一家人（青阳里街坊吃瓜中",
+     "name": "哈尔滨欣欣",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈尔滨今天鹅毛大雪！#索非亚大教堂 #哈尔滨圣索菲亚教堂广场 #哈尔滨下雪了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黑龙江大学",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#多喜一家人 孩子还没长大，父亲怎么能先离开#梁冠华 #迟兴楷",
+     "text": "今天尔滨的雪，你看到了吗？ 我在黑龙江大学看到大雪啦！ #雪 #哈尔滨 #哈尔滨初雪开启冬日浪漫 #黑龙江大学 #校园",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电气昊子📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没有人能拒绝下雪天的哈尔滨 #哈尔滨 #下雪了 #冬天 #旅行",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "指尖上的城市",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11.18凌晨 哈尔滨下雪了 #哈尔滨 #下雪的哈尔滨 #下雪 #中央大街",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晓岚不是晓岗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026 11.18 赶上了哈尔滨的第一场雪❄️ #哈尔滨索菲亚教堂 #哈尔滨初雪 #初雪穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "航拍高端领域 景区推荐官",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "下雪哈尔滨中央大街 #哈尔滨下雪了 #哈尔滨暴雪 #哈尔滨中央大街",
      "likes": 0,
      "hot": 0
     }
