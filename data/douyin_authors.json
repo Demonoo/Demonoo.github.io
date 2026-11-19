@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-19 05:38",
+ "updated_at": "2026-11-19 06:40",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 47,
+ "ok_count": 48,
  "lexicon_count": 0,
  "topics": {
   "中美元首在深圳会晤": {
@@ -16,6 +16,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "大国外交进行时",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场视频！习近平会见美国总统特朗普#聚焦APEC #和合共生",
      "likes": 0,
      "hot": 0
     }
@@ -32,17 +42,7 @@
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场视频！习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社消息｜习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话#媒体原创 #聚焦APEC #和合共生",
+     "text": "现场视频！习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话。#媒体原创",
      "likes": 0,
      "hot": 0
     },
@@ -53,6 +53,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "毛宁发布现场图：习近平与普京特朗普同框 #APEC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "马斯克：我是中国的超级粉丝！ （来源：央视财经）",
      "likes": 0,
      "hot": 0
     },
@@ -102,16 +112,6 @@
      "text": "全球30亿人都在盯着这场会议到底要聊什么！#APEC #国际形势 #燃起来了大国重器 #真财实学计划",
      "likes": 0,
      "hot": 0
-    },
-    {
-     "name": "小龙新说",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC明明叫“非正式会议”，为什么规格这么高？从一段有趣的历史，到普通人的购物车，带你读懂APEC的分量。#2026深圳APEC #APEC为什么叫非正式会议",
-     "likes": 0,
-     "hot": 0
     }
    ],
    "lexicon": [],
@@ -131,113 +131,22 @@
      "hot": 0
     },
     {
+     "name": "中新社国是直通车",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "欢迎晚宴合影期间 普京和特朗普互动握手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "齐鲁晚报·果然视频",
      "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "11月18日晚，在亚太经合组织第三十三次领导人非正式会议欢迎晚宴上，集体合影期间，普京和特朗普互动握手。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "累了就出去玩": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "许弱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "_09",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "博不会跑",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "APEC美食硬控各国来宾": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "闪电新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月18日，深圳。本次APEC会议吸引了全球4000多名记者参与报道，其中外媒记者多达2000多人。新闻中心餐饮不仅兼顾世界口味与岭南特色，还在菜",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "普京到访深圳高校发表演讲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "起底",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "普京在深北莫发表演讲 俄罗斯总统普京此次深圳之行，专程前往中俄合作办学的深圳北理莫斯科大学，并发表演讲。我们在现场，一起来看看↓↓↓#和合共生 #大白话讲新闻 ",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场视频！俄罗斯总统普京到访深圳北理莫斯科大学并发表演讲 离场时向台下听众挥手致意#微观深圳APEC #热点零距离 #直击第一线 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ToSun记者团",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中俄学子：这所中俄联合创办的大学，真的很不错#深圳北理莫斯科大学 #中俄 #俄罗斯 #热点",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中俄首所联合大学，普京参观深圳北理莫斯科大学，并发表讲话",
      "likes": 0,
      "hot": 0
     }
@@ -282,26 +191,53 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "为啥APEC在深圳办": {
+  "第五人格S46赛季正式开启": {
    "stats": {},
    "authors": [
     {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "橘子小猫",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "为啥APEC在深圳办？听一听深圳市民怎么说。深圳的故事是中国改革开放的缩影，也是亚太合作的成功范例。在这里，期待亚太的明天更美好。#媒体原创",
+     "text": "一分钟看完11月-12月所有排期‼️ #第五人格 #第五人格庄园速递 #就这个第五人格爽 #第五人格分歧点 #游戏破壁计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小央视频",
+     "name": "鱼笙笙（第五人格小鱼）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "所有人明日更新后务必注意的三件事‼️",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "昱昱（第五人格）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "第四十六赛季精华一正式开启！周四更新内容抢先看！#第五人格 #就这个第五人格爽 #第五人格庄园速递 #第五人格加页手记 #第五人格PerVade女团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "APEC美食硬控各国来宾": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "闪电新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【APEC观潮｜深圳的故事，远不止“深圳速度”】“拍照的速度，赶不上建设的速度。”这是一位老摄影师眼中的“深圳速度”。从小渔村长成举办国际盛会的国际化大都市，深",
+     "text": "#媒体原创 11月18日，深圳。本次APEC会议吸引了全球4000多名记者参与报道，其中外媒记者多达2000多人。新闻中心餐饮不仅兼顾世界口味与岭南特色，还在菜",
      "likes": 0,
      "hot": 0
     }
@@ -353,12 +289,76 @@
      "hot": 0
     },
     {
-     "name": "央视新闻",
+     "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场视频！美国总统特朗普抵达深圳。#媒体原创",
+     "text": "11月18日下午，美国总统特朗普乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "为啥APEC在深圳办": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "为啥APEC在深圳办？听一听深圳市民怎么说。深圳的故事是中国改革开放的缩影，也是亚太合作的成功范例。在这里，期待亚太的明天更美好。#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【APEC观潮｜深圳的故事，远不止“深圳速度”】“拍照的速度，赶不上建设的速度。”这是一位老摄影师眼中的“深圳速度”。从小渔村长成举办国际盛会的国际化大都市，深",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "累了就出去玩": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "许弱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "_09",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "博不会跑",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "累了就出去玩 不要整天发那些像离了婚一样的东西",
      "likes": 0,
      "hot": 0
     }
@@ -390,16 +390,6 @@
      "hot": 0
     },
     {
-     "name": "第一财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "黄金仍在跌！18日亚太时段，现货黄金失守3800美元！国内品牌金饰价格跟着连跌七日，各大主流品牌金饰克价较年内高点回撤已超550元，跌幅超30%。以今天的报价来",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "璐哥看透彻",
      "verify": "",
      "identity": "",
@@ -410,12 +400,22 @@
      "hot": 0
     },
     {
-     "name": "大象新闻",
+     "name": "唐子棋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "此次黄金下跌，到底是泡沫被戳破了，还是洗牌洗出了新机会？这轮黄金过山车，谁在看戏，谁在交学费？ #唐子棋 #财经 #燃起来了大国重器 #真才实学计划 #黄金",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第一财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现货黄金盘中跌破3800美元/盎司，创一年以来新低，截至11月18日10:06分报3797.89美元/盎司（编辑：嘉忆）",
+     "text": "黄金仍在跌！18日亚太时段，现货黄金失守3800美元！国内品牌金饰价格跟着连跌七日，各大主流品牌金饰克价较年内高点回撤已超550元，跌幅超30%。以今天的报价来",
      "likes": 0,
      "hot": 0
     }
@@ -423,56 +423,76 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "俄美专机在深圳机场同框": {
+  "一条视频读懂APEC": {
    "stats": {},
    "authors": [
     {
-     "name": "玉渊谭天",
+     "name": "经济日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "从堪培拉到深圳！45秒带你了解什么是APEC？#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "混子哥边画边讲",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "混子哥边画边讲：中国凭什么要加入APEC #上抖音看APEC #热点零距离 #APEC #apec会议 #零基础看懂全球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小强快评",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一条视频读懂APEC为什么选在大湾区？ #媒体精选计划 #APEC #APEC在广东 #小强深读APEC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "东张西望",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC感悟 ：世界的算法变了 #热点解读看财经 #媒体原创 #APEC #热点零距离 #深圳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "郭晶晶博士",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一文了解APEC，3000年金融史，全球经济重心如何变迁？基于APEC平台，中国外贸和人民币国际化还会有更多好消息~#全球100个产业揭秘#燃起来了大国重器 #",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "聊一波@王波明",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【俄美专机在中国机场同框】 11月18日至19日，亚太经合组织（APEC）第三十三次领导人非正式会议在深圳举行。俄罗斯政府专机伊尔-96、美国政府专机“空军一号",
+     "text": "盛会落地深圳，考验的不只是城市的国际影响力，更是金融、医疗、保险等服务世界的能力。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "齐鲁晚报·果然视频",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日至19日，亚太经合组织（APEC）第三十三次领导人非正式会议在深圳举行。俄罗斯政府专机伊尔-96、美国政府专机“空军一号”在深圳宝安国际机场同框。（",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
+     "name": "广东卫视",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "现场视频！美国总统特朗普抵达深圳。#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日下午，美国总统特朗普乘专机抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 现场直击！美国总统特朗普抵达深圳，中国女保镖车队旁等待#微观深圳APEC #媒体精选计划 #热点零距离",
+     "text": "APEC这场家门口的国际盛会，谈的是亚太的大格局，落的是你我的日常。#APEC #深圳",
      "likes": 0,
      "hot": 0
     }
@@ -654,113 +674,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "没人能拒绝下雪天的哈尔滨": {
+  "GTA6新手攻略": {
    "stats": {},
    "authors": [
-    {
-     "name": "哈尔滨欣欣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈尔滨今天鹅毛大雪！#索非亚大教堂 #哈尔滨圣索菲亚教堂广场 #哈尔滨下雪了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黑龙江大学",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天尔滨的雪，你看到了吗？ 我在黑龙江大学看到大雪啦！ #雪 #哈尔滨 #哈尔滨初雪开启冬日浪漫 #黑龙江大学 #校园",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "电气昊子📷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "没有人能拒绝下雪天的哈尔滨 #哈尔滨 #下雪了 #冬天 #旅行",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "指尖上的城市",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11.18凌晨 哈尔滨下雪了 #哈尔滨 #下雪的哈尔滨 #下雪 #中央大街",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晓岚不是晓岗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026 11.18 赶上了哈尔滨的第一场雪❄️ #哈尔滨索菲亚教堂 #哈尔滨初雪 #初雪穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "航拍高端领域 景区推荐官",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下雪哈尔滨中央大街 #哈尔滨下雪了 #哈尔滨暴雪 #哈尔滨中央大街",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "GTA6游戏测评": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "游戏人阿管",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全网首发，GTA6实况，洛圣都的故事讲完了，这次是迈阿密 #GTA6 #4k60帧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "IGN中国",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "10分，《GTA 6》评测：这个时代最伟大的游戏 《GTA 6》没有缺点吗？那当然不是，例如它仅有30帧的画面。但玩家们等待了十三年，对游戏的预期已经无形中被拔",
-     "likes": 0,
-     "hot": 0
-    },
     {
      "name": "大能猫",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "GTA6开局地图全黑？偷这架飞机最快开完 Jason家北边一公里多就有架双翼喷药机，偷了不通缉，没油飞回原跑道还能再刷一架 #gta6 #侠盗猎车手6 #gta",
+     "text": "万字详解GTA6全部30大系统：这回整座城都会还手 34分钟把GTA6拆成30个系统，你最期待哪一个？ #gta6 #侠盗猎车手6 #gta6攻略 #抖音精选a",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "鲸鱼不忿",
+     "name": "小猪的忧郁",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "《GTA6》媒体评分解禁 Mc站98家媒体均分99分，IGN给出了10分，大家12点准时相约迈阿密！ #GTA6 #R星 #ps5 #主机游戏 #单机游戏",
+     "text": "全网首发 GTA6高跟鞋速通 指南 #GTA6 #搞笑 #速通",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱打电动的辣椒油",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今晚玩gta6前需要注意的几件事 #gta6 #gta #steam",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "星宇carry",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "GTA6深度测评！游戏是满分游戏！但是它真的不够完美！ #gta6 #游戏测评 #主机游戏 #新游鉴赏家",
      "likes": 0,
      "hot": 0
     }
@@ -792,12 +745,59 @@
      "hot": 0
     },
     {
-     "name": "电竞熊猫酱",
-     "verify": "",
-     "identity": "",
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "EDG.ZmjjKK，再见，ZmjjKK，你好。#无畏契约 #vctcn #EDG #zmjjkk #郑永康",
+     "text": "EDG无畏契约官宣郑永康离队：感谢ZmjjKK曾为团队做出的贡献……2024年首尔冠军五人组已全员离队#无畏契约 #EDG#郑永康 #ZmjjKK",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "美联储沃勒称12月或加息50基点": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "21世纪经济报道",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "金银价格持续下跌 美联储理事沃勒称12月或加息50个基点（剪辑：张通）#黄金 #白银 #美联储 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美联储理事克里斯托弗·沃勒周三表示，面对比预期更加顽固、且正在扩散的通胀，美联储可能需要采取更有力度的行动，包括在12月会议上一口气加息50个基点。 “你可能需",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陕视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京时间11月19日凌晨，据财联社报道，美联储最新会议纪要显示，绝大多数官员认为通胀前景存在上行风险，一些官员称12月加息超过25个基点或是合理的，几乎所有官员",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中新经纬",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刚刚！#黄金白银跳水 #现货黄金失守3750关口 美联储加息大消息！",
      "likes": 0,
      "hot": 0
     }
@@ -896,154 +896,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "忘情牛肉面舞蹈大赛": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "不齐舞团",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你们还想看我们抓谁 #忘情牛肉面 #忘情牛肉面舞蹈大赛 #抖音潮流舞蹈大赛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "Donk瓦场悟道": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "无畏契约",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "困难靶27/30 donk首次打瓦试玩狐狸套#无畏契约 #donk把天赋带到无畏契约 #donk首次打瓦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "显卡不要停",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《TOP1都干了》载物打粥，Donk打瓦 #donk #zywoo #绿龙 #无畏契约",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "情报马（无畏契约）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "donk居然打瓦了！ #无畏契约 #情报马 #donk #电子竞技",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "蔡国庆走秀时意外摔倒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "哈尔滨日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "58岁蔡国庆走秀摔倒却坚持走完台步，起身后身形不稳，手捂腹部。周迅上前搀扶，谢娜满脸担忧。#蔡国庆#走秀#谢娜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#58岁蔡国庆走秀时滑倒，捂着腹部起身，身形不稳但神志清醒，#周迅 等人搀扶，#谢娜 凑近询问身体情况，网友纷纷喊话务必去医院检查！#蔡国庆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新闻夜航",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日（发布），58岁的蔡国庆走秀时意外摔倒，整个人扑倒在羽毛堆里，但神志清醒 并摆手示意周围人不用紧张，谢娜立刻从座位上站起满脸担忧，周迅 李斯丹妮等也",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "马斯克随特朗普车队抵达深圳": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场画面！特朗普乘坐专属座驾抵达下榻酒店 马斯克现身随行大巴 #微观深圳APEC #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#特朗普车队抵达深圳东海朗廷酒店 #马斯克现身随行大巴车 #特朗普团队抵达下榻酒店 #媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "长江日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日，特朗普车队抵达深圳酒店，马斯克现身随行大巴车。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "珠江之声fm105.7",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "马斯克来深圳了！低调坐在特朗普随行大巴上。#马斯克 #APEC在广东 #APEC #深圳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普车队抵达深圳东海朗廷酒店，马斯克现身。深圳市民在路边热情围观。#精选主播说 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "GTA6正式上线": {
    "stats": {},
    "authors": [
@@ -1081,93 +933,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "华为Mate 90 Air抢先开箱": {
+  "直击APEC工商领导人峰会": {
    "stats": {},
    "authors": [
     {
-     "name": "科技小康",
-     "verify": "",
-     "identity": "",
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "华为Mate90Air开箱体验，太薄了 #华为Mate90Air #华为Mate90系列 #华为Mate90 #数码科技 #Mate一起发光吧",
+     "text": "2026年APEC工商领导人峰会开幕式 总台央视记者康辉从现场发回报道：这里今天是“一席难求”",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "怪咖学徒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "华为Mate90Air到啦！来开个箱~ #华为Mate90Air #华为Mate90 #开箱 #用鸿蒙的亿点理由 #数码科技",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "HunD贺天",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "华为Mate90Air到手了！简单开个箱，来看看到底是直屏还是曲屏呢#华为Mate90Air #华为Mate90 #开箱 #数码科技 #开箱视频",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "我的未来存款让我富了三秒": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "天空飘来五个字❤️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天空飘来五个字❤️",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Nar",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#慵懒松弛感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小美美眉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小美美眉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "keke乐",
+     "name": "新闻姐",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#测一测 #你未来会有多少存款",
+     "text": "#媒体人精选计划 2026APEC工商领导人峰会，读懂普通人的机会在哪？#APEC峰会有哪些领导人参加 #APEC是什么 #深圳人的热情藏不住了 #热点零距离",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "❄️",
-     "verify": "",
-     "identity": "",
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我同事说了啥？",
+     "text": "11月18日上午，国家主席习近平在深圳前海国际会议中心出席2026年亚太经合组织工商领导人峰会开幕式，并发表题为《坚定信心，勇毅前行 共创亚太光明未来》的主旨演",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 直击APEC工商领导人峰会现场，记者偶遇李彦宏、王兴、何超琼，与会嘉宾陆续入场",
      "likes": 0,
      "hot": 0
     }
@@ -1212,6 +1017,117 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "蔡国庆走秀时意外摔倒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "哈尔滨日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "58岁蔡国庆走秀摔倒却坚持走完台步，起身后身形不稳，手捂腹部。周迅上前搀扶，谢娜满脸担忧。#蔡国庆#走秀#谢娜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "杭州网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#58岁蔡国庆走秀时滑倒，捂着腹部起身，身形不稳但神志清醒，#周迅 等人搀扶，#谢娜 凑近询问身体情况，网友纷纷喊话务必去医院检查！#蔡国庆",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻夜航",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月18日（发布），58岁的蔡国庆走秀时意外摔倒，整个人扑倒在羽毛堆里，但神志清醒 并摆手示意周围人不用紧张，谢娜立刻从座位上站起满脸担忧，周迅 李斯丹妮等也",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "Donk瓦场悟道": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "无畏契约",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "困难靶27/30 donk首次打瓦试玩狐狸套#无畏契约 #donk把天赋带到无畏契约 #donk首次打瓦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "显卡不要停",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《TOP1都干了》载物打粥，Donk打瓦 #donk #zywoo #绿龙 #无畏契约",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "情报马（无畏契约）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "donk居然打瓦了！ #无畏契约 #情报马 #donk #电子竞技",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "华为Mate 90 Air抢先开箱": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "科技小康",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "华为Mate90Air开箱体验，太薄了 #华为Mate90Air #华为Mate90系列 #华为Mate90 #数码科技 #Mate一起发光吧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "怪咖学徒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "华为Mate90Air到啦！来开个箱~ #华为Mate90Air #华为Mate90 #开箱 #用鸿蒙的亿点理由 #数码科技",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "HunD贺天",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "华为Mate90Air到手了！简单开个箱，来看看到底是直屏还是曲屏呢#华为Mate90Air #华为Mate90 #开箱 #数码科技 #开箱视频",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "76人121:116战胜魔术": {
    "stats": {},
    "authors": [
@@ -1249,21 +1165,164 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "登贝莱叫你上号玩GTA6": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "两京十五日定档11月20日": {
+  "忘情牛肉面舞蹈大赛": {
    "stats": {},
    "authors": [
     {
-     "name": "两京十五日（1120夺回一切",
+     "name": "不齐舞团",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你们还想看我们抓谁 #忘情牛肉面 #忘情牛肉面舞蹈大赛 #抖音潮流舞蹈大赛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "我的未来存款让我富了三秒": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天空飘来五个字❤️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天空飘来五个字❤️",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Nar",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#慵懒松弛感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小美美眉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "小美美眉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "❄️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我同事说了啥？",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "keke乐",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#测一测 #你未来会有多少存款",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "马斯克随特朗普车队抵达深圳": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "现场画面！特朗普乘坐专属座驾抵达下榻酒店 马斯克现身随行大巴 #微观深圳APEC #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#特朗普车队抵达深圳东海朗廷酒店 #马斯克现身随行大巴车 #特朗普团队抵达下榻酒店 #媒体精选计划 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "珠江之声fm105.7",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#两京十五日定档1120 成大事者，要跑得快！#两京十五日 #成毅",
+     "text": "马斯克来深圳了！低调坐在特朗普随行大巴上。#马斯克 #APEC在广东 #APEC #深圳",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普车队抵达深圳东海朗廷酒店，马斯克现身。深圳市民在路边热情围观。#精选主播说 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "四川观察",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月18日晚，来华出席亚太经合组织（APEC）领导人非正式会议的美国总统特朗普的车队抵达下榻酒店，美国企业家马斯克出现在随行大巴上。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "专访BLG冠军成员Xun父亲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 湖南伢子到世界“打野”击败韩国GEN战队 2026英雄联盟全球总决赛 BLG夺冠 彭立勋父亲：我不懂游戏 儿子进战队才关注 “现在对英雄联盟游戏规则",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "徐通已安全抵达迈阿密": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "AirChina徐通",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "等了6年！终于来了！迈阿密见兄弟们！@是瑶瑶呐 #gta6",
      "likes": 0,
      "hot": 0
     }
@@ -1626,186 +1685,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "徐通已安全抵达迈阿密": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "AirChina徐通",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "等了6年！终于来了！迈阿密见兄弟们！@是瑶瑶呐 #gta6",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "李依晓回应海外耍花枪爆火": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "生活帮",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月18日，《戏宇宙（海外季）》总宣传片全网上线，演员#李依晓 回应在马来西亚耍花枪“爆火”：自己有刀马旦基本功在身上，带着文化自信在台上表演。“这个台子给我",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "专访BLG冠军成员Xun父亲": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "风芒新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 湖南伢子到世界“打野”击败韩国GEN战队 2026英雄联盟全球总决赛 BLG夺冠 彭立勋父亲：我不懂游戏 儿子进战队才关注 “现在对英雄联盟游戏规则",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "时光匆匆又是一年冬": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "ᥫᩣ໌爱财❤悦己",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时光匆匆又是一年冬，有人再见，有人重逢#时代的变化剩下的都是回忆 #致敬回不去的青春年代 #时光又是一年 #青春已去我们已不再年轻 #又是一年冬来时",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "辛雨（云鼎素质拓展研学基地）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#时代的变化剩下的都是回忆",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小芳芳🌹🌹（俩个孩子宝妈）🌹🌹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小芳芳🌹🌹（俩个孩子宝妈）🌹🌹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "饭粒",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冬已至，岁将晚。一半相逢，一半遗憾。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "𝐍õ𝐨𝐡õ𝐦𝐨𝐫𝐤",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时光匆匆又是一年冬 有人再见 有人难重逢#时代的变化剩下的都是回忆 #致敬回不去的青春年代",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "依娜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#赵本山 #时光匆匆又是一年冬",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "菲菲有点辣🌶🌶🌶🌶",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "菲菲有点辣🌶🌶🌶🌶",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "记忆流年、早已不记得往昔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#时代的变化剩下的都是回忆 #致我们终已逝去的纯真年代 #致回不去的青春留不住的岁月",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "文妈爱蓝莓",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "文妈爱蓝莓",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "꧁꫞꯭往事归零💞 ꧔ꦿ꧂",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "ᰔᩚ🍁 ²⁰²⁶/₁₁.₁₇🧸◡̈ ♥এℒℴ 赵本山说：知人不必言尽，一切全凭良心，不要和任何人较劲，没有人值得你消耗你自己，良心这个东西他不值钱，但是能积",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "鸣潮新联邦角色首曝": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "鸣潮",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "缄默与锋芒 《鸣潮：永明的烬焰》年度篇章12月22日即将上线！ #鸣潮 #鸣潮格尔黛 #鸣潮永明的烬焰 #鸣潮年度篇章",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "许飞潦草小狗VLOG": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
   "慌啥子嘛为什么动人": {
    "stats": {},
    "authors": [
@@ -1816,6 +1695,65 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "云还在，花会开，好运总会为你而等待…#人生感悟分享 #创作者中心 #创作灵感 #记录生活 #慌啥子嘛",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "两京十五日定档11月20日": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "两京十五日（1120夺回一切",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#两京十五日定档1120 成大事者，要跑得快！#两京十五日 #成毅",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "登贝莱叫你上号玩GTA6": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "高低得去景德镇画一次盘子": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "起司姨太",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们在景德镇画的盘子终于到啦！！！ #景德镇 #情侣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "派呐泡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "咪在景德镇画盘子的天。#景徳镇 #景德镇画盘子 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小狮子🦁️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#景德镇画盘子",
      "likes": 0,
      "hot": 0
     }
@@ -1850,36 +1788,130 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "高低得去景德镇画一次盘子": {
+  "GTA6游戏测评": {
    "stats": {},
    "authors": [
     {
-     "name": "起司姨太",
+     "name": "游戏人阿管",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我们在景德镇画的盘子终于到啦！！！ #景德镇 #情侣",
+     "text": "全网首发，GTA6实况，洛圣都的故事讲完了，这次是迈阿密 #GTA6 #4k60帧",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "派呐泡",
+     "name": "IGN中国",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "咪在景德镇画盘子的天。#景徳镇 #景德镇画盘子 @抖音小助手",
+     "text": "10分，《GTA 6》评测：这个时代最伟大的游戏 《GTA 6》没有缺点吗？那当然不是，例如它仅有30帧的画面。但玩家们等待了十三年，对游戏的预期已经无形中被拔",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小狮子🦁️",
+     "name": "大能猫",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#景德镇画盘子",
+     "text": "GTA6开局地图全黑？偷这架飞机最快开完 Jason家北边一公里多就有架双翼喷药机，偷了不通缉，没油飞回原跑道还能再刷一架 #gta6 #侠盗猎车手6 #gta",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鲸鱼不忿",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《GTA6》媒体评分解禁 Mc站98家媒体均分99分，IGN给出了10分，大家12点准时相约迈阿密！ #GTA6 #R星 #ps5 #主机游戏 #单机游戏",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "没人能拒绝下雪天的哈尔滨": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "哈尔滨欣欣",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈尔滨今天鹅毛大雪！#索非亚大教堂 #哈尔滨圣索菲亚教堂广场 #哈尔滨下雪了",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黑龙江大学",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天尔滨的雪，你看到了吗？ 我在黑龙江大学看到大雪啦！ #雪 #哈尔滨 #哈尔滨初雪开启冬日浪漫 #黑龙江大学 #校园",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "电气昊子📷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没有人能拒绝下雪天的哈尔滨 #哈尔滨 #下雪了 #冬天 #旅行",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "指尖上的城市",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11.18凌晨 哈尔滨下雪了 #哈尔滨 #下雪的哈尔滨 #下雪 #中央大街",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晓岚不是晓岗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2026 11.18 赶上了哈尔滨的第一场雪❄️ #哈尔滨索菲亚教堂 #哈尔滨初雪 #初雪穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "航拍高端领域 景区推荐官",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "下雪哈尔滨中央大街 #哈尔滨下雪了 #哈尔滨暴雪 #哈尔滨中央大街",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "李依晓回应海外耍花枪爆火": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "生活帮",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月18日，《戏宇宙（海外季）》总宣传片全网上线，演员#李依晓 回应在马来西亚耍花枪“爆火”：自己有刀马旦基本功在身上，带着文化自信在台上表演。“这个台子给我",
      "likes": 0,
      "hot": 0
     }
@@ -1984,36 +2016,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "年度烟火市集全明星阵容": {
+  "赵露思葛栗穿搭我悟了": {
    "stats": {},
    "authors": [
     {
-     "name": "特别乌啦啦",
+     "name": "粉面馒头",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "在吕梁第一次吃「噔噔面」～搭着烧烤吃太解馋了 #特别乌啦啦 #心动打卡指南 #好好吃饭 #人间烟火 #年度烟火市集全明星阵容",
+     "text": "就这样顺顺栗栗抽到隐藏🌰尝试葛栗风ing #可露丽 #告别信 #葛栗 #接欧气 #葛栗风",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "密子君",
+     "name": "💓超甜恋露日记",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "花500r测评汕头酒店外卖开启碳水盛宴！#年度烟火市集全明星阵容 #烟火榜夯吃挑战#年度烟火市集#烟火美食夯吃挑战开赛了#美食vlog",
+     "text": "露思啊，这期拆箱搭配你不进来看，你将错过一个属于你的美女宝贝 #赵露思 #可露丽 #冷都女 #葛栗 ##爱在毛茸茸冬日盲盒",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "宋小睿",
+     "name": "小苹果碗",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "山东女孩在深圳吃鸡蛋灌饼，一口咬出潮汕味 #年度烟火市集全明星阵容 我为笨阿叔老总三拼鸡蛋灌饼提名！山东人的吃饼雷达，在深圳响了~你心里最夯的街头小吃是哪一口？",
+     "text": "葛栗穿搭的权威我已领悟！#赵露思 #葛栗风 #冷都女 #告别信 #日常穿搭分享",
      "likes": 0,
      "hot": 0
     }
@@ -2058,36 +2090,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "赵露思葛栗穿搭我悟了": {
+  "北京的银杏雨你淋到了吗": {
    "stats": {},
    "authors": [
     {
-     "name": "粉面馒头",
+     "name": "31_w",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "就这样顺顺栗栗抽到隐藏🌰尝试葛栗风ing #可露丽 #告别信 #葛栗 #接欧气 #葛栗风",
+     "text": "北京你真有意思。 #银杏叶#冬天",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "💓超甜恋露日记",
+     "name": "🌟一只鱼",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "露思啊，这期拆箱搭配你不进来看，你将错过一个属于你的美女宝贝 #赵露思 #可露丽 #冷都女 #葛栗 ##爱在毛茸茸冬日盲盒",
+     "text": "离开北京前的一场惊喜 #瞬息万变的不只天气 #北京的秋天 #银杏 #落叶🍂",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小苹果碗",
+     "name": "叫什么",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "葛栗穿搭的权威我已领悟！#赵露思 #葛栗风 #冷都女 #告别信 #日常穿搭分享",
+     "text": "我的秋天就是这样被吹走的。#北京 #雨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "你要快乐！",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "北京这场秋叶雨太浪漫了！ 这场大雨来得猝不及防 淋了一身雨 但也见到了漫天纷飞的黄叶 或许明天 秋尽冬来 北京啊 我们又一起度过了一个秋 #北平的秋 #秋雨落叶",
      "likes": 0,
      "hot": 0
     }
