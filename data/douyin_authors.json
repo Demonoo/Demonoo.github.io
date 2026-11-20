@@ -1,68 +1,11 @@
 {
- "updated_at": "2026-11-20 12:40",
+ "updated_at": "2026-11-20 13:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 48,
+ "ok_count": 47,
  "lexicon_count": 0,
  "topics": {
-  "特朗普结束亚洲行返回白宫": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普返回白宫预告将举行“极具历史意义”新闻发布会#走近APEC #直击第一线 #特朗普",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普已返回白宫，称将举行新闻发布会：将“极具历史意义”",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海南Time",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普结束访华返回白宫 并向媒体记者做标志性挥拳动作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "大象新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "空军一号连续飞行超14小时，美国总统特朗普飞抵美国！特朗普：这是该飞机历史上最长的连续飞行！（编辑：轩琦）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "海南广播电视总台",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普结束访华行程 乘专机离开中国深圳#APEC #深圳 #美国 #空军一号 #和合共生",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "U17男足首战对阵西班牙": {
    "stats": {},
    "authors": [
@@ -97,16 +40,6 @@
      "hot": 0
     },
     {
-     "name": "陕视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新华社报道，11月20日，中国U17国家男子足球队将迎来2026年卡塔尔U17世界杯（世少赛）首战，对阵西班牙队。 中国队上一次参加世少赛，还要追溯到2005年",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "大众新闻•半岛都市报",
      "verify": "蓝V",
      "identity": "媒体人",
@@ -115,41 +48,14 @@
      "text": "阔别 21 年，U17 男足再战世界大赛！首战西班牙，青岛三将蓄势待发（半岛全媒体记者 潘立超 林靓）",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "亚太前沿领域机遇看中国": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 【#亚太前沿领域机遇看中国 】2026年APEC工商领导人峰会在深圳举行。峰会首日，议程排得非常紧。从上午9时到下午5时，七场专题排得满满当当。现场",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "央视网",
+     "name": "陕视新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 总台记者观察 参会嘉宾展望APEC未来的三个关键词：稳定、合作、信任。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月17日，2026年APEC工商领导人峰会期间，著名经济学家、哥伦比亚大学教授杰弗里·萨克斯提出一项倡议：中国可以建设一个聚焦绿色与数字技术的大型联合国园区",
+     "text": "新华社报道，11月20日，中国U17国家男子足球队将迎来2026年卡塔尔U17世界杯（世少赛）首战，对阵西班牙队。 中国队上一次参加世少赛，还要追溯到2005年",
      "likes": 0,
      "hot": 0
     }
@@ -214,6 +120,63 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "亚太前沿领域机遇看中国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【#亚太前沿领域机遇看中国 】2026年APEC工商领导人峰会在深圳举行。峰会首日，议程排得非常紧。从上午9时到下午5时，七场专题排得满满当当。现场",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 总台记者观察 参会嘉宾展望APEC未来的三个关键词：稳定、合作、信任。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月17日，2026年APEC工商领导人峰会期间，著名经济学家、哥伦比亚大学教授杰弗里·萨克斯提出一项倡议：中国可以建设一个聚焦绿色与数字技术的大型联合国园区",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "《聚焦APEC之世界向东看》：专访俄罗斯外交部APEC高官马拉特·别尔德耶夫 1998年，俄罗斯加入APEC，逐步将亚太合作纳入国家经济与外交布局。面对西方制裁",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三沙卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "30年！首次！这份《深圳倡议》想解决什么？#apec @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "泰国总理带夫人在深圳吃夜宵": {
    "stats": {},
    "authors": [
@@ -238,16 +201,6 @@
      "hot": 0
     },
     {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "会议结束! 泰国总理继续逛深圳，11月19日晚，阿努廷带夫人打卡南头古城、吃夜宵，点了三件套：砂锅粥 卤水 潮汕四拼，再飙粤语“特别好”“猴嗨森”！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "环球网",
      "verify": "红V",
      "identity": "媒体人",
@@ -256,51 +209,14 @@
      "text": "泰国总理阿努廷与妻子闲逛深圳南头古城，众多网友发偶遇视频：亲切打招呼回应",
      "likes": 0,
      "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "粤菜亮相APEC欢迎晚宴": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "佛山新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "粤菜亮相APEC欢迎晚宴！今天，佛山名厨归来！顺德40多位厨师掌勺后凯旋。（视频、文/佛山传媒文旅集团 张伟科、曾凝霜、杨婷；见习编辑/覃骥良；审核/唐欣瑜）（",
-     "likes": 0,
-     "hot": 0
     },
     {
-     "name": "潮新闻",
+     "name": "羊城晚报•羊城派",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#APEC世纪晚宴菜单曝光 11月18日晚，亚太经合组织(APEC)第33次领导人非正式会议欢迎晚宴在深圳国际交流中心举行。晚宴以一道名为“鹏城”的冷盘开场，菜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "观海新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#APEC世纪晚宴菜单曝光 11月18日晚，亚太经合组织(APEC)第33次领导人非正式会议欢迎晚宴在深圳国际交流中心举行。晚宴以一道名为“鹏城”的冷盘开场，菜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三沙卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC欢迎晚宴菜单曝光：名为“鹏城”的冷盘开场，经典粤菜轮番上场，花胶汤、姜葱炒龙虾、陈皮莲子红豆沙……（潮新闻）",
+     "text": "#媒体原创 11月18日，泰国总理阿努廷抵达深圳。据悉，阿努廷祖籍中国广东，此前接受媒体采访时曾表示，自己是100%的中国人后代，虽在泰国出生，但有中文名字（陈",
      "likes": 0,
      "hot": 0
     }
@@ -365,6 +281,100 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "粤菜亮相APEC欢迎晚宴": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "佛山新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "粤菜亮相APEC欢迎晚宴！今天，佛山名厨归来！顺德40多位厨师掌勺后凯旋。（视频、文/佛山传媒文旅集团 张伟科、曾凝霜、杨婷；见习编辑/覃骥良；审核/唐欣瑜）（",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潮新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#APEC世纪晚宴菜单曝光 11月18日晚，亚太经合组织(APEC)第33次领导人非正式会议欢迎晚宴在深圳国际交流中心举行。晚宴以一道名为“鹏城”的冷盘开场，菜",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "三沙卫视",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC欢迎晚宴菜单曝光：名为“鹏城”的冷盘开场，经典粤菜轮番上场，花胶汤、姜葱炒龙虾、陈皮莲子红豆沙……（潮新闻）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "珠江新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "APEC民声汇：APEC欢迎晚宴 见证广东百千万工程",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "APEC晚宴荔枝冰酒厂家回应": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "极目新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 广东荔枝冰酒亮相APEC晚宴，厂家：网店营业额暴增900多倍#精选主播说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "广东荔枝冰酒登上APEC晚宴 一瓶酒168颗鲜荔枝 原果汁100% 营业额一晚暴涨900倍 29年果酒酿造底子 （编辑：冉冉） #媒体原创 #中国酒文化 #文化",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广州日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 亮相APEC晚宴后广州荔枝冰酒“爆单” 有酒，但酒瓶用完了！老板：正在紧急补货，不会涨价，现在卖的跟贵宾们喝的或出自同一酒罐#广州 #花城四季新彩广",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 亮相APEC晚宴的广东荔枝冰酒被买断货，厂家：已启动紧急补货机制#荔枝冰酒#apec #广东dou知道 #热点 （来源：极目新闻 剪辑：刘 允 法）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "灯火里的深圳 照见开放与活力": {
    "stats": {},
    "authors": [
@@ -375,6 +385,36 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 小说里的“A市”在这里具象化！灯火里的深圳，照见开放与活力",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "CGTN",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【来了都是深圳人：这座城凭什么留住全世界的追梦者】四十年潮起南海，昔日滩涂上的静谧渔村，如今已是无人机穿梭街巷、智能产业遍地生长的全球创新高地。作为亚太经合组织",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【APEC观潮｜深圳的故事，远不止“深圳速度”】“拍照的速度，赶不上建设的速度。”这是一位老摄影师眼中的“深圳速度”。从小渔村长成举办国际盛会的国际化大都市，深",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "外国博主用卫星图直观展示深圳40年间的发展历程：从边陲小镇到国际都市，“中国速度”有多猛？",
      "likes": 0,
      "hot": 0
     }
@@ -443,12 +483,12 @@
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "凤凰记者现场报道｜APEC灯光秀点亮整座深圳，外国游客：必须打满分#走近APEC #APEC #深圳",
+     "text": "APEC盛会期间，深圳多个地标幕墙亮灯 。光影里的深圳，正以开放、创新、合作的姿态，迎接八方来宾。（记者：胡拿云、赵瑞希）#聚焦APEC #和合共生",
      "likes": 0,
      "hot": 0
     },
@@ -463,12 +503,12 @@
      "hot": 0
     },
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "APEC盛会期间，深圳多个地标幕墙亮灯 。光影里的深圳，正以开放、创新、合作的姿态，迎接八方来宾。（记者：胡拿云、赵瑞希）#聚焦APEC #和合共生",
+     "text": "凤凰记者现场报道｜APEC灯光秀点亮整座深圳，外国游客：必须打满分#走近APEC #APEC #深圳",
      "likes": 0,
      "hot": 0
     }
@@ -506,6 +546,341 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "云南臭豆腐加上鲜辣底料堪称锅底魔法！爆涮鲜牛凉片体验神奇发酵风味，自制臭豆腐加帽米线感受冬日热乎日子！#冬天吃碳水过热乎日子 #暖冬食力局 #热气生活指南 #这",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "特朗普结束亚洲行返回白宫": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "海南Time",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普结束访华返回白宫 并向媒体记者做标志性挥拳动作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普已返回白宫，称将举行新闻发布会：将“极具历史意义”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "龙视新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月20日（发布），特朗普已返回白宫，称将举行新闻发布会：将 “极具历史意义”（来源：环球网）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大象新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "空军一号连续飞行超14小时，美国总统特朗普飞抵美国！特朗普：这是该飞机历史上最长的连续飞行！（编辑：轩琦）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海南广播电视总台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普结束访华行程 乘专机离开中国深圳#APEC #深圳 #美国 #空军一号 #和合共生",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "周楷恒vs哈德森百分大战": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "Aloong周楷恒",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宙斯嘉年华，今晚不见不散！#覆面 #宙斯嘉年华 #百分大战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "篮球摄手Yzk",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今晚六点，收官之战！哈德森硬刚周楷恒，接力百分大战，看点拉满🔥",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "金州勇士吧",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“收官之战，备受关注的百分大战你最期待哪一组对决呢”#宙斯嘉年华 #周楷恒 #沃兰迪911火箭气垫球鞋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沃兰迪篮球",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全是硬茬，没有剧本。 明晚 18:00，锁定 @Aloong周楷恒 直播间 五组对位，谁也别留手，周楷恒压轴硬刚得分王，脚踩沃兰迪911火箭气垫球鞋，超大气垫 ",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "用篮球认识我",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“宙斯嘉年华收官之战，宙斯女团赛前预测比分”#篮球 #宙斯嘉年华#周楷恒#沃兰迪911火箭气垫球鞋#剪映",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "国内金价跌至7字开头": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "巨浪财经",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "黄金什么时候跌到头啊？ #黄金 #金价暴跌 #消费 #投资 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "一觉醒来又跌了！ 国际金价直接跌破3600美元关口！ 国内黄金价格跌到7字头#金价",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“金价跌回四五百是不可能的” 金价大跌！国内金价跌到7开头 金店老板：每克800多元时补过货 想着跌了不少就补一下 结果还是补早了（编辑：Circle）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海峡导报大漳州",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "国内金价跌到7字头！ #金价 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "第1眼新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 国内金价跌至“7”字头 ，顾客感叹金店人多到像菜市场，顾客：金价1300多元时店里一个人都没有。#直击第一线 （#重庆广电第1眼新闻 记者 张成杰）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "白晶陈泽文69:70孟博龙李瑞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "肖扬篮球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "万众瞩目的街球圈双人百分第一身价之争以白晶意外受伤半途告终，赖人王孟博龙李瑞70：69领先白晶陈泽文1分#肖扬篮球 #孟博龙李瑞vs白晶陈泽文 #孟博龙 #李瑞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "篮球摄手虎",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“孟博龙进入Zone模式”#篮球摄手虎 #美职篮瞬息 #白晶陈泽文vs孟博龙李瑞 #美职篮瞬息首曝 #抖音百分大战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "baller白晶",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "很遗憾没能坚持到最后，向大家说声抱歉 #白晶陈泽文vs孟博龙李瑞#抖音百分大战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "长沙眼镜哥的篮球日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "26:31第一节结束，孟博龙连续4计三分强势带走比赛#陈泽文白晶vs孟博龙李瑞 #孟博龙 #双子星百分大战",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "答案陈泽文",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "没有人敢接 我们集梦双子星接了@美职篮瞬息 #美职篮瞬息#白晶陈泽文vs孟博龙李瑞#美职篮瞬息首曝#抖音百分大战",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "神灯神灯我就一个愿望": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "大眼萌屁😃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "猛踹坏瘸子那条好腿😃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "瑄瑄酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "—-",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这特效精得很 自动屏蔽脏话",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "广汉",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "000999",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望 我去你大爷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "花开富贵🪷",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望 #比奇堡最漂亮的女人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小名妞妞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神灯神灯👀#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小枝头",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "整段垮掉#神灯神灯我就一个愿望",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "𓆩恶魔钉𓆪↝",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神灯神灯我就一个愿望",
      "likes": 0,
      "hot": 0
     }
@@ -587,6 +962,63 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "墨西哥总统发视频感谢中方女保镖": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "中国蓝新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "墨西哥总统感谢中国女保镖！11月20日，墨西哥总统辛鲍姆分享了与一名中国女保镖握手合照的视频。徐瑾多次承担重要外宾警卫任务，执勤时身姿挺拔、眼神锐利、神情沉稳干",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "都市现场",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "墨西哥总统发视频感谢中方女保镖，她在深圳参加各项活动时，中方女保镖都在近处守护。曾打败5个日本空手道冠军。#中国女保镖",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "红星新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我们女保镖又美又飒！墨西哥女总统专门发视频：感谢徐瑾在我们访华期间 给予的支持",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美女保镖贴身护卫，全网爆火！墨西哥总统离开中国后，专门感谢她",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "墨西哥总统专门发视频感谢在深圳期间中方女保镖近身守护。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "德国车手喊话张雪想做德国代理": {
    "stats": {},
    "authors": [
@@ -637,110 +1069,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "单月卖出近5000台 仿赛断层第一 张雪机车卖爆！#张雪透露一个小目标今年已经挣到",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "白晶陈泽文vs孟博龙李瑞百分大战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "篮球摄手KK",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“街球圈世纪之战就在今晚6点不见不散”@美职篮瞬息 #美职篮瞬息#白晶陈泽文vs孟博龙李瑞#美职篮瞬息首曝#NBA瞬息手游#抖音百分大战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李瑞🏀",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "沉浸式体验我备战集梦双子星沉淀日的一天#vlog#赖人王李瑞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "篮球摄手虎",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“街头篮球世纪大战前的宁静”#篮球摄手虎 #美职篮瞬息 #白晶陈泽文vs孟博龙李瑞 #美职篮瞬息首曝 #抖音百分大战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "集梦会长（116贵州选主场11.6-16",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月20号，集梦双子星陈泽文白晶大战赖人王孟博龙李瑞！#集梦116 #集梦会长 #美职篮瞬息#白晶陈泽文vS孟博龙李瑞 #抖音百分大战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "星街战【集梦116】",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李瑞赛前给对手上压力，大战一触即发@美职篮瞬息 #美职篮瞬息#白晶陈泽文vs孟博龙李瑞#美职篮瞬息首曝#NBA瞬息手游#抖音百分大战",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "APEC晚宴荔枝冰酒厂家回应": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 广东荔枝冰酒亮相APEC晚宴，厂家：网店营业额暴增900多倍#精选主播说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "浪涨新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "广东荔枝冰酒登上APEC晚宴 一瓶酒168颗鲜荔枝 原果汁100% 营业额一晚暴涨900倍 29年果酒酿造底子 （编辑：冉冉） #媒体原创 #中国酒文化 #文化",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "广州日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 亮相APEC晚宴后广州荔枝冰酒“爆单” 有酒，但酒瓶用完了！老板：正在紧急补货，不会涨价，现在卖的跟贵宾们喝的或出自同一酒罐#广州 #花城四季新彩广",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱济南新闻客户端",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 亮相APEC晚宴的广东荔枝冰酒被买断货，厂家：已启动紧急补货机制#荔枝冰酒#apec #广东dou知道 #热点 （来源：极目新闻 剪辑：刘 允 法）",
      "likes": 0,
      "hot": 0
     }
@@ -855,206 +1183,15 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "文班亚马再现“超模”出手": {
+  "丑狐作者创作过程独家分享": {
    "stats": {},
-   "authors": [
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "文班亚马再现“超模”出手 11月20日，#NBA 常规赛马刺对阵快船一役中，#文班亚马 在比赛末段上演了一次“篮筐上方投篮”，动作引发球迷对球是扣篮还是投篮的热",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Luka篮球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月20日最佳球员和最拉球员你选谁？文班亚马32分化身“下投男”，利拉德33分5记三分射穿旧主！#文班亚马 #利拉德 #三球 #伦德博格 #勇士",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "སྒྲོལ་མ་དོན་འགྲུབ།",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "地球人谁能突破文班亚马的防守？ #热血篮球季 #喜爱度激励计划 #文班亚马",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一寸长一寸强 这该怎么防？文班亚马连续不讲理式二加一#文班亚马连续不讲理式二加一 #文班亚马一寸长一寸强 #快船vs马刺 #NBA",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "朱雀三号回收发动机再次点火": {
+  "薛之谦污点证人太好听了": {
    "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朱雀三号“二手”发动机再次完成试车，具备重复使用条件！太空归来，还能接着用👍🏻#媒体原创 @空天逐梦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 总台记者独家探访：朱雀三号遥二回收火箭发动机如何再次使用？",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朱雀三号，中国回收火箭，具备再次使用的条件！（总台央视记者：崔霞 陶嘉树）#浙江 #湖州 #现场实拍 #好消息 #中国航天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "CCTV4",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朱雀三号回收发动机再次点火试车 独家记录全过程",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "朱雀三号9台回收发动机全部完成验收试车。（总台记者 陶嘉树）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "APEC围巾是从哪儿来的": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "澎湃新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC现场｜APEC“全家福”来了，2分钟揭秘红蓝围巾背后故事 在11月19日的APEC“全家福”合影中，红蓝围巾亮相。这些配饰采用了怎样的传统工艺？澎湃新闻",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小彭彭译萱",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC领导人特色服饰亮点揭秘 2026年APEC领导人全家福里，香云纱围巾格外吸睛。我采访到了参与设计的邢莉莉，揭秘今年APEC特色服饰的设计细节。每一届特色",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报青年频道",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#APEC亚太全家福 领导人们集体佩戴的鲲鹏围巾有何寓意？#2026APEC #深圳 #中俄美元首会晤 #媒体原创 #和合共生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC专属围巾原来是这样的！#APEC",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "羊城晚报•羊城派",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 顺德香云纱亮相APEC经济体领导人集体合影！11月19日上午，APEC经济体领导人集体合影时佩戴的特色围巾“岭南元素”满满，面料采用顺德香云纱，图案",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "粤TV",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 11月19日，亚太经合组织第三十三次领导人非正式会议在深圳举行。会议开始前，与会经济体领导人、代表戴上红蓝围巾，其中，那一抹温润的砖红色，正是来自佛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "深圳卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC全家福合影的那抹红来自广东的香云纱。底纹融合岭南木棉、三角梅、祥云元素 国家非遗香云纱传承者：“工艺依赖天时地利人和，挑战很大” #媒体原创 11月19",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看顺德",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大国排面！APEC领导人非正式会议合影来了，身披顺德香云纱围巾#APEC进行时 #顺德 #香云纱",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "现代快报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC“全家福”围巾“同心合锦”惊艳世界，设计制作来自苏州企业，集四项国家级非遗技艺",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "火影手游永夜扉间实战": {
    "stats": {},
@@ -1093,31 +1230,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "丑狐作者创作过程独家分享": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "吴克群为小蝴蝶举办生前葬礼": {
+  "试试看手势舞": {
    "stats": {},
    "authors": [
     {
-     "name": "吴克群",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "李朋朋",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "EP01｜我为自己办的一场葬礼… @小蝴蝶的抗癌日记 @请记得我（11月19日来官抖看） #抖音助老关爱行动 #人间观察计划 #未来导演扶持计划 #请记得我",
+     "text": "可爱又简单手势舞来喽#手势舞教程 #一学就会系列 #手势舞",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "请记得我（每周四17:00播出）",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "颊边痣",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【第1章·小蝴蝶】穿婚纱提前拍遗照，希望留下最美的样子。#请记得我 #吴克群请记得我今日开播 #吴克群请记得我开播即爆哭#内娱第一堂死亡教育课开课了",
+     "text": "❄️冬天的幸福织成一条围巾₌᳐･֊･₌᳐੭ #手势舞 #手势舞教程",
      "likes": 0,
      "hot": 0
     }
@@ -1152,26 +1284,141 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "试试看手势舞": {
+  "声生不息天涯共此时首期舞台": {
    "stats": {},
    "authors": [
     {
-     "name": "李朋朋",
-     "verify": "",
-     "identity": "",
+     "name": "声生不息官抖",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "可爱又简单手势舞来喽#手势舞教程 #一学就会系列 #手势舞",
+     "text": "#任贤齐 #刘耀文 《憨人》+《咸鱼》，用梦书写自己的传说。#声生不息天涯共此时 #声生不息",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "吴克群为小蝴蝶举办生前葬礼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "吴克群",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "EP01｜我为自己办的一场葬礼… @小蝴蝶的抗癌日记 @请记得我（11月19日来官抖看） #抖音助老关爱行动 #人间观察计划 #未来导演扶持计划 #请记得我",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "颊边痣",
+     "name": "请记得我（每周四17:00播出）",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【第1章·小蝴蝶】穿婚纱提前拍遗照，希望留下最美的样子。#请记得我 #吴克群请记得我今日开播 #吴克群请记得我开播即爆哭#内娱第一堂死亡教育课开课了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "和青稚一起跳茉茉手势舞": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "天霸青稚",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "线下查无此人#天霸青稚 #我家门口新开了一朵茉莉 #热点趋势策划人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "跟着现发团一起课间摇": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "黄景瑜",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "笑了半个小时才舍得发出来 #现在就出发",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "挑战给妈妈打电话说我爱你": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "于鱼丘比特",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "❄️冬天的幸福织成一条围巾₌᳐･֊･₌᳐੭ #手势舞 #手势舞教程",
+     "text": "“有个女人真好骗 我叫了她一声妈 她爱了我一辈子”#爱你老妈明天见#男生宿舍#催泪#亲情#于鱼丘比特",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "非凡之爱手搓版": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "张帅玲",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无解的眼神#非凡之爱 #老艺术家",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "宇智波佐助[须佐能乎]",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "不解的眼神 心像海底针#非凡之爱 #猎奇#大学生哪有不疯的原创@Max.",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "初夏未满",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "心患非凡之爱手搓版 心理学家@圣里 病患@奈米meow #第五人格 #第五人格庄园演绎 #非凡之爱 #老艺术家",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "石家庄财经职业学院",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "无解的眼神 #非凡之爱 #真人版 #无解的眼神心像海底针 #石家庄财经职业学院",
      "likes": 0,
      "hot": 0
     }
@@ -1216,23 +1463,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "声生不息天涯共此时首期舞台": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "声生不息官抖",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#任贤齐 #刘耀文 《憨人》+《咸鱼》，用梦书写自己的传说。#声生不息天涯共此时 #声生不息",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "豆包眼中的我具象化了": {
    "stats": {},
    "authors": [
@@ -1263,232 +1493,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "不是，豆包，你对我的印象是有多贫穷？#豆包 #我对豆包的依赖程度",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "和青稚一起跳茉茉手势舞": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "天霸青稚",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "线下查无此人#天霸青稚 #我家门口新开了一朵茉莉 #热点趋势策划人",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟着现发团一起课间摇": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黄景瑜",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "笑了半个小时才舍得发出来 #现在就出发",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "邓紫棋新歌任天堂": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "GEM鄧紫棋",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“我活在我的任天堂 / 人生不过游戏一场” 无论放眼世界，还是聚焦生活，事与愿违的事情总不少见。 但改变不了环境，就改变自己的心境。 如果人生是一场游戏，那就各",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "两京十五日今日开播": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "成毅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "孤出一招，你可接的住？！#两京十五日",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "两京十五日（距京还有2千里",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#两京十五日开播 我们就是这样讲义气！#两京十五日",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "找到了我的本命旅游地": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "睡醒了还是困",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来不是我选择了香格里拉 而是香格里拉选择了我 #念念不忘的云南",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吃个冰栗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来一直想去的地方是自己的本命旅游地。#最想去的城市 #本命旅游#阿勒泰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小喵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来从上学就选中的城市是我的本命！#青岛",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "爱笑的天使20周年合唱版将上线": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "哈尔滨日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王菲将与两个女儿窦靖童 李嫣，共同演唱《爱笑的天使》合唱版，献礼嫣然天使基金成立二十周年，网友：终于要听到母女三人合作了🥹 #王菲 #窦靖童 #李嫣",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "今视频长天新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王菲 时隔17年再唱《#爱笑的天使 》，嫣然天使基金预告：20周年合唱版即将上线，演唱排序为#李嫣 、#窦靖童 、王菲——当年被写进歌里的女孩，这回站到了最前",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "扬子晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王菲与女儿窦靖童、李嫣共同演唱的《爱笑的天使》将温暖上线，歌曲由王菲填词，是嫣然天使基金主题曲#媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "挑战给妈妈打电话说我爱你": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "于鱼丘比特",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“有个女人真好骗 我叫了她一声妈 她爱了我一辈子”#爱你老妈明天见#男生宿舍#催泪#亲情#于鱼丘比特",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "原来人一寒心脸是会跟着变的": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "会飞的花仙子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "都气老了，果然人一寒心，脸都会跟着变的 #后会友期 #王子璇 #丑狐 #友谊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "忧郁赵老丝er～",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#妆容分享 原来人一寒心 脸是会跟着变的#丑狐仿妆#原来人一寒心脸是会跟着变的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "—💙—張",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "《丑狐》人一寒心脸会跟着变的 相由心生 爱人如养花 和任何人较劲都是在消耗自己 苦在心里就会逐渐在脸上显现 人生很短不值得浪费时间去内耗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "✨灯塔上的雾✨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来人一寒心，脸是会跟着变的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Z、xy",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "原来：人一寒心，脸是会跟着变得。和任何人较劲就是在消耗自己。要向内求而不是向外。别人给予你的，有一天会变本加厉的带走。#丑狐",
      "likes": 0,
      "hot": 0
     }
@@ -1553,6 +1557,107 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "两京十五日今日开播": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "成毅",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "孤出一招，你可接的住？！#两京十五日",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "两京十五日（距京还有2千里",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#两京十五日开播 我们就是这样讲义气！#两京十五日",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "找到了我的本命旅游地": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "睡醒了还是困",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来不是我选择了香格里拉 而是香格里拉选择了我 #念念不忘的云南",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小喵",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来从上学就选中的城市是我的本命！#青岛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "吃个冰栗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "原来一直想去的地方是自己的本命旅游地。#最想去的城市 #本命旅游#阿勒泰",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "爱笑的天使20周年合唱版将上线": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "哈尔滨日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王菲将与两个女儿窦靖童 李嫣，共同演唱《爱笑的天使》合唱版，献礼嫣然天使基金成立二十周年，网友：终于要听到母女三人合作了🥹 #王菲 #窦靖童 #李嫣",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "今视频长天新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#王菲 时隔17年再唱《#爱笑的天使 》，嫣然天使基金预告：20周年合唱版即将上线，演唱排序为#李嫣 、#窦靖童 、王菲——当年被写进歌里的女孩，这回站到了最前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "扬子晚报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "王菲与女儿窦靖童、李嫣共同演唱的《爱笑的天使》将温暖上线，歌曲由王菲填词，是嫣然天使基金主题曲#媒体原创",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "无畏契约狐狸套入手不亏": {
    "stats": {},
    "authors": [
@@ -1607,193 +1712,26 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "咪也喝上奶奶牌鸡骨草了": {
+  "张萌手搓版图图妈cos来了": {
    "stats": {},
    "authors": [
     {
-     "name": "地瓜是只中华田园五红犬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萌萌哒妹妹和慈祥的奶奶，你们喜欢哪个 #AI萌牛庭院对话 #抖音ai创作 隔代亲，又是被奶奶宠爱的一天#小小土松",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓝瘦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "什么是鸡骨草，有毒吗？ #AI鸡骨草趣味对话 #抖音ai创作 #抖音玩法达人挑战赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "盖世神耄",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI鸡骨草趣味对话 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是go",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小狗: 等下我eee的 哈哈哈 #中华田园犬 #小狗狗能有什么坏心思 #小猫咪能有什么坏心眼 #AI鸡骨草趣味对话 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "奶蛙重度依赖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#奶蛙 #奶蕉 #鸡骨草 #AI萌牛庭院对话 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五一🍩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "到时候我eee的 你怎么替我洗呀#杨佩萱 #惜命萱 #AI鸡骨草趣味对话 #抖音ai创作 #拉布拉多",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小婷子萌娃团",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#卯卯#人类幼崽的奇幻日常 #AI鸡骨草趣味对话 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "猫不易🐰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "怎么替🫪 #AI鸡骨草趣味对话 #抖音ai创作 #偶遇小胖橘 #等等这个橘猫好像有点大 #一起聊聊猫和老鼠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "娃娃宝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI鸡骨草趣味对话 #抖音ai创作 #这么萌的毛孩子难道你不爱吗 哈哈哈哈哈哈哈哈哈",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小龚（腱子牛）特效",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI萌牛庭院对话 #抖音ai创作 @杨佩萱 #可爱到心化 #搞笑牛牛 #搞笑宝宝专治不开心 @阿尔卑斯 Alpenliebe #碰出双享棒宇宙级好运",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "麻辣烫糖葫芦魔性摇": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "香香鱼.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "猜猜是谁想拍的？#麻辣烫糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凸哥很忙🎧",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这个糖葫芦非吃不可么#可以给我买麻辣烫糖葫芦吗 #麻辣烫糖葫芦 #热点趋势策划人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "徐若晗",
+     "name": "张萌",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "可以给我俩买糖葫芦吗🥹📞 #一追就上头 #可以给我买麻辣烫糖葫芦吗",
+     "text": "手搓版图图妈✌️张小“萌”来也！ #张小丽 #cos #大耳朵图图 #一追就上头",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "一凡.",
-     "verify": "",
-     "identity": "",
+     "name": "浪涨新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "前辈和糖葫芦麻辣烫我都要 @擦玻璃 #可以给我买麻辣烫糖葫芦吗 #麻辣烫糖葫芦 #精神状态belike #学医哪有不疯的 #热点趋势策划人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一枝南南",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "糖葫芦确实想吃了 #手势舞#麻辣烫糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "v!nVinviN",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "眼镜妹铁了心要吃糖葫芦 感谢前辈@NJJ 感谢摄影@hyeon🥕^ #麻辣烫糖葫芦 #韩语 #大学生活 #留学生 #还得是真麻辣烫糖葫芦香",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "叶浩宇（韩漂版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#还得是真麻辣烫糖葫芦香 还挺会吃@y 航玮",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Abc",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前辈 人家想吃糖葫芦！#可以给我买麻辣烫糖葫芦吗",
+     "text": "张萌cos大耳朵图图里的图图妈 这也太像了！#张萌 #后会友期 （编辑：yanyan）",
      "likes": 0,
      "hot": 0
     }
@@ -1908,36 +1846,86 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "我们再发光全是唱将遗珠": {
+  "麻辣烫糖葫芦魔性摇": {
    "stats": {},
    "authors": [
     {
-     "name": "天赐的声音",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "香香鱼.",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#我们再发光 EP02上线，速来围观！ 这里有山野、晚风、老朋友和音乐，每周五12:00抖音、Z视介上线，20:20浙江卫视播出，快来看看@再发光男团 聚在一起",
+     "text": "猜猜是谁想拍的？#麻辣烫糖葫芦",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "李琦-重生之我在这一世做歌手",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "凸哥很忙🎧",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "必须给自己呱唧呱唧👏，其实唱完喝了两桶水（bushi ）#我们再发光全是唱将遗珠 #我们再发光 #再发光男团 #窝囊five @平安 @曾一鸣",
+     "text": "这个糖葫芦非吃不可么#可以给我买麻辣烫糖葫芦吗 #麻辣烫糖葫芦 #热点趋势策划人",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "再发光男团",
+     "name": "徐若晗",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#派克特被王蓉发言毒哭 @王蓉（新歌《浓缩》全网热播） 36度的嘴怎么能说出这么冰冷的话😂，这把真是“蓉语伤派心”了，@PACT派克特 ：早知道少说两句了～#",
+     "text": "可以给我俩买糖葫芦吗🥹📞 #一追就上头 #可以给我买麻辣烫糖葫芦吗",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一凡.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前辈和糖葫芦麻辣烫我都要 @擦玻璃 #可以给我买麻辣烫糖葫芦吗 #麻辣烫糖葫芦 #精神状态belike #学医哪有不疯的 #热点趋势策划人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "一枝南南",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "糖葫芦确实想吃了 #手势舞#麻辣烫糖葫芦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "v!nVinviN",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "眼镜妹铁了心要吃糖葫芦 感谢前辈@NJJ 感谢摄影@hyeon🥕^ #麻辣烫糖葫芦 #韩语 #大学生活 #留学生 #还得是真麻辣烫糖葫芦香",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "叶浩宇（韩漂版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#还得是真麻辣烫糖葫芦香 还挺会吃@y 航玮",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Abc",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前辈 人家想吃糖葫芦！#可以给我买麻辣烫糖葫芦吗",
      "likes": 0,
      "hot": 0
     }
@@ -1945,63 +1933,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "一杯苹果糖是我的生活良方": {
+  "成毅新剧太子爆改成乞丐": {
    "stats": {},
    "authors": [
     {
-     "name": "吐司师傅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "一口下去还以为是从上海打包回来的… 最近上海超火的苹果糖，在家用一口锅就能做出来啊！不用温度计，完全是保姆级教程！我把每一度糖浆的状态都测试出来啦！完全跟我做就",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "冬至",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冬天来了 不要伤心 不要生病 不要和爱的人离开#苹果糖@皇室铜锣烧麻糍",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "夏饭札记",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "固体杨枝甘露+苹果糖！手把手解锁苹果进阶吃法～ #圣诞苹果糖已就位 #圣诞苹果糖 #满级吃商通关赛 #抖音美食新趋势",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "听陈楚生狂流被点燃了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "落日放映室",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#听陈楚生狂流被点燃了 陈楚生声生不息《狂流》神级舞台高清直拍 #陈楚生 #狂流 #声生不息",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "芒果TV",
+     "name": "两京十五日（距京还有2千里",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#陈楚生 《狂流》，岁月奔涌，势如狂流。#声生不息天涯共此时 #声生不息",
+     "text": "全世界正数第一有眼力见儿之人！#两京十五日 #成毅 #吴幸键 #林更新 （按姓氏笔划排序）",
      "likes": 0,
      "hot": 0
     }
@@ -2073,6 +2014,16 @@
      "hot": 0
     },
     {
+     "name": "我叫肖哈哈",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间证明不了什么，三年、五年、八年、十年、任何时候分道扬镳都很正常。#橘子海剪影宿命感拉满 #肖哈哈",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "⚖️",
      "verify": "",
      "identity": "",
@@ -2099,16 +2050,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "我的爱拿得出手 只是偏爱你不配了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Yogalee（棒棒棠版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我送你我回忆里的一半。#左转灯",
      "likes": 0,
      "hot": 0
     }
@@ -2153,6 +2094,60 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "玩商很高的人生belike": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "什么小椰🥥",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "耍起！#玩商很高的人生belike",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沐沐mia",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "上天入地再也找不到比OMG还好玩的地方了 #OMG心跳乐园 #GAP地表逃离计划 #垂云通天河 #OMG畅玩加时赛#周末去哪儿",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "东北烧烤谁吃谁迷糊": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "东北小风洋",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天吃点大油边 #东北小风洋 #大油边 #日常vlog记录 今天吃的也不错，这大油边真香，感谢老弟，还给我两个菜，真够意思，这人实交，能处。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "灰鸽子（美食排雷保护我方输出）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "当地人吃的烧烤 一下雪南方小土豆又来吃大串了 #烧烤 #东北烧烤",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "这口热乎菜吃完不烧心": {
    "stats": {},
    "authors": [
@@ -2183,103 +2178,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "这天气就得吃口热乎的#无敌拌面 #自律 #巧克力蛋糕 #美食 #放纵餐",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "跟随赵露思开启冷都女时代": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "多金",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全员严肃学习冷都女穿搭！！！！！👖。#牛仔裤ootd #微喇牛仔裤 #赵露思 #葛栗 #冷都女 @抖音 @抖音小助手 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一杯西米露",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "斯哈斯哈妈咪轻点帅 #赵露思 #冷都女 #葛栗风 #葛栗 #告别信",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Rosy的小鲤鱼（被赵哥点赞版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "完全公主💋 #赵露思 #葛栗 #告别信 #葛栗风 #冷都女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Tulip💜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现代剧穿搭的神！ #赵露思#告别信#葛栗#葛栗风#冷都女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小柯基🍫",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冷都女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "犬羚",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "轻亚冷都女穿搭合集 #轻亚穿搭 #冷都女 #古早味 #千禧年 #穿搭合集",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "了一羊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天让我们严肃进入“冷都女时代” #冷都女",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "七七喵",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全员进入葛栗穿搭时代！！！！！👖。#日常穿搭分享 #ootd穿搭女生 #赵露思 #葛栗 #冷都女 @抖音 @抖音小助手 @抖音创作灵感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "久点",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冷都女:冬天街头自带冷酷距离的氛围感穿搭 #冷都女 #无性别穿搭 #赵露思 #穿搭 #hello时尚季",
      "likes": 0,
      "hot": 0
     }
