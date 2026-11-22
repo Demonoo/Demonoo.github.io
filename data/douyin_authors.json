@@ -1,68 +1,11 @@
 {
- "updated_at": "2026-11-22 22:38",
+ "updated_at": "2026-11-22 23:39",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 48,
+ "ok_count": 46,
  "lexicon_count": 0,
  "topics": {
-  "特朗普连发三十多张APEC会议照片": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "动静新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "深圳行后劲太大！美总统特朗普连发三十多张照片回味APEC之行，还晒出标有“Myfriend”与普京合影照#精选主播说",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "北京新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#原创新闻 一张合影，两个单词，特朗普的“朋友外交”刺痛了谁？跨大西洋信任再受考验。#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "后劲太大！特朗普连发30多张照片盛赞APEC会议：GOAT！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "深圳的后劲还是太大了，特朗普连发三十多张APEC照片回味，晒与普京合影，高调打出“My Friend”再次回应质疑。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "直新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普回美国后一口气连发30多张APEC相关照片，来了一趟深圳，后劲就这么大？#特朗普 #美国 #APEC #深圳 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "国内成品油价将迎调整": {
    "stats": {},
    "authors": [
@@ -73,16 +16,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "11月26日24时 国内成品油价将迎调整 当前预降幅已经超过0.3元/升 本轮大概率迎来下调 （编辑 董力铭 责编 王牡丹）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "杭州网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#油价 下调！11月26日油价将迎来新调整#加油 #汽车",
      "likes": 0,
      "hot": 0
     },
@@ -115,6 +48,73 @@
      "text": "继上一轮油价大跌超0.5元/升后，11月油价有望迎来第二次下调。国内成品油价格下周四（11月26日24时）将迎来新一轮调整。根据当前测算，本轮预计汽油下调420",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "掌上黄岩",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月26日油价有望下调 #油价 #加油 #降价",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "特朗普连发三十多张APEC会议照片": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "动静新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "深圳行后劲太大！美总统特朗普连发三十多张照片回味APEC之行，还晒出标有“Myfriend”与普京合影照#精选主播说",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "北京新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#原创新闻 一张合影，两个单词，特朗普的“朋友外交”刺痛了谁？跨大西洋信任再受考验。#媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 后劲太大了！#还在回味深圳行特朗普连发30多张照片 9张中俄美同框 14张中美互动 配文都提到\"朋友\"! 真诚交流留回味 太平洋之大容得下各方共同发",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "深圳的后劲还是太大了，特朗普连发三十多张APEC照片回味，晒与普京合影，高调打出“My Friend”再次回应质疑。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "直新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普回美国后一口气连发30多张APEC相关照片，来了一趟深圳，后劲就这么大？#特朗普 #美国 #APEC #深圳 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
@@ -134,32 +134,22 @@
      "hot": 0
     },
     {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 【APEC进口农产品丰富中国餐桌】近些年，来自APEC经济体的农产品不断丰富中国百姓的餐桌。一杯9.9元的咖啡，主要原料之一是罗布斯塔咖啡豆，其最大",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 开放、创新、合作！#4分钟读懂APEC #晶采观察 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "人民网",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "#媒体原创 APEC新机遇已敲门，年轻人怎么稳稳“接接接”？#财米油盐 #媒体精选计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 【APEC进口农产品丰富中国餐桌】近些年，来自APEC经济体的农产品不断丰富中国百姓的餐桌。一杯9.9元的咖啡，主要原料之一是罗布斯塔咖啡豆，其最大",
      "likes": 0,
      "hot": 0
     }
@@ -224,36 +214,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "来阳江嘴巴就没停过": {
+  "湘超半决赛娄底1:0湘潭": {
    "stats": {},
    "authors": [
     {
-     "name": "刘雨鑫JASON",
-     "verify": "",
-     "identity": "",
+     "name": "湖南经视",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "广东阳江，下顿馆子，看看仨人要花多少？ #人间烟火 #阳江 #猪大肠 #鱿鱼 #牛仔骨",
+     "text": "2026湘超半决赛 娄底队1:0湘潭队 #湘超 #我在现场看湘超 #风风火火战湘超 @康巴赫周和平",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "连赞",
-     "verify": "",
-     "identity": "",
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "阳江城西老街吃55一斤白切鸡，猪杂牛杂 阳江捞份，一条老街都是吃白切鸡美食，白切猪杂牛杂很新鲜，白切鸡配上捞份很有特色#谁懂这一口的好吃程度 #阳江美食 #白切",
+     "text": "湘超半决赛上半场娄底1:0湘潭，湘潭3号被罚下后，娄底吴晓巍破门#媒体原创 #湘超 #湘超半决赛 #媒体精选计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "大阳江",
-     "verify": "",
-     "identity": "",
+     "name": "观娄底",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "打卡阳西儒洞特色美食，好吃又便宜 #阳西美食 #鱼玛 #市井生活 #阳江美食",
+     "text": "首回合拿下！娄底队1：0湘潭队（娄底广电｜章娜 吴宁）#湘超娄底队 #为娄而战硬钢到底 #我们的足球我们的城 #康巴赫周和平",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "湘潭在线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "感谢娄底的热情欢迎！湘潭球迷赴约而来，双方热情互动，以足球相融，为两队喝彩。#湘潭新闻#2026湘超联赛#我爱湘潭我的家#爱在湘潭#爱上湘潭的一万个理由#红色热",
      "likes": 0,
      "hot": 0
     }
@@ -308,53 +308,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "湘超半决赛娄底1:0湘潭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "湖南经视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026湘超半决赛 娄底队1:0湘潭队 #湘超 #我在现场看湘超 #风风火火战湘超 @康巴赫周和平",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潇湘晨报·晨视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "湘超半决赛上半场娄底1:0湘潭，湘潭3号被罚下后，娄底吴晓巍破门#媒体原创 #湘超 #湘超半决赛 #媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "观娄底",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "首回合拿下！娄底队1：0湘潭队（娄底广电｜章娜 吴宁）#湘超娄底队 #为娄而战硬钢到底 #我们的足球我们的城 #康巴赫周和平",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "风芒新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 借湘超热度 联动“宝贝回家” 2026湘超联赛半决赛 娄底VS湘潭 “湘钢一家亲 场上对手 场下朋友” 希望更多球迷加入 助力团圆之#湘超 #媒体精",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "黄山迎客松为何成为中国名片": {
    "stats": {},
    "authors": [
@@ -372,66 +325,93 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "特朗普称将与伊朗达成永久性协议": {
+  "来阳江嘴巴就没停过": {
    "stats": {},
    "authors": [
     {
-     "name": "央视网快看",
+     "name": "刘雨鑫JASON",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "广东阳江，下顿馆子，看看仨人要花多少？ #人间烟火 #阳江 #猪大肠 #鱿鱼 #牛仔骨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "连赞",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "阳江城西老街吃55一斤白切鸡，猪杂牛杂 阳江捞份，一条老街都是吃白切鸡美食，白切猪杂牛杂很新鲜，白切鸡配上捞份很有特色#谁懂这一口的好吃程度 #阳江美食 #白切",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大阳江",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "打卡阳西儒洞特色美食，好吃又便宜 #阳西美食 #鱼玛 #市井生活 #阳江美食",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "沪深北交易所调整融资保证金比例": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视财经",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "特朗普称，没考虑伊朗政权更迭，不允许拥有核武器，寻求永久协议",
+     "text": "#沪深北交易所调整融资保证金比例 11月22日，经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "环视频",
+     "name": "每日经济新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "特朗普：将与伊朗达成一项永久性协议",
+     "text": "A股大消息！稳市出手，三箭齐发！沪深北交易所下调融资保证金比例：从100%调低至80%；创业板引入做市商制度；沪深交易所、中国结算发布降费政策 #A股 #利好",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新华网",
+     "name": "中国之声",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新华社消息｜特朗普称寻求与伊朗达成一项永久性协议",
+     "text": "“稳股市”组合拳来了 ！三项新政发布：一是沪深北交易所降低融资保证金比例下限至80%，11月30日起实施；二是深交所就《创业板股票做市交易业务细则》公开征求意见",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "长江日报",
+     "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "央视新闻最新消息，美国总统特朗普在当地时间21日播出的采访节目中说，将与伊朗达成一项永久性协议，“确保即使四年、十五年后出现一位不称职的总统，我达成的协议也将是",
+     "text": "力度加码！交易所打出稳市“组合拳”，沪深北交易所将投资者融资买入证券的最低保证金比例由100%调低至80% #沪深北交易所调整融资保证金比例",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "爱济南新闻客户端",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "伊朗袭击美国在巴林两个军事基地，摧毁两部\"爱国者\"雷达。特朗普称将寻求与伊达成永久协议#伊朗 #美国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晓莹博士",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普：要跟伊朗达成一项永久性协议！ #抖音精选 #全球创作者计划",
+     "text": "#媒体原创 A股迎来“真金白银”利好，有望带来4000亿增量资金，政策信号明确 11月22日，A股迎来一揽子稳市举措：调整融资保证金比例、创业板就做市商制度公开",
      "likes": 0,
      "hot": 0
     }
@@ -523,46 +503,93 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "维斯塔潘夺冠后嘲讽拉塞尔": {
+  "终于喝到APEC同款荔枝冰酒了": {
    "stats": {},
    "authors": [
     {
-     "name": "五星体育",
+     "name": "红星新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "维斯塔潘夺冠后火力全开 嘲讽拉塞尔根本不在一个水平 #维斯塔潘 #拉塞尔 #f1",
+     "text": "APEC晚宴荔枝冰酒爆单！ 酒厂老板称没吹牛 “每瓶酒真有168颗荔枝” 董事长：你们喝的和国宴一样",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Tonyshady F1",
-     "verify": "",
-     "identity": "",
+     "name": "封面新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "拉斯维加斯大奖赛正赛总结 | 全场无尿点！维斯塔潘拿下胜利！ #F1 #维斯塔潘 #拉塞尔 #拉斯维加斯大奖赛 #围场内外",
+     "text": "广东荔枝冰酒亮相APEC晚宴，电商平台店铺客服：目前已全线售罄，预计15天左右恢复供货",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Mr.Shelby",
+     "name": "趴菜喝一杯",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "除了死亡一切都是擦伤#f1方程赛车 #维斯塔潘 #红牛车队 #F1#F1比赛",
+     "text": "人在长安，喝上岭南的荔枝了？ #酒蒙子的日常 #微醺时刻 #荔枝酒 #果酒 #悦荔",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "行贿犯罪嫌疑人刘贤志被遣返回国": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视法治在线",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "【#行贿犯罪嫌疑人刘贤志被遣返回国 】#刘贤志被遣返回国 近日，在中央反腐败协调小组国际追逃追赃工作办公室统筹协调下，经与有关国家反腐败机构密切合作，外逃行贿犯",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "𝙎_𝙑𝘼𝙄𝙏𝙊𝙐",
-     "verify": "",
-     "identity": "",
+     "name": "央视网快看",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "维斯塔潘是拉斯维加斯大奖赛的冠军！ #F1 #拉斯维加斯大奖赛 #维斯塔潘 #维斯塔潘夺冠",
+     "text": "行贿犯罪嫌疑人刘贤志被遣返回国",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "行贿犯罪嫌疑人刘贤志，被遣返回国。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "看看新闻Knews",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#刘贤志被遣返回国 系北京一建筑公司实控人 涉嫌向多名公职人员行贿 中央追逃办：坚持受贿行贿一起追！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "政事儿",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "刘贤志，被遣返回国",
      "likes": 0,
      "hot": 0
     }
@@ -647,63 +674,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "伊朗打击巴林美军基地": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "现场画面！伊朗伊斯兰革命卫队打击巴林美军基地#24时区",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "动静新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "伊朗革命卫队袭击巴林两处美军基地，击中两部“爱国者”防空系统雷达",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "伊朗袭击美国在巴林两个军事基地，摧毁两部\"爱国者\"雷达。特朗普称将寻求与伊达成永久协议#伊朗 #美国",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "参考消息",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "伊朗革命卫队称袭击美军在巴林两处基地防空雷达",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国之声",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "总台记者观察：伊美博弈加剧，双方需重新审视各自战略目标。（总台记者 李健南）#媒体精选计划 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "黎曼猜想是什么": {
    "stats": {},
    "authors": [
@@ -748,12 +718,49 @@
      "hot": 0
     },
     {
-     "name": "新京报",
+     "name": "四川观察",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "困扰数学界167年的黎曼猜想被AI辅助证明？丘成桐：数学进入了一个新的纪元 #数学 #黎曼猜想 #AI #丘成桐",
+     "text": "当地时间11月20日，数学家莱文特 · 阿尔珀格宣称他与Claude合作，发现了黎曼猜想的一种证明方式。丘成桐、陶哲轩、邓煜三位菲尔兹奖得主就此发表看法。#黎曼",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "前女排国手颜妮在沈阳举行婚礼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "壹剪媒体育",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前女排国手颜妮结婚，郎平也送来了祝福，说跟嫁女儿一样高兴！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "沈阳娱乐新星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丁霞携前女排队友来颜妮婚礼现场啦 #颜妮 #丁霞 #中国女排 #明星婚礼",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小小白体育🏐️🏓️🏀⚽️",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "恭喜中国女排“北长城”颜妮。 赛场上她是坚不可摧的北长城，赛场下始终低调内敛。感谢颜妮为中国女排的付出，愿往后生活安稳，得偿所愿。#中国女排 #颜妮 #郎平",
      "likes": 0,
      "hot": 0
     }
@@ -885,6 +892,95 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "特朗普怒怼NBC女记者称其粗鲁": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "环球网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普再怼NBC女记者：你真是个粗鲁的人，你应该坐在后排 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普再怼NBC女记者：你真是个粗鲁的人，你应该坐在后排#特朗普",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "华商报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "特朗普再次怒斥NBC记者“你真是个粗鲁的人”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "临世面新闻",
+     "verify": "蓝V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "NBC记者中途打断特朗普发言，特朗普摆手拒绝，白宫发文批评记者，近期他已多次怒怼记者。#特朗普 #白宫 #NBC #美国 y",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "QQ飞车谁是车王总决赛": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "陈伯",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#陈伯全能王",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "QQ飞车端游",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "⭐决赛解说嘉宾揭晓！谁是车王S22总决赛解说阵容就位！特邀嘉宾朱渝航也将以职业选手视角带你沉浸式感受极限竞速的热血碰撞，妙评赛道博弈，直击极限对决！ ⭐11月2",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "追伯日记",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三位决赛车手忌惮张云彬，今天车王花落谁家？ #qq飞车 #谁是车王s22 #张云彬 #陈伯全能王 #陈伯百万二创激励计划",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "伊朗打击巴林美军基地": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "年轻人的广场舞接力跳": {
    "stats": {},
    "authors": [
@@ -952,46 +1048,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "特朗普怒怼NBC女记者称其粗鲁": {
+  "陈伟霆生日会现场跳嗨了": {
    "stats": {},
    "authors": [
     {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "宅娱乐",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "特朗普再怼NBC女记者：你真是个粗鲁的人，你应该坐在后排 #媒体原创",
+     "text": "陈伟霆生日会现场跳嗨了 请查收一只粉色毛毛饱向你跳来！陈伟霆生日会现场好嗨啊！咱就是说当陈伟霆的兵真的太幸福了吧！#陈伟霆澳门生日会 #陈伟霆生日会 #陈伟霆澳",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国新闻网",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "陈伟霆的tada",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "特朗普再怼NBC女记者：你真是个粗鲁的人，你应该坐在后排#特朗普",
+     "text": "#陈伟霆 唱跳野狼disco，走下台和大家互动#张启山 #野狼disco #陈伟霆九门 #生日快乐",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "临世面新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
+     "name": "行星𝑳𝒊𝒗𝒆",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "NBC记者中途打断特朗普发言，特朗普摆手拒绝，白宫发文批评记者，近期他已多次怒怼记者。#特朗普 #白宫 #NBC #美国 y",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "华商报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "特朗普再次怒斥NBC记者“你真是个粗鲁的人”",
+     "text": "陈伟霆你这么大方我有点不适应阿！！ #陈伟霆#陈伟霆澳门生日会#女皇",
      "likes": 0,
      "hot": 0
     }
@@ -999,36 +1085,100 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "QQ飞车谁是车王总决赛": {
+  "十万狂花婚礼变葬礼虐麻了": {
    "stats": {},
    "authors": [
     {
-     "name": "陈伯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#陈伯全能王",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "QQ飞车端游",
+     "name": "十万狂花入梦来（12点酷酷画地为牢",
      "verify": "蓝V",
      "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "⭐️终局之战，强者登场！四位顶尖车手齐聚太仓，赛道争锋，以极速竞逐至高王座！ ⭐️11月22日16:00，锁定QQ飞车官方赛事直播间，共赏谁是车王S22总决赛巅",
+     "text": "#十万狂花入梦来 什么山盟海誓，其实从头到尾都在辜负 #赵昭仪 #曹煜辰 #幽幽 #沈忘言",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "轻置玉臀",
+     "name": "茉莉椰yee",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "盘点QQ飞车谁是车王历届冠军 #qq飞车端游 #qq飞车比赛 部分比赛素材来自小破站一摆到头，非常感谢。",
+     "text": "笑的不行了 @十万狂花入梦来（12点酷酷画地为牢 #赵昭仪 #孙珍妮 #十万狂花入梦来 #十万狂花入梦来在酷看入迷",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "来运",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#剪映 我真不行了，原来城中的妖怪都是幽幽抓进来的。纯是为了当城主的瘾#赵昭仪 #孙珍妮#十万狂花入梦来 #十万狂花入梦来在酷看入迷",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "两京十五日抖音追剧团": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "星娱乐Online",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#陈数 #姜珮瑶 王和 同台亮相，一整个大养眼！#两京十五日 #两京十五日抖音追剧团 #陈数好优雅",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老师看这里",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "让我们一起祝两京十五日大爆特爆！#成毅 #林更新 #两京十五日 #两京十五日抖音追剧团",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "小雪的第一条祝福我想送给你": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "记住小程.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天就是小雪啦，小雪的第一条祝福我想送给你，希望这个冬天阳光温暖岁月静好，我们都无病无灾平安顺遂，愿你在这个冬天没有风霜雨雪只有阳光明媚，天天开心平安喜乐！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "One：",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "@FANCI范琦珠宝旗舰店比雪花更早到的，是你送的范琦紫藤花代表永不分离#Fanci范琦紫藤花 #范琦紫藤花对戒 #情感 #治愈系 #冬天",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "布布一二酱",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今天就是小雪了，小雪的第一条祝福，我想送给你！愿你这个冬天，暖意常在，好运常来，平安喜乐，万事顺意！小雪至，冬意浓。天气越来越冷了，注意添衣保暖，好好吃饭，好好",
      "likes": 0,
      "hot": 0
     }
@@ -1133,56 +1283,73 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "沪深北交易所调整融资保证金比例": {
+  "在贺峻霖视频里画地为牢": {
    "stats": {},
    "authors": [
     {
-     "name": "央视财经",
+     "name": "时代少年团-贺峻霖",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "😘",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "特朗普称将与伊朗达成永久性协议": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视网快看",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#沪深北交易所调整融资保证金比例 11月22日，经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。",
+     "text": "特朗普称，没考虑伊朗政权更迭，不允许拥有核武器，寻求永久协议",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "每日经济新闻",
+     "name": "环视频",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "A股大消息！稳市出手，三箭齐发！沪深北交易所下调融资保证金比例：从100%调低至80%；创业板引入做市商制度；沪深交易所、中国结算发布降费政策 #A股 #利好",
+     "text": "特朗普：将与伊朗达成一项永久性协议",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "中国之声",
+     "name": "参考消息",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "“稳股市”组合拳来了 ！三项新政发布：一是沪深北交易所降低融资保证金比例下限至80%，11月30日起实施；二是深交所就《创业板股票做市交易业务细则》公开征求意见",
+     "text": "特朗普：将与伊朗达成一项永久性协议",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "凤凰卫视",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "稳市场！三项新政来了 沪深北交易所 降低融资保证金比例下限至80%",
+     "text": "伊朗袭击美国在巴林两个军事基地，摧毁两部\"爱国者\"雷达。特朗普称将寻求与伊达成永久协议#伊朗 #美国",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "晓莹博士",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "力度加码！交易所打出稳市“组合拳”，沪深北交易所将投资者融资买入证券的最低保证金比例由100%调低至80% #沪深北交易所调整融资保证金比例",
+     "text": "特朗普：要跟伊朗达成一项永久性协议！ #抖音精选 #全球创作者计划",
      "likes": 0,
      "hot": 0
     }
@@ -1227,63 +1394,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "十万狂花婚礼变葬礼虐麻了": {
+  "爱乐之城舞蹈教学": {
    "stats": {},
    "authors": [
     {
-     "name": "十万狂花入梦来（12点酷酷画地为牢",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#十万狂花入梦来 什么山盟海誓，其实从头到尾都在辜负 #赵昭仪 #曹煜辰 #幽幽 #沈忘言",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "茉莉椰yee",
+     "name": "来自星星的舞者",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "笑的不行了 @十万狂花入梦来（12点酷酷画地为牢 #赵昭仪 #孙珍妮 #十万狂花入梦来 #十万狂花入梦来在酷看入迷",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "来运",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#剪映 我真不行了，原来城中的妖怪都是幽幽抓进来的。纯是为了当城主的瘾#赵昭仪 #孙珍妮#十万狂花入梦来 #十万狂花入梦来在酷看入迷",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "两京十五日抖音追剧团": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "星娱乐Online",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#陈数 #姜珮瑶 王和 同台亮相，一整个大养眼！#两京十五日 #两京十五日抖音追剧团 #陈数好优雅",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老师看这里",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "让我们一起祝两京十五日大爆特爆！#成毅 #林更新 #两京十五日 #两京十五日抖音追剧团",
+     "text": "好朋友们，这次一定要一起跳 #爱乐之城 #lalaland #top进行曲 #抖音潮流舞蹈大赛 #抖音玩法合伙人计划",
      "likes": 0,
      "hot": 0
     }
@@ -1313,105 +1433,48 @@
      "text": "【MVP】火力拉满，恭喜麋鹿拿下今日最后一把MVP！#天霸吃鸡继续领跑#天霸巅峰挑战赛积分断层第一#和平精英#职业选手",
      "likes": 0,
      "hot": 0
-    },
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "王楚然泰国录现发的一天": {
+   "stats": {},
+   "authors": [
     {
-     "name": "PEL和平精英职业联赛",
+     "name": "王楚然工作室",
      "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【2026 PEL巅峰挑战赛】总决赛 DAY1 回顾 第一名：@天霸电子竞技俱乐部 第二名：@杭州KSG和平精英分部 第三名：@北京JDG和平精英分部 第四名：",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "小雪的第一条祝福我想送给你": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "记住小程.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天就是小雪啦，小雪的第一条祝福我想送给你，希望这个冬天阳光温暖岁月静好，我们都无病无灾平安顺遂，愿你在这个冬天没有风霜雨雪只有阳光明媚，天天开心平安喜乐！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "One：",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@FANCI范琦珠宝旗舰店比雪花更早到的，是你送的范琦紫藤花代表永不分离#Fanci范琦紫藤花 #范琦紫藤花对戒 #情感 #治愈系 #冬天",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "布布一二酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天就是小雪了，小雪的第一条祝福，我想送给你！愿你这个冬天，暖意常在，好运常来，平安喜乐，万事顺意！小雪至，冬意浓。天气越来越冷了，注意添衣保暖，好好吃饭，好好",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "那英万妮达十年舞台重逢": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "会火大明星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "十年过去还是一句“我是那英老师的学生”#万妮达 #那英 #那英万妮达十年舞台重逢",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Live in Live",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时隔十年，那英万妮达师徒二人同台演唱《善变》！#那英 #万妮达 #善变 #那英武汉演唱会",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "桃子live.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时隔十年，那英万妮达师徒二人同台演唱《善变》！ #那英#万妮达#善变#那英武汉演唱会",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "在贺峻霖视频里画地为牢": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "时代少年团-贺峻霖",
-     "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "😘",
+     "text": "就这样姐一天妹一天@王楚然 🎀 #王楚然 #现在就出发 #现在就出发4 #谁是姐谁是妹",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "洱海晚霞配花田太浪漫": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "夏天的风",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别犹豫 请艾特出世界上最最最可爱的女孩子来看晚霞@ #大理#洱海#晚霞",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "晚夏",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "别犹豫 请艾特世界上最可爱的女孩子来看浪漫的晚霞和花花#大理 #洱海 #晚霞",
      "likes": 0,
      "hot": 0
     }
@@ -1456,122 +1519,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "爱乐之城舞蹈教学": {
+  "那英万妮达十年舞台重逢": {
    "stats": {},
    "authors": [
     {
-     "name": "来自星星的舞者",
+     "name": "会火大明星",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "好朋友们，这次一定要一起跳 #爱乐之城 #lalaland #top进行曲 #抖音潮流舞蹈大赛 #抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "终于喝到APEC同款荔枝冰酒了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "APEC晚宴荔枝冰酒爆单！ 酒厂老板称没吹牛 “每瓶酒真有168颗荔枝” 董事长：你们喝的和国宴一样",
+     "text": "十年过去还是一句“我是那英老师的学生”#万妮达 #那英 #那英万妮达十年舞台重逢",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "封面新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "Live in Live",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "广东荔枝冰酒亮相APEC晚宴，电商平台店铺客服：目前已全线售罄，预计15天左右恢复供货",
+     "text": "时隔十年，那英万妮达师徒二人同台演唱《善变》！#那英 #万妮达 #善变 #那英武汉演唱会",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "趴菜喝一杯",
+     "name": "桃子live.",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "人在长安，喝上岭南的荔枝了？ #酒蒙子的日常 #微醺时刻 #荔枝酒 #果酒 #悦荔",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "陈伟霆生日会现场跳嗨了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "宅娱乐",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈伟霆生日会现场跳嗨了 请查收一只粉色毛毛饱向你跳来！陈伟霆生日会现场好嗨啊！咱就是说当陈伟霆的兵真的太幸福了吧！#陈伟霆澳门生日会 #陈伟霆生日会 #陈伟霆澳",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陈伟霆的tada",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#陈伟霆 唱跳野狼disco，走下台和大家互动#张启山 #野狼disco #陈伟霆九门 #生日快乐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "行星𝑳𝒊𝒗𝒆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈伟霆你这么大方我有点不适应阿！！ #陈伟霆#陈伟霆澳门生日会#女皇",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "骗你的其实我没走出短国": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "洱海晚霞配花田太浪漫": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "夏天的风",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别犹豫 请艾特出世界上最最最可爱的女孩子来看晚霞@ #大理#洱海#晚霞",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "晚夏",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "别犹豫 请艾特世界上最可爱的女孩子来看浪漫的晚霞和花花#大理 #洱海 #晚霞",
+     "text": "时隔十年，那英万妮达师徒二人同台演唱《善变》！ #那英#万妮达#善变#那英武汉演唱会",
      "likes": 0,
      "hot": 0
     }
@@ -1686,56 +1663,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "行贿犯罪嫌疑人刘贤志被遣返回国": {
+  "冬日跑步穿搭指南": {
    "stats": {},
    "authors": [
     {
-     "name": "央视法治在线",
-     "verify": "蓝V",
-     "identity": "媒体人",
+     "name": "AAA白日梦批发",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "【#行贿犯罪嫌疑人刘贤志被遣返回国 】#刘贤志被遣返回国 近日，在中央反腐败协调小组国际追逃追赃工作办公室统筹协调下，经与有关国家反腐败机构密切合作，外逃行贿犯",
+     "text": "跑步ootd.9~15度最夯的穿搭，外面防风保暖，内层速干长袖T恤，再加上一条短裤，跑个几公里身体热开，把外套脱掉，跑完以后再穿上，不至于风吹感冒，内层长袖T恤",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "JASMINESZM",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "行贿犯罪嫌疑人刘贤志被遣返回国",
+     "text": "冬季跑步穿什么。#冬日跑步穿搭指南 #跑步穿搭 #跑步装备 #运动穿搭 #跑步",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视财经",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "Tylerrr",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "行贿犯罪嫌疑人刘贤志，被遣返回国。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#刘贤志被遣返回国 系北京一建筑公司实控人 涉嫌向多名公职人员行贿 中央追逃办：坚持受贿行贿一起追！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "政事儿",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "刘贤志，被遣返回国",
+     "text": "秋冬跑步穿搭合集#天冷了跑步全靠哄 #秋冬outfit #跑步穿搭 #运动ootd #195",
      "likes": 0,
      "hot": 0
     }
@@ -1743,36 +1700,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "DONT STOP继续跳": {
+  "蛋仔版小跳蛙": {
    "stats": {},
    "authors": [
     {
-     "name": "✞.𝒮𝔬𝔫𝔦𝔞.✟☠️",
-     "verify": "",
-     "identity": "",
+     "name": "网易蛋仔派对",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "dont stop 继续跳 #giselle #吉赛尔 #aespa #要抱抱 ib@\\therefore",
+     "text": "每天这样跳来跳去好酥服呀~ #蛋仔派对 #小跳蛙 #通透",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "人间柠萌乐",
+     "name": "亦亦亦亦（选c）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "魅力不够 旁边靠 #宁艺卓 #aespa #ningning #要抱抱",
+     "text": "蛋仔派对电子琴《小跳蛙》的谱子 #蛋仔弹奏 #蛋仔音乐谱子 #小跳蛙 #小跳蛙的谱子",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Hermann1893",
+     "name": "游小浪Game",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我手痒。 #一闫薇定 #田曦薇闫桉 #男神女神 #我cp#hellobaby要抱抱",
+     "text": "蛋仔派对：盘点爆火的网络热梗？被小跳蛙洗脑，秀浪演绎非凡之爱 #蛋仔派对 #我在蛋仔岛过秋天 #蛋仔全民寻宝队 #蛋仔派对摄影剪辑师 #蛋仔高玩小课堂",
      "likes": 0,
      "hot": 0
     }
@@ -1817,16 +1774,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王楚然泰国录现发的一天": {
+  "DONT STOP继续跳": {
    "stats": {},
    "authors": [
     {
-     "name": "王楚然工作室",
-     "verify": "蓝V",
-     "identity": "认证创作者",
+     "name": "✞.𝒮𝔬𝔫𝔦𝔞.✟☠️",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "就这样姐一天妹一天@王楚然 🎀 #王楚然 #现在就出发 #现在就出发4 #谁是姐谁是妹",
+     "text": "dont stop 继续跳 #giselle #吉赛尔 #aespa #要抱抱 ib@\\therefore",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人间柠萌乐",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "魅力不够 旁边靠 #宁艺卓 #aespa #ningning #要抱抱",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Hermann1893",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我手痒。 #一闫薇定 #田曦薇闫桉 #男神女神 #我cp#hellobaby要抱抱",
      "likes": 0,
      "hot": 0
     }
@@ -1834,36 +1811,16 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "江西小炒真的太好吃了": {
+  "金宝珠谢砚天定良缘宿命感": {
    "stats": {},
    "authors": [
     {
-     "name": "二百者也",
-     "verify": "",
-     "identity": "",
+     "name": "网剧宝珠（芒着热播ing",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "江西赣州200元开盲盒： 灶上夫君烹妙味，堂前娘子待来宾。#二百者也",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "睿锅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "江西菜真的太好吃了！ #江西小炒 #江西人的最爱 #爆辣江西菜 #南昌#南昌美食",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "我吃吃吃",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我确定我吃到了淮南最美味的江西小炒！！！！#美食没有天花板 #下饭菜 #江西菜辣辣辣 #淮南美食 #江西菜",
+     "text": "我的爱人是救我于水火的神明！#网剧宝珠 #代露娃 #赖伟明 #金宝珠 #谢砚",
      "likes": 0,
      "hot": 0
     }
@@ -1908,127 +1865,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "三角洲这进行曲谁能绷住": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小谢的大红包",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三角洲的《神之八秒》！不要随便进入核心哦哈基蜂！ #打洲进行曲 #洲洲音乐人 #三角洲行动 #神之八秒灵感来袭：@枪弹轨迹",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "干嘛的电台",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "粥粥有嘻哈｜比特VS疾风 属于 保守玩法 与 极致欧美 的对决！ #三角洲行动 #汽水音乐APP #汽水神级打洲小曲 #三角洲二创 #打洲进行曲 疾风面部参考：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小汽水",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三角洲行动X汽水音乐【AI写歌专属行动-打洲进行曲】开始咯！亲爱的洲同学，欢迎用AI写出你的打洲故事～ #打洲进行曲 #三角洲行动 #汽水AI写歌 #汽水音乐A",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "墨西哥抓获大毒枭伊西德罗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "墨西哥抓获FBI“十大通缉要犯”之一大毒枭！抓捕行动引发多起暴力事件，武装分子设置路障、焚烧车辆，军用直升机低空盘旋并向地面开火。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 墨西哥军方抓获一名大毒枭，此人被列为美国联邦调查局十大通缉要犯之一。此外，本次抓捕行动还引发了多地暴力事件。（央视频号：总台电视资讯）#全球直击第一",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "抓捕画面！墨西哥抓获大毒枭“矮子伊西德罗”#24时区",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰WEEKLY",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "墨西哥抓获大毒枭“矮子伊西德罗”，双方激烈交火，军方直升机扫射地面。#媒体精选计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极目新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "墨西哥大毒枭“矮子伊西德罗”被抓获：军方直升机扫射地面，多辆汽车遭焚烧",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "华夏城NPC的问答题太有意思了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "爱喝玉米汁🌽",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "到底是哪座城市呢#西安华夏城 #采访名场面 #城市 #华夏城关中刘妈#华夏城NPC的问答题太有意思了",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一只猫猫酱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "那座城市没有山？ #地理 #西安华夏城 #华夏城关中刘妈#华夏城NPC的问答题太有意思了",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "两京十五日主创回北京了": {
    "stats": {},
    "authors": [
@@ -2066,16 +1902,41 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "金宝珠谢砚天定良缘宿命感": {
+  "骗你的其实我没走出短国": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "江西小炒真的太好吃了": {
    "stats": {},
    "authors": [
     {
-     "name": "网剧宝珠（芒着热播ing",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "二百者也",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我的爱人是救我于水火的神明！#网剧宝珠 #代露娃 #赖伟明 #金宝珠 #谢砚",
+     "text": "江西赣州200元开盲盒： 灶上夫君烹妙味，堂前娘子待来宾。#二百者也",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "睿锅",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "江西菜真的太好吃了！ #江西小炒 #江西人的最爱 #爆辣江西菜 #南昌#南昌美食",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我吃吃吃",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我确定我吃到了淮南最美味的江西小炒！！！！#美食没有天花板 #下饭菜 #江西菜辣辣辣 #淮南美食 #江西菜",
      "likes": 0,
      "hot": 0
     }
@@ -2083,42 +1944,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "冬日跑步穿搭指南": {
+  "两京十五日里的君臣关系": {
    "stats": {},
-   "authors": [
-    {
-     "name": "AAA白日梦批发",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跑步ootd.9~15度最夯的穿搭，外面防风保暖，内层速干长袖T恤，再加上一条短裤，跑个几公里身体热开，把外套脱掉，跑完以后再穿上，不至于风吹感冒，内层长袖T恤",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "JASMINESZM",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "冬季跑步穿什么。#冬日跑步穿搭指南 #跑步穿搭 #跑步装备 #运动穿搭 #跑步",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Tylerrr",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "秋冬跑步穿搭合集#天冷了跑步全靠哄 #秋冬outfit #跑步穿搭 #运动ootd #195",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "纸质假睫毛我又错怪你了": {
    "stats": {},
@@ -2150,6 +1979,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "纸做的假睫毛。到底好不好用#假睫毛 #美妆 #推荐好物",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "周翊然藏在玩偶里的浪漫": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "无乐不欢Online",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "对玩偶祝自担生日快乐结果里面就是正主本人 这是真的双向奔赴啊周翊然浪漫疯子来的！#周翊然 #周翊然生日音乐会 #双向奔赴 #追星女 #线下",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "我该怎么告诉你.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "“拥抱是为了弥补人类右胸腔没有的心跳”所以我喜欢和你拥抱。#周翊然#周翊然生日会 #拥抱 #拥抱的温度只有你清楚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "该怎么描述你",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哥哥你是说这个小雪人里面是你吗 我能猜到是你所以我一直在紧张和你说了很多话最后想再抱抱你 很难不爱这么真诚的你我会永远爱你的哥哥#周翊然 #周翊然生日会 #雪人",
      "likes": 0,
      "hot": 0
     }
