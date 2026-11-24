@@ -1,68 +1,11 @@
 {
- "updated_at": "2026-11-24 17:39",
+ "updated_at": "2026-11-24 18:41",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 48,
- "ok_count": 45,
+ "ok_count": 42,
  "lexicon_count": 0,
  "topics": {
-  "神二十四乘组名单公布": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神舟二十四号飞行乘组名单公布！“天宫”将迎来首位外籍航天员。#中国航天 #最新消息 #巴基斯坦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神二十四航天员齐尚·阿里 载人航天工程首位外籍航天员（记者：李国利、张斌、米思源、岳梦迪）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "新华网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "汤洪波：别等一切都准备好，你的对手已经跑出去很远了#神舟二十四号 #媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#神24乘组公布 汤洪波、武毅、穆罕默德·齐尚·阿里！祝福，期待❤️ （人民网记者 赵竹青）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 神舟二十四号飞船瞄准明天（25日）8时18分发射，“天宫”将迎来首位外籍航天员。（央视频号：新闻来了）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "上海市委书记陈吉宁被查": {
    "stats": {},
    "authors": [
@@ -120,63 +63,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "数字经济正成为用电增长新引擎": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "央视一套",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 #数字经济正成为用电增长新引擎 【今年前10月全社会用电量同比增长3.7%】11月23日，国家能源局发布1~10月全社会用电量数据。数据显示，今年前",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "欢姐讲数据",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "全社会用电量 2026年前十个月全社会用电量 #数据可视化",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网财经",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前10个月全社会用电量同比增长3.7%",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "福建之声",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "前10月全社会用电量同比增长3.7%。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈尔滨的冷还能这么用？腾讯、字节、京东都来“买算力”！24家媒体探访数字经济新引擎，黑土地的新算力，改写AI的成本账！ #东旭 #主播说新闻",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "草莓桶蛋糕一吃一个不吱声": {
    "stats": {},
    "authors": [
@@ -214,6 +100,120 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "数字经济正成为用电增长新引擎": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视一套",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 #数字经济正成为用电增长新引擎 【今年前10月全社会用电量同比增长3.7%】11月23日，国家能源局发布1~10月全社会用电量数据。数据显示，今年前",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "欢姐讲数据",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "全社会用电量 2026年前十个月全社会用电量 #数据可视化",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视网财经",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "前10个月全社会用电量同比增长3.7%",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "易安解读.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "3分钟看懂11月24日新闻联播要点解读 #央视新闻",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "峰哥速探",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "峰哥《新闻联播》-利好解读-2026.11.24 每天三分钟 寻找属于您的发财机会 #新闻联播 #信息差 #经济 #央视新闻 #政策风向标",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "神二十四乘组名单公布": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神舟二十四号飞行乘组名单公布！“天宫”将迎来首位外籍航天员。#中国航天 #最新消息 #巴基斯坦",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神二十四航天员齐尚·阿里 载人航天工程首位外籍航天员（记者：李国利、张斌、米思源、岳梦迪）#媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "汤洪波：别等一切都准备好，你的对手已经跑出去很远了#神舟二十四号 #媒体原创",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神24乘组公布 汤洪波、武毅、穆罕默德·齐尚·阿里！祝福，期待❤️ （人民网记者 赵竹青）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神舟二十四号载人飞船发射窗口确定于11月25日8时18分发射，这将是中国载人航天工程史上首次中外航天员联合飞行，也是中国空间站首次迎来外籍航天员。",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "上海海港3:1武里南联": {
    "stats": {},
    "authors": [
@@ -228,22 +228,12 @@
      "hot": 0
     },
     {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上海海港抢占先机！安佩姆策动反击，莱昂纳多助攻刘祝润破门！#上海海港vs武里南联 #刘祝润低射破门 #上海海港半场1比1武里南联 #亚冠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "五星体育",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "挡不住了！莱昂纳多妙传，安佩姆梅开二度！#上海海港3比1武里南联 #上海海港 #安佩姆梅开二度 #安佩姆#亚冠 @抖音体育 @抖音小助手",
+     "text": "安佩姆凌空垫射，连续5场进球太无解！#上海海港vs武里南联 #亚冠 #上海海港2比1武里南联 #安佩姆连续五场亚冠进球 @抖音体育 @抖音小助手",
      "likes": 0,
      "hot": 0
     },
@@ -258,49 +248,12 @@
      "hot": 0
     },
     {
-     "name": "每日体育前瞻-扣篮杂志",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "咪咕体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "每日体育前瞻-扣篮杂志",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这个日常妆值得焊在脸上": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吃不吃泡泡糖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新手速学｜亚裔Pony Doll轻混血妆 #当普通人化亚裔混血妆 #pony #美妆宝藏 #宝藏风格玩妆团 #这个日常妆值得焊在脸上",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "可惠Kehui",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宝藏风格玩妆团/这个日常妆值得焊在脸上 今年收到的角色是「妆容风格爱好团，跟我加入#宝藏风格玩妆团 ，投稿你的风格玩妆好物吧！#这个日常妆值得焊在脸上 #潮妆研",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Dear-迪丽热巴",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快粗来丸！#这个日常妆值得焊在脸上",
+     "text": "上海海港抢占先机！安佩姆策动反击，莱昂纳多助攻刘祝润破门！#上海海港vs武里南联 #刘祝润低射破门 #上海海港半场1比1武里南联 #亚冠",
      "likes": 0,
      "hot": 0
     }
@@ -362,12 +315,12 @@
      "hot": 0
     },
     {
-     "name": "农民日报",
+     "name": "越牛新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "田秉毅任国家羽毛球队主教练 #羽毛球队",
+     "text": "11月24日报道，田秉毅，任国羽主教练，两届奥运冠军张楠进入国羽教练团队工作",
      "likes": 0,
      "hot": 0
     }
@@ -375,121 +328,42 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "羽绒服你喜欢浅色还是黑色": {
+  "这个日常妆值得焊在脸上": {
    "stats": {},
    "authors": [
     {
-     "name": "TJB白小纯",
+     "name": "吃不吃泡泡糖",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "新手速学｜亚裔Pony Doll轻混血妆 #当普通人化亚裔混血妆 #pony #美妆宝藏 #宝藏风格玩妆团 #这个日常妆值得焊在脸上",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "可惠Kehui",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "宝藏风格玩妆团/这个日常妆值得焊在脸上 今年收到的角色是「妆容风格爱好团，跟我加入#宝藏风格玩妆团 ，投稿你的风格玩妆好物吧！#这个日常妆值得焊在脸上 #潮妆研",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Dear-迪丽热巴",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "羽毛落下的那刻，喧嚣都自动静音。 #变装#氛围感#首尔第一深情",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "李小璐",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "落日、老街、一支糖葫芦 是刻在记忆里的旧时光",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "千里寻椰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今年的十一月冷了很多。去年冬天 我许愿今年要比去年更幸福 现在看来 我好像实现了",
+     "text": "快粗来丸！#这个日常妆值得焊在脸上",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "普通人秋冬有效穿搭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小排骨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "普通人穿搭思路——内深外浅 #日常穿搭分享 #秋冬穿搭参考 #韩系入冬保暖穿搭 #普通人学穿搭 #穿搭技巧",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不是小阳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今天是三套适合普通人通勤的秋冬穿搭#秋冬outfit",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姐姐不辣",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "同一件大衣搭短裙还是裤子？#梨形身材本命大衣 #选择困难症犯了 #普通人显高显瘦穿搭 #显瘦不压身高大衣 #秋冬显瘦黑大衣",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "霸王别姬糖葫芦版": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "子非鱼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "妾随大王，撑死无悔～ 都说冰糖葫芦酸，酸里面它带着甜……#霸王别姬糖葫芦 #霸王别姬#霸王别饥",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "吕小雨",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "戏里出了个假霸王，糖葫芦出了个真虞姬 #霸王别姬 #抽象 #糖葫芦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红豆拌香菜很雷人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你若身死 我绝不独活 #糖葫芦 #情侣 #霸王别姬 #抽象",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "啊 是丹东大草莓来了": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "此刻舞台上的我光芒万丈": {
    "stats": {},
@@ -598,36 +472,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "零失败敲虾家常做法": {
+  "普通人秋冬有效穿搭": {
    "stats": {},
    "authors": [
     {
-     "name": "婉婉的幸福生活（28号上午十点鱿鱼贝柱）",
+     "name": "小排骨",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "很火的敲虾也是在家吃上了#谁懂这一口的好吃程度 #满级吃商通关赛 #美食教程 #敲虾",
+     "text": "普通人穿搭思路——内深外浅 #日常穿搭分享 #秋冬穿搭参考 #韩系入冬保暖穿搭 #普通人学穿搭 #穿搭技巧",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "文文干饭啦",
+     "name": "不是小阳",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "头一次知道虾还能敲着吃？敲出的虾肉又弹又鲜，配上2种蘸料 #敲虾太太太上头了！#虾的神仙吃法 #满级吃商通关赛 #美食教程 #好吃到停不下来",
+     "text": "今天是三套适合普通人通勤的秋冬穿搭#秋冬outfit",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "玢玢",
+     "name": "姐姐不辣",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "最近网上很火的敲虾来啦，把虾敲成薄薄的片，吃起来又Q又嫩。口感跟直接吃虾的差别很大，还一起做了垂肉片，家里小孩子们一片接一片，吃得停不下来，都特别爱吃#敲虾",
+     "text": "同一件大衣搭短裙还是裤子？#梨形身材本命大衣 #选择困难症犯了 #普通人显高显瘦穿搭 #显瘦不压身高大衣 #秋冬显瘦黑大衣",
      "likes": 0,
      "hot": 0
     }
@@ -635,123 +509,110 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "上海市委就陈吉宁被查表态": {
+  "羽绒服你喜欢浅色还是黑色": {
    "stats": {},
    "authors": [
     {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上海市委常委会举行扩大会议：坚决拥护党中央对陈吉宁涉嫌严重违纪违法进行审查调查的决定 #上海 #反腐",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上海市委常委会举行扩大会议：坚决拥护党中央对陈吉宁涉嫌严重违纪违法进行审查调查的决定",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央广网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中央政治局委员、上海市委书记陈吉宁被查",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查。",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "亚冠北京国安2:3不敌大田市民": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吴桐Fairy",
+     "name": "TJB白小纯",
      "verify": "黄V",
      "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "北京国安2:3大田市民 有遗憾也有不甘，说实话也有一点怒火…不在于比分和失利，而是丢球的方式。三个丢球都和自己有关，接连送大礼这谁吃得消啊…但是看看老弱病残的防",
+     "text": "羽毛落下的那刻，喧嚣都自动静音。 #变装#氛围感#首尔第一深情",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "咪咕体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "李小璐",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "亚冠两连败！北京国安2比3不敌大田市民，出线竞争压力倍增！#大田市民3比2北京国安 #北京国安亚冠2连败 #大田市民vs北京国安 #孔特直红被取消",
+     "text": "落日、老街、一支糖葫芦 是刻在记忆里的旧时光",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "纵览新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "千里寻椰",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月24日，亚冠精英联赛东亚区第5轮，北京国安客场2-3不敌大田市民，赛后王刚接受采访。 评价球队今天晚上的表现： 王刚：今天球队因为两个低级的失误导致了比赛",
+     "text": "今年的十一月冷了很多。去年冬天 我许愿今年要比去年更幸福 现在看来 我好像实现了",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "霸王别姬糖葫芦版": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "子非鱼",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "妾随大王，撑死无悔～ 都说冰糖葫芦酸，酸里面它带着甜……#霸王别姬糖葫芦 #霸王别姬#霸王别饥",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "新爱体育",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "吕小雨",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "后防集体梦游！北京国安半场两次超巨失误送礼，1-3落后大田市民 #北京国安 #亚冠 #上新爱体育看亚冠",
+     "text": "戏里出了个假霸王，糖葫芦出了个真虞姬 #霸王别姬 #抽象 #糖葫芦",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "咪咕足球",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "红豆拌香菜很雷人",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "看力竭了！北京国安后场三度失误送大礼！亚冠大田市民轻松打进三球，亚冠也有国补？#大田市民vs北京国安 #北京国安后防三次送大礼 #北京国安 #亚冠",
+     "text": "你若身死 我绝不独活 #糖葫芦 #情侣 #霸王别姬 #抽象",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "来一份DJ炒饭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "𝑺𝒂𝒐𝒓𝒔𝒂.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来一份DJ炒饭吧#厨房不养闲人 #当代年轻人做饭有自己的秘方 #在线打碟 #DJ炒饭#做饭天赋型选手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "周66（教程在主页）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "爆炒#做饭天赋型选手 #厨房不养闲人 #觉醒吧我的厨艺天赋 #黑暗料理界傲娇天才特级厨师 #00后勇闯厨房",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "老头也会玩",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "来一份DJ炒饭吧#厨房不养闲人 #剪映 #在线打碟 #DJ炒饭#做饭天赋型选手",
      "likes": 0,
      "hot": 0
     }
@@ -789,6 +650,48 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信 #这一年的你",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "啊 是丹东大草莓来了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "零失败敲虾家常做法": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "婉婉的幸福生活（28号上午十点鱿鱼贝柱）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "很火的敲虾也是在家吃上了#谁懂这一口的好吃程度 #满级吃商通关赛 #美食教程 #敲虾",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "文文干饭啦",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "头一次知道虾还能敲着吃？敲出的虾肉又弹又鲜，配上2种蘸料 #敲虾太太太上头了！#虾的神仙吃法 #满级吃商通关赛 #美食教程 #好吃到停不下来",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "玢玢",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "最近网上很火的敲虾来啦，把虾敲成薄薄的片，吃起来又Q又嫩。口感跟直接吃虾的差别很大，还一起做了垂肉片，家里小孩子们一片接一片，吃得停不下来，都特别爱吃#敲虾",
      "likes": 0,
      "hot": 0
     }
@@ -893,6 +796,11 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "崔丁请全岛老人吃满汉全席": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "泽连斯基公布击沉俄军舰画面": {
    "stats": {},
    "authors": [
@@ -913,16 +821,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "泽连斯基公布击沉俄护卫舰画面：数艘无人艇冲向军舰引发巨大爆炸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三沙卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泽连斯基证实：乌军击沉俄罗斯护卫舰（CCTV国际时讯）",
      "likes": 0,
      "hot": 0
     },
@@ -950,33 +848,6 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "黄仁勋这次回归价值几何": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "话匣子FM",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "复位，不是复权——黄仁勋归来，但话事权不再完整 一天，9520亿美元！#黄仁勋 究竟值多少钱？资本市场给出了一个令人咋舌的答案。市场买账的是黄仁勋的能力，但让他",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "遵义发布",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#黄仁勋离任11天回归 ，英伟达市值增加近1万亿美元。#英伟达 #黄仁勋 （来源：新华社）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
   "请选择你的入冬穿搭": {
    "stats": {},
    "authors": [
@@ -987,43 +858,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "请选择你的入冬穿搭#大学生 #入冬穿搭#羽绒服#保暖 @DOU+上热门 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "来一份DJ炒饭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "𝑺𝒂𝒐𝒓𝒔𝒂.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一份DJ炒饭吧#厨房不养闲人 #当代年轻人做饭有自己的秘方 #在线打碟 #DJ炒饭#做饭天赋型选手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "周66（教程在主页）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爆炒#做饭天赋型选手 #厨房不养闲人 #觉醒吧我的厨艺天赋 #黑暗料理界傲娇天才特级厨师 #00后勇闯厨房",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "老头也会玩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一份DJ炒饭吧#厨房不养闲人 #剪映 #在线打碟 #DJ炒饭#做饭天赋型选手",
      "likes": 0,
      "hot": 0
     }
@@ -1058,46 +892,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影手游11周年版本爆料": {
+  "在饥困荒野的一天": {
    "stats": {},
    "authors": [
     {
-     "name": "火影忍者手游情报君",
+     "name": "踹踹",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#火影手游11周年版本爆料 预言中改变世界的\"神\"，原来近在眼前——有你，就能点燃每一刻！2027年1月高招S忍#火影手游漩涡鸣人阳之力参上！ 感谢学员漂泊小南",
+     "text": "上线领皮肤和1000科雷点数啦！ 新火堆皮肤：家园炉火！目前唯一一款端手游互通的皮肤！ #饥荒联机版 #饥荒联机 #饥困荒野 #饥荒手游1124上线 #一起来玩",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "无氪玩家",
+     "name": "方圆（饥困荒野）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "1月S确认为鸣人［阳之力］！周年庆福利 爆料来了！#火影手游11周年版本爆料 #权威忍者攻略 #火影忍者手游 #木叶村抽象家",
+     "text": "饥困荒野开服第一天保姆级攻略 饥困荒野开服第一天保姆级攻略#饥困荒野开服第一天攻略#饥困荒野 #饥荒手游1124上线 #戴玉强龚琳娜开启饥荒胡闹团建#一起来玩饥",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "千代玩家",
-     "verify": "",
-     "identity": "",
+     "name": "饥困荒野",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "1月高招S:阳之力鸣人#火影手游11周年版本爆料#火影忍者手游",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "无敌白菜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【正式官宣送3000点券 双人s忍】 火影11周年庆福利来袭！1月高招确定为阳之力鸣人！妖怪自来也上线！#火影忍者手游 #火影手游永夜扉间#火影手游楔二川木#木",
+     "text": "上线PV《胡闹生存》|饥困荒野已上线 正版授权，原味配方；联机稳定，随时组队；独立家园，自由建造。这是一个藏满意外闹剧的荒野戏台，可以偶遇神奇生物，组队迎战 B",
      "likes": 0,
      "hot": 0
     }
@@ -1105,47 +929,82 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "白小纯收藏了青稚手势舞歌曲": {
+  "上海市委就陈吉宁被查表态": {
    "stats": {},
    "authors": [
     {
-     "name": "存在契合咴",
-     "verify": "",
-     "identity": "",
+     "name": "中国新闻社",
+     "verify": "蓝V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你是看多了青稚发的视频然后去汽水加入你的歌单了吗？#纯稚 #cczzqhh #tjb白小纯 #汽水音乐APP",
+     "text": "上海市委常委会举行扩大会议：坚决拥护党中央对陈吉宁涉嫌严重违纪违法进行审查调查的决定 #上海 #反腐",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "摸娱合伙人",
-     "verify": "",
-     "identity": "",
+     "name": "环视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "白小纯我真的不敢懂你意思了！ 白小纯我真的不敢懂你意思了 #谁敢看白小纯的汽水音乐收藏 #白小纯 #后会友期 #傲娇 #bC",
+     "text": "上海市委常委会举行扩大会议：坚决拥护党中央对陈吉宁涉嫌严重违纪违法进行审查调查的决定",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "雨夜狂追白月光",
-     "verify": "",
-     "identity": "",
+     "name": "央视新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "对不起纯稚，我搞砸了你们的暗恋。猛猛分析了一波纯稚汽水音乐的听歌时长，我似乎找到了24年白小纯的心路历程和今年9月青稚和好后的心境。 对不起纯，是我毁了你的无人",
+     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新华社",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央广网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中央政治局委员、上海市委书记陈吉宁被查",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查。",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "三角洲黑伤刀皮3.0攻略": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "七天七色变装挑战": {
    "stats": {},
@@ -1224,6 +1083,77 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "成毅这一局势在必得": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "成毅",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这一局我势在必得！#两京十五日",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "黄仁勋这次回归价值几何": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "话匣子FM",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "复位，不是复权——黄仁勋归来，但话事权不再完整 一天，9520亿美元！#黄仁勋 究竟值多少钱？资本市场给出了一个令人咋舌的答案。市场买账的是黄仁勋的能力，但让他",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "遵义发布",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#黄仁勋离任11天回归 ，英伟达市值增加近1万亿美元。#英伟达 #黄仁勋 （来源：新华社）",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "张馨予金色礼服美到挪不开眼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小初也.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三亚秀场抓到张馨予啦💕 #明星活动现场 #张馨予 #女明星活动现场 #三亚时装周 #秀场直击",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "瑞希婚纱造型",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "和张馨予一起看秀 #秀场直击 #秀场穿搭灵感 #享受现场氛围感 #三亚时装周",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "和赵露思一起跳Kiss My Soul": {
    "stats": {},
    "authors": [
@@ -1240,6 +1170,48 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "白小纯收藏了青稚手势舞歌曲": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "存在契合咴",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你是看多了青稚发的视频然后去汽水加入你的歌单了吗？#纯稚 #cczzqhh #tjb白小纯 #汽水音乐APP",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "摸娱合伙人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "白小纯我真的不敢懂你意思了！ 白小纯我真的不敢懂你意思了 #谁敢看白小纯的汽水音乐收藏 #白小纯 #后会友期 #傲娇 #bC",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "雨夜狂追白月光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "对不起纯稚，我搞砸了你们的暗恋。猛猛分析了一波纯稚汽水音乐的听歌时长，我似乎找到了24年白小纯的心路历程和今年9月青稚和好后的心境。 对不起纯，是我毁了你的无人",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "三角洲黑伤刀皮3.0攻略": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "复联5美队孩子长大了": {
    "stats": {},
@@ -1258,36 +1230,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "在饥困荒野的一天": {
+  "不为人知的故事定档1126": {
    "stats": {},
    "authors": [
     {
-     "name": "踹踹",
-     "verify": "",
-     "identity": "",
+     "name": "黄轩",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "上线领皮肤和1000科雷点数啦！ 新火堆皮肤：家园炉火！目前唯一一款端手游互通的皮肤！ #饥荒联机版 #饥荒联机 #饥困荒野 #饥荒手游1124上线 #一起来玩",
+     "text": "那些不为人知的，陈铭生的回忆。#不为人知的故事定档1126 #电视剧不为人知的故事",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "方圆（饥困荒野）",
-     "verify": "",
-     "identity": "",
+     "name": "金晨",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "饥困荒野开服第一天保姆级攻略 饥困荒野开服第一天保姆级攻略#饥困荒野开服第一天攻略#饥困荒野 #饥荒手游1124上线 #戴玉强龚琳娜开启饥荒胡闹团建#一起来玩饥",
+     "text": "#不为人知的故事定档1126 如果命运能预知，一切会不会不同.... #电视剧不为人知的故事",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "饥困荒野",
-     "verify": "蓝V",
-     "identity": "机构认证",
+     "name": "余文樂",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "上线PV《胡闹生存》|饥困荒野已上线 正版授权，原味配方；联机稳定，随时组队；独立家园，自由建造。这是一个藏满意外闹剧的荒野戏台，可以偶遇神奇生物，组队迎战 B",
+     "text": "#不为人知的故事定档1126 一切盡在白吉的掌控之中。 #电视剧不为人知的故事",
      "likes": 0,
      "hot": 0
     }
@@ -1295,56 +1267,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "去吧佛怒火莲": {
+  "东北的洗浴已经这么卷了吗": {
    "stats": {},
    "authors": [
     {
-     "name": "the故",
+     "name": "王晗（白天包租公、晚上美食躺平）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "去吧，佛怒火莲#斗破苍穹#水课 #双帝之战 #佛怒火莲 #fyp",
+     "text": "东北洗浴看沈阳暴风雨SPA#沈阳洗浴 #暴风雨Spa #东北洗浴文化",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "达芬奇",
+     "name": "coco小姐瘦瘦瘦",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "把舍友炸飞#宿舍搞笑日常",
+     "text": "沈阳，你洗浴里面整这出，你简直犯规 #沈阳洗浴 #东北洗浴看沈阳 #东北洗浴文化 #沈阳洗浴 #中国洗浴看东北",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Xiao",
+     "name": "小飞象日葵",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我生化异火 封印你千载万世 魂天帝 大陆浩劫就此结束吧@阿岩同学 #双帝之战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "云芝",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我哭了#萧炎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "番外篇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "再见了，室友😭#萧炎 #双帝之战",
+     "text": "东北人不语 只一味内卷洗浴文化！#东北 #洗浴#洗浴文化 #娱乐评论大赏",
      "likes": 0,
      "hot": 0
     }
@@ -1389,183 +1341,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "你撒娇的力度让我想还手": {
+  "雾山五行封界大战PV解析": {
    "stats": {},
-   "authors": [
-    {
-     "name": "田园五一",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈哈，你们俩真会玩！#AI亲昵转打闹反转 #抖音ai创作 #抖音玩法合伙人计划 #抖音玩法达人中心 #创作者伙伴计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五一🍩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作 #拉布拉多",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "噜噜出没🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#噜噜和噜妹 #AI亲昵转打闹反转 #情侣日常 #抖音玩法达人挑战赛 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "巴克、小白和大眼仔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你撒娇的力度，想让我还手🤭 #AI亲昵转打闹反转 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橘里橘气",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好好的怎么突然打起来了 #AI亲昵转打闹反转 #抖音ai创作 #宠萌出道计划 #猫咪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "玲玲l",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "神@秘@人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这就是我两从来不发浪漫视频的原因 #AI亲昵转打闹反转 #抖音ai创作 @抖音玩法合伙人 @抖音玩法达人中心 @抖音小助手 @DOU+小助手 @DOU+上热门小",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西彭甲第府-炬峰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这还打急眼了#AI亲昵转打闹反转 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陈哈哈.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作 这一幕，好熟悉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "（阿鲁哥)",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "张馨予金色礼服美到挪不开眼": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "小初也.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三亚秀场抓到张馨予啦💕 #明星活动现场 #张馨予 #女明星活动现场 #三亚时装周 #秀场直击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "瑞希婚纱造型",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "和张馨予一起看秀 #秀场直击 #秀场穿搭灵感 #享受现场氛围感 #三亚时装周",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "成毅这一局势在必得": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "成毅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一局我势在必得！#两京十五日",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "面剂子宝宝飞吻太萌了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "会火大明星",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "辽北第一萌物驾到！快把本星萌化了啊啊啊！！#面剂子 #邪恶面剂子 #萌娃#可爱 #饭撒 （博主：@拽爸吴喊喊（酵父） @贺喜喜（酵母） BGM混音：@Sway混",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "潇湘晨报·晨视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "萌娃“面剂子”来长沙了！酵父酵母：没想到长沙有这么多粉丝，第一次遇到这么多，怕小宝状态不好，人太多也怕照顾不过来粉丝感受#媒体精选计划 #媒体原创 #当事人会客",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "王者荣耀S46赛季前瞻": {
    "stats": {},
@@ -1853,6 +1632,100 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "面剂子宝宝飞吻太萌了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "会火大明星",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "辽北第一萌物驾到！快把本星萌化了啊啊啊！！#面剂子 #邪恶面剂子 #萌娃#可爱 #饭撒 （博主：@拽爸吴喊喊（酵父） @贺喜喜（酵母） BGM混音：@Sway混",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "潇湘晨报·晨视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "萌娃“面剂子”来长沙了！酵父酵母：没想到长沙有这么多粉丝，第一次遇到这么多，怕小宝状态不好，人太多也怕照顾不过来粉丝感受#媒体精选计划 #媒体原创 #当事人会客",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "短短10秒却说尽光阴的故事": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "聆雪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "聆雪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "用户8557006498484",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "用户8557006498484",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "TR9177",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "TR9177",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陪爬鼓山，丑八怪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#登山看全城风景",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "闲沐晨光",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#农村碎花棉袄",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "妍妍妈咪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Ai光阴的故事",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
   "可是我累了 我决定": {
    "stats": {},
    "authors": [
@@ -1960,73 +1833,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "东北的洗浴已经这么卷了吗": {
+  "你撒娇的力度让我想还手": {
    "stats": {},
    "authors": [
     {
-     "name": "王晗（白天包租公、晚上美食躺平）",
+     "name": "田园五一",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "东北洗浴看沈阳暴风雨SPA#沈阳洗浴 #暴风雨Spa #东北洗浴文化",
+     "text": "哈哈，你们俩真会玩！#AI亲昵转打闹反转 #抖音ai创作 #抖音玩法合伙人计划 #抖音玩法达人中心 #创作者伙伴计划",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "coco小姐瘦瘦瘦",
+     "name": "五一🍩",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沈阳，你洗浴里面整这出，你简直犯规 #沈阳洗浴 #东北洗浴看沈阳 #东北洗浴文化 #沈阳洗浴 #中国洗浴看东北",
+     "text": "#AI亲昵转打闹反转 #抖音ai创作 #拉布拉多",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小飞象日葵",
+     "name": "噜噜出没🍊",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "东北人不语 只一味内卷洗浴文化！#东北 #洗浴#洗浴文化 #娱乐评论大赏",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "甲亢哥百米能跑赢博尔特吗": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "IShowSpeed",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我能跑得比博尔特快吗？！🔥 #甲亢哥 #ishowspeed",
+     "text": "#噜噜和噜妹 #AI亲昵转打闹反转 #情侣日常 #抖音玩法达人挑战赛 #抖音ai创作",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "看度新闻",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "巴克、小白和大眼仔",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天赋异禀！甲亢哥百米跑出10秒35，前15米加速度超过博尔特，博尔特现场观战：太精彩了！",
+     "text": "你撒娇的力度，想让我还手🤭 #AI亲昵转打闹反转 #抖音ai创作",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "龙视新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
+     "name": "橘里橘气",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "11月24日（发布），前15米加速度超过博尔特，美国网红甲亢哥百米跑出10秒35；百米世界纪录保持者博尔特：他有潜力成为职业短跑运动员（来源：体坛周报 宁波晚报",
+     "text": "好好的怎么突然打起来了 #AI亲昵转打闹反转 #抖音ai创作 #宠萌出道计划 #猫咪",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "玲玲l",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI亲昵转打闹反转 #抖音ai创作#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "神@秘@人",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这就是我两从来不发浪漫视频的原因 #AI亲昵转打闹反转 #抖音ai创作 @抖音玩法合伙人 @抖音玩法达人中心 @抖音小助手 @DOU+小助手 @DOU+上热门小",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "西彭甲第府-炬峰",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这还打急眼了#AI亲昵转打闹反转 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "陈哈哈.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI亲昵转打闹反转 #抖音ai创作 这一幕，好熟悉",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "（阿鲁哥)",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI亲昵转打闹反转 #抖音ai创作",
      "likes": 0,
      "hot": 0
     }
@@ -2141,103 +2047,106 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "短短10秒却说尽光阴的故事": {
+  "和老艺术家合拍该怎么写我": {
    "stats": {},
    "authors": [
     {
-     "name": "聆雪",
+     "name": "Dreamtraveler",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "聆雪",
+     "text": "还是大叔唱的好#本山大叔",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "用户8557006498484",
+     "name": "小幸福🍀xh",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "用户8557006498484",
+     "text": "可我还是想，再疯一场#该怎么写我#五十岁的我",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "TR9177",
+     "name": "不一样的焰火",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "TR9177",
+     "text": "#该怎么写我 #东北笑星 #东北老艺术家 #歌曲 #陶瓷水镇",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "陪爬鼓山，丑八怪",
+     "name": "会",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#登山看全城风景",
+     "text": "二十岁鲜衣怒马 三十历经起落 六十岁看淡仍敢再疯一次",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "闲沐晨光",
+     "name": "^_^娜娜^_^",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#农村碎花棉袄",
+     "text": "我该怎么写马上50岁的自己……#每个年代的价值观",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "妍妍妈咪",
+     "name": "夹心糖🍬",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "Ai光阴的故事",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "不为人知的故事定档1126": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "黄轩",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "那些不为人知的，陈铭生的回忆。#不为人知的故事定档1126 #电视剧不为人知的故事",
+     "text": "年少不知曲中意，再听已是曲中人……",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "金晨",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "玲 玲",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#不为人知的故事定档1126 如果命运能预知，一切会不会不同.... #电视剧不为人知的故事",
+     "text": "88年的老奶奶我不认，永远是18岁的小菇凉",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "余文樂",
-     "verify": "黄V",
-     "identity": "认证创作者",
+     "name": "董圆圆",
+     "verify": "",
+     "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#不为人知的故事定档1126 一切盡在白吉的掌控之中。 #电视剧不为人知的故事",
+     "text": "年少的狂不必收场，历经世事，依然愿意热烈自在。#该怎么写我 #鲜衣怒马少年时 #生活感悟",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "💤】",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "🤨",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "管洋洋人挺好",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#东北赵本山 #人人都能演段子 绚烂至极终究归于平淡，感我的好朋友一路对我的支持和不离不弃…… 我都会默默记在心里！",
      "likes": 0,
      "hot": 0
     }
@@ -2262,42 +2171,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "冬日温柔白月光穿搭": {
+  "吴克群拍纪录片聚焦临终关怀": {
    "stats": {},
-   "authors": [
-    {
-     "name": "W17",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你在哪 我的心就在哪 #温柔风穿搭 #日系 #拍照姿势 #咖啡店",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "椰椰YeYe",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "168 105#斗篷式大衣 #白月光冬季穿搭 #斗家军",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "米呀米呀‘’",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "啊啊啊温柔清冷感好漂亮呜呜呜！！！ #美神降临 #这绝美的宿命感 #氛围感拉满 #白月光即视感 #美到犯规",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "有没有那么一首歌": {
    "stats": {},
@@ -2399,6 +2276,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "时间是一支笔 写忧 写泪 写别离",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "用BIGBANG新歌打开AllBlack穿搭": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "QINYI",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神来了也要听完 #bigbang新歌 #闺蜜街拍ootd #爽听",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鱼鱼子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "B I G V I P We run up！！！ 新歌太炸了 #街头穿搭 #我拍到的街头穿搭 #又酷又飒的冬ootd #bigbang新歌 #bigbang",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "范式壹",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "这组照片终于迎来了最适合她的bgm #bigbang新歌 #姐感穿搭 #街拍",
      "likes": 0,
      "hot": 0
     }
