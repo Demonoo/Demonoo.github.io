@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-25 06:40",
+ "updated_at": "2026-11-25 07:45",
  "source": "抖音",
  "top_n": 10,
- "topic_count": 48,
- "ok_count": 45,
+ "topic_count": 49,
+ "ok_count": 19,
  "lexicon_count": 0,
  "topics": {
   "神舟二十四号发射圆满成功": {
@@ -50,22 +50,32 @@
      "hot": 0
     },
     {
-     "name": "央广军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#神24伴着朝霞点火升空 （记者：马景瑞 侯春旸 剪辑：刘劲鹰）",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "朝霞映苍穹，神舟赴星河！神二十四发射升空，点赞中国航天！",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "央视军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太漂亮了！“神24”乘组伴着朝霞点火升空！#现场实拍 #中国航天 #加油 #美出高级感",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国军号",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "神舟二十四号，出征！",
      "likes": 0,
      "hot": 0
     }
@@ -117,44 +127,64 @@
      "hot": 0
     },
     {
-     "name": "大众新闻-大众日报",
+     "name": "逐浪新闻",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "祝贺! 神舟二十四号载人飞船发射取得圆满成功!发射时绚烂朝霞铺满天际，网友: 这是中国人浪漫的星辰大海！#神舟二十四号 #载人飞船 #中国航天",
+     "text": "神舟二十四号载人飞船发射取得圆满成功，汤洪波、武毅、穆罕默德·齐尚·阿里3名航天员领命出征",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "破晓逐梦披霞出征": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "持续深化“一带一路”经贸合作": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "真正好吃的小破店在民间": {
+  "上海市委书记陈吉宁被查": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "这个日常妆值得焊在脸上": {
    "stats": {},
    "authors": [
     {
-     "name": "刘雨鑫JASON",
+     "name": "吃不吃泡泡糖",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "广东阳江，下顿馆子，看看仨人要花多少？ #人间烟火 #阳江 #猪大肠 #鱿鱼 #牛仔骨",
+     "text": "新手速学｜亚裔Pony Doll轻混血妆 #当普通人化亚裔混血妆 #pony #美妆宝藏 #宝藏风格玩妆团 #这个日常妆值得焊在脸上",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "贺千万。",
+     "name": "可惠Kehui",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "给你们看看郑州真正好吃的小破店！感谢本地人带路🥹真的巨巨好吃",
+     "text": "宝藏风格玩妆团/这个日常妆值得焊在脸上 今年收到的角色是「妆容风格爱好团，跟我加入#宝藏风格玩妆团 ，投稿你的风格玩妆好物吧！#这个日常妆值得焊在脸上 #潮妆研",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Dear-迪丽热巴",
+     "verify": "黄V",
+     "identity": "认证创作者",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "快粗来丸！#这个日常妆值得焊在脸上",
      "likes": 0,
      "hot": 0
     }
@@ -162,62 +192,52 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "上海市委书记陈吉宁被查": {
+  "火影玩家的神临时刻": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "魏建军谈学习胖东来感受": {
    "stats": {},
    "authors": [
     {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
+     "name": "魏建军",
+     "verify": "黄V",
+     "identity": "认证创作者",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#媒体原创 陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+     "text": "上周六去许昌，除了参观胖东来，还和东来哥聊了一下午，感触很深，和大家分享。",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "央视网",
-     "verify": "红V",
+     "name": "许昌新闻",
+     "verify": "蓝V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "人民日报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球时报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "陈吉宁涉嫌严重违纪违法正接受中央纪委国家监委审查调查",
+     "text": "11月21日，长城汽车董事长魏建军来到许昌考察学习胖东来，考察中，二人谈笑风生，期待两位行业大佬碰撞出怎样的火花 #胖东来 #魏建军 #于东来（编辑：黄翠平 一",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "欧冠曼城2:2那不勒斯": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "巴基斯坦航天员用古诗答记者提问": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "田秉毅出任国羽主教练": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "菲利克斯倒勾名场面太燃了": {
    "stats": {},
@@ -236,67 +256,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影玩家的神临时刻": {
+  "如何评价两京十五日": {
    "stats": {},
    "authors": [],
    "lexicon": []
-  },
-  "欧冠曼城2:2那不勒斯": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "足球之家（一剪到底）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "谢尔基终场绝平，曼城让二追二，绝平那不勒斯！！ #足球 #欧冠 #曼城",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "缪（miào）可言Sean",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "补时没到，裁判提前响哨！？ #曼城 #曼城vs那不勒斯 #欧冠 #争议判罚",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "威爷足球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "五战全胜！皇马大获全胜，阿森纳曼城纷纷收获平局！ #欧冠 #皇马 #阿森纳 #曼城 #科莫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "绿茵传奇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "曼城球迷可以提前开香槟了！今晚欧冠，曼城势必要送给那不勒斯一场惨败，原因有三点，第一，曼城连续4轮不胜，球队急需大胜止住颓势，势必全力猛攻，第二，那不勒斯整整1",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "1 1",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "丁丁回家#德布劳内 #丁丁 #欧冠联赛 #曼城vs那不勒斯 #足球",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
   },
   "此刻舞台上的我光芒万丈": {
    "stats": {},
@@ -405,405 +368,15 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "魏建军谈学习胖东来感受": {
+  "真正好吃的小破店在民间": {
    "stats": {},
-   "authors": [
-    {
-     "name": "魏建军",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "上周六去许昌，除了参观胖东来，还和东来哥聊了一下午，感触很深，和大家分享。",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "许昌新闻",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "11月21日，长城汽车董事长魏建军来到许昌考察学习胖东来，考察中，二人谈笑风生，期待两位行业大佬碰撞出怎样的火花 #胖东来 #魏建军 #于东来（编辑：黄翠平 一",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "巴基斯坦航天员用古诗答记者提问": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "视听中国",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "2026年11月24日，神舟二十四号乘组在酒泉卫星发射中心问天阁与中外媒体记者见面，巴基斯坦航天员穆罕默德·齐尚·阿里作为中国空间站首位外籍航天员公开亮相，全程",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国新闻社",
-     "verify": "蓝V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巴基斯坦航天员中国诗词说不停 网友：口音有嚼劲 真情一百分 #巴基斯坦航天员 #中国诗词 #神二十四",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "田秉毅出任国羽主教练": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "环视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "田秉毅任国家羽毛球队主教练",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五星体育",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国羽协：田秉毅任国家羽毛球队主教练。据中国羽毛球协会消息，为进一步做好2028洛杉矶奥运会备战参赛工作，经过充分酝酿、广泛征求意见，中国羽毛球协会研究决定聘请",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "看看新闻Knews",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时隔九年再设主教练！#63岁田秉毅出任国羽主教练 两届奥运冠军张楠进入国羽教练团队工作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视网快看",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "中国羽协官宣！田秉毅任国家羽毛球队主教练",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "光明网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "田秉毅任国家羽毛球队主教练",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "如何评价两京十五日": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "马俊哲律师",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "成毅两京十五日被批台词拉胯表演固化引争议 #成毅两京十五日被批台词拉胯表演固化引争议 #两京十五日 #成毅被批台词拉胯表演固化",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "倩倩大王🥕",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "跟大家聊一聊两京十五日这部剧到底好不好看#两京十五日 #剧荒推荐 #成毅 #林更新#五月天",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "此刻的生活全瓜版预告": {
    "stats": {},
-   "authors": [
-    {
-     "name": "电视剧此刻的生活",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#此刻的生活全瓜版预告 追逐豪宅，撞上算计；追逐美满，撞上淤青；追逐成功，撞上背叛。以为拿到大结果？全是大代价！#此刻的生活",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "抖音正式进入光影氛围时代": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "希思琳",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天资是一种很残忍的东西",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "好好",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "帅爆了吧。#AI先锋实验霓虹人像海报 #抖音ai创作 #氛围感大女主穿搭 #帅到心巴上#抖音正式进入光影氛围时代 角色原创作者@K.en",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "余生好好爱自己",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI胶片柔焦人像写真 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "豆豆麻麻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "确实牛B！#AI先锋实验霓虹人像海报 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "@",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我的水瓶座♒️#水瓶座 #十二黄金圣斗士",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "J1y🧸ྀི",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "试试",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "偷一颗青苹果 🐾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "Afterglow｜暮色余烬 与影子共生 #AI冷灰拖影杂志海报 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "皮蛋solo粥🥨ིྀ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "破碎氛围感拉满 直接封神！#氛围感 #壁纸 #抖音ai创作 #ai图像灵感挑战赛 #抖音玩法达人挑战赛",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "淡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#柔美光影写真 #抖音玩法合伙人计划 #抖音小助手我要上热门 #AI胶片柔焦人像写真 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这一年抖音里的我是怎么样的人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "LXS ya🫡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信#怎么样的生活才配得上颠沛流离 #这一年的你",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小刘🧝🏻‍♀️",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信 #这一年的你 #不被谁照亮只做自己的光 #创作者中心 #创作灵感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "🔅SU.2.Y",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信 #这一年的你",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "这个日常妆值得焊在脸上": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "吃不吃泡泡糖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新手速学｜亚裔Pony Doll轻混血妆 #当普通人化亚裔混血妆 #pony #美妆宝藏 #宝藏风格玩妆团 #这个日常妆值得焊在脸上",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "可惠Kehui",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宝藏风格玩妆团/这个日常妆值得焊在脸上 今年收到的角色是「妆容风格爱好团，跟我加入#宝藏风格玩妆团 ，投稿你的风格玩妆好物吧！#这个日常妆值得焊在脸上 #潮妆研",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Dear-迪丽热巴",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快粗来丸！#这个日常妆值得焊在脸上",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "泽连斯基公布击沉俄军舰画面": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "新华社",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泽连斯基公布现场画面：乌方击沉俄护卫舰（记者：李东旭，视频：张淼）#媒体原创",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "环球网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泽连斯基公布击沉俄护卫舰画面：数艘无人艇冲向军舰引发巨大爆炸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凤凰卫视",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "俄罗斯军舰遇袭爆炸起火沉没，事发地卫星图像曝光#俄乌局势 #军舰",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【快讯！泽连斯基证实乌方击沉俄罗斯护卫舰】路透社报道，乌克兰总统泽连斯基23日在社交媒体上发文证实，乌方在利比亚沿海使用7艘无人艇击沉俄罗斯“水星”号护卫舰，并",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "三沙卫视",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "泽连斯基证实：乌军击沉俄罗斯护卫舰（CCTV国际时讯）",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "请选择你的入冬穿搭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "忍忍呗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "请选择你的入冬穿搭#大学生 #入冬穿搭#羽绒服#保暖 @DOU+上热门 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "来一份DJ炒饭": {
    "stats": {},
@@ -849,22 +422,12 @@
      "hot": 0
     },
     {
-     "name": "野渡.",
+     "name": "野渡.（主页有教程）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
      "text": "再练练，可以考虑明年摆个摊了#觉醒吧我的厨艺天赋 #疯狂的厨子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DJ YARA💜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "睡不戳 炒个菜来吃 #dj炒菜 #做饭我是认真的",
      "likes": 0,
      "hot": 0
     },
@@ -875,6 +438,16 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "嫂子太狂躁了! #蒋一帆 #曲岑兮 #觉醒吧我的厨艺天赋 #DJ炒饭 #玩火的厨师",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "DJ YARA💜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "睡不戳 炒个菜来吃 #dj炒菜 #做饭我是认真的",
      "likes": 0,
      "hot": 0
     },
@@ -912,74 +485,20 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "天赐天选之子杯开启报名": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "CHEN天赐〽️王者荣耀（每晚9点开播）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天赐杯S1正式打响，期待你的报名#天赐杯 #天选之子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "忆梦～【赐家画面之王】",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家觉得天赐杯哪些主播会来参加@CHEN天赐〽️王者荣耀（每晚9点开播） #chen天赐 #天赐首秀二创大赛 #天赐杯",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "啊 是丹东大草莓来了": {
+  "闻佳音第一桶金是给小五的": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "零失败敲虾家常做法": {
+  "泽连斯基公布击沉俄军舰画面": {
    "stats": {},
-   "authors": [
-    {
-     "name": "婉婉的幸福生活（28号上午十点鱿鱼贝柱）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "很火的敲虾也是在家吃上了#谁懂这一口的好吃程度 #满级吃商通关赛 #美食教程 #敲虾",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "文文干饭啦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "头一次知道虾还能敲着吃？敲出的虾肉又弹又鲜，配上2种蘸料 #敲虾太太太上头了！#虾的神仙吃法 #满级吃商通关赛 #美食教程 #好吃到停不下来",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "玢玢",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "最近网上很火的敲虾来啦，把虾敲成薄薄的片，吃起来又Q又嫩。口感跟直接吃虾的差别很大，还一起做了垂肉片，家里小孩子们一片接一片，吃得停不下来，都特别爱吃#敲虾",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "石川佳纯官宣结婚": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "去吧佛怒火莲": {
    "stats": {},
@@ -1058,36 +577,36 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "白小纯收藏了青稚手势舞歌曲": {
+  "这一年抖音里的我是怎么样的人": {
    "stats": {},
    "authors": [
     {
-     "name": "存在契合咴",
+     "name": "LXS ya🫡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "你是看多了青稚发的视频然后去汽水加入你的歌单了吗？#纯稚 #cczzqhh #tjb白小纯 #汽水音乐APP",
+     "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信#怎么样的生活才配得上颠沛流离 #这一年的你",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "摸娱合伙人",
+     "name": "小刘🧝🏻‍♀️",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "白小纯我真的不敢懂你意思了！ 白小纯我真的不敢懂你意思了 #谁敢看白小纯的汽水音乐收藏 #白小纯 #后会友期 #傲娇 #bC",
+     "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信 #这一年的你 #不被谁照亮只做自己的光 #创作者中心 #创作灵感",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "雨夜狂追白月光",
+     "name": "🔅SU.2.Y",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "对不起纯稚，我搞砸了你们的暗恋。猛猛分析了一波纯稚汽水音乐的听歌时长，我似乎找到了24年白小纯的心路历程和今年9月青稚和好后的心境。 对不起纯，是我毁了你的无人",
+     "text": "细腻的文笔总能撮中人心却又震耳欲聋#豆包给我的一封信 #这一年的你",
      "likes": 0,
      "hot": 0
     }
@@ -1095,56 +614,46 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "巴基斯坦航天员训练到忘记生日": {
+  "请选择你的入冬穿搭": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "抖音正式进入光影氛围时代": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "啊 是丹东大草莓来了": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "零失败敲虾家常做法": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "天赐天选之子杯开启报名": {
    "stats": {},
    "authors": [
     {
-     "name": "央视频",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#媒体原创 “我们互相了解，欣赏彼此的文化。”巴基斯坦航天员穆罕默德·齐尚·阿里不仅熟练掌握飞行程序里面的中文口令，还在训练之余学书法、读诗词、唱中文歌，点赞！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "极光新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "巴基斯坦航天员在北京训练期间收获难忘生日惊喜，回国后一定会推动两国之间的文化交流#晓睿",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "红星新闻",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "“巴铁”上天宫也要学中文！首位外籍航天员齐尚·阿里：最难的训练是学中文 现在已经可以诗句脱口而出！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国日报网",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "【巴基斯坦航天员盼中巴合作下一章：这次任务不是终点】 11月24日上午，神舟二十四号航天员乘组巴基斯坦航天员穆罕默德·齐尚·阿里表示，当前任务不是终点，而是一个",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "酱哥AI科普",
+     "name": "CHEN天赐〽️王者荣耀（每晚9点开播）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "巴基斯坦航天员训练到忘记生日！为了上天？ 今天早上 8:18，神舟二十四号从酒泉出发：指令长汤洪波、飞行工程师武毅，还有巴基斯坦空军飞行员穆罕默德·齐尚·阿里—",
+     "text": "天赐杯S1正式打响，期待你的报名#天赐杯 #天选之子",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "忆梦～【赐家画面之王】",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "大家觉得天赐杯哪些主播会来参加@CHEN天赐〽️王者荣耀（每晚9点开播） #chen天赐 #天赐首秀二创大赛 #天赐杯",
      "likes": 0,
      "hot": 0
     }
@@ -1152,22 +661,20 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "和赵露思一起跳Kiss My Soul": {
+  "王氏过冬法则": {
    "stats": {},
-   "authors": [
-    {
-     "name": "赵露思",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🫶🏻 #告别信 #葛栗 出差也要带话题 ahahaha",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
+  },
+  "张馨予金色礼服美到挪不开眼": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "成毅这一局势在必得": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "七天七色变装挑战": {
    "stats": {},
@@ -1266,86 +773,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "张馨予金色礼服美到挪不开眼": {
+  "白小纯收藏了青稚手势舞歌曲": {
    "stats": {},
-   "authors": [
-    {
-     "name": "小初也.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "三亚秀场抓到张馨予啦💕 #明星活动现场 #张馨予 #女明星活动现场 #三亚时装周 #秀场直击",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小丸子🍡",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "天玺秀场 被张馨予美晕了💓#秀场直击 #张馨予 #济南婚纱 #思达美学婚纱 #高定礼服",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宿州沐澜婚纱",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "张馨予完全东方美人来着 溢出屏幕的美貌 #秀场上的东方美学 #天玺 #张馨予 #宿州沐澜婚纱 #宿州婚纱礼服",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "汽水音乐即将官宣首位代言人": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "汽水音乐APP",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#汽水音乐有大事发生 悄悄放个信号，惊喜已准备就绪。等你来汽水音乐APP🔍「合伙人」发现更多精彩！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "会火",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "真的要有大事发生了！进度正式开启！#汽水音乐即将官宣首位代言人 #汽水音乐有大事发生",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "成毅这一局势在必得": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "成毅",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这一局我势在必得！#两京十五日",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "别惹我手上有点火": {
    "stats": {},
@@ -1434,326 +865,10 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "你撒娇的力度让我想还手": {
+  "上海市委就陈吉宁被查表态": {
    "stats": {},
-   "authors": [
-    {
-     "name": "田园五一",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈哈，你们俩真会玩！#AI亲昵转打闹反转 #抖音ai创作 #抖音玩法合伙人计划 #抖音玩法达人中心 #创作者伙伴计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "五一🍩",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作 #拉布拉多",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "噜噜出没🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#噜噜和噜妹 #AI亲昵转打闹反转 #情侣日常 #抖音玩法达人挑战赛 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "巴克、小白和大眼仔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你撒娇的力度，想让我还手🤭 #AI亲昵转打闹反转 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "玲玲l",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作#抖音玩法合伙人计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橘里橘气",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好好的怎么突然打起来了 #AI亲昵转打闹反转 #抖音ai创作 #宠萌出道计划 #猫咪",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "神@秘@人",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这就是我两从来不发浪漫视频的原因 #AI亲昵转打闹反转 #抖音ai创作 @抖音玩法合伙人 @抖音玩法达人中心 @抖音小助手 @DOU+小助手 @DOU+上热门小",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "陈哈哈.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作 这一幕，好熟悉",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "西彭甲第府-炬峰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这还打急眼了#AI亲昵转打闹反转 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "青菜啦",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#AI亲昵转打闹反转 #抖音ai创作",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "脱缰凯新歌我先用了": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "宰相不脱缰",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我校长的歌我先用了#脱缰凯 @脱缰凯✨ @程宰相",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "脱缰凯（收藏版）✨",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我自己的歌我先用喽☺️ 冬天下雪啦，空气冷呼呼💨写给大家的冬日限定#脱缰凯 #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "开心辣条ฅ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "新歌新歌。#脱缰凯 #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "王以为",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你的爱让我越来越笨#歌好听 #脱缰凯新歌 #真的好好听 #新歌推荐 #脱缰凯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "宋二",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你的爱让我越来越笨#脱缰凯 #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小宁OvO",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#脱缰凯 #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "亭之",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你的爱让我越来越笨 #脱缰凯 #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "i十二月的纸",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "@脱缰凯✨的歌我先用啦～你的爱让我越来越笨～💕 #脱缰凯新歌 #脱缰凯",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小包老师😇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你的爱让我越来越笨。@包小包🤓 #脱缰凯 #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "廉静在干嘛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你的爱让我越来越笨～@脱缰凯✨ #脱缰凯新歌",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "你有没有养小猫小狗在你家里住": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "困告",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住～#金毛幼犬 #世界不能没有小狗狗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "狐小怪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住#猫咪 #狗狗 #猫狗双全",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "刘亦菲、",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住#可爱到犯规",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "铁铁没吃饱",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住 #小猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "是千禧不是千玺",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在家里住 #猫咪 #世界不能没有小猫小狗 #萌宠出道计划",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小十六呀~",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住 给小猫用的是#城市理享猫砂 结团和除臭都很不错的 #猫砂推荐 #城市理享木薯猫砂 #猫咪 #狸花猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小胖不胖",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住~ #猫咪 #我的呆猫",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一只小咕噜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住 #铲屎官日常记录 #猫咪 #世界不能没有小猫小狗 #宠物生活分享 #晒出你的猫猫狗狗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "恩恩是一只小羊狗",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住 #你有没有养小猫小狗在你家里住 #可爱到犯规的狗狗 #狗狗 #不敢骗你养小狗",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "郭十七",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有没有养小猫小狗在你家里住。#萌宠日常分享#不敢骗你养小狗 #分享我拍的宠物狗小剧场 #抖音玩法合伙人计划 #情绪音乐玩法新风向",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "鞠婧祎也来跳Kiss My Soul手势舞": {
    "stats": {},
@@ -1792,6 +907,26 @@
    "lexicon": [],
    "kw_freq": []
   },
+  "汽水音乐即将官宣首位代言人": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "挖着吃的草莓桶蛋糕更好吃": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "可是我累了 我决定": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "吃了鱼的丑橘会跳舞": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
   "面剂子宝宝飞吻太萌了": {
    "stats": {},
    "authors": [
@@ -1819,203 +954,15 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "李光洙来上海真的吃美了": {
+  "帮Tim选最适合的镜框": {
    "stats": {},
-   "authors": [
-    {
-     "name": "星娱圈圈",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哥这次是真吃美了#李光洙 #上海美食 #韩国 #老吃家",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鲜娱视界",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "光洙欧巴，你也有上海病吗？！！#李光洙 #上海 #老吉士 #上海本土菜",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "橙子娱乐🍊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "李光洙泡泡狂晒美食，这趟上海吃爽了#李光洙 #美食 #上海",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "可是我累了 我决定": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "一枝梅",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "不要被世俗捆绑而死撑，有时候停下也是一种智慧。 那就让我们 休息一下，卷土重来！#吴磊 #吴磊骑行 #骑有此理 #大学生",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "发呆熊",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "其实人生并没那么多很重要的事，休息一下吧 #吴磊 #发呆熊#骑有此理 #旷工 #上班族",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "蓝汐瞎剪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可是我累了，我决定旷工！ #剪映 #吴磊 #骑行 #骑有此理",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "安墙",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "酒是喝不完的，人是会累的。能坦然说一句\"到此为止\"，这份从容，比任何一次豪饮都沉。#吴磊骑行 #喝酒的意义 #骑有此理",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "小天天天天天",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "停下来是终点，也是起点 #吴磊 #骑有此理 #励志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "牢花（救赎电竞）三角洲行动",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "可是我虚了 #吴磊 #骑有此理 #励志",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "睡个好觉. ᅟᅟㅤ",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "如果任何事情都一定要赋予意义 那么我希望这个意义是你更懂得了自己 路在脚下，心向旷野，我们都有自己的路要走",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "幸运女神眷顾我",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "吴磊世上无难事 只要肯放弃 #骑有此理 真的太好看了！#吴磊一天骑行100公里",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "阿光📷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "坚持固然可贵，但学会放弃，也是一种修行 #吴磊骑行 #酒蒙子先享受世界 #吴磊骑有此理 #大胆的享受世界自由的风 #吴磊",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "约翰丁师傅（路亚版）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哪有鱼吃塑料？不内耗了，我决定用活饵！#钓鱼 #路亚 #骑有此理 #吴磊骑行",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "韩系低饱和秋冬穿搭": {
    "stats": {},
-   "authors": [
-    {
-     "name": "知恩150小个子女装穿搭",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#失序感穿搭 #秋天慵懒毛衣 #秋日绿色系穿搭 #小区随拍穿搭 #低饱和穿搭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "解结",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "低饱和#穿搭 #大衣 #今天穿什么 #ootd",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "黄不嘻",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "低饱和度入冬 #短发女生#秋冬穿搭",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "帮Tim选最适合的镜框": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "Tim潘",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我是Tim，能帮我选个镜框吗谢谢你",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
   "羽绒服你喜欢浅色还是黑色": {
    "stats": {},
@@ -2053,6 +1000,11 @@
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "你撒娇的力度让我想还手": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "东北的洗浴已经这么卷了吗": {
    "stats": {},
@@ -2121,113 +1073,6 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "幸福的人先收到 hello Kitty草莓桶#草莓桶 #草莓蛋糕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "有没有那么一首歌": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "明天的明天",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌 会让你突然想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "飯",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌 会让你突然想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "兹兹",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌 让你想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "ii",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌会让你突然想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "拾一",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌 会让你突然想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "滄海难为水",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌 会让你突然想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "鹿.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "有没有那么一首歌 会让你突然想起我",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Soleil",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "你有时间去试错 也有时间去止损 但不应该拿时间去后悔#新湖朝霞 #湖边",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "가의연",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "我说我是个i人 他竟然说我是他的爱人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "7s.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "时间是一支笔 写忧 写泪 写别离",
      "likes": 0,
      "hot": 0
     }
@@ -2342,53 +1187,111 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "崛围山风溪谷冬日氛围感绝了": {
+  "你有没有养小猫小狗在你家里住": {
    "stats": {},
-   "authors": [
-    {
-     "name": "话唠点评员黄几韬",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这真的不是在小韩么（部分素材来源@Wander camp风溪谷 @崛围山下风溪谷-小管家张张 ）#太原 #崛围山 #圣诞节 #冬日限定",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
+   "authors": [],
+   "lexicon": []
   },
-  "用BIGBANG新歌打开AllBlack穿搭": {
+  "有没有那么一首歌": {
    "stats": {},
    "authors": [
     {
-     "name": "QINYI",
+     "name": "明天的明天",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "神来了也要听完 #bigbang新歌 #闺蜜街拍ootd #爽听",
+     "text": "有没有那么一首歌 会让你突然想起我",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "鱼鱼子",
+     "name": "飯",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "B I G V I P We run up！！！ 新歌太炸了 #街头穿搭 #我拍到的街头穿搭 #又酷又飒的冬ootd #bigbang新歌 #bigbang",
+     "text": "有没有那么一首歌 会让你突然想起我",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "范式壹",
+     "name": "兹兹",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "这组照片终于迎来了最适合她的bgm #bigbang新歌 #姐感穿搭 #街拍",
+     "text": "有没有那么一首歌 让你想起我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "ii",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有没有那么一首歌会让你突然想起我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "滄海难为水",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有没有那么一首歌 会让你突然想起我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拾一",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有没有那么一首歌 会让你突然想起我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "鹿.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "有没有那么一首歌 会让你突然想起我",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "Soleil",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "你有时间去试错 也有时间去止损 但不应该拿时间去后悔#新湖朝霞 #湖边",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "가의연",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我说我是个i人 他竟然说我是他的爱人",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "7s.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "时间是一支笔 写忧 写泪 写别离",
      "likes": 0,
      "hot": 0
     }
