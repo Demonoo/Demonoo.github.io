@@ -1,9 +1,9 @@
 {
- "updated_at": "2026-11-25 07:45",
+ "updated_at": "2026-11-25 08:44",
  "source": "抖音",
  "top_n": 10,
  "topic_count": 49,
- "ok_count": 19,
+ "ok_count": 26,
  "lexicon_count": 0,
  "topics": {
   "神舟二十四号发射圆满成功": {
@@ -50,32 +50,22 @@
      "hot": 0
     },
     {
+     "name": "央广军事",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#神24伴着朝霞点火升空 （记者：马景瑞 侯春旸 剪辑：刘劲鹰）",
+     "likes": 0,
+     "hot": 0
+    },
+    {
      "name": "人民日报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
      "text": "朝霞映苍穹，神舟赴星河！神二十四发射升空，点赞中国航天！",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "央视军事",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太漂亮了！“神24”乘组伴着朝霞点火升空！#现场实拍 #中国航天 #加油 #美出高级感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "中国军号",
-     "verify": "蓝V",
-     "identity": "机构认证",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "神舟二十四号，出征！",
      "likes": 0,
      "hot": 0
     }
@@ -97,16 +87,6 @@
      "hot": 0
     },
     {
-     "name": "钱江晚报",
-     "verify": "红V",
-     "identity": "媒体人",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "潮新闻记者现场见证：神舟二十四号载人飞船发射成功",
-     "likes": 0,
-     "hot": 0
-    },
-    {
      "name": "看看新闻Knews",
      "verify": "红V",
      "identity": "媒体人",
@@ -117,12 +97,22 @@
      "hot": 0
     },
     {
-     "name": "三沙卫视",
+     "name": "钱江晚报",
      "verify": "红V",
      "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "祝贺！神舟二十四号载人飞船发射取得圆满成功（央视新闻）",
+     "text": "潮新闻记者现场见证：神舟二十四号载人飞船发射成功",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "大众新闻-大众日报",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "祝贺! 神舟二十四号载人飞船发射取得圆满成功!发射时绚烂朝霞铺满天际，网友: 这是中国人浪漫的星辰大海！#神舟二十四号 #载人飞船 #中国航天",
      "likes": 0,
      "hot": 0
     },
@@ -142,49 +132,14 @@
   },
   "破晓逐梦披霞出征": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "持续深化“一带一路”经贸合作": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "上海市委书记陈吉宁被查": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "这个日常妆值得焊在脸上": {
-   "stats": {},
    "authors": [
     {
-     "name": "吃不吃泡泡糖",
-     "verify": "",
-     "identity": "",
+     "name": "新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "新手速学｜亚裔Pony Doll轻混血妆 #当普通人化亚裔混血妆 #pony #美妆宝藏 #宝藏风格玩妆团 #这个日常妆值得焊在脸上",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "可惠Kehui",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "宝藏风格玩妆团/这个日常妆值得焊在脸上 今年收到的角色是「妆容风格爱好团，跟我加入#宝藏风格玩妆团 ，投稿你的风格玩妆好物吧！#这个日常妆值得焊在脸上 #潮妆研",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Dear-迪丽热巴",
-     "verify": "黄V",
-     "identity": "认证创作者",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "快粗来丸！#这个日常妆值得焊在脸上",
+     "text": "神舟二十四号伴朝阳腾空，破晓逐梦，披霞出征，奔向星辰大海。#联播一瞬",
      "likes": 0,
      "hot": 0
     }
@@ -192,7 +147,12 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "火影玩家的神临时刻": {
+  "真正好吃的小破店在民间": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "菲利克斯倒勾名场面太燃了": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -219,148 +179,190 @@
      "text": "11月21日，长城汽车董事长魏建军来到许昌考察学习胖东来，考察中，二人谈笑风生，期待两位行业大佬碰撞出怎样的火花 #胖东来 #魏建军 #于东来（编辑：黄翠平 一",
      "likes": 0,
      "hot": 0
+    },
+    {
+     "name": "风芒新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "魏建军赴胖东来“取经归来”“在乎”两字 点透企业长久的底层逻辑！#胖东来",
+     "likes": 0,
+     "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
   },
-  "欧冠曼城2:2那不勒斯": {
+  "火影玩家的神临时刻": {
    "stats": {},
    "authors": [],
    "lexicon": []
+  },
+  "欧冠曼城2:2那不勒斯": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "新爱体育",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "两度落后两度扳平！布阿迪加盟首球谢尔基低射救主，曼城2-2那不勒斯各赛事三场不胜 #谢尔基 #曼城 #那不勒斯 #欧冠 #上新爱体育看欧冠",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "足球之家（一剪到底）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "谢尔基终场绝平，曼城让二追二，绝平那不勒斯！！ #足球 #欧冠 #曼城",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "缪（miào）可言Sean",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "补时没到，裁判提前响哨！？ #曼城 #曼城vs那不勒斯 #欧冠 #争议判罚",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "1 1",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "丁丁回家#德布劳内 #丁丁 #欧冠联赛 #曼城vs那不勒斯 #足球",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "威爷足球",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "五战全胜！皇马大获全胜，阿森纳曼城纷纷收获平局！ #欧冠 #皇马 #阿森纳 #曼城 #科莫",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "巴基斯坦航天员用古诗答记者提问": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "田秉毅出任国羽主教练": {
+  "啊 是丹东大草莓来了": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "菲利克斯倒勾名场面太燃了": {
+  "扬州发生交通事故致1死2伤": {
    "stats": {},
    "authors": [
     {
-     "name": "足坛观察",
-     "verify": "",
-     "identity": "",
+     "name": "新京报",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "倒挂金钩#菲利克斯 #利雅得胜利",
+     "text": "李某某（男，60岁）驾驶小车送其孙子上学时，因操作不当，与电动车及行人发生碰撞，致1死2伤；警方通报：李某某被公安机关依法控制",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "上游新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月25日，江苏扬州市公安局交管支队通报：2026年11月25日8时许，我市南通西路发生一起道路交通事故。接报警后，公安机关迅速组织警力到场处置。经初步调查，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月25日，江苏扬州市公安局交管支队通报：2026年11月25日8时许，我市南通西路发生一起道路交通事故。接报警后，公安机关迅速组织警力到场处置。经初步调查，",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "人民网江苏",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "扬州发生一起交通事故致1死2伤 #突发事件 #交通事故",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中安在线",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月25日（发布），江苏扬州一男子开车送孙子上学碰撞行人致1死2伤 警方通报，2026年11月25日8时许，我市南通西路发生一起道路交通事故。接报警后，公安机",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
+  },
+  "田秉毅出任国羽主教练": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "OK了老铁 大山的孩子": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
   },
   "如何评价两京十五日": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "此刻舞台上的我光芒万丈": {
+  "崔丁请全岛老人吃满汉全席": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "天赐天选之子杯开启报名": {
    "stats": {},
    "authors": [
     {
-     "name": "月亮🌙✨",
+     "name": "CHEN天赐〽️王者荣耀（每晚9点开播）",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "别人AI出来不是女神就是男神，我AI出确是女汉子😂",
+     "text": "天赐杯S1正式打响，期待你的报名#天赐杯 #天选之子",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Esther_910",
+     "name": "忆梦～【赐家画面之王】",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "第一次看到我老公这么灵活啊啊哈哈哈哈哈哈 笑疯啦啊哈哈哈哈哈哈哈哈哈哈哈哈#唱跳全能艺人",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "余-（主页教程）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#王嘉尔演唱会 #live现场的震撼感",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "最帅人夫Linda爷",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "小胡杀疯了啊啊啊啊 #舞台魅力杀疯了 #舞台表现力拉满 #帅到窒息的舞台瞬间 #胡先煦 #爱豆神级现场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "KK的vlog",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "周五下班belike#演唱会直拍 #舞台帅炸了 #王嘉尔王嘉尔王嘉尔",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "悦己",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "草帽子王 刘海柱 舞王争霸赛现场，太燃了 #刘海柱 #王嘉尔演唱会 #现场氛围感拉满 #刘海柱回归 #热门小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "一半一半",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#桃白白 #龙珠",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "学跳舞的老头",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "感受一下舞台的氛围#此刻舞台上的我光芒万丈 #王嘉尔演唱会 #live现场震撼 #现场氛围拉满 #剪映",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "心之壁",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "王嘉尔的快乐！#神级live现场 #超绝live现场 #演唱会现场直拍 #舞台魅力炸裂 #舞台互动瞬间",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "钧叔",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#小白鞋 #中年大叔 小白鞋登场。无需多言，此刻便是对生活最热烈的回应。#舞台表现力#演唱会现场#王嘉尔",
+     "text": "大家觉得天赐杯哪些主播会来参加@CHEN天赐〽️王者荣耀（每晚9点开播） #chen天赐 #天赐首秀二创大赛 #天赐杯",
      "likes": 0,
      "hot": 0
     }
@@ -368,124 +370,64 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "真正好吃的小破店在民间": {
+  "中外航天员实现首次太空握手": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "央视频",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#媒体原创 中外航天员实现首次“太空握手”，神二十四乘组顺利进驻“天宫”。",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "中国新闻网",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "转发历史一刻！中外航天员实现首次“太空握手” 神二十四乘组顺利进驻“天宫”",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "海南广播电视总台",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "见证历史！中外航天员在中国空间站合影，竖起大拇指点赞，实现首次“太空握手”！#神舟二十四号 #中国航天 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "南风窗",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "中国航天又一历史性时刻！神23神24乘组太空会师，中外航天员实现首次“太空握手”#中国航天 #神舟二十四号",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "新闻联播",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月25日，神舟二十四号航天员乘组顺利进驻“天宫”，中外航天员实现首次“太空握手”。外籍航天员穆罕默德·齐尚·阿里说：“作为第一个进入中国空间站的外籍成员，我",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "此刻的生活全瓜版预告": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "来一份DJ炒饭": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "𝑺𝒂𝒐𝒓𝒔𝒂.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一份DJ炒饭吧#厨房不养闲人 #当代年轻人做饭有自己的秘方 #在线打碟 #DJ炒饭#做饭天赋型选手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "姥姥加油！",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一份DJ炒饭吧#厨房不养闲人#当代老年人精神状态 #在线打碟 #DJ炒饭#剪映",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "方媛",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一份家常DJ炒饭吧#家常炒菜 #厨房不养闲人 #厨房日常记录 #剪映 #DJ炒饭",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "周66（教程在主页）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "爆炒#做饭天赋型选手 #厨房不养闲人 #觉醒吧我的厨艺天赋 #黑暗料理界傲娇天才特级厨师 #00后勇闯厨房",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "野渡.（主页有教程）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "再练练，可以考虑明年摆个摊了#觉醒吧我的厨艺天赋 #疯狂的厨子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "云帆赴兮月",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嫂子太狂躁了! #蒋一帆 #曲岑兮 #觉醒吧我的厨艺天赋 #DJ炒饭 #玩火的厨师",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "DJ YARA💜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "睡不戳 炒个菜来吃 #dj炒菜 #做饭我是认真的",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "溜溜球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "嫂子炒饭好热辣 #回寝的诱惑 #抢饭 #馋坏了 #vlog生活碎片",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "77-.",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "来一份Dj炒饭吧#家中打碟 #做饭天赋型选手 #在线打碟",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Jellow",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "🍚 #黑暗料理界傲娇天才特级厨师 #别跟我学做菜 #居家做饭日常",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "闻佳音第一桶金是给小五的": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -495,81 +437,142 @@
    "authors": [],
    "lexicon": []
   },
-  "石川佳纯官宣结婚": {
+  "冬天露腿派和不露腿派打起来了": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "苍蓝星海丶（☠️版）",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "路边遇到女明星了？ #相扑猫 #蛋挞小屁孩#星猫纪元女团企划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "拾云。",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "猫与蛋挞，得劲儿 #星猫纪元女团企划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "桃子汽水",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#rolypoly复古舞 回归！#冬天露腿派和不露腿派打起来了 #冬日时尚对抗路 #尝试一个新look @蜡笔不小心 #东北甜妹",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "闻佳音第一桶金是给小五的": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "多喜一家人（青阳里街坊吃瓜中",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#多喜一家人 被惦念是一种平凡却无比真实的幸福 #蒋欣 #迟兴楷",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "太阳照在我手上好干净": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "去吧佛怒火莲": {
+  "石川佳纯官宣结婚": {
    "stats": {},
    "authors": [
     {
-     "name": "the故",
-     "verify": "",
-     "identity": "",
+     "name": "纵览新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "去吧，佛怒火莲#斗破苍穹#水课 #双帝之战 #佛怒火莲 #fyp",
+     "text": "11月25日，前日本乒乓球选手石川佳纯在个人社交媒体宣布，自己已经和交往已久的对象结婚。 石川佳纯写道： 致一直支持我的各位： 虽然是私事，这次我和交往已久的对",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "上上恩",
-     "verify": "",
-     "identity": "",
+     "name": "蓝睛新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "#萧炎",
+     "text": "11月25日，前日本乒乓球选手石川佳纯在个人社交媒体宣布，自己已经和交往已久的对象结婚。出生于1993年的石川佳纯现年33岁，于2023年5月宣布退役。作为左手",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "达芬奇",
-     "verify": "",
-     "identity": "",
+     "name": "新闻夜航",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "把舍友炸飞#宿舍搞笑日常",
+     "text": "33岁前日乒名将石川佳纯宣布结婚，希望两人彼此扶持，构筑一个充满笑容的家庭。#贺然",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "Xiao",
+     "name": "天河话体育",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我生化异火 封印你千载万世 魂天帝 大陆浩劫就此结束吧@阿岩同学 #双帝之战",
+     "text": "石川佳纯官宣结婚 33岁的日乒名将石川佳纯终于官宣结婚了 #体育 #乒乓球 #石川佳纯#马龙",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "张馨予金色礼服美到挪不开眼": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "小初也.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "三亚秀场抓到张馨予啦💕 #明星活动现场 #张馨予 #女明星活动现场 #三亚时装周 #秀场直击",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "九点几",
+     "name": "小丸子🍡",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "不要以为有人撑腰就可以横行无忌#萧薰儿#萧炎药",
+     "text": "天玺秀场 被张馨予美晕了💓#秀场直击 #张馨予 #济南婚纱 #思达美学婚纱 #高定礼服",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "云芝",
-     "verify": "",
-     "identity": "",
+     "name": "宿州沐澜婚纱",
+     "verify": "蓝V",
+     "identity": "机构认证",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我哭了#萧炎",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "番外篇",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "再见了，室友😭#萧炎 #双帝之战",
+     "text": "天玺秀场 中式美学场让张馨予完美诠释了！ #张馨予 #三亚时装周 #张馨予古风好美 #天玺 #宿州沐澜婚纱礼服馆",
      "likes": 0,
      "hot": 0
     }
@@ -614,46 +617,31 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "请选择你的入冬穿搭": {
+  "去吧佛怒火莲": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "抖音正式进入光影氛围时代": {
+  "来一份DJ炒饭": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "啊 是丹东大草莓来了": {
+  "此刻的生活3分钟预告11个瓜": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
-  "零失败敲虾家常做法": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "天赐天选之子杯开启报名": {
+  "王氏过冬法则": {
    "stats": {},
    "authors": [
     {
-     "name": "CHEN天赐〽️王者荣耀（每晚9点开播）",
+     "name": "王七叶",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "天赐杯S1正式打响，期待你的报名#天赐杯 #天选之子",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "忆梦～【赐家画面之王】",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "大家觉得天赐杯哪些主播会来参加@CHEN天赐〽️王者荣耀（每晚9点开播） #chen天赐 #天赐首秀二创大赛 #天赐杯",
+     "text": "这项目，本王投了！ #精神状态belike #低精力#好家请就位 #超能演剧场2026",
      "likes": 0,
      "hot": 0
     }
@@ -661,15 +649,189 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "王氏过冬法则": {
+  "抖音正式进入光影氛围时代": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "希思琳",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "天资是一种很残忍的东西",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好好",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "帅爆了吧。#AI先锋实验霓虹人像海报 #抖音ai创作 #氛围感大女主穿搭 #帅到心巴上#抖音正式进入光影氛围时代 角色原创作者@K.en",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "余生好好爱自己",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#AI胶片柔焦人像写真 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "豆豆麻麻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "确实牛B！#AI先锋实验霓虹人像海报 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "@",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我的水瓶座♒️#水瓶座 #十二黄金圣斗士",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "J1y🧸ྀི",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "试试",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "偷一颗青苹果 🐾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "Afterglow｜暮色余烬 与影子共生 #AI冷灰拖影杂志海报 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "皮蛋solo粥🥨ིྀ",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "破碎氛围感拉满 直接封神！#氛围感 #壁纸 #抖音ai创作 #ai图像灵感挑战赛 #抖音玩法达人挑战赛",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "淡",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#柔美光影写真 #抖音玩法合伙人计划 #抖音小助手我要上热门 #AI胶片柔焦人像写真 #抖音ai创作",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "张馨予金色礼服美到挪不开眼": {
+  "别惹我手上有点火": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "人工智障",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "2027我会大火 #我会大火#抖音玩法达人挑战赛#燃烧吧",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "好好睡觉💤",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "热情❤️‍如火焰🔥 #宿舍整活 #王默 #王默的身份#抖音玩法合伙人计划",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "坏情绪别烦我",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "我会火#宿舍幸福感@求急尔不懂",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咕噜噜",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "下一个点谁 不要太贵#不睡觉就捣蛋",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "QQ咪",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "燃烧吧臭QQ #宠物可爱计划 #不敢骗你养小狗 #骗你养小狗 #比熊 #比熊宝宝 @抖音小助手 @DOU+小助手",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "楼外",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "太阴了 火都燃不起来🤪 #专业课本 #大学生教材 #学疯了#高数 #工程制图",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "凯撒与伊森🐾",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "凯撒身上有火怎么不跑呢#玩个很新的东西专治不开心 #越玩越上头的奇怪玩意儿 #手指玩火 ##杜宾陈凯撒",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "淇淇子（日常版",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "哈哈哈哈哈哈哈哈#捣蛋鬼别捣蛋",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
   "成毅这一局势在必得": {
    "stats": {},
@@ -775,100 +937,40 @@
   },
   "白小纯收藏了青稚手势舞歌曲": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "别惹我手上有点火": {
-   "stats": {},
    "authors": [
     {
-     "name": "人工智障",
+     "name": "存在契合咴",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "2027我会大火 #我会大火#抖音玩法达人挑战赛#燃烧吧",
+     "text": "你是看多了青稚发的视频然后去汽水加入你的歌单了吗？#纯稚 #cczzqhh #tjb白小纯 #汽水音乐APP",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "好好睡觉💤",
+     "name": "摸娱合伙人",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "热情❤️‍如火焰🔥 #宿舍整活 #王默 #王默的身份#抖音玩法合伙人计划",
+     "text": "白小纯我真的不敢懂你意思了！ 白小纯我真的不敢懂你意思了 #谁敢看白小纯的汽水音乐收藏 #白小纯 #后会友期 #傲娇 #bC",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "坏情绪别烦我",
+     "name": "雨夜狂追白月光",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "我会火#宿舍幸福感@求急尔不懂",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "咕噜噜",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "下一个点谁 不要太贵#不睡觉就捣蛋",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "QQ咪",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "燃烧吧臭QQ #宠物可爱计划 #不敢骗你养小狗 #骗你养小狗 #比熊 #比熊宝宝 @抖音小助手 @DOU+小助手",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "楼外",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "太阴了 火都燃不起来🤪 #专业课本 #大学生教材 #学疯了#高数 #工程制图",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "凯撒与伊森🐾",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "凯撒身上有火怎么不跑呢#玩个很新的东西专治不开心 #越玩越上头的奇怪玩意儿 #手指玩火 ##杜宾陈凯撒",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "淇淇子（日常版",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "哈哈哈哈哈哈哈哈#捣蛋鬼别捣蛋",
+     "text": "对不起纯稚，我搞砸了你们的暗恋。猛猛分析了一波纯稚汽水音乐的听歌时长，我似乎找到了24年白小纯的心路历程和今年9月青稚和好后的心境。 对不起纯，是我毁了你的无人",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "上海市委就陈吉宁被查表态": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "鞠婧祎也来跳Kiss My Soul手势舞": {
    "stats": {},
@@ -907,22 +1009,49 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "汽水音乐即将官宣首位代言人": {
+  "吃了鱼的丑橘会跳舞": {
    "stats": {},
    "authors": [],
    "lexicon": []
   },
   "挖着吃的草莓桶蛋糕更好吃": {
    "stats": {},
-   "authors": [],
-   "lexicon": []
+   "authors": [
+    {
+     "name": "二朗",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "如果幸福是冬天的第一个草莓桶蛋糕#冬天的第一个草莓蛋糕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "小美美子",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "幸福的人先收到 hello Kitty草莓桶#草莓桶 #草莓蛋糕",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "听说你也很喜欢茉莉.",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "今年冬天好幸福 出现了一个愿意给我买草莓蛋糕的人@頭上有貓耳 #冬天的第一个草莓桶#我要上热门 @抖音小助手",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
   },
-  "可是我累了 我决定": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "吃了鱼的丑橘会跳舞": {
+  "饥困荒野保姆级攻略": {
    "stats": {},
    "authors": [],
    "lexicon": []
@@ -961,6 +1090,58 @@
   },
   "韩系低饱和秋冬穿搭": {
    "stats": {},
+   "authors": [
+    {
+     "name": "知恩150小个子女装穿搭",
+     "verify": "蓝V",
+     "identity": "机构认证",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "#失序感穿搭 #秋天慵懒毛衣 #秋日绿色系穿搭 #小区随拍穿搭 #低饱和穿搭",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "解结",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "低饱和#穿搭 #大衣 #今天穿什么 #ootd",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "黄不嘻",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "低饱和度入冬 #短发女生#秋冬穿搭",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "可是我累了 我决定": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "东北的洗浴已经这么卷了吗": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "草莓桶蛋糕一吃一个不吱声": {
+   "stats": {},
+   "authors": [],
+   "lexicon": []
+  },
+  "当我线下被抓反差挑战": {
+   "stats": {},
    "authors": [],
    "lexicon": []
   },
@@ -988,12 +1169,12 @@
      "hot": 0
     },
     {
-     "name": "千里寻椰",
+     "name": "七宝粥",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "今年的十一月冷了很多。去年冬天 我许愿今年要比去年更幸福 现在看来 我好像实现了",
+     "text": "世界那么大 我该去哪里找你。#冬天 #冬日穿搭 #高铁拍照 #羽绒服穿搭 #韩系穿搭",
      "likes": 0,
      "hot": 0
     }
@@ -1001,196 +1182,52 @@
    "lexicon": [],
    "kw_freq": []
   },
-  "你撒娇的力度让我想还手": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
-  },
-  "东北的洗浴已经这么卷了吗": {
+  "湖南米其林指南榜单首次发布": {
    "stats": {},
    "authors": [
     {
-     "name": "王晗（白天包租公、晚上美食躺平）",
-     "verify": "",
-     "identity": "",
+     "name": "长沙晚报辣视频",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "东北洗浴看沈阳暴风雨SPA#沈阳洗浴 #暴风雨Spa #东北洗浴文化",
+     "text": "11月25日，2027湖南省米其林指南餐厅榜单在湖南省长沙市正式揭晓！榜单共收录长沙、衡阳益阳、61家餐厅。长沙共有4家餐厅荣获米其林一星：新长福（人民东路）、",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "coco小姐瘦瘦瘦",
-     "verify": "",
-     "identity": "",
+     "name": "红网·时刻新闻",
+     "verify": "红V",
+     "identity": "媒体人",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "沈阳，你洗浴里面整这出，你简直犯规 #沈阳洗浴 #东北洗浴看沈阳 #东北洗浴文化 #沈阳洗浴 #中国洗浴看东北",
+     "text": "完整清单来了！11月25日，米其林指南首次正式落地湖南。长沙、益阳、衡阳三座城市，迎来历史性的首份米其林美食榜单。长沙：新长福（人民东路）、潇邦1999、晴溪·",
      "likes": 0,
      "hot": 0
     },
     {
-     "name": "小飞象日葵",
+     "name": "红网益阳站",
+     "verify": "红V",
+     "identity": "媒体人",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "11月25日，2027湖南省米其林指南餐厅榜单于长沙正式发布，作为首版湖南米其林指南三大入选城市之一，益阳共有11家餐厅登上榜单，7家获评必比登推介、4家入选米",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "咸蛋黄",
      "verify": "",
      "identity": "",
      "identity_raw": "",
      "sec_uid": "",
-     "text": "东北人不语 只一味内卷洗浴文化！#东北 #洗浴#洗浴文化 #娱乐评论大赏",
+     "text": "给你们看看长沙真正好吃的“民间米其林”！ 番茄牛腩飞天面 脆皮芝士红薯 巨好吃",
      "likes": 0,
      "hot": 0
     }
    ],
    "lexicon": [],
    "kw_freq": []
-  },
-  "草莓桶蛋糕一吃一个不吱声": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "嗯哦哼哼",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "幸福的人先收到草莓蛋糕#冬天的第一个草莓蛋糕#草莓桶#校园",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "睡個好觉",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "今年冬天好幸福 出现了一个愿意给我买草莓蛋糕的人@做個好梦",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "6-11",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "幸福的人先收到 hello Kitty草莓桶#草莓桶 #草莓蛋糕",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "当我线下被抓反差挑战": {
-   "stats": {},
-   "authors": [
-    {
-     "name": "水煮肉片大王",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "线下被抓blackpink 我评论了@不是苦茶子 的作品： 我赢了[泣不成声]#线下被抓",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "垚垚撞地球",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/2",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "爱睿Day",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "#线下被抓#PS教程#当我线下被抓反差挑战",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "坂口健太_",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "这把神来了也崩不住。#线下被抓包 #案发现场",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "哭婆婆",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "被偶遇了。#私生追车",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "砚竹大王（再限流我就滚）",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "当我线下被抓包be like：#反差#在网上没有在乎的人了 #谢清呈cos",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "周行知",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/2",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "不是苦茶子",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "线下被抓labubu：",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "痛痛飞飞",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "好心酸",
-     "likes": 0,
-     "hot": 0
-    },
-    {
-     "name": "Lumosssweet",
-     "verify": "",
-     "identity": "",
-     "identity_raw": "",
-     "sec_uid": "",
-     "text": "1/2",
-     "likes": 0,
-     "hot": 0
-    }
-   ],
-   "lexicon": [],
-   "kw_freq": []
-  },
-  "你有没有养小猫小狗在你家里住": {
-   "stats": {},
-   "authors": [],
-   "lexicon": []
   },
   "有没有那么一首歌": {
    "stats": {},
@@ -1292,6 +1329,43 @@
      "identity_raw": "",
      "sec_uid": "",
      "text": "时间是一支笔 写忧 写泪 写别离",
+     "likes": 0,
+     "hot": 0
+    }
+   ],
+   "lexicon": [],
+   "kw_freq": []
+  },
+  "圣诞美甲申请出战": {
+   "stats": {},
+   "authors": [
+    {
+     "name": "斐斐穿戴甲",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "圣诞 #圣诞美甲 #美甲",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "马马美甲【长甲版】",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "美甲拼钻|圣诞花环 #圣诞美甲 #入冬美甲 #圣诞花环美甲 #美甲拼钻教程 #圣诞美甲分享",
+     "likes": 0,
+     "hot": 0
+    },
+    {
+     "name": "樱禾nail门店",
+     "verify": "",
+     "identity": "",
+     "identity_raw": "",
+     "sec_uid": "",
+     "text": "红色圣诞树参考/好美萌🎄 #红色美甲#格纹美甲#圣诞美甲#樱禾门店",
      "likes": 0,
      "hot": 0
     }
